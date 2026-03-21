@@ -1,0 +1,50 @@
+name: Lokalize Event Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 */3 * * *' # Every 3 hours at 45m
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: scraper
+      cancel-in-progress: true
+
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SYNC_MODE: live # Default to live, can be overridden via dispatch if needed
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r LokalizeScraper/requirements.txt
+
+      - name: Install Playwright Browsers (Conditional)
+        # Only install if any provider requires it. For now, KulturIstanbul is HTTP.
+        # But we'll keep it ready for future BROWSER mode providers.
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run Scraper
+        run: |
+          cd LokalizeScraper
+          python main.py
+
+      - name: Upload Logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-logs
+          path: LokalizeScraper/*.log
