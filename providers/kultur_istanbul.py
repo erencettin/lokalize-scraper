@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from typing import List, Optional
+from typing import List
 from providers.base_provider import BaseProvider
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
 from utils.date_parser import DateParser
@@ -72,15 +72,17 @@ class KulturIstanbulProvider(BaseProvider):
         main_category = categories[0] if categories else "Diğer"
         
         # Parse Date/Time
-        # Format: 13-03-2026 20:00
+        # Format: 13-03-2026 20:00 (or simple date range)
+        # We take the first part as start time
         start_at_utc = None
         if date_str:
             try:
+                # Handle range if exists: "11-03-2026 20:00 - 28-03-2026"
                 clean_date = date_str.split(" - ")[0].strip()
                 start_at_utc = DateParser.parse_with_timezone(clean_date, "%d-%m-%Y %H:%M")
             except Exception as e:
                 logging.warning(f"Could not parse date '{date_str}' for event '{title}': {e}")
-                return None
+                return None # Skip if date is invalid
 
         if not start_at_utc:
             return None
@@ -88,24 +90,23 @@ class KulturIstanbulProvider(BaseProvider):
         # Create Normalized Objects
         source = NormalizedSource(
             provider=self.name,
-            external_id=link.split('/')[-2] if '/' in link else None,
+            external_id=link.split('/')[-2] if '/' in link else None, # WP slug
             title=title,
             source_url=link,
-            price=PriceInfo(text="Ücretsiz" if "Ücretsiz" in categories else "Belirtilmemiş")
+            price=PriceInfo(text="Ücretsiz" if "Ücretsiz" in categories else "Belirtilmemiş") # Basic logic
         )
         
-        # Derive local parts
-        local_date, local_time, timezone = DateParser.to_local_parts(start_at_utc)
-
         occurrence = NormalizedOccurrence(
             start_at_utc=start_at_utc,
-            local_date=local_date,
-            local_time=local_time,
-            timezone=timezone,
             venue_name=venue,
-            district=None,
+            district=None, # Extracting from venue if needed later
             sources=[source]
         )
+        # Derive local parts
+        DateParser.to_local_parts(occurrence.start_at_utc) # For side-effect or just use the utility in Sync
+        
+        # Logic to handle Multi-Date if one card had multiple dates (not common in this UI, 
+        # usually 1 card = 1 occurrence in this plugin)
         
         return NormalizedEvent(
             title=title,
