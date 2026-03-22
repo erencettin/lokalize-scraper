@@ -1,44 +1,116 @@
 import requests
-from typing import List
+from bs4 import BeautifulSoup
+import re
+from typing import List, Optional
 from providers.base_provider import BaseProvider
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
-from datetime import datetime
+from utils.date_parser import DateParser
+import logging
 
 class KulturIstanbulProvider(BaseProvider):
     def __init__(self):
         super().__init__("KulturIstanbul", mode="http")
-        self.api_url = "https://kultur.istanbul/wp-json/wp/v2/etkinlik?per_page=10" # Example API
+        self.base_url = "https://kultur.istanbul"
+        self.events_url = f"{self.base_url}/etkinlikler/"
+        self.headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
 
     def fetch_and_parse(self) -> List[NormalizedEvent]:
-        # Implementation would use requests to fetch the JSON from kultur.istanbul WP API
-        # and map it to NormalizedEvent objects.
-        # For this demo, we return a mock object that matches the structure.
+        logging.info(f"Fetching events from {self.events_url}")
         
-        events = []
+        response = requests.get(self.events_url, headers=self.headers, timeout=15)
+        response.raise_for_status()
         
-        # Example Mock Data after parsing
-        mock_event = NormalizedEvent(
-            title="Duman Konseri",
-            type="concert",
-            city_name="Istanbul",
-            description="Duman Harbiye'de sahne alıyor.",
-            occurrences=[
-                NormalizedOccurrence(
-                    start_at_utc=datetime(2026, 5, 20, 18, 0, 0),
-                    venue_name="Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
-                    district="Şişli",
-                    sources=[
-                        NormalizedSource(
-                            provider=self.name,
-                            external_id="duman-001",
-                            title="Duman Konseri - Harbiye",
-                            source_url="https://kultur.istanbul/etkinlik/duman-konseri/",
-                            price=PriceInfo(value=500, text="500 TL", currency="TRY")
-                        )
-                    ]
-                )
-            ]
+        soup = BeautifulSoup(response.text, 'html.parser')
+        event_cards = soup.select(".wpem-event-layout-column")
+        
+        normalized_events = []
+        logging.info(f"Found {len(event_cards)} event cards")
+
+        for card in event_cards:
+            try:
+                event = self._parse_card(card)
+                if event:
+                    normalized_events.append(event)
+            except Exception as e:
+                logging.error(f"Error parsing card in {self.name}: {e}")
+                
+        return normalized_events
+
+    def _parse_card(self, card) -> Optional[NormalizedEvent]:
+        title_el = card.select_one(".wpem-event-infomation h3")
+        if not title_el:
+            return None
+        
+        title = title_el.get_text(strip=True)
+        
+        # Link
+        link_el = card.select_one("a.wpem-event-action-url")
+        link = link_el['href'] if link_el else self.base_url
+        
+        # Date
+        date_el = card.select_one(".wpem-event-date span")
+        date_str = date_el.get_text(strip=True) if date_el else ""
+        
+        # Venue
+        venue_el = card.select_one(".wpem-event-location span")
+        venue = venue_el.get_text(strip=True) if venue_el else "İstanbul"
+        
+        # Image
+        image_url = None
+        banner_el = card.select_one(".wpem-event-banner-img")
+        if banner_el and 'style' in banner_el.attrs:
+            style = banner_el['style']
+            match = re.search(r'url\([\'"]?(.*?)[\'"]?\)', style)
+            if match:
+                image_url = match.group(1)
+
+        # Categories
+        cat_elements = card.select(".wpem-event-category span")
+        categories = [c.get_text(strip=True) for c in cat_elements]
+        main_category = categories[0] if categories else "Diğer"
+        
+        # Parse Date/Time
+        # Format: 13-03-2026 20:00
+        start_at_utc = None
+        if date_str:
+            try:
+                clean_date = date_str.split(" - ")[0].strip()
+                start_at_utc = DateParser.parse_with_timezone(clean_date, "%d-%m-%Y %H:%M")
+            except Exception as e:
+                logging.warning(f"Could not parse date '{date_str}' for event '{title}': {e}")
+                return None
+
+        if not start_at_utc:
+            return None
+
+        # Create Normalized Objects
+        source = NormalizedSource(
+            provider=self.name,
+            external_id=link.split('/')[-2] if '/' in link else None,
+            title=title,
+            source_url=link,
+            price=PriceInfo(text="Ücretsiz" if "Ücretsiz" in categories else "Belirtilmemiş")
         )
         
-        events.append(mock_event)
-        return events
+        # Derive local parts
+        local_date, local_time, timezone = DateParser.to_local_parts(start_at_utc)
+
+        occurrence = NormalizedOccurrence(
+            start_at_utc=start_at_utc,
+            local_date=local_date,
+            local_time=local_time,
+            timezone=timezone,
+            venue_name=venue,
+            district=None,
+            sources=[source]
+        )
+        
+        return NormalizedEvent(
+            title=title,
+            type=main_category,
+            city_name="Istanbul",
+            image_url=image_url,
+            occurrences=[occurrence]
+        )
