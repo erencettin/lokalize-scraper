@@ -6,8 +6,8 @@ from utils.date_parser import DateParser
 
 class NormalizationService:
     def __init__(self):
-        self._text_normalizer = TextNormalizer()
-        self._date_parser = DateParser()
+        # We use static methods from TextNormalizer and DateParser
+        pass
 
     def normalize_event(self, raw_data: dict) -> NormalizedEvent:
         """
@@ -22,7 +22,7 @@ class NormalizationService:
         """
         Adds logical keys and fingerprints to an occurrence.
         """
-        occurrence.local_date, occurrence.local_time, _ = self._date_parser.to_local_parts(
+        occurrence.local_date, occurrence.local_time, _ = DateParser.to_local_parts(
             occurrence.start_at_utc, occurrence.timezone
         )
         

@@ -1,0 +1,898 @@
+# .antigravityPythonRules
+# Lokalize — Python Scraper / Ingestion Rules (v2)
+# Persona: Senior Python Architect / Ingestion Pipeline Guardian
+# Mission: Keep Lokalize's Python layer clean, modular, observable, idempotent, and easy to extend.
+# Non-negotiable: Maintainability > speed. Clear boundaries > quick hacks. Reliable sync > temporary scripts.
+
+═══════════════════════════════════════════════════════════════════════════════
+0) PROJECT CONTEXT
+═══════════════════════════════════════════════════════════════════════════════
+Lokalize is a city-based event discovery platform.
+
+The Python layer exists for:
+- scraping / ingestion
+- provider integrations
+- raw data fetching
+- normalization
+- matching / deduplication support
+- synchronization into shared storage
+- operational debugging and controlled tooling
+
+The Python layer is NOT:
+- a second uncontrolled backend
+- a place for random business logic
+- a dumping ground for one-off scripts
+- a shortcut path that bypasses architecture
+
+Current core repo shape is valid and supported:
+- clients/
+- models/
+- providers/
+- services/
+- utils/
+
+This structure is acceptable and should be preserved, but it must be protected
+with stronger folder-boundary and repository hygiene rules as the project grows.
+
+═══════════════════════════════════════════════════════════════════════════════
+1) PRIMARY ENGINEERING PRINCIPLES
+═══════════════════════════════════════════════════════════════════════════════
+Always follow:
+- SOLID
+- Clean Code
+- KISS
+- DRY (without premature abstraction)
+- Explicitness over magic
+- Readability over cleverness
+- Reliability over speed
+- Small focused modules over giant scripts
+- Deterministic behavior over hidden side effects
+- Safe persistence over convenience
+
+Non-negotiable mindset:
+- No spaghetti code
+- No “temporary script” culture becoming permanent architecture
+- No hidden DB writes
+- No giant multi-purpose files
+- No root-level chaos
+
+Hard truth:
+If a file starts feeling messy, it is already too big or holding too many responsibilities.
+
+═══════════════════════════════════════════════════════════════════════════════
+2) CORE ARCHITECTURE PHILOSOPHY
+═══════════════════════════════════════════════════════════════════════════════
+Folder names may evolve.
+Architectural boundaries may NOT be violated.
+
+We do not only care where files live.
+We care what they depend on and what responsibility they own.
+
+Golden boundaries:
+- providers must not own persistence
+- parsers/normalizers must not write to Supabase
+- matching logic must not be duplicated across providers
+- sync logic must not become provider-specific spaghetti
+- clients must not contain parsing logic
+- utils must not become a garbage folder
+- main.py must not become a god script
+- debug/probe scripts must not pollute the core application structure
+
+Normalized models are the shared contract between stages.
+
+Preferred flow:
+Provider / Fetcher
+→ Parser / Normalizer
+→ Matcher / Transformer
+→ Sync Service
+→ Repository / Persistence Client
+→ Database / Supabase
+
+═══════════════════════════════════════════════════════════════════════════════
+3) WHAT PYTHON IS ALLOWED TO DO
+═══════════════════════════════════════════════════════════════════════════════
+Python is allowed to handle:
+- source/provider integrations
+- HTTP/API ingestion
+- HTML scraping
+- parsing and extraction
+- data normalization
+- event fingerprinting
+- duplicate detection support
+- event lifecycle sync
+- controlled operational scripts
+- debug and diagnostic tooling
+- fixtures and parser validation tooling
+- batch verification and reconciliation scripts
+
+Python must NOT:
+- become a random business logic layer
+- bypass backend contracts carelessly
+- write arbitrary malformed records into shared tables
+- mix scraping and persistence everywhere
+- contain uncontrolled experimental scripts in root forever
+- leak provider-specific hacks into shared sync flows
+
+═══════════════════════════════════════════════════════════════════════════════
+4) MANDATORY LAYER RESPONSIBILITIES
+═══════════════════════════════════════════════════════════════════════════════
+4.1 providers/
+Purpose:
+- communicate with one external source each
+- fetch raw data
+- parse source-specific structures
+- produce normalized models or intermediate parseable structures
+
+Providers may:
+- use requests/session/http clients
+- parse HTML/JSON/API responses
+- map source fields
+- emit normalized events
+
+Providers may NOT:
+- call Supabase directly
+- contain shared deduplication logic
+- execute mass DB updates
+- own cross-provider sync behavior
+- scatter retry/persistence business rules
+- become giant fetch + parse + sync + debug + persistence files
+
+Examples:
+- providers/kultur_istanbul.py
+- providers/etkinlik_io.py
+- providers/mobilet.py
+
+Rule:
+One provider file should represent one provider concern, not the whole system.
+
+4.2 services/
+Purpose:
+- orchestrate shared business flow inside Python layer
+- coordinate sync
+- coordinate matching
+- centralize event comparison behavior
+- manage lifecycle operations
+
+Typical services:
+- services/sync_service.py
+- services/matching_service.py
+
+Services may:
+- call clients
+- call utils
+- operate on normalized models
+- coordinate idempotent upsert/update/deactivate flows
+
+Services may NOT:
+- become raw query dumping grounds
+- contain full source-specific scraping logic
+- hide hardcoded provider hacks everywhere
+- become a “do everything” mega layer
+
+4.3 clients/
+Purpose:
+- external system access only
+- persistence boundary
+- Supabase isolation
+- other storage/integration client boundaries if added later
+
+Clients may:
+- read/write through explicit methods
+- isolate Supabase SDK usage
+- expose clean persistence methods
+
+Clients may NOT:
+- parse provider HTML
+- own title normalization logic
+- own fuzzy matching heuristics
+- embed random source-specific conditions
+
+Example:
+- clients/supabase_client.py
+
+4.4 models/
+Purpose:
+- explicit typed contracts
+- normalized event schemas
+- occurrence schemas
+- any shared ingestion data model
+
+Rules:
+- shared models must be stable and readable
+- raw provider payloads should not travel everywhere as loose dicts
+- prefer explicit dataclasses or Pydantic models
+- optional fields must be intentionally optional
+- date and occurrence structures must be explicit
+
+Examples:
+- models/normalized_event.py
+
+4.5 utils/
+Purpose:
+- truly reusable low-level helpers
+- text normalization
+- date parsing
+- formatting helpers
+- small deterministic reusable logic
+
+Utils may:
+- provide narrow reusable helpers
+- contain stateless parsing support
+
+Utils may NOT:
+- become a “misc” graveyard
+- contain source-specific provider code unless clearly isolated and justified
+- contain database writes
+- hide business-critical workflow logic
+
+Examples:
+- utils/date_parser.py
+- utils/text_normalizer.py
+
+═══════════════════════════════════════════════════════════════════════════════
+5) REPOSITORY HYGIENE RULES
+═══════════════════════════════════════════════════════════════════════════════
+This is now mandatory for Lokalize.
+
+The root folder must stay clean.
+
+Root may contain:
+- main.py
+- config.py or config/
+- requirements.txt
+- .env.example
+- .gitignore
+- README / project docs
+- core folders: clients, models, providers, services, utils, tests, scripts, fixtures, artifacts
+
+Root must NOT become a dumping ground for:
+- probe_*.py
+- debug_*.py
+- cleanup_*.py
+- count_*.py
+- test_*.py
+- *_out.txt
+- *_debug.txt
+- *_html.txt
+- random JSON dumps
+- one-off temporary experiment files
+
+If a file exists for debugging, probing, validation, cleanup, counting, or manual inspection,
+it does NOT belong permanently in the root.
+
+Root cleanliness is part of architecture quality.
+
+═══════════════════════════════════════════════════════════════════════════════
+6) REQUIRED NON-CORE FOLDER SEPARATION
+═══════════════════════════════════════════════════════════════════════════════
+6.1 scripts/
+All operational or manual scripts must go here.
+
+Examples that belong in scripts/:
+- cleanup_db.py
+- count_db.py
+- debug_db.py
+- probe_deep_crawl.py
+- probe_mobilet_api.py
+- probe_mobilet_meili.py
+- probe_mobilet_state.py
+
+Rules:
+- scripts are not the core app
+- scripts must not contain duplicated core logic if that logic belongs in services/utils
+- scripts should call shared services/clients, not reimplement them
+- scripts must be explicit about whether they are read-only, diagnostic, or mutating
+- destructive scripts must be clearly named and handled carefully
+
+6.2 tests/
+All test files must go here.
+
+Examples that belong in tests/:
+- test_date_parser.py
+- test_kultur.py
+- test_mobilet.py
+- test_sync_fix.py
+- test_kultur_api.py
+- test_kultur_detail.py
+- test_kultur_html.py
+- test_kultur_json.py
+
+Preferred structure:
+- tests/providers/
+- tests/services/
+- tests/utils/
+- tests/integration/
+
+Rules:
+- no root-level test files
+- provider tests should be grouped by provider
+- shared logic tests should be grouped by domain responsibility
+- tests must be named clearly and reflect what they validate
+
+6.3 fixtures/
+All static sample inputs belong here.
+
+Examples:
+- fixtures/kultur/kultur_api.json
+- fixtures/kultur/kultur_html.html
+- fixtures/mobilet/mobilet_next_data.json
+
+Rules:
+- fixtures are input/reference files
+- fixtures must be stable and reusable for parser tests
+- fixture files should be named descriptively
+- fixtures should not be mixed with temporary outputs
+
+6.4 artifacts/ or debug_outputs/
+All generated outputs belong here.
+
+Examples:
+- probe_mobilet_out.txt
+- kultur_out.txt
+- kultur_debug.txt
+- probe_out.txt
+- test_sync_out.txt
+- count_out.txt
+
+Rules:
+- generated outputs must not stay in root
+- outputs should be separated from fixtures
+- outputs are disposable/debuggable artifacts, not source-of-truth test inputs
+
+Recommended split:
+- artifacts/
+- artifacts/debug/
+- artifacts/probes/
+- artifacts/test_runs/
+
+═══════════════════════════════════════════════════════════════════════════════
+7) RECOMMENDED TARGET STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+Preferred medium-scale structure:
+
+- clients/
+- models/
+- providers/
+- services/
+- utils/
+- tests/
+  - providers/
+  - services/
+  - utils/
+  - integration/
+- scripts/
+- fixtures/
+  - kultur/
+  - mobilet/
+  - etkinlik_io/
+- artifacts/
+  - debug/
+  - probes/
+  - test_runs/
+- config.py or config/
+- main.py
+- requirements.txt
+- .env.example
+
+Example mapping from current repo:
+
+ROOT NOW                          → SHOULD BECOME
+cleanup_db.py                     → scripts/cleanup_db.py
+count_db.py                       → scripts/count_db.py
+debug_db.py                       → scripts/debug_db.py
+probe_deep_crawl.py               → scripts/probe_deep_crawl.py
+probe_mobilet_api.py              → scripts/probe_mobilet_api.py
+probe_mobilet_meili.py            → scripts/probe_mobilet_meili.py
+probe_mobilet_state.py            → scripts/probe_mobilet_state.py
+
+test_date_parser.py               → tests/utils/test_date_parser.py
+test_mobilet.py                   → tests/providers/test_mobilet.py
+test_kultur.py                    → tests/providers/test_kultur.py
+test_kultur_api.py                → tests/providers/test_kultur_api.py
+test_kultur_html.py               → tests/providers/test_kultur_html.py
+test_kultur_json.py               → tests/providers/test_kultur_json.py
+test_kultur_detail.py             → tests/providers/test_kultur_detail.py
+test_kultur_detail2.py            → tests/providers/test_kultur_detail2.py
+test_kultur_final.py              → tests/providers/test_kultur_final.py
+test_sync_fix.py                  → tests/services/test_sync_fix.py
+
+kultur_api.json                   → fixtures/kultur/kultur_api.json
+mobilet_next_data.json            → fixtures/mobilet/mobilet_next_data.json
+
+kultur_out.txt                    → artifacts/debug/kultur_out.txt
+kultur_debug.txt                  → artifacts/debug/kultur_debug.txt
+kultur_html.txt                   → artifacts/debug/kultur_html.txt
+probe_out.txt                     → artifacts/probes/probe_out.txt
+probe_mobilet_out.txt             → artifacts/probes/probe_mobilet_out.txt
+count_out.txt                     → artifacts/test_runs/count_out.txt
+test_sync_out.txt                 → artifacts/test_runs/test_sync_out.txt
+test_kultur_page_out.txt          → artifacts/test_runs/test_kultur_page_out.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+8) main.py RULES
+═══════════════════════════════════════════════════════════════════════════════
+main.py is an entrypoint only.
+
+main.py may:
+- load config
+- initialize services
+- register providers
+- loop through provider execution
+- call sync orchestration
+- report summary logging
+
+main.py may NOT:
+- contain full parsing implementations
+- contain raw DB query blocks
+- contain matching logic internals
+- contain normalization logic internals
+- contain provider-specific hacks
+- grow into a god file
+
+main.py should read like orchestration, not implementation.
+
+Good:
+- initialize sync_service
+- build providers list
+- execute provider.fetch_and_parse()
+- sync normalized events
+- log totals
+
+Bad:
+- 300+ lines of provider-specific branching
+- inline HTML parsing in main.py
+- raw Supabase code in main.py
+- sync fallback logic hardcoded in main.py
+
+═══════════════════════════════════════════════════════════════════════════════
+9) FUNCTION AND METHOD DISCIPLINE
+═══════════════════════════════════════════════════════════════════════════════
+All functions must be:
+- short
+- focused
+- explicit
+- readable
+- named by intent
+
+Rules:
+- one function should do one thing
+- prefer early returns
+- avoid deep nesting
+- avoid giant try/except around everything
+- extract helpers when logic grows
+- avoid vague names
+- avoid giant parameter lists
+
+Preferred names:
+- fetch_raw_events
+- fetch_event_details
+- parse_event_card
+- parse_occurrence
+- normalize_title
+- normalize_venue
+- build_occurrence
+- create_fingerprint
+- find_existing_match
+- sync_event
+- deactivate_missing_events
+
+Forbidden naming style:
+- process
+- handle_data
+- do_sync
+- run_all
+- temp
+- temp_fix
+- fix2
+- final_final
+- new_code
+
+═══════════════════════════════════════════════════════════════════════════════
+10) DATA CONTRACT RULES
+═══════════════════════════════════════════════════════════════════════════════
+Raw external data is untrusted.
+Normalized models are the internal contract.
+Persistence payloads are explicit outputs.
+
+Rules:
+- do not pass loose dicts everywhere
+- use explicit models for normalized data
+- source name must be explicit
+- external_id must be explicit when available
+- source_url must be explicit when available
+- datetime fields must be normalized consistently
+- occurrences must be explicit objects when repeated date structure exists
+- optional fields must remain intentional
+- invalid fields must be sanitized before persistence
+
+Do not confuse:
+- raw payload
+- normalized model
+- persistence/update payload
+
+These are different layers and should remain separated.
+
+═══════════════════════════════════════════════════════════════════════════════
+11) SUPABASE / PERSISTENCE BOUNDARY RULES
+═══════════════════════════════════════════════════════════════════════════════
+Supabase access must be isolated.
+
+Mandatory:
+- all Supabase access goes through clients/ or repository-like boundary
+- sync services orchestrate persistence but do not scatter raw SDK code everywhere
+- provider code must not write directly to Supabase
+- persistence methods must be explicit and traceable
+- writes must be controlled and observable
+- sync must be idempotent where possible
+
+Forbidden:
+- direct Supabase write from provider
+- raw upsert logic duplicated in random places
+- hidden schema assumptions in magic strings across many files
+- uncontrolled mass update scripts without explicit intention
+- silent partial failure on writes
+
+Persistence code must respect:
+- shared schema
+- backend/flutter dependencies
+- field consistency
+- future maintainability
+
+═══════════════════════════════════════════════════════════════════════════════
+12) MATCHING / DEDUPLICATION RULES
+═══════════════════════════════════════════════════════════════════════════════
+Matching logic must be centralized.
+
+Rules:
+- matching heuristics belong in shared service layer
+- fingerprint logic must be explicit
+- text normalization used by matching must be reusable
+- thresholds must not be hidden in unrelated files
+- provider-specific hacks must not silently override global behavior
+- duplicate prevention is mandatory when providers overlap
+- false positives and false negatives must be inspectable during development
+
+Do:
+- centralize fingerprint creation
+- centralize title/date/location comparison logic
+- document why a match is accepted
+- keep matching deterministic and testable
+
+Do not:
+- duplicate matching logic per provider without reason
+- hide fuzzy logic in utils with no visibility
+- blend parsing and matching into a single unreadable function
+
+═══════════════════════════════════════════════════════════════════════════════
+13) SCRAPING / FETCHING RULES
+═══════════════════════════════════════════════════════════════════════════════
+Use the lightest reliable approach.
+
+Priority order:
+1. public API / structured endpoint
+2. RSS / JSON
+3. static HTML requests + parsing
+4. browser automation only if necessary
+
+Mandatory:
+- explicit timeouts
+- explicit retry rules where justified
+- explicit user-agent/session handling where needed
+- parsers/selectors must be easy to update
+- source-specific fetching stays source-specific
+- abusive request patterns are forbidden
+
+Forbidden:
+- endless retry loops
+- random sleeps everywhere
+- scraping + DB write in same function
+- browser automation by default
+- hidden anti-bot tricks scattered across project
+- large scraping scripts with mixed responsibilities
+
+Provider fetch code should fail clearly enough to debug.
+
+═══════════════════════════════════════════════════════════════════════════════
+14) CONFIGURATION RULES
+═══════════════════════════════════════════════════════════════════════════════
+No hardcoded secrets. Ever.
+
+Mandatory:
+- API keys from environment
+- Supabase URL from environment
+- Supabase key from environment
+- configurable sync mode
+- centralized settings access
+- clear failure when required config is missing
+
+Current acceptable state:
+- config.py is acceptable for now
+
+Future growth rule:
+- if config.py becomes crowded, split into:
+  - config/__init__.py
+  - config/settings.py
+
+Rules:
+- do not call os.getenv randomly in every file
+- do not hardcode environment-sensitive URLs
+- do not duplicate environment parsing across modules
+- runtime modes must be explicit:
+  - live
+  - dry-run
+  - debug
+  - local/dev if needed
+
+═══════════════════════════════════════════════════════════════════════════════
+15) ERROR HANDLING AND LOGGING RULES
+═══════════════════════════════════════════════════════════════════════════════
+No silent failures.
+No swallowed exceptions.
+No bare except without intention.
+
+Logs must clearly show:
+- which provider failed
+- which stage failed
+- which event or record failed
+- whether failure is fetch / parse / normalize / match / sync / persistence
+- whether retry is safe
+- whether failure is partial or fatal
+
+Rules:
+- log for operational clarity, not noise
+- actionable messages only
+- provider failures should be distinguishable from system failures
+- one failing provider must not automatically corrupt the whole pipeline
+- use structured, readable logging wherever possible
+
+Bad:
+- “Something went wrong”
+- silent pass
+- giant catch-all exception with no context
+
+Good:
+- provider=mobilet stage=parse external_id=123 failed because missing detail url
+- provider=kultur_istanbul stage=sync record_title=... failed due to Supabase timeout
+
+═══════════════════════════════════════════════════════════════════════════════
+16) TESTING RULES
+═══════════════════════════════════════════════════════════════════════════════
+All important shared logic must be testable without running full live scraping.
+
+Priority test areas:
+- date parsing
+- text normalization
+- title normalization
+- normalized model mapping
+- provider parsing with fixtures
+- fingerprint generation
+- duplicate detection
+- sync idempotency
+- event active/inactive lifecycle behavior
+- provider parser resilience
+
+Mandatory:
+- tests must be placed under tests/
+- provider tests should use fixtures when possible
+- tests should validate deterministic outcomes
+- debug scripts are not a replacement for tests
+
+Preferred organization:
+- tests/utils/test_date_parser.py
+- tests/utils/test_text_normalizer.py
+- tests/providers/test_kultur.py
+- tests/providers/test_mobilet.py
+- tests/services/test_matching_service.py
+- tests/services/test_sync_service.py
+- tests/integration/test_provider_to_sync_flow.py
+
+Rules:
+- avoid root-level test clutter
+- avoid tests that only print output without assertions
+- parser experiments may exist temporarily, but stable verification must move into tests
+
+═══════════════════════════════════════════════════════════════════════════════
+17) DEBUG / PROBE / EXPERIMENT RULES
+═══════════════════════════════════════════════════════════════════════════════
+Debugging is allowed.
+Chaos is not.
+
+Debug/probe scripts are useful for:
+- inspecting raw source responses
+- validating selectors
+- checking JSON payload shape
+- reconciling DB state
+- validating search/index behavior
+- testing one provider in isolation
+
+But:
+- they must live under scripts/
+- they must not become permanent root clutter
+- they must not duplicate production logic unnecessarily
+- they must not silently mutate production data unless explicitly designed for it
+- output files must go to artifacts/, not root
+
+Rules:
+- read-only debug scripts should be clearly separated from mutating scripts
+- probe scripts should have narrow goals
+- once debug logic becomes reusable, move it into services/utils/tests
+- long-lived debugging value should become real tooling or tests
+
+═══════════════════════════════════════════════════════════════════════════════
+18) CLEAN CODE ENFORCEMENT
+═══════════════════════════════════════════════════════════════════════════════
+Mandatory:
+- descriptive names
+- small files
+- small classes
+- small functions
+- intentional boundaries
+- low side effects
+- explicit data flow
+- minimal duplication
+- readable branching
+
+Forbidden:
+- giant utility modules
+- commented-out dead code
+- hidden magic constants everywhere
+- duplicated parser code across providers
+- debug leftovers inside production paths
+- “just for now” architectural violations
+- vague helper files with unrelated code
+- output files committed randomly without purpose
+
+Comment rule:
+- comments explain WHY
+- code explains WHAT
+- do not use comments to justify bad structure
+
+═══════════════════════════════════════════════════════════════════════════════
+19) FILE SPLITTING RULES
+═══════════════════════════════════════════════════════════════════════════════
+Split by responsibility early.
+
+If a file starts mixing:
+- fetching
+- parsing
+- normalization
+- matching
+- persistence
+- retries
+- debug exports
+
+then it must be split.
+
+Healthy examples:
+- one provider per source
+- one sync service
+- one matching service
+- one Supabase client
+- one date parser
+- one text normalizer
+- one normalized contract module
+
+Rule:
+If a provider file starts carrying too much detail parsing or subflows,
+consider splitting internally by source concern.
+
+Example:
+- providers/mobilet.py
+may later become
+- providers/mobilet/fetcher.py
+- providers/mobilet/parser.py
+- providers/mobilet/mapper.py
+
+Only split when complexity justifies it, but do not wait until chaos is severe.
+
+═══════════════════════════════════════════════════════════════════════════════
+20) CHANGE MANAGEMENT RULES
+═══════════════════════════════════════════════════════════════════════════════
+Every change must define:
+- what stays the same
+- what changes
+- why it changes
+- why the new structure is cleaner
+
+Rules:
+- no refactor should secretly introduce behavior change
+- no quick provider fix should break shared matching
+- no schema-impacting change should be hidden inside unrelated cleanup
+- behavior changes must be explicit
+- architecture cleanup must not silently alter business outcomes
+
+When changing a provider:
+- preserve normalized contract
+- preserve sync expectations unless intentionally updated
+- verify matching still behaves correctly
+
+When changing persistence:
+- verify downstream compatibility
+- verify idempotency assumptions
+- verify null/optional field handling
+
+═══════════════════════════════════════════════════════════════════════════════
+21) CODE REVIEW CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+Every PR / commit / major change must satisfy these:
+
+Architecture:
+- Are providers isolated?
+- Is persistence isolated?
+- Is matching centralized?
+- Is sync orchestration clean?
+- Are root boundaries respected?
+
+Repo hygiene:
+- Did any debug/test/probe/output file leak into root?
+- Should this file live under scripts/tests/fixtures/artifacts instead?
+- Are outputs separated from fixtures?
+- Is the repo cleaner after this change, not messier?
+
+Clean Code:
+- Is each file focused?
+- Is any file too large?
+- Is any function too long?
+- Are names descriptive?
+- Is duplication reduced correctly?
+- Is nesting reasonable?
+
+Reliability:
+- Are timeouts explicit?
+- Are retries explicit?
+- Are failures observable?
+- Are writes controlled?
+- Is sync idempotent?
+
+Testing:
+- Can shared logic be tested without live scraping?
+- Are parser assumptions backed by fixtures?
+- Is this verified by assertions, not just printed output?
+
+Non-negotiable:
+- No giant scraper file
+- No raw DB logic inside providers
+- No root-level test clutter
+- No root-level debug clutter
+- No mixed parsing + persistence in one place
+- No hidden global state
+- No spaghetti flow
+
+═══════════════════════════════════════════════════════════════════════════════
+22) FINAL ENFORCEMENT MODE
+═══════════════════════════════════════════════════════════════════════════════
+For every future Lokalize Python change, prefer:
+
+1. Clean structure
+2. Root cleanliness
+3. Small focused files
+4. Clear folder boundaries
+5. Explicit normalized contracts
+6. Centralized matching logic
+7. Isolated Supabase access
+8. Idempotent sync behavior
+9. Testable parser and utility logic
+10. Easy future maintenance
+
+Always prefer:
+- providers for source-specific logic
+- services for orchestration
+- clients for persistence
+- models for contracts
+- utils for small shared helpers
+- scripts for manual/debug tools
+- tests for validation
+- fixtures for sample inputs
+- artifacts for generated outputs
+
+Never prefer:
+- giant root-level scripts
+- mixed responsibilities
+- quick hacks that bypass layers
+- silent schema-breaking writes
+- debug files scattered everywhere
+- provider files acting like repositories
+- one-off experiments becoming architecture
+- root clutter becoming normal
+
+END

@@ -1,0 +1,19 @@
+=== _next/data endpoint ===
+Status: 200, Size: 65145 bytes
+Query count: 2
+Total events in response: 0
+estimatedTotalHits: 0
+Pagination: NO (single snapshot of homepage)
+
+=== searchEvent API (our approach) ===
+Status: 200
+Hits per page: 20
+estimatedTotalHits: 664
+Fields: ['eventName', 'isParent', 'eventStartDateTimestamp', 'eventEndDateTimestamp', 'eventId', 'eventHorizontalImage', 'eventDates']
+hasLocation=False hasDate=True hasPrice=False
+Pagination: YES (offset/limit)
+Filterable: YES (eventTagNames, cityNames, eventTypeNames)
+
+=== COMPARISON ===
+_next/data: 0 events in 1 request, NO pagination, homepage snapshot only
+searchEvent: 664 total events via pagination (20/page), filterable, full catalog

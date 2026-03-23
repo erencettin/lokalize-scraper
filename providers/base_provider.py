@@ -13,4 +13,4 @@ class BaseProvider(ABC):
         Main entry point for a provider.
         Must return a list of NormalizedEvent objects.
         """
-        pass
+        return []

@@ -1,5 +1,6 @@
 from supabase import create_client, Client
 from config import settings
+from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource
 
 class SupabaseClient:
     def __init__(self):

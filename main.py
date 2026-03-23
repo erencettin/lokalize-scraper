@@ -1,5 +1,7 @@
 import logging
 from providers.kultur_istanbul import KulturIstanbulProvider
+from providers.etkinlik_io import EtkinlikIoProvider
+from providers.mobilet import MobiletProvider
 from services.sync_service import SyncService
 from config import settings
 
@@ -14,6 +16,8 @@ def main():
     # 2. Register providers
     providers = [
         KulturIstanbulProvider(),
+        EtkinlikIoProvider(),
+        MobiletProvider(),
         # Add more here as implemented
     ]
     

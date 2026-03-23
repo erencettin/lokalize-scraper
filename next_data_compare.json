@@ -1,0 +1,4471 @@
+{
+  "initialProps": {
+    "pageProps": {
+      "isMobile": false
+    }
+  },
+  "initialState": {
+    "api": {
+      "queries": {
+        "getEventTypes(undefined)": {
+          "status": "fulfilled",
+          "endpointName": "getEventTypes",
+          "requestId": "XiuV1BtR242HNs7t1Bq8-",
+          "startedTimeStamp": 1774222213381,
+          "data": {
+            "eventTypes": {
+              "data": [
+                {
+                  "attributes": {
+                    "eventTypeName": "Spor",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/basketball_deae3a32c4.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Tiyatro",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Theatre_b7790a23cd.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Eğitim",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Education_c2e48f8e9d.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Festival",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Festival_d2a5156b7f.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Müzik",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Music_0ff4b36dcf.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Performans",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Perfomance_eb42600c9f.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Fuar",
+                    "isDisplayedInPrimarySearch": false,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/fuar_030c889d2e.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Sergi",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Exhb_a753369476.svg"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "attributes": {
+                    "eventTypeName": "Sinema",
+                    "isDisplayedInPrimarySearch": true,
+                    "primarySearchIcon": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/Movie_91664ce80f.svg"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "fulfilledTimeStamp": 1774222213443
+        }
+      },
+      "mutations": {},
+      "provided": {},
+      "subscriptions": {
+        "getEventTypes(undefined)": {
+          "XiuV1BtR242HNs7t1Bq8-": {}
+        }
+      },
+      "config": {
+        "online": true,
+        "focused": true,
+        "middlewareRegistered": true,
+        "refetchOnFocus": false,
+        "refetchOnReconnect": false,
+        "refetchOnMountOrArgChange": false,
+        "keepUnusedDataFor": 1,
+        "reducerPath": "api"
+      }
+    },
+    "hasuraApi": {
+      "queries": {},
+      "mutations": {},
+      "provided": {},
+      "subscriptions": {},
+      "config": {
+        "online": true,
+        "focused": true,
+        "middlewareRegistered": true,
+        "refetchOnFocus": false,
+        "refetchOnReconnect": false,
+        "refetchOnMountOrArgChange": false,
+        "keepUnusedDataFor": 0,
+        "reducerPath": "hasuraApi"
+      }
+    },
+    "searchSlice": {
+      "storedEventTypes": [
+        {
+          "label": "Spor",
+          "value": "spor",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/basketball_deae3a32c4.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Tiyatro",
+          "value": "tiyatro",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Theatre_b7790a23cd.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Eğitim",
+          "value": "eğitim",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Education_c2e48f8e9d.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Festival",
+          "value": "festival",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Festival_d2a5156b7f.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Müzik",
+          "value": "müzik",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Music_0ff4b36dcf.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Performans",
+          "value": "performans",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Perfomance_eb42600c9f.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Fuar",
+          "value": "fuar",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/fuar_030c889d2e.svg",
+            "isDisplayedInPrimarySearch": false
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Sergi",
+          "value": "sergi",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Exhb_a753369476.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        },
+        {
+          "label": "Sinema",
+          "value": "sinema",
+          "rest": {
+            "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Movie_91664ce80f.svg",
+            "isDisplayedInPrimarySearch": true
+          },
+          "isSelected": false
+        }
+      ],
+      "storedCities": [
+        {
+          "label": "İstanbul",
+          "value": "İstanbul",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "Ankara",
+          "value": "Ankara",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "İzmir",
+          "value": "İzmir",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "Bursa",
+          "value": "Bursa",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "Diğer",
+          "value": "Other",
+          "isSelected": false,
+          "isDefaultItem": true
+        }
+      ],
+      "storedDates": [
+        {
+          "label": "date_helper.today",
+          "value": "-1",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "date_helper.tomorrow",
+          "value": "-2",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "date_helper.weekend",
+          "value": "-3",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "date_helper.this_week",
+          "value": "-4",
+          "isSelected": false,
+          "isDefaultItem": true
+        },
+        {
+          "label": "date_helper.during_the_month",
+          "value": "-5",
+          "isSelected": false,
+          "isDefaultItem": true
+        }
+      ],
+      "storedVenues": null
+    },
+    "loginSlice": {
+      "provider": null,
+      "loginUserInfo": null,
+      "socialUserInfo": null
+    },
+    "paymentSuccessSlice": {
+      "paymentSuccessPageData": null
+    },
+    "globalSlice": {
+      "isMobile": false,
+      "isIosApp": false,
+      "isSearchBarOpen": false,
+      "isAdvancedDropdownOpen": false,
+      "shoppingCartInformation": null,
+      "profile": null
+    }
+  },
+  "pageProps": {
+    "_sentryTraceData": "57962c5dd46244d594e9067fe500aed1-941214b57212fd8c-1",
+    "_sentryBaggage": "sentry-environment=production,sentry-release=BY2DntbW2Q9AktLCTcdpR,sentry-public_key=bff2d58d75c97723cf4450688f4ae76a,sentry-trace_id=57962c5dd46244d594e9067fe500aed1,sentry-sample_rate=1,sentry-transaction=%2F,sentry-sampled=true",
+    "initialState": {
+      "api": {
+        "queries": {
+          "getEventTypes(undefined)": {
+            "status": "fulfilled",
+            "endpointName": "getEventTypes",
+            "requestId": "XiuV1BtR242HNs7t1Bq8-",
+            "startedTimeStamp": 1774222213381,
+            "data": {
+              "eventTypes": {
+                "data": [
+                  {
+                    "attributes": {
+                      "eventTypeName": "Spor",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/basketball_deae3a32c4.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Tiyatro",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Theatre_b7790a23cd.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Eğitim",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Education_c2e48f8e9d.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Festival",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Festival_d2a5156b7f.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Müzik",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Music_0ff4b36dcf.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Performans",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Perfomance_eb42600c9f.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Fuar",
+                      "isDisplayedInPrimarySearch": false,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/fuar_030c889d2e.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Sergi",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Exhb_a753369476.svg"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "attributes": {
+                      "eventTypeName": "Sinema",
+                      "isDisplayedInPrimarySearch": true,
+                      "primarySearchIcon": {
+                        "data": {
+                          "attributes": {
+                            "url": "https://cdn.mobilet.com/cms-assets/uploads/Movie_91664ce80f.svg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "fulfilledTimeStamp": 1774222213443
+          },
+          "getHomePage(undefined)": {
+            "status": "fulfilled",
+            "endpointName": "getHomePage",
+            "requestId": "iz35gX5XFyUTGNo2-1zWZ",
+            "startedTimeStamp": 1774222213445,
+            "data": {
+              "homepage": {
+                "data": {
+                  "attributes": {
+                    "homepageWelcomeText": "Mobilet'te yerin hazır!",
+                    "homepageWelcomeBgImage": {
+                      "data": {
+                        "attributes": {
+                          "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_homepage_c7bd42402a_ed0f1ae328.jpg"
+                        }
+                      }
+                    },
+                    "banner": [
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20241",
+                        "event": {
+                          "data": {
+                            "id": "35315",
+                            "attributes": {
+                              "eventName": "Zeynep Bastık Konseri",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-23T17:00:00.000Z"
+                                }
+                              ],
+                              "eventId": 52763,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Life Park İstanbul"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/zb_1543452a10.jpg"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20281",
+                        "event": {
+                          "data": {
+                            "id": "36340",
+                            "attributes": {
+                              "eventName": "Şahları da Vururlar",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-08T17:00:00.000Z"
+                                }
+                              ],
+                              "eventId": 53808,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "SES – 1885 Ortaoyuncular Tiyatrosu"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/sahlari_da_vururlar_2f8f959b56.jpg"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentHomepageBannersWOEvent",
+                        "isSponsored": false,
+                        "id": "6575",
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/QNB_25indirim_594x832_843920edea.jpg"
+                            }
+                          }
+                        },
+                        "targetUrl": "/search/?tags=CUSTOM_QNB",
+                        "bannerTitle": "Seçili etkinliklerde %25’e varan indirim! "
+                      },
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20573",
+                        "event": {
+                          "data": {
+                            "id": "36380",
+                            "attributes": {
+                              "eventName": "Ansis Bētiņš & Artūrs Čukurs",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-11T15:00:00.000Z"
+                                }
+                              ],
+                              "eventId": 53851,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Hara İstanbul"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/Ansis_Betins_and_Arturs_Cukurs_2_bebf191de6.jpg"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20022",
+                        "event": {
+                          "data": {
+                            "id": "36250",
+                            "attributes": {
+                              "eventName": "Zâkir",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-05-10T15:30:00.000Z"
+                                }
+                              ],
+                              "eventId": 53729,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Seyhan Yaşar Kemal Kültür Merkezi"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/zakir_afis_plain_m_53cd40e7e2.jpg"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20679",
+                        "event": {
+                          "data": {
+                            "id": "35218",
+                            "attributes": {
+                              "eventName": "Flamenco Del Oriente",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-09T17:00:00.000Z"
+                                }
+                              ],
+                              "eventId": 52673,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Caddebostan Kültür Merkezi"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/Juvenis_Konser_594x832_b2b0913068.jpg"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentHomepageBanners",
+                        "id": "20312",
+                        "event": {
+                          "data": {
+                            "id": "33696",
+                            "attributes": {
+                              "eventName": "%100 Metal Sunar: Myrath, Dream Ocean",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-04T18:30:00.000Z"
+                                }
+                              ],
+                              "eventId": 51122,
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "IF Performance Hall Beşiktaş"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bannerImage": {
+                          "data": {
+                            "attributes": {
+                              "url": "https://cdn.mobilet.com/cms-assets/uploads/myrath_yeni_594_x_832_aeaf6fa24b.jpg"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageTags": [
+                      {
+                        "eventTagName": "EVENT_CONCERT"
+                      },
+                      {
+                        "eventTagName": "VENUE_THEATRE"
+                      },
+                      {
+                        "eventTagName": "EVENT_CINEMA"
+                      },
+                      {
+                        "eventTagName": "LIFESTYLE_FOR_KIDS"
+                      },
+                      {
+                        "eventTagName": "ARTS_STAND_UP"
+                      },
+                      {
+                        "eventTagName": "SPORTS_BASKETBALL"
+                      },
+                      {
+                        "eventTagName": "EVENT_WORKSHOP"
+                      },
+                      {
+                        "eventTagName": "CUSTOM_CORPORATE"
+                      },
+                      {
+                        "eventTagName": "CUSTOM_QNB"
+                      },
+                      {
+                        "eventTagName": "LOCATION_ANKARA"
+                      }
+                    ],
+                    "homepageEventTypes": [
+                      {
+                        "eventType": {
+                          "data": {
+                            "attributes": {
+                              "eventTypeName": "Müzik",
+                              "eventTypeImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/muzik_47dd043c0b.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "eventType": {
+                          "data": {
+                            "attributes": {
+                              "eventTypeName": "Tiyatro",
+                              "eventTypeImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/tiyatro_9e71bbe43b.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "eventType": {
+                          "data": {
+                            "attributes": {
+                              "eventTypeName": "Sinema",
+                              "eventTypeImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sinema_c2ec423ef9.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "eventType": {
+                          "data": {
+                            "attributes": {
+                              "eventTypeName": "Spor",
+                              "eventTypeImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/spor_2_d8b2e8d395.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageGenreCards": [],
+                    "homepageTrendingEvents": [
+                      {
+                        "__typename": "ComponentEventsEventCardLarge",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 50740,
+                              "eventName": "8. Coffex İstanbul Kahve Fuarı",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-05-08T07:00:00.000Z"
+                                },
+                                {
+                                  "eventStartDate": "2026-05-09T07:00:00.000Z"
+                                },
+                                {
+                                  "eventStartDate": "2026-05-10T07:00:00.000Z"
+                                }
+                              ],
+                              "eventEndDate": null,
+                              "eventTag": "ONSALE",
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690x960_yatay_goersel_7237908a42.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "İstanbul Lütfi Kırdar Kongre Merkezi"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "70205",
+                        "parent_event": {
+                          "data": {
+                            "id": "369",
+                            "attributes": {
+                              "parentEventTitle": "Vera Müzik",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Vera_Cati_Sayfa_yeni2_61d868d9cd.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": "2025-12-23T21:00:00.000Z",
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "64127",
+                        "parent_event": {
+                          "data": {
+                            "id": "379",
+                            "attributes": {
+                              "parentEventTitle": "“Show of Hands” Doğaçlama Müzik Festivali",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sohf_1920x1080_0c9d93ab5d.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66834",
+                        "parent_event": {
+                          "data": {
+                            "id": "5",
+                            "attributes": {
+                              "parentEventTitle": "Anadolu Efes",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Kapak_1216x824_6dde98a0cd.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66014",
+                        "parent_event": {
+                          "data": {
+                            "id": "153",
+                            "attributes": {
+                              "parentEventTitle": "Fenerbahçe Basketbol",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/FB_Cati_e735774192.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "69683",
+                        "parent_event": {
+                          "data": {
+                            "id": "41",
+                            "attributes": {
+                              "parentEventTitle": "Ortaoyuncular",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/fss_ba1bd79262.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66016",
+                        "parent_event": {
+                          "data": {
+                            "id": "378",
+                            "attributes": {
+                              "parentEventTitle": "Midterm Camp Fest",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/MTCF_KISA_LOGO_2x_ab3f148a05.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": "2026-04-23T07:00:00.000Z",
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCardLarge",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53112,
+                              "eventName": "Lale Plak Buluşmaları: Caz Tarihinde Gitarın Yeri",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-27T16:00:00.000Z"
+                                }
+                              ],
+                              "eventEndDate": null,
+                              "eventTag": "ONSALE",
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/27_MART_2026_LALE_PLAK_BULUSMALARI_bc2909f7b7.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Yeldeğirmeni Sanat Kadıköy Belediyesi"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCardLarge",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53788,
+                              "eventName": "Cenk Esen & Graeme Flowers",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-28T15:00:00.000Z"
+                                }
+                              ],
+                              "eventEndDate": null,
+                              "eventTag": "ONSALE",
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/hara_yatay_cenk_esen_1_ddb37d1199.jpg"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Hara İstanbul"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "50067",
+                        "parent_event": {
+                          "data": {
+                            "id": "26",
+                            "attributes": {
+                              "parentEventTitle": "Sinematek / Sinema Evi",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sinematek_bina_1182x665_b4d9f84bf3.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "63361",
+                        "parent_event": {
+                          "data": {
+                            "id": "44",
+                            "attributes": {
+                              "parentEventTitle": "Kadıköy Süreyya Operası ",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sureyya_operasi_878ec79ca7.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66273",
+                        "parent_event": {
+                          "data": {
+                            "id": "48",
+                            "attributes": {
+                              "parentEventTitle": "Yeldeğirmeni Sanat",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/YELDEGIRMENI_SANAT_CATI_G_Oe_RSELI_1aba998bcb_1_2545a4e3c9.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "36384",
+                        "parent_event": {
+                          "data": {
+                            "id": "1",
+                            "attributes": {
+                              "parentEventTitle": "DasDas İstanbul",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/dasdas_001_28479f5e54.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66272",
+                        "parent_event": {
+                          "data": {
+                            "id": "54",
+                            "attributes": {
+                              "parentEventTitle": "IF Performance Hall Tunus",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/IF_1_4e0d14a41d.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "50065",
+                        "parent_event": {
+                          "data": {
+                            "id": "373",
+                            "attributes": {
+                              "parentEventTitle": "Alan Cihangir Art",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/alan_cihangir_foto_logo_yatay_d57b5d204b.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": "2026-01-06T08:00:00.000Z",
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66274",
+                        "parent_event": {
+                          "data": {
+                            "id": "261",
+                            "attributes": {
+                              "parentEventTitle": "Hara İstanbul",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Adsiz_1690_x_960_piksel_dea0287914.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66275",
+                        "parent_event": {
+                          "data": {
+                            "id": "312",
+                            "attributes": {
+                              "parentEventTitle": "DasDas İstinyePark",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet1690x960_1da400355a.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCardLarge",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52145,
+                              "eventName": "Diyemedim",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-27T17:00:00.000Z"
+                                }
+                              ],
+                              "eventEndDate": null,
+                              "eventTag": "ONSALE",
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/diyemedim_1_e437c92d92.jpg"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "SES – 1885 Ortaoyuncular Tiyatrosu"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCardLarge",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52903,
+                              "eventName": "Çiftler Çiftler",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-28T17:30:00.000Z"
+                                }
+                              ],
+                              "eventEndDate": null,
+                              "eventTag": "ONSALE",
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/V2_A3804_26beba0b35.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Altı Üstü Kabare"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53715,
+                              "eventName": "Stand-Up Açık Mikrofon Beyoğlu Çarşamba",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-08T17:30:00.000Z"
+                                }
+                              ],
+                              "eventTag": "ONSALE",
+                              "eventEndDate": null,
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_beyoglu_yatay_da54a799f2.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "İnfiniti Sahne "
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53842,
+                              "eventName": "DO-AR İnteraktif Doğaçlama Komedi",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-10T17:30:00.000Z"
+                                }
+                              ],
+                              "eventTag": "ONSALE",
+                              "eventEndDate": null,
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/dogaclama_1_1947630c54.jpg"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Apartman Sahne"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53887,
+                              "eventName": "Kadıköy Stand-up Gecesi",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-26T17:00:00.000Z"
+                                }
+                              ],
+                              "eventTag": "ONSALE",
+                              "eventEndDate": null,
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/BKK_salipazar_flu_561x315_1bd86f1db1.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "FLU Kadıköy"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53795,
+                              "eventName": "Rafi Bastos Stand-Up",
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-05-23T17:30:00.000Z"
+                                }
+                              ],
+                              "eventTag": "ONSALE",
+                              "eventEndDate": null,
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/rafi_1690x960_e115c265c8.png"
+                                  }
+                                }
+                              },
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageCustomEventsList1": [
+                      {
+                        "__typename": "ComponentHomepageSectionTitle",
+                        "title": "Spor & Yaşam"
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65482",
+                        "parent_event": {
+                          "data": {
+                            "id": "49",
+                            "attributes": {
+                              "parentEventTitle": "Boğaz'da Yoga",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_1690x960_d94cfd7c98.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66018",
+                        "parent_event": {
+                          "data": {
+                            "id": "5",
+                            "attributes": {
+                              "parentEventTitle": "Anadolu Efes",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Kapak_1216x824_6dde98a0cd.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66017",
+                        "parent_event": {
+                          "data": {
+                            "id": "153",
+                            "attributes": {
+                              "parentEventTitle": "Fenerbahçe Basketbol",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/FB_Cati_e735774192.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66019",
+                        "parent_event": {
+                          "data": {
+                            "id": "154",
+                            "attributes": {
+                              "parentEventTitle": "Bahçeşehir Koleji Spor Kulübü",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/thumbnail_Basliksiz_1_1_aefba39037_96de3eae61.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66021",
+                        "parent_event": {
+                          "data": {
+                            "id": "208",
+                            "attributes": {
+                              "parentEventTitle": "Onvo Büyükçekmece Basketbol",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/8fbd2099_a628_4da1_bb3f_07ff739f1b37_1_1_min_503eb254b1.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66020",
+                        "parent_event": {
+                          "data": {
+                            "id": "326",
+                            "attributes": {
+                              "parentEventTitle": "Safiport Erokspor Basketbol Kulübü",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/IMG_8870_dd8f67a8a8.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 46828,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-07-27T09:10:00.000Z"
+                                },
+                                {
+                                  "eventStartDate": "2026-07-23T20:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Karabük İdman Yurdu 2025-2026 Futbol Kombine",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Dr. Necmettin Şeyhoğlu Stadyumu"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/destek_kart_yarat_min_6ad2fb606b.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageCustomEventsList2": [
+                      {
+                        "__typename": "ComponentHomepageSectionTitle",
+                        "title": "QNB Kampanyalı Etkinlikler "
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51915,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-23T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Cimri",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/cimri_3_min_2_acfed595ca.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51942,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-23T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Feramuz Pis!",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Feramuz_Pis_3_7716b18912.PNG"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51916,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-24T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Öteki",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a0236c0814.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52475,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-24T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Sanki Yaşamışız Gibi",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_1_015ec432f6.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51944,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-25T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Tanıdığım Tüm Erkekler",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_3_38d2871966.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53114,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-25T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Üç Kısa",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/kisalar_1690x960_5296911428.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51946,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-27T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Anadolu Efes Mavi Sahne: Sen Ne Güzeldin Aşkımızın Şehri",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sen_ne_guezeldin_1690_mo_7454f26da2.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51947,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-27T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Hiç Dünya",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_84512e0752.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51950,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-29T10:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Oyuncak Arkadaşlar",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/oyuncak_1_d01db12eeb.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52712,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-29T16:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Dünya Yerinden Oynar",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Untitled_1690_x_960_px_1_c5b11c79e4.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52095,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-29T17:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Yıldız",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_1690_4f46db9128.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52227,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-30T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Arşimet Prensibi",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_a9caed40c0.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51919,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-31T16:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Deniz Göktaş Stand Up",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/goektas_1690x960_54b685dccc.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52228,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-03-31T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Bu Bir Prova Değil \"Le Réel\"",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_4_d3fbd15513.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53202,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-01T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "İki Kişilik Oyun",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53126,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-01T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Anadolu Efes Mavi Sahne: Kâtip Bartleby",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/KATIP_BARTLEBY_resized_3de28a4e3e.jpeg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53195,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-02T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "52 Hertz",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_12_6919aa3e0c.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53203,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-03T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "İki Kişilik Oyun",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53130,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-04T10:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Ha Cesaret! ",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690x960_hah_6af87a507a.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53131,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-04T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Aria Da Capo",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_96c18cd20f.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53132,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-06T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "İki Kişilik Hırgür",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_09c480d0ff.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53144,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-07T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Taksim'e Kadar",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_e49a2c2bca.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53196,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-07T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Pera'da Bir Lola",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/yatay_15ef4abf45.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53146,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-08T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "En İyi İkinci",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_7_fdf7c2dec2.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53147,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-09T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Sanki Yaşamışız Gibi",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_1_015ec432f6.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53149,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-11T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Annemin Cenazesi: Tiyatro Oyunu ",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_1_95d23ecd31.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53204,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-13T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "İki Kişilik Oyun",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53206,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-14T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Sürüklenmiş",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Suerueklenmis_1690_x_960_2_e5f8b96a3d.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53199,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-14T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Feramuz Pis!",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Feramuz_Pis_3_7716b18912.PNG"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53207,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-15T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Fareler ve İnsanlar",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Fareler_ve_Insanlar_Mobilet_Yatay_1690x960_44be54af04.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53151,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-15T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Tanıdığım Tüm Erkekler",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_3_38d2871966.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53154,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-16T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Eşik",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_48c8318a04.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53155,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-18T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Sen Ne Güzeldin Aşkımızın Şehri",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sen_ne_guezeldin_1690_mo_7454f26da2.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53156,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-19T10:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Oyuncak Arkadaşlar",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/oyuncak_1_d01db12eeb.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53157,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-19T17:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Yıldız",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_1690_4f46db9128.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53205,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-20T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "İki Kişilik Oyun",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53198,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-20T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Gaybubet Şehri",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Gaybubet1_18d991d03c.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53158,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-21T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Veli'nin Oğlu Orhan",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_13_69b53b835b.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53159,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-22T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Kopenhag",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Kopenhag_2_9fa0524633.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53160,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-23T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Annemin Cenazesi: Tiyatro Oyunu ",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_1_95d23ecd31.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 52864,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-25T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Yeni Türkü",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_7b1f582731.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53161,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-26T10:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Oyuncak Arkadaşlar",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/oyuncak_1_d01db12eeb.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53209,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-26T14:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Ben Çoktan Gidersiniz Sanmıştım",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/bcgs1_20bd0abdc1.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53210,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-27T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Öteki",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a0236c0814.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53211,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-28T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "İyi Değilim Ama Anlatacak Kadar da Kötü Değilim",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_400a39edc6.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53162,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-28T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Hiç Dünya",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_84512e0752.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53163,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-28T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "Ölüm ve Bakire",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_717727d858.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53197,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-29T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "9/8'lik Kıyamet",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/m_1690x960_d283f7edc7.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 53164,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-04-30T18:00:00.000Z"
+                                }
+                              ],
+                              "eventName": "A Yüzü B Yüzü",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_5_782924a6fb.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 51781,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2026-05-05T17:30:00.000Z"
+                                }
+                              ],
+                              "eventName": "Ballı Süt",
+                              "eventTag": "OUTOFSTOCK",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "DasDas İstanbul"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Mobilet_Boyut_1690_x_960_11_d6bcba964a.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageCustomEventsList3": [
+                      {
+                        "__typename": "ComponentHomepageSectionTitle",
+                        "title": "Konser & Festival"
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65520",
+                        "parent_event": {
+                          "data": {
+                            "id": "44",
+                            "attributes": {
+                              "parentEventTitle": "Kadıköy Süreyya Operası ",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sureyya_operasi_878ec79ca7.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66718",
+                        "parent_event": {
+                          "data": {
+                            "id": "301",
+                            "attributes": {
+                              "parentEventTitle": "Jeux d'Art",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/jeux_dart_cati2_4a42cc72ab.jfif"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65452",
+                        "parent_event": {
+                          "data": {
+                            "id": "48",
+                            "attributes": {
+                              "parentEventTitle": "Yeldeğirmeni Sanat",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/YELDEGIRMENI_SANAT_CATI_G_Oe_RSELI_1aba998bcb_1_2545a4e3c9.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66721",
+                        "parent_event": {
+                          "data": {
+                            "id": "54",
+                            "attributes": {
+                              "parentEventTitle": "IF Performance Hall Tunus",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/IF_1_4e0d14a41d.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageCustomEventsList4": [
+                      {
+                        "__typename": "ComponentHomepageSectionTitle",
+                        "title": "Tiyatro & Stand-Up"
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "51354",
+                        "parent_event": {
+                          "data": {
+                            "id": "1",
+                            "attributes": {
+                              "parentEventTitle": "DasDas İstanbul",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/dasdas_001_28479f5e54.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65960",
+                        "parent_event": {
+                          "data": {
+                            "id": "339",
+                            "attributes": {
+                              "parentEventTitle": "İki Kişilik Oyun",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "64865",
+                        "parent_event": {
+                          "data": {
+                            "id": "41",
+                            "attributes": {
+                              "parentEventTitle": "Ortaoyuncular",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/fss_ba1bd79262.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65501",
+                        "parent_event": {
+                          "data": {
+                            "id": "214",
+                            "attributes": {
+                              "parentEventTitle": "Sanart Yapım",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sanart_cati_dis_858648d732.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65985",
+                        "parent_event": {
+                          "data": {
+                            "id": "312",
+                            "attributes": {
+                              "parentEventTitle": "DasDas İstinyePark",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet1690x960_1da400355a.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65642",
+                        "parent_event": {
+                          "data": {
+                            "id": "146",
+                            "attributes": {
+                              "parentEventTitle": "Altı Üstü Kabare",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/6b07dc11_bad8_48c3_9c3f_34e16e66_2c1163897c.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "58416",
+                        "parent_event": {
+                          "data": {
+                            "id": "338",
+                            "attributes": {
+                              "parentEventTitle": "Yolcu Tiyatro",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_yolcu_2_0b56c3c9be.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "51360",
+                        "parent_event": {
+                          "data": {
+                            "id": "371",
+                            "attributes": {
+                              "parentEventTitle": "Ada Roof ",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/3_6101cc8553.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65453",
+                        "parent_event": {
+                          "data": {
+                            "id": "346",
+                            "attributes": {
+                              "parentEventTitle": "Salih Bademci - Sesler",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sesler_aa4d7c77bb.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65686",
+                        "parent_event": {
+                          "data": {
+                            "id": "347",
+                            "attributes": {
+                              "parentEventTitle": "Müfettişler",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/muefettis_1_6d50c15246.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65961",
+                        "parent_event": {
+                          "data": {
+                            "id": "339",
+                            "attributes": {
+                              "parentEventTitle": "İki Kişilik Oyun",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/1690_a9c3d91176.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66722",
+                        "parent_event": {
+                          "data": {
+                            "id": "247",
+                            "attributes": {
+                              "parentEventTitle": "Tiyatro BizBize",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/bizbizecati2_f37a545669.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66724",
+                        "parent_event": {
+                          "data": {
+                            "id": "349",
+                            "attributes": {
+                              "parentEventTitle": "Sonsuz Tiyatro",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Screenshot_2025_10_19_at_23_58_51_e1a28fe121.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": "2025-10-19T21:00:00.000Z",
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66725",
+                        "parent_event": {
+                          "data": {
+                            "id": "177",
+                            "attributes": {
+                              "parentEventTitle": "Tiyatro Keyfi",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/tiyatro_keyfi_cati_1_7acd9fa3bd.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66726",
+                        "parent_event": {
+                          "data": {
+                            "id": "236",
+                            "attributes": {
+                              "parentEventTitle": "Orenda Organizasyon",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/orendacati2_f1858b12f9.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66727",
+                        "parent_event": {
+                          "data": {
+                            "id": "307",
+                            "attributes": {
+                              "parentEventTitle": "Tiyatro TAM",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Tam_Sanat_cati_1_a32e0b22cf.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66728",
+                        "parent_event": {
+                          "data": {
+                            "id": "287",
+                            "attributes": {
+                              "parentEventTitle": "Sempati Tiyatro",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/sempati_f04735a092.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66730",
+                        "parent_event": {
+                          "data": {
+                            "id": "334",
+                            "attributes": {
+                              "parentEventTitle": "Nushu Tiyatro",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Logo_Nushu_Tiyatro_ab4e04a1a3.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66731",
+                        "parent_event": {
+                          "data": {
+                            "id": "142",
+                            "attributes": {
+                              "parentEventTitle": "We Tiyatro",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/wetiyatro1_342027f075.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66732",
+                        "parent_event": {
+                          "data": {
+                            "id": "51",
+                            "attributes": {
+                              "parentEventTitle": "Demiurk Sahne",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/demiurk_Beyaz_dc8c5bafb4.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66733",
+                        "parent_event": {
+                          "data": {
+                            "id": "309",
+                            "attributes": {
+                              "parentEventTitle": "Charlie'nin Çikolata Fabrikasında",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Charlie_cati_dis_04e3d77898.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66735",
+                        "parent_event": {
+                          "data": {
+                            "id": "329",
+                            "attributes": {
+                              "parentEventTitle": "Boğaziçi Komedi Kulübü",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/305271404_447040470784869_1352054157432696208_n_2_eaac65df00.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66736",
+                        "parent_event": {
+                          "data": {
+                            "id": "149",
+                            "attributes": {
+                              "parentEventTitle": "Stand Up Mekan Sahne",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Kadikoey_cati1_107a475a29.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66737",
+                        "parent_event": {
+                          "data": {
+                            "id": "150",
+                            "attributes": {
+                              "parentEventTitle": "Efsahne Beyoğlu",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/beyoglu_9298a6de98.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66738",
+                        "parent_event": {
+                          "data": {
+                            "id": "132",
+                            "attributes": {
+                              "parentEventTitle": "İnfiniti Medya Stand Up",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_1_7b5be42381.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66739",
+                        "parent_event": {
+                          "data": {
+                            "id": "43",
+                            "attributes": {
+                              "parentEventTitle": "Apartman Sahne",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Frame_28_c1db6fcf0e.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66741",
+                        "parent_event": {
+                          "data": {
+                            "id": "343",
+                            "attributes": {
+                              "parentEventTitle": "Boss Events",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/aaaaa_b41b817769.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "66742",
+                        "parent_event": {
+                          "data": {
+                            "id": "342",
+                            "attributes": {
+                              "parentEventTitle": "The Harp Sahne Kadıköy",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/The_Harp_Sahne_Cati_Goerseli_0ae96fa69c.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "67031",
+                        "parent_event": {
+                          "data": {
+                            "id": "353",
+                            "attributes": {
+                              "parentEventTitle": "Rehab Event",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/rehabcati2_b015dae514.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "homepageCustomEventsList5": [
+                      {
+                        "__typename": "ComponentHomepageSectionTitle",
+                        "title": "Sergi & Müze & Workshop"
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65458",
+                        "parent_event": {
+                          "data": {
+                            "id": "233",
+                            "attributes": {
+                              "parentEventTitle": "Arter Etkinlikleri ve Atölyeleri",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/indir_3_613cf208e5.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65456",
+                        "parent_event": {
+                          "data": {
+                            "id": "148",
+                            "attributes": {
+                              "parentEventTitle": "Barış Manço Evi",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Baris_Manco_Yatay_364f613034.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65459",
+                        "parent_event": {
+                          "data": {
+                            "id": "286",
+                            "attributes": {
+                              "parentEventTitle": "Sandland Antalya",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/de_cd33da13ad.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "70009",
+                        "parent_event": {
+                          "data": {
+                            "id": "376",
+                            "attributes": {
+                              "parentEventTitle": "Demokrasi ve Özgürlükler Adası",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/ykphixw_846f162ca5.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65457",
+                        "parent_event": {
+                          "data": {
+                            "id": "381",
+                            "attributes": {
+                              "parentEventTitle": "İstanbul Workshops",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mo_logo_1_cdd3cfdecb.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65460",
+                        "parent_event": {
+                          "data": {
+                            "id": "42",
+                            "attributes": {
+                              "parentEventTitle": "Anka Workshop",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/anka_workshop_6fb7f98e28.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65461",
+                        "parent_event": {
+                          "data": {
+                            "id": "316",
+                            "attributes": {
+                              "parentEventTitle": "Highlights in Türkiye Workshops",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/a32afb_c883c3cf6f0c4abaa9378cab2ba2aed0_mv2_1_9a696de192.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65462",
+                        "parent_event": {
+                          "data": {
+                            "id": "344",
+                            "attributes": {
+                              "parentEventTitle": "Atölye Seven Kadıköy",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/atoelye_seven_cati_goerseli_f1b60576f8.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65969",
+                        "parent_event": {
+                          "data": {
+                            "id": "333",
+                            "attributes": {
+                              "parentEventTitle": "Tayfa İstanbul",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/mobilet_gecici_ana_sayfa_1690_960_d845ff4b62.png"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsEventCard",
+                        "event": {
+                          "data": {
+                            "attributes": {
+                              "eventId": 10819,
+                              "eventDates": [
+                                {
+                                  "eventStartDate": "2024-01-01T07:00:00.000Z"
+                                },
+                                {
+                                  "eventStartDate": "2026-12-31T07:00:00.000Z"
+                                }
+                              ],
+                              "eventName": " Funtastic Aquariums İzmir",
+                              "eventTag": "ONSALE",
+                              "eventLocation": {
+                                "data": {
+                                  "attributes": {
+                                    "locationName": "Westpark Outlet Alışveriş Merkezi"
+                                  }
+                                }
+                              },
+                              "eventImages": {
+                                "data": []
+                              },
+                              "eventHorizontalImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/Funtasticizmir_18_1_1_e613f9c0f5.png"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "__typename": "ComponentEventsPEventCardRegular",
+                        "id": "65463",
+                        "parent_event": {
+                          "data": {
+                            "id": "276",
+                            "attributes": {
+                              "parentEventTitle": "Moj Parfüm",
+                              "parentEventCardImage": {
+                                "data": {
+                                  "attributes": {
+                                    "url": "https://cdn.mobilet.com/cms-assets/uploads/moj_cati_2_68f972da45.jpg"
+                                  }
+                                }
+                              },
+                              "parentEventStartDate": null,
+                              "parentEventEndDate": null
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "fulfilledTimeStamp": 1774222214778
+          }
+        },
+        "mutations": {},
+        "provided": {},
+        "subscriptions": {
+          "getEventTypes(undefined)": {
+            "XiuV1BtR242HNs7t1Bq8-": {}
+          },
+          "getHomePage(undefined)": {
+            "iz35gX5XFyUTGNo2-1zWZ": {}
+          }
+        },
+        "config": {
+          "online": true,
+          "focused": true,
+          "middlewareRegistered": true,
+          "refetchOnFocus": false,
+          "refetchOnReconnect": false,
+          "refetchOnMountOrArgChange": false,
+          "keepUnusedDataFor": 1,
+          "reducerPath": "api"
+        }
+      },
+      "hasuraApi": {
+        "queries": {},
+        "mutations": {},
+        "provided": {},
+        "subscriptions": {},
+        "config": {
+          "online": true,
+          "focused": true,
+          "middlewareRegistered": true,
+          "refetchOnFocus": false,
+          "refetchOnReconnect": false,
+          "refetchOnMountOrArgChange": false,
+          "keepUnusedDataFor": 0,
+          "reducerPath": "hasuraApi"
+        }
+      },
+      "searchSlice": {
+        "storedEventTypes": [
+          {
+            "label": "Spor",
+            "value": "spor",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/basketball_deae3a32c4.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Tiyatro",
+            "value": "tiyatro",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Theatre_b7790a23cd.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Eğitim",
+            "value": "eğitim",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Education_c2e48f8e9d.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Festival",
+            "value": "festival",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Festival_d2a5156b7f.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Müzik",
+            "value": "müzik",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Music_0ff4b36dcf.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Performans",
+            "value": "performans",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Perfomance_eb42600c9f.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Fuar",
+            "value": "fuar",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/fuar_030c889d2e.svg",
+              "isDisplayedInPrimarySearch": false
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Sergi",
+            "value": "sergi",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Exhb_a753369476.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          },
+          {
+            "label": "Sinema",
+            "value": "sinema",
+            "rest": {
+              "imageUrl": "https://cdn.mobilet.com/cms-assets/uploads/Movie_91664ce80f.svg",
+              "isDisplayedInPrimarySearch": true
+            },
+            "isSelected": false
+          }
+        ],
+        "storedCities": [
+          {
+            "label": "İstanbul",
+            "value": "İstanbul",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "Ankara",
+            "value": "Ankara",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "İzmir",
+            "value": "İzmir",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "Bursa",
+            "value": "Bursa",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "Diğer",
+            "value": "Other",
+            "isSelected": false,
+            "isDefaultItem": true
+          }
+        ],
+        "storedDates": [
+          {
+            "label": "date_helper.today",
+            "value": "-1",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "date_helper.tomorrow",
+            "value": "-2",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "date_helper.weekend",
+            "value": "-3",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "date_helper.this_week",
+            "value": "-4",
+            "isSelected": false,
+            "isDefaultItem": true
+          },
+          {
+            "label": "date_helper.during_the_month",
+            "value": "-5",
+            "isSelected": false,
+            "isDefaultItem": true
+          }
+        ],
+        "storedVenues": null
+      },
+      "loginSlice": {
+        "provider": null,
+        "loginUserInfo": null,
+        "socialUserInfo": null
+      },
+      "paymentSuccessSlice": {
+        "paymentSuccessPageData": null
+      },
+      "globalSlice": {
+        "isMobile": false,
+        "isIosApp": false,
+        "isSearchBarOpen": false,
+        "isAdvancedDropdownOpen": false,
+        "shoppingCartInformation": null,
+        "profile": null
+      }
+    }
+  },
+  "__N_SSP": true
+}
