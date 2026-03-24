@@ -3,18 +3,20 @@ from datetime import datetime
 from pydantic import BaseModel, HttpUrl
 
 class PriceInfo(BaseModel):
-    value: Optional[float] = None
-    text: Optional[str] = None
+    min_value: Optional[float] = None
+    max_value: Optional[float] = None
+    text: Optional[str] = None # e.g. "₺500 - ₺1200", "Free"
     currency: str = "TRY"
 
 class NormalizedSource(BaseModel):
     provider: str
     external_id: Optional[str] = None
-    title: str
+    title: str # Provider-specific title if different
+    description: Optional[str] = None # Provider-specific description
     source_url: HttpUrl
     deep_link_url: Optional[HttpUrl] = None
     price: PriceInfo = PriceInfo()
-    availability_status: str = "unknown"
+    ticket_status: str = "unknown" # on_sale, sold_out, coming_soon, free, unknown
     sales_start_at: Optional[datetime] = None
 
 class NormalizedOccurrence(BaseModel):

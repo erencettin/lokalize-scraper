@@ -228,6 +228,7 @@ class MobiletProvider(BaseProvider):
                 title=title,
                 source_url=source_url,
                 price=price_info,
+                ticket_status=self._resolve_ticket_status(hit)
             )
 
             occurrence = NormalizedOccurrence(
@@ -279,26 +280,36 @@ class MobiletProvider(BaseProvider):
 
     def _resolve_price(self, hit: dict) -> PriceInfo:
         """Extract price information from the API hit."""
-        min_price = hit.get("minPrice") or hit.get("price") or hit.get("eventProductPrice")
-        max_price = hit.get("maxPrice")
+        min_p = hit.get("minPrice") or hit.get("price") or hit.get("eventProductPrice")
+        max_p = hit.get("maxPrice")
 
-        if min_price is not None:
+        if min_p is not None:
             try:
-                val = float(min_price)
-                if val == 0:
-                    return PriceInfo(text="Ücretsiz", value=0, currency="TRY")
+                val_min = float(min_p)
+                val_max = float(max_p) if max_p else val_min
+                
+                if val_min == 0:
+                    return PriceInfo(text="Ücretsiz", min_value=0, max_value=0, currency="TRY")
 
-                if max_price and float(max_price) != val:
-                    text = f"{val:,.0f} - {float(max_price):,.0f} TL"
+                if val_max != val_min:
+                    text = f"{val_min:,.0f} - {val_max:,.0f} TL"
                 else:
-                    text = f"{val:,.0f} TL"
+                    text = f"{val_min:,.0f} TL"
 
-                return PriceInfo(text=text, value=val, currency="TRY")
+                return PriceInfo(text=text, min_value=val_min, max_value=val_max, currency="TRY")
             except (ValueError, TypeError):
                 pass
 
         is_free = hit.get("isFree") or hit.get("isFreeEvent")
         if is_free:
-            return PriceInfo(text="Ücretsiz", value=0, currency="TRY")
+            return PriceInfo(text="Ücretsiz", min_value=0, max_value=0, currency="TRY")
 
         return PriceInfo(text="Belirtilmemiş")
+
+    def _resolve_ticket_status(self, hit: dict) -> str:
+        """Determines ticket status from Mobilet hit data."""
+        if hit.get("isSoldOut"): return "sold_out"
+        if hit.get("isSalesClosed"): return "sold_out" # or unknown
+        if hit.get("isComingSoon"): return "coming_soon"
+        if hit.get("isFree"): return "free"
+        return "on_sale"

@@ -140,11 +140,21 @@ class EtkinlikIoProvider(BaseProvider):
             price_badge = soup.select_one('.badge-ucret')
             price_text = price_badge.get_text(strip=True) if price_badge else ("Ücretsiz" if "Ücretsiz" in description else "Bilinmiyor")
 
-            # Finalize
+             # Finalize
             local_date, local_time, tz = DateParser.to_local_parts(start_at_utc)
+            
+            # Determine ticket status
+            t_status = "on_sale" if bilet_btn else "unknown"
+            if "ücretsiz" in price_text.lower(): t_status = "free"
+            if "tükendi" in price_text.lower(): t_status = "sold_out"
+
             source = NormalizedSource(
-                provider=self.name, external_id=url.rstrip('/').split('/')[-1],
-                title=meta["title"], source_url=ticket_url, price=PriceInfo(text=price_text)
+                provider=self.name, 
+                external_id=url.rstrip('/').split('/')[-1],
+                title=meta["title"], 
+                source_url=ticket_url, 
+                price=PriceInfo(text=price_text),
+                ticket_status=t_status
             )
             occurrence = NormalizedOccurrence(
                 start_at_utc=start_at_utc, local_date=local_date, local_time=local_time,
