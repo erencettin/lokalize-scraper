@@ -3,7 +3,7 @@ name: Lokalize Event Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 */3 * * *' # Every 3 hours at 45m
+    - cron: "45 */3 * * *" # Every 3 hours at 45m
 
 jobs:
   scrape:
@@ -24,8 +24,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -39,7 +39,7 @@ jobs:
 
       - name: Run Scraper
         run: |
-          python main.py
+          python main.py --parallel
 
       - name: Upload Logs
         if: failure()
