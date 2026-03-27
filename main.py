@@ -1,120 +1,95 @@
 import logging
 import argparse
 from concurrent.futures import ThreadPoolExecutor
-from providers.kultur_istanbul import KulturIstanbulProvider
-from providers.etkinlik_io import EtkinlikIoProvider
-from providers.mobilet import MobiletProvider
-from providers.biletix import BiletixProvider
-from providers.passo import PassoProvider
+from providers.ticketmaster import TicketmasterProvider
+from providers.predicthq import PredictHQProvider
+from providers.municipal_rss import MunicipalRssProvider
+
 from services.sync_service import SyncService
 from datetime import datetime
 import pytz
+import uuid
 from config import settings
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def run_provider(provider, sync_service, run_start_time, total_stats, synced_cities):
-    """Executes the sync logic for a single provider."""
+def run_provider(provider, sync_service, sync_run_id, total_stats):
+    """Executes the fetch and bulk-sync logic for a single provider."""
     logging.info(f"Running provider: {provider.name}")
     
-    # Create Run Log
-    run_res = sync_service._supabase.create_run(provider.name, run_start_time.isoformat())
-    run_id = run_res.data[0]["id"] if run_res.data else None
-    
-    provider_stats = {"found": 0, "inserted": 0, "updated": 0, "failed": 0, "deactivated": 0}
+    provider_stats = {"found": 0, "synced": 0, "failed": 0}
     
     try:
         events = provider.fetch_and_parse()
         provider_stats["found"] = len(events)
         logging.info(f"Fetched {len(events)} events from {provider.name}")
         
-        provider_synced_cities = set()
-        for event in events:
-            event_stats = sync_service.sync_event(event)
-            provider_stats["inserted"] += event_stats["inserted"]
-            provider_stats["updated"] += event_stats["updated"]
-            provider_stats["failed"] += event_stats["failed"]
-            
-            synced_cities.add(event.city_name)
-            provider_synced_cities.add(event.city_name)
+        if events:
+            success = sync_service.sync_events_to_backend_bulk(events, sync_run_id)
+            if success:
+                provider_stats["synced"] = len(events)
+            else:
+                provider_stats["failed"] = len(events)
         
-        # Cleanup stale sources for THIS provider
-        for city in provider_synced_cities:
-            deactivated = sync_service.deactivate_stale_sources(city, provider.name, run_start_time)
-            provider_stats["deactivated"] += deactivated
-        
-        # Finish Run Log (Success)
-        if run_id:
-            sync_service._supabase.finish_run(run_id, provider_stats, status="success")
-            
     except Exception as e:
-        logging.error(f"Provider {provider.name} failed: {e}")
-        if run_id:
-            sync_service._supabase.finish_run(run_id, provider_stats, status="failed", error_msg=str(e))
+        logging.error(
+            "Provider %s failed with %s. Sensitive details are redacted.",
+            provider.name,
+            type(e).__name__,
+        )
+        provider_stats["failed"] = 1 # Mark as failed
     
-    # Add to absolute totals (Thread-safe-ish for simple dict updates in this context)
-    for k in total_stats:
-        total_stats[k] += provider_stats[k]
+    # Add to absolute totals
+    for k in provider_stats:
+        if k in total_stats:
+            total_stats[k] += provider_stats[k]
 
 def main():
-    parser = argparse.ArgumentParser(description="Lokalize Scraper Orchestrator")
-    parser.add_argument("--provider", type=str, help="Run only a specific provider (e.g. Passo, Biletix)")
-    parser.add_argument("--list-providers", action="store_true", help="List all available providers and exit")
+    parser = argparse.ArgumentParser(description="Lokalize Scraper V4 Orchestrator")
+    parser.add_argument("--provider", type=str, help="Run only a specific provider")
     parser.add_argument("--parallel", action="store_true", help="Run providers in parallel")
     
     args = parser.parse_args()
 
     # 1. Register providers
     all_providers = [
-        KulturIstanbulProvider(),
-        EtkinlikIoProvider(),
-        MobiletProvider(),
-        BiletixProvider(),
-        PassoProvider()
+        TicketmasterProvider(),
+        PredictHQProvider(),
+        MunicipalRssProvider(),
     ]
-
-    if args.list_providers:
-        print("Available providers:")
-        for p in all_providers:
-            print(f" - {p.name}")
-        return
 
     # Filter providers if requested
     providers_to_run = all_providers
     if args.provider:
         providers_to_run = [p for p in all_providers if p.name.lower() == args.provider.lower()]
         if not providers_to_run:
-            logging.error(f"Provider '{args.provider}' not found.")
+            logging.error("Provider not found or disabled: %s", args.provider)
             return
 
-    logging.info(f"Starting Lokalize Scraper in {settings.sync_mode} mode")
-    logging.info(f"Providers to run: {[p.name for p in providers_to_run]}")
+    logging.info(f"Starting Lokalize V4 Sync (Mode: {settings.sync_mode})")
     
-    # 2. Initialize core services
+    # 2. Initialize sync service
     sync_service = SyncService()
+    sync_run_id = f"v4-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
     
     # 3. Execute
-    total_stats = {"found": 0, "inserted": 0, "updated": 0, "failed": 0, "deactivated": 0}
-    synced_cities = set() # Note: set() is thread-safe in CPython for add()
-    run_start_time = datetime.now(pytz.UTC)
-
+    total_stats = {"found": 0, "synced": 0, "failed": 0}
+    
     if args.parallel:
         logging.info("Running in parallel mode...")
-        with ThreadPoolExecutor(max_workers=len(providers_to_run)) as executor:
+        with ThreadPoolExecutor(max_workers=5) as executor: # Limiting parallel workers to avoid overloading local backend
             for provider in providers_to_run:
-                executor.submit(run_provider, provider, sync_service, run_start_time, total_stats, synced_cities)
+                executor.submit(run_provider, provider, sync_service, sync_run_id, total_stats)
     else:
         for provider in providers_to_run:
-            run_provider(provider, sync_service, run_start_time, total_stats, synced_cities)
+            run_provider(provider, sync_service, sync_run_id, total_stats)
 
-    # 4. Final Cleanup/Archive (Past dates & Orphaned items, scoped by city)
-    logging.info("Starting final lifecycle cleanup...")
-    for city in synced_cities:
-        sync_service.deactivate_expired_events(city)
-        orphaned = sync_service.cleanup_orphaned_items(city)
-        total_stats["deactivated"] += orphaned
+    # 4. Final Cleanup (Deactivate stale records NOT seen in this sync run)
+    if providers_to_run:
+        logging.info(f"Sync complete for RunId: {sync_run_id}. Triggering stale cleanup...")
+        sync_service.trigger_stale_cleanup(sync_run_id)
 
-    logging.info(f"Scrape completed. Stats: {total_stats}")
+    logging.info(f"V4 Aggregator Sync completed. Stats: {total_stats}")
 
 if __name__ == "__main__":
     main()

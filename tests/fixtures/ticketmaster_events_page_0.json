@@ -1,0 +1,87 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "id": "tm_event_1",
+        "name": "Istanbul Jazz Night",
+        "url": "https://www.ticketmaster.com/event/tm_event_1",
+        "dates": {
+          "start": {
+            "dateTime": "2026-06-10T18:30:00Z",
+            "localDate": "2026-06-10",
+            "localTime": "21:30:00"
+          }
+        },
+        "images": [
+          {
+            "url": "https://images.ticketmaster.com/small.jpg",
+            "width": 320
+          },
+          {
+            "url": "https://images.ticketmaster.com/large.jpg",
+            "width": 1024
+          }
+        ],
+        "priceRanges": [
+          {
+            "type": "standard",
+            "currency": "TRY",
+            "min": 250,
+            "max": 500
+          }
+        ],
+        "classifications": [
+          {
+            "segment": {
+              "name": "Music"
+            },
+            "genre": {
+              "name": "Jazz"
+            },
+            "subGenre": {
+              "name": "Live"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Zorlu PSM"
+            }
+          ]
+        }
+      },
+      {
+        "id": "tm_event_2",
+        "name": "Stand Up Istanbul",
+        "url": "https://www.ticketmaster.com/event/tm_event_2",
+        "dates": {
+          "start": {
+            "localDate": "2026-06-11",
+            "localTime": "20:00:00"
+          }
+        },
+        "classifications": [
+          {
+            "segment": {
+              "name": "Comedy"
+            }
+          }
+        ],
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Maximum Uniq Hall"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "page": {
+    "size": 2,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

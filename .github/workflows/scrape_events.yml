@@ -2,8 +2,8 @@ name: Lokalize Event Scraper
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "45 */3 * * *" # Every 3 hours at 45m
+  # schedule:
+  #   - cron: "45 */3 * * *" # Every 3 hours at 45m
 
 jobs:
   scrape:

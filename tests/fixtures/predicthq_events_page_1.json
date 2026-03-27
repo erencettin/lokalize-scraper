@@ -1,0 +1,35 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": "phq_1",
+      "title": "Istanbul Rock Concert",
+      "category": "concerts",
+      "start": "2026-08-10T18:30:00Z",
+      "labels": ["music", "rock"],
+      "entities": [
+        {
+          "name": "Harbiye Cemil Topuzlu Acik Hava Tiyatrosu",
+          "type": "venue"
+        }
+      ],
+      "local_rank_url": "https://control.predicthq.com/events/phq_1"
+    },
+    {
+      "id": "phq_2",
+      "title": "Istanbul Tech Expo",
+      "category": "expos",
+      "start": "2026-08-11T09:00:00Z",
+      "labels": ["expo"],
+      "entities": [
+        {
+          "name": "Istanbul Lutfi Kirdar",
+          "type": "venue"
+        }
+      ],
+      "local_rank_url": "https://control.predicthq.com/events/phq_2"
+    }
+  ]
+}
