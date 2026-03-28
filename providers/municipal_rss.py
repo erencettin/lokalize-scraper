@@ -1,10 +1,11 @@
+import hashlib
 import logging
 import re
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from email.utils import parsedate_to_datetime
-from typing import Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set
 from urllib.parse import urlparse
 
 import pytz
@@ -217,6 +218,9 @@ class MunicipalRssProvider(BaseProvider):
             excerpt = self._strip_html(str(entry.get("excerpt", {}).get("rendered", ""))).strip()
             content = self._strip_html(str(entry.get("content", {}).get("rendered", ""))).strip()
             date_raw = str(entry.get("date_gmt") or entry.get("date") or "").strip()
+            post_date = self._parse_pub_date(date_raw)
+            event_date = self._extract_wordpress_event_date(entry, content or excerpt, post_date)
+            venue = self._extract_wordpress_venue(entry, content)
             if not title or not link.startswith("http") or not date_raw:
                 continue
             items.append(
@@ -225,6 +229,8 @@ class MunicipalRssProvider(BaseProvider):
                     "link": link,
                     "description": excerpt or content or title,
                     "pubDate": date_raw,
+                    "eventDate": event_date.isoformat() if event_date else "",
+                    "venue": venue or "",
                     "category": "",
                 }
             )
@@ -357,7 +363,8 @@ class MunicipalRssProvider(BaseProvider):
         if not title or not link.startswith("http"):
             return None
 
-        start_at_utc = self._parse_pub_date(item.get("pubDate") or "")
+        event_date_source = item.get("eventDate") or item.get("pubDate") or ""
+        start_at_utc = self._parse_pub_date(event_date_source)
         if start_at_utc is None:
             return None
 
@@ -367,7 +374,7 @@ class MunicipalRssProvider(BaseProvider):
 
         source = NormalizedSource(
             provider=self.name,
-            external_id=f"rss-{hash(link)}",
+            external_id=self._build_external_id(link),
             title=title,
             source_url=link,
             price=PriceInfo(text="Fiyat bilgisi yok", currency="TRY"),
@@ -378,7 +385,7 @@ class MunicipalRssProvider(BaseProvider):
             local_date=local_date,
             local_time=local_time,
             timezone=timezone_name,
-            venue_name="Resmi Belediye Etkinlik Kaynagi",
+            venue_name=item.get("venue") or "Resmi Belediye Etkinlik Kaynagi",
             sources=[source],
         )
 
@@ -396,6 +403,12 @@ class MunicipalRssProvider(BaseProvider):
         if not raw:
             return None
         try:
+            if raw.isdigit():
+                return datetime.fromisoformat(self._timestamp_to_iso(float(raw)))
+            if re.match(r"^\d{4}-\d{2}-\d{2}$", raw):
+                raw = f"{raw}T00:00:00+03:00"
+            if re.match(r"^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}", raw):
+                raw = raw.replace(" ", "T", 1)
             if re.match(r"^\d{4}-\d{2}-\d{2}T", raw):
                 parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
                 if parsed.tzinfo is None:
@@ -449,6 +462,338 @@ class MunicipalRssProvider(BaseProvider):
 
     def _clean_text(self, value: str) -> str:
         return re.sub(r"\s+", " ", value).strip()
+
+    def _build_external_id(self, link: str) -> str:
+        digest = hashlib.sha256(link.encode("utf-8")).hexdigest()[:16]
+        return f"rss-{digest}"
+
+    def _extract_wordpress_event_date(
+        self,
+        entry: Dict[str, Any],
+        text: str,
+        post_date: Optional[datetime],
+    ) -> Optional[datetime]:
+        containers = [
+            entry,
+            entry.get("acf"),
+            entry.get("meta"),
+            entry.get("event"),
+            entry.get("event_listing"),
+        ]
+
+        for container in containers:
+            if not isinstance(container, dict):
+                continue
+
+            combined = self._extract_datetime_field(
+                container,
+                [
+                    "event_start_datetime",
+                    "event_start_date_time",
+                    "event_start",
+                    "start_datetime",
+                    "start_date_time",
+                    "start_at",
+                    "event_start_at",
+                ],
+            )
+            if combined:
+                parsed = self._parse_pub_date(combined)
+                if parsed:
+                    return parsed
+
+            date_value = self._extract_datetime_field(
+                container,
+                [
+                    "event_start_date",
+                    "event_date",
+                    "start_date",
+                    "startDate",
+                    "eventStartDate",
+                ],
+            )
+            time_value = self._extract_datetime_field(
+                container,
+                [
+                    "event_start_time",
+                    "start_time",
+                    "startTime",
+                    "eventStartTime",
+                    "time",
+                ],
+            )
+
+            if date_value:
+                combined_value = self._combine_date_time(date_value, time_value)
+                parsed = self._parse_pub_date(combined_value) if combined_value else None
+                if parsed:
+                    return parsed
+
+        return self._extract_date_from_content(text, post_date)
+
+    def _extract_wordpress_venue(self, entry: Dict[str, Any], text: str) -> Optional[str]:
+        containers = [
+            entry,
+            entry.get("acf"),
+            entry.get("meta"),
+            entry.get("event"),
+            entry.get("event_listing"),
+        ]
+        for container in containers:
+            if not isinstance(container, dict):
+                continue
+            value = self._extract_first_value(
+                container,
+                [
+                    "venue",
+                    "venue_name",
+                    "event_venue",
+                    "location",
+                    "place",
+                    "event_place",
+                ],
+            )
+            if value:
+                return value
+
+        match = re.search(
+            r"(Mekan|Yer|Salon|Sahne|Venue)\s*[:\-]\s*([^|,\n\r]+)",
+            text,
+            re.IGNORECASE,
+        )
+        if match:
+            return self._clean_text(match.group(2))
+        return None
+
+    def _extract_datetime_from_text(self, text: str) -> Optional[str]:
+        if not text:
+            return None
+        cleaned = self._clean_text(text)
+        patterns = [
+            r"(\d{1,2}\s+[A-Za-zÃ‡ÄÄ°Ã–ÅÃœÃ§ÄŸÄ±Ã¶ÅŸÃ¼]+\s+\d{4}\s+\d{2}:\d{2})",
+            r"(\d{1,2}\s+[A-Za-zÃ‡ÄÄ°Ã–ÅÃœÃ§ÄŸÄ±Ã¶ÅŸÃ¼]+\s+\d{4})",
+            r"(\d{2}\.\d{2}\.\d{4}\s+\d{2}:\d{2})",
+            r"(\d{2}\.\d{2}\.\d{4})",
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, cleaned)
+            if match:
+                return match.group(1)
+        return None
+
+    def _extract_date_from_content(self, text: str, post_date: Optional[datetime]) -> Optional[datetime]:
+        if not text:
+            return None
+
+        normalized = self._normalize_turkish_text(self._clean_text(text))
+        month_map = {
+            self._normalize_turkish_text(key): value for key, value in self.TURKISH_MONTHS.items()
+        }
+        candidates: List[datetime] = []
+
+        range_pattern = re.compile(
+            r"(\d{1,2})\s*(?:[-–—/]\s*(\d{1,2})|\s+ve\s+(\d{1,2}))?\s+([a-z]+)(?:\s+(\d{4}))?"
+        )
+        for match in range_pattern.finditer(normalized):
+            day_start = int(match.group(1))
+            day_end = match.group(2) or match.group(3)
+            month_name = match.group(4)
+            year_value = match.group(5)
+            month = month_map.get(month_name)
+            if not month:
+                continue
+            year = int(year_value) if year_value else None
+            days = [day_start]
+            if day_end:
+                try:
+                    days.append(int(day_end))
+                except ValueError:
+                    pass
+            time_value = self._extract_time_after(normalized, match.end())
+            for day in days:
+                candidate = self._build_local_datetime(day, month, year, time_value, post_date)
+                if candidate:
+                    candidates.append(candidate)
+
+        numeric_patterns = [
+            re.compile(r"(\d{2})\.(\d{2})\.(\d{4})"),
+            re.compile(r"(\d{2})/(\d{2})/(\d{4})"),
+        ]
+        for pattern in numeric_patterns:
+            for match in pattern.finditer(normalized):
+                day = int(match.group(1))
+                month = int(match.group(2))
+                year = int(match.group(3))
+                time_value = self._extract_time_after(normalized, match.end())
+                candidate = self._build_local_datetime(day, month, year, time_value, post_date)
+                if candidate:
+                    candidates.append(candidate)
+
+        if not candidates:
+            return None
+
+        now_local = datetime.now(self.ISTANBUL_TZ)
+        reference = post_date.astimezone(self.ISTANBUL_TZ) if post_date else now_local
+        if reference < now_local:
+            reference = now_local
+        future_candidates = [dt for dt in candidates if dt.date() >= reference.date()]
+        if future_candidates:
+            future_candidates.sort()
+            return future_candidates[0].astimezone(pytz.UTC)
+
+        candidates.sort()
+        return candidates[0].astimezone(pytz.UTC)
+
+    def _build_local_datetime(
+        self,
+        day: int,
+        month: int,
+        year: Optional[int],
+        time_value: Optional[tuple[int, int]],
+        post_date: Optional[datetime],
+    ) -> Optional[datetime]:
+        if year is None:
+            reference = post_date.astimezone(self.ISTANBUL_TZ) if post_date else datetime.now(self.ISTANBUL_TZ)
+            year = reference.year
+            try:
+                candidate = datetime(year, month, day)
+            except ValueError:
+                return None
+            if candidate.date() < reference.date():
+                year += 1
+
+        hour, minute = time_value if time_value else (0, 0)
+        try:
+            return self.ISTANBUL_TZ.localize(datetime(year, month, day, hour, minute))
+        except ValueError:
+            return None
+
+    def _extract_time_after(self, text: str, index: int) -> Optional[tuple[int, int]]:
+        window = text[index : index + 32]
+        match = re.search(r"(\d{1,2})[:\.](\d{2})", window)
+        if not match:
+            return None
+        hour = int(match.group(1))
+        minute = int(match.group(2))
+        if hour > 23 or minute > 59:
+            return None
+        return hour, minute
+
+    def _normalize_turkish_text(self, value: str) -> str:
+        text = value.lower()
+        return (
+            text.replace("\u0131", "i")
+            .replace("\u011f", "g")
+            .replace("\u00fc", "u")
+            .replace("\u015f", "s")
+            .replace("\u00f6", "o")
+            .replace("\u00e7", "c")
+        )
+
+    def _extract_datetime_field(self, container: Dict[str, Any], keys: List[str]) -> Optional[str]:
+        value = self._extract_first_value(container, keys)
+        if not value:
+            return None
+
+        if isinstance(value, (int, float)):
+            return self._timestamp_to_iso(value)
+
+        if isinstance(value, dict):
+            date_candidate = self._extract_datetime_from_mapping(value)
+            if date_candidate:
+                return date_candidate
+
+        value_text = str(value).strip()
+        if not value_text:
+            return None
+        return value_text
+
+    def _extract_first_value(self, container: Dict[str, Any], keys: List[str]) -> Optional[str]:
+        for key in keys:
+            if key not in container:
+                continue
+            value = container.get(key)
+            if isinstance(value, list) and value:
+                value = value[0]
+            if isinstance(value, dict):
+                rendered = value.get("rendered") if "rendered" in value else None
+                if rendered:
+                    return self._clean_text(str(rendered))
+                inner_value = value.get("value")
+                if inner_value:
+                    return self._clean_text(str(inner_value))
+                date_from_map = self._extract_datetime_from_mapping(value)
+                if date_from_map:
+                    return date_from_map
+            if value is None:
+                continue
+            text = self._clean_text(str(value))
+            if text:
+                return text
+        return None
+
+    def _combine_date_time(self, date_value: str, time_value: Optional[str]) -> Optional[str]:
+        date_text = self._clean_text(date_value)
+        if not date_text:
+            return None
+
+        if time_value:
+            time_text = self._clean_text(time_value)
+        else:
+            time_text = ""
+
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", date_text):
+            if time_text:
+                return f"{date_text}T{time_text}:00+03:00"
+            return f"{date_text}T00:00:00+03:00"
+
+        if time_text and re.match(r"^\d{2}:\d{2}$", time_text):
+            return f"{date_text} {time_text}"
+
+        return date_text
+
+    def _extract_datetime_from_mapping(self, value: Dict[str, Any]) -> Optional[str]:
+        date_keys = [
+            "date",
+            "start_date",
+            "startDate",
+            "event_date",
+            "eventDate",
+            "start",
+            "start_at",
+            "startAt",
+        ]
+        time_keys = [
+            "time",
+            "start_time",
+            "startTime",
+            "event_time",
+            "eventTime",
+        ]
+
+        date_value = self._extract_first_value(value, date_keys)
+        time_value = self._extract_first_value(value, time_keys)
+        if date_value:
+            combined = self._combine_date_time(date_value, time_value)
+            if combined:
+                return combined
+
+        text_candidates = []
+        for item in value.values():
+            if isinstance(item, str):
+                text_candidates.append(item)
+            elif isinstance(item, (int, float)):
+                text_candidates.append(str(item))
+        if text_candidates:
+            return self._extract_datetime_from_text(" ".join(text_candidates))
+
+        return None
+
+    def _timestamp_to_iso(self, value: float) -> str:
+        timestamp = float(value)
+        if timestamp > 100000000000:
+            timestamp /= 1000.0
+        return datetime.utcfromtimestamp(timestamp).replace(tzinfo=pytz.UTC).isoformat()
 
     def _text(self, node: Optional[ET.Element]) -> str:
         if node is None or node.text is None:

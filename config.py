@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     ticketmaster_max_pages: int = Field(3, alias="TICKETMASTER_MAX_PAGES")
     ticketmaster_timeout_seconds: int = Field(20, alias="TICKETMASTER_TIMEOUT_SECONDS")
     ticketmaster_max_retries: int = Field(3, alias="TICKETMASTER_MAX_RETRIES")
+    ticketmaster_detail_price_enabled: bool = Field(False, alias="TICKETMASTER_DETAIL_PRICE_ENABLED")
+    ticketmaster_detail_price_limit: int = Field(0, alias="TICKETMASTER_DETAIL_PRICE_LIMIT")
+    ticketmaster_detail_price_timeout_seconds: int = Field(15, alias="TICKETMASTER_DETAIL_PRICE_TIMEOUT_SECONDS")
+    ticketmaster_detail_price_max_retries: int = Field(2, alias="TICKETMASTER_DETAIL_PRICE_MAX_RETRIES")
 
     # PredictHQ Provider Config
     predicthq_access_token: str = Field("", alias="PREDICTHQ_ACCESS_TOKEN")

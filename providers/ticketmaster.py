@@ -40,6 +40,7 @@ class TicketmasterProvider(BaseProvider):
         super().__init__("Ticketmaster", mode="http")
         self.logger = logging.getLogger(__name__)
         self.session: Optional[requests.Session] = None
+        self._detail_price_calls = 0
 
     def fetch_and_parse(self) -> List[NormalizedEvent]:
         if not settings.ticketmaster_enabled:
@@ -163,6 +164,7 @@ class TicketmasterProvider(BaseProvider):
             "size": max(settings.ticketmaster_size, 1),
             "page": max(page, 0),
             "sort": "date,asc",
+            "include": "priceRanges",
         }
 
         last_error: Optional[str] = None
@@ -226,6 +228,88 @@ class TicketmasterProvider(BaseProvider):
         self.logger.error("Ticketmaster: all retries failed page=%s last_error=%s", page, last_error)
         return None
 
+    def _can_fetch_detail_price(self) -> bool:
+        if not settings.ticketmaster_detail_price_enabled:
+            return False
+        limit = max(settings.ticketmaster_detail_price_limit, 0)
+        if limit == 0:
+            return False
+        return self._detail_price_calls < limit
+
+    def _fetch_event_detail(self, event_id: str) -> Optional[Dict[str, Any]]:
+        if self.session is None:
+            raise RuntimeError("Ticketmaster session is not initialized")
+
+        url = f"{self.BASE_URL}events/{event_id}.json"
+        params = {
+            "apikey": settings.ticketmaster_api_key,
+            "include": "priceRanges",
+        }
+
+        last_error: Optional[str] = None
+        max_retries = max(settings.ticketmaster_detail_price_max_retries, 1)
+        timeout_seconds = max(settings.ticketmaster_detail_price_timeout_seconds, 1)
+
+        for attempt in range(1, max_retries + 1):
+            try:
+                response = self.session.get(url, params=params, timeout=timeout_seconds)
+
+                if response.status_code in (401, 403):
+                    self.logger.error(
+                        "Ticketmaster: detail auth failed event_id=%s status=%s",
+                        event_id,
+                        response.status_code,
+                    )
+                    return None
+
+                if response.status_code == 429:
+                    backoff = float(attempt)
+                    self.logger.warning(
+                        "Ticketmaster: detail rate limited event_id=%s attempt=%s/%s backoff=%.1fs",
+                        event_id,
+                        attempt,
+                        max_retries,
+                        backoff,
+                    )
+                    time.sleep(backoff)
+                    continue
+
+                if response.status_code != 200:
+                    preview = (response.text or "")[:200]
+                    self.logger.warning(
+                        "Ticketmaster: detail fetch failed event_id=%s status=%s body=%s",
+                        event_id,
+                        response.status_code,
+                        preview,
+                    )
+                    return None
+
+                self._detail_price_calls += 1
+                payload = response.json()
+                if isinstance(payload, dict):
+                    return payload
+                return None
+            except Exception as exc:
+                last_error = self._safe_error(exc)
+                self.logger.warning(
+                    "Ticketmaster: detail fetch failed event_id=%s attempt=%s/%s error=%s",
+                    event_id,
+                    attempt,
+                    max_retries,
+                    last_error,
+                )
+
+        self.logger.warning(
+            "Ticketmaster: detail fetch exhausted event_id=%s error=%s",
+            event_id,
+            last_error,
+        )
+        return None
+
+    @staticmethod
+    def _needs_price_fallback(price: PriceInfo) -> bool:
+        return price.min_value is None and price.max_value is None
+
     def _extract_page_payload(self, payload: Dict[str, Any]) -> Dict[str, Any]:
         embedded = payload.get("_embedded") or {}
         events = embedded.get("events") or []
@@ -285,6 +369,12 @@ class TicketmasterProvider(BaseProvider):
         local_date, local_time, timezone_name = DateParser.to_local_parts(parsed_date)
         venue_name = self._extract_venue_name(raw_event)
         price = self._extract_price(raw_event)
+        if self._needs_price_fallback(price) and self._can_fetch_detail_price():
+            detail_payload = self._fetch_event_detail(event_id)
+            if detail_payload is not None:
+                detail_price = self._extract_price(detail_payload)
+                if not self._needs_price_fallback(detail_price):
+                    price = detail_price
 
         source = NormalizedSource(
             provider=self.name,

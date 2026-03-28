@@ -2,24 +2,64 @@ name: Lokalize Event Scraper
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "45 */3 * * *" # Every 3 hours at 45m
+    inputs:
+      sync_mode:
+        description: "Sync mode (live | dry_run)"
+        required: false
+        default: "live"
+  schedule:
+    - cron: "17 */3 * * *" # Every 3 hours at minute 17
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     concurrency:
       group: scraper
       cancel-in-progress: true
+    permissions:
+      contents: read
 
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      SYNC_MODE: live # Default to live, can be overridden via dispatch if needed
+      SYNC_MODE: ${{ github.event.inputs.sync_mode || 'live' }}
+      PYTHONUNBUFFERED: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+      TICKETMASTER_ENABLED: ${{ secrets.TICKETMASTER_API_KEY != '' }}
+      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+      TICKETMASTER_COUNTRY_CODE: "TR"
+      TICKETMASTER_CITY: "Istanbul"
+      TICKETMASTER_SIZE: "50"
+      TICKETMASTER_MAX_PAGES: "6"
+      TICKETMASTER_TIMEOUT_SECONDS: "20"
+      TICKETMASTER_MAX_RETRIES: "3"
+      TICKETMASTER_DETAIL_PRICE_ENABLED: "false"
+      TICKETMASTER_DETAIL_PRICE_LIMIT: "0"
+      TICKETMASTER_DETAIL_PRICE_TIMEOUT_SECONDS: "15"
+      TICKETMASTER_DETAIL_PRICE_MAX_RETRIES: "2"
+
+      PREDICTHQ_ENABLED: ${{ secrets.PREDICTHQ_ACCESS_TOKEN != '' }}
+      PREDICTHQ_ACCESS_TOKEN: ${{ secrets.PREDICTHQ_ACCESS_TOKEN }}
+      PREDICTHQ_QUERY: "istanbul"
+      PREDICTHQ_COUNTRY: "TR"
+      PREDICTHQ_LIMIT: "50"
+      PREDICTHQ_MAX_PAGES: "6"
+      PREDICTHQ_TIMEOUT_SECONDS: "20"
+      PREDICTHQ_MAX_RETRIES: "3"
+
+      MUNICIPAL_RSS_ENABLED: "true"
+      MUNICIPAL_RSS_URLS: "https://kultur.istanbul/etkinlikler/,https://kultursanat.istanbul/,https://kultur.istanbul/,https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Etkinlikler,https://orkestralar.ibb.istanbul/"
+      MUNICIPAL_RSS_CITY_NAME: "Istanbul"
+      MUNICIPAL_RSS_TIMEOUT_SECONDS: "20"
+      MUNICIPAL_RSS_MAX_RETRIES: "3"
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,15 +71,13 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Install Playwright Browsers (Conditional)
-        # Only install if any provider requires it. For now, KulturIstanbul is HTTP.
-        # But we'll keep it ready for future BROWSER mode providers.
+      - name: Add jitter to avoid rate spikes
         run: |
-          python -m playwright install --with-deps chromium
+          sleep $((RANDOM % 180))
 
       - name: Run Scraper
         run: |
-          python main.py --parallel
+          python main.py
 
       - name: Upload Logs
         if: failure()
