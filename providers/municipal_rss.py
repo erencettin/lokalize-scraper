@@ -3,7 +3,7 @@ import logging
 import re
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from typing import Any, Dict, List, Optional, Set
 from urllib.parse import urlparse
@@ -82,22 +82,35 @@ class MunicipalRssProvider(BaseProvider):
         try:
             events: List[NormalizedEvent] = []
             seen_keys: Set[str] = set()
-            for url in rss_urls:
+            for index, url in enumerate(rss_urls):
                 items = self._fetch_source_items(url)
                 self.logger.info("MunicipalRSS: feed=%s items=%s", url, len(items))
                 for item in items:
                     normalized = self._normalize_item(item)
                     if normalized is None:
                         continue
+                    if not self._is_within_lookahead(normalized.occurrences[0].start_at_utc):
+                        continue
                     key = f"{normalized.title.lower()}|{normalized.occurrences[0].local_date}|{normalized.occurrences[0].local_time}"
                     if key in seen_keys:
                         continue
                     seen_keys.add(key)
                     events.append(normalized)
+                if index < len(rss_urls) - 1:
+                    time.sleep(1.5)
             self.logger.info("MunicipalRSS: total parsed events=%s", len(events))
             return events
         finally:
             self._close_session()
+
+    def _is_within_lookahead(self, start_at_utc: datetime) -> bool:
+        now = datetime.now(pytz.UTC)
+        if start_at_utc < now:
+            return False
+        lookahead_days = max(settings.municipal_rss_lookahead_days, 0)
+        if lookahead_days == 0:
+            return True
+        return start_at_utc <= now + timedelta(days=lookahead_days)
 
     def _resolve_rss_urls(self) -> List[str]:
         raw = settings.municipal_rss_urls.strip()
@@ -111,11 +124,7 @@ class MunicipalRssProvider(BaseProvider):
         self.session.headers.update(
             {
                 "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/120.0.0.0 Safari/537.36"
-                ),
+                "User-Agent": "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)",
             }
         )
 
@@ -227,7 +236,7 @@ class MunicipalRssProvider(BaseProvider):
                 {
                     "title": title,
                     "link": link,
-                    "description": excerpt or content or title,
+                    "description": excerpt or title,
                     "pubDate": date_raw,
                     "eventDate": event_date.isoformat() if event_date else "",
                     "venue": venue or "",
@@ -389,9 +398,13 @@ class MunicipalRssProvider(BaseProvider):
             sources=[source],
         )
 
+        safe_desc = description or title
+        if len(safe_desc) > 250:
+            safe_desc = f"{safe_desc[:250].rstrip()}..."
+
         return NormalizedEvent(
             title=title,
-            description=description[:2000] if description else title,
+            description=safe_desc,
             type=event_type,
             city_name=city_name,
             image_url=None,

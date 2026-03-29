@@ -2,7 +2,6 @@ import logging
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 from providers.ticketmaster import TicketmasterProvider
-from providers.predicthq import PredictHQProvider
 from providers.municipal_rss import MunicipalRssProvider
 
 from services.sync_service import SyncService
@@ -54,7 +53,6 @@ def main():
     # 1. Register providers
     all_providers = [
         TicketmasterProvider(),
-        PredictHQProvider(),
         MunicipalRssProvider(),
     ]
 

@@ -1,6 +1,6 @@
 import logging
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 import pytz
@@ -84,17 +84,22 @@ class TicketmasterProvider(BaseProvider):
         finally:
             self._close_session()
 
+    def _is_within_lookahead(self, start_at_utc: datetime) -> bool:
+        now = datetime.now(pytz.UTC)
+        if start_at_utc < now:
+            return False
+        lookahead_days = max(settings.ticketmaster_lookahead_days, 0)
+        if lookahead_days == 0:
+            return True
+        return start_at_utc <= now + timedelta(days=lookahead_days)
+
     def _setup_session(self) -> None:
         self.session = requests.Session()
         self.session.headers.update(
             {
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/120.0.0.0 Safari/537.36"
-                ),
+                "User-Agent": settings.ticketmaster_user_agent.strip() or "LokalizeApp/1.0",
                 "Accept": "application/json",
-                "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Accept-Language": "tr-TR,tr;q=0.9",
             }
         )
         self._last_fetched_pages = 0
@@ -150,6 +155,10 @@ class TicketmasterProvider(BaseProvider):
             if isinstance(total_pages, int) and page + 1 >= total_pages:
                 self.logger.info("Ticketmaster: reached remote last page=%s", total_pages - 1)
                 break
+
+            delay_seconds = max(settings.ticketmaster_page_delay_seconds, 0.0)
+            if delay_seconds > 0:
+                time.sleep(delay_seconds)
 
         return events
 
@@ -336,6 +345,8 @@ class TicketmasterProvider(BaseProvider):
 
         occurrence = self._build_occurrence(raw_event, title, event_id, source_url)
         if occurrence is None:
+            return None
+        if not self._is_within_lookahead(occurrence.start_at_utc):
             return None
 
         description = self._build_description(raw_event)

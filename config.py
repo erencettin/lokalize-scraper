@@ -20,26 +20,19 @@ class Settings(BaseSettings):
     # Ticketmaster Provider Config
     ticketmaster_api_key: str = Field("", alias="TICKETMASTER_API_KEY")
     ticketmaster_enabled: bool = Field(False, alias="TICKETMASTER_ENABLED")
+    ticketmaster_user_agent: str = Field("LokalizeApp/1.0", alias="TICKETMASTER_USER_AGENT")
     ticketmaster_country_code: str = Field("TR", alias="TICKETMASTER_COUNTRY_CODE")
     ticketmaster_city: str = Field("Istanbul", alias="TICKETMASTER_CITY")
     ticketmaster_size: int = Field(50, alias="TICKETMASTER_SIZE")
     ticketmaster_max_pages: int = Field(3, alias="TICKETMASTER_MAX_PAGES")
+    ticketmaster_page_delay_seconds: float = Field(1.0, alias="TICKETMASTER_PAGE_DELAY_SECONDS")
     ticketmaster_timeout_seconds: int = Field(20, alias="TICKETMASTER_TIMEOUT_SECONDS")
     ticketmaster_max_retries: int = Field(3, alias="TICKETMASTER_MAX_RETRIES")
     ticketmaster_detail_price_enabled: bool = Field(False, alias="TICKETMASTER_DETAIL_PRICE_ENABLED")
     ticketmaster_detail_price_limit: int = Field(0, alias="TICKETMASTER_DETAIL_PRICE_LIMIT")
     ticketmaster_detail_price_timeout_seconds: int = Field(15, alias="TICKETMASTER_DETAIL_PRICE_TIMEOUT_SECONDS")
     ticketmaster_detail_price_max_retries: int = Field(2, alias="TICKETMASTER_DETAIL_PRICE_MAX_RETRIES")
-
-    # PredictHQ Provider Config
-    predicthq_access_token: str = Field("", alias="PREDICTHQ_ACCESS_TOKEN")
-    predicthq_enabled: bool = Field(False, alias="PREDICTHQ_ENABLED")
-    predicthq_query: str = Field("istanbul", alias="PREDICTHQ_QUERY")
-    predicthq_country: str = Field("TR", alias="PREDICTHQ_COUNTRY")
-    predicthq_limit: int = Field(50, alias="PREDICTHQ_LIMIT")
-    predicthq_max_pages: int = Field(3, alias="PREDICTHQ_MAX_PAGES")
-    predicthq_timeout_seconds: int = Field(20, alias="PREDICTHQ_TIMEOUT_SECONDS")
-    predicthq_max_retries: int = Field(3, alias="PREDICTHQ_MAX_RETRIES")
+    ticketmaster_lookahead_days: int = Field(120, alias="TICKETMASTER_LOOKAHEAD_DAYS")
 
     # Municipal Open Data / RSS Provider Config
     municipal_rss_enabled: bool = Field(False, alias="MUNICIPAL_RSS_ENABLED")
@@ -47,6 +40,7 @@ class Settings(BaseSettings):
     municipal_rss_city_name: str = Field("Istanbul", alias="MUNICIPAL_RSS_CITY_NAME")
     municipal_rss_timeout_seconds: int = Field(20, alias="MUNICIPAL_RSS_TIMEOUT_SECONDS")
     municipal_rss_max_retries: int = Field(3, alias="MUNICIPAL_RSS_MAX_RETRIES")
+    municipal_rss_lookahead_days: int = Field(120, alias="MUNICIPAL_RSS_LOOKAHEAD_DAYS")
 
     class Config:
         env_file = ".env"
