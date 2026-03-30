@@ -3,8 +3,11 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 from providers.ticketmaster import TicketmasterProvider
 from providers.municipal_rss import MunicipalRssProvider
+from providers.municipal_web import MunicipalWebProvider
 
 from services.sync_service import SyncService
+from services.events_sync_service import EventsSyncService
+from services.nearby_sync_service import NearbySyncService
 from datetime import datetime
 import pytz
 import uuid
@@ -47,13 +50,16 @@ def main():
     parser = argparse.ArgumentParser(description="Lokalize Scraper V4 Orchestrator")
     parser.add_argument("--provider", type=str, help="Run only a specific provider")
     parser.add_argument("--parallel", action="store_true", help="Run providers in parallel")
+    parser.add_argument("--dry-run", action="store_true", help="Fetch and normalize data without persisting")
     
     args = parser.parse_args()
+    dry_run = args.dry_run or settings.sync_mode.lower() == "dry_run"
 
     # 1. Register providers
     all_providers = [
         TicketmasterProvider(),
         MunicipalRssProvider(),
+        MunicipalWebProvider(),
     ]
 
     # Filter providers if requested
@@ -64,7 +70,7 @@ def main():
             logging.error("Provider not found or disabled: %s", args.provider)
             return
 
-    logging.info(f"Starting Lokalize V4 Sync (Mode: {settings.sync_mode})")
+    logging.info(f"Starting Lokalize V4 Sync (Mode: {'dry_run' if dry_run else settings.sync_mode})")
     
     # 2. Initialize sync service
     sync_service = SyncService()
@@ -87,6 +93,30 @@ def main():
         logging.info(f"Sync complete for RunId: {sync_run_id}. Triggering stale cleanup...")
         sync_service.trigger_stale_cleanup(sync_run_id)
 
+    # 5. Nearby Places and Nearby Events (SerpAPI)
+    nearby_service = NearbySyncService()
+    nearby_events_service = EventsSyncService()
+
+    nearby_stats = nearby_service.run(dry_run=dry_run, city=settings.serpapi_city)
+    nearby_events_stats = nearby_events_service.run(dry_run=dry_run, city=settings.serpapi_city)
+
+    logging.info(
+        "Nearby sync summary: places(fetched=%s saved=%s deactivated=%s failed=%s requests=%s) "
+        "events(fetched=%s saved=%s deactivated=%s failed=%s requests=%s)",
+        nearby_stats.fetched,
+        nearby_stats.saved,
+        nearby_stats.deactivated,
+        nearby_stats.failed,
+        nearby_stats.request_count,
+        nearby_events_stats.fetched,
+        nearby_events_stats.saved,
+        nearby_events_stats.deactivated,
+        nearby_events_stats.failed,
+        nearby_events_stats.request_count,
+    )
+
+    total_serpapi_requests = nearby_stats.request_count + nearby_events_stats.request_count
+    logging.info("Daily SerpAPI usage: total_requests=%s", total_serpapi_requests)
     logging.info(f"V4 Aggregator Sync completed. Stats: {total_stats}")
 
 if __name__ == "__main__":

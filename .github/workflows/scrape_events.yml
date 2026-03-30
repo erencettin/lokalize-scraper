@@ -8,7 +8,7 @@ on:
         required: false
         default: "live"
   schedule:
-    - cron: "17 */6 * * *" # Every 6 hours at minute 17
+    - cron: "0 5 * * *" # Daily 08:00 Europe/Istanbul (UTC+3)
 
 jobs:
   scrape:
@@ -26,9 +26,6 @@ jobs:
       SYNC_MODE: ${{ github.event.inputs.sync_mode || 'live' }}
       PYTHONUNBUFFERED: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
-
-      TICKETMASTER_ENABLED: ${{ secrets.TICKETMASTER_API_KEY != '' }}
-      TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       TICKETMASTER_USER_AGENT: "LokalizeApp/1.0 (contact: you@example.com)"
       TICKETMASTER_COUNTRY_CODE: "TR"
       TICKETMASTER_CITY: "Istanbul"
@@ -49,6 +46,9 @@ jobs:
       MUNICIPAL_RSS_TIMEOUT_SECONDS: "20"
       MUNICIPAL_RSS_MAX_RETRIES: "3"
       MUNICIPAL_RSS_LOOKAHEAD_DAYS: "120"
+      SERPAPI_CITY: "Istanbul"
+      SERPAPI_TIMEOUT_SECONDS: "30"
+      SERPAPI_MAX_ATTEMPTS: "2"
 
     steps:
       - name: Checkout Code
@@ -71,6 +71,10 @@ jobs:
           sleep $((RANDOM % 180))
 
       - name: Run Scraper
+        env:
+          TICKETMASTER_ENABLED: "true"
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: |
           python main.py
 

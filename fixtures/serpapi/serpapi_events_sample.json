@@ -1,0 +1,50 @@
+{
+  "events_results": [
+    {
+      "title": "Istanbul Jazz Night",
+      "event_id": "evt_001",
+      "description": "Live jazz concert with international artists.",
+      "date": {
+        "start_date": "2026-05-14"
+      },
+      "address": [
+        "Zorlu PSM",
+        "Besiktas, Istanbul"
+      ],
+      "venue": {
+        "name": "Zorlu PSM"
+      },
+      "link": "https://example.com/events/jazz-night",
+      "ticket_info": [
+        [
+          "Biletix",
+          "500 TRY"
+        ]
+      ],
+      "thumbnail": "https://example.com/jazz-thumb.jpg"
+    },
+    {
+      "title": "Istanbul Marathon Fun Run",
+      "event_id": "evt_002",
+      "description": "Outdoor city run event.",
+      "date": {
+        "start_date": "2026-10-11"
+      },
+      "address": [
+        "Sarayburnu",
+        "Fatih, Istanbul"
+      ],
+      "venue": {
+        "name": "Sarayburnu"
+      },
+      "link": "https://example.com/events/fun-run",
+      "ticket_info": [
+        [
+          "Passo",
+          "Free"
+        ]
+      ],
+      "thumbnail": "https://example.com/run-thumb.jpg"
+    }
+  ]
+}

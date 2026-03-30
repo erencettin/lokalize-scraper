@@ -35,3 +35,15 @@ class NormalizedEvent(BaseModel):
     city_name: str
     image_url: Optional[HttpUrl] = None
     occurrences: List[NormalizedOccurrence] = []
+    source: str = "unknown"
+    external_id: Optional[str] = None
+    category: Optional[str] = None
+    address: Optional[str] = None
+    venue: Optional[str] = None
+    link: Optional[HttpUrl] = None
+    source_url: Optional[HttpUrl] = None
+    ticket_info: Optional[str] = None
+    thumbnail_url: Optional[HttpUrl] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
+    fetched_at: Optional[datetime] = None

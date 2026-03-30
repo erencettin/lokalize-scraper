@@ -1,6 +1,13 @@
 from typing import Optional, List, Tuple
-from utils.text_normalizer import TextNormalizer
+
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence
+from utils.text_normalizer import TextNormalizer
+
+
+def build_occurrence_dedup_key(title: str, local_date: str, local_time: str) -> str:
+    """Build a stable key used by providers for local occurrence de-duplication."""
+    normalized_title = TextNormalizer.normalize_for_match(title)
+    return f"{normalized_title}|{local_date}|{local_time}"
 
 class MatchingService:
     def __init__(self, existing_items: List[dict]):
@@ -34,3 +41,11 @@ class MatchingService:
                 return item, "probable"
 
         return None, "weak"
+
+    @staticmethod
+    def build_occurrence_dedup_key(event: NormalizedEvent) -> str:
+        """Build a stable key used by providers for local occurrence de-duplication."""
+        if not event.occurrences:
+            return TextNormalizer.normalize_for_match(event.title)
+        occurrence = event.occurrences[0]
+        return build_occurrence_dedup_key(event.title, occurrence.local_date, occurrence.local_time)

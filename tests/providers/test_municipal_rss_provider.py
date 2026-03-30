@@ -46,9 +46,10 @@ def test_parse_rss_success():
     _set_defaults()
     provider = MunicipalRssProvider()
     provider.session = DummySession([DummyResponse(status_code=200, text=_load_fixture())])
-    items = provider._fetch_feed_items("https://example.ibb.gov.tr/rss.xml")
+    source = provider._registry.get_sources()[0]
+    items = provider._fetch_source_items(source)
     assert len(items) == 2
-    event = provider._normalize_item(items[0])
+    event = provider._builder.build(items[0])
     assert event is not None
     assert event.type == "concert"
     assert event.city_name == "Istanbul"
@@ -58,7 +59,8 @@ def test_invalid_xml_returns_empty():
     _set_defaults()
     provider = MunicipalRssProvider()
     provider.session = DummySession([DummyResponse(status_code=200, text="<rss><broken>")])
-    items = provider._fetch_feed_items("https://example.ibb.gov.tr/rss.xml")
+    source = provider._registry.get_sources()[0]
+    items = provider._fetch_source_items(source)
     assert items == []
 
 

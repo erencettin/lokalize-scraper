@@ -1,29 +1,43 @@
+"""Text normalization helpers shared across providers and services."""
+
+from __future__ import annotations
+
+import html as html_module
 import re
 import unicodedata
 
 
+def clean_text(value: str) -> str:
+    """Collapse whitespace and trim leading/trailing blanks."""
+    decoded = html_module.unescape(value or "")
+    return re.sub(r"\s+", " ", decoded).strip()
+
+
+def strip_html(value: str) -> str:
+    """Remove HTML tags and return normalized plain text."""
+    return clean_text(re.sub(r"<[^>]+>", " ", value or ""))
+
+
+def _fix_mojibake(text: str) -> str:
+    if not text or ("\u00c3" not in text and "\u00c4" not in text and "\u00c5" not in text):
+        return text
+    try:
+        return text.encode("latin1").decode("utf-8")
+    except UnicodeError:
+        return text
+
+
 class TextNormalizer:
+    """Backward-compatible normalization utilities for matching logic."""
+
     @staticmethod
     def normalize_for_match(text: str) -> str:
-        """
-        Standard normalization for string comparison:
-        - Fix common mojibake when possible
-        - Lowercase
-        - Strip whitespace
-        - Normalize unicode characters (remove accents)
-        - Remove non-alphanumeric noise
-        """
         if not text:
             return ""
 
-        text = TextNormalizer._fix_mojibake(text)
-
-        # Convert to lowercase and strip
-        text = text.lower().strip()
-
-        # Normalize Turkish characters to ASCII
-        text = (
-            text.replace("\u0131", "i")
+        normalized = _fix_mojibake(text).lower().strip()
+        normalized = (
+            normalized.replace("\u0131", "i")
             .replace("\u0307", "")
             .replace("\u011f", "g")
             .replace("\u00fc", "u")
@@ -31,50 +45,20 @@ class TextNormalizer:
             .replace("\u00f6", "o")
             .replace("\u00e7", "c")
         )
-
-        # Normalize unicode (NFD) and filter out non-spacing marks
-        text = "".join(
-            c for c in unicodedata.normalize("NFD", text)
-            if unicodedata.category(c) != "Mn"
+        normalized = "".join(
+            char for char in unicodedata.normalize("NFD", normalized) if unicodedata.category(char) != "Mn"
         )
-
-        # Remove punctuation/noise using regex
-        text = re.sub(r"[^\w\s]", "", text)
-
-        # Collapse multiple spaces
-        text = re.sub(r"\s+", " ", text).strip()
-
-        return text
+        normalized = re.sub(r"[^\w\s]", "", normalized)
+        return clean_text(normalized)
 
     @staticmethod
     def generate_logical_key(title: str, city: str) -> str:
-        """
-        Generates a stable, deterministic key for grouping event occurrences.
-        Format: type-title-city (e.g., concert-duman-istanbul)
-        """
         norm_title = TextNormalizer.normalize_for_match(title).replace(" ", "-")
         norm_city = TextNormalizer.normalize_for_match(city).replace(" ", "-")
         return f"{norm_title}-{norm_city}"
 
     @staticmethod
     def generate_fingerprint(title: str, venue: str, local_date: str, local_time: str) -> str:
-        """
-        Generates a unique fingerprint for a specific occurrence (Event + Date + Venue).
-        """
         norm_title = TextNormalizer.normalize_for_match(title)
         norm_venue = TextNormalizer.normalize_for_match(venue)
         return f"{norm_title}|{norm_venue}|{local_date}|{local_time}"
-
-    @staticmethod
-    def _fix_mojibake(text: str) -> str:
-        if not text:
-            return text
-
-        # Heuristic: if mojibake markers exist, try Latin1 -> UTF8 repair.
-        if "\u00c3" not in text and "\u00c4" not in text and "\u00c5" not in text:
-            return text
-
-        try:
-            return text.encode("latin1").decode("utf-8")
-        except UnicodeError:
-            return text

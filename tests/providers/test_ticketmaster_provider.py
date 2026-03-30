@@ -3,6 +3,10 @@ from pathlib import Path
 
 from config import settings
 from providers.ticketmaster import TicketmasterProvider
+from providers.ticketmaster.event_builder import EventBuilder
+from providers.ticketmaster.http_client import TicketmasterHttpClient
+from providers.ticketmaster.price_extractor import PriceExtractor
+from providers.ticketmaster.response_parser import ResponseParser
 
 
 class DummyResponse:
@@ -31,11 +35,7 @@ class DummySession:
 
 
 def _load_fixture() -> dict:
-    fixture_path = (
-        Path(__file__).resolve().parent.parent
-        / "fixtures"
-        / "ticketmaster_events_page_0.json"
-    )
+    fixture_path = Path(__file__).resolve().parent.parent / "fixtures" / "ticketmaster_events_page_0.json"
     return json.loads(fixture_path.read_text(encoding="utf-8"))
 
 
@@ -48,17 +48,21 @@ def _set_enabled_defaults():
     settings.ticketmaster_max_pages = 2
     settings.ticketmaster_max_retries = 2
     settings.ticketmaster_timeout_seconds = 5
+    settings.ticketmaster_page_delay_seconds = 0.0
+    settings.ticketmaster_lookahead_days = 5000
+    settings.ticketmaster_detail_price_enabled = False
+    settings.ticketmaster_detail_price_limit = 0
 
 
 def test_ticketmaster_parse_success():
     _set_enabled_defaults()
-    provider = TicketmasterProvider()
+    parser = ResponseParser()
+    builder = EventBuilder(price_extractor=PriceExtractor())
+    events, total_pages = parser.parse_page_response(_load_fixture())
 
-    payload = _load_fixture()
-    parsed = provider._extract_page_payload(payload)
-    assert len(parsed["events"]) == 2
-
-    first = provider._normalize_event(parsed["events"][0])
+    assert len(events) == 2
+    assert total_pages == 1
+    first = builder.build(events[0])
     assert first is not None
     assert first.title == "Istanbul Jazz Night"
     assert first.type == "concert"
@@ -67,38 +71,35 @@ def test_ticketmaster_parse_success():
 
 def test_ticketmaster_missing_fields_skips_safely():
     _set_enabled_defaults()
-    provider = TicketmasterProvider()
-
+    parser = ResponseParser()
+    builder = EventBuilder()
     event = {
         "id": "event_without_url",
         "name": "Broken Event",
         "dates": {"start": {"dateTime": "2026-06-10T18:30:00Z"}},
     }
-    assert provider._normalize_event(event) is None
+    parsed = parser.parse_event(event)
+    assert parsed is not None
+    assert builder.build(parsed) is None
 
 
 def test_ticketmaster_empty_response():
-    _set_enabled_defaults()
-    provider = TicketmasterProvider()
-
-    parsed = provider._extract_page_payload({"page": {"totalPages": 0}})
-    assert parsed["events"] == []
-    assert parsed["total_pages"] == 0
+    parser = ResponseParser()
+    events, total_pages = parser.parse_page_response({"page": {"totalPages": 0}})
+    assert events == []
+    assert total_pages == 0
 
 
 def test_ticketmaster_auth_error_returns_none():
     _set_enabled_defaults()
     provider = TicketmasterProvider()
     provider.session = DummySession([DummyResponse(status_code=401, payload={})])
-
-    result = provider._fetch_page(0)
-    assert result is None
+    assert provider._fetch_page(0) is None
 
 
 def test_ticketmaster_pagination_stops_on_last_page(monkeypatch):
     _set_enabled_defaults()
-    provider = TicketmasterProvider()
-
+    client = TicketmasterHttpClient()
     pages = [
         {"events": [{"id": "e1"}, {"id": "e2"}], "total_pages": 2},
         {"events": [{"id": "e3"}], "total_pages": 2},
@@ -107,18 +108,16 @@ def test_ticketmaster_pagination_stops_on_last_page(monkeypatch):
     def fake_fetch_page(page):
         return pages[page] if page < len(pages) else {"events": [], "total_pages": 2}
 
-    provider._last_fetched_pages = 0
-    monkeypatch.setattr(provider, "_fetch_page", fake_fetch_page)
-    events = provider._fetch_all_events()
-
+    monkeypatch.setattr(client, "fetch_page", fake_fetch_page)
+    events = client.fetch_all_pages()
     assert len(events) == 3
-    assert provider._last_fetched_pages == 2
+    assert client.last_fetched_pages == 2
 
 
 def test_ticketmaster_category_mapping():
     _set_enabled_defaults()
-    provider = TicketmasterProvider()
-
+    parser = ResponseParser()
+    builder = EventBuilder()
     event = {
         "id": "event_1",
         "name": "Comedy Night",
@@ -127,7 +126,19 @@ def test_ticketmaster_category_mapping():
         "classifications": [{"segment": {"name": "Comedy"}}],
         "_embedded": {"venues": [{"name": "Test Venue"}]},
     }
-
-    normalized = provider._normalize_event(event)
+    parsed = parser.parse_event(event)
+    normalized = builder.build(parsed) if parsed is not None else None
     assert normalized is not None
     assert normalized.type == "standup"
+
+
+def test_ticketmaster_normalize_event_without_session():
+    _set_enabled_defaults()
+    settings.ticketmaster_detail_price_enabled = True
+    settings.ticketmaster_detail_price_limit = 5
+    provider = TicketmasterProvider()
+    payload = _load_fixture()
+    event = payload["_embedded"]["events"][0]
+    normalized = provider._normalize_event(event)
+    assert normalized is not None
+    assert normalized.title == "Istanbul Jazz Night"

@@ -5,6 +5,20 @@ from pydantic_settings import BaseSettings
 
 load_dotenv()
 
+SERPAPI_LOCAL_QUERY_TEMPLATES = [
+    {"q": "restaurants in {city}", "category": "restaurant"},
+    {"q": "cafes in {city}", "category": "cafe"},
+    {"q": "bars in {city}", "category": "bar"},
+    {"q": "game centers in {city}", "category": "game_center"},
+]
+
+SERPAPI_EVENTS_QUERY_TEMPLATES = [
+    {"q": "{city} konser etkinlikleri", "category": "concert"},
+    {"q": "{city} spor etkinlikleri", "category": "sports"},
+    {"q": "{city} workshop atolye etkinlikleri", "category": "workshop"},
+    {"q": "{city} acik hava etkinlikleri", "category": "outdoor"},
+]
+
 class Settings(BaseSettings):
     supabase_url: str = Field("https://your-project.supabase.co", alias="SUPABASE_URL")
     supabase_key: str = Field("your-service-role-key", alias="SUPABASE_SERVICE_ROLE_KEY")
@@ -42,9 +56,45 @@ class Settings(BaseSettings):
     municipal_rss_max_retries: int = Field(3, alias="MUNICIPAL_RSS_MAX_RETRIES")
     municipal_rss_lookahead_days: int = Field(120, alias="MUNICIPAL_RSS_LOOKAHEAD_DAYS")
 
+    # Municipal Web Provider Config
+    municipal_web_enabled: bool = Field(False, alias="MUNICIPAL_WEB_ENABLED")
+    municipal_web_city_name: str = Field("Istanbul", alias="MUNICIPAL_WEB_CITY_NAME")
+    municipal_web_user_agent: str = Field(
+        "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)",
+        alias="MUNICIPAL_WEB_USER_AGENT",
+    )
+    municipal_web_timeout_seconds: int = Field(20, alias="MUNICIPAL_WEB_TIMEOUT_SECONDS")
+    municipal_web_max_retries: int = Field(3, alias="MUNICIPAL_WEB_MAX_RETRIES")
+    municipal_web_lookahead_days: int = Field(120, alias="MUNICIPAL_WEB_LOOKAHEAD_DAYS")
+    municipal_web_max_items_per_site: int = Field(20, alias="MUNICIPAL_WEB_MAX_ITEMS_PER_SITE")
+    municipal_web_list_delay_seconds: float = Field(1.5, alias="MUNICIPAL_WEB_LIST_DELAY_SECONDS")
+    municipal_web_detail_delay_seconds: float = Field(1.2, alias="MUNICIPAL_WEB_DETAIL_DELAY_SECONDS")
+
+    # SerpAPI Nearby Config
+    serpapi_api_key: str = Field("", alias="SERPAPI_API_KEY")
+    serpapi_city: str = Field("Istanbul", alias="SERPAPI_CITY")
+    serpapi_timeout_seconds: int = Field(30, alias="SERPAPI_TIMEOUT_SECONDS")
+    serpapi_max_attempts: int = Field(2, alias="SERPAPI_MAX_ATTEMPTS")
+
     class Config:
         env_file = ".env"
         case_sensitive = False
         extra = "ignore"
 
 settings = Settings()
+
+
+def build_serpapi_local_queries(city: str):
+    resolved_city = (city or settings.serpapi_city).strip()
+    return [
+        {"q": item["q"].format(city=resolved_city), "category": item["category"]}
+        for item in SERPAPI_LOCAL_QUERY_TEMPLATES
+    ]
+
+
+def build_serpapi_events_queries(city: str):
+    resolved_city = (city or settings.serpapi_city).strip()
+    return [
+        {"q": item["q"].format(city=resolved_city), "category": item["category"]}
+        for item in SERPAPI_EVENTS_QUERY_TEMPLATES
+    ]
