@@ -2,6 +2,7 @@ from typing import List, Optional
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence
 from clients.supabase_client import SupabaseClient
 from clients.backend_client import BackendClient
+from config import settings
 from utils.text_normalizer import TextNormalizer
 from utils.date_parser import DateParser
 from utils.price_parser import PriceParser
@@ -18,16 +19,28 @@ class SyncService:
         backend_client: Optional[BackendClient] = None,
     ):
         self._supabase = supabase_client or SupabaseClient()
-        self._backend = backend_client or BackendClient()
+        self._backend = backend_client or BackendClient(base_url=settings.backend_url)
         self._text_normalizer = TextNormalizer()
         self._date_parser = DateParser()
         self._price_parser = PriceParser()
         self._items_cache = {} 
+        self.last_backend_sync_status = "unknown"
 
     def sync_events_to_backend_bulk(self, events: List[NormalizedEvent], sync_run_id: str) -> bool:
         """
         V4: Maps normalized events to .NET API DTOs and performs bulk sync.
         """
+        backend_enabled = getattr(self._backend, "enabled", True)
+        if not backend_enabled:
+            self.last_backend_sync_status = "skipped"
+            skip_reason = getattr(self._backend, "skip_reason", None)
+            if isinstance(skip_reason, str) and skip_reason.strip():
+                for line in skip_reason.splitlines():
+                    logging.warning(line)
+            else:
+                logging.warning("⚠️ Backend sync atlandı.")
+            return True
+
         dtos = []
         for event in events:
             for occurrence in event.occurrences:
@@ -66,9 +79,12 @@ class SyncService:
         
         if not dtos:
             logging.warning("No events to sync in bulk.")
+            self.last_backend_sync_status = "skipped"
             return True
-            
-        return self._backend.sync_events_bulk(dtos, sync_run_id)
+
+        success = self._backend.sync_events_bulk(dtos, sync_run_id)
+        self.last_backend_sync_status = "success" if success else "failed"
+        return success
 
     def trigger_stale_cleanup(self, sync_run_id: str):
         """V4: Triggers lifecycle cleanup in the backend."""

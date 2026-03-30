@@ -1,7 +1,6 @@
 """
-Ticketmaster + Municipal RSS + Municipal Web provider'larini calistirir.
-SerpAPI bu script'te DEVRE DISI.
-Mevcut provider ve service siniflarini import eder.
+Runs Ticketmaster + Municipal RSS + Municipal Web providers.
+SerpAPI is disabled in this script.
 """
 
 from __future__ import annotations
@@ -50,10 +49,10 @@ def _run_provider(
 ) -> None:
     provider_name = getattr(provider, "name", provider.__class__.__name__)
     icon = {
-        "Ticketmaster": "🎫",
-        "MunicipalRSS": "📰",
-        "MunicipalWeb": "🌐",
-    }.get(provider_name, "⚠️")
+        "Ticketmaster": "[TM]",
+        "MunicipalRSS": "[RSS]",
+        "MunicipalWeb": "[WEB]",
+    }.get(provider_name, "[WARN]")
 
     print(f"{icon} {provider_name} baslatiliyor...")
     provider_stats = {"found": 0, "synced": 0, "failed": 0}
@@ -68,41 +67,44 @@ def _run_provider(
 
         if events:
             success = sync_service.sync_events_to_backend_bulk(events, sync_run_id)
-            if success:
+            sync_status = getattr(sync_service, "last_backend_sync_status", "unknown")
+            if success and sync_status == "success":
                 provider_stats["synced"] = len(events)
-                print(f"✅ {provider_name} backend sync basarili: {len(events)}")
+                print(f"[OK] {provider_name} backend sync basarili: {len(events)}")
+            elif success and sync_status == "skipped":
+                print(f"[WARN] {provider_name} backend sync atlandi.")
             else:
                 provider_stats["failed"] = len(events)
-                print(f"❌ {provider_name} backend sync basarisiz")
+                print(f"[ERR] {provider_name} backend sync basarisiz")
     except Exception as exc:  # noqa: BLE001
         provider_stats["failed"] = max(provider_stats["failed"], 1)
-        print(f"❌ {provider_name} hatasi: {type(exc).__name__} - {exc}")
+        print(f"[ERR] {provider_name} hatasi: {type(exc).__name__} - {exc}")
 
     for key in provider_stats:
         total_stats[key] = total_stats.get(key, 0) + provider_stats[key]
 
 
 def main() -> None:
-    print("🎫 Ticketmaster & Municipal sync basladi.")
+    print("[TM] Ticketmaster & Municipal sync basladi.")
     try:
         providers: List[Any] = []
         if settings.ticketmaster_enabled:
             providers.append(TicketmasterProvider())
-            print("🎫 TicketmasterProvider aktif.")
+            print("[TM] TicketmasterProvider aktif.")
         else:
-            print("⚠️ TicketmasterProvider devre disi.")
+            print("[WARN] TicketmasterProvider devre disi.")
 
         if settings.municipal_rss_enabled:
             providers.append(MunicipalRssProvider())
-            print("📰 MunicipalRssProvider aktif.")
+            print("[RSS] MunicipalRssProvider aktif.")
         else:
-            print("⚠️ MunicipalRssProvider devre disi.")
+            print("[WARN] MunicipalRssProvider devre disi.")
 
         if settings.municipal_web_enabled:
             providers.append(MunicipalWebProvider())
-            print("🌐 MunicipalWebProvider aktif.")
+            print("[WEB] MunicipalWebProvider aktif.")
         else:
-            print("⚠️ MunicipalWebProvider devre disi.")
+            print("[WARN] MunicipalWebProvider devre disi.")
 
         sync_service = SyncService()
         sync_run_id = f"tm-muni-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
@@ -121,11 +123,11 @@ def main() -> None:
             )
 
         if providers:
-            print("🔄 Stale cleanup tetikleniyor...")
+            print("[RUN] Stale cleanup tetikleniyor...")
             sync_service.trigger_stale_cleanup(sync_run_id)
-            print("✅ Stale cleanup tamamlandi.")
+            print("[OK] Stale cleanup tamamlandi.")
         else:
-            print("⚠️ Calisacak provider bulunamadi.")
+            print("[WARN] Calisacak provider bulunamadi.")
 
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         serialized_events = [_serialize_item(event) for event in collected_events]
@@ -140,9 +142,9 @@ def main() -> None:
         with open(STATS_PATH, "w", encoding="utf-8") as stats_file:
             json.dump(stats_payload, stats_file, ensure_ascii=False, indent=2, default=_json_default)
 
-        print(f"✅ Ticketmaster & Municipal ciktilari yazildi: {EVENTS_PATH}, {STATS_PATH}")
+        print(f"[OK] Ticketmaster & Municipal ciktilari yazildi: {EVENTS_PATH}, {STATS_PATH}")
     except Exception as exc:  # noqa: BLE001
-        print(f"❌ Ticketmaster & Municipal sync genel hata: {type(exc).__name__} - {exc}")
+        print(f"[ERR] Ticketmaster & Municipal sync genel hata: {type(exc).__name__} - {exc}")
 
 
 if __name__ == "__main__":

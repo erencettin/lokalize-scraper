@@ -39,6 +39,7 @@ jobs:
         if: steps.quota.outputs.remaining > 10
         run: python main_serpapi.py
         env:
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}

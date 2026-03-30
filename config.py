@@ -22,6 +22,7 @@ SERPAPI_EVENTS_QUERY_TEMPLATES = [
 class Settings(BaseSettings):
     supabase_url: str = Field("https://your-project.supabase.co", alias="SUPABASE_URL")
     supabase_key: str = Field("your-service-role-key", alias="SUPABASE_SERVICE_ROLE_KEY")
+    backend_url: str = Field("", alias="BACKEND_URL")
     
     # Sync Config
     sync_mode: str = Field("live", alias="SYNC_MODE")  # live | dry_run
