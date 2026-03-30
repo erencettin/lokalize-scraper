@@ -2522,7 +2522,7 @@
   },
   {
     "title": "Haluk Levent",
-    "description": null,
+    "description": "Find tickets for Haluk Levent at Jolly Joker Vadistanbul in İstanbul on 4/3/2026 at 9:00 PM",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -2552,31 +2552,61 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-03T17:00:00Z",
+        "local_date": "2026-04-03",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Vadistanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-2cf025aff6c381462400",
+            "title": "Haluk Levent",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info) | GigsGuide (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5JW21/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5JW21/001/TURKIYE/tr",
+      "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-2cf025aff6c381462400",
+    "category": "concert",
+    "address": "Jolly Joker Vadistanbul, Ayazağa, Ayazağa Cendere Cd. 109/C, Sarıyer/İstanbul, Türkiye",
+    "venue": "Jolly Joker Vadistanbul",
+    "link": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
+    "source_url": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
+    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASzZ50DfdhcpG_z_1cPQNi59ZOIgZ6ybpF9QrPnRt3Xsb01NYM8_lRj8&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Deha Bilimlier",
@@ -2812,7 +2842,7 @@
   },
   {
     "title": "Nova Norda",
-    "description": null,
+    "description": "Get ready to experience a night like no other at Nova Norda, a spectacular event taking place at Dorock XL in Istanbul. Prepare to be dazzled by a fusion of music, art, and culture that will leave...",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -2840,33 +2870,53 @@
             },
             "ticket_status": "on_sale",
             "sales_start_at": null
+          },
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-2740afb3f08ae7a7a897",
+            "title": "Nova Norda",
+            "description": null,
+            "source_url": "https://www.myguide-istanbul.com/events/nova-norda",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
           }
         ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5WL19/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5WL19/001/TURKIYE/tr",
+      "https://www.myguide-istanbul.com/events/nova-norda"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-2740afb3f08ae7a7a897",
+    "category": "concert",
+    "address": "Dorock XL, Namlı Market Yanı, Caferağa, Neşet Ömer Sk. 3C, Kadıköy/İstanbul, Türkiye",
+    "venue": "Dorock XL",
+    "link": "https://www.myguide-istanbul.com/events/nova-norda",
+    "source_url": "https://www.myguide-istanbul.com/events/nova-norda",
+    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp4ZYhjriDldcVostNfqiDvS2uMORuU9xbojebH27Mttjy8CA6SjbpSS4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Gülinler",
@@ -3450,7 +3500,7 @@
   },
   {
     "title": "Birsen Tezer",
-    "description": null,
+    "description": "Find tickets for Birsen Tezer at Mask Beach in İstanbul on 4/3/2026 at 10:30 PM",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -3478,33 +3528,53 @@
             },
             "ticket_status": "on_sale",
             "sales_start_at": null
+          },
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-2da2d53c4db641c64ccd",
+            "title": "Birsen Tezer",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Biletix.com (tickets)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
           }
         ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5SDT4/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5SDT4/001/TURKIYE/tr",
+      "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-2da2d53c4db641c64ccd",
+    "category": "concert",
+    "address": "Mask Beach, Marmara, Beylikdüzü/İstanbul, Türkiye",
+    "venue": "Mask Beach",
+    "link": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
+    "source_url": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
+    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSURy9Hpin7L_L1xPl0PLR5bKoWzmZ61eC-_tkcjjOmupypbp6bvySNg&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "2MUCH!",
@@ -4347,7 +4417,7 @@
   },
   {
     "title": "Can Temiz",
-    "description": null,
+    "description": "Ticket listings for Can Temiz at Blind in İstanbul on 04/04/2026",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -4377,31 +4447,61 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-04T17:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-d9d2433b1cd872b2f2ea",
+            "title": "Can Temiz",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | GigsGuide (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5SC65/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5SC65/001/TURKIYE/tr",
+      "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-d9d2433b1cd872b2f2ea",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
+    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB49K-Y7CvrRBfOxfHnWZLt3jPdzaGkhXHLKhSaDOS31yoHCUc8CMdxqs&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Ogün Sanlısoy",
@@ -4521,7 +4621,7 @@
   },
   {
     "title": "%100 Metal Sunar: Myrath",
-    "description": null,
+    "description": "Find tickets for Myrath with Dream Ocean at IF Performance Hall Beşiktaş in İstanbul on 4/4/2026 at 9:30 PM",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -4549,37 +4649,57 @@
             },
             "ticket_status": "on_sale",
             "sales_start_at": null
+          },
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-ca6a1d03a84f689176df",
+            "title": "%100 Metal Sunar: Myrath",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Evvnt (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
           }
         ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5TOZ1/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5TOZ1/001/TURKIYE/tr",
+      "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-ca6a1d03a84f689176df",
+    "category": "concert",
+    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
+    "venue": "IF Performance Hall Beşiktaş",
+    "link": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
+    "source_url": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
+    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Evvnt (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRrYqUejJYqUUfaOicXo_EsiOri7nsYMPdl2SidZt0Db7b8adamHDR6k&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Kamuran Akkor",
-    "description": null,
+    "description": "Find tickets for Kamuran Akkor at Hayal Kahvesi Aqua Florya in İstanbul on 4/4/2026 at 10:00 PM",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -4609,35 +4729,65 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-04T17:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hayal Kahvesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-05b12ffb256ccf921cf1",
+            "title": "Kamuran Akkor",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5PP19/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5PP19/001/TURKIYE/tr",
+      "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-05b12ffb256ccf921cf1",
+    "category": "concert",
+    "address": "Hayal Kahvesi, Şenlikköy, Yeşilköy Halkalı Cd. No:93, Bakırköy/İstanbul, Türkiye",
+    "venue": "Hayal Kahvesi",
+    "link": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
+    "source_url": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
+    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycKNNsIEiN4GuLPIEa79xWXxMRbGxIFxja9gw1ISOoRNOgR-1MqeSzQs&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "İkiye On Kala - Akustik",
-    "description": null,
+    "description": "İkiye On Kala - Akustik is a mesmerizing musical event that promises an intimate and soulful experience at the vibrant Muaf Kadıköy venue in Istanbul. Get ready to be serenaded by talented...",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -4667,31 +4817,61 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-04T17:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Muaf Kadıköy",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-486daa6473328e985064",
+            "title": "İkiye On Kala - Akustik",
+            "description": null,
+            "source_url": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
       }
     ],
-    "source": "unknown",
+    "source": "unknown|serpapi_google_events",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5BIS4/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5BIS4/001/TURKIYE/tr",
+      "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik"
     ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
+    "external_id": "serpapi-event-486daa6473328e985064",
+    "category": "concert",
+    "address": "Muaf Kadıköy, Osmanağa, Kırtasiyeci Sk. No:13, Kadıköy/İstanbul, Türkiye",
+    "venue": "Muaf Kadıköy",
+    "link": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
+    "source_url": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
+    "ticket_info": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlY2G92CioylN2RD0ByYs3MvPZnByLasRYdwmV1iF9qdWVznBVK1F7JR4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": null
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "DJ Fırat Canpolat ile 90lar 2000ler Türkçe Pop Partisi",
@@ -9832,187 +10012,10 @@
     "fetched_at": null
   },
   {
-    "title": "Can Temiz",
-    "description": "Ticket listings for Can Temiz at Blind in İstanbul on 04/04/2026",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T17:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-ddf89ed6b0daab5fd533",
-            "title": "Can Temiz",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | GigsGuide (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-ddf89ed6b0daab5fd533",
-    "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843",
-    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB49K-Y7CvrRBfOxfHnWZLt3jPdzaGkhXHLKhSaDOS31yoHCUc8CMdxqs&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Can-Temiz-Tickets/E-160487843"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Haluk Levent",
-    "description": "Find tickets for Haluk Levent at Jolly Joker Vadistanbul in İstanbul on 4/3/2026 at 9:00 PM",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-03T17:00:00Z",
-        "local_date": "2026-04-03",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Jolly Joker Vadistanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-b35d9c1ea4ec1f77c5de",
-            "title": "Haluk Levent",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info) | GigsGuide (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-b35d9c1ea4ec1f77c5de",
-    "category": "concert",
-    "address": "Jolly Joker Vadistanbul, Ayazağa, Ayazağa Cendere Cd. 109/C, Sarıyer/İstanbul, Türkiye",
-    "venue": "Jolly Joker Vadistanbul",
-    "link": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
-    "source_url": "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77",
-    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASzZ50DfdhcpG_z_1cPQNi59ZOIgZ6ybpF9QrPnRt3Xsb01NYM8_lRj8&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/3NTygFLmkUHIWgkYJweT77"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "%100 Metal Sunar: Myrath",
-    "description": "Find tickets for Myrath with Dream Ocean at IF Performance Hall Beşiktaş in İstanbul on 4/4/2026 at 9:30 PM",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T18:30:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "21:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Beşiktaş",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-d5e6a3f9844984871fcb",
-            "title": "%100 Metal Sunar: Myrath",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Evvnt (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-d5e6a3f9844984871fcb",
-    "category": "concert",
-    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
-    "venue": "IF Performance Hall Beşiktaş",
-    "link": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
-    "source_url": "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Evvnt (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRrYqUejJYqUUfaOicXo_EsiOri7nsYMPdl2SidZt0Db7b8adamHDR6k&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/68ECqTAOvKXEu88pls9sQM"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
     "title": "ENGIN, Hey! Douglas",
     "description": "Find tickets for ENGIN at JJ Arena Ataşehir in İstanbul on 4/3/2026 at 9:00 PM",
     "type": "concert",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10025,7 +10028,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-bb6d1e459a12faf92f86",
+            "external_id": "serpapi-event-909f7fc45136575636de",
             "title": "ENGIN, Hey! Douglas",
             "description": null,
             "source_url": "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW",
@@ -10043,18 +10046,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-bb6d1e459a12faf92f86",
-    "category": "concert",
-    "address": "JJ Arena, Watergarden AVM, Barbaros, Begonya Sk. No: 10, Ataşehir/İstanbul, Türkiye",
-    "venue": "JJ Arena",
-    "link": "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW",
-    "source_url": "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW",
-    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | My Guide Istanbul (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvBB6f4mQm93JflCv9mQIs9h-OpJ7zJ7NJI8R6ZQLCAIRbonSv_tb9us&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10065,131 +10057,24 @@
     "source_urls": [
       "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW"
     ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "İkiye On Kala - Akustik",
-    "description": "İkiye On Kala - Akustik is a mesmerizing musical event that promises an intimate and soulful experience at the vibrant Muaf Kadıköy venue in Istanbul. Get ready to be serenaded by talented...",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T17:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Muaf Kadıköy",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-4dd8206cd0e639b783d0",
-            "title": "İkiye On Kala - Akustik",
-            "description": null,
-            "source_url": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-4dd8206cd0e639b783d0",
+    "external_id": "serpapi-event-909f7fc45136575636de",
     "category": "concert",
-    "address": "Muaf Kadıköy, Osmanağa, Kırtasiyeci Sk. No:13, Kadıköy/İstanbul, Türkiye",
-    "venue": "Muaf Kadıköy",
-    "link": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
-    "source_url": "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik",
-    "ticket_info": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Concert Flow (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlY2G92CioylN2RD0ByYs3MvPZnByLasRYdwmV1iF9qdWVznBVK1F7JR4&s",
+    "address": "JJ Arena, Watergarden AVM, Barbaros, Begonya Sk. No: 10, Ataşehir/İstanbul, Türkiye",
+    "venue": "JJ Arena",
+    "link": "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW",
+    "source_url": "https://open.spotify.com/concert/0Wb5ATu7zrYiQLAKld8bgW",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | My Guide Istanbul (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvBB6f4mQm93JflCv9mQIs9h-OpJ7zJ7NJI8R6ZQLCAIRbonSv_tb9us&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.myguide-istanbul.com/events/ikiye-on-kala-akustik"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Birsen Tezer",
-    "description": "Find tickets for Birsen Tezer at Mask Beach in İstanbul on 4/3/2026 at 10:30 PM",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-03T19:30:00Z",
-        "local_date": "2026-04-03",
-        "local_time": "22:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Mask Beach",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-1c49c0b7b2b1868a7ab1",
-            "title": "Birsen Tezer",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Biletix.com (tickets)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-1c49c0b7b2b1868a7ab1",
-    "category": "concert",
-    "address": "Mask Beach, Marmara, Beylikdüzü/İstanbul, Türkiye",
-    "venue": "Mask Beach",
-    "link": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
-    "source_url": "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH",
-    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSURy9Hpin7L_L1xPl0PLR5bKoWzmZ61eC-_tkcjjOmupypbp6bvySNg&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/3uumu8neYTRY3rRG24eLDH"
-    ],
-    "provider": "SerpAPIEvents"
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Yedinci Ev",
     "description": "Find tickets for Yedinci Ev at IF Performance Hall Beşiktaş in İstanbul on 4/19/2026 at 9:30 PM",
     "type": "concert",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10202,7 +10087,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-9c606c15cb62358bd719",
+            "external_id": "serpapi-event-6656daf155d1e7d48eec",
             "title": "Yedinci Ev",
             "description": null,
             "source_url": "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy",
@@ -10220,18 +10105,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-9c606c15cb62358bd719",
-    "category": "concert",
-    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
-    "venue": "IF Performance Hall Beşiktaş",
-    "link": "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy",
-    "source_url": "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy",
-    "ticket_info": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQ2L1sxbW9mAs-Cs6mkP4SAvqTuW3poYUJU-Gq2YliirXDjJgGopgyPo&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10242,13 +10116,24 @@
     "source_urls": [
       "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-6656daf155d1e7d48eec",
+    "category": "concert",
+    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
+    "venue": "IF Performance Hall Beşiktaş",
+    "link": "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy",
+    "source_url": "https://open.spotify.com/concert/53qKffXQZxP5jrApql10Cy",
+    "ticket_info": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQ2L1sxbW9mAs-Cs6mkP4SAvqTuW3poYUJU-Gq2YliirXDjJgGopgyPo&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
-    "title": "Yıldız Tilbe",
-    "description": "Find tickets for Yıldız Tilbe at JJ Arena Ataşehir in İstanbul on 4/4/2026 at 10:30 PM",
+    "title": "Rewşan",
+    "description": "Find tickets for Rewşan at Dream Park İstanbul in istanbul on 4/4/2026 at 8:30 PM",
     "type": "concert",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10256,20 +10141,20 @@
         "local_date": "2026-04-04",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "JJ Arena",
+        "venue_name": "Dream Park İstanbul",
         "district": null,
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-6cbc96b8ee21875e9346",
-            "title": "Yıldız Tilbe",
+            "external_id": "serpapi-event-00d063583e69dbb4d5b7",
+            "title": "Rewşan",
             "description": null,
-            "source_url": "https://open.spotify.com/concert/3srJ3oZNivgE6xCLE4K04A",
+            "source_url": "https://open.spotify.com/concert/0ZtYYlfGlpwrL83wlsZnJw",
             "deep_link_url": null,
             "price": {
               "min_value": null,
               "max_value": null,
-              "text": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
+              "text": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | ticketle (more info)",
               "currency": "TRY"
             },
             "ticket_status": "unknown",
@@ -10279,18 +10164,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-6cbc96b8ee21875e9346",
-    "category": "concert",
-    "address": "JJ Arena, Watergarden AVM, Barbaros, Begonya Sk. No: 10, Ataşehir/İstanbul, Türkiye",
-    "venue": "JJ Arena",
-    "link": "https://open.spotify.com/concert/3srJ3oZNivgE6xCLE4K04A",
-    "source_url": "https://open.spotify.com/concert/3srJ3oZNivgE6xCLE4K04A",
-    "ticket_info": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBbwxt6HiLq_bFdsQuMeOkgEIn1DGJJMPhX-hJEJxPWdqF9xHh4G-rLU&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10299,133 +10173,26 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://open.spotify.com/concert/3srJ3oZNivgE6xCLE4K04A"
+      "https://open.spotify.com/concert/0ZtYYlfGlpwrL83wlsZnJw"
     ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "%100 Müzik Sunar: Elias Rønnenfelt",
-    "description": "Find tickets for Elias Rønnenfelt at Blind İstanbul in İstanbul Avrupa on 3/31/2026 at 8:30 PM",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-03-31T17:00:00Z",
-        "local_date": "2026-03-31",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-5c14fd086add4a6e1501",
-            "title": "%100 Müzik Sunar: Elias Rønnenfelt",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/200oGxBrrbLC2YOneaPflS",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Koobit.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-5c14fd086add4a6e1501",
+    "external_id": "serpapi-event-00d063583e69dbb4d5b7",
     "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://open.spotify.com/concert/200oGxBrrbLC2YOneaPflS",
-    "source_url": "https://open.spotify.com/concert/200oGxBrrbLC2YOneaPflS",
-    "ticket_info": "Spotify.com (tickets) | Koobit.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bE-i9WtpzZUWNBPum2zqA0swNPaGOokNReBqt99vCT9NuuX7vP2OovY&s",
+    "address": "Dream Park İstanbul, Denizköşkler, Kemal Sunal Cd. No:1 Blok B, Avcılar/İstanbul, Türkiye",
+    "venue": "Dream Park İstanbul",
+    "link": "https://open.spotify.com/concert/0ZtYYlfGlpwrL83wlsZnJw",
+    "source_url": "https://open.spotify.com/concert/0ZtYYlfGlpwrL83wlsZnJw",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | ticketle (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15eJxK8JrqJW5NK4MbSnXhsB9ETk01BqtE2wfkSt7GAH96eZdxgIzxEA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/200oGxBrrbLC2YOneaPflS"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Kamuran Akkor",
-    "description": "Find tickets for Kamuran Akkor at Hayal Kahvesi Aqua Florya in İstanbul on 4/4/2026 at 10:00 PM",
-    "type": "concert",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T17:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Hayal Kahvesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-fa15f5db5036d8bf96ab",
-            "title": "Kamuran Akkor",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-fa15f5db5036d8bf96ab",
-    "category": "concert",
-    "address": "Hayal Kahvesi, Şenlikköy, Yeşilköy Halkalı Cd. No:93, Bakırköy/İstanbul, Türkiye",
-    "venue": "Hayal Kahvesi",
-    "link": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
-    "source_url": "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | Concert Flow (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycKNNsIEiN4GuLPIEa79xWXxMRbGxIFxja9gw1ISOoRNOgR-1MqeSzQs&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/1EtqG5WWE6Ez7PwJYoCK6E"
-    ],
-    "provider": "SerpAPIEvents"
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Besiktas JK vs. Petkim Spor Aliaga Men's Basketball",
     "description": "Ticket listings for Besiktas JK vs. Petkim Spor Aliaga Men's Basketball at Beşiktaş Emlakjet Spor Kompleksi in Tuzla - Istanbul on 24/04/2026",
     "type": "match",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10438,7 +10205,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-e8a76735740dfe3f6206",
+            "external_id": "serpapi-event-e9b36f539649ba307b51",
             "title": "Besiktas JK vs. Petkim Spor Aliaga Men's Basketball",
             "description": null,
             "source_url": "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574",
@@ -10456,18 +10223,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-e8a76735740dfe3f6206",
-    "category": "sports",
-    "address": "Beşiktaş GAİN Sport Complex, Akat, Açelya Sk No:2, Beşiktaş/İstanbul, Türkiye",
-    "venue": "Beşiktaş GAİN Sport Complex",
-    "link": "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574",
-    "source_url": "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574",
-    "ticket_info": "Viagogo (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsZWzEQdMgbWLp4opC1b8L5DAxcl1ZX3pe66ved2V1qsol4YglrJ1nzk&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10478,13 +10234,83 @@
     "source_urls": [
       "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-e9b36f539649ba307b51",
+    "category": "sports",
+    "address": "Beşiktaş GAİN Sport Complex, Akat, Açelya Sk No:2, Beşiktaş/İstanbul, Türkiye",
+    "venue": "Beşiktaş GAİN Sport Complex",
+    "link": "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574",
+    "source_url": "https://www.viagogo.com/nz/Sports-Tickets/Basketball/Besiktas-Jk-Mens-Basketball-Tickets/E-159213574",
+    "ticket_info": "Viagogo (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsZWzEQdMgbWLp4opC1b8L5DAxcl1ZX3pe66ved2V1qsol4YglrJ1nzk&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
+  },
+  {
+    "title": "Bonnie Tyler",
+    "description": "Ticket listings for Bonnie Tyler at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 06/18/2026",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-18T17:00:00Z",
+        "local_date": "2026-06-18",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-0f75270e10c670a5bd21",
+            "title": "Bonnie Tyler",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/E-160484615",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Koobit.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Karlobag.eu (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "SerpAPIEvents",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/Concert-Tickets/E-160484615"
+    ],
+    "external_id": "serpapi-event-0f75270e10c670a5bd21",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/Concert-Tickets/E-160484615",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/E-160484615",
+    "ticket_info": "Koobit.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Karlobag.eu (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBZVDWw3_TkseWearTp1Hp6XabKl7AMSrxEk1q4Z4K2IHIBM789oulPQ&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Levent Yuksel",
     "description": "Ticket listings for Levent Yuksel at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 08/02/2026",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10497,7 +10323,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-f3f385f204e4ff8bbdaa",
+            "external_id": "serpapi-event-f1be6b8e455e295ffd68",
             "title": "Levent Yuksel",
             "description": null,
             "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583",
@@ -10515,18 +10341,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-f3f385f204e4ff8bbdaa",
-    "category": "outdoor",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583",
-    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJi0Kw9ji9WqQ7OtLqTAwFOrfSFIt4WInfnxXgIrtCsjiZo1x7oP5W7Vo&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10537,13 +10352,142 @@
     "source_urls": [
       "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-f1be6b8e455e295ffd68",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Levent-Yuksel-Tickets/E-160668583",
+    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJi0Kw9ji9WqQ7OtLqTAwFOrfSFIt4WInfnxXgIrtCsjiZo1x7oP5W7Vo&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
+  },
+  {
+    "title": "Yıldız Tilbe",
+    "description": "Ticket listings for Yıldız Tilbe at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 29/07/2026",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-29T17:00:00Z",
+        "local_date": "2026-07-29",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-1a01ad8624ed6744996c",
+            "title": "Yıldız Tilbe",
+            "description": null,
+            "source_url": "https://www.viagogo.com/au/Concert-Tickets/World-Music/Yildiz-Tilbe-Tickets/E-160667039",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "SerpAPIEvents",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/au/Concert-Tickets/World-Music/Yildiz-Tilbe-Tickets/E-160667039"
+    ],
+    "external_id": "serpapi-event-1a01ad8624ed6744996c",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/au/Concert-Tickets/World-Music/Yildiz-Tilbe-Tickets/E-160667039",
+    "source_url": "https://www.viagogo.com/au/Concert-Tickets/World-Music/Yildiz-Tilbe-Tickets/E-160667039",
+    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBbwxt6HiLq_bFdsQuMeOkgEIn1DGJJMPhX-hJEJxPWdqF9xHh4G-rLU&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
+  },
+  {
+    "title": "Chris Isaak",
+    "description": "Ticket listings for Chris Isaak at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 06/20/2026",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-20T17:00:00Z",
+        "local_date": "2026-06-20",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
+        "district": null,
+        "sources": [
+          {
+            "provider": "SerpAPIEvents",
+            "external_id": "serpapi-event-49bfd49558dc38041f5b",
+            "title": "Chris Isaak",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/E-160069296",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Last.fm (more info) | Concerts Metal (more info)",
+              "currency": "TRY"
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "SerpAPIEvents",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/Concert-Tickets/E-160069296"
+    ],
+    "external_id": "serpapi-event-49bfd49558dc38041f5b",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/Concert-Tickets/E-160069296",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/E-160069296",
+    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Last.fm (more info) | Concerts Metal (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-M6H8dFY0koyte08Rrc5R50XGUXFicxaiiPJXXW167L9NjofnpDYjxoA&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Buena Vista All Stars",
     "description": "Ticket listings for Buena Vista All Stars at VADİ AÇIKHAVA in İstanbul on 05/06/2026",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10556,7 +10500,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-ebc79800328bb1f67ccd",
+            "external_id": "serpapi-event-2ac4d737a7a141bf4b82",
             "title": "Buena Vista All Stars",
             "description": null,
             "source_url": "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911",
@@ -10574,18 +10518,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-ebc79800328bb1f67ccd",
-    "category": "outdoor",
-    "address": "Turkcell Vadi Sahnesi, Ayazağa, Ayazağa Cendere Cd. 109/C, Sarıyer/İstanbul, Türkiye",
-    "venue": "Turkcell Vadi Sahnesi",
-    "link": "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911",
-    "source_url": "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911",
-    "ticket_info": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhgSvj6g1X1gUzFUga3IQ32oJtVO0h8Zl0-kr0cHRb2su-E1lhPbpWlM&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10596,131 +10529,24 @@
     "source_urls": [
       "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911"
     ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Adriatique",
-    "description": "Ticket listings for Adriatique at Ataköy Marina Açık Hava in İstanbul on 05/09/2026",
-    "type": "experience",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-09T17:00:00Z",
-        "local_date": "2026-05-09",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Ataköy Marina Açık Hava",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-1d0171c82764e04e0b02",
-            "title": "Adriatique",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Pop-Music/Adriatique-Tickets/E-158359127",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-1d0171c82764e04e0b02",
+    "external_id": "serpapi-event-2ac4d737a7a141bf4b82",
     "category": "outdoor",
-    "address": "Ataköy Marina Açık Hava, Ataköy 1. Kısım mah. Rauf Orbay cad, Ataköy Marina, Bakırköy/İstanbul, Türkiye",
-    "venue": "Ataköy Marina Açık Hava",
-    "link": "https://www.viagogo.com/Concert-Tickets/Pop-Music/Adriatique-Tickets/E-158359127",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Pop-Music/Adriatique-Tickets/E-158359127",
-    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhMsKIEPht2-L2JhuXvBX-8tO9wE-huNA4GyAS5TZ9K6OHxP2MxASia4&s",
+    "address": "Turkcell Vadi Sahnesi, Ayazağa, Ayazağa Cendere Cd. 109/C, Sarıyer/İstanbul, Türkiye",
+    "venue": "Turkcell Vadi Sahnesi",
+    "link": "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911",
+    "source_url": "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Buena-Vista-All-Stars-Tickets/E-159403911",
+    "ticket_info": "Spotify.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhgSvj6g1X1gUzFUga3IQ32oJtVO0h8Zl0-kr0cHRb2su-E1lhPbpWlM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Pop-Music/Adriatique-Tickets/E-158359127"
-    ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Amr Diab",
-    "description": "Ticket listings for Amr Diab at Ataköy Marina Açık Hava in İstanbul on 08/02/2026",
-    "type": "experience",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-02T17:00:00Z",
-        "local_date": "2026-08-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Ataköy Marina Açık Hava",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-3036a0fe4765fa9c140d",
-            "title": "Amr Diab",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/World-Music/Amr-Diab-Tickets/E-160454855",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-3036a0fe4765fa9c140d",
-    "category": "outdoor",
-    "address": "Ataköy Marina Açık Hava, Ataköy 1. Kısım mah. Rauf Orbay cad, Ataköy Marina, Bakırköy/İstanbul, Türkiye",
-    "venue": "Ataköy Marina Açık Hava",
-    "link": "https://www.viagogo.com/Concert-Tickets/World-Music/Amr-Diab-Tickets/E-160454855",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/World-Music/Amr-Diab-Tickets/E-160454855",
-    "ticket_info": "Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwcfrdwSpx4pFn9js1nfZn1HbD8gTHxf_jv3Dzkk6mpHI85LHreisX48M&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/World-Music/Amr-Diab-Tickets/E-160454855"
-    ],
-    "provider": "SerpAPIEvents"
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
     "title": "Faun",
     "description": "Faun concert in Istanbul on 9 May 2026 at Cemil Topuzlu Açık Hava Tiyatrosu",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
@@ -10733,7 +10559,7 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-b8d8260fa4464ba99039",
+            "external_id": "serpapi-event-a34dc5c2c4e4724a29de",
             "title": "Faun",
             "description": null,
             "source_url": "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472",
@@ -10751,18 +10577,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-b8d8260fa4464ba99039",
-    "category": "outdoor",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472",
-    "source_url": "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472",
-    "ticket_info": "Timeout.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlOxJJA_R6cVWaz1k-Xu8sXz8hcrKsFhpzElfSe0LTZyVxKecuZu1-zgQ&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10773,18 +10588,29 @@
     "source_urls": [
       "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-a34dc5c2c4e4724a29de",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472",
+    "source_url": "https://www.ticketle.com.tr/en/faun-istanbul-tickets-09-05-2026/event/631472",
+    "ticket_info": "Timeout.com (tickets) | Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlOxJJA_R6cVWaz1k-Xu8sXz8hcrKsFhpzElfSe0LTZyVxKecuZu1-zgQ&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
-    "title": "Alessandro Safina & Burak Yeter feat Cecilia Krull & Cristina Ramos with Sinema Senfoni Orkestrası",
-    "description": "Experience the electrifying performance of Alessandro Safina & Burak Yeter feat Cecilia Krull & Cristina Ramos with Sinema Senfoni Orkestrası at İstanbul Büyükşehir Belediyesi Harbiye Cemil...",
+    "title": "Yaşar",
+    "description": "Ticket listings for Yaşar at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 08/01/2026",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T17:00:00Z",
-        "local_date": "2026-06-05",
+        "start_at_utc": "2026-08-01T17:00:00Z",
+        "local_date": "2026-08-01",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
@@ -10792,10 +10618,10 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-72d20052b9225f2a82d8",
-            "title": "Alessandro Safina & Burak Yeter feat Cecilia Krull & Cristina Ramos with Sinema Senfoni Orkestrası",
+            "external_id": "serpapi-event-fe4d98ceeb77d70e3753",
+            "title": "Yaşar",
             "description": null,
-            "source_url": "https://gigs.guide/event/gjBLKXIg15O/alessandro-safina--burak-yeter-feat-cecilia-krull--cristina-ramos-with-sinema-senfoni-orkestrasi-istanbul-05-jun-2026",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Yasar-Tickets/E-160668578",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10810,40 +10636,40 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-72d20052b9225f2a82d8",
+    "provider": "SerpAPIEvents",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Yasar-Tickets/E-160668578"
+    ],
+    "external_id": "serpapi-event-fe4d98ceeb77d70e3753",
     "category": "outdoor",
     "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
     "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://gigs.guide/event/gjBLKXIg15O/alessandro-safina--burak-yeter-feat-cecilia-krull--cristina-ramos-with-sinema-senfoni-orkestrasi-istanbul-05-jun-2026",
-    "source_url": "https://gigs.guide/event/gjBLKXIg15O/alessandro-safina--burak-yeter-feat-cecilia-krull--cristina-ramos-with-sinema-senfoni-orkestrasi-istanbul-05-jun-2026",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Yasar-Tickets/E-160668578",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Yasar-Tickets/E-160668578",
     "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatHeT7vOiq3e1BgDDDT6FOul6CHFrNvU36vEZp92ZgZBCBQMCDoBDoi4&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLOlsaNttJj0ntToPTFkgegUL_dteCle6m2m3NtXLlCF0307Zh_gU42k&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://gigs.guide/event/gjBLKXIg15O/alessandro-safina--burak-yeter-feat-cecilia-krull--cristina-ramos-with-sinema-senfoni-orkestrasi-istanbul-05-jun-2026"
-    ],
-    "provider": "SerpAPIEvents"
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
-    "title": "Beat",
-    "description": "Ticket listings for Beat at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 07/11/2026",
+    "title": "Gülşen",
+    "description": "Ticket listings for Gülşen at Kongre Merkezi Harbiye Salonu in İstanbul on 05/03/2026",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-07-11T17:00:00Z",
-        "local_date": "2026-07-11",
+        "start_at_utc": "2026-05-03T17:00:00Z",
+        "local_date": "2026-05-03",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
@@ -10851,15 +10677,15 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-f6f4d0b46183b3d98d89",
-            "title": "Beat",
+            "external_id": "serpapi-event-09611569dd9a45f1c333",
+            "title": "Gülşen",
             "description": null,
-            "source_url": "https://www.viagogo.com/Festival-Tickets/International-Festivals/Beat-Tickets/E-160111623",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Guelsen-Tickets/E-160593817",
             "deep_link_url": null,
             "price": {
               "min_value": null,
               "max_value": null,
-              "text": "Viagogo (more info) | StubHub (more info) | Concerts Metal (more info) | Stereoboard.com (more info)",
+              "text": "Viagogo (more info) | StubHub (more info)",
               "currency": "TRY"
             },
             "ticket_status": "unknown",
@@ -10869,18 +10695,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-f6f4d0b46183b3d98d89",
-    "category": "outdoor",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.viagogo.com/Festival-Tickets/International-Festivals/Beat-Tickets/E-160111623",
-    "source_url": "https://www.viagogo.com/Festival-Tickets/International-Festivals/Beat-Tickets/E-160111623",
-    "ticket_info": "Viagogo (more info) | StubHub (more info) | Concerts Metal (more info) | Stereoboard.com (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXDxuNQqc_ZSzNrgvUve-kMmYvUBNiTaU8cx9TcwOfoy3c00lTS24BHQ&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10889,20 +10704,31 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://www.viagogo.com/Festival-Tickets/International-Festivals/Beat-Tickets/E-160111623"
+      "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Guelsen-Tickets/E-160593817"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-09611569dd9a45f1c333",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Guelsen-Tickets/E-160593817",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Guelsen-Tickets/E-160593817",
+    "ticket_info": "Viagogo (more info) | StubHub (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc8ocqdiyMhlqGaIvsUmLSA4iLc_X0lyyHJjzoU1A9xph7IXNCMabVYyA&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
-    "title": "Gipsy Kings feat Tonino Baliardo",
-    "description": "Ticket listings for Gipsy Kings with Tonino Baliardo at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 09/18/2026",
+    "title": "GIPSY KINGS by Andre Reyes - Viva El Arte Tour",
+    "description": "Ticket listings for Gipsy Kings by Andre Reyes at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 07/04/2026",
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-09-18T17:00:00Z",
-        "local_date": "2026-09-18",
+        "start_at_utc": "2026-07-04T17:00:00Z",
+        "local_date": "2026-07-04",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
@@ -10910,15 +10736,15 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-da3b6b9a0023f4af5ada",
-            "title": "Gipsy Kings feat Tonino Baliardo",
+            "external_id": "serpapi-event-b88579a9e37536242dda",
+            "title": "GIPSY KINGS by Andre Reyes - Viva El Arte Tour",
             "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-Pop-and-Hip-Hop/Tonino-Baliardo-Tickets/E-160456670",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/World-Music/Andre-Reyes-Tickets/E-160642644",
             "deep_link_url": null,
             "price": {
               "min_value": null,
               "max_value": null,
-              "text": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Concerts Metal (more info) | GigsGuide (more info)",
+              "text": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
               "currency": "TRY"
             },
             "ticket_status": "unknown",
@@ -10928,18 +10754,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-da3b6b9a0023f4af5ada",
-    "category": "outdoor",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.viagogo.com/Concert-Tickets/Rock-Pop-and-Hip-Hop/Tonino-Baliardo-Tickets/E-160456670",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-Pop-and-Hip-Hop/Tonino-Baliardo-Tickets/E-160456670",
-    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | Concerts Metal (more info) | GigsGuide (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMjBxokIGxcDReXQuH8ZIg7ayDnVFXMCkZDjzWIKnu3oyHcEjxiDUw-k&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -10948,20 +10763,31 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Rock-Pop-and-Hip-Hop/Tonino-Baliardo-Tickets/E-160456670"
+      "https://www.viagogo.com/Concert-Tickets/World-Music/Andre-Reyes-Tickets/E-160642644"
     ],
-    "provider": "SerpAPIEvents"
+    "external_id": "serpapi-event-b88579a9e37536242dda",
+    "category": "outdoor",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.viagogo.com/Concert-Tickets/World-Music/Andre-Reyes-Tickets/E-160642644",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/World-Music/Andre-Reyes-Tickets/E-160642644",
+    "ticket_info": "Biletix.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0rqHyqHligTBA2oV6hwaen5BTAzXk4fL9u29XlWXAC4sEcm_ilKZwk2Q&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   },
   {
-    "title": "Zaz",
-    "description": "Find tickets for Zaz at Cemil Topuzlu Open Air Theatre in Şişli on 6/16/2026 at 8:00 PM",
+    "title": "Kardeş Türküler",
+    "description": null,
     "type": "experience",
-    "city_name": "Istanbul, Turkey",
+    "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-16T17:00:00Z",
-        "local_date": "2026-06-16",
+        "start_at_utc": "2026-06-11T17:00:00Z",
+        "local_date": "2026-06-11",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
@@ -10969,15 +10795,15 @@
         "sources": [
           {
             "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-f89fd6e6c52377e58a5b",
-            "title": "Zaz",
+            "external_id": "serpapi-event-b749e240437ba9302272",
+            "title": "Kardeş Türküler",
             "description": null,
-            "source_url": "https://open.spotify.com/concert/4g2cjn2yLfVKmOCNLFeqzn",
+            "source_url": "https://ticketmaster.evyy.net/c/253520/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "deep_link_url": null,
             "price": {
               "min_value": null,
               "max_value": null,
-              "text": "Spotify.com (tickets) | Timeout.com (tickets) | Viagogo (more info) | StubHub (more info)",
+              "text": "Biletix.com (tickets)",
               "currency": "TRY"
             },
             "ticket_status": "unknown",
@@ -10987,18 +10813,7 @@
       }
     ],
     "source": "serpapi_google_events",
-    "external_id": "serpapi-event-f89fd6e6c52377e58a5b",
-    "category": "outdoor",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://open.spotify.com/concert/4g2cjn2yLfVKmOCNLFeqzn",
-    "source_url": "https://open.spotify.com/concert/4g2cjn2yLfVKmOCNLFeqzn",
-    "ticket_info": "Spotify.com (tickets) | Timeout.com (tickets) | Viagogo (more info) | StubHub (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxioX85UybWxdEolI3TxK9hptSoHEaCf3H8Y91T29rqT5XmjGmsCHFtQ&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
+    "provider": "SerpAPIEvents",
     "providers": [
       "SerpAPIEvents"
     ],
@@ -11007,67 +10822,19 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://open.spotify.com/concert/4g2cjn2yLfVKmOCNLFeqzn"
+      "https://ticketmaster.evyy.net/c/253520/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
-    "provider": "SerpAPIEvents"
-  },
-  {
-    "title": "Romeo and Juliet",
-    "description": "Ticket listings for Romeo and Juliet at Cemil Topuzlu Açık Hava Tiyatrosu in İstanbul on 06/12/2026",
-    "type": "experience",
-    "city_name": "Istanbul, Turkey",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-12T17:00:00Z",
-        "local_date": "2026-06-12",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
-        "district": null,
-        "sources": [
-          {
-            "provider": "SerpAPIEvents",
-            "external_id": "serpapi-event-a9e17eddbf92e01289d7",
-            "title": "Romeo and Juliet",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Theater-Tickets/Dance-Ballet/Romeo-and-Juliet-Ballet-Tickets/E-160526269",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Stubhub.com (tickets) | Viagogo (more info)",
-              "currency": "TRY"
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "external_id": "serpapi-event-a9e17eddbf92e01289d7",
+    "external_id": "serpapi-event-b749e240437ba9302272",
     "category": "outdoor",
     "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
     "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.viagogo.com/Theater-Tickets/Dance-Ballet/Romeo-and-Juliet-Ballet-Tickets/E-160526269",
-    "source_url": "https://www.viagogo.com/Theater-Tickets/Dance-Ballet/Romeo-and-Juliet-Ballet-Tickets/E-160526269",
-    "ticket_info": "Stubhub.com (tickets) | Viagogo (more info)",
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMu3OgBNm-6aX36ZkVH5WzMZwuQ1jZyrPKutXp-mhajVOM6Ons2oir1g&s",
+    "link": "https://ticketmaster.evyy.net/c/253520/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+    "source_url": "https://ticketmaster.evyy.net/c/253520/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+    "ticket_info": "Biletix.com (tickets)",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-O6xvFeOeBrYXHDiz6xuu2dd8J7iNjrcGCDwLNgIt7jCZWJRcT63nRU&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-30T16:38:25.490899Z",
-    "_record_type": "serpapi_events",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Theater-Tickets/Dance-Ballet/Romeo-and-Juliet-Ballet-Tickets/E-160526269"
-    ],
-    "provider": "SerpAPIEvents"
+    "fetched_at": "2026-03-30T19:03:04.700734Z",
+    "_record_type": "serpapi_events"
   }
 ]
