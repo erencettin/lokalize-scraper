@@ -55,3 +55,32 @@ CATEGORY_MAP: Dict[str, str] = {
     "panel": "show",
     "konferans": "show",
 }
+
+CANONICAL_PROVIDER_ORDER: list[str] = [
+    "Ticketmaster",
+    "MunicipalRSS",
+    "MunicipalWeb",
+    "SerpAPIEvents",
+    "SerpAPILocal",
+]
+
+CANONICAL_PROVIDER_ALIASES: Dict[str, str] = {
+    "ticketmaster": "Ticketmaster",
+    "municipalrss": "MunicipalRSS",
+    "municipal_rss": "MunicipalRSS",
+    "municipalweb": "MunicipalWeb",
+    "municipal_web": "MunicipalWeb",
+    "serpapievents": "SerpAPIEvents",
+    "serpapi_events": "SerpAPIEvents",
+    "serpapi_google_events": "SerpAPIEvents",
+    "serpapilocal": "SerpAPILocal",
+    "serpapi_local": "SerpAPILocal",
+    "serpapi_google_local": "SerpAPILocal",
+}
+
+PROVIDER_UI_TAG_MAP: Dict[str, str] = {
+    "Ticketmaster": "Ticketmaster",
+    "MunicipalRSS": "İBB",
+    "SerpAPIEvents": "Google",
+    "SerpAPILocal": "Google",
+}

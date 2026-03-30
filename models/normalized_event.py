@@ -1,23 +1,27 @@
-from typing import List, Optional
 from datetime import datetime
-from pydantic import BaseModel, HttpUrl
+from typing import List, Optional
+
+from pydantic import BaseModel, Field, HttpUrl
+
 
 class PriceInfo(BaseModel):
     min_value: Optional[float] = None
     max_value: Optional[float] = None
-    text: Optional[str] = None # e.g. "₺500 - ₺1200", "Free"
+    text: Optional[str] = None  # e.g. "500 TRY - 1200 TRY", "Free"
     currency: str = "TRY"
+
 
 class NormalizedSource(BaseModel):
     provider: str
     external_id: Optional[str] = None
-    title: str # Provider-specific title if different
-    description: Optional[str] = None # Provider-specific description
+    title: str  # Provider-specific title if different
+    description: Optional[str] = None  # Provider-specific description
     source_url: HttpUrl
     deep_link_url: Optional[HttpUrl] = None
-    price: PriceInfo = PriceInfo()
-    ticket_status: str = "unknown" # on_sale, sold_out, coming_soon, free, unknown
+    price: PriceInfo = Field(default_factory=PriceInfo)
+    ticket_status: str = "unknown"  # on_sale, sold_out, coming_soon, free, unknown
     sales_start_at: Optional[datetime] = None
+
 
 class NormalizedOccurrence(BaseModel):
     start_at_utc: datetime
@@ -26,7 +30,8 @@ class NormalizedOccurrence(BaseModel):
     timezone: str = "Europe/Istanbul"
     venue_name: str
     district: Optional[str] = None
-    sources: List[NormalizedSource] = []
+    sources: List[NormalizedSource] = Field(default_factory=list)
+
 
 class NormalizedEvent(BaseModel):
     title: str
@@ -34,8 +39,13 @@ class NormalizedEvent(BaseModel):
     type: str  # e.g., concert, theatre
     city_name: str
     image_url: Optional[HttpUrl] = None
-    occurrences: List[NormalizedOccurrence] = []
+    occurrences: List[NormalizedOccurrence] = Field(default_factory=list)
     source: str = "unknown"
+    provider: Optional[str] = None  # Backward-compatible single provider field.
+    providers: List[str] = Field(default_factory=list)
+    provider_tags: List[str] = Field(default_factory=list)
+    provider_label: Optional[str] = None
+    source_urls: List[str] = Field(default_factory=list)
     external_id: Optional[str] = None
     category: Optional[str] = None
     address: Optional[str] = None

@@ -5,15 +5,20 @@ from clients.backend_client import BackendClient
 from utils.text_normalizer import TextNormalizer
 from utils.date_parser import DateParser
 from utils.price_parser import PriceParser
+from utils.provider_enrichment import build_provider_payload_from_event
 from services.matching_service import MatchingService
 from datetime import datetime
 import pytz
 import logging
 
 class SyncService:
-    def __init__(self):
-        self._supabase = SupabaseClient()
-        self._backend = BackendClient()
+    def __init__(
+        self,
+        supabase_client: Optional[SupabaseClient] = None,
+        backend_client: Optional[BackendClient] = None,
+    ):
+        self._supabase = supabase_client or SupabaseClient()
+        self._backend = backend_client or BackendClient()
         self._text_normalizer = TextNormalizer()
         self._date_parser = DateParser()
         self._price_parser = PriceParser()
@@ -29,9 +34,18 @@ class SyncService:
                 # Map occurrences and their sources to flat DTOs for the backend
                 for source in occurrence.sources:
                     min_p, max_p = self._price_parser.parse_prices(source.price.text)
+                    provider_payload = build_provider_payload_from_event(event, occurrence, source)
                     
                     dto = {
-                        "provider": source.provider,
+                        "provider": provider_payload.get("provider") or source.provider,
+                        "providers": provider_payload.get("providers", []),
+                        "providerTags": provider_payload.get("provider_tags", []),
+                        "providerLabel": provider_payload.get("provider_label"),
+                        "sourceUrls": provider_payload.get("source_urls", []),
+                        # snake_case aliases for consumers that are not camelCase-aware yet
+                        "provider_tags": provider_payload.get("provider_tags", []),
+                        "provider_label": provider_payload.get("provider_label"),
+                        "source_urls": provider_payload.get("source_urls", []),
                         "externalId": source.external_id,
                         "title": event.title,
                         "description": event.description,

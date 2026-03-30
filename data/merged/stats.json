@@ -1,7 +1,26 @@
 {
-  "total_events": 830,
+  "total_events": 801,
+  "total_events_before_dedup": 840,
+  "total_events_after_dedup": 801,
   "ticketmaster_municipal_count": 819,
-  "serpapi_count": 61,
-  "overlap_count": 50,
-  "last_merge": "2026-03-30T16:39:02.561081+00:00"
+  "serpapi_count": 21,
+  "overlap_count": 39,
+  "multi_provider_event_count": 0,
+  "provider_combo_counts": {
+    "MunicipalRSS": 5,
+    "MunicipalWeb": 18,
+    "SerpAPIEvents": 21,
+    "Ticketmaster": 757
+  },
+  "provider_tag_combo_counts": {
+    "Beylikdüzü Belediyesi": 8,
+    "Esenyurt Belediyesi": 6,
+    "Google": 21,
+    "Kartal Belediyesi": 1,
+    "Küçükçekmece Belediyesi": 1,
+    "Sultanbeyli Belediyesi": 2,
+    "Ticketmaster": 757,
+    "İBB": 5
+  },
+  "last_merge": "2026-03-30T17:04:37.313153+00:00"
 }

@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import uuid
 from datetime import datetime, timezone
-from typing import Iterable, List, Optional, Sequence, Set
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Set
 
 import pytz
 from supabase import Client, create_client
@@ -11,6 +11,7 @@ from supabase import Client, create_client
 from config import settings
 from models.normalized_event import NormalizedEvent
 from models.normalized_place import NormalizedPlace
+from utils.provider_enrichment import build_provider_payload, canonicalize_provider
 from utils.text_normalizer import TextNormalizer
 
 
@@ -20,6 +21,7 @@ class SupabaseClient:
         self._url = settings.supabase_url
         self._key = settings.supabase_key
         self.client: Client = create_client(self._url, self._key)
+        self._table_columns_cache: Dict[str, Optional[Set[str]]] = {}
 
     # ---------------------------------------------------------------------
     # Legacy Discovery Methods
@@ -175,29 +177,55 @@ class SupabaseClient:
             occurrence_id = self._occurrence_id(event_id, occurrence.local_date if occurrence else "", occurrence.local_time if occurrence else "", occurrence.venue_name if occurrence else item.venue or "")
             source_id = self._source_id(occurrence_id, item.external_id)
             now_iso = datetime.now(timezone.utc).isoformat()
-
-            event_rows.append(
-                {
-                    "Id": event_id,
-                    "Title": item.title,
-                    "NormalizedTitle": TextNormalizer.normalize_for_match(item.title),
-                    "Description": item.description,
-                    "Type": item.type,
-                    "CityName": item.city_name,
-                    "ImageUrl": str(item.thumbnail_url or item.image_url) if (item.thumbnail_url or item.image_url) else None,
-                    "MinPriceTotal": None,
-                    "ProviderCount": 1,
-                    "CreatedAt": now_iso,
-                    "LastSeenAt": now_iso,
-                    "UpdatedAt": now_iso,
-                    "IsActive": True,
-                }
+            source_url = str(item.source_url or item.link) if (item.source_url or item.link) else "https://www.google.com"
+            venue_name = occurrence.venue_name if occurrence else (item.venue or "Belirtilmedi")
+            provider_payload = build_provider_payload(
+                providers=[*(item.providers or []), item.provider, item.source, "SerpAPIEvents"],
+                source_urls=[*(item.source_urls or []), source_url],
+                candidate_texts=[venue_name, item.address, item.title, item.description],
             )
+            display_provider = provider_payload.get("provider") or "Google"
+            provider_label = provider_payload.get("provider_label") or display_provider
+            canonical_provider = (
+                provider_payload["providers"][0]
+                if provider_payload.get("providers")
+                else canonicalize_provider(item.source) or "SerpAPIEvents"
+            )
+            provider_tags_csv = ",".join(provider_payload.get("provider_tags", []))
+            providers_csv = ",".join(provider_payload.get("providers", []))
+            source_urls_csv = ",".join(provider_payload.get("source_urls", []))
+
+            event_row = {
+                "Id": event_id,
+                "Title": item.title,
+                "NormalizedTitle": TextNormalizer.normalize_for_match(item.title),
+                "Description": item.description,
+                "Type": item.type,
+                "CityName": item.city_name,
+                "ImageUrl": str(item.thumbnail_url or item.image_url) if (item.thumbnail_url or item.image_url) else None,
+                "MinPriceTotal": None,
+                "ProviderCount": max(1, len(provider_payload.get("providers", []))),
+                "CreatedAt": now_iso,
+                "LastSeenAt": now_iso,
+                "UpdatedAt": now_iso,
+                "IsActive": True,
+            }
+            event_row = self._attach_optional_columns(
+                "Events",
+                event_row,
+                {
+                    "Provider": display_provider,
+                    "Providers": providers_csv,
+                    "ProviderTags": provider_tags_csv,
+                    "ProviderLabel": provider_label,
+                    "SourceUrls": source_urls_csv,
+                },
+            )
+            event_rows.append(event_row)
 
             start_at_utc = occurrence.start_at_utc.isoformat() if occurrence else None
             local_date = occurrence.local_date if occurrence else datetime.now(timezone.utc).date().isoformat()
             local_time = occurrence.local_time if occurrence else "20:00"
-            venue_name = occurrence.venue_name if occurrence else (item.venue or "Belirtilmedi")
             occurrence_rows.append(
                 {
                     "Id": occurrence_id,
@@ -215,24 +243,34 @@ class SupabaseClient:
                 }
             )
 
-            source_rows.append(
+            source_row = {
+                "Id": source_id,
+                "OccurrenceId": occurrence_id,
+                "ProviderName": display_provider,
+                "ExternalId": item.external_id,
+                "SourceUrl": source_url,
+                "MinPrice": None,
+                "MaxPrice": None,
+                "PriceText": item.ticket_info,
+                "TicketStatus": "unknown",
+                "LastSyncAtUtc": now_iso,
+                "CreatedAt": now_iso,
+                "LastSeenAt": now_iso,
+                "UpdatedAt": now_iso,
+                "IsActive": True,
+            }
+            source_row = self._attach_optional_columns(
+                "OccurrenceSources",
+                source_row,
                 {
-                    "Id": source_id,
-                    "OccurrenceId": occurrence_id,
-                    "ProviderName": "serpapi_google_events",
-                    "ExternalId": item.external_id,
-                    "SourceUrl": str(item.source_url or item.link) if (item.source_url or item.link) else "https://www.google.com",
-                    "MinPrice": None,
-                    "MaxPrice": None,
-                    "PriceText": item.ticket_info,
-                    "TicketStatus": "unknown",
-                    "LastSyncAtUtc": now_iso,
-                    "CreatedAt": now_iso,
-                    "LastSeenAt": now_iso,
-                    "UpdatedAt": now_iso,
-                    "IsActive": True,
-                }
+                    "ProviderCanonical": canonical_provider,
+                    "Providers": providers_csv,
+                    "ProviderTags": provider_tags_csv,
+                    "ProviderLabel": provider_label,
+                    "SourceUrls": source_urls_csv,
+                },
             )
+            source_rows.append(source_row)
 
         if dry_run:
             return len(event_rows)
@@ -281,7 +319,7 @@ class SupabaseClient:
         source_res = (
             self.client.from_("OccurrenceSources")
             .select("Id,ExternalId")
-            .eq("ProviderName", "serpapi_google_events")
+            .in_("ProviderName", ["serpapi_google_events", "SerpAPIEvents", "Google"])
             .in_("OccurrenceId", occurrence_ids)
             .eq("IsActive", True)
             .execute()
@@ -306,6 +344,40 @@ class SupabaseClient:
     # ---------------------------------------------------------------------
     # Internal Helpers
     # ---------------------------------------------------------------------
+    def _attach_optional_columns(self, table: str, row: Dict[str, Any], optional_values: Dict[str, Any]) -> Dict[str, Any]:
+        columns = self._get_table_columns(table)
+        if not columns:
+            return row
+
+        enriched = dict(row)
+        for column_name, value in optional_values.items():
+            if column_name not in columns or value is None:
+                continue
+            enriched[column_name] = value
+        return enriched
+
+    def _get_table_columns(self, table: str) -> Optional[Set[str]]:
+        if table in self._table_columns_cache:
+            return self._table_columns_cache[table]
+
+        try:
+            response = self.client.from_(table).select("*").limit(1).execute()
+            rows = response.data or []
+            if rows and isinstance(rows[0], dict):
+                columns = set(rows[0].keys())
+                self._table_columns_cache[table] = columns
+                return columns
+        except Exception as exc:
+            self._logger.debug(
+                "SupabaseClient: table columns probe failed table=%s error=%s detail=%s",
+                table,
+                type(exc).__name__,
+                self._format_exception(exc),
+            )
+
+        self._table_columns_cache[table] = None
+        return None
+
     @staticmethod
     def _to_nearby_place_row(place: NormalizedPlace) -> dict:
         return {
