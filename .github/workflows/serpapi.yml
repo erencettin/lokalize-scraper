@@ -1,0 +1,61 @@
+name: SerpAPI Sync
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: serpapi-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - id: quota
+        name: Check SerpAPI Quota
+        run: python scripts/check_serpapi_quota.py
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+
+      - name: Fetch SerpAPI Data
+        if: steps.quota.outputs.remaining > 10
+        run: python main_serpapi.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SYNC_MODE: live
+          SERPAPI_ENABLED: "true"
+          SERPAPI_CITY: "Istanbul"
+          SERPAPI_TIMEOUT_SECONDS: "30"
+          SERPAPI_MAX_ATTEMPTS: "2"
+          TICKETMASTER_ENABLED: "false"
+          MUNICIPAL_RSS_ENABLED: "false"
+          MUNICIPAL_WEB_ENABLED: "false"
+
+      - name: Commit and Push SerpAPI Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add data/serpapi/
+          git diff --staged --quiet || git commit -m "🔍 SerpAPI güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

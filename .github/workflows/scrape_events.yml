@@ -1,3 +1,11 @@
+# ============================================================
+# DEPRECATED — Bu workflow artık otomatik çalışmıyor.
+# Yerine şu workflow'lar kullanılıyor:
+#   Ticketmaster + Municipal → ticketmaster_municipal.yml
+#   SerpAPI                  → serpapi.yml
+#   Merge                    → merge.yml
+# Manuel tetikleme hâlâ mümkün (workflow_dispatch).
+# ============================================================
 name: Lokalize Event Scraper
 
 on:
@@ -7,8 +15,6 @@ on:
         description: "Sync mode (live | dry_run)"
         required: false
         default: "live"
-  schedule:
-    - cron: "0 5 * * *" # Daily 08:00 Europe/Istanbul (UTC+3)
 
 jobs:
   scrape:

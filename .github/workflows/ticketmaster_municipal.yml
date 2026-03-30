@@ -1,0 +1,77 @@
+name: Ticketmaster & Municipal Sync
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ticketmaster-municipal-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Ticketmaster & Municipal Sync
+        run: python main_ticketmaster_municipal.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SYNC_MODE: live
+          TICKETMASTER_ENABLED: "true"
+          TICKETMASTER_COUNTRY_CODE: "TR"
+          TICKETMASTER_CITY: "Istanbul"
+          TICKETMASTER_SIZE: "50"
+          TICKETMASTER_MAX_PAGES: "3"
+          TICKETMASTER_PAGE_DELAY_SECONDS: "1.0"
+          TICKETMASTER_TIMEOUT_SECONDS: "20"
+          TICKETMASTER_MAX_RETRIES: "3"
+          TICKETMASTER_DETAIL_PRICE_ENABLED: "true"
+          TICKETMASTER_DETAIL_PRICE_LIMIT: "0"
+          TICKETMASTER_DETAIL_PRICE_TIMEOUT_SECONDS: "15"
+          TICKETMASTER_DETAIL_PRICE_MAX_RETRIES: "2"
+          TICKETMASTER_LOOKAHEAD_DAYS: "120"
+          TICKETMASTER_USER_AGENT: "LokalizeApp/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
+          MUNICIPAL_RSS_ENABLED: "true"
+          MUNICIPAL_RSS_URLS: "https://kultur.istanbul/etkinlikler/,https://kultursanat.istanbul/,https://kultur.istanbul/,https://ataturkkitapligi.ibb.gov.tr/tr/Kitaplik/Etkinlikler,https://orkestralar.ibb.istanbul/"
+          MUNICIPAL_RSS_CITY_NAME: "Istanbul"
+          MUNICIPAL_RSS_TIMEOUT_SECONDS: "20"
+          MUNICIPAL_RSS_MAX_RETRIES: "3"
+          MUNICIPAL_RSS_LOOKAHEAD_DAYS: "120"
+          MUNICIPAL_WEB_ENABLED: "true"
+          MUNICIPAL_WEB_CITY_NAME: "Istanbul"
+          MUNICIPAL_WEB_USER_AGENT: "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
+          MUNICIPAL_WEB_TIMEOUT_SECONDS: "20"
+          MUNICIPAL_WEB_MAX_RETRIES: "3"
+          MUNICIPAL_WEB_LOOKAHEAD_DAYS: "120"
+          MUNICIPAL_WEB_MAX_ITEMS_PER_SITE: "20"
+          MUNICIPAL_WEB_LIST_DELAY_SECONDS: "1.5"
+          MUNICIPAL_WEB_DETAIL_DELAY_SECONDS: "1.2"
+          SERPAPI_ENABLED: "false"
+
+      - name: Commit and Push Ticketmaster & Municipal Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add data/ticketmaster_municipal/
+          git diff --staged --quiet || git commit -m "🎫 Ticketmaster & Municipal güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
