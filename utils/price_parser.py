@@ -293,7 +293,12 @@ class PriceParser:
 
     @staticmethod
     def _extract_numeric_values(value: str) -> list[float]:
-        tokens = re.findall(r"\d[\d.,]*", value or "")
+        # Filter out common ordinal prefixes in Turkish ticking to avoid extracting '1' as price from '1. Kategori - 500'.
+        cleaned_val = re.sub(r"\b\d+\s*[\.,]?\s*(?:kategori|kat|faz|d[oö]nem|bilet|ad[iı]m|avantaj)\b", " ", value or "", flags=re.IGNORECASE)
+        # Also filter standalone '1.', '2.', '3.' if followed by a space and capitalized word, which often are ordinals.
+        cleaned_val = re.sub(r"\b\d+\s*\.\s*[A-ZÇĞİÖŞÜ]", " ", cleaned_val)
+        
+        tokens = re.findall(r"\d[\d.,]*", cleaned_val)
         parsed: list[float] = []
         for token in tokens:
             amount = PriceParser._to_float_token(token)

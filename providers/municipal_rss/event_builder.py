@@ -1,4 +1,4 @@
-﻿"""Build normalized events from municipal RSS raw items."""
+"""Build normalized events from municipal RSS raw items."""
 
 from __future__ import annotations
 
@@ -29,7 +29,8 @@ class EventBuilder:
         self._price_pattern = re.compile(
             r"(?:ucretsiz|ücretsiz|free|bedava|"
             r"₺\s*\d[\d.,]*(?:\s*-\s*₺?\s*\d[\d.,]*)?|"
-            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺))",
+            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺)|"
+            r"(?:fiyat|bilet).{0,40}?\b\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\b)",
             re.IGNORECASE,
         )
 
