@@ -37,7 +37,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Merge Data
-        run: python scripts/main_merge.py
+        run: |
+          export PYTHONPATH="."
+          python scripts/main_merge.py
 
       - name: Commit and Push Merged Data
         run: |
