@@ -18,6 +18,7 @@ from providers.serpapi_events import SerpApiEventsProvider
 from providers.serpapi_local import SerpApiLocalProvider
 from services.events_sync_service import EventsSyncService
 from services.nearby_sync_service import NearbySyncService
+from services.sync_service import SyncService
 
 
 MAX_REQUESTS_PER_RUN = 30
@@ -102,6 +103,15 @@ def main() -> None:
         nearby_stats = nearby_service.run(dry_run=dry_run, city=resolved_city)
         events_stats = events_service.run(dry_run=dry_run, city=resolved_city)
 
+        # Trigger stale cleanup on backend (marks events not seen in this run as inactive)
+        if not dry_run and (events_stats.saved > 0 or events_stats.fetched > 0):
+            try:
+                stale_sync_service = SyncService()
+                stale_sync_service.trigger_stale_cleanup(f"serpapi-stale-{__import__('uuid').uuid4().hex[:8]}")
+                print("[OK] 🔍 SerpAPI stale cleanup tamamlandi.")
+            except Exception as stale_exc:
+                print(f"[WARN] 🔍 SerpAPI stale cleanup basarisiz: {stale_exc}")
+
         combined_records: List[Dict[str, Any]] = []
         for place in captured_places:
             payload = _serialize_item(place)
@@ -127,7 +137,8 @@ def main() -> None:
             json.dump(stats_payload, stats_file, ensure_ascii=False, indent=2, default=_json_default)
 
         print(
-            f"✅ 🔍 SerpAPI tamamlandi. kayit={len(combined_records)} "
+            f"✅ 🔍 SerpAPI tamamlandi. "
+            f"etkinlik={events_stats.fetched} backend_kaydedilen={events_stats.saved} "
             f"requests_used={requests_used}/{MAX_REQUESTS_PER_RUN}"
         )
         print(f"✅ Cikti dosyalari: {EVENTS_PATH}, {STATS_PATH}")

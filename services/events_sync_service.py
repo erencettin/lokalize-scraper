@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import logging
+import uuid
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from typing import Optional
 
-from clients.supabase_client import SupabaseClient
 from config import settings
 from providers.serpapi_events import SerpApiEventsProvider
+from services.sync_service import SyncService
 
 
 @dataclass(slots=True)
@@ -19,14 +21,25 @@ class EventsSyncStats:
 
 
 class EventsSyncService:
+    """
+    Syncs SerpAPI events through the canonical C# backend pipeline.
+
+    Instead of writing directly to Supabase (which caused duplicates when the
+    same event was also ingested by the Ticketmaster/Municipal pipeline via C#),
+    this service now POSTs to the .NET API endpoint POST /api/events/sync/bulk.
+
+    This ensures C# MatchingService deduplication runs for ALL providers,
+    preventing duplicate event cards in the Flutter app.
+    """
+
     def __init__(
         self,
         provider: Optional[SerpApiEventsProvider] = None,
-        supabase_client: Optional[SupabaseClient] = None,
+        sync_service: Optional[SyncService] = None,
     ) -> None:
         self._logger = logging.getLogger(__name__)
         self._provider = provider or SerpApiEventsProvider()
-        self._supabase = supabase_client or SupabaseClient()
+        self._sync_service = sync_service or SyncService()
 
     def run(self, *, dry_run: bool = False, city: Optional[str] = None) -> EventsSyncStats:
         stats = EventsSyncStats()
@@ -46,17 +59,41 @@ class EventsSyncService:
             return stats
 
         if not events:
-            self._logger.info("EventsSyncService: no nearby events fetched city=%s", resolved_city)
+            self._logger.info("EventsSyncService: no events fetched city=%s", resolved_city)
             return stats
 
-        try:
-            stats.saved = self._supabase.upsert_serpapi_events(events, dry_run=dry_run)
-            active_external_ids = {item.external_id for item in events if item.external_id}
-            stats.deactivated = self._supabase.deactivate_missing_serpapi_events(
-                city=resolved_city,
-                active_external_ids=active_external_ids,
-                dry_run=dry_run,
+        if dry_run:
+            self._logger.info(
+                "EventsSyncService: dry_run=True — skipping backend sync fetched=%s city=%s",
+                stats.fetched,
+                resolved_city,
             )
+            stats.saved = stats.fetched
+            return stats
+
+        # Route through the C# backend pipeline (same as Ticketmaster/Municipal)
+        # This ensures C# MatchingService deduplication runs for all providers.
+        sync_run_id = f"serpapi-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
+        try:
+            success = self._sync_service.sync_events_to_backend_bulk(events, sync_run_id)
+            sync_status = getattr(self._sync_service, "last_backend_sync_status", "unknown")
+
+            if success and sync_status in ("success", "skipped"):
+                stats.saved = stats.fetched
+                self._logger.info(
+                    "EventsSyncService: backend sync completed city=%s fetched=%s saved=%s sync_run_id=%s",
+                    resolved_city,
+                    stats.fetched,
+                    stats.saved,
+                    sync_run_id,
+                )
+            else:
+                stats.failed += 1
+                self._logger.error(
+                    "EventsSyncService: backend sync failed city=%s sync_run_id=%s",
+                    resolved_city,
+                    sync_run_id,
+                )
         except Exception as exc:
             self._logger.error(
                 "EventsSyncService: persistence failed city=%s error=%s detail=%s",
@@ -65,15 +102,5 @@ class EventsSyncService:
                 str(exc),
             )
             stats.failed += 1
-            return stats
 
-        self._logger.info(
-            "EventsSyncService: completed city=%s fetched=%s saved=%s deactivated=%s dry_run=%s requests=%s",
-            resolved_city,
-            stats.fetched,
-            stats.saved,
-            stats.deactivated,
-            dry_run,
-            stats.request_count,
-        )
         return stats
