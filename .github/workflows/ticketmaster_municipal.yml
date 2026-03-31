@@ -30,7 +30,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Ticketmaster & Municipal Sync
-        run: python main_ticketmaster_municipal.py
+        run: python scripts/main_ticketmaster_municipal.py
         env:
           BACKEND_URL: ${{ secrets.BACKEND_URL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}

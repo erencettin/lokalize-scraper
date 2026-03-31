@@ -37,7 +37,7 @@ jobs:
 
       - name: Fetch SerpAPI Data
         if: steps.quota.outputs.remaining > 10
-        run: python main_serpapi.py
+        run: python scripts/main_serpapi.py
         env:
           BACKEND_URL: ${{ secrets.BACKEND_URL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
