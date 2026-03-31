@@ -1,8 +1,9 @@
-﻿"""HTTP client wrapper for municipal web scraping."""
+"""HTTP client wrapper for municipal web scraping."""
 
 from __future__ import annotations
 
 import logging
+import threading
 import time
 from typing import Dict, Optional
 from urllib import robotparser
@@ -20,39 +21,41 @@ class MunicipalHttpClient:
 
     def __init__(self) -> None:
         self._logger = logging.getLogger(__name__)
-        self._session: Optional[requests.Session] = None
+        self._local = threading.local()
         self._robots: Dict[str, robotparser.RobotFileParser] = {}
         self._last_request_error = ""
         self._ssl_error_counts: Dict[str, int] = {}
 
+    def _get_session(self) -> requests.Session:
+        if not hasattr(self._local, "session"):
+            session = requests.Session()
+            session.headers.update(
+                {
+                    "Accept": DEFAULT_ACCEPT_HEADER,
+                    "Accept-Language": DEFAULT_ACCEPT_LANGUAGE_HEADER,
+                    "User-Agent": settings.municipal_web_user_agent.strip() or DEFAULT_USER_AGENT,
+                }
+            )
+            self._local.session = session
+        return self._local.session
+
     def setup_session(self) -> None:
         """Initialize requests session with project defaults."""
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-        self._session = requests.Session()
-        self._session.headers.update(
-            {
-                "Accept": DEFAULT_ACCEPT_HEADER,
-                "Accept-Language": DEFAULT_ACCEPT_LANGUAGE_HEADER,
-                "User-Agent": settings.municipal_web_user_agent.strip() or DEFAULT_USER_AGENT,
-            }
-        )
+        self._get_session()
 
     def close_session(self) -> None:
         """Close session safely and log cleanup failures."""
         self._log_ssl_summary()
         try:
-            if self._session is not None:
-                self._session.close()
+            if hasattr(self._local, "session"):
+                self._local.session.close()
+                del self._local.session
         except Exception as exc:
             self._logger.warning("MunicipalWeb: session close failed reason=%s", exc)
-        finally:
-            self._session = None
 
     def fetch_text(self, url: str) -> str:
         """Fetch page text with retry and SSL fallback behavior."""
-        if self._session is None:
-            self._logger.error("MunicipalWeb: fetch requested without active session url=%s", url)
-            return ""
 
         timeout = max(settings.municipal_web_timeout_seconds, 1)
         retries = max(settings.municipal_web_max_retries, 1)
@@ -70,7 +73,8 @@ class MunicipalHttpClient:
 
     def _try_fetch(self, url: str, timeout: int) -> Optional[str]:
         try:
-            response = self._session.get(url, timeout=timeout)
+            session = self._get_session()
+            response = session.get(url, timeout=timeout)
             result = self._handle_response(url, response)
             if result is None:
                 self._last_request_error = f"retryable status={response.status_code}"
@@ -79,7 +83,8 @@ class MunicipalHttpClient:
             self._record_ssl_error(url, exc, "request")
             self._last_request_error = str(exc)
             try:
-                insecure_response = self._session.get(url, timeout=timeout, verify=False)
+                session = self._get_session()
+                insecure_response = session.get(url, timeout=timeout, verify=False)
                 insecure_result = self._handle_response(url, insecure_response)
                 if insecure_result is None:
                     self._last_request_error = f"retryable status={insecure_response.status_code}"

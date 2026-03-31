@@ -41,12 +41,10 @@ def _serialize_item(item: Any) -> Dict[str, Any]:
 
 def _run_provider(
     provider: Any,
-    sync_service: SyncService,
     sync_run_id: str,
-    total_stats: Dict[str, int],
-    provider_counts: Dict[str, int],
-    collected_events: List[Any],
-) -> None:
+) -> tuple[str, Dict[str, int], List[Any]]:
+    from services.sync_service import SyncService
+    sync_service = SyncService()
     provider_name = getattr(provider, "name", provider.__class__.__name__)
     icon = {
         "Ticketmaster": "[TM]",
@@ -56,13 +54,11 @@ def _run_provider(
 
     print(f"{icon} {provider_name} baslatiliyor...")
     provider_stats = {"found": 0, "synced": 0, "failed": 0}
-    provider_counts[provider_name] = 0
+    events = []
 
     try:
         events = provider.fetch_and_parse()
         provider_stats["found"] = len(events)
-        provider_counts[provider_name] = len(events)
-        collected_events.extend(events)
         print(f"{icon} {provider_name} tamamlandi, event sayisi: {len(events)}")
 
         if events:
@@ -80,8 +76,7 @@ def _run_provider(
         provider_stats["failed"] = max(provider_stats["failed"], 1)
         print(f"[ERR] {provider_name} hatasi: {type(exc).__name__} - {exc}")
 
-    for key in provider_stats:
-        total_stats[key] = total_stats.get(key, 0) + provider_stats[key]
+    return provider_name, provider_stats, events
 
 
 def main() -> None:
@@ -106,24 +101,27 @@ def main() -> None:
         else:
             print("[WARN] MunicipalWebProvider devre disi.")
 
-        sync_service = SyncService()
         sync_run_id = f"tm-muni-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
         total_stats = {"found": 0, "synced": 0, "failed": 0}
         provider_counts: Dict[str, int] = {}
         collected_events: List[Any] = []
 
-        for provider in providers:
-            _run_provider(
-                provider=provider,
-                sync_service=sync_service,
-                sync_run_id=sync_run_id,
-                total_stats=total_stats,
-                provider_counts=provider_counts,
-                collected_events=collected_events,
-            )
+        import concurrent.futures
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(providers), 5) if providers else 1) as executor:
+            futures = [executor.submit(_run_provider, p, sync_run_id) for p in providers]
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    p_name, p_stats, p_events = future.result()
+                    provider_counts[p_name] = p_stats["found"]
+                    collected_events.extend(p_events)
+                    for k, v in p_stats.items():
+                        total_stats[k] = total_stats.get(k, 0) + v
+                except Exception as e:
+                    print(f"[ERR] Provider task exception: {e}")
 
         if providers:
             print("[RUN] Stale cleanup tetikleniyor...")
+            sync_service = SyncService()
             sync_service.trigger_stale_cleanup(sync_run_id)
             print("[OK] Stale cleanup tamamlandi.")
         else:

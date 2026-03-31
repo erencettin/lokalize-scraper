@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import threading
 import time
 from typing import Any, Dict, List, Optional, Set
 
@@ -15,30 +16,37 @@ class TicketmasterHttpClient:
 
     def __init__(self) -> None:
         self._logger = logging.getLogger(__name__)
-        self.session: Optional[requests.Session] = None
+        self._local = threading.local()
+        self._lock = threading.Lock()
+        self._last_request_time = 0.0
         self.last_fetched_pages = 0
 
+    def _get_session(self) -> requests.Session:
+        if not hasattr(self._local, "session"):
+            session = requests.Session()
+            session.headers.update(
+                {
+                    "User-Agent": settings.ticketmaster_user_agent.strip() or DEFAULT_USER_AGENT,
+                    "Accept": "application/json",
+                    "Accept-Language": "tr-TR,tr;q=0.9",
+                }
+            )
+            self._local.session = session
+        return self._local.session
+
     def setup_session(self) -> None:
-        """Initialize requests session with configured headers."""
-        self.session = requests.Session()
-        self.session.headers.update(
-            {
-                "User-Agent": settings.ticketmaster_user_agent.strip() or DEFAULT_USER_AGENT,
-                "Accept": "application/json",
-                "Accept-Language": "tr-TR,tr;q=0.9",
-            }
-        )
+        """Initialize requests session for the main thread."""
+        self._get_session()
         self.last_fetched_pages = 0
 
     def close_session(self) -> None:
         """Close active session and log cleanup errors."""
         try:
-            if self.session is not None:
-                self.session.close()
+            if hasattr(self._local, "session"):
+                self._local.session.close()
+                del self._local.session
         except Exception as exc:
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
-        finally:
-            self.session = None
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
         """Fetch paginated event list and deduplicate by event id."""
@@ -67,8 +75,6 @@ class TicketmasterHttpClient:
 
     def fetch_page(self, page: int) -> Optional[Dict[str, Any]]:
         """Fetch and parse one events page payload."""
-        if self.session is None:
-            raise RuntimeError("Ticketmaster session is not initialized")
         params = {"apikey": settings.ticketmaster_api_key, "countryCode": settings.ticketmaster_country_code, "city": settings.ticketmaster_city, "size": max(settings.ticketmaster_size, 1), "page": max(page, 0), "sort": "date,asc", "include": "priceRanges"}
         response = self._request_with_retry(f"{BASE_URL}{EVENTS_ENDPOINT}", params, max(settings.ticketmaster_timeout_seconds, 1), max(settings.ticketmaster_max_retries, 1))
         if response is None or response.status_code != 200:
@@ -85,8 +91,6 @@ class TicketmasterHttpClient:
 
     def fetch_event_detail(self, event_id: str) -> Optional[Dict[str, Any]]:
         """Fetch event detail payload used for optional price fallback."""
-        if self.session is None:
-            raise RuntimeError("Ticketmaster session is not initialized")
         url = f"{BASE_URL}{DETAIL_ENDPOINT_TEMPLATE.format(event_id=event_id)}"
         params = {"apikey": settings.ticketmaster_api_key, "include": "priceRanges"}
         response = self._request_with_retry(url, params, max(settings.ticketmaster_detail_price_timeout_seconds, 1), max(settings.ticketmaster_detail_price_max_retries, 1))
@@ -96,12 +100,24 @@ class TicketmasterHttpClient:
             return None
         return self._parse_json(response, "detail", event_id)
 
+    def _wait_for_rate_limit(self) -> None:
+        """Enforces a strict global 2 req/s limit across all parallel threads."""
+        delay = 0.55
+        with self._lock:
+            now = time.monotonic()
+            elapsed = now - self._last_request_time
+            if elapsed < delay:
+                time.sleep(delay - elapsed)
+            self._last_request_time = time.monotonic()
+
     def _request_with_retry(self, url: str, params: Dict[str, Any], timeout: int, max_retries: int) -> Optional[requests.Response]:
         """Shared retry logic for both page and detail requests."""
         last_error = ""
         for attempt in range(1, max(max_retries, 1) + 1):
             try:
-                response = self.session.get(url, params=params, timeout=timeout)
+                self._wait_for_rate_limit()
+                session = self._get_session()
+                response = session.get(url, params=params, timeout=timeout)
                 if response.status_code in AUTH_FAILURE_STATUS_CODES:
                     self._logger.error("Ticketmaster: auth failed status=%s url=%s", response.status_code, url)
                     return response

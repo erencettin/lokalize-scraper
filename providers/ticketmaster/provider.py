@@ -71,19 +71,20 @@ class TicketmasterProvider(BaseProvider):
         return events
 
     def _normalize_events(self, raw_events: List[Dict[str, Any]]) -> tuple[List[NormalizedEvent], int]:
+        import concurrent.futures
         parsed: List[NormalizedEvent] = []
         skipped = 0
         seen: Set[str] = set()
-        for raw_event in raw_events:
-            normalized = self._normalize_with_detail(raw_event)
-            if normalized is None:
-                skipped += 1
-                continue
-            key = self._dedup_key(normalized)
-            if key in seen:
-                continue
-            seen.add(key)
-            parsed.append(normalized)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+            for normalized in executor.map(self._normalize_with_detail, raw_events):
+                if normalized is None:
+                    skipped += 1
+                    continue
+                key = self._dedup_key(normalized)
+                if key in seen:
+                    continue
+                seen.add(key)
+                parsed.append(normalized)
         return parsed, skipped
 
     def _normalize_with_detail(self, raw_event: Dict[str, Any]) -> Optional[NormalizedEvent]:

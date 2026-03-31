@@ -1,4 +1,4 @@
-﻿"""Municipal web provider orchestration layer."""
+"""Municipal web provider orchestration layer."""
 
 from __future__ import annotations
 
@@ -42,17 +42,24 @@ class MunicipalWebProvider(BaseProvider):
 
         self._http.setup_session()
         try:
+            import concurrent.futures
             events: List[NormalizedEvent] = []
             seen: Set[str] = set()
-            for site in self._registry.get_sites():
-                site_events = self._fetch_site(site)
-                self._logger.info("MunicipalWeb: site=%s events=%s", site.name, len(site_events))
-                for event in site_events:
-                    key = self._dedup_key(event)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    events.append(event)
+            with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+                futures = {executor.submit(self._fetch_site, site): site for site in self._registry.get_sites()}
+                for future in concurrent.futures.as_completed(futures):
+                    try:
+                        site_events = future.result()
+                        site = futures[future]
+                        self._logger.info("MunicipalWeb: site=%s events=%s", site.name, len(site_events))
+                        for event in site_events:
+                            key = self._dedup_key(event)
+                            if key in seen:
+                                continue
+                            seen.add(key)
+                            events.append(event)
+                    except Exception as e:
+                        self._logger.error("MunicipalWeb: site fetch failed reason=%s", str(e))
             self._logger.info("MunicipalWeb: total parsed events=%s", len(events))
             return events
         finally:
