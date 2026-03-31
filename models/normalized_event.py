@@ -4,11 +4,25 @@ from typing import List, Optional
 from pydantic import BaseModel, Field, HttpUrl
 
 
+class PriceResolution(BaseModel):
+    strategy: str = "unknown"
+    confidence: float = 0.0
+    legal_mode: str = "unknown"
+    source: str = "unknown"
+    is_authoritative: bool = False
+    is_derived: bool = False
+    requires_terms_review: bool = False
+    note: Optional[str] = None
+
+
 class PriceInfo(BaseModel):
     min_value: Optional[float] = None
     max_value: Optional[float] = None
     text: Optional[str] = None  # e.g. "500 TRY - 1200 TRY", "Free"
     currency: str = "TRY"
+    is_free: bool = False
+    is_unknown: bool = True
+    resolution: PriceResolution = Field(default_factory=PriceResolution)
 
 
 class NormalizedSource(BaseModel):

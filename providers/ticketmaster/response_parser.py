@@ -43,6 +43,7 @@ class ResponseParser:
             description=self._extract_description(raw),
             image_url=self._extract_image_url(self._extract_list(raw.get("images"))),
             event_type=self._resolve_category(classifications, title),
+            price_origin="discovery_list" if price_ranges else "none",
             classifications=classifications,
             raw_price_ranges=price_ranges,
         )

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import logging
 import uuid
 from datetime import datetime, timezone
@@ -179,6 +180,16 @@ class SupabaseClient:
             now_iso = datetime.now(timezone.utc).isoformat()
             source_url = str(item.source_url or item.link) if (item.source_url or item.link) else "https://www.google.com"
             venue_name = occurrence.venue_name if occurrence else (item.venue or "Belirtilmedi")
+            source_model = occurrence.sources[0] if occurrence and occurrence.sources else None
+            source_price = source_model.price if source_model else None
+            price_resolution_payload = (
+                source_price.resolution.model_dump(mode="json")
+                if source_price and getattr(source_price, "resolution", None) is not None
+                else None
+            )
+            min_price = source_price.min_value if source_price else None
+            max_price = source_price.max_value if source_price else None
+            price_text = source_price.text if source_price and source_price.text else item.ticket_info
             provider_payload = build_provider_payload(
                 providers=[*(item.providers or []), item.provider, item.source, "SerpAPIEvents"],
                 source_urls=[*(item.source_urls or []), source_url],
@@ -203,7 +214,7 @@ class SupabaseClient:
                 "Type": item.type,
                 "CityName": item.city_name,
                 "ImageUrl": str(item.thumbnail_url or item.image_url) if (item.thumbnail_url or item.image_url) else None,
-                "MinPriceTotal": None,
+                "MinPriceTotal": min_price,
                 "ProviderCount": max(1, len(provider_payload.get("providers", []))),
                 "CreatedAt": now_iso,
                 "LastSeenAt": now_iso,
@@ -235,7 +246,7 @@ class SupabaseClient:
                     "LocalStartTime": local_time,
                     "VenueName": venue_name,
                     "NormalizedVenue": TextNormalizer.normalize_for_match(venue_name),
-                    "MinPrice": None,
+                    "MinPrice": min_price,
                     "CreatedAt": now_iso,
                     "LastSeenAt": now_iso,
                     "UpdatedAt": now_iso,
@@ -249,10 +260,10 @@ class SupabaseClient:
                 "ProviderName": display_provider,
                 "ExternalId": item.external_id,
                 "SourceUrl": source_url,
-                "MinPrice": None,
-                "MaxPrice": None,
-                "PriceText": item.ticket_info,
-                "TicketStatus": "unknown",
+                "MinPrice": min_price,
+                "MaxPrice": max_price,
+                "PriceText": price_text,
+                "TicketStatus": source_model.ticket_status if source_model else "unknown",
                 "LastSyncAtUtc": now_iso,
                 "CreatedAt": now_iso,
                 "LastSeenAt": now_iso,
@@ -268,6 +279,11 @@ class SupabaseClient:
                     "ProviderTags": provider_tags_csv,
                     "ProviderLabel": provider_label,
                     "SourceUrls": source_urls_csv,
+                    "PriceResolution": json.dumps(price_resolution_payload, ensure_ascii=False) if price_resolution_payload else None,
+                    "PriceResolutionJson": json.dumps(price_resolution_payload, ensure_ascii=False) if price_resolution_payload else None,
+                    "PriceConfidence": price_resolution_payload.get("confidence") if price_resolution_payload else None,
+                    "IsPriceUnknown": source_price.is_unknown if source_price else True,
+                    "IsFree": source_price.is_free if source_price else False,
                 },
             )
             source_rows.append(source_row)

@@ -17,6 +17,7 @@ from models.normalized_event import (
     PriceInfo,
 )
 from utils.date_parser import DateParser
+from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
 _ISTANBUL_TZ = pytz.timezone("Europe/Istanbul")
@@ -113,6 +114,7 @@ class SerpApiEventsProvider:
         venue = self._extract_venue(raw)
         address = self._extract_address(raw)
         ticket_info = self._extract_ticket_info(raw)
+        price = self._extract_price(raw, ticket_info)
         external_id = (
             self._clean_optional(raw.get("event_id"))
             or self._clean_optional(raw.get("id"))
@@ -124,7 +126,7 @@ class SerpApiEventsProvider:
             external_id=external_id,
             title=title,
             source_url=link,
-            price=PriceInfo(text=ticket_info, currency="TRY"),
+            price=price,
             ticket_status="unknown",
         )
 
@@ -251,8 +253,11 @@ class SerpApiEventsProvider:
                 if not isinstance(item, dict):
                     continue
                 source = self._clean_optional(item.get("source"))
+                price = self._clean_optional(item.get("price")) or self._clean_optional(item.get("ticket_price"))
                 link_type = self._clean_optional(item.get("link_type"))
-                if source and link_type:
+                if source and price:
+                    chunks.append(f"{source} - {price}")
+                elif source and link_type:
                     chunks.append(f"{source} ({link_type})")
                 elif source:
                     chunks.append(source)
@@ -267,6 +272,83 @@ class SerpApiEventsProvider:
                     chunks.append(" - ".join(parts))
             return " | ".join(chunks) if chunks else None
         return self._clean_optional(ticket_info)
+
+    def _extract_price(self, raw: dict, ticket_info_text: Optional[str]) -> PriceInfo:
+        extracted_price = self._safe_float(raw.get("extracted_price"))
+        if extracted_price is not None:
+            return PriceParser.resolve_structured_range(
+                min_value=extracted_price,
+                max_value=extracted_price,
+                currency=self._clean_optional(raw.get("currency")) or "TRY",
+                source="serpapi_google_events_api",
+                legal_mode="search_indexed_api",
+                strategy="serpapi_extracted_price",
+                confidence=0.8,
+                is_authoritative=False,
+                is_derived=True,
+            )
+
+        price_text = self._clean_optional(raw.get("price"))
+        if price_text:
+            resolved = PriceParser.resolve_text_price(
+                price_text=price_text,
+                currency=self._clean_optional(raw.get("currency")) or "TRY",
+                source="serpapi_google_events_api",
+                legal_mode="search_indexed_api",
+                strategy="serpapi_price_text",
+                confidence=0.74,
+                is_authoritative=False,
+                is_derived=True,
+                note="Search-indexed price; verify with ticketing provider before purchase.",
+            )
+            if not resolved.is_unknown:
+                return resolved
+
+        ticket_price_candidates = self._extract_ticket_price_candidates(raw)
+        if ticket_info_text:
+            ticket_price_candidates.append(ticket_info_text)
+        return PriceParser.resolve_from_text_candidates(
+            candidates=ticket_price_candidates,
+            currency=self._clean_optional(raw.get("currency")) or "TRY",
+            source="serpapi_google_events_ticket_info",
+            legal_mode="search_indexed_api",
+            strategy="serpapi_ticket_info_scan",
+            confidence=0.68,
+            is_authoritative=False,
+            is_derived=True,
+            note="Search-indexed ticket info. Prefer direct provider API when available.",
+        )
+
+    def _extract_ticket_price_candidates(self, raw: dict) -> List[str]:
+        candidates: List[str] = []
+        ticket_info = raw.get("ticket_info")
+        if not isinstance(ticket_info, list):
+            return candidates
+        for item in ticket_info:
+            if isinstance(item, dict):
+                for key in ("price", "ticket_price", "display_price"):
+                    value = self._clean_optional(item.get(key))
+                    if value:
+                        candidates.append(value)
+            elif isinstance(item, list):
+                parts = [self._clean_optional(piece) for piece in item]
+                for part in parts:
+                    if part:
+                        candidates.append(part)
+            else:
+                value = self._clean_optional(item)
+                if value:
+                    candidates.append(value)
+        return candidates
+
+    @staticmethod
+    def _safe_float(value: object) -> Optional[float]:
+        try:
+            if value is None:
+                return None
+            return float(str(value))
+        except (TypeError, ValueError):
+            return None
 
     def _build_fallback_id(self, *, title: str, link: str, city: str) -> str:
         text = f"{title}|{link}|{city}".lower()

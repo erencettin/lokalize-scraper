@@ -46,7 +46,23 @@ class SyncService:
             for occurrence in event.occurrences:
                 # Map occurrences and their sources to flat DTOs for the backend
                 for source in occurrence.sources:
-                    min_p, max_p = self._price_parser.parse_prices(source.price.text)
+                    min_p, max_p = self._price_parser.parse_prices(source.price.text or "")
+                    resolved_min = source.price.min_value if source.price.min_value is not None else min_p
+                    resolved_max = source.price.max_value if source.price.max_value is not None else max_p
+                    price_resolution = (
+                        source.price.resolution.model_dump(mode="json")
+                        if getattr(source.price, "resolution", None) is not None
+                        else {
+                            "strategy": "unknown",
+                            "confidence": 0.0,
+                            "legal_mode": "unknown",
+                            "source": "unknown",
+                            "is_authoritative": False,
+                            "is_derived": False,
+                            "requires_terms_review": False,
+                            "note": None,
+                        }
+                    )
                     provider_payload = build_provider_payload_from_event(event, occurrence, source)
                     
                     dto = {
@@ -70,10 +86,15 @@ class SyncService:
                         "localStartTime": occurrence.local_time,
                         "startAtUtc": occurrence.start_at_utc.isoformat(),
                         "sourceUrl": str(source.source_url),
-                        "minPrice": source.price.min_value if source.price.min_value is not None else min_p,
-                        "maxPrice": source.price.max_value if source.price.max_value is not None else max_p,
+                        "minPrice": resolved_min,
+                        "maxPrice": resolved_max,
                         "priceText": source.price.text,
-                        "ticketStatus": source.ticket_status
+                        "ticketStatus": source.ticket_status,
+                        "isPriceUnknown": source.price.is_unknown,
+                        "isFree": source.price.is_free,
+                        "priceConfidence": price_resolution.get("confidence"),
+                        "priceResolution": price_resolution,
+                        "price_resolution": price_resolution,
                     }
                     dtos.append(dto)
         

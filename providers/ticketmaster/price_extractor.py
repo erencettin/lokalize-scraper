@@ -7,8 +7,9 @@ from typing import Any, Dict, List, Optional, Protocol
 
 from config import settings
 from models.normalized_event import PriceInfo
-from providers.ticketmaster.constants import DEFAULT_CURRENCY, DEFAULT_PRICE_TEXT, FREE_PRICE_TEXT
+from providers.ticketmaster.constants import DEFAULT_CURRENCY
 from providers.ticketmaster.models import RawTicketmasterEvent
+from utils.price_parser import PriceParser
 
 
 class TicketmasterDetailClient(Protocol):
@@ -26,22 +27,30 @@ class PriceExtractor:
         self._logger = logging.getLogger(__name__)
         self._detail_price_calls = 0
 
-    def extract_price(self, price_ranges: List[Dict[str, Any]]) -> PriceInfo:
+    def extract_price(self, price_ranges: List[Dict[str, Any]], *, origin: str = "discovery_list") -> PriceInfo:
         """Extract and format price from Ticketmaster priceRanges."""
         if not price_ranges:
-            return PriceInfo(text=DEFAULT_PRICE_TEXT, currency=DEFAULT_CURRENCY)
+            return PriceParser.unknown_price(
+                source=self._resolve_source(origin),
+                legal_mode="official_api",
+                strategy="ticketmaster_price_range",
+            )
         first = price_ranges[0] if isinstance(price_ranges[0], dict) else {}
         min_value = self._safe_float(first.get("min"))
         max_value = self._safe_float(first.get("max"))
         currency = first.get("currency") if isinstance(first.get("currency"), str) else DEFAULT_CURRENCY
-        if min_value is None and max_value is None:
-            return PriceInfo(text=DEFAULT_PRICE_TEXT, currency=currency)
-        if min_value is None:
-            min_value = max_value
-        if max_value is None:
-            max_value = min_value
-        text = self._format_price_text(min_value, max_value, currency)
-        return PriceInfo(min_value=min_value, max_value=max_value, text=text, currency=currency)
+        confidence = 0.98 if origin == "discovery_list" else 0.97
+        return PriceParser.resolve_structured_range(
+            min_value=min_value,
+            max_value=max_value,
+            currency=currency,
+            source=self._resolve_source(origin),
+            legal_mode="official_api",
+            strategy="ticketmaster_price_range",
+            confidence=confidence,
+            is_authoritative=True,
+            is_derived=False,
+        )
 
     def needs_detail_fallback(self, price: PriceInfo) -> bool:
         """Return True when min/max are missing and detail fetch may help."""
@@ -54,7 +63,7 @@ class PriceExtractor:
         event_id: str,
     ) -> RawTicketmasterEvent:
         """Fetch detail price if needed and configured, then mutate item price fields."""
-        current_price = self.extract_price(item.raw_price_ranges)
+        current_price = self.extract_price(item.raw_price_ranges, origin=item.price_origin or "none")
         self._apply_price(item, current_price)
         if not self.needs_detail_fallback(current_price) or not self._can_fetch_detail():
             return item
@@ -63,11 +72,15 @@ class PriceExtractor:
             return item
         self._detail_price_calls += 1
         detail_ranges = detail_payload.get("priceRanges") if isinstance(detail_payload, dict) else []
-        detail_price = self.extract_price(detail_ranges if isinstance(detail_ranges, list) else [])
+        detail_price = self.extract_price(
+            detail_ranges if isinstance(detail_ranges, list) else [],
+            origin="discovery_detail",
+        )
         if self.needs_detail_fallback(detail_price):
             self._logger.info("Ticketmaster: detail price unavailable event_id=%s", event_id)
             return item
         item.raw_price_ranges = [entry for entry in detail_ranges if isinstance(entry, dict)]
+        item.price_origin = "discovery_detail"
         self._apply_price(item, detail_price)
         return item
 
@@ -82,13 +95,6 @@ class PriceExtractor:
         item.price_max = price.max_value
         item.price_currency = price.currency or DEFAULT_CURRENCY
 
-    def _format_price_text(self, min_val: float, max_val: float, currency: str) -> str:
-        if min_val == 0 and max_val == 0:
-            return FREE_PRICE_TEXT
-        if min_val == max_val:
-            return f"{min_val:.2f} {currency}"
-        return f"{min_val:.2f} - {max_val:.2f} {currency}"
-
     def _safe_float(self, value: Any) -> Optional[float]:
         try:
             if value is None:
@@ -97,3 +103,8 @@ class PriceExtractor:
             return round(parsed, 2) if parsed >= 0 else None
         except (TypeError, ValueError):
             return None
+
+    def _resolve_source(self, origin: str) -> str:
+        if origin == "discovery_detail":
+            return "ticketmaster_discovery_v2_event_detail"
+        return "ticketmaster_discovery_v2_events"

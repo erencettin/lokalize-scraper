@@ -16,6 +16,7 @@ from models.normalized_event import NormalizedEvent, NormalizedOccurrence, Norma
 from providers.municipal_rss.constants import CATEGORY_MAP, DEFAULT_CITY_NAME, DEFAULT_VENUE, EXTERNAL_ID_HASH_LENGTH, EXTERNAL_ID_PREFIX, ISTANBUL_TIMEZONE, MAX_DESCRIPTION_LENGTH, TURKISH_MONTHS
 from providers.municipal_rss.models import RawRssItem
 from utils.date_parser import DateParser
+from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
 
@@ -25,6 +26,12 @@ class EventBuilder:
     def __init__(self) -> None:
         self._logger = logging.getLogger(__name__)
         self._istanbul_tz = pytz.timezone(ISTANBUL_TIMEZONE)
+        self._price_pattern = re.compile(
+            r"(?:ucretsiz|ücretsiz|free|bedava|"
+            r"₺\s*\d[\d.,]*(?:\s*-\s*₺?\s*\d[\d.,]*)?|"
+            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺))",
+            re.IGNORECASE,
+        )
 
     def build(self, item: RawRssItem) -> Optional[NormalizedEvent]:
         title = clean_text(item.title)
@@ -35,13 +42,14 @@ class EventBuilder:
         if start_at_utc is None:
             return None
         description = self._truncate(clean_text(item.description or title))
+        price = self._build_price(item)
         return NormalizedEvent(
             title=title,
             description=description,
             type=self._resolve_type(f"{title} {description} {item.category}"),
             city_name=settings.municipal_rss_city_name.strip() or DEFAULT_CITY_NAME,
             image_url=clean_text(item.image_url) or None,
-            occurrences=[self._build_occurrence(start_at_utc, title, link, clean_text(item.venue) or DEFAULT_VENUE)],
+            occurrences=[self._build_occurrence(start_at_utc, title, link, clean_text(item.venue) or DEFAULT_VENUE, price)],
         )
 
     def parse_pub_date(self, value: str) -> Optional[datetime]:
@@ -120,7 +128,14 @@ class EventBuilder:
             self._logger.warning("MunicipalRSS: RFC2822 parse failed value=%s reason=%s", raw, exc)
             return None
 
-    def _build_occurrence(self, start_at_utc: datetime, title: str, link: str, venue_name: str) -> NormalizedOccurrence:
+    def _build_occurrence(
+        self,
+        start_at_utc: datetime,
+        title: str,
+        link: str,
+        venue_name: str,
+        price: PriceInfo,
+    ) -> NormalizedOccurrence:
         local_date, local_time, timezone_name = DateParser.to_local_parts(start_at_utc, ISTANBUL_TIMEZONE)
         return NormalizedOccurrence(
             start_at_utc=start_at_utc,
@@ -128,12 +143,44 @@ class EventBuilder:
             local_time=local_time,
             timezone=timezone_name,
             venue_name=venue_name,
-            sources=[self._build_source(title, link)],
+            sources=[self._build_source(title, link, price)],
         )
 
-    def _build_source(self, title: str, link: str) -> NormalizedSource:
+    def _build_source(self, title: str, link: str, price: PriceInfo) -> NormalizedSource:
         digest = hashlib.sha256(link.encode("utf-8")).hexdigest()[:EXTERNAL_ID_HASH_LENGTH]
-        return NormalizedSource(provider="MunicipalRSS", external_id=f"{EXTERNAL_ID_PREFIX}-{digest}", title=title, source_url=link, price=PriceInfo(text="Fiyat bilgisi yok", currency="TRY"), ticket_status="unknown")
+        return NormalizedSource(
+            provider="MunicipalRSS",
+            external_id=f"{EXTERNAL_ID_PREFIX}-{digest}",
+            title=title,
+            source_url=link,
+            price=price,
+            ticket_status="unknown",
+        )
+
+    def _build_price(self, item: RawRssItem) -> PriceInfo:
+        return PriceParser.resolve_from_text_candidates(
+            candidates=self._extract_price_candidates(item),
+            currency="TRY",
+            source="municipal_rss_feed",
+            legal_mode="public_feed",
+            strategy="municipal_rss_text_scan",
+            confidence=0.65,
+            is_authoritative=False,
+            is_derived=True,
+            note="Feed text parsing; set unknown when explicit price is absent.",
+            requires_terms_review=False,
+        )
+
+    def _extract_price_candidates(self, item: RawRssItem) -> list[str]:
+        candidates: list[str] = []
+        for text in (item.description, item.title, item.category):
+            cleaned = clean_text(text)
+            if not cleaned:
+                continue
+            matches = self._price_pattern.findall(cleaned)
+            if matches:
+                candidates.extend(clean_text(match) for match in matches if clean_text(match))
+        return candidates
 
     def _resolve_type(self, text: str) -> str:
         lowered = clean_text(text).lower()

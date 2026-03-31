@@ -13,16 +13,15 @@ from models.normalized_event import NormalizedEvent, NormalizedOccurrence, Norma
 from providers.ticketmaster.constants import (
     DEFAULT_CURRENCY,
     DEFAULT_EVENT_TYPE,
-    DEFAULT_PRICE_TEXT,
     DEFAULT_TICKET_STATUS,
     DEFAULT_VENUE_NAME,
-    FREE_PRICE_TEXT,
     ISTANBUL_TIMEZONE,
     MAX_DESCRIPTION_LENGTH,
 )
 from providers.ticketmaster.models import RawTicketmasterEvent
 from providers.ticketmaster.price_extractor import PriceExtractor
 from utils.date_parser import DateParser
+from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
 
@@ -100,26 +99,24 @@ class EventBuilder:
 
     def _build_price(self, item: RawTicketmasterEvent) -> PriceInfo:
         if item.raw_price_ranges:
-            return self._price_extractor.extract_price(item.raw_price_ranges)
+            return self._price_extractor.extract_price(item.raw_price_ranges, origin=item.price_origin or "discovery_list")
         if item.price_min is None and item.price_max is None:
-            return PriceInfo(text=DEFAULT_PRICE_TEXT, currency=DEFAULT_CURRENCY)
-        min_value = item.price_min if item.price_min is not None else item.price_max
-        max_value = item.price_max if item.price_max is not None else item.price_min
-        if min_value is None or max_value is None:
-            return PriceInfo(text=DEFAULT_PRICE_TEXT, currency=item.price_currency or DEFAULT_CURRENCY)
-        return PriceInfo(
-            min_value=min_value,
-            max_value=max_value,
-            text=self._format_price_text(min_value, max_value, item.price_currency or DEFAULT_CURRENCY),
+            return PriceParser.unknown_price(
+                source="ticketmaster_discovery_v2_events",
+                legal_mode="official_api",
+                strategy="ticketmaster_price_unavailable",
+            )
+        return PriceParser.resolve_structured_range(
+            min_value=item.price_min,
+            max_value=item.price_max,
             currency=item.price_currency or DEFAULT_CURRENCY,
+            source="ticketmaster_discovery_v2_events",
+            legal_mode="official_api",
+            strategy="ticketmaster_price_fields",
+            confidence=0.95,
+            is_authoritative=True,
+            is_derived=False,
         )
-
-    def _format_price_text(self, min_val: float, max_val: float, currency: str) -> str:
-        if min_val == 0 and max_val == 0:
-            return FREE_PRICE_TEXT
-        if min_val == max_val:
-            return f"{min_val:.2f} {currency}"
-        return f"{min_val:.2f} - {max_val:.2f} {currency}"
 
     def _truncate_description(self, text: str) -> Optional[str]:
         cleaned = clean_text(text)

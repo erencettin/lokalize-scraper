@@ -64,6 +64,8 @@ def test_sync_service_sends_google_for_serpapi_provider() -> None:
     assert dto["providers"] == ["SerpAPIEvents"]
     assert dto["providerTags"] == ["Google"]
     assert dto["providerLabel"] == "Google"
+    assert "priceResolution" in dto
+    assert dto["priceResolution"]["legal_mode"] == "unknown"
 
 
 def test_sync_service_sends_municipality_for_municipal_web_provider() -> None:
@@ -83,3 +85,4 @@ def test_sync_service_sends_municipality_for_municipal_web_provider() -> None:
     assert dto["provider"] == "Kartal Belediyesi"
     assert dto["providers"] == ["MunicipalWeb"]
     assert "Kartal Belediyesi" in dto["providerTags"]
+    assert "priceResolution" in dto

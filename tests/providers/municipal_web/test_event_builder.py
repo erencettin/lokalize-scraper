@@ -87,3 +87,38 @@ def test_build_keeps_site_prefixed_real_event_title():
     site = MunicipalSite(name="Silivri Belediyesi", base_url="https://example.com", list_urls=[], parser=NoopStrategy(), requires_detail=False)
     item = RawEventItem(title="Silivri Belediyesi Bahar Şenliği", link="https://example.com/events/7", date="12 Nisan 2026")
     assert builder.build(item, site) is not None
+
+
+def test_build_detects_explicit_free_price_marker() -> None:
+    builder = EventBuilder()
+    event = builder.build(
+        RawEventItem(
+            title="Acik Hava Etkinligi",
+            link="https://example.com/events/8",
+            date="12 Nisan 2026",
+            description="Etkinlik Ucretsizdir",
+        ),
+        _site(),
+    )
+    assert event is not None
+    price = event.occurrences[0].sources[0].price
+    assert price.is_free is True
+    assert price.min_value == 0.0
+    assert price.max_value == 0.0
+
+
+def test_build_keeps_price_unknown_when_not_explicit() -> None:
+    builder = EventBuilder()
+    event = builder.build(
+        RawEventItem(
+            title="Konser",
+            link="https://example.com/events/9",
+            date="12 Nisan 2026",
+            description="Kontenjan sinirlidir",
+        ),
+        _site(),
+    )
+    assert event is not None
+    price = event.occurrences[0].sources[0].price
+    assert price.is_unknown is True
+    assert price.min_value is None

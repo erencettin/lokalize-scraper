@@ -67,6 +67,11 @@ def test_ticketmaster_parse_success():
     assert first.title == "Istanbul Jazz Night"
     assert first.type == "concert"
     assert first.occurrences[0].venue_name == "Zorlu PSM"
+    price = first.occurrences[0].sources[0].price
+    assert price.min_value == 250.0
+    assert price.max_value == 500.0
+    assert price.is_unknown is False
+    assert price.resolution.legal_mode == "official_api"
 
 
 def test_ticketmaster_missing_fields_skips_safely():

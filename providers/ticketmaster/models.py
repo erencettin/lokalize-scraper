@@ -23,5 +23,6 @@ class RawTicketmasterEvent:
     price_min: Optional[float] = None
     price_max: Optional[float] = None
     price_currency: str = "TRY"
+    price_origin: str = "discovery_list"
     classifications: List[Dict[str, Any]] = field(default_factory=list)
     raw_price_ranges: List[Dict[str, Any]] = field(default_factory=list)

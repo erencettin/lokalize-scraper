@@ -15,6 +15,7 @@ from models.normalized_event import NormalizedEvent, NormalizedOccurrence, Norma
 from providers.municipal_web.constants import CATEGORY_MAP, EXTERNAL_ID_HASH_LENGTH, GENERIC_TITLE_WORDS, ISTANBUL_TIMEZONE, MAX_DESCRIPTION_LENGTH, TURKISH_MONTHS
 from providers.municipal_web.models import MunicipalSite, RawEventItem
 from utils.date_parser import DateParser
+from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
 
@@ -24,6 +25,12 @@ class EventBuilder:
     def __init__(self) -> None:
         self._logger = logging.getLogger(__name__)
         self._istanbul_tz = pytz.timezone(ISTANBUL_TIMEZONE)
+        self._price_pattern = re.compile(
+            r"(?:ucretsiz|ücretsiz|free|bedava|"
+            r"₺\s*\d[\d.,]*(?:\s*-\s*₺?\s*\d[\d.,]*)?|"
+            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺))",
+            re.IGNORECASE,
+        )
 
     def build(self, item: RawEventItem, site: MunicipalSite) -> Optional[NormalizedEvent]:
         title = clean_text(item.title)
@@ -34,7 +41,8 @@ class EventBuilder:
         start_at_utc = self._parse_datetime(item.date, item.time, description)
         if start_at_utc is None:
             return None
-        occurrence = self._build_occurrence(start_at_utc, title, link, clean_text(item.venue or site.name))
+        price = self._build_price(item, site)
+        occurrence = self._build_occurrence(start_at_utc, title, link, clean_text(item.venue or site.name), price)
         return NormalizedEvent(
             title=title,
             description=self._truncate(description),
@@ -69,17 +77,24 @@ class EventBuilder:
         remainder = clean_text(title.replace(phrase, " "))
         return set(re.findall(r"[a-zçğıöşü]+", remainder.lower()))
 
-    def _build_source(self, title: str, link: str) -> NormalizedSource:
+    def _build_source(self, title: str, link: str, price: PriceInfo) -> NormalizedSource:
         return NormalizedSource(
             provider="MunicipalWeb",
             external_id=self._build_external_id(link),
             title=title,
             source_url=link,
-            price=PriceInfo(text="Fiyat bilgisi yok", currency="TRY"),
+            price=price,
             ticket_status="unknown",
         )
 
-    def _build_occurrence(self, start_at_utc: datetime, title: str, link: str, venue_name: str) -> NormalizedOccurrence:
+    def _build_occurrence(
+        self,
+        start_at_utc: datetime,
+        title: str,
+        link: str,
+        venue_name: str,
+        price: PriceInfo,
+    ) -> NormalizedOccurrence:
         local_date, local_time, timezone_name = DateParser.to_local_parts(start_at_utc, ISTANBUL_TIMEZONE)
         return NormalizedOccurrence(
             start_at_utc=start_at_utc,
@@ -87,8 +102,34 @@ class EventBuilder:
             local_time=local_time,
             timezone=timezone_name,
             venue_name=venue_name,
-            sources=[self._build_source(title, link)],
+            sources=[self._build_source(title, link, price)],
         )
+
+    def _build_price(self, item: RawEventItem, site: MunicipalSite) -> PriceInfo:
+        candidates = self._extract_price_candidates(item)
+        return PriceParser.resolve_from_text_candidates(
+            candidates=candidates,
+            currency="TRY",
+            source=f"municipal_web:{clean_text(site.base_url) or site.name}",
+            legal_mode="public_web_text",
+            strategy="municipal_web_text_scan",
+            confidence=0.55,
+            is_authoritative=False,
+            is_derived=True,
+            note="Public web page text parsing. Verify terms/robots per domain.",
+            requires_terms_review=True,
+        )
+
+    def _extract_price_candidates(self, item: RawEventItem) -> list[str]:
+        candidates: list[str] = []
+        for text in (item.description, item.title):
+            cleaned = clean_text(text)
+            if not cleaned:
+                continue
+            matches = self._price_pattern.findall(cleaned)
+            if matches:
+                candidates.extend(clean_text(match) for match in matches if clean_text(match))
+        return candidates
 
     def _truncate(self, value: str) -> str:
         return value if len(value) <= MAX_DESCRIPTION_LENGTH else f"{value[:MAX_DESCRIPTION_LENGTH].rstrip()}..."
