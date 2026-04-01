@@ -1,19 +1,20 @@
 {
-  "total_events": 197,
-  "total_events_before_dedup": 223,
-  "total_events_after_dedup": 197,
-  "ticketmaster_municipal_count": 202,
+  "total_events": 205,
+  "total_events_before_dedup": 231,
+  "total_events_after_dedup": 205,
+  "ticketmaster_municipal_count": 210,
   "serpapi_count": 21,
   "overlap_count": 26,
   "multi_provider_event_count": 7,
   "provider_combo_counts": {
     "MunicipalRSS": 6,
-    "MunicipalWeb": 29,
+    "MunicipalWeb": 37,
     "SerpAPIEvents": 14,
     "Ticketmaster": 141,
     "Ticketmaster+SerpAPIEvents": 7
   },
   "provider_tag_combo_counts": {
+    "Beylikdüzü Belediyesi": 8,
     "Esenyurt Belediyesi": 6,
     "Eyüpsultan Belediyesi": 2,
     "Google": 14,
@@ -24,5 +25,5 @@
     "Üsküdar Belediyesi+Fatih Belediyesi": 1,
     "İBB": 6
   },
-  "last_merge": "2026-03-31T23:05:19.459508+00:00"
+  "last_merge": "2026-04-01T02:51:02.367082+00:00"
 }
