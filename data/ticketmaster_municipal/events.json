@@ -71,19 +71,19 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T13:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "16:00",
+        "start_at_utc": "2026-04-02T07:00:00Z",
+        "local_date": "2026-04-02",
+        "local_time": "10:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-c56a0a1f0753bb41",
+            "external_id": "rss-8443b3cdce5b357a",
             "title": "Sanat Rotası",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10240,6 +10240,70 @@
     "fetched_at": null
   },
   {
+    "title": "DOST GEZEGENLER",
+    "description": "Çocuk Tiyatrosu / Kukla / Masal TİYATRO KLANK",
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-26T11:00:00Z",
+        "local_date": "2026-04-26",
+        "local_time": "14:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Üsküdar Gençlik Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-cc37fe1471e4a7a9",
+            "title": "DOST GEZEGENLER",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "EŞİT MASALLAR",
     "description": "Çocuk Tiyatrosu / Kukla / Masal ODEABANK",
     "type": "theatre",
@@ -11136,6 +11200,134 @@
     "fetched_at": null
   },
   {
+    "title": "USTALARA SAYGI",
+    "description": "Konser ZAFER ÖZARSLAN",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-24T16:30:00Z",
+        "local_date": "2026-04-24",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-09408c1d6ec49b14",
+            "title": "USTALARA SAYGI",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "YAZA MERHABA",
+    "description": "Konser OKYANUS TSM KOROSU",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-28T16:30:00Z",
+        "local_date": "2026-04-28",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d4fe21de167f5e34",
+            "title": "YAZA MERHABA",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
     "description": "Konser SOLİST: FİLİZ TEKİN",
     "type": "concert",
@@ -11200,15 +11392,15 @@
     "fetched_at": null
   },
   {
-    "title": "BARBAROS GÜZEL SANATLAR AKADEMİSİ KARMA RESİM SERGİSİ VE MÜZİK DİNLETİSİ",
-    "description": "Özel Etkinlik KARAKALEM VE SULUBOYA YETİŞKİN KURSİYER SERGİSİ",
-    "type": "exhibition",
+    "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
+    "description": "Konser SOLİST: FİLİZ TEKİN",
+    "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-02T16:30:00Z",
-        "local_date": "2026-04-02",
+        "start_at_utc": "2026-04-24T16:30:00Z",
+        "local_date": "2026-04-24",
         "local_time": "19:30",
         "timezone": "Europe/Istanbul",
         "venue_name": "Altunizade Kültür ve Sanat Merkezi",
@@ -11216,10 +11408,10 @@
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-2db002956672d47f",
-            "title": "BARBAROS GÜZEL SANATLAR AKADEMİSİ KARMA RESİM SERGİSİ VE MÜZİK DİNLETİSİ",
+            "external_id": "web-f46a33884fcaa8cb",
+            "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/barbaros-guzel-sanatlar-akademisi-karma-resim/6916",
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11264,26 +11456,26 @@
     "fetched_at": null
   },
   {
-    "title": "ÜSKÜDAR BELEDİYESİ KİTAP KULÜBÜ",
-    "description": "Özel Etkinlik REŞAT NURİ GÜNTEKİN - YAPRAK DÖKÜMÜ",
+    "title": "ESMEK - Nisan Ayı Atölyeleri",
+    "description": "ESMEK - Nisan Ayı Atölyeleri",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-11T09:02:00Z",
-        "local_date": "2026-04-11",
-        "local_time": "12:02",
+        "start_at_utc": "2026-04-03T21:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-687f496b45e353fb",
-            "title": "ÜSKÜDAR BELEDİYESİ KİTAP KULÜBÜ",
+            "external_id": "web-190a64959762c131",
+            "title": "ESMEK - Nisan Ayı Atölyeleri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/uskudar-belediyesi-kitap-kulubu/6926",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11296,7 +11488,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -11328,26 +11520,26 @@
     "fetched_at": null
   },
   {
-    "title": "FİBROMİYALJİ VE PSİKOLOJİK AĞRILAR",
-    "description": "Seminer DR. FİGEN ÜZER",
+    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-21T16:00:00Z",
-        "local_date": "2026-04-21",
-        "local_time": "19:00",
+        "start_at_utc": "2026-04-15T21:00:00Z",
+        "local_date": "2026-04-16",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-51ddd660550e597d",
-            "title": "FİBROMİYALJİ VE PSİKOLOJİK AĞRILAR",
+            "external_id": "web-955948af257895b7",
+            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/seminer/4/fibromiyalji-ve-psikolojik-agrilar/6946",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11360,7 +11552,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -11392,26 +11584,26 @@
     "fetched_at": null
   },
   {
-    "title": "ALACA DOKUMA GRUBU 7. SERGİSİ",
-    "description": "Sergi Ziyaret Saatleri",
-    "type": "exhibition",
+    "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
+    "description": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-03T16:00:00Z",
-        "local_date": "2026-04-03",
-        "local_time": "19:00",
+        "start_at_utc": "2026-04-01T21:00:00Z",
+        "local_date": "2026-04-02",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Sahil",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-a5460e33c94d105c",
-            "title": "ALACA DOKUMA GRUBU 7. SERGİSİ",
+            "external_id": "web-b3afad9f68cb172c",
+            "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/alaca-dokuma-grubu-7-sergisi/6939",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11424,7 +11616,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -11937,134 +12129,6 @@
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
                 "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-15T21:00:00Z",
-        "local_date": "2026-04-16",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-955948af257895b7",
-            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "description": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T21:00:00Z",
-        "local_date": "2026-04-02",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b3afad9f68cb172c",
-            "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12676,7 +12740,7 @@
     "description": "Kurtuluştan Kuruluşa: Cumhuriyetin İnşası",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/KURTULUSTAN-KURULUSA-01.jpg",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/KULTUR-WEB_kurulus-sergi-01.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-03T20:00:00Z",
@@ -12946,6 +13010,70 @@
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
             "title": "Ayşegül",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Kısa Film Çekim Atölyesi “Fikirden Film Çekimine”",
+    "description": "Kısa Film Çekim Atölyesi “Fikirden Film Çekimine”",
+    "type": "cinema",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/UYARLAMA-01.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-04T20:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Kısa Film Çekim Atölyesi “Fikirden Film Çekimine”",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
@@ -13522,70 +13650,6 @@
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
             "title": "Ebedi Barış",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kürk Mantolu Madonna",
-    "description": "Kürk Mantolu Madonna",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/03/kurkmantolumadonna-06-scaled.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-10T20:00:00Z",
-        "local_date": "2026-04-10",
-        "local_time": "23:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Kürk Mantolu Madonna",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
