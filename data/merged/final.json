@@ -70,6 +70,76 @@
     "fetched_at": null
   },
   {
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-01T13:00:00Z",
+        "local_date": "2026-04-01",
+        "local_time": "16:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c56a0a1f0753bb41",
+            "title": "Sanat Rotası",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalRSS",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/sanat-rotasi-2/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Okur Yazar Buluşması",
     "description": "Okur Yazar Buluşması",
     "type": "experience",
@@ -11122,6 +11192,114 @@
     "fetched_at": null
   },
   {
+    "title": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+    "description": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.kartal.bel.tr/Content/img/Etkinlik/firat_dagidir_dans_nisan2026.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-28T21:00:00Z",
+        "local_date": "2026-04-29",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kartal Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d77c7d548a8d4c84",
+            "title": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+            "description": null,
+            "source_url": "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.kartal.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-04-29T21:00:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kartal Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d77c7d548a8d4c84",
+            "title": "Posta Kutusu",
+            "description": null,
+            "source_url": "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.kartal.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Kartal Belediyesi"
+    ],
+    "provider_label": "Kartal Belediyesi",
+    "source_urls": [
+      "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "BREMEN MIZIKACILARI",
     "description": "Çocuk Tiyatrosu / Kukla / Masal SÜTLAÇ PRODÜKSİYON",
     "type": "theatre",
@@ -11753,6 +11931,76 @@
     "fetched_at": null
   },
   {
+    "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
+    "description": "Konser DİLLERDEN DÜŞMEYEN ZAMANSIZ ŞARKILAR 70'LER 80'LER",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-19T16:30:00Z",
+        "local_date": "2026-04-19",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-bc5d550283906809",
+            "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "KINA GECESİ",
     "description": "Konser FAMİ MSD THM İSTANBUL KOROSU",
     "type": "concert",
@@ -11809,6 +12057,76 @@
     "provider_label": "Üsküdar Belediyesi",
     "source_urls": [
       "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kina-gecesi/6934"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "KURTALAN EKSPRES",
+    "description": "Konser Detay :",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-21T17:00:00Z",
+        "local_date": "2026-04-21",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-ec8a4662b2c65003",
+            "title": "KURTALAN EKSPRES",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947"
     ],
     "external_id": null,
     "category": null,
@@ -12243,6 +12561,76 @@
     "fetched_at": null
   },
   {
+    "title": "FİBROMİYALJİ VE PSİKOLOJİK AĞRILAR",
+    "description": "Seminer DR. FİGEN ÜZER",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-21T16:00:00Z",
+        "local_date": "2026-04-21",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-51ddd660550e597d",
+            "title": "FİBROMİYALJİ VE PSİKOLOJİK AĞRILAR",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/seminer/4/fibromiyalji-ve-psikolojik-agrilar/6946",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/seminer/4/fibromiyalji-ve-psikolojik-agrilar/6946"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "ALACA DOKUMA GRUBU 7. SERGİSİ",
     "description": "Sergi Ziyaret Saatleri",
     "type": "exhibition",
@@ -12299,356 +12687,6 @@
     "provider_label": "Üsküdar Belediyesi",
     "source_urls": [
       "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/alaca-dokuma-grubu-7-sergisi/6939"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "CAM OBJELERLE MOZAİK ÇALIŞMALARI",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-28T14:00:00Z",
-        "local_date": "2026-04-28",
-        "local_time": "17:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Altunizade Kültür ve Sanat Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3f46229add3ec9d0",
-            "title": "CAM OBJELERLE MOZAİK ÇALIŞMALARI",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/cam-objelerle-mozaik-calismalari/6944",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/cam-objelerle-mozaik-calismalari/6944"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "KAOS VE DÜZEN RESİM & HEYKEL SERGİSİ",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-14T16:00:00Z",
-        "local_date": "2026-04-14",
-        "local_time": "19:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Bağlarbaşı",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-a83d4f8ca2acabf3",
-            "title": "KAOS VE DÜZEN RESİM & HEYKEL SERGİSİ",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/kaos-ve-duzen-resim-heykel-sergisi/6942",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/kaos-ve-duzen-resim-heykel-sergisi/6942"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "\"MİR\" Ebru Türkkan / Ebru Sergisi",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-27T16:00:00Z",
-        "local_date": "2026-04-27",
-        "local_time": "19:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Sahil",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-57f6502fd0370e39",
-            "title": "\"MİR\" Ebru Türkkan / Ebru Sergisi",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/mir-ebru-turkkan-ebru-sergisi/6943",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/mir-ebru-turkkan-ebru-sergisi/6943"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-15T21:00:00Z",
-        "local_date": "2026-04-16",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-955948af257895b7",
-            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "description": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T21:00:00Z",
-        "local_date": "2026-04-02",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b3afad9f68cb172c",
-            "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66"
     ],
     "external_id": null,
     "category": null,
@@ -13209,6 +13247,146 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/547/devlerin-savasi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-15T21:00:00Z",
+        "local_date": "2026-04-16",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-955948af257895b7",
+            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
+    "description": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-01T21:00:00Z",
+        "local_date": "2026-04-02",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-b3afad9f68cb172c",
+            "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66"
     ],
     "external_id": null,
     "category": null,
