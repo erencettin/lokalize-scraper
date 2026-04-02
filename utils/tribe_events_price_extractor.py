@@ -51,6 +51,7 @@ class TribeEventsPriceExtractor:
 
     def extract_from_event(self, event: Dict[str, Any]) -> PriceInfo:
         """Return a PriceInfo from a Tribe Events v1 event dict."""
+        print(f"[TRIBE_PRICE] Called. cost={event.get('cost') if isinstance(event, dict) else None}", flush=True)
         if not isinstance(event, dict):
             return self._unknown()
 

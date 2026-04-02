@@ -70,6 +70,9 @@ class SerpApiEventsProvider:
                 )
                 continue
 
+            for event in event_results[:2]:
+                print(f"[SERP_RAW] title={event.get('title')} ticket_info={event.get('ticket_info')} price={event.get('price')} link={event.get('link')}", flush=True)
+
             for raw in event_results:
                 if not isinstance(raw, dict):
                     continue
@@ -275,6 +278,7 @@ class SerpApiEventsProvider:
         return self._clean_optional(ticket_info)
 
     def _extract_price(self, raw: dict, ticket_info_text: Optional[str]) -> PriceInfo:
+        print(f"[SERP_PRICE] Raw ticket_info={raw.get('ticket_info')}", flush=True)
         extracted_price = self._safe_float(raw.get("extracted_price"))
         if extracted_price is not None:
             return PriceParser.resolve_structured_range(

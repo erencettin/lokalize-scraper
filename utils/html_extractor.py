@@ -91,6 +91,7 @@ def extract_jsonld_price(html: str) -> Optional[Dict[str, object]]:
     - ``Event.offers.price`` / ``offers.lowPrice``
     - Nested ``ItemList`` containing ``Event`` entries
     """
+    print(f"[JSONLD_PRICE] Called. html_len={len(html) if html else 0}", flush=True)
     if not html:
         return None
 

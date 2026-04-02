@@ -44,6 +44,25 @@ class EventBuilder:
         if start_at_utc is None:
             return None
         price = self._build_price(item, site)
+
+        if not hasattr(self, "_logged_sites"):
+            self._logged_sites = set()
+        
+        if site.name not in self._logged_sites:
+            self._logged_sites.add(site.name)
+            if "uskudar" in site.name.lower() or "üsküdar" in site.name.lower():
+                html_snippet = (getattr(item, "_raw_html", None) or item.description or "")[:300]
+                print(f"[USKUDAR_HTML] {html_snippet}", flush=True)
+            
+            print(
+                f"[WEB_PRICE_DEBUG] site={site.name} "
+                f"is_free={price.is_free} "
+                f"min={price.min_value} "
+                f"text={getattr(item, 'price_text', None)} "
+                f"confidence={price.confidence}",
+                flush=True
+            )
+
         occurrence = self._build_occurrence(start_at_utc, title, link, clean_text(item.venue or site.name), price)
         return NormalizedEvent(
             title=title,
