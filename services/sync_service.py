@@ -88,6 +88,7 @@ class SyncService:
                         "sourceUrl": str(source.source_url),
                         "minPrice": resolved_min,
                         "maxPrice": resolved_max,
+                        "currency": source.price.currency,
                         "priceText": source.price.text,
                         "ticketStatus": source.ticket_status,
                         "isPriceUnknown": source.price.is_unknown,
@@ -103,9 +104,30 @@ class SyncService:
             self.last_backend_sync_status = "skipped"
             return True
 
-        success = self._backend.sync_events_bulk(dtos, sync_run_id)
-        self.last_backend_sync_status = "success" if success else "failed"
-        return success
+        # Debug log for price tracking (first 5)
+        for d in dtos[:5]:
+            logging.info(
+                f"Syncing DTO: Title='{d['title']}' Provider='{d['provider']}' "
+                f"MinPrice='{d['minPrice']}' Currency='{d['currency']}'"
+            )
+
+        # Chunk into batches of 50 to avoid Render timeout and DB concurrency overload
+        import time
+        chunk_size = 50
+        all_success = True
+        total = len(dtos)
+        for i in range(0, total, chunk_size):
+            chunk = dtos[i:i + chunk_size]
+            logging.info(f"Syncing chunk {i // chunk_size + 1}/{(total + chunk_size - 1) // chunk_size} ({len(chunk)} events)...")
+            success = self._backend.sync_events_bulk(chunk, sync_run_id)
+            if not success:
+                logging.error(f"Chunk {i // chunk_size + 1} failed.")
+                all_success = False
+            if i + chunk_size < total:
+                time.sleep(1.5)  # Rate-limit: avoid overwhelming the backend
+
+        self.last_backend_sync_status = "success" if all_success else "partial_failure"
+        return all_success
 
     def trigger_stale_cleanup(self, sync_run_id: str):
         """V4: Triggers lifecycle cleanup in the backend."""

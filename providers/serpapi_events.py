@@ -307,6 +307,16 @@ class SerpApiEventsProvider:
         ticket_price_candidates = self._extract_ticket_price_candidates(raw)
         if ticket_info_text:
             ticket_price_candidates.append(ticket_info_text)
+
+        # P1 Debug: log raw ticket_info structure to diagnose missing prices
+        raw_ticket_info = raw.get("ticket_info")
+        if raw_ticket_info and not ticket_price_candidates:
+            self._logger.debug(
+                "SerpAPI: ticket_info has no price candidates title='%s' ticket_info=%s",
+                raw.get("title", "?"),
+                str(raw_ticket_info)[:200],
+            )
+
         return PriceParser.resolve_from_text_candidates(
             candidates=ticket_price_candidates,
             currency=self._clean_optional(raw.get("currency")) or "TRY",

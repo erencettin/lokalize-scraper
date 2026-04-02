@@ -1,9 +1,10 @@
-﻿"""Reusable HTML extraction helpers."""
+"""Reusable HTML extraction helpers."""
 
 from __future__ import annotations
 
+import json
 import re
-from typing import List, Tuple
+from typing import Dict, List, Optional, Tuple
 from urllib.parse import urljoin
 
 from utils.text_normalizer import clean_text, strip_html
@@ -68,3 +69,141 @@ def _line_text(html: str) -> str:
     plain = re.sub(r"<[^>]+>", " ", with_breaks)
     lines = [clean_text(line) for line in plain.splitlines() if clean_text(line)]
     return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# Price-specific extraction helpers
+# ---------------------------------------------------------------------------
+
+# JSON-LD Event/Offer schema keys we look for
+_JSONLD_OFFER_PRICE_KEYS = ("price", "lowPrice", "minPrice")
+_JSONLD_OFFER_HIGH_KEYS  = ("highPrice", "maxPrice")
+
+
+def extract_jsonld_price(html: str) -> Optional[Dict[str, object]]:
+    """Extract price info from JSON-LD <script> blocks using Schema.org Event markup.
+
+    Returns a dict with keys ``min``, ``max`` (floats or None) and
+    ``currency`` (str or None), or ``None`` if nothing useful is found.
+
+    Tries every ``<script type='application/ld+json'>`` block in the page.
+    Handles both single objects and arrays.  Looks for:
+    - ``Event.offers.price`` / ``offers.lowPrice``
+    - Nested ``ItemList`` containing ``Event`` entries
+    """
+    if not html:
+        return None
+
+    pattern = re.compile(
+        r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        re.IGNORECASE | re.DOTALL,
+    )
+
+    for match in pattern.finditer(html):
+        raw = match.group(1).strip()
+        try:
+            data = json.loads(raw)
+        except (json.JSONDecodeError, ValueError):
+            continue
+
+        result = _parse_jsonld_node(data)
+        if result:
+            return result
+
+    return None
+
+
+def _parse_jsonld_node(node: object) -> Optional[Dict[str, object]]:
+    """Recursively search a JSON-LD node for Event offers price data."""
+    if isinstance(node, list):
+        for item in node:
+            found = _parse_jsonld_node(item)
+            if found:
+                return found
+        return None
+
+    if not isinstance(node, dict):
+        return None
+
+    node_type = str(node.get("@type", "")).lower()
+
+    # Support ItemList wrapping Event nodes
+    if node_type in ("itemlist", "list"):
+        for item in node.get("itemListElement", []):
+            found = _parse_jsonld_node(item.get("item", item) if isinstance(item, dict) else item)
+            if found:
+                return found
+
+    offers_raw = node.get("offers")
+    if offers_raw is None:
+        return None
+
+    offers_list = offers_raw if isinstance(offers_raw, list) else [offers_raw]
+
+    min_price: Optional[float] = None
+    max_price: Optional[float] = None
+    currency:  Optional[str]   = None
+
+    for offer in offers_list:
+        if not isinstance(offer, dict):
+            continue
+
+        for key in _JSONLD_OFFER_PRICE_KEYS:
+            raw_val = offer.get(key)
+            if raw_val is not None:
+                try:
+                    val = float(str(raw_val).replace(",", "."))
+                    if min_price is None or val < min_price:
+                        min_price = val
+                except (ValueError, TypeError):
+                    pass
+
+        for key in _JSONLD_OFFER_HIGH_KEYS:
+            raw_val = offer.get(key)
+            if raw_val is not None:
+                try:
+                    max_price = float(str(raw_val).replace(",", "."))
+                except (ValueError, TypeError):
+                    pass
+
+        if currency is None:
+            currency = offer.get("priceCurrency") or offer.get("currency")
+
+    if min_price is None and max_price is None:
+        return None
+
+    return {"min": min_price, "max": max_price, "currency": currency or "TRY"}
+
+
+# Meta tag patterns for price detection
+_META_PRICE_PATTERNS = [
+    re.compile(r'<meta[^>]+property=["\']event:price["\'][^>]+content=["\']([^"\']+)', re.IGNORECASE),
+    re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']event:price', re.IGNORECASE),
+    re.compile(r'<meta[^>]+name=["\']price["\'][^>]+content=["\']([^"\']+)', re.IGNORECASE),
+    re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']price', re.IGNORECASE),
+    re.compile(r'<meta[^>]+itemprop=["\']price["\'][^>]+content=["\']([^"\']+)', re.IGNORECASE),
+    re.compile(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+itemprop=["\']price', re.IGNORECASE),
+]
+
+
+def extract_meta_price(html: str) -> Optional[str]:
+    """Extract price string from common HTML meta tag patterns.
+
+    Checks (in order):
+    - ``<meta property="event:price">``
+    - ``<meta name="price">``
+    - ``<meta itemprop="price">``
+
+    Returns the raw content string or ``None`` if nothing found.
+    """
+    if not html:
+        return None
+
+    for pattern in _META_PRICE_PATTERNS:
+        match = pattern.search(html)
+        if match:
+            value = clean_text(match.group(1))
+            if value:
+                return value
+
+    return None

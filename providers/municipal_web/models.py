@@ -1,4 +1,4 @@
-﻿"""Data contracts for municipal web scraping."""
+"""Data contracts for municipal web scraping."""
 
 from __future__ import annotations
 
@@ -20,6 +20,7 @@ class RawEventItem:
     time: str = ""
     description: str = ""
     image_url: str = ""
+    price_text: str = ""
 
 
 @dataclass(frozen=True)

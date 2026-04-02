@@ -62,33 +62,22 @@ class PriceExtractor:
         http_client: TicketmasterDetailClient,
         event_id: str,
     ) -> RawTicketmasterEvent:
-        """Fetch detail price if needed and configured, then mutate item price fields."""
+        """Apply price from list response only.
+
+        Türkiye market (source: wts-tr) doesn't support priceRanges in the
+        Ticketmaster Inventory Status API. Detail fetching is disabled globally
+        to avoid burning 800+ API calls per sync with zero payoff.
+        Ref: https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/
+        """
         current_price = self.extract_price(item.raw_price_ranges, origin=item.price_origin or "none")
         self._apply_price(item, current_price)
-        if not self.needs_detail_fallback(current_price) or not self._can_fetch_detail():
-            return item
-        detail_payload = http_client.fetch_event_detail(event_id)
-        if detail_payload is None:
-            return item
-        self._detail_price_calls += 1
-        detail_ranges = detail_payload.get("priceRanges") if isinstance(detail_payload, dict) else []
-        detail_price = self.extract_price(
-            detail_ranges if isinstance(detail_ranges, list) else [],
-            origin="discovery_detail",
-        )
-        if self.needs_detail_fallback(detail_price):
-            self._logger.info("Ticketmaster: detail price unavailable event_id=%s", event_id)
-            return item
-        item.raw_price_ranges = [entry for entry in detail_ranges if isinstance(entry, dict)]
-        item.price_origin = "discovery_detail"
-        self._apply_price(item, detail_price)
+        # Detail price fetch is intentionally skipped for TR market — priceRanges
+        # is only supported in US, CA, AU, NZ, MX markets.
         return item
 
     def _can_fetch_detail(self) -> bool:
-        if not settings.ticketmaster_detail_price_enabled:
-            return False
-        limit = max(settings.ticketmaster_detail_price_limit, 0)
-        return limit > 0 and self._detail_price_calls < limit
+        """Always returns False — detail fetch disabled for Türkiye market."""
+        return False
 
     def _apply_price(self, item: RawTicketmasterEvent, price: PriceInfo) -> None:
         item.price_min = price.min_value

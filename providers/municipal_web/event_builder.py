@@ -15,6 +15,7 @@ from models.normalized_event import NormalizedEvent, NormalizedOccurrence, Norma
 from providers.municipal_web.constants import CATEGORY_MAP, EXTERNAL_ID_HASH_LENGTH, GENERIC_TITLE_WORDS, ISTANBUL_TIMEZONE, MAX_DESCRIPTION_LENGTH, TURKISH_MONTHS
 from providers.municipal_web.models import MunicipalSite, RawEventItem
 from utils.date_parser import DateParser
+from utils.html_extractor import extract_jsonld_price, extract_meta_price
 from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
@@ -122,14 +123,50 @@ class EventBuilder:
         )
 
     def _extract_price_candidates(self, item: RawEventItem) -> list[str]:
+        """Build a list of price string candidates from richest to plainest source.
+
+        Order of precedence (highest confidence first):
+        1. JSON-LD Event schema  (structured, most reliable)
+        2. HTML meta tags        (semi-structured)
+        3. Regex on description  (free text, least reliable)
+        4. Regex on title        (last resort)
+        """
         candidates: list[str] = []
+
+        # --- 0. JSON cost/price (Highest priority from parser) ---
+        if item.price_text:
+            candidates.append(item.price_text)
+
+        # --- 1. JSON-LD ---
+        html_for_structured = getattr(item, "_raw_html", None) or item.description
+        if html_for_structured:
+            jsonld = extract_jsonld_price(html_for_structured)
+            if jsonld:
+                min_val = jsonld.get("min")
+                max_val = jsonld.get("max")
+                currency = str(jsonld.get("currency") or "TRY")
+                if min_val is not None:
+                    symbol = "₺" if currency.upper() == "TRY" else currency
+                    if max_val and max_val != min_val:
+                        candidates.append(f"{min_val:.0f}-{max_val:.0f} {symbol}")
+                    else:
+                        candidates.append(f"{min_val:.0f} {symbol}")
+
+        # --- 2. Meta tag ---
+        if html_for_structured:
+            meta_price = extract_meta_price(html_for_structured)
+            if meta_price:
+                candidates.append(meta_price)
+
+        # --- 3 & 4. Regex on description + title ---
         for text in (item.description, item.title):
             cleaned = clean_text(text)
             if not cleaned:
                 continue
             matches = self._price_pattern.findall(cleaned)
             if matches:
-                candidates.extend(clean_text(match) for match in matches if clean_text(match))
+                candidates.extend(clean_text(m) for m in matches if clean_text(m))
+
         return candidates
 
     def _truncate(self, value: str) -> str:

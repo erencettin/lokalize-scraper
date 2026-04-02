@@ -1,4 +1,4 @@
-﻿"""WordPress JSON event parser with HTML card fallback."""
+"""WordPress JSON event parser with HTML card fallback."""
 
 from __future__ import annotations
 
@@ -71,6 +71,7 @@ class WpJsonStrategy(SiteParser):
             time=time_text,
             description=strip_html(self._json_text(entry.get("excerpt")) or self._json_text(entry.get("content")) or title),
             image_url=self._json_image_url(entry, site.base_url),
+            price_text=self._json_text(entry.get("cost")) or self._json_text(entry.get("price")) or self._json_text(entry.get("ticket_price")),
         )
 
     def _json_text(self, value: Any) -> str:
