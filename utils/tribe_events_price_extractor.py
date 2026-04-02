@@ -62,6 +62,7 @@ class TribeEventsPriceExtractor:
                 raw_values.append(str(val).strip())
 
         if not raw_values:
+            _logger.debug("TribeEvents Raw Cost: [] -> Parsed: Unknown (0.0)")
             return self._unknown()
 
         # Check explicit free: cost field present but empty / zero
@@ -92,7 +93,7 @@ class TribeEventsPriceExtractor:
         elif primary:
             candidates.append(primary)
 
-        return PriceParser.resolve_from_text_candidates(
+        result = PriceParser.resolve_from_text_candidates(
             candidates=candidates,
             currency="TRY",
             source="tribe_events_api",
@@ -104,6 +105,8 @@ class TribeEventsPriceExtractor:
             note="Tribe Events API cost field. Verify ToS for public use.",
             requires_terms_review=True,
         )
+        _logger.debug("Tribe (Küçükçekmece) Raw Cost: %s -> Parsed: %s", raw_values, result)
+        return result
 
     # ------------------------------------------------------------------
     # Helpers

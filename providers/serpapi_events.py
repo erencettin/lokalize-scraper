@@ -103,6 +103,7 @@ class SerpApiEventsProvider:
         city: str,
         fetched_at: datetime,
     ) -> Optional[NormalizedEvent]:
+        self._logger.info("SerpAPI Raw Event (category=%s): %s", category, raw)
         title = clean_text(str(raw.get("title") or ""))
         if not title:
             return None

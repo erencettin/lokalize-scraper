@@ -172,6 +172,8 @@ def _parse_jsonld_node(node: object) -> Optional[Dict[str, object]]:
     if min_price is None and max_price is None:
         return None
 
+    import logging
+    logging.getLogger(__name__).info(f"HTML extract_jsonld_price FOUND: min={min_price}, max={max_price}, currency={currency or 'TRY'}")
     return {"min": min_price, "max": max_price, "currency": currency or "TRY"}
 
 
@@ -204,6 +206,8 @@ def extract_meta_price(html: str) -> Optional[str]:
         if match:
             value = clean_text(match.group(1))
             if value:
+                import logging
+                logging.getLogger(__name__).info(f"HTML extract_meta_price FOUND: {value}")
                 return value
 
     return None

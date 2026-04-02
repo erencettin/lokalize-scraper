@@ -31,6 +31,9 @@ class ResponseParser:
         title = clean_text(str(raw.get("name") or ""))
         event_id = clean_text(str(raw.get("id") or ""))
         price_ranges = self._extract_list(raw.get("priceRanges"))
+        if price_ranges:
+            import logging
+            logging.getLogger(__name__).info(f"Ticketmaster List API priceRanges FOUND for event_id={event_id}: {price_ranges}")
         classifications = self._extract_list(raw.get("classifications"))
         return RawTicketmasterEvent(
             event_id=event_id,
