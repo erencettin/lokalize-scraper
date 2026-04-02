@@ -1,95 +1,25 @@
 [
   {
-    "title": "Hocapaşa Mevlevileri - Sema Ayini - Nisan Ayı Etkinlikleri",
-    "description": null,
+    "title": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
+    "description": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
     "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/cf0/e3e32db3-adac-486f-b78d-7c8857f8bcf0_106191_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T16:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "19:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Hodjapasha Dance Theater",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZk5Q56vve",
-            "title": "Hocapaşa Mevlevileri - Sema Ayini - Nisan Ayı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5APA6/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/5APA6/001/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Güldür Güldür Show",
-    "description": null,
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T17:00:00Z",
-        "local_date": "2026-04-01",
+        "start_at_utc": "2026-04-02T17:00:00Z",
+        "local_date": "2026-04-02",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Maximum UNIQ Hall",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z6HyzZyMZGkv4nzZv",
-            "title": "Güldür Güldür Show",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-12b7cf73f25d1666",
+            "title": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/55AB8/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-yasamak-mi-yoksa-olmek-mi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -99,33 +29,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/55AB8/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-yasamak-mi-yoksa-olmek-mi/"
     ],
     "external_id": null,
     "category": null,
@@ -140,26 +70,26 @@
     "fetched_at": null
   },
   {
-    "title": "Karaoke Gecesi",
-    "description": null,
+    "title": "İBB Şehir Tiyatroları – İfgenya",
+    "description": "İBB Şehir Tiyatroları – İfgenya",
     "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T17:30:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "20:30",
+        "start_at_utc": "2026-04-02T17:00:00Z",
+        "local_date": "2026-04-02",
+        "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre Koşuyolu",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkQfaGjy",
-            "title": "Karaoke Gecesi",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-12f697780da1ea6a",
+            "title": "İBB Şehir Tiyatroları – İfgenya",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5PJ51/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-ifgenya/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -169,33 +99,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5PJ51/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-ifgenya/"
     ],
     "external_id": null,
     "category": null,
@@ -210,26 +140,26 @@
     "fetched_at": null
   },
   {
-    "title": "Yıldız Tilbe",
-    "description": null,
-    "type": "concert",
+    "title": "Yüzeyin Derinliğinde",
+    "description": "Yüzeyin Derinliğinde",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-04-08T21:00:00Z",
+        "local_date": "2026-04-09",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Jolly Joker Vadistanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkf-akkt",
-            "title": "Yıldız Tilbe",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-45adda204b719171",
+            "title": "Yüzeyin Derinliğinde",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5JW25/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/yuzeyin-derinliginde/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -239,33 +169,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5JW25/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/yuzeyin-derinliginde/"
     ],
     "external_id": null,
     "category": null,
@@ -280,26 +210,26 @@
     "fetched_at": null
   },
   {
-    "title": "Duygu Soylu \"A Tribute to Onno Tunç",
-    "description": null,
-    "type": "concert",
+    "title": "Heritage İstanbul",
+    "description": "Heritage İstanbul",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-04-03T21:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Zorlu PSM - Touche by N Kolay",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkkoauBt",
-            "title": "Duygu Soylu \"A Tribute to Onno Tunç",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-cbe62024798725e4",
+            "title": "Heritage İstanbul",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/55G57/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/heritage-istanbul/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -309,33 +239,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/55G57/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/heritage-istanbul/"
     ],
     "external_id": null,
     "category": null,
@@ -350,26 +280,26 @@
     "fetched_at": null
   },
   {
-    "title": "Barabar",
-    "description": null,
-    "type": "concert",
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-04-04T21:00:00Z",
+        "local_date": "2026-04-05",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Lütfi Kırdar Anadolu Auditorium",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZk9bvFvve",
-            "title": "Barabar",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c56a0a1f0753bb41",
+            "title": "Sanat Rotası",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5MN07/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -379,33 +309,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5MN07/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/sanat-rotasi-2/"
     ],
     "external_id": null,
     "category": null,
@@ -420,26 +350,26 @@
     "fetched_at": null
   },
   {
-    "title": "7 Pink Floyd'lar ve 2 Prenses",
-    "description": null,
-    "type": "concert",
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-04-02T21:00:00Z",
+        "local_date": "2026-04-03",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Babylon",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkQ_u7vve",
-            "title": "7 Pink Floyd'lar ve 2 Prenses",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-e25dba624264adbe",
+            "title": "Okur Yazar Buluşması",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5POC3/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -449,33 +379,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5POC3/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/"
     ],
     "external_id": null,
     "category": null,
@@ -490,26 +420,26 @@
     "fetched_at": null
   },
   {
-    "title": "Nilüfer",
-    "description": null,
-    "type": "concert",
+    "title": "Maceraperest Bir Mimarın Fotoğrafhanesi",
+    "description": "Maceraperest Bir Mimarın Fotoğrafhanesi",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-05-16T21:00:00Z",
+        "local_date": "2026-05-17",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Zorlu PSM - Turkcell Sahnesi",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkq4vevve",
-            "title": "Nilüfer",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c17d2d060522ca2f",
+            "title": "Maceraperest Bir Mimarın Fotoğrafhanesi",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5SK01/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/maceraperest-bir-mimarin-fotografhanesi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -519,33 +449,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5SK01/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/maceraperest-bir-mimarin-fotografhanesi/"
     ],
     "external_id": null,
     "category": null,
@@ -560,26 +490,26 @@
     "fetched_at": null
   },
   {
-    "title": "DJ Sercan Umut - Geçmişten Günümüze 90'lar 2000'ler Türkçe Pop",
-    "description": null,
-    "type": "concert",
+    "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ – BAŞVURU FORMU",
+    "description": "İSTANBUL BÜYÜKŞEHİR BELEDİYESİ İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ AMAÇ – YAPI – KAPSAM ŞARTNAMESİ 15-20 yaş aralığındaki genç katılımcıların yer alacağı çalışma, başvuru ve seçici kurul tarafından değerlendirme süreçlerini takiben top...",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:00",
+        "start_at_utc": "2026-04-04T21:00:00Z",
+        "local_date": "2026-04-05",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Hayal Kahvesi Emaar",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z6HyzZyMZGkv8i2Zv",
-            "title": "DJ Sercan Umut - Geçmişten Günümüze 90'lar 2000'ler Türkçe Pop",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-68898d2c391a25a3",
+            "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ – BAŞVURU FORMU",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/50B0F/001/TURKIYE/tr",
+            "source_url": "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-secmeleri-basvuru-formu/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -589,33 +519,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/50B0F/001/TURKIYE/tr"
+      "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-secmeleri-basvuru-formu/"
     ],
     "external_id": null,
     "category": null,
@@ -630,26 +560,26 @@
     "fetched_at": null
   },
   {
-    "title": "%100 Metal Sunar: Nevermore",
-    "description": null,
-    "type": "concert",
+    "title": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ / 4TH INTERNATIONAL ISTANBUL CHOIR FESTIVAL",
+    "description": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ Uluslararası İstanbul Koro Festivali 2026 yılında da devam ediyor! İstanbul’un çok sesli ve çok kültürlü yaşamını sahneye taşıyan, ilki Cumhuriyetimizin 100. Yılına özel “Demokrasi Yüzyılı” etkinlikleri kapsamı...",
+    "type": "festival",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T18:30:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:30",
+        "start_at_utc": "2026-04-02T21:00:00Z",
+        "local_date": "2026-04-03",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Beşiktaş",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkxvaeD-",
-            "title": "%100 Metal Sunar: Nevermore",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c91938dc08c25977",
+            "title": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ / 4TH INTERNATIONAL ISTANBUL CHOIR FESTIVAL",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5X012/001/TURKIYE/tr",
+            "source_url": "https://orkestralar.ibb.istanbul/4-uluslararasi-istanbul-koro-festivali-4th-international-istanbul-choir-festival/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -659,243 +589,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
+            "ticket_status": "unknown",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "MunicipalRSS",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5X012/001/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Erkin Koray Tribute by Ünal Vanii",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T18:45:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "21:45",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Hayal Kahvesi Aqua Florya",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZk9oaA9s",
-            "title": "Erkin Koray Tribute by Ünal Vanii",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5MG22/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/5MG22/001/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Begüm Yiğit",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T19:00:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "22:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z6HyzZyMZGkvLz-Zv",
-            "title": "Begüm Yiğit",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5FE21/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/5FE21/001/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Sevcan Orhan",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T19:30:00Z",
-        "local_date": "2026-04-01",
-        "local_time": "22:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Hayalmest Bostancı",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkCjrfvve",
-            "title": "Sevcan Orhan",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5DRTJ/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/5DRTJ/001/TURKIYE/tr"
+      "https://orkestralar.ibb.istanbul/4-uluslararasi-istanbul-koro-festivali-4th-international-istanbul-choir-festival/"
     ],
     "external_id": null,
     "category": null,
@@ -2597,7 +2317,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASzZ50DfdhcpG_z_1cPQNi59ZOIgZ6ybpF9QrPnRt3Xsb01NYM8_lRj8&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -3749,7 +3469,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSURy9Hpin7L_L1xPl0PLR5bKoWzmZ61eC-_tkcjjOmupypbp6bvySNg&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -3936,6 +3656,44 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-11T15:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "18:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfauhq",
+            "title": "Yaşar Ne Yaşar Ne Yaşamaz",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ55/005/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
       }
     ],
     "source": "unknown",
@@ -3948,7 +3706,8 @@
     ],
     "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://www.biletix.com/performance/5PJ55/002/TURKIYE/tr"
+      "https://www.biletix.com/performance/5PJ55/002/TURKIYE/tr",
+      "https://www.biletix.com/performance/5PJ55/005/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -5020,7 +4779,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB49K-Y7CvrRBfOxfHnWZLt3jPdzaGkhXHLKhSaDOS31yoHCUc8CMdxqs&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -5262,7 +5021,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRrYqUejJYqUUfaOicXo_EsiOri7nsYMPdl2SidZt0Db7b8adamHDR6k&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -5374,8 +5133,78 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycKNNsIEiN4GuLPIEa79xWXxMRbGxIFxja9gw1ISOoRNOgR-1MqeSzQs&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
+  },
+  {
+    "title": "Ayta Sözeri",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-04T19:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "22:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hilton İstanbul Kozyatağı",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk39javve",
+            "title": "Ayta Sözeri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5HMR8/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5HMR8/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
   },
   {
     "title": "İkiye On Kala - Akustik",
@@ -5486,7 +5315,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlY2G92CioylN2RD0ByYs3MvPZnByLasRYdwmV1iF9qdWVznBVK1F7JR4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -6778,7 +6607,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFJv6FDBSpDDgNvPMHr2kTQX-GPiBSWfO59XB_FopgZ66pXQ4KxlFSvo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -10702,26 +10531,26 @@
     "fetched_at": null
   },
   {
-    "title": "Yüzeyin Derinliğinde",
-    "description": "Yüzeyin Derinliğinde",
-    "type": "experience",
+    "title": "Dedublüman",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-08T21:00:00Z",
-        "local_date": "2026-04-09",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T19:30:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "22:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "JJ Arena Ataşehir",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-45adda204b719171",
-            "title": "Yüzeyin Derinliğinde",
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkrxaAFa",
+            "title": "Dedublüman",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/yuzeyin-derinliginde/",
+            "source_url": "https://www.biletix.com/performance/5TX21/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10731,33 +10560,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
               }
             },
-            "ticket_status": "unknown",
+            "ticket_status": "on_sale",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "Ticketmaster",
     "providers": [
-      "MunicipalRSS"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "İBB"
+      "Ticketmaster"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/yuzeyin-derinliginde/"
+      "https://www.biletix.com/performance/5TX21/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -10772,26 +10601,26 @@
     "fetched_at": null
   },
   {
-    "title": "Okur Yazar Buluşması",
-    "description": "Okur Yazar Buluşması",
-    "type": "experience",
+    "title": "Yol Project",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-02T21:00:00Z",
-        "local_date": "2026-04-03",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T19:30:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "22:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Moda Kayıkhane",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-e25dba624264adbe",
-            "title": "Okur Yazar Buluşması",
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk29N6vve",
+            "title": "Yol Project",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/",
+            "source_url": "https://www.biletix.com/performance/5EMY6/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10801,33 +10630,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
               }
             },
-            "ticket_status": "unknown",
+            "ticket_status": "on_sale",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "Ticketmaster",
     "providers": [
-      "MunicipalRSS"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "İBB"
+      "Ticketmaster"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/"
+      "https://www.biletix.com/performance/5EMY6/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -10842,26 +10671,26 @@
     "fetched_at": null
   },
   {
-    "title": "Okur Yazar Buluşması",
-    "description": "Okur Yazar Buluşması",
-    "type": "experience",
+    "title": "Ender Balkır",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-01T21:00:00Z",
-        "local_date": "2026-04-02",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T19:30:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "22:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Hayalmest Bostancı",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-34828dcb00ce5ed9",
-            "title": "Okur Yazar Buluşması",
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkCjrpvve",
+            "title": "Ender Balkır",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi/",
+            "source_url": "https://www.biletix.com/performance/5DRTL/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10871,33 +10700,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
               }
             },
-            "ticket_status": "unknown",
+            "ticket_status": "on_sale",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "Ticketmaster",
     "providers": [
-      "MunicipalRSS"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "İBB"
+      "Ticketmaster"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi/"
+      "https://www.biletix.com/performance/5DRTL/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -10912,26 +10741,26 @@
     "fetched_at": null
   },
   {
-    "title": "Maceraperest Bir Mimarın Fotoğrafhanesi",
-    "description": "Maceraperest Bir Mimarın Fotoğrafhanesi",
-    "type": "experience",
+    "title": "Kaan Öztürk - Müzikli Komedi",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-05-16T21:00:00Z",
-        "local_date": "2026-05-17",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T19:30:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "22:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Dada Salon Kabarett",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-c17d2d060522ca2f",
-            "title": "Maceraperest Bir Mimarın Fotoğrafhanesi",
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkf17qaZv",
+            "title": "Kaan Öztürk - Müzikli Komedi",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/maceraperest-bir-mimarin-fotografhanesi/",
+            "source_url": "https://www.biletix.com/performance/5J749/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10941,33 +10770,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
               }
             },
-            "ticket_status": "unknown",
+            "ticket_status": "on_sale",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "Ticketmaster",
     "providers": [
-      "MunicipalRSS"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "İBB"
+      "Ticketmaster"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/maceraperest-bir-mimarin-fotografhanesi/"
+      "https://www.biletix.com/performance/5J749/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -10982,26 +10811,26 @@
     "fetched_at": null
   },
   {
-    "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ – BAŞVURU FORMU",
-    "description": "İSTANBUL BÜYÜKŞEHİR BELEDİYESİ İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ AMAÇ – YAPI – KAPSAM ŞARTNAMESİ 15-20 yaş aralığındaki genç katılımcıların yer alacağı çalışma, başvuru ve seçici kurul tarafından değerlendirme süreçlerini takiben top...",
-    "type": "experience",
+    "title": "Derya Bedavacı",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-04T21:00:00Z",
-        "local_date": "2026-04-05",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T19:30:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "22:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Sheraton Istanbul Ataköy Hotel",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-68898d2c391a25a3",
-            "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU SEÇMELERİ – BAŞVURU FORMU",
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZko178ZZv",
+            "title": "Derya Bedavacı",
             "description": null,
-            "source_url": "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-secmeleri-basvuru-formu/",
+            "source_url": "https://www.biletix.com/performance/5G400/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11011,33 +10840,33 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
               }
             },
-            "ticket_status": "unknown",
+            "ticket_status": "on_sale",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "Ticketmaster",
     "providers": [
-      "MunicipalRSS"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "İBB"
+      "Ticketmaster"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-secmeleri-basvuru-formu/"
+      "https://www.biletix.com/performance/5G400/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -11052,26 +10881,26 @@
     "fetched_at": null
   },
   {
-    "title": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ / 4TH INTERNATIONAL ISTANBUL CHOIR FESTIVAL",
-    "description": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ Uluslararası İstanbul Koro Festivali 2026 yılında da devam ediyor! İstanbul’un çok sesli ve çok kültürlü yaşamını sahneye taşıyan, ilki Cumhuriyetimizin 100. Yılına özel “Demokrasi Yüzyılı” etkinlikleri kapsamı...",
-    "type": "festival",
+    "title": "Derdo Disco Dj Set",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-02T21:00:00Z",
-        "local_date": "2026-04-03",
-        "local_time": "00:00",
+        "start_at_utc": "2026-04-10T20:59:00Z",
+        "local_date": "2026-04-10",
+        "local_time": "23:59",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Blind İstanbul",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-c91938dc08c25977",
-            "title": "4. ULUSLARARASI İSTANBUL KORO FESTİVALİ / 4TH INTERNATIONAL ISTANBUL CHOIR FESTIVAL",
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkqG7wdZv",
+            "title": "Derdo Disco Dj Set",
             "description": null,
-            "source_url": "https://orkestralar.ibb.istanbul/4-uluslararasi-istanbul-koro-festivali-4th-international-istanbul-choir-festival/",
+            "source_url": "https://www.biletix.com/performance/5SC83/001/TURKIYE/tr",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11081,14 +10910,441 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "ticketmaster_price_unavailable",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5SC83/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Seksen Günde Dünya Turu",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/49a/d253ed86-2239-40af-8106-48add357a49a_105811_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T10:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "13:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "KKM Gönül Ülkü ve Gazanfer Özcan Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk-G7zFZv",
+            "title": "Seksen Günde Dünya Turu",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5WE08/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-04-11T12:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "15:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "KKM Gönül Ülkü ve Gazanfer Özcan Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk-G7zFZe",
+            "title": "Seksen Günde Dünya Turu",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5WE08/002/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5WE08/001/TURKIYE/tr",
+      "https://www.biletix.com/performance/5WE08/002/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Bir Delinin Hatıra Defteri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T13:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "16:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfauld",
+            "title": "Bir Delinin Hatıra Defteri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ56/003/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5PJ56/003/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Hocapaşa Mevlevileri - Sema Ayini - Nisan Ayı Etkinlikleri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/cf0/e3e32db3-adac-486f-b78d-7c8857f8bcf0_106191_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T16:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hodjapasha Dance Theater",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk5Q56vee",
+            "title": "Hocapaşa Mevlevileri - Sema Ayini - Nisan Ayı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5APA6/011/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5APA6/011/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Olcay Saral (Piyano)",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T16:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aynalı Geçit Konser Salonu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvhQlZv",
+            "title": "Olcay Saral (Piyano)",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5B6AB/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5B6AB/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+    "description": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.kartal.bel.tr/Content/img/Etkinlik/firat_dagidir_dans_nisan2026.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-28T21:00:00Z",
+        "local_date": "2026-04-29",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kartal Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d77c7d548a8d4c84",
+            "title": "Fırat Dağıdır Esemble Flamenko Dans ve Müzik Gösterisi",
+            "description": null,
+            "source_url": "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.kartal.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-04-29T21:00:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kartal Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d77c7d548a8d4c84",
+            "title": "Posta Kutusu",
+            "description": null,
+            "source_url": "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.kartal.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
               }
             },
             "ticket_status": "unknown",
@@ -11098,16 +11354,16 @@
       }
     ],
     "source": "unknown",
-    "provider": "MunicipalRSS",
+    "provider": "MunicipalWeb",
     "providers": [
-      "MunicipalRSS"
+      "MunicipalWeb"
     ],
     "provider_tags": [
-      "İBB"
+      "Kartal Belediyesi"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Kartal Belediyesi",
     "source_urls": [
-      "https://orkestralar.ibb.istanbul/4-uluslararasi-istanbul-koro-festivali-4th-international-istanbul-choir-festival/"
+      "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi"
     ],
     "external_id": null,
     "category": null,
@@ -11178,6 +11434,76 @@
     "provider_label": "Üsküdar Belediyesi",
     "source_urls": [
       "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/bremen-mizikacilari/6928"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "DOST GEZEGENLER",
+    "description": "Çocuk Tiyatrosu / Kukla / Masal TİYATRO KLANK",
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-26T11:00:00Z",
+        "local_date": "2026-04-26",
+        "local_time": "14:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Üsküdar Gençlik Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-cc37fe1471e4a7a9",
+            "title": "DOST GEZEGENLER",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955"
     ],
     "external_id": null,
     "category": null,
@@ -11753,6 +12079,76 @@
     "fetched_at": null
   },
   {
+    "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
+    "description": "Konser DİLLERDEN DÜŞMEYEN ZAMANSIZ ŞARKILAR 70'LER 80'LER",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-19T16:30:00Z",
+        "local_date": "2026-04-19",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-bc5d550283906809",
+            "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "KINA GECESİ",
     "description": "Konser FAMİ MSD THM İSTANBUL KOROSU",
     "type": "concert",
@@ -11809,6 +12205,76 @@
     "provider_label": "Üsküdar Belediyesi",
     "source_urls": [
       "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kina-gecesi/6934"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "KURTALAN EKSPRES",
+    "description": "Konser Detay :",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-21T17:00:00Z",
+        "local_date": "2026-04-21",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-ec8a4662b2c65003",
+            "title": "KURTALAN EKSPRES",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947"
     ],
     "external_id": null,
     "category": null,
@@ -12033,6 +12499,146 @@
     "fetched_at": null
   },
   {
+    "title": "USTALARA SAYGI",
+    "description": "Konser ZAFER ÖZARSLAN",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-24T16:30:00Z",
+        "local_date": "2026-04-24",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-09408c1d6ec49b14",
+            "title": "USTALARA SAYGI",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "YAZA MERHABA",
+    "description": "Konser OKYANUS TSM KOROSU",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-28T16:30:00Z",
+        "local_date": "2026-04-28",
+        "local_time": "19:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d4fe21de167f5e34",
+            "title": "YAZA MERHABA",
+            "description": null,
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Üsküdar Belediyesi"
+    ],
+    "provider_label": "Üsküdar Belediyesi",
+    "source_urls": [
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
     "description": "Konser SOLİST: FİLİZ TEKİN",
     "type": "concert",
@@ -12103,15 +12709,15 @@
     "fetched_at": null
   },
   {
-    "title": "BARBAROS GÜZEL SANATLAR AKADEMİSİ KARMA RESİM SERGİSİ VE MÜZİK DİNLETİSİ",
-    "description": "Özel Etkinlik KARAKALEM VE SULUBOYA YETİŞKİN KURSİYER SERGİSİ",
-    "type": "exhibition",
+    "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
+    "description": "Konser SOLİST: FİLİZ TEKİN",
+    "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-02T16:30:00Z",
-        "local_date": "2026-04-02",
+        "start_at_utc": "2026-04-24T16:30:00Z",
+        "local_date": "2026-04-24",
         "local_time": "19:30",
         "timezone": "Europe/Istanbul",
         "venue_name": "Altunizade Kültür ve Sanat Merkezi",
@@ -12119,10 +12725,10 @@
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-2db002956672d47f",
-            "title": "BARBAROS GÜZEL SANATLAR AKADEMİSİ KARMA RESİM SERGİSİ VE MÜZİK DİNLETİSİ",
+            "external_id": "web-f46a33884fcaa8cb",
+            "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/barbaros-guzel-sanatlar-akademisi-karma-resim/6916",
+            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12158,7 +12764,7 @@
     ],
     "provider_label": "Üsküdar Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/barbaros-guzel-sanatlar-akademisi-karma-resim/6916"
+      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952"
     ],
     "external_id": null,
     "category": null,
@@ -12173,26 +12779,26 @@
     "fetched_at": null
   },
   {
-    "title": "ÜSKÜDAR BELEDİYESİ KİTAP KULÜBÜ",
-    "description": "Özel Etkinlik REŞAT NURİ GÜNTEKİN - YAPRAK DÖKÜMÜ",
+    "title": "star Form Etkinliği Emirgan Korusu Gezileri event 06.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Emirgan Korusu Gezileri event 06.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-11T09:02:00Z",
-        "local_date": "2026-04-11",
-        "local_time": "12:02",
+        "start_at_utc": "2026-04-05T21:00:00Z",
+        "local_date": "2026-04-06",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "venue_name": "Çatalca Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-687f496b45e353fb",
-            "title": "ÜSKÜDAR BELEDİYESİ KİTAP KULÜBÜ",
+            "external_id": "web-010f171d5bc8e183",
+            "title": "star Form Etkinliği Emirgan Korusu Gezileri event 06.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/uskudar-belediyesi-kitap-kulubu/6926",
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/emirgan-korusu-gezileri",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12205,7 +12811,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12224,11 +12830,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Çatalca Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Çatalca Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/ozel-etkinlik/34/uskudar-belediyesi-kitap-kulubu/6926"
+      "https://etkinlik.catalca.bel.tr/etkinlik-form/emirgan-korusu-gezileri"
     ],
     "external_id": null,
     "category": null,
@@ -12243,26 +12849,236 @@
     "fetched_at": null
   },
   {
-    "title": "ALACA DOKUMA GRUBU 7. SERGİSİ",
-    "description": "Sergi Ziyaret Saatleri",
-    "type": "exhibition",
+    "title": "ESMEK - Nisan Ayı Atölyeleri",
+    "description": "ESMEK - Nisan Ayı Atölyeleri",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-03T16:00:00Z",
+        "start_at_utc": "2026-04-03T21:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-190a64959762c131",
+            "title": "ESMEK - Nisan Ayı Atölyeleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-15T21:00:00Z",
+        "local_date": "2026-04-16",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-955948af257895b7",
+            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "sabahattin ali anma programi",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-02T17:30:00Z",
+        "local_date": "2026-04-02",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-8a5810cde049b615",
+            "title": "sabahattin ali anma programi",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/541/sabahattin-ali-anma-programi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/541/sabahattin-ali-anma-programi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "anadolunun sesi divriginin nefesi",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-03T17:30:00Z",
         "local_date": "2026-04-03",
-        "local_time": "19:00",
+        "local_time": "20:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Sahil",
+        "venue_name": "Beylikdüzü Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-a5460e33c94d105c",
-            "title": "ALACA DOKUMA GRUBU 7. SERGİSİ",
+            "external_id": "web-0b7ac4789c59ef33",
+            "title": "anadolunun sesi divriginin nefesi",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/alaca-dokuma-grubu-7-sergisi/6939",
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/542/anadolunun-sesi-divriginin-nefesi",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12275,7 +13091,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12294,11 +13110,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Beylikdüzü Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/alaca-dokuma-grubu-7-sergisi/6939"
+      "https://www.beylikduzu.istanbul/etkinlik/542/anadolunun-sesi-divriginin-nefesi"
     ],
     "external_id": null,
     "category": null,
@@ -12313,26 +13129,26 @@
     "fetched_at": null
   },
   {
-    "title": "CAM OBJELERLE MOZAİK ÇALIŞMALARI",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
+    "title": "karlar ulkesi kis kutlamasi",
+    "description": "Daha Fazla",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-28T14:00:00Z",
-        "local_date": "2026-04-28",
-        "local_time": "17:00",
+        "start_at_utc": "2026-04-04T10:00:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "13:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Altunizade Kültür ve Sanat Merkezi",
+        "venue_name": "Beylikdüzü Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-3f46229add3ec9d0",
-            "title": "CAM OBJELERLE MOZAİK ÇALIŞMALARI",
+            "external_id": "web-94a44afe3d822b40",
+            "title": "karlar ulkesi kis kutlamasi",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/cam-objelerle-mozaik-calismalari/6944",
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/543/karlar-ulkesi-kis-kutlamasi-",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12345,7 +13161,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12364,11 +13180,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Beylikdüzü Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/cam-objelerle-mozaik-calismalari/6944"
+      "https://www.beylikduzu.istanbul/etkinlik/543/karlar-ulkesi-kis-kutlamasi-"
     ],
     "external_id": null,
     "category": null,
@@ -12383,26 +13199,26 @@
     "fetched_at": null
   },
   {
-    "title": "KAOS VE DÜZEN RESİM & HEYKEL SERGİSİ",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
+    "title": "ahistanbul",
+    "description": "Daha Fazla",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-14T16:00:00Z",
-        "local_date": "2026-04-14",
-        "local_time": "19:00",
+        "start_at_utc": "2026-04-04T17:30:00Z",
+        "local_date": "2026-04-04",
+        "local_time": "20:30",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Bağlarbaşı",
+        "venue_name": "Beylikdüzü Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-a83d4f8ca2acabf3",
-            "title": "KAOS VE DÜZEN RESİM & HEYKEL SERGİSİ",
+            "external_id": "web-14563a6b3487e563",
+            "title": "ahistanbul",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/kaos-ve-duzen-resim-heykel-sergisi/6942",
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/544/ahistanbul-",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12415,7 +13231,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12434,11 +13250,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Beylikdüzü Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/kaos-ve-duzen-resim-heykel-sergisi/6942"
+      "https://www.beylikduzu.istanbul/etkinlik/544/ahistanbul-"
     ],
     "external_id": null,
     "category": null,
@@ -12453,26 +13269,26 @@
     "fetched_at": null
   },
   {
-    "title": "\"MİR\" Ebru Türkkan / Ebru Sergisi",
-    "description": "Sergi Ziyaret Saatleri 11:00-20:00",
-    "type": "exhibition",
+    "title": "beylikduzu cok sesli cocuk korosu ve orkestrasi konseri",
+    "description": "Daha Fazla",
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-27T16:00:00Z",
-        "local_date": "2026-04-27",
+        "start_at_utc": "2026-04-05T16:00:00Z",
+        "local_date": "2026-04-05",
         "local_time": "19:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Nevmekân Sahil",
+        "venue_name": "Beylikdüzü Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-57f6502fd0370e39",
-            "title": "\"MİR\" Ebru Türkkan / Ebru Sergisi",
+            "external_id": "web-cef0ef1754acf0a2",
+            "title": "beylikduzu cok sesli cocuk korosu ve orkestrasi konseri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/mir-ebru-turkkan-ebru-sergisi/6943",
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/545/beylikduzu-cok-sesli-cocuk-korosu-ve-orkestrasi-konseri",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12485,7 +13301,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12504,11 +13320,221 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Beylikdüzü Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/sergi/5/mir-ebru-turkkan-ebru-sergisi/6943"
+      "https://www.beylikduzu.istanbul/etkinlik/545/beylikduzu-cok-sesli-cocuk-korosu-ve-orkestrasi-konseri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "kadinlik bizde kalsin sevme beni",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-07T17:30:00Z",
+        "local_date": "2026-04-07",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-ac534fe3d7186d61",
+            "title": "kadinlik bizde kalsin sevme beni",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/546/kadinlik-bizde-kalsin-sevme-beni",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/546/kadinlik-bizde-kalsin-sevme-beni"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "devlerin savasi",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-08T17:30:00Z",
+        "local_date": "2026-04-08",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-1aaba7823092df48",
+            "title": "devlerin savasi",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/547/devlerin-savasi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/547/devlerin-savasi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "metot",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-09T17:30:00Z",
+        "local_date": "2026-04-09",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-c6371e00ad0e3822",
+            "title": "metot",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/548/metot",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/548/metot"
     ],
     "external_id": null,
     "category": null,
@@ -12873,216 +13899,6 @@
     "fetched_at": null
   },
   {
-    "title": "02 Nisan 2026 14:00 EDEBİYAT, HAYAT MEMAT Söyleşi Yeri NAZIM HİKMET KÜLTÜR MERKEZİ",
-    "description": "02 Nisan 2026 14:00 EDEBİYAT, HAYAT MEMAT Söyleşi Yeri NAZIM HİKMET KÜLTÜR MERKEZİ",
-    "type": "show",
-    "city_name": "Istanbul",
-    "image_url": "https://www.esenyurt.bel.tr/assets/uploads/images/820ece1c-8771-4575-bbf3-5f2a6a626b86.jpeg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-02T11:00:00Z",
-        "local_date": "2026-04-02",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Esenyurt Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-7cccf28406be855c",
-            "title": "02 Nisan 2026 14:00 EDEBİYAT, HAYAT MEMAT Söyleşi Yeri NAZIM HİKMET KÜLTÜR MERKEZİ",
-            "description": null,
-            "source_url": "https://www.esenyurt.bel.tr/etkinlikler/sayfa/edebiyat-hayat-memat-107",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.esenyurt.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Esenyurt Belediyesi"
-    ],
-    "provider_label": "Esenyurt Belediyesi",
-    "source_urls": [
-      "https://www.esenyurt.bel.tr/etkinlikler/sayfa/edebiyat-hayat-memat-107"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-15T21:00:00Z",
-        "local_date": "2026-04-16",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-955948af257895b7",
-            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "description": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-01T21:00:00Z",
-        "local_date": "2026-04-02",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b3afad9f68cb172c",
-            "title": "Aile Akademisi Manevi Destek Buluşmaları Nisan Ayı Etkinlik Takvimi",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-akademisi-manevi-destek-bulusmalari-nisa/66"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Rumuz Goncagül",
     "description": "Küçükçekmece Kadın Halk Müziği Korosu “Anadolu Ezgileri”",
     "type": "experience",
@@ -13354,44 +14170,6 @@
             "sales_start_at": null
           }
         ]
-      },
-      {
-        "start_at_utc": "2026-04-10T20:00:00Z",
-        "local_date": "2026-04-10",
-        "local_time": "23:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Ebedi Barış",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "sales_start_at": null
-          }
-        ]
       }
     ],
     "source": "unknown",
@@ -13486,7 +14264,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvBB6f4mQm93JflCv9mQIs9h-OpJ7zJ7NJI8R6ZQLCAIRbonSv_tb9us&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13557,7 +14335,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpQ2L1sxbW9mAs-Cs6mkP4SAvqTuW3poYUJU-Gq2YliirXDjJgGopgyPo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13628,7 +14406,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5-gMd3HEnMX-b0HUgEwqvbaptqA7opE82EZQ37ThqIUdZju5A-brI1s&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13699,7 +14477,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsZWzEQdMgbWLp4opC1b8L5DAxcl1ZX3pe66ved2V1qsol4YglrJ1nzk&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13770,7 +14548,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBZVDWw3_TkseWearTp1Hp6XabKl7AMSrxEk1q4Z4K2IHIBM789oulPQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13841,7 +14619,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJi0Kw9ji9WqQ7OtLqTAwFOrfSFIt4WInfnxXgIrtCsjiZo1x7oP5W7Vo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13912,7 +14690,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBbwxt6HiLq_bFdsQuMeOkgEIn1DGJJMPhX-hJEJxPWdqF9xHh4G-rLU&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -13983,7 +14761,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-M6H8dFY0koyte08Rrc5R50XGUXFicxaiiPJXXW167L9NjofnpDYjxoA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14054,7 +14832,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlOxJJA_R6cVWaz1k-Xu8sXz8hcrKsFhpzElfSe0LTZyVxKecuZu1-zgQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14125,7 +14903,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLOlsaNttJj0ntToPTFkgegUL_dteCle6m2m3NtXLlCF0307Zh_gU42k&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14196,7 +14974,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhgSvj6g1X1gUzFUga3IQ32oJtVO0h8Zl0-kr0cHRb2su-E1lhPbpWlM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14267,7 +15045,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwcfrdwSpx4pFn9js1nfZn1HbD8gTHxf_jv3Dzkk6mpHI85LHreisX48M&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14338,7 +15116,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0rqHyqHligTBA2oV6hwaen5BTAzXk4fL9u29XlWXAC4sEcm_ilKZwk2Q&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   },
   {
@@ -14409,7 +15187,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXDxuNQqc_ZSzNrgvUve-kMmYvUBNiTaU8cx9TcwOfoy3c00lTS24BHQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-03-31T22:26:11.443889Z",
+    "fetched_at": "2026-03-31T23:04:48.945904Z",
     "_record_type": "serpapi_events"
   }
 ]
