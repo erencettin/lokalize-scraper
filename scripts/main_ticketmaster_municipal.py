@@ -106,18 +106,15 @@ def main() -> None:
         provider_counts: Dict[str, int] = {}
         collected_events: List[Any] = []
 
-        import concurrent.futures
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(providers), 5) if providers else 1) as executor:
-            futures = [executor.submit(_run_provider, p, sync_run_id) for p in providers]
-            for future in concurrent.futures.as_completed(futures):
-                try:
-                    p_name, p_stats, p_events = future.result()
-                    provider_counts[p_name] = p_stats["found"]
-                    collected_events.extend(p_events)
-                    for k, v in p_stats.items():
-                        total_stats[k] = total_stats.get(k, 0) + v
-                except Exception as e:
-                    print(f"[ERR] Provider task exception: {e}")
+        for p in providers:
+            try:
+                p_name, p_stats, p_events = _run_provider(p, sync_run_id)
+                provider_counts[p_name] = p_stats["found"]
+                collected_events.extend(p_events)
+                for k, v in p_stats.items():
+                    total_stats[k] = total_stats.get(k, 0) + v
+            except Exception as e:
+                print(f"[ERR] Provider task exception: {e}")
 
         if providers:
             print("[RUN] Stale cleanup tetikleniyor...")

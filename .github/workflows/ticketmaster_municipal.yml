@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ticketmaster-municipal-sync
-  cancel-in-progress: true
+  group: lokalize-scraper-sync
+  cancel-in-progress: false
 
 jobs:
   sync:
