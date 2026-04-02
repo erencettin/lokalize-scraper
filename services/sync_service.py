@@ -91,6 +91,7 @@ class SyncService:
                         "currency": source.price.currency,
                         "priceText": source.price.text,
                         "ticketStatus": source.ticket_status,
+                        "ticketUrl": str(source.ticket_url) if source.ticket_url else None,
                         "isPriceUnknown": source.price.is_unknown,
                         "isFree": source.price.is_free,
                         "priceConfidence": price_resolution.get("confidence"),

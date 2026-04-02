@@ -161,6 +161,7 @@ class NormalizedSource(BaseModel):
     deep_link_url: Optional[HttpUrl] = None
     price: PriceInfo = Field(default_factory=PriceInfo)
     ticket_status: str = "unknown"  # on_sale, sold_out, coming_soon, free, unknown
+    ticket_url: Optional[str] = None
     sales_start_at: Optional[datetime] = None
 
 
@@ -194,6 +195,7 @@ class NormalizedEvent(BaseModel):
     link: Optional[HttpUrl] = None
     source_url: Optional[HttpUrl] = None
     ticket_info: Optional[str] = None
+    ticket_url: Optional[str] = None
     thumbnail_url: Optional[HttpUrl] = None
     latitude: Optional[float] = None
     longitude: Optional[float] = None

@@ -81,18 +81,7 @@ _JSONLD_OFFER_HIGH_KEYS  = ("highPrice", "maxPrice")
 
 
 def extract_jsonld_price(html: str) -> Optional[Dict[str, object]]:
-    """Extract price info from JSON-LD <script> blocks using Schema.org Event markup.
-
-    Returns a dict with keys ``min``, ``max`` (floats or None) and
-    ``currency`` (str or None), or ``None`` if nothing useful is found.
-
-    Tries every ``<script type='application/ld+json'>`` block in the page.
-    Handles both single objects and arrays.  Looks for:
-    - ``Event.offers.price`` / ``offers.lowPrice``
-    - Nested ``ItemList`` containing ``Event`` entries
-    """
-    print(f"[JSONLD_PRICE] Called. html_len={len(html) if html else 0}", flush=True)
-    if not html:
+    if not html or len(html) < 200 or '<script' not in html.lower():
         return None
 
     pattern = re.compile(
@@ -173,8 +162,6 @@ def _parse_jsonld_node(node: object) -> Optional[Dict[str, object]]:
     if min_price is None and max_price is None:
         return None
 
-    import logging
-    logging.getLogger(__name__).info(f"HTML extract_jsonld_price FOUND: min={min_price}, max={max_price}, currency={currency or 'TRY'}")
     return {"min": min_price, "max": max_price, "currency": currency or "TRY"}
 
 
@@ -199,7 +186,7 @@ def extract_meta_price(html: str) -> Optional[str]:
 
     Returns the raw content string or ``None`` if nothing found.
     """
-    if not html:
+    if not html or len(html) < 200 or '<meta' not in html.lower():
         return None
 
     for pattern in _META_PRICE_PATTERNS:
@@ -207,8 +194,6 @@ def extract_meta_price(html: str) -> Optional[str]:
         if match:
             value = clean_text(match.group(1))
             if value:
-                import logging
-                logging.getLogger(__name__).info(f"HTML extract_meta_price FOUND: {value}")
                 return value
 
     return None

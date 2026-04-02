@@ -57,7 +57,8 @@ class MunicipalHttpClient:
     def fetch_text(self, url: str) -> str:
         """Fetch page text with retry and SSL fallback behavior."""
 
-        timeout = max(settings.municipal_web_timeout_seconds, 1)
+        timeout_val = max(settings.municipal_web_timeout_seconds, 1)
+        timeout = (min(timeout_val, 8), min(timeout_val, 8)) # Enforce 8s max per user request
         retries = max(settings.municipal_web_max_retries, 1)
         last_error = ""
         for attempt in range(1, retries + 1):
@@ -71,7 +72,7 @@ class MunicipalHttpClient:
         self._logger.error("MunicipalWeb: all retries failed url=%s last_error=%s", url, last_error)
         return ""
 
-    def _try_fetch(self, url: str, timeout: int) -> Optional[str]:
+    def _try_fetch(self, url: str, timeout: tuple) -> Optional[str]:
         try:
             session = self._get_session()
             response = session.get(url, timeout=timeout)
@@ -122,8 +123,10 @@ class MunicipalHttpClient:
     def _load_robots(self, base: str) -> robotparser.RobotFileParser:
         parser = robotparser.RobotFileParser()
         robots_url = urljoin(base, "/robots.txt")
+        timeout_val = max(settings.municipal_web_timeout_seconds, 1)
+        timeout_tuple = (min(timeout_val, 8), min(timeout_val, 8))
         try:
-            response = requests.get(robots_url, timeout=max(settings.municipal_web_timeout_seconds, 1), headers={"User-Agent": settings.municipal_web_user_agent.strip() or "*"})
+            response = requests.get(robots_url, timeout=timeout_tuple, headers={"User-Agent": settings.municipal_web_user_agent.strip() or "*"})
             if response.status_code == 200:
                 parser.parse(response.text.splitlines())
             else:

@@ -70,8 +70,7 @@ class SerpApiEventsProvider:
                 )
                 continue
 
-            for event in event_results[:2]:
-                print(f"[SERP_RAW] title={event.get('title')} ticket_info={event.get('ticket_info')} price={event.get('price')} link={event.get('link')}", flush=True)
+
 
             for raw in event_results:
                 if not isinstance(raw, dict):
@@ -130,6 +129,7 @@ class SerpApiEventsProvider:
             external_id=external_id,
             title=title,
             source_url=link,
+            ticket_url=self._extract_ticket_url(raw),
             price=price,
             ticket_status="unknown",
         )
@@ -277,8 +277,27 @@ class SerpApiEventsProvider:
             return " | ".join(chunks) if chunks else None
         return self._clean_optional(ticket_info)
 
+    def _extract_ticket_url(self, raw: dict) -> Optional[str]:
+        ticket_info = raw.get("ticket_info")
+        if not isinstance(ticket_info, list):
+            return None
+        candidates = []
+        for item in ticket_info:
+            if not isinstance(item, dict):
+                continue
+            if str(item.get("link_type")).lower() == "tickets":
+                source = self._clean_optional(item.get("source")) or "Bilinmeyen Sağlayıcı"
+                link = self._clean_optional(item.get("link"))
+                if link:
+                    candidates.append((source, link))
+        if not candidates:
+            return None
+        for source, link in candidates:
+            if "biletix" in source.lower():
+                return f"{source}|{link}"
+        return f"{candidates[0][0]}|{candidates[0][1]}"
+
     def _extract_price(self, raw: dict, ticket_info_text: Optional[str]) -> PriceInfo:
-        print(f"[SERP_PRICE] Raw ticket_info={raw.get('ticket_info')}", flush=True)
         extracted_price = self._safe_float(raw.get("extracted_price"))
         if extracted_price is not None:
             return PriceParser.resolve_structured_range(

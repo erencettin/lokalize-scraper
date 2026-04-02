@@ -93,6 +93,7 @@ class EventBuilder:
             external_id=item.event_id,
             title=item.title,
             source_url=item.source_url,
+            ticket_url=f"Ticketmaster|{item.source_url}",
             price=price,
             ticket_status=DEFAULT_TICKET_STATUS,
         )
