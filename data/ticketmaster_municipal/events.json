@@ -1,71 +1,5 @@
 [
   {
-    "title": "Bir Delinin Hatıra Defteri",
-    "description": null,
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T13:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "16:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre Koşuyolu",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkQfaulv",
-            "title": "Bir Delinin Hatıra Defteri",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5PJ56/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ56/001/TURKIYE/tr",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Yaşar Ne Yaşar Ne Yaşamaz",
     "description": null,
     "type": "theatre",
@@ -9900,138 +9834,6 @@
     "fetched_at": null
   },
   {
-    "title": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
-    "description": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T12:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "15:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-12b7cf73f25d1666",
-            "title": "İBB Şehir Tiyatroları – Yaşamak mı Yoksa Ölmek mi?",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-yasamak-mi-yoksa-olmek-mi/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "İBB Şehir Tiyatroları – İfgenya",
-    "description": "İBB Şehir Tiyatroları – İfgenya",
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T12:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "15:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-12f697780da1ea6a",
-            "title": "İBB Şehir Tiyatroları – İfgenya",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/ibb-sehir-tiyatrolari-ifgenya/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Yüzeyin Derinliğinde",
     "description": "Yüzeyin Derinliğinde",
     "type": "experience",
@@ -10931,72 +10733,6 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/pinokyo-isiktan-cocuk/6927",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "SAĞLIK OLSUN",
-    "description": "Çocuk Tiyatrosu / Kukla / Masal VARYASYON GÖRSEL SANATLAR",
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T11:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Kirazlıtepe Boğaziçi Yaşam Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-4801df95f788d84c",
-            "title": "SAĞLIK OLSUN",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/saglik-olsun/6918",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/saglik-olsun/6918",
             "sales_start_at": null
           }
         ]
@@ -12078,72 +11814,6 @@
     "fetched_at": null
   },
   {
-    "title": "karlar ulkesi kis kutlamasi",
-    "description": "Daha Fazla",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-04T10:00:00Z",
-        "local_date": "2026-04-04",
-        "local_time": "13:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beylikdüzü Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-94a44afe3d822b40",
-            "title": "karlar ulkesi kis kutlamasi",
-            "description": null,
-            "source_url": "https://www.beylikduzu.istanbul/etkinlik/543/karlar-ulkesi-kis-kutlamasi-",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/543/karlar-ulkesi-kis-kutlamasi-",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "ahistanbul",
     "description": "Daha Fazla",
     "type": "experience",
@@ -12581,6 +12251,72 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/550/buyulu-orman-ve-altin-havuc",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ne oynuyoruz dogaclama tiyatro gosterisi",
+    "description": "Daha Fazla",
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T17:30:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-fbf153a3ee6a1187",
+            "title": "ne oynuyoruz dogaclama tiyatro gosterisi",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/551/ne-oynuyoruz-dogaclama-tiyatro-gosterisi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/551/ne-oynuyoruz-dogaclama-tiyatro-gosterisi",
             "sales_start_at": null
           }
         ]
