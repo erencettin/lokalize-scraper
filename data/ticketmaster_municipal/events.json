@@ -9900,6 +9900,72 @@
     "fetched_at": null
   },
   {
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-16T21:00:00Z",
+        "local_date": "2026-04-17",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-e25dba624264adbe",
+            "title": "Okur Yazar Buluşması",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Sanat Rotası",
     "description": "Sanat Rotası",
     "type": "experience",
@@ -11418,72 +11484,6 @@
     "fetched_at": null
   },
   {
-    "title": "star Form Etkinliği Emirgan Korusu Gezileri event 11.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
-    "description": "star Form Etkinliği Emirgan Korusu Gezileri event 11.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-10T21:00:00Z",
-        "local_date": "2026-04-11",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Çatalca Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-010f171d5bc8e183",
-            "title": "star Form Etkinliği Emirgan Korusu Gezileri event 11.04.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
-            "description": null,
-            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/emirgan-korusu-gezileri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/emirgan-korusu-gezileri",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "samanyolunu bilir misiniz",
     "description": "Daha Fazla",
     "type": "experience",
@@ -12515,6 +12515,72 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.esenyurt.bel.tr/etkinlikler/sayfa/ayi-kardesler-dunyaya-donus-105",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "11 Nisan 2026 13:00 SİHİRBAZ PALYAÇOLAR Çocuk Tiyatrosu Yeri NENE HATUN KÜLTÜR MERKEZİ",
+    "description": "11 Nisan 2026 13:00 SİHİRBAZ PALYAÇOLAR Çocuk Tiyatrosu Yeri NENE HATUN KÜLTÜR MERKEZİ",
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://www.esenyurt.bel.tr/assets/uploads/images/ad049620-b26a-40d7-a94b-79ee629d6b75.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-11T10:00:00Z",
+        "local_date": "2026-04-11",
+        "local_time": "13:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Esenyurt Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-5fed7f4dba2d551b",
+            "title": "11 Nisan 2026 13:00 SİHİRBAZ PALYAÇOLAR Çocuk Tiyatrosu Yeri NENE HATUN KÜLTÜR MERKEZİ",
+            "description": null,
+            "source_url": "https://www.esenyurt.bel.tr/etkinlikler/sayfa/sihirbaz-palyacolar-108",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.esenyurt.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.esenyurt.bel.tr/etkinlikler/sayfa/sihirbaz-palyacolar-108",
             "sales_start_at": null
           }
         ]
