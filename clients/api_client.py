@@ -4,6 +4,7 @@ from typing import List
 
 logger = logging.getLogger(__name__)
 
+
 class BackendApiClient:
     def __init__(self, base_url: str = "http://localhost:5170"):
         self.base_url = base_url.rstrip("/")
@@ -16,12 +17,12 @@ class BackendApiClient:
         try:
             response = requests.post(url, json=payload, timeout=30)
             response.raise_for_status()
-            logger.info(f"Sync Success: {response.json()}")
+            logger.info("Sync Success: %s", response.json())
             return True
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Sync Failed: {e}")
-            if hasattr(e, 'response') and e.response is not None:
-                logger.error(f"Response Body: {e.response.text}")
+        except requests.exceptions.RequestException as exc:
+            logger.error("Sync Failed: %s", exc)
+            if hasattr(exc, "response") and exc.response is not None:
+                logger.error("Response Body: %s", exc.response.text)
                 with open("error_dump.txt", "w", encoding="utf-8") as f:
-                    f.write(e.response.text)
+                    f.write(exc.response.text)
             return False
