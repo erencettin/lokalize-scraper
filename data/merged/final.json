@@ -10834,6 +10834,78 @@
     "fetched_at": null
   },
   {
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-22T21:00:00Z",
+        "local_date": "2026-04-23",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-53a47d92f7fa257b",
+            "title": "Okur Yazar Buluşması",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalRSS",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Müzede Caz",
     "description": "Müzede Caz",
     "type": "experience",
@@ -11611,6 +11683,78 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU DEĞERLENDİRME SONUÇLARI AÇIKLANDI!",
+    "description": "İBB İstanbul Gençlik Halk Dansları Topluluğu değerlendirme sonuçları için aşağıdaki listeyi kontrol edebilirsiniz. Yoğun ilgileri için tüm adaylara teşekkür ederiz. Hep birlikte aynı heyecan ve disiplinle çalışmayı, geleneğin izinden sahneye güçlü ad...",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-19T10:00:00Z",
+        "local_date": "2026-04-19",
+        "local_time": "13:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-12bbfe76dbe2b042",
+            "title": "İBB İSTANBUL GENÇLİK HALK DANSLARI TOPLULUĞU DEĞERLENDİRME SONUÇLARI AÇIKLANDI!",
+            "description": null,
+            "source_url": "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-degerlendirme-sonuclari-aciklandi/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalRSS",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://orkestralar.ibb.istanbul/ibb-istanbul-genclik-halk-danslari-toplulugu-degerlendirme-sonuclari-aciklandi/"
     ],
     "external_id": null,
     "category": null,
@@ -12458,222 +12602,6 @@
     "fetched_at": null
   },
   {
-    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-18T21:00:00Z",
-        "local_date": "2026-04-19",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-955948af257895b7",
-            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kahve Yanı Sohbetleri",
-    "description": "Kahve Yanı Sohbetleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-20T21:00:00Z",
-        "local_date": "2026-04-21",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b8d050bb5d2888b2",
-            "title": "Kahve Yanı Sohbetleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "ESMEK - Nisan Ayı Atölyeleri",
-    "description": "ESMEK - Nisan Ayı Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-23T21:00:00Z",
-        "local_date": "2026-04-24",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-190a64959762c131",
-            "title": "ESMEK - Nisan Ayı Atölyeleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "seyfi bey",
     "description": "Daha Fazla",
     "type": "experience",
@@ -13235,6 +13163,222 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/561/maziden-esintiler"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-19T21:00:00Z",
+        "local_date": "2026-04-20",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-955948af257895b7",
+            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Kahve Yanı Sohbetleri",
+    "description": "Kahve Yanı Sohbetleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-20T21:00:00Z",
+        "local_date": "2026-04-21",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-b8d050bb5d2888b2",
+            "title": "Kahve Yanı Sohbetleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ESMEK - Nisan Ayı Atölyeleri",
+    "description": "ESMEK - Nisan Ayı Atölyeleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-23T21:00:00Z",
+        "local_date": "2026-04-24",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-190a64959762c131",
+            "title": "ESMEK - Nisan Ayı Atölyeleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "MunicipalWeb",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65"
     ],
     "external_id": null,
     "category": null,
