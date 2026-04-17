@@ -166,9 +166,15 @@ class SerpApiEventsProvider:
     def _map_type(category: str) -> str:
         mapping = {
             "concert": "concert",
+            "theater": "stage",
+            "cinema": "cinema",
+            "art": "art",
+            "standup": "comedy",
+            "festival": "festival",
             "sports": "match",
             "workshop": "workshop",
-            "outdoor": "experience",
+            "experience": "experience",
+            "family": "family",
         }
         return mapping.get(category, "experience")
 

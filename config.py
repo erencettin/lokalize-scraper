@@ -5,18 +5,17 @@ from pydantic_settings import BaseSettings
 
 load_dotenv()
 
-SERPAPI_LOCAL_QUERY_TEMPLATES = [
-    {"q": "restaurants in {city}", "category": "restaurant"},
-    {"q": "cafes in {city}", "category": "cafe"},
-    {"q": "bars in {city}", "category": "bar"},
-    {"q": "game centers in {city}", "category": "game_center"},
-]
-
 SERPAPI_EVENTS_QUERY_TEMPLATES = [
-    {"q": "{city} konser etkinlikleri", "category": "concert"},
+    {"q": "{city} konser ve müzik etkinlikleri", "category": "concert"},
+    {"q": "{city} tiyatro ve sahne sanatları", "category": "theater"},
+    {"q": "{city} sinema ve film gösterimleri", "category": "cinema"},
+    {"q": "{city} sergi ve sanat etkinlikleri", "category": "art"},
+    {"q": "{city} stand-up ve komedi gösterileri", "category": "standup"},
+    {"q": "{city} festival ve büyük etkinlikler", "category": "festival"},
     {"q": "{city} spor etkinlikleri", "category": "sports"},
-    {"q": "{city} workshop atolye etkinlikleri", "category": "workshop"},
-    {"q": "{city} acik hava etkinlikleri", "category": "outdoor"},
+    {"q": "{city} workshop ve eğitim atölyeleri", "category": "workshop"},
+    {"q": "{city} yeme içme ve deneyim etkinlikleri", "category": "experience"},
+    {"q": "{city} aile ve çocuk etkinlikleri", "category": "family"},
 ]
 
 class Settings(BaseSettings):
@@ -85,12 +84,6 @@ class Settings(BaseSettings):
 settings = Settings()
 
 
-def build_serpapi_local_queries(city: str):
-    resolved_city = (city or settings.serpapi_city).strip()
-    return [
-        {"q": item["q"].format(city=resolved_city), "category": item["category"]}
-        for item in SERPAPI_LOCAL_QUERY_TEMPLATES
-    ]
 
 
 def build_serpapi_events_queries(city: str):

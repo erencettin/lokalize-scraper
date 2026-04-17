@@ -15,13 +15,11 @@ from typing import Any, Dict, List
 from clients.serpapi_client import SerpApiClient
 from config import settings
 from providers.serpapi_events import SerpApiEventsProvider
-from providers.serpapi_local import SerpApiLocalProvider
 from services.events_sync_service import EventsSyncService
-from services.nearby_sync_service import NearbySyncService
 from services.sync_service import SyncService
 
 
-MAX_REQUESTS_PER_RUN = 30
+MAX_REQUESTS_PER_RUN = 15
 OUTPUT_DIR = os.path.join("data", "serpapi")
 EVENTS_PATH = os.path.join(OUTPUT_DIR, "events.json")
 STATS_PATH = os.path.join(OUTPUT_DIR, "stats.json")
@@ -70,20 +68,10 @@ def main() -> None:
         shared_client = SerpApiClient()
         _apply_request_cap(shared_client, MAX_REQUESTS_PER_RUN)
 
-        local_provider = SerpApiLocalProvider(serpapi_client=shared_client)
         events_provider = SerpApiEventsProvider(serpapi_client=shared_client)
 
-        captured_places: List[Any] = []
         captured_events: List[Any] = []
-
-        original_fetch_places = local_provider.fetch_places
         original_fetch_events = events_provider.fetch_events
-
-        def fetch_places_with_capture(city: str | None = None) -> List[Any]:
-            places = original_fetch_places(city)
-            captured_places.clear()
-            captured_places.extend(places)
-            return places
 
         def fetch_events_with_capture(city: str | None = None) -> List[Any]:
             events = original_fetch_events(city)
@@ -91,16 +79,12 @@ def main() -> None:
             captured_events.extend(events)
             return events
 
-        local_provider.fetch_places = fetch_places_with_capture  # type: ignore[method-assign]
         events_provider.fetch_events = fetch_events_with_capture  # type: ignore[method-assign]
 
         dry_run = settings.sync_mode.lower() == "dry_run"
         resolved_city = settings.serpapi_city
 
-        nearby_service = NearbySyncService(provider=local_provider)
         events_service = EventsSyncService(provider=events_provider)
-
-        nearby_stats = nearby_service.run(dry_run=dry_run, city=resolved_city)
         events_stats = events_service.run(dry_run=dry_run, city=resolved_city)
 
         # Trigger stale cleanup on backend (marks events not seen in this run as inactive)
@@ -113,11 +97,6 @@ def main() -> None:
                 print(f"[WARN] 🔍 SerpAPI stale cleanup basarisiz: {stale_exc}")
 
         combined_records: List[Dict[str, Any]] = []
-        for place in captured_places:
-            payload = _serialize_item(place)
-            payload["_record_type"] = "serpapi_local"
-            combined_records.append(payload)
-
         for event in captured_events:
             payload = _serialize_item(event)
             payload["_record_type"] = "serpapi_events"
