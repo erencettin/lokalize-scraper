@@ -1,6 +1,5 @@
 from typing import List, Optional
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence
-from clients.supabase_client import SupabaseClient
 from clients.backend_client import BackendClient
 from config import settings
 from utils.text_normalizer import TextNormalizer
@@ -15,10 +14,8 @@ import logging
 class SyncService:
     def __init__(
         self,
-        supabase_client: Optional[SupabaseClient] = None,
         backend_client: Optional[BackendClient] = None,
     ):
-        self._supabase = supabase_client or SupabaseClient()
         self._backend = backend_client or BackendClient(base_url=settings.backend_url)
         self._text_normalizer = TextNormalizer()
         self._date_parser = DateParser()

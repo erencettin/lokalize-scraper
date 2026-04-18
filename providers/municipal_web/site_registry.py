@@ -6,7 +6,7 @@ from typing import Iterable, List
 
 from providers.municipal_web.models import MunicipalSite
 from providers.municipal_web.parsing import HtmlCardStrategy, LabelDetailStrategy, NoopStrategy, PassthroughStrategy, WpJsonStrategy
-from providers.municipal_web.parsing.custom import ArnavutkoyParser, AvcilarParser, BagcilarParser, BahcelievlerParser, BakirkoyParser, KartalParser, MaltepeParser, SilivriParser, SultanbeyliParser, UskudarParser
+from providers.municipal_web.parsing.custom import ArnavutkoyParser, BagcilarParser, BahcelievlerParser, BakirkoyParser, KartalParser, MaltepeParser, SilivriParser, SultanbeyliParser
 
 
 GENERIC_CARD_PATTERNS = [
@@ -37,7 +37,6 @@ class SiteRegistry:
     def _custom_sites(self) -> List[MunicipalSite]:
         return [
             MunicipalSite("Arnavutköy Belediyesi", "https://www.arnavutkoy.bel.tr", ["https://www.arnavutkoy.bel.tr/tum-etkinlikler", "https://www.arnavutkoy.bel.tr/etkinlikler/egitim-etkinlikleri"], ArnavutkoyParser(), True),
-            MunicipalSite("Avcılar Belediyesi", "https://www.avcilar.bel.tr", ["https://www.avcilar.bel.tr/etkinlikler", "https://www.avcilar.bel.tr/etkinlikler/konu/etkinlik"], AvcilarParser(), True),
             MunicipalSite("Bağcılar Belediyesi", "https://www.bagcilar.bel.tr", ["https://www.bagcilar.bel.tr/etkinlikler"], BagcilarParser(), True),
             MunicipalSite("Bahçelievler Belediyesi", "https://zirve.bahcelievler.bel.tr", ["https://zirve.bahcelievler.bel.tr/en/"], BahcelievlerParser(), False),
             MunicipalSite("Bakırköy Belediyesi", "https://www.bakirkoy.bel.tr", ["https://www.bakirkoy.bel.tr/tr/etkinliklerimiz", "https://bakirkoy.bel.tr/tr/"], BakirkoyParser(), False),
@@ -45,7 +44,6 @@ class SiteRegistry:
             MunicipalSite("Kartal Belediyesi", "https://www.kartal.bel.tr", ["https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi", "https://e-belediye.kartal.bel.tr/Etkinlik/Takvim"], KartalParser(), False),
             MunicipalSite("Sultanbeyli Belediyesi", "https://kultursanat.sultanbeyli.bel.tr", ["https://kultursanat.sultanbeyli.bel.tr/"], SultanbeyliParser(), False),
             MunicipalSite("Silivri Belediyesi", "https://kultursanat.silivri.bel.tr", ["https://kultursanat.silivri.bel.tr/", "https://kultursanat.silivri.bel.tr/?tip=4"], SilivriParser(), True),
-            MunicipalSite("Üsküdar Belediyesi", "https://www.uskudar.bel.tr", ["https://www.uskudar.bel.tr/tr/sitemap/eventcalendar", "https://www.uskudar.bel.tr/tr/main/eventcalendar"], UskudarParser(), True),
         ]
 
     def _passthrough_defs(self) -> list[tuple[str, str, list[str]]]:
