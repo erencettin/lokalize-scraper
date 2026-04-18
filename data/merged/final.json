@@ -1,77 +1,5 @@
 [
   {
-    "title": "Bir Delinin Hatıra Defteri",
-    "description": null,
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-18T13:00:00Z",
-        "local_date": "2026-04-18",
-        "local_time": "16:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre Koşuyolu",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkQfaulA",
-            "title": "Bir Delinin Hatıra Defteri",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5PJ56/005/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ56/005/TURKIYE/tr",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/5PJ56/005/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Yaşar Ne Yaşar Ne Yaşamaz",
     "description": null,
     "type": "theatre",
@@ -11345,78 +11273,6 @@
     "fetched_at": null
   },
   {
-    "title": "Kiraz Çiçeği Günleri",
-    "description": "Kiraz Çiçeği Günleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-18T10:30:00Z",
-        "local_date": "2026-04-18",
-        "local_time": "13:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-5958728bf0655d32",
-            "title": "Kiraz Çiçeği Günleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalRSS",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Maceraperest Bir Mimarın Fotoğrafhanesi",
     "description": "Maceraperest Bir Mimarın Fotoğrafhanesi",
     "type": "experience",
@@ -11744,26 +11600,26 @@
     "fetched_at": null
   },
   {
-    "title": "DOST GEZEGENLER",
-    "description": "Çocuk Tiyatrosu / Kukla / Masal TİYATRO KLANK",
-    "type": "theatre",
+    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-26T11:00:00Z",
-        "local_date": "2026-04-26",
-        "local_time": "14:00",
+        "start_at_utc": "2026-04-21T21:00:00Z",
+        "local_date": "2026-04-22",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Üsküdar Gençlik Merkezi",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-cc37fe1471e4a7a9",
-            "title": "DOST GEZEGENLER",
+            "external_id": "web-955948af257895b7",
+            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11776,7 +11632,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -11784,7 +11640,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
             "sales_start_at": null
           }
         ]
@@ -11796,11 +11652,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Eyüpsultan Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Eyüpsultan Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/dost-gezegenler/6955"
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
     ],
     "external_id": null,
     "category": null,
@@ -11816,243 +11672,26 @@
     "fetched_at": null
   },
   {
-    "title": "EŞİT MASALLAR",
-    "description": "Çocuk Tiyatrosu / Kukla / Masal ODEABANK",
-    "type": "theatre",
+    "title": "Kahve Yanı Sohbetleri",
+    "description": "Kahve Yanı Sohbetleri",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-19T11:00:00Z",
-        "local_date": "2026-04-19",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-676ef89e9de9981d",
-            "title": "EŞİT MASALLAR",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/esit-masallar/6938",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/esit-masallar/6938",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/esit-masallar/6938"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "KARAGÖZ VE ZEYTİN AĞACI",
-    "description": "Çocuk Tiyatrosu / Kukla / Masal HAYALİ CEMAL FATİH POLAT",
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-18T11:00:00Z",
-        "local_date": "2026-04-18",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Kirazlıtepe Boğaziçi Yaşam Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-adafc291829c458a",
-            "title": "KARAGÖZ VE ZEYTİN AĞACI",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/karagoz-ve-zeytin-agaci/6935",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/karagoz-ve-zeytin-agaci/6935",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi",
-      "Fatih Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi, Fatih Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/cocuk-tiyatrosu-kukla-masal/7/karagoz-ve-zeytin-agaci/6935"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
-    "description": "Konser DİLLERDEN DÜŞMEYEN ZAMANSIZ ŞARKILAR 70'LER 80'LER",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-19T16:30:00Z",
-        "local_date": "2026-04-19",
-        "local_time": "19:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-bc5d550283906809",
-            "title": "EMİN ONGAN ÜSKÜDAR MÛSİKÎ CEMİYETİ",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/emin-ongan-uskudar-msik-cemiyeti/6945"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "KURTALAN EKSPRES",
-    "description": "Konser Detay :",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-21T17:00:00Z",
+        "start_at_utc": "2026-04-20T21:00:00Z",
         "local_date": "2026-04-21",
-        "local_time": "20:00",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-ec8a4662b2c65003",
-            "title": "KURTALAN EKSPRES",
+            "external_id": "web-b8d050bb5d2888b2",
+            "title": "Kahve Yanı Sohbetleri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12065,7 +11704,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12073,7 +11712,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
             "sales_start_at": null
           }
         ]
@@ -12085,11 +11724,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Eyüpsultan Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Eyüpsultan Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/kurtalan-ekspres/6947"
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69"
     ],
     "external_id": null,
     "category": null,
@@ -12105,98 +11744,26 @@
     "fetched_at": null
   },
   {
-    "title": "MÛSİKÎ EĞİTİM VAKFI MEŞK KOROSU KONSERİ",
-    "description": "Konser ŞEF: ARZU YÜCEBIYIK",
-    "type": "concert",
+    "title": "ESMEK - Nisan Ayı Atölyeleri",
+    "description": "ESMEK - Nisan Ayı Atölyeleri",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-04-18T16:30:00Z",
-        "local_date": "2026-04-18",
-        "local_time": "19:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Altunizade Kültür ve Sanat Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-81c013f4d75136c5",
-            "title": "MÛSİKÎ EĞİTİM VAKFI MEŞK KOROSU KONSERİ",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/msik-egitim-vakfi-mesk-korosu-konseri/6937",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/msik-egitim-vakfi-mesk-korosu-konseri/6937",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/msik-egitim-vakfi-mesk-korosu-konseri/6937"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "USTALARA SAYGI",
-    "description": "Konser ZAFER ÖZARSLAN",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-24T16:30:00Z",
+        "start_at_utc": "2026-04-23T21:00:00Z",
         "local_date": "2026-04-24",
-        "local_time": "19:30",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
+        "venue_name": "Eyüpsultan Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-09408c1d6ec49b14",
-            "title": "USTALARA SAYGI",
+            "external_id": "web-190a64959762c131",
+            "title": "ESMEK - Nisan Ayı Atölyeleri",
             "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951",
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -12209,7 +11776,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -12217,7 +11784,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
             "sales_start_at": null
           }
         ]
@@ -12229,155 +11796,11 @@
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Üsküdar Belediyesi"
+      "Eyüpsultan Belediyesi"
     ],
-    "provider_label": "Üsküdar Belediyesi",
+    "provider_label": "Eyüpsultan Belediyesi",
     "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/ustalara-saygi/6951"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "YAZA MERHABA",
-    "description": "Konser OKYANUS TSM KOROSU",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-28T16:30:00Z",
-        "local_date": "2026-04-28",
-        "local_time": "19:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bağlarbaşı Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-d4fe21de167f5e34",
-            "title": "YAZA MERHABA",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yaza-merhaba/6958"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
-    "description": "Konser SOLİST: FİLİZ TEKİN",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.uskudar.bel.tr/webfiles/images/uskudarbelediyesilogo-tr.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-24T16:30:00Z",
-        "local_date": "2026-04-24",
-        "local_time": "19:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Altunizade Kültür ve Sanat Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-f46a33884fcaa8cb",
-            "title": "YUNUS EMRE'DEN GÜNÜMÜZ ERENLERİNE AŞKIN DİLİNDEN İLAHİLER",
-            "description": null,
-            "source_url": "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.uskudar.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Üsküdar Belediyesi"
-    ],
-    "provider_label": "Üsküdar Belediyesi",
-    "source_urls": [
-      "https://www.uskudar.bel.tr/tr/main/eventcalendar/konser/33/yunus-emreden-gunumuz-erenlerine-askin-dilin/6952"
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65"
     ],
     "external_id": null,
     "category": null,
@@ -12954,222 +12377,6 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/561/maziden-esintiler"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "description": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-21T21:00:00Z",
-        "local_date": "2026-04-22",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-955948af257895b7",
-            "title": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/23-nisan-ulusal-egemenlik-ve-cocuk-bayrami-et/67"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kahve Yanı Sohbetleri",
-    "description": "Kahve Yanı Sohbetleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-20T21:00:00Z",
-        "local_date": "2026-04-21",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b8d050bb5d2888b2",
-            "title": "Kahve Yanı Sohbetleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "ESMEK - Nisan Ayı Atölyeleri",
-    "description": "ESMEK - Nisan Ayı Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-23T21:00:00Z",
-        "local_date": "2026-04-24",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-190a64959762c131",
-            "title": "ESMEK - Nisan Ayı Atölyeleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalWeb",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-nisan-ayi-atolyeleri/65"
     ],
     "external_id": null,
     "category": null,
