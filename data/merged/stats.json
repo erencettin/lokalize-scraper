@@ -1,29 +1,31 @@
 {
-  "total_events": 178,
-  "total_events_before_dedup": 200,
-  "total_events_after_dedup": 178,
-  "ticketmaster_municipal_count": 177,
+  "total_events": 197,
+  "total_events_before_dedup": 220,
+  "total_events_after_dedup": 197,
+  "ticketmaster_municipal_count": 197,
   "serpapi_count": 23,
-  "overlap_count": 22,
-  "multi_provider_event_count": 1,
+  "overlap_count": 23,
+  "multi_provider_event_count": 2,
   "provider_combo_counts": {
-    "MunicipalRSS": 11,
-    "MunicipalWeb": 19,
+    "MunicipalRSS": 9,
+    "MunicipalWeb": 18,
     "SerpAPIEvents": 22,
-    "Ticketmaster": 125,
+    "Ticketmaster": 146,
+    "Ticketmaster+MunicipalWeb": 1,
     "Ticketmaster+SerpAPIEvents": 1
   },
   "provider_tag_combo_counts": {
-    "Beylikdüzü Belediyesi": 8,
+    "Beylikdüzü Belediyesi": 7,
     "Esenyurt Belediyesi": 5,
     "Esenyurt Belediyesi+YAPAY ZEKA ÇAĞINDA YETENEK YÖNETİMİ Seminer Yeri ESENYURT Belediyesi": 1,
     "Eyüpsultan Belediyesi": 3,
     "Google": 22,
     "Kartal Belediyesi": 1,
     "Küçükçekmece Belediyesi+Kartal Belediyesi": 1,
-    "Ticketmaster": 125,
+    "Ticketmaster": 146,
+    "Ticketmaster+Beylikdüzü Belediyesi": 1,
     "Ticketmaster+Google": 1,
-    "İBB": 11
+    "İBB": 9
   },
-  "last_merge": "2026-04-18T18:58:20.231642+00:00"
+  "last_merge": "2026-04-19T02:58:49.588912+00:00"
 }
