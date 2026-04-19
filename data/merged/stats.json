@@ -1,16 +1,16 @@
 {
-  "total_events": 197,
-  "total_events_before_dedup": 220,
-  "total_events_after_dedup": 197,
-  "ticketmaster_municipal_count": 197,
+  "total_events": 194,
+  "total_events_before_dedup": 199,
+  "total_events_after_dedup": 194,
+  "ticketmaster_municipal_count": 176,
   "serpapi_count": 23,
-  "overlap_count": 23,
+  "overlap_count": 5,
   "multi_provider_event_count": 2,
   "provider_combo_counts": {
     "MunicipalRSS": 9,
-    "MunicipalWeb": 18,
+    "MunicipalWeb": 17,
     "SerpAPIEvents": 22,
-    "Ticketmaster": 146,
+    "Ticketmaster": 144,
     "Ticketmaster+MunicipalWeb": 1,
     "Ticketmaster+SerpAPIEvents": 1
   },
@@ -21,11 +21,10 @@
     "Eyüpsultan Belediyesi": 3,
     "Google": 22,
     "Kartal Belediyesi": 1,
-    "Küçükçekmece Belediyesi+Kartal Belediyesi": 1,
-    "Ticketmaster": 146,
+    "Ticketmaster": 144,
     "Ticketmaster+Beylikdüzü Belediyesi": 1,
     "Ticketmaster+Google": 1,
     "İBB": 9
   },
-  "last_merge": "2026-04-19T02:58:49.588912+00:00"
+  "last_merge": "2026-04-19T07:28:53.922540+00:00"
 }
