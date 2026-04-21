@@ -2708,9 +2708,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "experience",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-24T17:30:00Z",
@@ -6800,9 +6800,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "experience",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-26T18:00:00Z",
@@ -7262,9 +7262,9 @@
   {
     "title": "İyi Değilim Ama Anlatacak Kadar Da Kötü Değilim",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-27T17:30:00Z",
@@ -9438,6 +9438,468 @@
     "fetched_at": null
   },
   {
+    "title": "Kaç Para Bi Fön",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T17:30:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "DasDas",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk_jau5s",
+            "title": "Kaç Para Bi Fön",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5OR54/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5OR54/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Luca Minelli",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T17:30:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Zorlu PSM - Turkcell Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk54Gdvve",
+            "title": "Luca Minelli",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5AKB2/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5AKB2/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ruh Salatası",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T17:30:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Süleyman Seba Kültür ve Sanat Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZko9_kvve",
+            "title": "Ruh Salatası",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5GMO5/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5GMO5/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Garanti BBVA Uluslararası Caz Günü Konserleri: Shabaka",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/a/91c/7d648968-9643-4d8b-b24a-024e10b5d91c_SOURCE",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T17:30:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind İstanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkquG3vve",
+            "title": "Garanti BBVA Uluslararası Caz Günü Konserleri: Shabaka",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5SCBH/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5SCBH/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Shirley Valentine - Sumru Yavrucuk",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T17:30:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Atatürk Kültür ve Sanat Merkezi (BAKSM)",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZ1kvp4UZv",
+            "title": "Shirley Valentine - Sumru Yavrucuk",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/56576/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/56576/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Murat Dalkılıç",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T18:00:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Atakent Tema",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk3Qa1Zt",
+            "title": "Murat Dalkılıç",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5HP41/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5HP41/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Deha Bilimlier",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-30T18:00:00Z",
+        "local_date": "2026-04-30",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Kartal İstMarina",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkAraAE_",
+            "title": "Deha Bilimlier",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/54T23/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/54T23/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Miniatürk 23 Nisan Etkinlikleri",
     "description": "Miniatürk 23 Nisan Etkinlikleri",
     "type": "experience",
@@ -9504,15 +9966,15 @@
     "fetched_at": null
   },
   {
-    "title": "Okur Yazar Buluşması",
-    "description": "Okur Yazar Buluşması",
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
     "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-22T21:00:00Z",
-        "local_date": "2026-04-23",
+        "start_at_utc": "2026-04-24T21:00:00Z",
+        "local_date": "2026-04-25",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -9520,10 +9982,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-53a47d92f7fa257b",
-            "title": "Okur Yazar Buluşması",
+            "external_id": "rss-91c0b097064c5684",
+            "title": "Sanat Rotası",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/",
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-3/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -9570,15 +10032,15 @@
     "fetched_at": null
   },
   {
-    "title": "Müzede Caz",
-    "description": "Müzede Caz",
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
     "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-04-20T21:00:00Z",
-        "local_date": "2026-04-21",
+        "start_at_utc": "2026-04-22T21:00:00Z",
+        "local_date": "2026-04-23",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -9586,10 +10048,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-a4013f84c6c0bc15",
-            "title": "Müzede Caz",
+            "external_id": "rss-53a47d92f7fa257b",
+            "title": "Okur Yazar Buluşması",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/muzede-caz/",
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10733,72 +11195,6 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/562/shirley-valentine-",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kahve Yanı Sohbetleri",
-    "description": "Kahve Yanı Sohbetleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-20T21:00:00Z",
-        "local_date": "2026-04-21",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b8d050bb5d2888b2",
-            "title": "Kahve Yanı Sohbetleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/kahve-yani-sohbetleri/69",
             "sales_start_at": null
           }
         ]
