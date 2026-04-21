@@ -3067,9 +3067,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "theatre",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-24T17:30:00Z",
@@ -4340,6 +4340,78 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://www.biletix.com/performance/5MRHE/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Selen Kaba",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-24T19:30:00Z",
+        "local_date": "2026-04-24",
+        "local_time": "22:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hayal Kahvesi Bahçeşehir",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk9orQvve",
+            "title": "Selen Kaba",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5MGTP/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5MGTP/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5MGTP/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -5837,9 +5909,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "experience",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-25T18:00:00Z",
@@ -7491,7 +7563,7 @@
     "fetched_at": null
   },
   {
-    "title": "Lovejoy",
+    "title": "Lovejoy - Öncesi: Yangın",
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
@@ -7508,7 +7580,7 @@
           {
             "provider": "Ticketmaster",
             "external_id": "Z1HyzZyMZkQjaC_y",
-            "title": "Lovejoy",
+            "title": "Lovejoy - Öncesi: Yangın",
             "description": null,
             "source_url": "https://www.biletix.com/performance/5PR59/001/TURKIYE/tr",
             "deep_link_url": null,
@@ -10806,78 +10878,6 @@
     "fetched_at": null
   },
   {
-    "title": "Deha Bilimlier",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-30T18:00:00Z",
-        "local_date": "2026-04-30",
-        "local_time": "21:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Jolly Joker Kartal İstMarina",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkAraAE_",
-            "title": "Deha Bilimlier",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/54T23/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/54T23/001/TURKIYE/tr",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://www.biletix.com/performance/54T23/001/TURKIYE/tr"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Miniatürk 23 Nisan Etkinlikleri",
     "description": "Miniatürk 23 Nisan Etkinlikleri",
     "type": "experience",
@@ -11461,9 +11461,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-08T21:00:00Z",
-        "local_date": "2026-05-09",
-        "local_time": "00:00",
+        "start_at_utc": "2026-05-02T00:05:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "03:05",
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
