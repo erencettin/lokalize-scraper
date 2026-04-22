@@ -1,4 +1,4 @@
-﻿"""Date extraction helpers for WordPress event payloads."""
+"""Date extraction helpers for WordPress event payloads."""
 from __future__ import annotations
 import re
 from datetime import datetime
@@ -86,11 +86,28 @@ class WordPressDateExtractor:
         candidates.extend(self._numeric_candidates(normalized, post_date))
         if not candidates:
             return None
+
+        # Group by date and prefer candidates with time
+        best_by_date: Dict[Any, datetime] = {}
+        for cand in candidates:
+            d = cand.date()
+            # If we don't have this date yet, or if the new candidate has a time while the current one doesn't
+            if d not in best_by_date:
+                best_by_date[d] = cand
+            else:
+                current = best_by_date[d]
+                has_time = cand.hour != 0 or cand.minute != 0
+                current_has_time = current.hour != 0 or current.minute != 0
+                if has_time and not current_has_time:
+                    best_by_date[d] = cand
+        
+        final_candidates = list(best_by_date.values())
         now_local = datetime.now(self._istanbul_tz)
         reference = post_date.astimezone(self._istanbul_tz) if post_date else now_local
         reference = now_local if reference < now_local else reference
-        future = sorted([value for value in candidates if value.date() >= reference.date()])
-        selected = future[0] if future else sorted(candidates)[0]
+        
+        future = sorted([value for value in final_candidates if value.date() >= reference.date()])
+        selected = future[0] if future else sorted(final_candidates)[0]
         return selected.astimezone(pytz.UTC)
 
     def _range_candidates(self, text: str, post_date: Optional[datetime]) -> List[datetime]:
@@ -102,9 +119,21 @@ class WordPressDateExtractor:
             if month is None:
                 continue
             year = int(match.group(5)) if match.group(5) else None
-            days = [int(match.group(1))] + ([int(match.group(2) or match.group(3))] if (match.group(2) or match.group(3)) else [])
+            
+            start_day = int(match.group(1))
+            end_day_str = match.group(2) or match.group(3)
+            
+            days = [start_day]
+            if end_day_str:
+                end_day = int(end_day_str)
+                if end_day > start_day and end_day - start_day < 31: # Safety check for reasonable range
+                    days = list(range(start_day, end_day + 1))
+                else:
+                    days.append(end_day)
+
+            time_val = self._extract_time_after(text, match.end())
             for day in days:
-                candidate = self._build_local_datetime(day, month, year, self._extract_time_after(text, match.end()), post_date)
+                candidate = self._build_local_datetime(day, month, year, time_val, post_date)
                 if candidate is not None:
                     candidates.append(candidate)
         return candidates

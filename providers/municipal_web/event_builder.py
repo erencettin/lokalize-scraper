@@ -214,7 +214,9 @@ class EventBuilder:
 
     def _extract_time(self, text: str, start_index: int = 0) -> tuple[int, int]:
         search_area = text[start_index:] if start_index > 0 else text
-        match = re.search(r"(?:^|\D)(\d{1,2})[:\.](\d{2})(?:\D|$)", search_area)
+        # Search for a time pattern in a larger window (150 chars)
+        window = search_area[:150]
+        match = re.search(r"(?:^|\D)(\d{1,2})[:\.](\d{2})(?:\D|$)", window)
         if not match:
             return (0, 0)
         hour, minute = int(match.group(1)), int(match.group(2))

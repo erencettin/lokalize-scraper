@@ -1,4 +1,4 @@
-﻿"""Constants for municipal RSS provider."""
+"""Constants for municipal RSS provider."""
 
 from typing import Set
 
@@ -16,7 +16,7 @@ FEED_DELAY_SECONDS = 1.5
 WP_EVENT_PER_PAGE = 50
 WP_POST_PER_PAGE = 30
 CONTENT_SEARCH_WINDOW = 600
-TIME_SEARCH_WINDOW = 32
+TIME_SEARCH_WINDOW = 120
 
 DEFAULT_ACCEPT_HEADER = "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"
 DEFAULT_USER_AGENT = "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
