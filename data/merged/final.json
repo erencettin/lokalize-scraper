@@ -1050,9 +1050,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "experience",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-24T17:30:00Z",
@@ -1697,7 +1697,7 @@
   },
   {
     "title": "Bülent Ortaçgil",
-    "description": null,
+    "description": "Bülent Ortaçgil",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -1740,19 +1740,61 @@
             "sales_start_at": null
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-04-24T13:00:00Z",
+        "local_date": "2026-04-24",
+        "local_time": "16:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-bba712fe36027b24",
+            "title": "Bülent Ortaçgil",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/bulent-ortacgil/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
       }
     ],
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5SC72/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5SC72/001/TURKIYE/tr",
+      "https://kultur.istanbul/etkinlik/bulent-ortacgil/"
     ],
     "external_id": null,
     "category": null,
@@ -1949,7 +1991,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-24T18:30:00Z",
@@ -5620,9 +5662,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": "Daha Fazla",
-    "type": "theatre",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-26T18:00:00Z",
@@ -7958,7 +8000,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-29T18:00:00Z",
@@ -9437,6 +9479,1446 @@
     "fetched_at": null
   },
   {
+    "title": "Hocapaşa Mevlevileri - Sema Ayini - Mayıs Ayı Etkinlikleri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/cf0/e3e32db3-adac-486f-b78d-7c8857f8bcf0_106191_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T16:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hodjapasha Dance Theater",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk5Q5Fvve",
+            "title": "Hocapaşa Mevlevileri - Sema Ayini - Mayıs Ayı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5APA7/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5APA7/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5APA7/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Lüküs Hayat Kabare",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T17:30:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaGiE",
+            "title": "Lüküs Hayat Kabare",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ52/007/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ52/007/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5PJ52/007/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Simge",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Atakent Tema",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk3QaFxy",
+            "title": "Simge",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5HP35/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5HP35/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5HP35/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Emre Fel",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Kartal İstMarina",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkAra7at",
+            "title": "Emre Fel",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/54T17/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/54T17/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/54T17/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Deha Bilimlier",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Vadistanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkf-a5r_",
+            "title": "Deha Bilimlier",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5JW47/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5JW47/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5JW47/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Levent Yüksel",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "JJ Arena Ataşehir",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkrxaFw-",
+            "title": "Levent Yüksel",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5TX36/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5TX36/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5TX36/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "DJ Sercan Umut - Geçmişten Günümüze 90'lar 2000'ler Türkçe Pop",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:00:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hayal Kahvesi Emaar",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkv8i2Zk",
+            "title": "DJ Sercan Umut - Geçmişten Günümüze 90'lar 2000'ler Türkçe Pop",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/50B0F/006/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/50B0F/006/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/50B0F/006/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Dj Pınar Alkan ile 2000ler Türkçe Pop Partisi",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:30:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Beşiktaş",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkbhaeD-",
+            "title": "Dj Pınar Alkan ile 2000ler Türkçe Pop Partisi",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5NQ12/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5NQ12/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5NQ12/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ezginin Günlüğü",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T18:30:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "21:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kadıköy Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkpG7V0Zv",
+            "title": "Ezginin Günlüğü",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5LD24/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5LD24/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5LD24/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Feridun Düzağaç",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T19:30:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "22:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mask Beach",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkp0adn_",
+            "title": "Feridun Düzağaç",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5LZ15/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5LZ15/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5LZ15/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İstanbul Arabesque Project",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-01T19:30:00Z",
+        "local_date": "2026-05-01",
+        "local_time": "22:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hayalmest Bostancı",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkCjrqvve",
+            "title": "İstanbul Arabesque Project",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5DRTS/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5DRTS/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5DRTS/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Yüzdeyüz Müzik Sunar: Foodiefest 4",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T10:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "13:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Life Park",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkobudvve",
+            "title": "Yüzdeyüz Müzik Sunar: Foodiefest 4",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5GNC2/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5GNC2/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5GNC2/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Bir Delinin Hatıra Defteri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T13:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "16:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaulC",
+            "title": "Bir Delinin Hatıra Defteri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ56/014/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ56/014/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5PJ56/014/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Mitski",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/a/c8d/48852c5f-9627-4cdc-a86b-7df526ee8c8d_SOURCE",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T15:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "18:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "KüçükÇiftlik Park",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk2QadQs",
+            "title": "Mitski",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5EP14/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5EP14/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5EP14/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Yaşar Ne Yaşar Ne Yaşamaz",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T15:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "18:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfauhc",
+            "title": "Yaşar Ne Yaşar Ne Yaşamaz",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ55/021/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ55/021/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5PJ55/021/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Hocapaşa Mevlevileri - Sema Ayini - Mayıs Ayı Etkinlikleri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/cf0/e3e32db3-adac-486f-b78d-7c8857f8bcf0_106191_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T16:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hodjapasha Dance Theater",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk5Q5Fvvd",
+            "title": "Hocapaşa Mevlevileri - Sema Ayini - Mayıs Ayı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5APA7/002/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5APA7/002/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5APA7/002/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Adalar Çocuk ve Gençlik Orkestrası",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T16:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Naval Museum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvbHkZv",
+            "title": "Adalar Çocuk ve Gençlik Orkestrası",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/58F06/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/58F06/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/58F06/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Üç Can Bir Dem",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T17:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Türkan Saylan Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkCKodvve",
+            "title": "Üç Can Bir Dem",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5DIG2/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5DIG2/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5DIG2/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Diyemedim",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T17:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ses 1885 - Ortaoyuncular Tiyatrosu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk917j7Zv",
+            "title": "Diyemedim",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5M704/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5M704/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5M704/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Mahmut Çınar",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-02T17:00:00Z",
+        "local_date": "2026-05-02",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kadıköy Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkpG7VtZv",
+            "title": "Mahmut Çınar",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5LD29/001/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5LD29/001/TURKIYE/tr",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5LD29/001/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Kiraz Çiçeği Günleri",
     "description": "Kiraz Çiçeği Günleri",
     "type": "experience",
@@ -9710,150 +11192,6 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/sanat-rotasi-3/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Okur Yazar Buluşması",
-    "description": "Okur Yazar Buluşması",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-22T21:00:00Z",
-        "local_date": "2026-04-23",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-53a47d92f7fa257b",
-            "title": "Okur Yazar Buluşması",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalRSS",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-3/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "23 Nisan Etkinlikleri",
-    "description": "23 Nisan Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-22T21:00:00Z",
-        "local_date": "2026-04-23",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-3e14e3c4079a6626",
-            "title": "23 Nisan Etkinlikleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/23-nisan-etkinlikleri-2/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "MunicipalRSS",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/23-nisan-etkinlikleri-2/"
     ],
     "external_id": null,
     "category": null,
@@ -11974,6 +13312,45 @@
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
             "title": "İstanbul Türk Müziği Topluluğu Nağmelerin Yolculuğu Konseri",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-05-05T20:00:00Z",
+        "local_date": "2026-05-05",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Çekmecemde Kitap Var! Doç. Dr. Saniye Bencik Kangal",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
