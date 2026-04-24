@@ -1293,7 +1293,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Biletix.com|https://www.biletix.com/performance/5IYI6/001/TURKIYE/tr",
+            "ticket_url": null,
             "sales_start_at": null
           }
         ]
@@ -1469,7 +1469,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Biletix.com|https://www.biletix.com/performance/5LD08/001/TURKIYE/tr",
+            "ticket_url": null,
             "sales_start_at": null
           }
         ]
@@ -14205,8 +14205,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fuVmpLeiFEzycG4zDrIQS3k6CC47c4yvfaa-wNfd7TlOvCm7ZtCP6mc&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Aydilge",
@@ -14278,8 +14277,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdgv1aDYYfz9z7P0GWxMmygv1AwS-EICJtDNBN-zmdAdfGfCaxGy8uQkI&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Mor ve Ötesi",
@@ -14351,81 +14349,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsPfeICQd94JM3MZq1rJ-9FQwBnSujitdu8DA2mH3KzSWuLoTG9bpMtQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
-  },
-  {
-    "title": "Yüzyüzeyken Konuşuruz",
-    "description": "Find tickets for Yüzyüzeyken Konuşuruz at IF Performance Hall Beşiktaş in İstanbul on 4/22/2026 at 9:30 PM",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-22T18:30:00Z",
-        "local_date": "2026-04-22",
-        "local_time": "21:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Beşiktaş",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-c548635713dfec1f0fa6",
-            "title": "Yüzyüzeyken Konuşuruz",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/4rAGJRA47tHRr3qOfKVtJ2",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Biletix.com|https://www.biletix.com/performance/5NQ11/001/TURKIYE/tr",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/4rAGJRA47tHRr3qOfKVtJ2"
-    ],
-    "external_id": "serpapi-event-c548635713dfec1f0fa6",
-    "category": "concert",
-    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
-    "venue": "IF Performance Hall Beşiktaş",
-    "link": "https://open.spotify.com/concert/4rAGJRA47tHRr3qOfKVtJ2",
-    "source_url": "https://open.spotify.com/concert/4rAGJRA47tHRr3qOfKVtJ2",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Perto.com (tickets) | Biletix.com (tickets) | Viagogo (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOMuXiiCOUMF5jxy-nubX0hoYTSe5Po0yM8WJA4FbaZQ2XfzgACVsOu0&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Bülent Ortaçgil, Istanbul",
@@ -14468,7 +14392,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Biletix.com|https://www.biletix.com/performance/5SC72/001/TURKIYE/tr",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/2Bw1QZ6nqJ1w8eAA4FJBuA",
             "sales_start_at": null
           }
         ]
@@ -14492,13 +14416,12 @@
     "venue": "Blind",
     "link": "https://open.spotify.com/concert/2Bw1QZ6nqJ1w8eAA4FJBuA",
     "source_url": "https://open.spotify.com/concert/2Bw1QZ6nqJ1w8eAA4FJBuA",
-    "ticket_info": "Spotify.com (tickets) | Biletix.com (tickets) | GigsGuide (more info)",
+    "ticket_info": "Spotify.com (tickets) | GigsGuide (more info)",
     "ticket_url": null,
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TAfvfstAz4_YGMe-a_UtzEgwSg6d2fYQHRxJjKHw9e01jrGZ19PCDZs&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Bonnie Tyler",
@@ -14570,8 +14493,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBZVDWw3_TkseWearTp1Hp6XabKl7AMSrxEk1q4Z4K2IHIBM789oulPQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "%100 Müzik Sunar: Blind Fest - Tom Odell",
@@ -14614,7 +14536,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Biletix.com|https://www.biletix.com/performance/5EP09/001/TURKIYE/tr",
+            "ticket_url": "Bandsintown.com|https://www.bandsintown.com/f/208444-blind-fest-at-life-park-2026?came_from=209",
             "sales_start_at": null
           }
         ]
@@ -14638,13 +14560,84 @@
     "venue": "Life Park",
     "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Tom-Odell-Tickets/E-160439320",
     "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Tom-Odell-Tickets/E-160439320",
-    "ticket_info": "Bandsintown.com (tickets) | Koobit.com (tickets) | Myguide-istanbul.com (tickets) | Biletix.com (tickets) | Viagogo (more info)",
+    "ticket_info": "Bandsintown.com (tickets) | Koobit.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info)",
     "ticket_url": null,
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi1AZtaR5oQxzsNSzL8-A4U22LnOCZeiibxo0AyZZJkqqVr0ENZiIqUM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
+  },
+  {
+    "title": "%100 Müzik Sunar : Gevende",
+    "description": "Ticket listings for %100 Müzik Sunar : Gevende at Blind in İstanbul on 05/08/2026",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-08T17:00:00Z",
+        "local_date": "2026-05-08",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-115e2063f5149164d823",
+            "title": "%100 Müzik Sunar : Gevende",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/2ZWF8dpPj6VvJKZtQNxOH9",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240"
+    ],
+    "external_id": "serpapi-event-115e2063f5149164d823",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpvWgG8hhpAWuzm_EVREnOg9Tux824CMxmV2E1pSunI_hS-ldxk8dAKA&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Besiktas JK vs. Petkim Spor Aliaga Men's Basketball",
@@ -14716,8 +14709,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsZWzEQdMgbWLp4opC1b8L5DAxcl1ZX3pe66ved2V1qsol4YglrJ1nzk&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Manifest",
@@ -14780,7 +14772,7 @@
     ],
     "external_id": "serpapi-event-6f820916872f8a4599a8",
     "category": "sports",
-    "address": "Ülker Sports Arena, Barbaros, Ihlamur Bulvari, Ataşehir/İstanbul, Türkiye",
+    "address": "Ülker Sports Arena, Barbaros, Ihlamur Blv., Ataşehir/İstanbul, Türkiye",
     "venue": "Ülker Sports Arena",
     "link": "https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
     "source_url": "https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
@@ -14789,8 +14781,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UYkBDnhsVM7RbQWEQRiBmFRPvUdN3sZgxHwwDxa6R25Ke6WYUHfEcRU&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   },
   {
     "title": "Kasimpasa Spor Kulubu vs Galatasaray",
@@ -14862,7 +14853,6 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8HK5E2wWUMOqzVM8PA1kL4gyIGrEAAHOhBeaj_hu-nXYx2usvdDNvW4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-23T05:25:27.700769Z",
-    "_record_type": "serpapi_events"
+    "fetched_at": "2026-04-24T14:56:12.572123Z"
   }
 ]
