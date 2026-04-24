@@ -43,6 +43,7 @@ jobs:
         env:
           PYTHONPATH: "."
           BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}

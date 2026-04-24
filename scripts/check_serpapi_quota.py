@@ -20,7 +20,9 @@ def _set_output(name: str, value: str) -> None:
     if github_output:
         with open(github_output, "a", encoding="utf-8") as f:
             f.write(f"{name}={value}\n")
-    print(f"::set-output name={name}::{value}")
+    else:
+        # local fallback
+        print(f"{name}={value}")
 
 
 def main() -> int:

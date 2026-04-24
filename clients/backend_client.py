@@ -13,6 +13,9 @@ class BackendClient:
         self._raw_backend_url = (base_url if base_url is not None else os.getenv("BACKEND_URL", "")).strip()
         self.base_url = self._raw_backend_url.rstrip("/")
         self.session = requests.Session()
+        self._scraper_api_key = os.getenv("SCRAPER_API_KEY", "").strip()
+        if self._scraper_api_key:
+            self.session.headers.update({"X-Scraper-Key": self._scraper_api_key})
         self._is_github_actions = os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
         self.skip_reason = self._resolve_skip_reason()
         self.enabled = self.skip_reason is None
