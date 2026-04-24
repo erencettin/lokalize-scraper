@@ -102,24 +102,47 @@ def main() -> int:
         _logger.warning("No events fetched from any provider, skipping backend sync")
         return 0
 
-    sync_run_id = f"tm-muni-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
-    _logger.info("Starting backend sync sync_run_id=%s", sync_run_id)
+    # CRITICAL: Each provider MUST be synced separately.
+    # Merging all providers into a single bulk call causes dominantProvider detection
+    # to pick the wrong provider, making GetChangedSinceAsync load the wrong events
+    # and failing to find existing occurrences in the dedup cache — leading to duplicates.
+    sync_service = SyncService()
+    provider_batches = [
+        ("Ticketmaster", tm_events),
+        ("MunicipalRSS", rss_events),
+        ("MunicipalWeb", web_events),
+    ]
 
-    try:
-        sync_service = SyncService()
-        success = sync_service.sync_events_to_backend_bulk(all_events, sync_run_id)
-        if success:
-            _logger.info("Backend sync completed successfully")
-        else:
-            _logger.error("Backend sync reported failure")
+    overall_success = True
+    last_sync_run_id = None
+    for provider_name, events in provider_batches:
+        if not events:
+            _logger.info("Provider %s: no events, skipping", provider_name)
+            continue
+        sync_run_id = f"{provider_name.lower()}-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
+        last_sync_run_id = sync_run_id
+        _logger.info("Starting backend sync provider=%s events=%s sync_run_id=%s", provider_name, len(events), sync_run_id)
+        try:
+            success = sync_service.sync_events_to_backend_bulk(events, sync_run_id)
+            if success:
+                _logger.info("Backend sync completed successfully provider=%s", provider_name)
+            else:
+                _logger.error("Backend sync reported failure provider=%s", provider_name)
+                overall_success = False
+        except Exception as exc:
+            _logger.error("Backend sync raised an exception provider=%s: %s", provider_name, exc)
+            overall_success = False
 
-        sync_service.trigger_stale_cleanup(sync_run_id)
-    except Exception as exc:
-        _logger.error("Backend sync raised an exception: %s", exc)
-        return 1
+    # Trigger stale cleanup once after all providers are done.
+    # Use the last sync_run_id as a marker (cleanup is idempotent).
+    if last_sync_run_id:
+        try:
+            sync_service.trigger_stale_cleanup(last_sync_run_id)
+        except Exception as exc:
+            _logger.error("Stale cleanup failed: %s", exc)
 
     _logger.info("=== Ticketmaster & Municipal sync finished ===")
-    return 0
+    return 0 if overall_success else 1
 
 
 if __name__ == "__main__":
