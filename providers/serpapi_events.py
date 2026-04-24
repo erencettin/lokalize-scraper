@@ -144,10 +144,11 @@ class SerpApiEventsProvider:
             sources=[source],
         )
 
+        description = self._clean_optional(raw.get("description"))
         return NormalizedEvent(
             title=title,
-            description=self._clean_optional(raw.get("description")),
-            type=self._map_type(category),
+            description=description,
+            type=self._infer_type_from_content(title, description, category),
             city_name=city,
             occurrences=[occurrence],
             source="serpapi_google_events",
@@ -161,6 +162,33 @@ class SerpApiEventsProvider:
             fetched_at=fetched_at,
             source_url=link,
         )
+
+    def _infer_type_from_content(self, title: str, description: Optional[str], query_category: str) -> str:
+        """Infer event type from title/description signals, falling back to query category.
+
+        Prevents events from being mis-categorised when they appear in a query result
+        for a different category (e.g. a concert at a sports venue in a sports query).
+        Order matters: more specific signals are checked first.
+        """
+        content = (title + " " + (description or "")).lower()
+
+        _SIGNALS: list[tuple[str, list[str]]] = [
+            ("standup",    ["stand up", "stand-up", "standup", "komedi show"]),
+            ("concert",    ["konser", "concert", " tour", "canlı müzik", "canli muzik", "gig", "live müzik"]),
+            ("theatre",    ["tiyatro", "müzikal", "opera ", "opera'", "bale "]),
+            ("cinema",     ["sinema", "film göster", "belgesel göster", "özel gösterim"]),
+            ("exhibition", ["sergi ", "sergisin", "sanat galerisi", "fotoğraf sergisi"]),
+            ("festival",   ["festival", " fest "]),
+            ("workshop",   ["workshop", "atölye", "masterclass", "bootcamp"]),
+            ("kids",       ["çocuk etkinlik", "aile etkinlik", "çocuklar için"]),
+            ("match",      ["maç", "futbol maç", "basketbol maç", "voleybol maç"]),
+        ]
+
+        for event_type, keywords in _SIGNALS:
+            if any(k in content for k in keywords):
+                return event_type
+
+        return self._map_type(query_category)
 
     @staticmethod
     def _map_type(category: str) -> str:
