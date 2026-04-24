@@ -15,6 +15,7 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: write
+      actions: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -25,6 +26,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -80,3 +82,8 @@ jobs:
           git add data/ticketmaster_municipal/
           git diff --staged --quiet || git commit -m "🎫 Ticketmaster & Municipal güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Trigger Merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run merge.yml --ref main
