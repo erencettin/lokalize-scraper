@@ -12,8 +12,6 @@ class SyncService:
         backend_client: Optional[BackendClient] = None,
     ):
         self._backend = backend_client or BackendClient(base_url=settings.backend_url)
-        self._text_normalizer = TextNormalizer()
-        self._date_parser = DateParser()
         self._price_parser = PriceParser()
         self.last_backend_sync_status = "unknown"
 

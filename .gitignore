@@ -23,5 +23,5 @@ jolly_*.log
 *.log
 
 # Development/debug scripts (not part of the scraper pipeline)
-scripts/
+scripts/smoke_test_*.py
 check_db.py
