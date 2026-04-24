@@ -14,6 +14,9 @@ import urllib3
 
 from config import settings
 from providers.municipal_web.constants import DEFAULT_ACCEPT_HEADER, DEFAULT_ACCEPT_LANGUAGE_HEADER, DEFAULT_USER_AGENT, RETRYABLE_STATUS_CODES
+from utils.compliance.rate_limiter import RateLimiter
+
+_rate_limiter = RateLimiter()
 
 
 class MunicipalHttpClient:
@@ -73,6 +76,7 @@ class MunicipalHttpClient:
         return ""
 
     def _try_fetch(self, url: str, timeout: tuple) -> Optional[str]:
+        _rate_limiter.wait_for_domain(url)
         try:
             session = self._get_session()
             response = session.get(url, timeout=timeout)
@@ -87,9 +91,11 @@ class MunicipalHttpClient:
                 session = self._get_session()
                 insecure_response = session.get(url, timeout=timeout, verify=False)
                 insecure_result = self._handle_response(url, insecure_response)
-                if insecure_result is None:
-                    self._last_request_error = f"retryable status={insecure_response.status_code}"
-                return insecure_result
+                if insecure_result is not None:
+                    self._logger.warning("MunicipalWeb: insecure fetch succeeded url=%s (SSL bypassed, verify=False)", url)
+                    return insecure_result
+                self._last_request_error = f"retryable status={insecure_response.status_code}"
+                return None
             except Exception as insecure_exc:
                 self._logger.warning("MunicipalWeb: insecure ssl retry failed url=%s reason=%s", url, insecure_exc)
                 self._last_request_error = str(insecure_exc)

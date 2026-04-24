@@ -29,7 +29,7 @@ RATE_LIMITS: Dict[str, float] = {
     # SerpAPI: plan-dependent, 2 s is safe for standard plans
     "serpapi.com":           2.0,
     # Default for all municipal sites and unknown domains
-    "default":               3.0,
+    "default":               1.5,
 }
 
 

@@ -17,10 +17,6 @@ class DummyBackendClient:
         return True
 
 
-class DummySupabaseClient:
-    pass
-
-
 def _build_event(provider: str, source_url: str, source_name: str) -> NormalizedEvent:
     source = NormalizedSource(
         provider=provider,
@@ -51,7 +47,7 @@ def _build_event(provider: str, source_url: str, source_name: str) -> Normalized
 
 def test_sync_service_sends_google_for_serpapi_provider() -> None:
     backend = DummyBackendClient()
-    service = SyncService(supabase_client=DummySupabaseClient(), backend_client=backend)
+    service = SyncService(backend_client=backend)
     event = _build_event("serpapi_google_events", "https://www.google.com/events/abc", "Blind")
 
     ok = service.sync_events_to_backend_bulk([event], "run-1")
@@ -70,7 +66,7 @@ def test_sync_service_sends_google_for_serpapi_provider() -> None:
 
 def test_sync_service_sends_municipality_for_municipal_web_provider() -> None:
     backend = DummyBackendClient()
-    service = SyncService(supabase_client=DummySupabaseClient(), backend_client=backend)
+    service = SyncService(backend_client=backend)
     event = _build_event(
         "MunicipalWeb",
         "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",

@@ -71,8 +71,21 @@ class WpJsonStrategy(SiteParser):
             time=time_text,
             description=strip_html(self._json_text(entry.get("excerpt")) or self._json_text(entry.get("content")) or title),
             image_url=self._json_image_url(entry, site.base_url),
-            price_text=self._json_text(entry.get("cost")) or self._json_text(entry.get("price")) or self._json_text(entry.get("ticket_price")),
+            price_text=self._extract_price_text(entry),
         )
+
+    def _extract_price_text(self, entry: Dict[str, Any]) -> str:
+        for key in ("cost", "price", "ticket_price", "event_price"):
+            val = self._json_text(entry.get(key))
+            if val:
+                return val
+        acf = entry.get("acf") or {}
+        if isinstance(acf, dict):
+            for key in ("ucret", "ucretsiz", "bilet_ucreti", "event_price", "price", "cost"):
+                val = self._json_text(acf.get(key))
+                if val:
+                    return val
+        return ""
 
     def _json_text(self, value: Any) -> str:
         if isinstance(value, list):

@@ -29,8 +29,8 @@ class EventBuilder:
         self._price_pattern = re.compile(
             r"(?:ucretsiz|ücretsiz|free|bedava|"
             r"₺\s*\d[\d.,]*(?:\s*-\s*₺?\s*\d[\d.,]*)?|"
-            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺)|"
-            r"(?:fiyat|bilet).{0,40}?\b\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\b)",
+            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺|lira)|"
+            r"(?:ücret|giriş\s*ücreti|fiyat|bilet).{0,40}?\b\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\b)",
             re.IGNORECASE,
         )
 
@@ -145,7 +145,7 @@ class EventBuilder:
             candidates.append(item.price_text)
 
         # --- 1. JSON-LD ---
-        html_for_structured = getattr(item, "_raw_html", None) or item.description
+        html_for_structured = item.raw_html or item.description
         if html_for_structured:
             jsonld = extract_jsonld_price(html_for_structured)
             if jsonld:

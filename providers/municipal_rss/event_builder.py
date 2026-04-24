@@ -29,8 +29,8 @@ class EventBuilder:
         self._price_pattern = re.compile(
             r"(?:ucretsiz|ücretsiz|free|bedava|"
             r"₺\s*\d[\d.,]*(?:\s*-\s*₺?\s*\d[\d.,]*)?|"
-            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺)|"
-            r"(?:fiyat|bilet).{0,40}?\b\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\b)",
+            r"\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\s*(?:tl|try|₺|lira)|"
+            r"(?:ücret|giriş\s*ücreti|fiyat|bilet).{0,40}?\b\d[\d.,]*(?:\s*-\s*\d[\d.,]*)?\b)",
             re.IGNORECASE,
         )
 
@@ -174,6 +174,8 @@ class EventBuilder:
 
     def _extract_price_candidates(self, item: RawRssItem) -> list[str]:
         candidates: list[str] = []
+        if item.price_text:
+            candidates.append(item.price_text)
         for text in (item.description, item.title, item.category):
             cleaned = clean_text(text)
             if not cleaned:

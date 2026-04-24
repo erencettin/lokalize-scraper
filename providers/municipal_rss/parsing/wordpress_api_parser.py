@@ -42,7 +42,20 @@ class WordpressApiParser(RssFeedParser):
             pub_date=date_raw,
             event_date=event_date.isoformat() if event_date else "",
             venue=self._extract_venue(entry, content or excerpt),
+            price_text=self._extract_price(entry),
         )
+
+    def _extract_price(self, entry: Dict[str, Any]) -> str:
+        for key in ("cost", "price", "ticket_price", "event_price"):
+            val = self._text(entry.get(key))
+            if val:
+                return val
+        for container in self._containers(entry):
+            for key in ("ucret", "ucretsiz", "bilet_ucreti", "event_price", "price", "cost"):
+                val = self._text(container.get(key))
+                if val:
+                    return val
+        return ""
 
     def _text(self, value: Any) -> str:
         if isinstance(value, dict):

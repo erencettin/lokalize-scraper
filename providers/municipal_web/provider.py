@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import logging
-import time
 from datetime import datetime, timedelta
 from typing import List, Optional, Set
 
@@ -68,10 +67,8 @@ class MunicipalWebProvider(BaseProvider):
     def _fetch_site(self, site: MunicipalSite) -> List[NormalizedEvent]:
         results: List[NormalizedEvent] = []
         max_items = max(settings.municipal_web_max_items_per_site, 1)
-        list_delay = max(settings.municipal_web_list_delay_seconds, 0.0)
-        detail_delay = max(settings.municipal_web_detail_delay_seconds, 0.0)
 
-        for index, list_url in enumerate(site.list_urls):
+        for list_url in site.list_urls:
             if not self._http.can_fetch(list_url):
                 self._logger.info("MunicipalWeb: robots disallow list url=%s", list_url)
                 continue
@@ -81,13 +78,9 @@ class MunicipalWebProvider(BaseProvider):
                 normalized = self._build_from_item(item, site)
                 if normalized is not None and self._is_within_lookahead(normalized.occurrences[0].start_at_utc):
                     results.append(normalized)
-                if detail_delay > 0:
-                    time.sleep(detail_delay)
 
             if results:
                 break
-            if index < len(site.list_urls) - 1 and list_delay > 0:
-                time.sleep(list_delay)
         return results
 
     def _build_from_item(self, item: RawEventItem, site: MunicipalSite) -> Optional[NormalizedEvent]:
@@ -99,6 +92,7 @@ class MunicipalWebProvider(BaseProvider):
             if not detail_html:
                 return None
             detailed = site.parser.parse_detail(detail_html, item, site)
+            detailed.raw_html = detail_html
         else:
             detailed = site.parser.parse_detail("", item, site)
         return self._builder.build(detailed, site)

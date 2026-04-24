@@ -26,3 +26,4 @@ class RawTicketmasterEvent:
     price_origin: str = "discovery_list"
     classifications: List[Dict[str, Any]] = field(default_factory=list)
     raw_price_ranges: List[Dict[str, Any]] = field(default_factory=list)
+    sales_start_at: Optional[str] = None

@@ -27,6 +27,7 @@ class LabelDetailStrategy(SiteParser):
             "date": ["Tarih", "Etkinlik Tarihi"],
             "time": ["Saat", "Etkinlik Saati"],
             "description": ["Açıklama", "Detay"],
+            "price": ["Ücret", "Bilet Ücreti", "Bilet Fiyatı", "Giriş Ücreti", "Ücret Bilgisi", "Fiyat"],
         }
     )
 
@@ -47,4 +48,5 @@ class LabelDetailStrategy(SiteParser):
         item.description = item.description or text_description or extract_body_text(html, MAX_BODY_TEXT_LENGTH)
         item.image_url = item.image_url or extract_first_image_url(html, site.base_url)
         item.link = item.link or site.base_url
+        item.price_text = item.price_text or extract_label_value(html, self.label_map["price"]) or ""
         return item

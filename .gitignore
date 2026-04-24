@@ -21,3 +21,7 @@ err.txt
 error_dump.txt
 jolly_*.log
 *.log
+
+# Development/debug scripts (not part of the scraper pipeline)
+scripts/
+check_db.py

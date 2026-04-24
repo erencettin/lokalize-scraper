@@ -32,6 +32,10 @@ class ResponseParser:
         event_id = clean_text(str(raw.get("id") or ""))
         price_ranges = self._extract_list(raw.get("priceRanges"))
         classifications = self._extract_list(raw.get("classifications"))
+        sales = raw.get("sales") if isinstance(raw.get("sales"), dict) else {}
+        public_sales = sales.get("public") if isinstance(sales.get("public"), dict) else {}
+        sales_start_raw = clean_text(str(public_sales.get("startDateTime") or ""))
+
         return RawTicketmasterEvent(
             event_id=event_id,
             title=title,
@@ -46,6 +50,7 @@ class ResponseParser:
             price_origin="discovery_list" if price_ranges else "none",
             classifications=classifications,
             raw_price_ranges=price_ranges,
+            sales_start_at=sales_start_raw or None,
         )
 
     def _extract_page_payload(self, payload: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], Optional[int]]:

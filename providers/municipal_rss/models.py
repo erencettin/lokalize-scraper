@@ -17,6 +17,7 @@ class RawRssItem:
     venue: str = ""
     category: str = ""
     image_url: str = ""
+    price_text: str = ""
 
 
 @dataclass(frozen=True)

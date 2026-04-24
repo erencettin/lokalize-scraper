@@ -21,6 +21,7 @@ class RawEventItem:
     description: str = ""
     image_url: str = ""
     price_text: str = ""
+    raw_html: str = ""
 
 
 @dataclass(frozen=True)

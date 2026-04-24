@@ -88,6 +88,10 @@ class EventBuilder:
         )
 
     def _build_source(self, item: RawTicketmasterEvent, price: PriceInfo) -> NormalizedSource:
+        sales_start_at = None
+        if item.sales_start_at:
+            from utils.date_parser import DateParser
+            sales_start_at = DateParser.parse_iso_date(item.sales_start_at)
         return NormalizedSource(
             provider="Ticketmaster",
             external_id=item.event_id,
@@ -96,6 +100,7 @@ class EventBuilder:
             ticket_url=f"Ticketmaster|{item.source_url}",
             price=price,
             ticket_status=DEFAULT_TICKET_STATUS,
+            sales_start_at=sales_start_at,
         )
 
     def _build_price(self, item: RawTicketmasterEvent) -> PriceInfo:
