@@ -95,18 +95,53 @@ class ResponseParser:
         cleaned = clean_text(str(name or ""))
         return cleaned or DEFAULT_VENUE_NAME
 
+    _SPORT_TITLE_KEYWORDS = (
+        "maç", "futbol", "basketbol", "voleybol", "tenis", "formula",
+        "mma", "boks", " lig", "derbi", "esport", "maraton", "marathon",
+        "kupa", "turnuva", "playoff", "championship", " vs ",
+    )
+
     def _resolve_category(self, classifications: List[Dict[str, Any]], title: str) -> str:
         lower_title = title.lower()
+
+        # Title-based overrides: highest precision, checked before API classifications
         if any(token in lower_title for token in ("stand up", "stand-up", "standup")):
             return "standup"
+        if any(token in lower_title for token in ("konser", "concert", " tour")):
+            return "concert"
+
+        # If primary Ticketmaster segment is "Music", it's always a concert —
+        # regardless of the venue name (prevents sports arena misclassification).
+        primary_segment = self._get_primary_segment(classifications)
+        if primary_segment == "music":
+            return "concert"
+
         tokens = " ".join(self._collect_tokens(classifications))
+
         for keyword, mapped in TICKETMASTER_CATEGORY_MAP.items():
             if keyword in tokens:
+                # Only trust "sports" classification when the title confirms it.
+                # Concerts at sports venues (e.g. Manifest at Ülker Sports Arena)
+                # must not be stored as "match".
+                if mapped == "match" and not any(kw in lower_title for kw in self._SPORT_TITLE_KEYWORDS):
+                    continue
                 return mapped
+
         for keyword, mapped in SHARED_CATEGORY_MAP.items():
             if keyword in tokens:
                 return mapped
+
         return DEFAULT_EVENT_TYPE
+
+    def _get_primary_segment(self, classifications: List[Dict[str, Any]]) -> str:
+        """Return the first valid segment name (lowercase) from Ticketmaster classifications."""
+        for item in classifications:
+            segment = item.get("segment")
+            name = segment.get("name") if isinstance(segment, dict) else ""
+            cleaned = clean_text(str(name or "")).lower()
+            if cleaned and cleaned not in ("undefined", ""):
+                return cleaned
+        return ""
 
     def _collect_tokens(self, classifications: List[Dict[str, Any]]) -> List[str]:
         tokens: List[str] = []

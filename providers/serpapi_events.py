@@ -163,6 +163,13 @@ class SerpApiEventsProvider:
             source_url=link,
         )
 
+    # Keywords that confirm an event is genuinely a sport event (not a concert at a sports venue)
+    _SPORT_TITLE_KEYWORDS = (
+        "maç", "futbol", "basketbol", "voleybol", "tenis", "formula",
+        "mma", "boks", " lig", "derbi", "esport", "maraton", "marathon",
+        "kupa", "turnuva", "playoff", "championship", " vs ",
+    )
+
     def _infer_type_from_content(self, title: str, description: Optional[str], query_category: str) -> str:
         """Infer event type from title/description signals, falling back to query category.
 
@@ -171,40 +178,51 @@ class SerpApiEventsProvider:
         Order matters: more specific signals are checked first.
         """
         content = (title + " " + (description or "")).lower()
+        lower_title = title.lower()
 
         _SIGNALS: list[tuple[str, list[str]]] = [
             ("standup",    ["stand up", "stand-up", "standup", "komedi show"]),
-            ("concert",    ["konser", "concert", " tour", "canlı müzik", "canli muzik", "gig", "live müzik"]),
+            ("concert",    ["konser", "concert", " tour", "canlı müzik", "canli muzik",
+                            "gig", "live müzik", "live performance", "tickets for"]),
             ("theatre",    ["tiyatro", "müzikal", "opera ", "opera'", "bale "]),
             ("cinema",     ["sinema", "film göster", "belgesel göster", "özel gösterim"]),
             ("exhibition", ["sergi ", "sergisin", "sanat galerisi", "fotoğraf sergisi"]),
             ("festival",   ["festival", " fest "]),
             ("workshop",   ["workshop", "atölye", "masterclass", "bootcamp"]),
             ("kids",       ["çocuk etkinlik", "aile etkinlik", "çocuklar için"]),
-            ("match",      ["maç", "futbol maç", "basketbol maç", "voleybol maç"]),
+            # "match" only when genuine sport keywords are present — venue name alone is not enough
+            ("match",      ["maç", "futbol maç", "basketbol maç", "voleybol maç",
+                            "lig maçı", "deplasman", " vs ", "karşılaşması",
+                            "playoff", "derbi maç"]),
         ]
 
         for event_type, keywords in _SIGNALS:
             if any(k in content for k in keywords):
                 return event_type
 
-        return self._map_type(query_category)
+        # Query-category fallback — refuse "match" unless title confirms it's a sport event.
+        # This prevents concerts at sports arenas (e.g. Manifest at Ülker Sports Arena)
+        # from being stored as sports events.
+        mapped = self._map_type(query_category)
+        if mapped == "match" and not any(kw in lower_title for kw in self._SPORT_TITLE_KEYWORDS):
+            return "festival"
+        return mapped
 
     @staticmethod
     def _map_type(category: str) -> str:
         mapping = {
-            "concert": "concert",
-            "theater": "stage",
-            "cinema": "cinema",
-            "art": "art",
-            "standup": "comedy",
-            "festival": "festival",
-            "sports": "match",
-            "workshop": "workshop",
-            "experience": "experience",
-            "family": "family",
+            "concert":    "concert",
+            "theater":    "theatre",
+            "cinema":     "cinema",
+            "art":        "exhibition",
+            "standup":    "standup",
+            "festival":   "festival",
+            "sports":     "match",
+            "workshop":   "workshop",
+            "experience": "festival",
+            "family":     "kids",
         }
-        return mapping.get(category, "experience")
+        return mapping.get(category, "festival")
 
     def _parse_event_start(self, payload: dict, fallback: datetime) -> datetime:
         start_date = self._clean_optional(payload.get("start_date"))
