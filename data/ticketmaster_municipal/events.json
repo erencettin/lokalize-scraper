@@ -400,7 +400,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/59a/74eacbfc-af64-4e60-b775-5ddfa21b259a_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/be9/38d164e7-789d-4134-8110-86f79e303be9_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-04-27T19:00:00Z",
@@ -1852,7 +1852,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-29T18:00:00Z",
@@ -3964,7 +3964,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-02T10:00:00Z",
@@ -6536,9 +6536,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "standup",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-03T17:00:00Z",
@@ -10230,72 +10230,6 @@
     "fetched_at": null
   },
   {
-    "title": "Üniversiteli Öğrencilere Kamp Programı",
-    "description": "Üniversiteli Öğrencilere Kamp Programı",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.eyupsultan.bel.tr/userfiles/images/U%CC%88niversite%20Kamp_tv%20(1).jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-28T21:00:00Z",
-        "local_date": "2026-04-29",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-43d5ddd6d1dc5724",
-            "title": "Üniversiteli Öğrencilere Kamp Programı",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/universiteli-ogrencilere-kamp-programi/70",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/universiteli-ogrencilere-kamp-programi/70",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Kahve Yanı Sohbetleri",
     "description": "Kahve Yanı Sohbetleri",
     "type": "experience",
@@ -11026,7 +10960,7 @@
     "description": "Kürk Mantolu Madonna",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/03/kurkmantolumadonna-06-scaled.jpg",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/kurkmantolumadonna27-30-04.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-27T20:00:00Z",
@@ -11290,7 +11224,7 @@
     "description": "Kürk Mantolu Madonna",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/03/kurkmantolumadonna-06-scaled.jpg",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/kurkmantolumadonna27-30-04.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-30T20:00:00Z",
