@@ -1390,7 +1390,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-04-29T18:00:00Z",
@@ -3498,72 +3498,6 @@
     "fetched_at": null
   },
   {
-    "title": "Feridun Düzağaç",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-01T19:30:00Z",
-        "local_date": "2026-05-01",
-        "local_time": "22:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Mask Beach",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkp0adn_",
-            "title": "Feridun Düzağaç",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/5LZ15/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5LZ15/001/TURKIYE/tr",
-            "sales_start_at": "2026-03-30T12:55:00Z"
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "İstanbul Arabesque Project",
     "description": null,
     "type": "concert",
@@ -3634,7 +3568,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-02T10:00:00Z",
@@ -5876,9 +5810,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-03T15:00:00Z",
@@ -6206,9 +6140,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "experience",
+    "type": "standup",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-03T17:00:00Z",
@@ -9572,9 +9506,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "theatre",
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-08T17:00:00Z",
@@ -9744,6 +9678,72 @@
             "ticket_status": "on_sale",
             "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5BZ70/001/TURKIYE/tr",
             "sales_start_at": "2026-04-13T08:24:00Z"
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Lüküs Hayat Kabare",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-08T17:30:00Z",
+        "local_date": "2026-05-08",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaGiI",
+            "title": "Lüküs Hayat Kabare",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ52/008/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ52/008/TURKIYE/tr",
+            "sales_start_at": "2026-03-19T09:00:00Z"
           }
         ]
       }
@@ -10890,72 +10890,6 @@
     "fetched_at": null
   },
   {
-    "title": "28 Nisan 2026 12:30 YAPAY ZEKA ÇAĞINDA YETENEK YÖNETİMİ Seminer Yeri ESENYURT BELEDİYESİ SÜREKLİ EĞİTİM MERKEZİ",
-    "description": "28 Nisan 2026 12:30 YAPAY ZEKA ÇAĞINDA YETENEK YÖNETİMİ Seminer Yeri ESENYURT BELEDİYESİ SÜREKLİ EĞİTİM MERKEZİ",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.esenyurt.bel.tr/assets/uploads/images/f9c36f90-9fd2-4f49-84ec-0fb14f83c0d2.jpeg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-28T09:30:00Z",
-        "local_date": "2026-04-28",
-        "local_time": "12:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Esenyurt Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-b65f8be899d1bdaa",
-            "title": "28 Nisan 2026 12:30 YAPAY ZEKA ÇAĞINDA YETENEK YÖNETİMİ Seminer Yeri ESENYURT BELEDİYESİ SÜREKLİ EĞİTİM MERKEZİ",
-            "description": null,
-            "source_url": "https://www.esenyurt.bel.tr/etkinlikler/sayfa/yapay-zeka-caginda-yetenek-yonetimi-113",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.esenyurt.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.esenyurt.bel.tr/etkinlikler/sayfa/yapay-zeka-caginda-yetenek-yonetimi-113",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "28 Nisan 2026 20:00 BİR ŞARKI BİR HAYAT Konser Yeri ŞEHİT EROL OLÇOK KÜLTÜR MERKEZİ",
     "description": "28 Nisan 2026 20:00 BİR ŞARKI BİR HAYAT Konser Yeri ŞEHİT EROL OLÇOK KÜLTÜR MERKEZİ",
     "type": "concert",
@@ -10997,72 +10931,6 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.esenyurt.bel.tr/etkinlikler/sayfa/bir-sarki-bir-hayat-114",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "28 Nisan 2026 14:00 KÛT'ÜL-AMÂRE ZAFERİ Söyleşi Yeri ESENYURT RECEP TAYYİP ERDOĞAN EĞİTİM KÜLLİYESİ",
-    "description": "28 Nisan 2026 14:00 KÛT'ÜL-AMÂRE ZAFERİ Söyleşi Yeri ESENYURT RECEP TAYYİP ERDOĞAN EĞİTİM KÜLLİYESİ",
-    "type": "show",
-    "city_name": "Istanbul",
-    "image_url": "https://www.esenyurt.bel.tr/assets/uploads/images/8b81e8df-f219-458b-822c-cd1b89ab21c9.jpeg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-04-28T11:00:00Z",
-        "local_date": "2026-04-28",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Esenyurt Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-5b7a7098eac47e9b",
-            "title": "28 Nisan 2026 14:00 KÛT'ÜL-AMÂRE ZAFERİ Söyleşi Yeri ESENYURT RECEP TAYYİP ERDOĞAN EĞİTİM KÜLLİYESİ",
-            "description": null,
-            "source_url": "https://www.esenyurt.bel.tr/etkinlikler/sayfa/ktul-amre-zaferi-115",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.esenyurt.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.esenyurt.bel.tr/etkinlikler/sayfa/ktul-amre-zaferi-115",
             "sales_start_at": null
           }
         ]
