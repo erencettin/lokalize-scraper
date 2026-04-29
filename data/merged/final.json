@@ -3962,21 +3962,53 @@
             "ticket_status": "on_sale",
             "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5LD29/001/TURKIYE/tr",
             "sales_start_at": "2026-03-11T13:02:00Z"
+          },
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-7c21de9003fdb4a906ef",
+            "title": "Mahmut Çınar",
+            "description": null,
+            "source_url": "https://www.myguide-istanbul.com/events/mahmut-cinar",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Google",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://www.biletix.com/performance/5LD29/001/TURKIYE/tr"
+      "https://www.biletix.com/performance/5LD29/001/TURKIYE/tr",
+      "https://www.myguide-istanbul.com/events/mahmut-cinar"
     ],
     "external_id": null,
     "category": null,
@@ -7298,53 +7330,21 @@
             "ticket_status": "on_sale",
             "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5SCBA/001/TURKIYE/tr",
             "sales_start_at": "2026-01-13T13:01:00Z"
-          },
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-0ac291fd03dbb8c34549",
-            "title": "%100 Müzik Sunar: Papooz",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/4ik7UngnqQ4lr1V0P9Cwrn",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/4ik7UngnqQ4lr1V0P9Cwrn",
-            "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster, Google",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "SerpAPIEvents"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Google"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Google",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://www.biletix.com/performance/5SCBA/001/TURKIYE/tr",
-      "https://open.spotify.com/concert/4ik7UngnqQ4lr1V0P9Cwrn"
+      "https://www.biletix.com/performance/5SCBA/001/TURKIYE/tr"
     ],
     "external_id": null,
     "category": null,
@@ -13365,151 +13365,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdgv1aDYYfz9z7P0GWxMmygv1AwS-EICJtDNBN-zmdAdfGfCaxGy8uQkI&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
-  },
-  {
-    "title": "Mor ve Ötesi",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-15T17:00:00Z",
-        "local_date": "2026-05-15",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-e95574fbebd133a1e1dc",
-            "title": "Mor ve Ötesi",
-            "description": null,
-            "source_url": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/"
-    ],
-    "external_id": "serpapi-event-e95574fbebd133a1e1dc",
-    "category": "concert",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
-    "source_url": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
-    "ticket_info": "StubHub (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsPfeICQd94JM3MZq1rJ-9FQwBnSujitdu8DA2mH3KzSWuLoTG9bpMtQ&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
-  },
-  {
-    "title": "%100 Müzik Sunar: Tempers",
-    "description": "Find tickets for Tempers at Blind İstanbul in İstanbul on 5/15/2026 at 8:30 PM",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-15T17:00:00Z",
-        "local_date": "2026-05-15",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-976d9592db04ff503c41",
-            "title": "%100 Müzik Sunar: Tempers",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/75eX0wxftprN5mejGRkZmN",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/75eX0wxftprN5mejGRkZmN",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/75eX0wxftprN5mejGRkZmN"
-    ],
-    "external_id": "serpapi-event-976d9592db04ff503c41",
-    "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://open.spotify.com/concert/75eX0wxftprN5mejGRkZmN",
-    "source_url": "https://open.spotify.com/concert/75eX0wxftprN5mejGRkZmN",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFRmuUoYJOpdUXxLb5GvtplLmCvIDFpZEAZaBuU7JKLAeFY1T-VjGECjU&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
   },
   {
     "title": "Anıl Durmuş",
@@ -13581,7 +13437,151 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv04Khj_VKml93NIxNpzVU6tBntQt-2BjNCtwDT52HY_wdxb5QPzaiUz4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
+  },
+  {
+    "title": "Mor ve Ötesi",
+    "description": null,
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-15T17:00:00Z",
+        "local_date": "2026-05-15",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-e95574fbebd133a1e1dc",
+            "title": "Mor ve Ötesi",
+            "description": null,
+            "source_url": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/"
+    ],
+    "external_id": "serpapi-event-e95574fbebd133a1e1dc",
+    "category": "concert",
+    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
+    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
+    "link": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
+    "source_url": "https://www.stubhub.com/mor-ve-otesi-istanbul-tickets-5-15-2026/event/160783895/",
+    "ticket_info": "StubHub (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsPfeICQd94JM3MZq1rJ-9FQwBnSujitdu8DA2mH3KzSWuLoTG9bpMtQ&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
+  },
+  {
+    "title": "Deniz Tekin",
+    "description": "Find tickets for Deniz Tekin at Blind İstanbul in istanbul on 4/28/2026 at 9:00 PM",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-04-28T17:00:00Z",
+        "local_date": "2026-04-28",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-487dfd26ddb4598aa3c1",
+            "title": "Deniz Tekin",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/3fNNFK3WadbYV4maH2iGGt",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/3fNNFK3WadbYV4maH2iGGt",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://open.spotify.com/concert/3fNNFK3WadbYV4maH2iGGt"
+    ],
+    "external_id": "serpapi-event-487dfd26ddb4598aa3c1",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://open.spotify.com/concert/3fNNFK3WadbYV4maH2iGGt",
+    "source_url": "https://open.spotify.com/concert/3fNNFK3WadbYV4maH2iGGt",
+    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcGwc-8UXe6Ag43O6TzFgC_0_Wgz8z7VgmDmnRr78Uyz_BzqHl6qCveMk&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
   },
   {
     "title": "Manifest",
@@ -13653,7 +13653,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UYkBDnhsVM7RbQWEQRiBmFRPvUdN3sZgxHwwDxa6R25Ke6WYUHfEcRU&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
   },
   {
     "title": "Kasimpasa Spor Kulubu vs Galatasaray",
@@ -13725,6 +13725,78 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8HK5E2wWUMOqzVM8PA1kL4gyIGrEAAHOhBeaj_hu-nXYx2usvdDNvW4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-04-28T05:54:16.731604Z"
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
+  },
+  {
+    "title": "Galatasaray vs Antalyaspor",
+    "description": "View the Galatasaray vs. Antalyaspor game played on May 10, 2026. Box score, stats, play-by-play timeline, highlights, odds & more",
+    "type": "match",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-10T17:00:00Z",
+        "local_date": "2026-05-10",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ali Sami Yen Sports Complex RAMS Park",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-fb9ffb96200172cfe19b",
+            "title": "Galatasaray vs Antalyaspor",
+            "description": null,
+            "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-galatasaray-vs-antalyaspor-may-10-2026-game-boxscore-634622",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Stubhub.com|https://www.stubhub.com/galatasaray-istanbul-tickets-5-10-2026/event/158871186/",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.foxsports.com/soccer/turkish-super-lig-galatasaray-vs-antalyaspor-may-10-2026-game-boxscore-634622"
+    ],
+    "external_id": "serpapi-event-fb9ffb96200172cfe19b",
+    "category": "sports",
+    "address": "Ali Sami Yen Sports Complex RAMS Park, Huzur, Metin Oktay Caddesi, Sarıyer/İstanbul, Türkiye",
+    "venue": "Ali Sami Yen Sports Complex RAMS Park",
+    "link": "https://www.foxsports.com/soccer/turkish-super-lig-galatasaray-vs-antalyaspor-may-10-2026-game-boxscore-634622",
+    "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-galatasaray-vs-antalyaspor-may-10-2026-game-boxscore-634622",
+    "ticket_info": "Stubhub.com (tickets) | FOX Sports (more info) | Viagogo (more info) | Fan Seats (more info) | Safe Ticket Compare (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4147CFFkXiY6KpxJepgE2zYYyY6h-ZVCP1ECpxWS7332hC_KedJ1uig&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-04-29T05:50:01.381953Z"
   }
 ]
