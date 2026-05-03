@@ -62,11 +62,11 @@ class BackendClient:
             logging.info("Sending %s events to backend for sync (RunId: %s)...", len(events), sync_run_id)
             response = self.session.post(url, json=events, timeout=60)
 
-            if response.status_code == 200:
+            if 200 <= response.status_code < 300:
                 logging.info("Successfully synced with backend: %s", response.json().get("message"))
                 return True
 
-            logging.error("Backend sync failed (%s): %s", response.status_code, response.text)
+            logging.error("Backend sync failed (%s)", response.status_code)
             return False
         except Exception as exc:
             logging.error("Error connecting to backend: %s", exc)
@@ -84,7 +84,7 @@ class BackendClient:
         url = f"{self.base_url}/api/migration/deactivate-stale?syncRunId={sync_run_id}"
         try:
             response = self.session.post(url, timeout=30)
-            return response.status_code == 200
+            return 200 <= response.status_code < 300
         except Exception as exc:
             logging.error("Error triggering stale cleanup: %s", exc)
             return False

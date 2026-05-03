@@ -13,13 +13,14 @@ import requests
 import urllib3
 
 from config import settings
+from providers.base_http_client import BaseHttpClient
 from providers.municipal_web.constants import DEFAULT_ACCEPT_HEADER, DEFAULT_ACCEPT_LANGUAGE_HEADER, DEFAULT_USER_AGENT, RETRYABLE_STATUS_CODES
 from utils.compliance.rate_limiter import RateLimiter
 
 _rate_limiter = RateLimiter()
 
 
-class MunicipalHttpClient:
+class MunicipalHttpClient(BaseHttpClient):
     """Encapsulates session management, retries and robots policy checks."""
 
     def __init__(self) -> None:
@@ -44,7 +45,6 @@ class MunicipalHttpClient:
 
     def setup_session(self) -> None:
         """Initialize requests session with project defaults."""
-        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         self._get_session()
 
     def close_session(self) -> None:
@@ -87,19 +87,12 @@ class MunicipalHttpClient:
         except requests.exceptions.SSLError as exc:
             self._record_ssl_error(url, exc, "request")
             self._last_request_error = str(exc)
-            try:
-                session = self._get_session()
-                insecure_response = session.get(url, timeout=timeout, verify=False)
-                insecure_result = self._handle_response(url, insecure_response)
-                if insecure_result is not None:
-                    self._logger.warning("MunicipalWeb: insecure fetch succeeded url=%s (SSL bypassed, verify=False)", url)
-                    return insecure_result
-                self._last_request_error = f"retryable status={insecure_response.status_code}"
-                return None
-            except Exception as insecure_exc:
-                self._logger.warning("MunicipalWeb: insecure ssl retry failed url=%s reason=%s", url, insecure_exc)
-                self._last_request_error = str(insecure_exc)
-                return None
+            self._logger.error(
+                "MunicipalWeb: SSL verification failed url=%s — skipping insecure fallback. "
+                "Fix the server certificate or add it to the trusted CA bundle.",
+                url,
+            )
+            return None
         except Exception as exc:
             self._logger.warning("MunicipalWeb: fetch failed url=%s reason=%s", url, exc)
             self._last_request_error = str(exc)

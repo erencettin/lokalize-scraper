@@ -23,6 +23,9 @@ class BackendApiClient:
             logger.error("Sync Failed: %s", exc)
             if hasattr(exc, "response") and exc.response is not None:
                 logger.error("Response Body: %s", exc.response.text)
-                with open("error_dump.txt", "w", encoding="utf-8") as f:
-                    f.write(exc.response.text)
+                try:
+                    with open("error_dump.txt", "w", encoding="utf-8") as f:
+                        f.write(exc.response.text)
+                except OSError as write_exc:
+                    logger.warning("Could not write error_dump.txt: %s", write_exc)
             return False

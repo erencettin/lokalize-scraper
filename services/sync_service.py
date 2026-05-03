@@ -1,10 +1,17 @@
-from typing import List, Optional
-from models.normalized_event import NormalizedEvent
+import itertools
+import logging
+import time
+from typing import Iterator, List, Optional
+
 from clients.backend_client import BackendClient
 from config import settings
+from models.normalized_event import NormalizedEvent
 from utils.price_parser import PriceParser
 from utils.provider_enrichment import build_provider_payload_from_event
-import logging
+
+_CHUNK_SIZE = 50
+_INTER_CHUNK_SLEEP_SECONDS = 1.5
+
 
 class SyncService:
     def __init__(
@@ -15,25 +22,9 @@ class SyncService:
         self._price_parser = PriceParser()
         self.last_backend_sync_status = "unknown"
 
-    def sync_events_to_backend_bulk(self, events: List[NormalizedEvent], sync_run_id: str) -> bool:
-        """
-        V4: Maps normalized events to .NET API DTOs and performs bulk sync.
-        """
-        backend_enabled = getattr(self._backend, "enabled", True)
-        if not backend_enabled:
-            self.last_backend_sync_status = "skipped"
-            skip_reason = getattr(self._backend, "skip_reason", None)
-            if isinstance(skip_reason, str) and skip_reason.strip():
-                for line in skip_reason.splitlines():
-                    logging.warning(line)
-            else:
-                logging.warning("⚠️ Backend sync atlandı.")
-            return True
-
-        dtos = []
+    def _build_dtos(self, events: List[NormalizedEvent]) -> Iterator[dict]:
         for event in events:
             for occurrence in event.occurrences:
-                # Map occurrences and their sources to flat DTOs for the backend
                 for source in occurrence.sources:
                     min_p, max_p = self._price_parser.parse_prices(source.price.text or "")
                     resolved_min = source.price.min_value if source.price.min_value is not None else min_p
@@ -53,8 +44,7 @@ class SyncService:
                         }
                     )
                     provider_payload = build_provider_payload_from_event(event, occurrence, source)
-                    
-                    dto = {
+                    yield {
                         "provider": provider_payload.get("provider") or source.provider,
                         "providers": provider_payload.get("providers", []),
                         "providerTags": provider_payload.get("provider_tags", []),
@@ -88,34 +78,51 @@ class SyncService:
                         "priceResolution": price_resolution,
                         "price_resolution": price_resolution,
                     }
-                    dtos.append(dto)
-        
-        if not dtos:
+
+    def sync_events_to_backend_bulk(self, events: List[NormalizedEvent], sync_run_id: str) -> bool:
+        """
+        V4: Maps normalized events to .NET API DTOs and performs bulk sync.
+        """
+        backend_enabled = getattr(self._backend, "enabled", True)
+        if not backend_enabled:
+            self.last_backend_sync_status = "skipped"
+            skip_reason = getattr(self._backend, "skip_reason", None)
+            if isinstance(skip_reason, str) and skip_reason.strip():
+                for line in skip_reason.splitlines():
+                    logging.warning(line)
+            else:
+                logging.warning("⚠️ Backend sync atlandı.")
+            return True
+
+        dto_stream = self._build_dtos(events)
+        first_chunk = list(itertools.islice(dto_stream, _CHUNK_SIZE))
+
+        if not first_chunk:
             logging.warning("No events to sync in bulk.")
             self.last_backend_sync_status = "skipped"
             return True
 
         # Debug log for price tracking (first 5)
-        for d in dtos[:5]:
+        for d in first_chunk[:5]:
             logging.info(
                 f"Syncing DTO: Title='{d['title']}' Provider='{d['provider']}' "
                 f"MinPrice='{d['minPrice']}' Currency='{d['currency']}'"
             )
 
-        # Chunk into batches of 50 to avoid Render timeout and DB concurrency overload
-        import time
-        chunk_size = 50
         all_success = True
-        total = len(dtos)
-        for i in range(0, total, chunk_size):
-            chunk = dtos[i:i + chunk_size]
-            logging.info(f"Syncing chunk {i // chunk_size + 1}/{(total + chunk_size - 1) // chunk_size} ({len(chunk)} events)...")
-            success = self._backend.sync_events_bulk(chunk, sync_run_id)
+        chunk_num = 0
+        current_chunk = first_chunk
+
+        while current_chunk:
+            chunk_num += 1
+            logging.info(f"Syncing chunk {chunk_num} ({len(current_chunk)} events)...")
+            success = self._backend.sync_events_bulk(current_chunk, sync_run_id)
             if not success:
-                logging.error(f"Chunk {i // chunk_size + 1} failed.")
+                logging.error(f"Chunk {chunk_num} failed.")
                 all_success = False
-            if i + chunk_size < total:
-                time.sleep(1.5)  # Rate-limit: avoid overwhelming the backend
+            current_chunk = list(itertools.islice(dto_stream, _CHUNK_SIZE))
+            if current_chunk:
+                time.sleep(_INTER_CHUNK_SLEEP_SECONDS)
 
         self.last_backend_sync_status = "success" if all_success else "partial_failure"
         return all_success
@@ -123,4 +130,3 @@ class SyncService:
     def trigger_stale_cleanup(self, sync_run_id: str):
         """V4: Triggers lifecycle cleanup in the backend."""
         return self._backend.deactivate_stale(sync_run_id)
-

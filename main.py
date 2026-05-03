@@ -1,5 +1,6 @@
 import logging
 import argparse
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from providers.ticketmaster import TicketmasterProvider
 from providers.municipal_rss import MunicipalRssProvider
@@ -14,36 +15,39 @@ from config import settings
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def run_provider(provider, sync_service, sync_run_id, total_stats):
+_MAX_PARALLEL_WORKERS = 5
+
+def run_provider(provider, sync_service, sync_run_id, total_stats, total_stats_lock):
     """Executes the fetch and bulk-sync logic for a single provider."""
-    logging.info(f"Running provider: {provider.name}")
-    
+    logging.info("Running provider: %s", provider.name)
+
     provider_stats = {"found": 0, "synced": 0, "failed": 0}
-    
+
     try:
         events = provider.fetch_and_parse()
         provider_stats["found"] = len(events)
-        logging.info(f"Fetched {len(events)} events from {provider.name}")
-        
+        logging.info("Fetched %d events from %s", len(events), provider.name)
+
         if events:
             success = sync_service.sync_events_to_backend_bulk(events, sync_run_id)
             if success:
                 provider_stats["synced"] = len(events)
             else:
                 provider_stats["failed"] = len(events)
-        
+
     except Exception as e:
         logging.error(
             "Provider %s failed with %s. Sensitive details are redacted.",
             provider.name,
             type(e).__name__,
         )
-        provider_stats["failed"] = 1 # Mark as failed
-    
-    # Add to absolute totals
-    for k in provider_stats:
-        if k in total_stats:
-            total_stats[k] += provider_stats[k]
+        provider_stats["failed"] = provider_stats.get("found", 0) or 1
+
+    # Thread-safe merge into shared totals
+    with total_stats_lock:
+        for k in provider_stats:
+            if k in total_stats:
+                total_stats[k] += provider_stats[k]
 
 def main():
     parser = argparse.ArgumentParser(description="Lokalize Scraper V4 Orchestrator")
@@ -77,15 +81,16 @@ def main():
     
     # 3. Execute
     total_stats = {"found": 0, "synced": 0, "failed": 0}
-    
+    total_stats_lock = threading.Lock()
+
     if args.parallel:
         logging.info("Running in parallel mode...")
-        with ThreadPoolExecutor(max_workers=5) as executor: # Limiting parallel workers to avoid overloading local backend
+        with ThreadPoolExecutor(max_workers=_MAX_PARALLEL_WORKERS) as executor:
             for provider in providers_to_run:
-                executor.submit(run_provider, provider, sync_service, sync_run_id, total_stats)
+                executor.submit(run_provider, provider, sync_service, sync_run_id, total_stats, total_stats_lock)
     else:
         for provider in providers_to_run:
-            run_provider(provider, sync_service, sync_run_id, total_stats)
+            run_provider(provider, sync_service, sync_run_id, total_stats, total_stats_lock)
 
     # 4. Final Cleanup (Deactivate stale records NOT seen in this sync run)
     if providers_to_run:

@@ -9,9 +9,10 @@ from typing import Any, Dict, List, Optional, Set
 import requests
 
 from config import settings
+from providers.base_http_client import BaseHttpClient
 from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
 
-class TicketmasterHttpClient:
+class TicketmasterHttpClient(BaseHttpClient):
     """Encapsulates session lifecycle, pagination and request retry logic."""
 
     def __init__(self) -> None:
@@ -123,7 +124,7 @@ class TicketmasterHttpClient:
                     return response
                 if response.status_code in RETRYABLE_STATUS_CODES:
                     self._logger.warning("Ticketmaster: rate limited url=%s attempt=%s/%s", url, attempt, max_retries)
-                    time.sleep(float(attempt))
+                    time.sleep(min(2 ** attempt, 60))
                     continue
                 return response
             except requests.exceptions.Timeout:
@@ -132,7 +133,7 @@ class TicketmasterHttpClient:
                 last_error = self._safe_error(exc)
             self._logger.warning("Ticketmaster: request failed url=%s attempt=%s/%s error=%s", url, attempt, max_retries, last_error)
             if attempt < max_retries:
-                time.sleep(float(attempt))
+                time.sleep(min(2 ** attempt, 60))
         self._logger.error("Ticketmaster: retries exhausted url=%s error=%s", url, last_error)
         return None
 

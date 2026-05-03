@@ -1,4 +1,4 @@
-﻿"""HTTP client for municipal RSS provider."""
+"""HTTP client for municipal RSS provider."""
 
 from __future__ import annotations
 
@@ -9,10 +9,11 @@ from typing import Any, Optional
 import requests
 
 from config import settings
+from providers.base_http_client import BaseHttpClient
 from providers.municipal_rss.constants import DEFAULT_ACCEPT_HEADER, DEFAULT_USER_AGENT, RETRYABLE_STATUS_CODES
 
 
-class RssHttpClient:
+class RssHttpClient(BaseHttpClient):
     """Wrap session lifecycle and retrying HTTP fetch operations."""
 
     def __init__(self) -> None:
