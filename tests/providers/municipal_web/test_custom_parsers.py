@@ -5,7 +5,6 @@ from providers.municipal_web.parsing.custom import (
     ArnavutkoyParser,
     AvcilarParser,
     BagcilarParser,
-    BahcelievlerParser,
     BakirkoyParser,
     KartalParser,
     MaltepeParser,
@@ -54,14 +53,6 @@ def test_bagcilar_parser_list_and_detail():
     detail = parser.parse_detail(detail_html, item, site)
     assert detail.date == "11 Nisan 2026"
 
-
-def test_bahcelievler_parser_single_page():
-    parser = BahcelievlerParser()
-    site = _site("Bahçelievler", "https://zirve.bahcelievler.bel.tr", parser, detail=False)
-    html = "<h1>Bahar Konseri</h1><div>10 Nisan 2026 19:00</div><div>Yer: Kongre Merkezi</div>"
-    items = parser.parse_list(html, site)
-    assert len(items) == 1
-    assert items[0].venue == "Kongre Merkezi"
 
 
 def test_bakirkoy_parser_line_based_extraction():

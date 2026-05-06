@@ -6,7 +6,7 @@ from typing import Iterable, List
 
 from providers.municipal_web.models import MunicipalSite
 from providers.municipal_web.parsing import HtmlCardStrategy, LabelDetailStrategy, NoopStrategy, PassthroughStrategy, WpJsonStrategy
-from providers.municipal_web.parsing.custom import BagcilarParser, BahcelievlerParser, BakirkoyParser, KartalParser, SilivriParser
+from providers.municipal_web.parsing.custom import BagcilarParser, BakirkoyParser, KartalParser, SilivriParser
 
 
 GENERIC_CARD_PATTERNS = [
@@ -37,7 +37,6 @@ class SiteRegistry:
     def _custom_sites(self) -> List[MunicipalSite]:
         return [
             MunicipalSite("Bağcılar Belediyesi", "https://www.bagcilar.bel.tr", ["https://www.bagcilar.bel.tr/etkinlikler"], BagcilarParser(), True),
-            MunicipalSite("Bahçelievler Belediyesi", "https://zirve.bahcelievler.bel.tr", ["https://zirve.bahcelievler.bel.tr/en/"], BahcelievlerParser(), False),
             MunicipalSite("Bakırköy Belediyesi", "https://www.bakirkoy.bel.tr", ["https://www.bakirkoy.bel.tr/tr/etkinliklerimiz", "https://bakirkoy.bel.tr/tr/"], BakirkoyParser(), False),
             MunicipalSite("Kartal Belediyesi", "https://www.kartal.bel.tr", ["https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi", "https://e-belediye.kartal.bel.tr/Etkinlik/Takvim"], KartalParser(), False),
             MunicipalSite("Silivri Belediyesi", "https://kultursanat.silivri.bel.tr", ["https://kultursanat.silivri.bel.tr/", "https://kultursanat.silivri.bel.tr/?tip=4"], SilivriParser(), True),
