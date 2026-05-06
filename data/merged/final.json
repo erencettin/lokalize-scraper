@@ -216,6 +216,78 @@
     "fetched_at": null
   },
   {
+    "title": "Lüküs Hayat Kabare",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-06T17:30:00Z",
+        "local_date": "2026-05-06",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaGiR",
+            "title": "Lüküs Hayat Kabare",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ52/015/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ52/015/TURKIYE/tr",
+            "sales_start_at": "2026-03-19T09:00:00Z"
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://www.biletix.com/performance/5PJ52/015/TURKIYE/tr"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Yaşar Ne Yaşar Ne Yaşamaz",
     "description": null,
     "type": "theatre",
@@ -2266,9 +2338,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-08T17:00:00Z",
@@ -4604,7 +4676,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/862/52bd969c-3f62-47ad-8b47-b182c354e862_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-05-09T11:00:00Z",
@@ -7338,9 +7410,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "theatre",
+    "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-10T15:00:00Z",
@@ -8850,9 +8922,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "standup",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-12T17:30:00Z",
@@ -10536,26 +10608,26 @@
     "fetched_at": null
   },
   {
-    "title": "Bir Baba Hamlet",
-    "description": null,
-    "type": "theatre",
+    "title": "May Fest",
+    "description": "May Fest",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-14T17:30:00Z",
-        "local_date": "2026-05-14",
-        "local_time": "20:30",
+        "start_at_utc": "2026-05-08T21:00:00Z",
+        "local_date": "2026-05-09",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Süleyman Seba Kültür ve Sanat Merkezi",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZk_jaC1o",
-            "title": "Bir Baba Hamlet",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-d7af049b39fcc898",
+            "title": "May Fest",
             "description": null,
-            "source_url": "https://www.biletix.com/performance/5OR58/001/TURKIYE/tr",
+            "source_url": "https://kultur.istanbul/etkinlik/may-fest/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -10565,34 +10637,106 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": false,
-                "note": null
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5OR58/001/TURKIYE/tr",
-            "sales_start_at": "2026-04-09T11:58:00Z"
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "İBB",
     "providers": [
-      "Ticketmaster"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "İBB"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.biletix.com/performance/5OR58/001/TURKIYE/tr"
+      "https://kultur.istanbul/etkinlik/may-fest/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Bahara Merhaba Festivali",
+    "description": "Bahara Merhaba Festivali",
+    "type": "festival",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-09T10:00:00Z",
+        "local_date": "2026-05-09",
+        "local_time": "13:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c72e12f56aa556c6",
+            "title": "Bahara Merhaba Festivali",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/bahara-merhaba-festivali/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "İBB",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/bahara-merhaba-festivali/"
     ],
     "external_id": null,
     "category": null,
@@ -11256,26 +11400,26 @@
     "fetched_at": null
   },
   {
-    "title": "Harbiye Açık Hava etkinlikleri",
-    "description": "Harbiye Açık Hava etkinlikleri",
+    "title": "star Form Etkinliği Mutfak Atölyesi Workshop event 07.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Mutfak Atölyesi Workshop event 07.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": null,
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-05-06T05:05:00Z",
-        "local_date": "2026-05-06",
-        "local_time": "08:05",
+        "start_at_utc": "2026-05-06T21:00:00Z",
+        "local_date": "2026-05-07",
+        "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "venue_name": "Çatalca Belediyesi",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-559199cbc219e3a8",
-            "title": "Harbiye Açık Hava etkinlikleri",
+            "provider": "MunicipalWeb",
+            "external_id": "web-9409f071c6f4b98c",
+            "title": "star Form Etkinliği Mutfak Atölyesi Workshop event 07.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -11285,34 +11429,106 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": null,
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop",
             "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "İBB",
+    "provider": "Çatalca Belediyesi",
     "providers": [
-      "MunicipalRSS"
+      "MunicipalWeb"
     ],
     "provider_tags": [
-      "İBB"
+      "Çatalca Belediyesi"
     ],
-    "provider_label": "İBB",
+    "provider_label": "Çatalca Belediyesi",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/"
+      "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "star Yetişkin Tiyatro Kara Ceketli Adam event 08.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward ETKİNLİK DETAYI",
+    "description": "star Yetişkin Tiyatro Kara Ceketli Adam event 08.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward ETKİNLİK DETAYI",
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-07T21:00:00Z",
+        "local_date": "2026-05-08",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Çatalca Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-a0942a34e0aaae98",
+            "title": "star Yetişkin Tiyatro Kara Ceketli Adam event 08.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward ETKİNLİK DETAYI",
+            "description": null,
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik/106",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik/106",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Çatalca Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Çatalca Belediyesi"
+    ],
+    "provider_label": "Çatalca Belediyesi",
+    "source_urls": [
+      "https://etkinlik.catalca.bel.tr/etkinlik/106"
     ],
     "external_id": null,
     "category": null,
@@ -11407,8 +11623,8 @@
     "image_url": "https://mc.yandex.ru/watch/47176179",
     "occurrences": [
       {
-        "start_at_utc": "2026-05-06T21:00:00Z",
-        "local_date": "2026-05-07",
+        "start_at_utc": "2026-05-07T21:00:00Z",
+        "local_date": "2026-05-08",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Eyüpsultan Belediyesi",
