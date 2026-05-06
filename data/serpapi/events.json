@@ -1,335 +1,5 @@
 [
   {
-    "title": "Aydilge",
-    "description": "Ticket listings for Foodiefest 4 at Life Park in İstanbul on 05/02/2026",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-02T17:00:00Z",
-        "local_date": "2026-05-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Life Park",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-e9eac5da39f6df872144",
-            "title": "Aydilge",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Theater-Tickets/Shows/Foodie-Fest-Tickets/E-160438583",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-e9eac5da39f6df872144",
-    "category": "concert",
-    "address": "Life Park, Bahçeköy Yeni, Bahçeköy Cd. No:114, Sarıyer/İstanbul, Türkiye",
-    "venue": "Life Park",
-    "link": "https://www.viagogo.com/Theater-Tickets/Shows/Foodie-Fest-Tickets/E-160438583",
-    "source_url": "https://www.viagogo.com/Theater-Tickets/Shows/Foodie-Fest-Tickets/E-160438583",
-    "ticket_info": "Viagogo (more info) | StubHub (more info) | My Guide Istanbul (more info) | GigsGuide (more info) | perto.com (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdgv1aDYYfz9z7P0GWxMmygv1AwS-EICJtDNBN-zmdAdfGfCaxGy8uQkI&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
-    "title": "%100 Müzik Sunar: Naaz",
-    "description": "Ticket listings for %100 Müzik Sunar: Naaz at Blind in İstanbul on 05/03/2026",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-03T17:00:00Z",
-        "local_date": "2026-05-03",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-0b87316d0545d1964fb7",
-            "title": "%100 Müzik Sunar: Naaz",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Naaz-Tickets/E-160283306",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/5hRDqeOm58nBbqVo3rfImw",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-0b87316d0545d1964fb7",
-    "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Naaz-Tickets/E-160283306",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Naaz-Tickets/E-160283306",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fuVmpLeiFEzycG4zDrIQS3k6CC47c4yvfaa-wNfd7TlOvCm7ZtCP6mc&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
-    "title": "Buray",
-    "description": "Find tickets for Buray at JJ Arena Ataşehir in İstanbul on 5/2/2026 at 9:00 PM",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-02T17:00:00Z",
-        "local_date": "2026-05-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "JJ Arena",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-1c1bb97bb02ff49020ed",
-            "title": "Buray",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/52WnRp5sS2YMC5aYdUG4x6",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/52WnRp5sS2YMC5aYdUG4x6",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-1c1bb97bb02ff49020ed",
-    "category": "concert",
-    "address": "JJ Arena, Watergarden AVM, Barbaros, Begonya Sk. No: 10, Ataşehir/İstanbul, Türkiye",
-    "venue": "JJ Arena",
-    "link": "https://open.spotify.com/concert/52WnRp5sS2YMC5aYdUG4x6",
-    "source_url": "https://open.spotify.com/concert/52WnRp5sS2YMC5aYdUG4x6",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info) | Concert Flow (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93KbM805og22dd4cl8GEfYV-AoWvF-eVA8u7aVj55YrEQmDy2O20NeHE&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
-    "title": "Mahmut Çınar",
-    "description": "Experience the mesmerizing music of Mahmut Çınar at the renowned Kadıköy Sahne in Istanbul. Be prepared to be transported to a world of soul-stirring melodies and captivating rhythms as Mahmut...",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-02T17:00:00Z",
-        "local_date": "2026-05-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Kadıköy Sahne",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-7c21de9003fdb4a906ef",
-            "title": "Mahmut Çınar",
-            "description": null,
-            "source_url": "https://www.myguide-istanbul.com/events/mahmut-cinar",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-7c21de9003fdb4a906ef",
-    "category": "concert",
-    "address": "Kadıköy Sahne, Osmanağa, Kırtasiyeci Sk. No:23, Kadıköy/İstanbul, Türkiye",
-    "venue": "Kadıköy Sahne",
-    "link": "https://www.myguide-istanbul.com/events/mahmut-cinar",
-    "source_url": "https://www.myguide-istanbul.com/events/mahmut-cinar",
-    "ticket_info": "StubHub (more info) | Istanbul (more info) | GigsGuide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfbDhFBL7hX-iacp3Kg4oK26d35-0Vdpf_a6qNuo5Afr5rHiQBkOIcjc&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
-    "title": "Anıl Durmuş",
-    "description": "Get ready to kick off the season with an unforgettable musical experience at the İstanbul Büyükşehir Belediyesi Harbiye Cemil Topuzlu Açıkhava Tiyatrosu! Anıl Durmuş, a talented Turkish musician...",
-    "type": "theatre",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-02T17:00:00Z",
-        "local_date": "2026-05-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-51becd5485fe53eb1f98",
-            "title": "Anıl Durmuş",
-            "description": null,
-            "source_url": "https://www.myguide-istanbul.com/events/anil-durmus-harbiye-sezon-acilis-konseri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Myguide-istanbul.com|https://www.myguide-istanbul.com/events/anil-durmus-harbiye-sezon-acilis-konseri?date=2026-05-02",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-51becd5485fe53eb1f98",
-    "category": "concert",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.myguide-istanbul.com/events/anil-durmus-harbiye-sezon-acilis-konseri",
-    "source_url": "https://www.myguide-istanbul.com/events/anil-durmus-harbiye-sezon-acilis-konseri",
-    "ticket_info": "Myguide-istanbul.com (tickets) | StubHub (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv04Khj_VKml93NIxNpzVU6tBntQt-2BjNCtwDT52HY_wdxb5QPzaiUz4&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
     "title": "%100 Müzik Sunar: The Sophs",
     "description": "Ticket listings for The Sophs at Blind in İstanbul on 05/06/2026",
     "type": "concert",
@@ -393,7 +63,73 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1taaXBrdm6FQ5Fjr3HCM2AIdWU35lTqRde_Iz5hNzxHlEG5Qxom3oo3E&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
+  },
+  {
+    "title": "%100 Müzik Sunar : Gevende",
+    "description": "Ticket listings for %100 Müzik Sunar : Gevende at Blind in İstanbul on 05/08/2026",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-08T17:00:00Z",
+        "local_date": "2026-05-08",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-115e2063f5149164d823",
+            "title": "%100 Müzik Sunar : Gevende",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/2ZWF8dpPj6VvJKZtQNxOH9",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": "serpapi-event-115e2063f5149164d823",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Gevende-Tickets/E-160501240",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTpvWgG8hhpAWuzm_EVREnOg9Tux824CMxmV2E1pSunI_hS-ldxk8dAKA&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
     "title": "Mor ve Ötesi",
@@ -459,29 +195,29 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsPfeICQd94JM3MZq1rJ-9FQwBnSujitdu8DA2mH3KzSWuLoTG9bpMtQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
-    "title": "Yıldız Tilbe",
-    "description": "Find tickets for Yıldız Tilbe at Jolly Joker Vadistanbul in İstanbul on 5/2/2026 at 9:00 PM",
+    "title": "Candan Erçetin",
+    "description": "Ticket listings for Candan Erçetin Anneler Günü Konseri at Bostancı Showland in İstanbul on 05/10/2026",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-02T17:00:00Z",
-        "local_date": "2026-05-02",
+        "start_at_utc": "2026-05-10T17:00:00Z",
+        "local_date": "2026-05-10",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Jolly Joker Vadistanbul",
+        "venue_name": "Bostanci Show Center",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-bad015a3869e89d0768e",
-            "title": "Yıldız Tilbe",
+            "external_id": "serpapi-event-6e076441ba246cdac7f1",
+            "title": "Candan Erçetin",
             "description": null,
-            "source_url": "https://open.spotify.com/concert/0ufv59Jtwts9wQ8YxLvWy5",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -502,7 +238,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/0ufv59Jtwts9wQ8YxLvWy5",
+            "ticket_url": null,
             "sales_start_at": null
           }
         ]
@@ -514,84 +250,18 @@
     "provider_tags": [],
     "provider_label": null,
     "source_urls": [],
-    "external_id": "serpapi-event-bad015a3869e89d0768e",
+    "external_id": "serpapi-event-6e076441ba246cdac7f1",
     "category": "concert",
-    "address": "Jolly Joker Vadistanbul, Ayazağa, Ayazağa Cendere Cd. 109/C, Sarıyer/İstanbul, Türkiye",
-    "venue": "Jolly Joker Vadistanbul",
-    "link": "https://open.spotify.com/concert/0ufv59Jtwts9wQ8YxLvWy5",
-    "source_url": "https://open.spotify.com/concert/0ufv59Jtwts9wQ8YxLvWy5",
-    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "address": "Bostanci Show Center, Bostancı, Bostanlararası Sokağı No:8, Kadıköy/İstanbul, Türkiye",
+    "venue": "Bostanci Show Center",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
+    "ticket_info": "Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBbwxt6HiLq_bFdsQuMeOkgEIn1DGJJMPhX-hJEJxPWdqF9xHh4G-rLU&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31eM_avdrJzaymW8Iof_v5yUvirKQAnMXmKLzxxuQRa_68EsSjs51VQo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
-  },
-  {
-    "title": "Garanti BBVA Genç Konserleri: Panda Bear",
-    "description": "Get ready for an unforgettable night of music at the Garanti BBVA Genç Konserleri featuring Panda Bear! This special event will be held at the stunning Blind İstanbul venue in İstanbul, promising...",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-02T17:00:00Z",
-        "local_date": "2026-06-02",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-b07586a6cffcc1c61f4b",
-            "title": "Garanti BBVA Genç Konserleri: Panda Bear",
-            "description": null,
-            "source_url": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/6J8iqOUSLUQ3ahZLvNCCQl",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": "serpapi-event-b07586a6cffcc1c61f4b",
-    "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
-    "source_url": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | GigsGuide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIkS2BTAxRInNh_5Vo_tLl3wbDXFnNXU5MKaJK8xL7pdYzM3u5More1KY&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
     "title": "%100 Müzik Sunar: Tempers",
@@ -657,29 +327,29 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFRmuUoYJOpdUXxLb5GvtplLmCvIDFpZEAZaBuU7JKLAeFY1T-VjGECjU&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
-    "title": "Manifest",
-    "description": "Find tickets for manifest at Ülker Sports Arena in Istanbul on 5/15/2026 at 9:00 PM",
+    "title": "Garanti BBVA Genç Konserleri: Panda Bear",
+    "description": "Get ready for an unforgettable night of music at the Garanti BBVA Genç Konserleri featuring Panda Bear! This special event will be held at the stunning Blind İstanbul venue in İstanbul, promising...",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-15T17:00:00Z",
-        "local_date": "2026-05-15",
+        "start_at_utc": "2026-06-02T17:00:00Z",
+        "local_date": "2026-06-02",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Ülker Sports Arena",
+        "venue_name": "Blind",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-6f820916872f8a4599a8",
-            "title": "Manifest",
+            "external_id": "serpapi-event-b07586a6cffcc1c61f4b",
+            "title": "Garanti BBVA Genç Konserleri: Panda Bear",
             "description": null,
-            "source_url": "https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
+            "source_url": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -700,7 +370,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/6J8iqOUSLUQ3ahZLvNCCQl",
             "sales_start_at": null
           }
         ]
@@ -712,40 +382,40 @@
     "provider_tags": [],
     "provider_label": null,
     "source_urls": [],
-    "external_id": "serpapi-event-6f820916872f8a4599a8",
-    "category": "sports",
-    "address": "Ülker Sports Arena, Barbaros, Ihlamur Blv., Ataşehir/İstanbul, Türkiye",
-    "venue": "Ülker Sports Arena",
-    "link": "https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
-    "source_url": "https://open.spotify.com/concert/1fya3yzUksItG3gqar3qSL",
-    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info)",
+    "external_id": "serpapi-event-b07586a6cffcc1c61f4b",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
+    "source_url": "https://www.myguide-istanbul.com/events/garanti-bbva-genc-konserleri-panda-bear",
+    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | GigsGuide (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UYkBDnhsVM7RbQWEQRiBmFRPvUdN3sZgxHwwDxa6R25Ke6WYUHfEcRU&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIkS2BTAxRInNh_5Vo_tLl3wbDXFnNXU5MKaJK8xL7pdYzM3u5More1KY&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
-    "title": "Entradas Turkey vs Latvia Volleyball",
-    "description": "CEV EuroVolley 2026 Group Stage Season Ticket Sale The CEV EuroVolley 2026 Women Championship returns to Turkey after 7 years — this time in Istanbul! Volleyball’s biggest stars will face each...",
-    "type": "match",
+    "title": "Turan Şengül",
+    "description": null,
+    "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-08-21T17:00:00Z",
-        "local_date": "2026-08-21",
+        "start_at_utc": "2026-05-13T17:00:00Z",
+        "local_date": "2026-05-13",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Sinan Erdem Dome",
+        "venue_name": "BARIŞ MANÇO KÜLTÜR MERKEZİ",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-f0201c9aed80a4a7ac87",
-            "title": "Entradas Turkey vs Latvia Volleyball",
+            "external_id": "serpapi-event-f7d1c60ee94a19316dce",
+            "title": "Turan Şengül",
             "description": null,
-            "source_url": "https://biletinial.com/en-tr/spor/cev-eurovolley-2026-grup-asamasi-kombine-satisi",
+            "source_url": "https://www.stubhub.com/turan-sengul-tickets/performer/150592857",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -766,7 +436,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Koobit.com|https://www.koobit.com/visit?sem=597347&su=/womens-european-volleyball-championship-s20339/turkey-vs-latvia-e111002",
+            "ticket_url": null,
             "sales_start_at": null
           }
         ]
@@ -778,40 +448,40 @@
     "provider_tags": [],
     "provider_label": null,
     "source_urls": [],
-    "external_id": "serpapi-event-f0201c9aed80a4a7ac87",
-    "category": "sports",
-    "address": "Sinan Erdem Dome, Zuhuratbaba, Ataköy Blv. No:14, Bakırköy/İstanbul, Türkiye",
-    "venue": "Sinan Erdem Dome",
-    "link": "https://biletinial.com/en-tr/spor/cev-eurovolley-2026-grup-asamasi-kombine-satisi",
-    "source_url": "https://biletinial.com/en-tr/spor/cev-eurovolley-2026-grup-asamasi-kombine-satisi",
-    "ticket_info": "Koobit.com (tickets) | Biletinial (more info)",
+    "external_id": "serpapi-event-f7d1c60ee94a19316dce",
+    "category": "concert",
+    "address": "BARIŞ MANÇO KÜLTÜR MERKEZİ, Merkez, Reşit Paşa Cd. No:63, Avcılar/İstanbul, Türkiye",
+    "venue": "BARIŞ MANÇO KÜLTÜR MERKEZİ",
+    "link": "https://www.stubhub.com/turan-sengul-tickets/performer/150592857",
+    "source_url": "https://www.stubhub.com/turan-sengul-tickets/performer/150592857",
+    "ticket_info": "StubHub (more info) | GigsGuide (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc22rA7uOXxY91roex_KldylGC2p-vdW65sQKKf_8TpraIBfbHGITOLeA&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPC3hzPu3n4ztfDJOxMZjqKzTqmuCJUi6C0N0FIxlYzTKmJC4KUnrxRrY&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
-    "title": "Kasimpasa Spor Kulubu vs Galatasaray",
-    "description": "View the Kasimpasa S.K. vs. Galatasaray game played on May 17, 2026. Box score, stats, play-by-play timeline, highlights, odds & more",
-    "type": "match",
+    "title": "%100 Müzik Sunar: Blind Fest - Tom Odell",
+    "description": "Ticket listings for Tom Odell at Life Park in İstanbul on 06/23/2026",
+    "type": "festival",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-17T17:00:00Z",
-        "local_date": "2026-05-17",
+        "start_at_utc": "2026-06-23T17:00:00Z",
+        "local_date": "2026-06-23",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Recep Tayyip Erdoğan Stadyumu",
+        "venue_name": "Life Park",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-053bbfa996f816d66de6",
-            "title": "Kasimpasa Spor Kulubu vs Galatasaray",
+            "external_id": "serpapi-event-974193d14ce52788853d",
+            "title": "%100 Müzik Sunar: Blind Fest - Tom Odell",
             "description": null,
-            "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Tom-Odell-Tickets/E-160439320",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -832,7 +502,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Seatpin.com|https://www.seatpin.com/kasimpasa-vs-galatasaray-tickets",
+            "ticket_url": "Bandsintown.com|https://www.bandsintown.com/f/208444-blind-fest-at-life-park-2026?came_from=209",
             "sales_start_at": null
           }
         ]
@@ -844,18 +514,150 @@
     "provider_tags": [],
     "provider_label": null,
     "source_urls": [],
-    "external_id": "serpapi-event-053bbfa996f816d66de6",
-    "category": "sports",
-    "address": "Recep Tayyip Erdoğan Stadyumu, Çatma Mescit, Refik Saydam Cd., Beyoğlu/İstanbul, Türkiye",
-    "venue": "Recep Tayyip Erdoğan Stadyumu",
-    "link": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
-    "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
-    "ticket_info": "Seatpin.com (tickets) | FOX Sports (more info) | Pulse Sports Uganda (more info)",
+    "external_id": "serpapi-event-974193d14ce52788853d",
+    "category": "concert",
+    "address": "Life Park, Bahçeköy Yeni, Bahçeköy Cd. No:114, Sarıyer/İstanbul, Türkiye",
+    "venue": "Life Park",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Tom-Odell-Tickets/E-160439320",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Tom-Odell-Tickets/E-160439320",
+    "ticket_info": "Bandsintown.com (tickets) | Koobit.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8HK5E2wWUMOqzVM8PA1kL4gyIGrEAAHOhBeaj_hu-nXYx2usvdDNvW4&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi1AZtaR5oQxzsNSzL8-A4U22LnOCZeiibxo0AyZZJkqqVr0ENZiIqUM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
+  },
+  {
+    "title": "%100 Müzik Sunar: Dogma",
+    "description": "Find tickets for Dogma at Blind İstanbul in İstanbul on 6/29/2026 at 8:30 PM",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-29T17:00:00Z",
+        "local_date": "2026-06-29",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Blind",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-c81ce9cbaaaba6a5ef07",
+            "title": "%100 Müzik Sunar: Dogma",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/1SDef7DQASDGwhoI62rlMb",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/1SDef7DQASDGwhoI62rlMb",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": "serpapi-event-c81ce9cbaaaba6a5ef07",
+    "category": "concert",
+    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
+    "venue": "Blind",
+    "link": "https://open.spotify.com/concert/1SDef7DQASDGwhoI62rlMb",
+    "source_url": "https://open.spotify.com/concert/1SDef7DQASDGwhoI62rlMb",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | Concerts Metal (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvaoGoQAm-6QUIvunDVUVAnRcShLbzGgv3P5CnV_MIn523NE3S6z7UUE&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
+  },
+  {
+    "title": "%100 Müzik Sunar: Blind Fest: Pet Shop Boys",
+    "description": "Ticket listings for Pet Shop Boys at Life Park in İstanbul on 06/24/2026",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-24T17:00:00Z",
+        "local_date": "2026-06-24",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Life Park",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-64a8ab26c53e855305b4",
+            "title": "%100 Müzik Sunar: Blind Fest: Pet Shop Boys",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Pop-Rock/Dance-Pop/Pet-Shop-Boys-Tickets/E-160439276",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Koobit.com|https://www.koobit.com/visit?sem=679592&su=/100-muzik-sunar-blind-fest-pet-shop-boys-e144174",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": "serpapi-event-64a8ab26c53e855305b4",
+    "category": "concert",
+    "address": "Life Park, Bahçeköy Yeni, Bahçeköy Cd. No:114, Sarıyer/İstanbul, Türkiye",
+    "venue": "Life Park",
+    "link": "https://www.viagogo.com/Concert-Tickets/Pop-Rock/Dance-Pop/Pet-Shop-Boys-Tickets/E-160439276",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Pop-Rock/Dance-Pop/Pet-Shop-Boys-Tickets/E-160439276",
+    "ticket_info": "Koobit.com (tickets) | Viagogo (more info) | StubHub (more info) | New York Concerts (more info) | ticketle (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtpa_bKAyjdozwpzygm8S60W_uLsS0vYxWV00GvCGkod1HSYAV76sqSA&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   },
   {
     "title": "Galatasaray vs Antalyaspor",
@@ -921,6 +723,72 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4147CFFkXiY6KpxJepgE2zYYyY6h-ZVCP1ECpxWS7332hC_KedJ1uig&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-01T06:11:33.350889Z"
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
+  },
+  {
+    "title": "Kasimpasa Spor Kulubu vs Galatasaray",
+    "description": "View the Kasimpasa S.K. vs. Galatasaray game played on May 17, 2026. Box score, stats, play-by-play timeline, highlights, odds & more",
+    "type": "match",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-17T17:00:00Z",
+        "local_date": "2026-05-17",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Recep Tayyip Erdoğan Stadyumu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-053bbfa996f816d66de6",
+            "title": "Kasimpasa Spor Kulubu vs Galatasaray",
+            "description": null,
+            "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Seatpin.com|https://www.seatpin.com/kasimpasa-vs-galatasaray-tickets",
+            "sales_start_at": null
+          }
+        ]
+      }
+    ],
+    "source": "serpapi_google_events",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": "serpapi-event-053bbfa996f816d66de6",
+    "category": "sports",
+    "address": "Recep Tayyip Erdoğan Stadyumu, Çatma Mescit, Refik Saydam Cd., Beyoğlu/İstanbul, Türkiye",
+    "venue": "Recep Tayyip Erdoğan Stadyumu",
+    "link": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
+    "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
+    "ticket_info": "Seatpin.com (tickets) | FOX Sports (more info) | Pulse Sports Uganda (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8HK5E2wWUMOqzVM8PA1kL4gyIGrEAAHOhBeaj_hu-nXYx2usvdDNvW4&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-05-06T05:52:47.444571Z"
   }
 ]
