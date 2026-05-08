@@ -11874,21 +11874,53 @@
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/577/ahmet-aslan",
             "sales_start_at": null
+          },
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-64d546145b3c99a899b8",
+            "title": "Ahmet Aslan",
+            "description": null,
+            "source_url": "https://gigs.guide/event/4Wpv1fjn9ho/ahmet-aslan--solo-konser-istanbul-16-may-2026",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null
           }
         ]
       }
     ],
     "source": "unknown",
-    "provider": "Beylikdüzü Belediyesi",
+    "provider": "Beylikdüzü Belediyesi, Google",
     "providers": [
-      "MunicipalWeb"
+      "MunicipalWeb",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Beylikdüzü Belediyesi"
+      "Beylikdüzü Belediyesi",
+      "Google"
     ],
-    "provider_label": "Beylikdüzü Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi, Google",
     "source_urls": [
-      "https://www.beylikduzu.istanbul/etkinlik/577/ahmet-aslan"
+      "https://www.beylikduzu.istanbul/etkinlik/577/ahmet-aslan",
+      "https://gigs.guide/event/4Wpv1fjn9ho/ahmet-aslan--solo-konser-istanbul-16-may-2026"
     ],
     "external_id": null,
     "category": null,
@@ -13272,26 +13304,26 @@
     "fetched_at": null
   },
   {
-    "title": "%100 Müzik Sunar: The Sophs",
-    "description": "Ticket listings for The Sophs at Blind in İstanbul on 05/06/2026",
+    "title": "Candan Erçetin",
+    "description": "Ticket listings for Candan Erçetin Anneler Günü Konseri at Bostancı Showland in İstanbul on 05/10/2026",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-05-06T17:00:00Z",
-        "local_date": "2026-05-06",
+        "start_at_utc": "2026-05-10T17:00:00Z",
+        "local_date": "2026-05-10",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Blind",
+        "venue_name": "Bostanci Show Center",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-77c035d59c77437cb286",
-            "title": "%100 Müzik Sunar: The Sophs",
+            "external_id": "serpapi-event-6e076441ba246cdac7f1",
+            "title": "Candan Erçetin",
             "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Alternative-Music/The-Sophs-Tickets/E-159843117",
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -13312,7 +13344,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/1hw98V0hK0CrfIKjiMa663",
+            "ticket_url": null,
             "sales_start_at": null
           }
         ]
@@ -13328,20 +13360,20 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Alternative-Music/The-Sophs-Tickets/E-159843117"
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734"
     ],
-    "external_id": "serpapi-event-77c035d59c77437cb286",
+    "external_id": "serpapi-event-6e076441ba246cdac7f1",
     "category": "concert",
-    "address": "Blind, Asmalı Mescit, Şehbender Sk. no:3, Beyoğlu/İstanbul, Türkiye",
-    "venue": "Blind",
-    "link": "https://www.viagogo.com/Concert-Tickets/Alternative-Music/The-Sophs-Tickets/E-159843117",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Alternative-Music/The-Sophs-Tickets/E-159843117",
-    "ticket_info": "Spotify.com (tickets) | Myguide-istanbul.com (tickets) | Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
+    "address": "Bostanci Show Center, Bostancı, Bostanlararası Sokağı No:8, Kadıköy/İstanbul, Türkiye",
+    "venue": "Bostanci Show Center",
+    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
+    "ticket_info": "Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1taaXBrdm6FQ5Fjr3HCM2AIdWU35lTqRde_Iz5hNzxHlEG5Qxom3oo3E&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31eM_avdrJzaymW8Iof_v5yUvirKQAnMXmKLzxxuQRa_68EsSjs51VQo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "Mor ve Ötesi",
@@ -13413,79 +13445,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsPfeICQd94JM3MZq1rJ-9FQwBnSujitdu8DA2mH3KzSWuLoTG9bpMtQ&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
-  },
-  {
-    "title": "Candan Erçetin",
-    "description": "Ticket listings for Candan Erçetin Anneler Günü Konseri at Bostancı Showland in İstanbul on 05/10/2026",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-10T17:00:00Z",
-        "local_date": "2026-05-10",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bostanci Show Center",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-6e076441ba246cdac7f1",
-            "title": "Candan Erçetin",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734"
-    ],
-    "external_id": "serpapi-event-6e076441ba246cdac7f1",
-    "category": "concert",
-    "address": "Bostanci Show Center, Bostancı, Bostanlararası Sokağı No:8, Kadıköy/İstanbul, Türkiye",
-    "venue": "Bostanci Show Center",
-    "link": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Candan-Ercetin-Tickets/E-160634734",
-    "ticket_info": "Viagogo (more info) | StubHub (more info) | GigsGuide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31eM_avdrJzaymW8Iof_v5yUvirKQAnMXmKLzxxuQRa_68EsSjs51VQo&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "Garanti BBVA Genç Konserleri: Panda Bear",
@@ -13557,7 +13517,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIkS2BTAxRInNh_5Vo_tLl3wbDXFnNXU5MKaJK8xL7pdYzM3u5More1KY&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "%100 Müzik Sunar: Blind Fest - Tom Odell",
@@ -13629,7 +13589,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi1AZtaR5oQxzsNSzL8-A4U22LnOCZeiibxo0AyZZJkqqVr0ENZiIqUM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "%100 Müzik Sunar: Dogma",
@@ -13701,7 +13661,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvaoGoQAm-6QUIvunDVUVAnRcShLbzGgv3P5CnV_MIn523NE3S6z7UUE&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "%100 Müzik Sunar: Blind Fest: Pet Shop Boys",
@@ -13773,7 +13733,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtpa_bKAyjdozwpzygm8S60W_uLsS0vYxWV00GvCGkod1HSYAV76sqSA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
     "title": "Galatasaray vs Antalyaspor",
@@ -13845,12 +13805,12 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4147CFFkXiY6KpxJepgE2zYYyY6h-ZVCP1ECpxWS7332hC_KedJ1uig&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   },
   {
-    "title": "Kasimpasa Spor Kulubu vs Galatasaray",
+    "title": "Kasimpasa S.k. vs. Galatasaray",
     "description": "View the Kasimpasa S.K. vs. Galatasaray game played on May 17, 2026. Box score, stats, play-by-play timeline, highlights, odds & more",
-    "type": "match",
+    "type": "festival",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
@@ -13864,8 +13824,8 @@
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-053bbfa996f816d66de6",
-            "title": "Kasimpasa Spor Kulubu vs Galatasaray",
+            "external_id": "serpapi-event-bdcea77145f118e5ce4d",
+            "title": "Kasimpasa S.k. vs. Galatasaray",
             "description": null,
             "source_url": "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635",
             "deep_link_url": null,
@@ -13906,7 +13866,7 @@
     "source_urls": [
       "https://www.foxsports.com/soccer/turkish-super-lig-kasimpasa-sk-vs-galatasaray-may-17-2026-game-boxscore-634635"
     ],
-    "external_id": "serpapi-event-053bbfa996f816d66de6",
+    "external_id": "serpapi-event-bdcea77145f118e5ce4d",
     "category": "sports",
     "address": "Recep Tayyip Erdoğan Stadyumu, Çatma Mescit, Refik Saydam Cd., Beyoğlu/İstanbul, Türkiye",
     "venue": "Recep Tayyip Erdoğan Stadyumu",
@@ -13917,6 +13877,6 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8HK5E2wWUMOqzVM8PA1kL4gyIGrEAAHOhBeaj_hu-nXYx2usvdDNvW4&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-05-07T05:56:50.406112Z"
+    "fetched_at": "2026-05-08T05:26:26.098649Z"
   }
 ]
