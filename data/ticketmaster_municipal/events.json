@@ -198,6 +198,72 @@
     "fetched_at": null
   },
   {
+    "title": "Bir Delinin Hatıra Defteri",
+    "description": null,
+    "type": "theatre",
+    "city_name": "Istanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-13T17:30:00Z",
+        "local_date": "2026-05-13",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaul_",
+            "title": "Bir Delinin Hatıra Defteri",
+            "description": null,
+            "source_url": "https://www.biletix.com/performance/5PJ56/025/TURKIYE/tr",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5PJ56/025/TURKIYE/tr",
+            "sales_start_at": "2026-03-19T09:00:00Z"
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Turan Şengül",
     "description": null,
     "type": "concert",
@@ -398,9 +464,9 @@
   {
     "title": "Meçhul Paşa",
     "description": null,
-    "type": "standup",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-13T17:30:00Z",
@@ -1124,9 +1190,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "theatre",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-14T17:30:00Z",
@@ -2114,9 +2180,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "theatre",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-15T17:30:00Z",
@@ -4952,9 +5018,9 @@
   {
     "title": "Şebbaz",
     "description": null,
-    "type": "standup",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-16T17:30:00Z",
@@ -5678,9 +5744,9 @@
   {
     "title": "Model",
     "description": null,
-    "type": "concert",
+    "type": "show",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-16T18:00:00Z",
@@ -7658,9 +7724,9 @@
   {
     "title": "Don Quixote (Don Kişot)",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-17T17:30:00Z",
@@ -8716,7 +8782,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-18T18:00:00Z",
@@ -9506,9 +9572,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "theatre",
+    "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-20T17:30:00Z",
@@ -9744,72 +9810,6 @@
             "ticket_status": "on_sale",
             "ticket_url": "Ticketmaster|https://www.biletix.com/performance/5MG36/001/TURKIYE/tr",
             "sales_start_at": "2026-03-12T06:45:00Z"
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Bengü Beker",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-20T18:00:00Z",
-        "local_date": "2026-05-20",
-        "local_time": "21:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Jolly Joker Kartal İstMarina",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkAraGjy",
-            "title": "Bengü Beker",
-            "description": null,
-            "source_url": "https://www.biletix.com/performance/54T51/001/TURKIYE/tr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "Ticketmaster|https://www.biletix.com/performance/54T51/001/TURKIYE/tr",
-            "sales_start_at": "2026-04-06T14:14:00Z"
           }
         ]
       }
@@ -10997,72 +10997,6 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/aile-haftasi-etkinlikleri/76",
-            "sales_start_at": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Anneler Günü Etkinlikleri",
-    "description": "Anneler Günü Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-14T21:00:00Z",
-        "local_date": "2026-05-15",
-        "local_time": "00:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-bfac323ab21f6ff9",
-            "title": "Anneler Günü Etkinlikleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/anneler-gunu-etkinlikleri/72",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/anneler-gunu-etkinlikleri/72",
             "sales_start_at": null
           }
         ]
