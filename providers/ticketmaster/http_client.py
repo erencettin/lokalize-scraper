@@ -64,7 +64,7 @@ class TicketmasterHttpClient(BaseHttpClient):
         for item in raw_events:
             if not isinstance(item, dict):
                 continue
-            event_id = str(item.get("id") or "")
+            event_id = str(item.get("eventId") or item.get("id") or "")
             if event_id and event_id not in seen_ids:
                 seen_ids.add(event_id)
                 events.append(item)
