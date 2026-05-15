@@ -32,3 +32,4 @@ class RawTicketmasterEvent:
     event_status: str = ""               # onsale, offsale, cancelled, postponed, rescheduled
     brand_name: str = ""                 # e.g. "Biletix"
     is_official_seller: Optional[bool] = None
+    venue_city: str = ""                 # city extracted from venue data

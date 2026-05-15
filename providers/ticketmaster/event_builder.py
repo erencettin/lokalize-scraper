@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import unicodedata
 from datetime import datetime
 from typing import Optional
 
@@ -41,6 +42,16 @@ class EventBuilder:
         effective_url = item.primary_event_url or item.source_url
         if not effective_url.startswith("http"):
             return None
+        # City filter: skip events not in the configured city.
+        # venue_city is extracted from feed data; fallback to config city when missing.
+        resolved_city = item.venue_city or settings.ticketmaster_city
+        if _normalize_city(resolved_city) != _normalize_city(settings.ticketmaster_city):
+            self._logger.debug(
+                "Ticketmaster: skip event_id=%s reason=city_mismatch venue_city=%r target=%r",
+                item.event_id, resolved_city, settings.ticketmaster_city,
+            )
+            return None
+
         start_at_utc = self._extract_datetime(item)
         if start_at_utc is None:
             self._logger.info("Ticketmaster: skip event_id=%s reason=missing_or_invalid_date", item.event_id)
@@ -51,7 +62,7 @@ class EventBuilder:
             title=item.title,
             description=self._truncate_description(item.description),
             type=item.event_type or DEFAULT_EVENT_TYPE,
-            city_name=settings.ticketmaster_city,
+            city_name=item.venue_city or settings.ticketmaster_city,
             image_url=item.image_url or None,
             occurrences=[occurrence],
         )
@@ -136,3 +147,9 @@ class EventBuilder:
         if not cleaned:
             return None
         return cleaned[:MAX_DESCRIPTION_LENGTH]
+
+
+def _normalize_city(name: str) -> str:
+    """ASCII-fold city name so 'Istanbul' matches 'İstanbul'."""
+    nfkd = unicodedata.normalize("NFKD", name.strip())
+    return nfkd.encode("ascii", "ignore").decode("ascii").lower()

@@ -24,29 +24,40 @@ class ResponseParser:
         return parsed_events, total_pages
 
     def parse_event(self, raw: Dict[str, Any]) -> Optional[RawTicketmasterEvent]:
-        """Parse one raw Ticketmaster event record."""
+        """Parse one raw Ticketmaster event record (Discovery Feed 2.0 and standard API)."""
         if not isinstance(raw, dict):
             return None
-        start = raw.get("dates", {}).get("start", {}) if isinstance(raw.get("dates"), dict) else {}
-        title = clean_text(str(raw.get("name") or ""))
-        event_id = clean_text(str(raw.get("id") or ""))
-        price_ranges = self._extract_list(raw.get("priceRanges"))
-        classifications = self._extract_list(raw.get("classifications"))
+
+        # --- IDs ---
+        # Discovery Feed: "eventId" | Standard API: "id"
+        event_id = clean_text(str(raw.get("eventId") or raw.get("id") or ""))
+
+        # --- Title ---
+        # Discovery Feed: "eventName" | Standard API: "name"
+        title = clean_text(str(raw.get("eventName") or raw.get("name") or ""))
+
+        # --- Dates ---
+        # Discovery Feed: flat top-level fields | Standard API: dates.start.*
+        dates_obj = raw.get("dates") if isinstance(raw.get("dates"), dict) else {}
+        start = dates_obj.get("start", {}) if isinstance(dates_obj.get("start"), dict) else {}
+        date_time_utc = clean_text(str(raw.get("eventStartDateTime") or start.get("dateTime") or ""))
+        local_date    = clean_text(str(raw.get("eventStartLocalDate") or start.get("localDate") or ""))
+        local_time    = clean_text(str(raw.get("eventStartLocalTime") or start.get("localTime") or ""))
+
+        # --- Sales start ---
+        # Discovery Feed: "onsaleStartDateTime" | Standard API: sales.public.startDateTime
         sales = raw.get("sales") if isinstance(raw.get("sales"), dict) else {}
         public_sales = sales.get("public") if isinstance(sales.get("public"), dict) else {}
-        sales_start_raw = clean_text(str(public_sales.get("startDateTime") or ""))
+        sales_start_raw = clean_text(str(
+            raw.get("onsaleStartDateTime") or public_sales.get("startDateTime") or ""
+        ))
 
-        # Discovery Feed 2.0: primaryEventUrl carries the affiliate-tracked link.
-        # Fall back to the plain "url" field when the feed doesn't provide it.
+        # --- Affiliate / Discovery Feed 2.0 specific fields ---
         primary_event_url = clean_text(str(raw.get("primaryEventUrl") or raw.get("url") or ""))
 
-        # eventStatus from Discovery Feed 2.0 ("onsale", "offsale", "cancelled", …)
-        # Fallback: classic API stores status under dates.status.code
-        dates_block = raw.get("dates") if isinstance(raw.get("dates"), dict) else {}
-        status_block = dates_block.get("status") if isinstance(dates_block.get("status"), dict) else {}
-        event_status = clean_text(
-            str(raw.get("eventStatus") or status_block.get("code") or "")
-        ).lower()
+        # eventStatus: Discovery Feed top-level | Standard API: dates.status.code
+        status_block = dates_obj.get("status") if isinstance(dates_obj.get("status"), dict) else {}
+        event_status = clean_text(str(raw.get("eventStatus") or status_block.get("code") or "")).lower()
 
         brand_name = clean_text(str(raw.get("brandName") or ""))
         raw_official_seller = raw.get("officialSeller")
@@ -54,16 +65,34 @@ class ResponseParser:
         if isinstance(raw_official_seller, bool):
             is_official_seller = raw_official_seller
 
+        # --- Classifications ---
+        # Standard API: nested array | Discovery Feed: flat strings
+        price_ranges = self._extract_list(raw.get("priceRanges"))
+        classifications = self._extract_list(raw.get("classifications"))
+        if not classifications:
+            classifications = self._build_classifications_from_feed(raw)
+
+        # --- Image ---
+        # Discovery Feed: "eventImageUrl" (single URL) | Standard API: images array
+        image_url = clean_text(str(raw.get("eventImageUrl") or ""))
+        if not image_url:
+            image_url = self._extract_image_url(self._extract_list(raw.get("images")))
+
+        # --- Description ---
+        # Discovery Feed adds "eventInfo" / "eventNotes" alongside standard "info" / "pleaseNote"
+        description = self._extract_description(raw)
+
         return RawTicketmasterEvent(
             event_id=event_id,
             title=title,
             source_url=clean_text(str(raw.get("url") or "")),
-            date_time_utc=clean_text(str(start.get("dateTime") or "")),
-            local_date=clean_text(str(start.get("localDate") or "")),
-            local_time=clean_text(str(start.get("localTime") or "")),
+            venue_city=self._extract_venue_city(raw),
+            date_time_utc=date_time_utc,
+            local_date=local_date,
+            local_time=local_time,
             venue_name=self._extract_venue_name(raw),
-            description=self._extract_description(raw),
-            image_url=self._extract_image_url(self._extract_list(raw.get("images"))),
+            description=description,
+            image_url=image_url,
             event_type=self._resolve_category(classifications, title),
             price_origin="discovery_list" if price_ranges else "none",
             classifications=classifications,
@@ -87,8 +116,25 @@ class ResponseParser:
         return events, total_pages
 
     def _extract_description(self, raw: Dict[str, Any]) -> str:
-        raw_description = raw.get("info") or raw.get("pleaseNote") or ""
+        # Discovery Feed: eventInfo / eventNotes | Standard API: info / pleaseNote
+        raw_description = (
+            raw.get("eventInfo") or raw.get("info") or
+            raw.get("eventNotes") or raw.get("pleaseNote") or ""
+        )
         return strip_html(raw_description) if isinstance(raw_description, str) else ""
+
+    def _build_classifications_from_feed(self, raw: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Build a classifications-compatible structure from Discovery Feed flat fields."""
+        segment = clean_text(str(raw.get("classificationSegment") or ""))
+        genre   = clean_text(str(raw.get("classificationGenre") or ""))
+        if not segment and not genre:
+            return []
+        entry: Dict[str, Any] = {}
+        if segment:
+            entry["segment"] = {"name": segment}
+        if genre:
+            entry["genre"] = {"name": genre}
+        return [entry]
 
     def _extract_list(self, value: Any) -> List[Dict[str, Any]]:
         if not isinstance(value, list):
@@ -110,12 +156,33 @@ class ResponseParser:
         return selected_url
 
     def _extract_venue_name(self, raw: Dict[str, Any]) -> str:
+        # Discovery Feed 2.0: raw["venue"]["venueName"]
+        venue_block = raw.get("venue")
+        if isinstance(venue_block, dict):
+            name = clean_text(str(venue_block.get("venueName") or ""))
+            if name:
+                return name
+        # Standard Discovery API: raw["_embedded"]["venues"][0]["name"]
         embedded = raw.get("_embedded")
         venues = embedded.get("venues") if isinstance(embedded, dict) else []
         first = venues[0] if isinstance(venues, list) and venues else {}
-        name = first.get("name") if isinstance(first, dict) else ""
-        cleaned = clean_text(str(name or ""))
-        return cleaned or DEFAULT_VENUE_NAME
+        name = clean_text(str(first.get("name") or "")) if isinstance(first, dict) else ""
+        return name or DEFAULT_VENUE_NAME
+
+    def _extract_venue_city(self, raw: Dict[str, Any]) -> str:
+        # Discovery Feed 2.0: raw["venue"]["venueCity"]
+        venue_block = raw.get("venue")
+        if isinstance(venue_block, dict):
+            city = clean_text(str(venue_block.get("venueCity") or ""))
+            if city:
+                return city
+        # Standard Discovery API: raw["_embedded"]["venues"][0]["city"]["name"]
+        embedded = raw.get("_embedded")
+        venues = embedded.get("venues") if isinstance(embedded, dict) else []
+        first = venues[0] if isinstance(venues, list) and venues else {}
+        city_block = first.get("city") if isinstance(first, dict) else {}
+        city_name = city_block.get("name") if isinstance(city_block, dict) else ""
+        return clean_text(str(city_name or ""))
 
     _SPORT_TITLE_KEYWORDS = (
         "maç", "futbol", "basketbol", "voleybol", "tenis", "formula",
