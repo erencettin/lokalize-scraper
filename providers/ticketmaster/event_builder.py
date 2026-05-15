@@ -37,14 +37,16 @@ class EventBuilder:
         """Build one normalized event or return None when essential data is missing."""
         if not item.event_id or not item.title:
             return None
-        if not item.source_url.startswith("http"):
+        # Accept either the affiliate URL or the plain URL as the outbound link.
+        effective_url = item.primary_event_url or item.source_url
+        if not effective_url.startswith("http"):
             return None
         start_at_utc = self._extract_datetime(item)
         if start_at_utc is None:
             self._logger.info("Ticketmaster: skip event_id=%s reason=missing_or_invalid_date", item.event_id)
             return None
         price = self._build_price(item)
-        occurrence = self._build_occurrence(item, start_at_utc, price)
+        occurrence = self._build_occurrence(item, start_at_utc, price, effective_url)
         return NormalizedEvent(
             title=item.title,
             description=self._truncate_description(item.description),
@@ -76,6 +78,7 @@ class EventBuilder:
         item: RawTicketmasterEvent,
         start_at_utc: datetime,
         price: PriceInfo,
+        effective_url: str,
     ) -> NormalizedOccurrence:
         local_date, local_time, timezone_name = DateParser.to_local_parts(start_at_utc, ISTANBUL_TIMEZONE)
         return NormalizedOccurrence(
@@ -84,23 +87,27 @@ class EventBuilder:
             local_time=local_time,
             timezone=timezone_name,
             venue_name=item.venue_name or DEFAULT_VENUE_NAME,
-            sources=[self._build_source(item, price)],
+            sources=[self._build_source(item, price, effective_url)],
         )
 
-    def _build_source(self, item: RawTicketmasterEvent, price: PriceInfo) -> NormalizedSource:
+    def _build_source(self, item: RawTicketmasterEvent, price: PriceInfo, effective_url: str) -> NormalizedSource:
         sales_start_at = None
         if item.sales_start_at:
             from utils.date_parser import DateParser
             sales_start_at = DateParser.parse_iso_date(item.sales_start_at)
+        # Derive ticket_status: prefer Discovery Feed 2.0 eventStatus, fall back to DEFAULT_TICKET_STATUS.
+        ticket_status = item.event_status or DEFAULT_TICKET_STATUS
         return NormalizedSource(
             provider="Ticketmaster",
             external_id=item.event_id,
             title=item.title,
-            source_url=item.source_url,
-            ticket_url=f"Ticketmaster|{item.source_url}",
+            source_url=effective_url,           # affiliate URL when available
+            ticket_url=f"Ticketmaster|{effective_url}",
             price=price,
-            ticket_status=DEFAULT_TICKET_STATUS,
+            ticket_status=ticket_status,
             sales_start_at=sales_start_at,
+            brand_name=item.brand_name or None,
+            is_official_seller=item.is_official_seller,
         )
 
     def _build_price(self, item: RawTicketmasterEvent) -> PriceInfo:

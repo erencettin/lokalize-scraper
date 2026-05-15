@@ -160,9 +160,11 @@ class NormalizedSource(BaseModel):
     source_url: HttpUrl
     deep_link_url: Optional[HttpUrl] = None
     price: PriceInfo = Field(default_factory=PriceInfo)
-    ticket_status: str = "unknown"  # on_sale, sold_out, coming_soon, free, unknown
+    ticket_status: str = "unknown"  # on_sale, off_sale, sold_out, cancelled, postponed, rescheduled, coming_soon, free, unknown
     ticket_url: Optional[str] = None
     sales_start_at: Optional[datetime] = None
+    brand_name: Optional[str] = None       # Display brand (e.g. "Biletix")
+    is_official_seller: Optional[bool] = None
 
 
 class NormalizedOccurrence(BaseModel):

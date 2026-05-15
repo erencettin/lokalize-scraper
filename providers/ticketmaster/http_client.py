@@ -10,7 +10,7 @@ import requests
 
 from config import settings
 from providers.base_http_client import BaseHttpClient
-from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
+from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, FEED_BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
 
 class TicketmasterHttpClient(BaseHttpClient):
     """Encapsulates session lifecycle, pagination and request retry logic."""
@@ -77,7 +77,7 @@ class TicketmasterHttpClient(BaseHttpClient):
     def fetch_page(self, page: int) -> Optional[Dict[str, Any]]:
         """Fetch and parse one events page payload."""
         params = {"apikey": settings.ticketmaster_api_key, "countryCode": settings.ticketmaster_country_code, "city": settings.ticketmaster_city, "size": max(settings.ticketmaster_size, 1), "page": max(page, 0), "sort": "date,asc", "include": "priceRanges"}
-        response = self._request_with_retry(f"{BASE_URL}{EVENTS_ENDPOINT}", params, max(settings.ticketmaster_timeout_seconds, 1), max(settings.ticketmaster_max_retries, 1))
+        response = self._request_with_retry(f"{FEED_BASE_URL}{EVENTS_ENDPOINT}", params, max(settings.ticketmaster_timeout_seconds, 1), max(settings.ticketmaster_max_retries, 1))
         if response is None or response.status_code != 200:
             preview = (response.text or "")[:ERROR_PREVIEW_LENGTH] if response is not None else ""
             self._logger.warning("Ticketmaster: page fetch failed page=%s status=%s body=%s", page, getattr(response, "status_code", "none"), preview)

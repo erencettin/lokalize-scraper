@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+FEED_BASE_URL = "https://app.ticketmaster.com/discovery-feed/v2/"
 BASE_URL = "https://app.ticketmaster.com/discovery/v2/"
 EVENTS_ENDPOINT = "events.json"
 DETAIL_ENDPOINT_TEMPLATE = "events/{event_id}.json"

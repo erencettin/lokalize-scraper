@@ -27,3 +27,8 @@ class RawTicketmasterEvent:
     classifications: List[Dict[str, Any]] = field(default_factory=list)
     raw_price_ranges: List[Dict[str, Any]] = field(default_factory=list)
     sales_start_at: Optional[str] = None
+    # Discovery Feed 2.0 fields
+    primary_event_url: str = ""          # affiliate-tracked URL (ticketmaster.evyy.net/c/...)
+    event_status: str = ""               # onsale, offsale, cancelled, postponed, rescheduled
+    brand_name: str = ""                 # e.g. "Biletix"
+    is_official_seller: Optional[bool] = None

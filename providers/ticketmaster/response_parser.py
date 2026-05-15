@@ -36,6 +36,24 @@ class ResponseParser:
         public_sales = sales.get("public") if isinstance(sales.get("public"), dict) else {}
         sales_start_raw = clean_text(str(public_sales.get("startDateTime") or ""))
 
+        # Discovery Feed 2.0: primaryEventUrl carries the affiliate-tracked link.
+        # Fall back to the plain "url" field when the feed doesn't provide it.
+        primary_event_url = clean_text(str(raw.get("primaryEventUrl") or raw.get("url") or ""))
+
+        # eventStatus from Discovery Feed 2.0 ("onsale", "offsale", "cancelled", …)
+        # Fallback: classic API stores status under dates.status.code
+        dates_block = raw.get("dates") if isinstance(raw.get("dates"), dict) else {}
+        status_block = dates_block.get("status") if isinstance(dates_block.get("status"), dict) else {}
+        event_status = clean_text(
+            str(raw.get("eventStatus") or status_block.get("code") or "")
+        ).lower()
+
+        brand_name = clean_text(str(raw.get("brandName") or ""))
+        raw_official_seller = raw.get("officialSeller")
+        is_official_seller: Optional[bool] = None
+        if isinstance(raw_official_seller, bool):
+            is_official_seller = raw_official_seller
+
         return RawTicketmasterEvent(
             event_id=event_id,
             title=title,
@@ -51,6 +69,10 @@ class ResponseParser:
             classifications=classifications,
             raw_price_ranges=price_ranges,
             sales_start_at=sales_start_raw or None,
+            primary_event_url=primary_event_url,
+            event_status=event_status,
+            brand_name=brand_name,
+            is_official_seller=is_official_seller,
         )
 
     def _extract_page_payload(self, payload: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], Optional[int]]:
