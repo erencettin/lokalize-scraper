@@ -410,9 +410,9 @@
   {
     "title": "Boşanma Teklifi",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-25T17:30:00Z",
@@ -614,9 +614,9 @@
   {
     "title": "2000's Party / Daddy-E & Dear Darling",
     "description": null,
-    "type": "show",
+    "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-20T20:59:00Z",
@@ -2387,6 +2387,74 @@
     "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
+        "start_at_utc": "2026-05-24T17:30:00Z",
+        "local_date": "2026-05-24",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQfaGii",
+            "title": "Lüküs Hayat Kabare",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ52%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "offsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ52%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-03-19T09:00:00Z",
+            "brand_name": "Biletix",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Lüküs Hayat Kabare",
+    "description": null,
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
         "start_at_utc": "2026-05-22T17:30:00Z",
         "local_date": "2026-05-22",
         "local_time": "20:30",
@@ -2924,74 +2992,6 @@
     "fetched_at": null
   },
   {
-    "title": "Mustafa Özarslan",
-    "description": null,
-    "type": "concert",
-    "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-17T19:15:00Z",
-        "local_date": "2026-05-17",
-        "local_time": "22:15",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Mahsus Sahne",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZk9j39vve",
-            "title": "Mustafa Özarslan",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MRHM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MRHM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-04-22T13:06:00Z",
-            "brand_name": "Biletix",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Yalın - Bir Büyülü Gece",
     "description": null,
     "type": "concert",
@@ -3102,74 +3102,6 @@
             "ticket_status": "onsale",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CXAU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-04-29T14:32:00Z",
-            "brand_name": "Biletix",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Lüküs Hayat Kabare",
-    "description": null,
-    "type": "theatre",
-    "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-24T17:30:00Z",
-        "local_date": "2026-05-24",
-        "local_time": "20:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre Koşuyolu",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkQfaGic",
-            "title": "Lüküs Hayat Kabare",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ52%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ52%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-03-19T09:00:00Z",
             "brand_name": "Biletix",
             "is_official_seller": true
           }
@@ -3880,7 +3812,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/3c8/0004c461-14c2-4b7a-b0af-f0cf507f73c8_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-23T13:00:00Z",
@@ -5170,9 +5102,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-31T15:00:00Z",
@@ -9250,9 +9182,9 @@
   {
     "title": "Fırat Tanış ile Gelin Tanış Olalım",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-21T17:30:00Z",
@@ -11972,7 +11904,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/49c/25dcda52-5b3f-4304-b926-4c243dcaf49c_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-22T13:00:00Z",
@@ -13196,7 +13128,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/9d9/35f07288-5e68-44da-ae77-62e4d01179d9_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/5fa/9f1c3558-5792-4ee5-bcf2-14307cdcd5fa_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-07-25T15:00:00Z",
@@ -13264,7 +13196,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-19T18:00:00Z",
@@ -17344,7 +17276,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/29b/313d9036-7439-46ed-ad10-39e861dfe29b_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-13T13:00:00Z",
@@ -18566,9 +18498,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "standup",
+    "type": "experience",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-21T17:30:00Z",
@@ -20334,9 +20266,9 @@
   {
     "title": "The Cardigans, Fatma Turgut, Ankara Echoes",
     "description": null,
-    "type": "show",
+    "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/58e/bf2f11cf-8acd-4938-994c-b5294fdc658e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-07-18T13:00:00Z",
@@ -20404,7 +20336,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-05T18:00:00Z",
@@ -28700,7 +28632,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/8ac/5f1f21b4-423a-40cc-9b71-78f616b098ac_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-12T16:30:00Z",
@@ -29652,7 +29584,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-28T12:00:00Z",
@@ -33256,7 +33188,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/9f2/12a25a6e-4d90-401c-8bc2-0ee79716f9f2_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-09-13T18:00:00Z",
@@ -33324,7 +33256,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-23T18:00:00Z",
@@ -34548,7 +34480,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/f60/a4cf69f3-ef99-42c0-b02e-e95d25f36f60_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/a40/84ac3aaa-bafa-4a49-b5da-a4619f89fa40_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-23T19:00:00Z",
@@ -35092,7 +35024,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/e9b/7437926e-a27d-4c8e-a237-e4b5592f2e9b_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-05-22T19:00:00Z",
@@ -35702,9 +35634,9 @@
   {
     "title": "Seninle Evlenir miyim?",
     "description": null,
-    "type": "standup",
+    "type": "experience",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-30T17:30:00Z",
@@ -37064,7 +36996,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-14T15:00:00Z",
@@ -38284,6 +38216,142 @@
     "fetched_at": null
   },
   {
+    "title": "Koltuk Senin",
+    "description": "Koltuk Senin",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-18T18:05:00Z",
+        "local_date": "2026-05-18",
+        "local_time": "21:05",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-85a16fb12bc66589",
+            "title": "Koltuk Senin",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/koltuk-senin/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Kiraz Çiçeği Günleri",
+    "description": "Kiraz Çiçeği Günleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-23T10:30:00Z",
+        "local_date": "2026-05-23",
+        "local_time": "13:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-0609f83ad0785297",
+            "title": "Kiraz Çiçeği Günleri",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Kahve Festivali",
     "description": "Kahve Festivali",
     "type": "festival",
@@ -38372,6 +38440,74 @@
             "title": "Gong Banyosu",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/gong-banyosu/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Harbiye Açık Hava etkinlikleri",
+    "description": "Harbiye Açık Hava etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-18T18:05:00Z",
+        "local_date": "2026-05-18",
+        "local_time": "21:05",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-559199cbc219e3a8",
+            "title": "Harbiye Açık Hava etkinlikleri",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -38733,210 +38869,6 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/579/uykusuz-bir-ruya-salim",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Ali Congun – Adliye Çayı",
-    "description": "Ali Congun – Adliye Çayı",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/ALICONGUN-06.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-17T20:00:00Z",
-        "local_date": "2026-05-17",
-        "local_time": "23:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Ali Congun – Adliye Çayı",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
-              "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": true,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Eko Kahramanlar İşbaşında!",
-    "description": "Eko Kahramanlar İşbaşında!",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/78102-17-MAYIS-ULUSLARARASI-GERI-DONUSUM-GUNU-ATOLYESI-SM-03.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-17T20:00:00Z",
-        "local_date": "2026-05-17",
-        "local_time": "23:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Eko Kahramanlar İşbaşında!",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
-              "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": true,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Oda Bir Şey Mi",
-    "description": "Oda Bir Şey Mi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/sm-04-scaled.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-17T20:00:00Z",
-        "local_date": "2026-05-17",
-        "local_time": "23:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Oda Bir Şey Mi",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
-              "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": true,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
