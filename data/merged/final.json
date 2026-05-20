@@ -4222,7 +4222,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/49c/25dcda52-5b3f-4304-b926-4c243dcaf49c_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/3c8/0004c461-14c2-4b7a-b0af-f0cf507f73c8_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-08-23T13:00:00Z",
@@ -40420,6 +40420,80 @@
     "fetched_at": null
   },
   {
+    "title": "Kiraz Çiçeği Günleri",
+    "description": "Kiraz Çiçeği Günleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-20T10:30:00Z",
+        "local_date": "2026-06-20",
+        "local_time": "13:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-0609f83ad0785297",
+            "title": "Kiraz Çiçeği Günleri",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "İBB",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri-2/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Sanat Rotası",
     "description": "Sanat Rotası",
     "type": "experience",
@@ -40938,80 +41012,6 @@
     "fetched_at": null
   },
   {
-    "title": "Sanat Rotası",
-    "description": "Sanat Rotası",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-20T07:00:00Z",
-        "local_date": "2026-05-20",
-        "local_time": "10:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-8443b3cdce5b357a",
-            "title": "Sanat Rotası",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/sanat-rotasi/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Uzak Doğu Molası",
     "description": "Uzak Doğu Molası",
     "type": "experience",
@@ -41145,80 +41145,6 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/koltuk-senin/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kiraz Çiçeği Günleri",
-    "description": "Kiraz Çiçeği Günleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-23T10:30:00Z",
-        "local_date": "2026-05-23",
-        "local_time": "13:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-0609f83ad0785297",
-            "title": "Kiraz Çiçeği Günleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri-2/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/kiraz-cicegi-gunleri-2/"
     ],
     "external_id": null,
     "category": null,
@@ -41456,26 +41382,26 @@
     "fetched_at": null
   },
   {
-    "title": "19 Mayıs’a Özel ESMEK Atölyeleri",
-    "description": "19 Mayıs’a Özel ESMEK Atölyeleri",
+    "title": "star Form Etkinliği Yerebatan Sarnıcı Gezisi event 21.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Yerebatan Sarnıcı Gezisi event 21.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-20T21:00:00Z",
         "local_date": "2026-05-21",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
+        "venue_name": "Çatalca Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-e00baac8503fa222",
-            "title": "19 Mayıs’a Özel ESMEK Atölyeleri",
+            "external_id": "web-f3d540117e23002f",
+            "title": "star Form Etkinliği Yerebatan Sarnıcı Gezisi event 21.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
             "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/19-mayisa-ozel-esmek-atolyeleri/77",
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/yerebatan-sarnici-gezisi",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -41488,7 +41414,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -41496,7 +41422,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/19-mayisa-ozel-esmek-atolyeleri/77",
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/yerebatan-sarnici-gezisi",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
@@ -41505,16 +41431,16 @@
       }
     ],
     "source": "unknown",
-    "provider": "Eyüpsultan Belediyesi",
+    "provider": "Çatalca Belediyesi",
     "providers": [
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Eyüpsultan Belediyesi"
+      "Çatalca Belediyesi"
     ],
-    "provider_label": "Eyüpsultan Belediyesi",
+    "provider_label": "Çatalca Belediyesi",
     "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/19-mayisa-ozel-esmek-atolyeleri/77"
+      "https://etkinlik.catalca.bel.tr/etkinlik-form/yerebatan-sarnici-gezisi"
     ],
     "external_id": null,
     "category": null,
@@ -41530,26 +41456,26 @@
     "fetched_at": null
   },
   {
-    "title": "ESMEK - Mayıs Ayı Atölyeleri",
-    "description": "ESMEK - Mayıs Ayı Atölyeleri",
+    "title": "star Form Etkinliği Mutfak Atölyesi Workshop 20-21-22 Mayıs event 22.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Mutfak Atölyesi Workshop 20-21-22 Mayıs event 22.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-05-20T21:00:00Z",
-        "local_date": "2026-05-21",
+        "start_at_utc": "2026-05-21T21:00:00Z",
+        "local_date": "2026-05-22",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
+        "venue_name": "Çatalca Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-4576ebede584f5df",
-            "title": "ESMEK - Mayıs Ayı Atölyeleri",
+            "external_id": "web-cdc5d5506fe93653",
+            "title": "star Form Etkinliği Mutfak Atölyesi Workshop 20-21-22 Mayıs event 22.05.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
             "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-mayis-ayi-atolyeleri/71",
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-20-21-22-mayis",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -41562,7 +41488,7 @@
                 "strategy": "municipal_web_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
                 "is_authoritative": false,
                 "is_derived": false,
                 "requires_terms_review": true,
@@ -41570,7 +41496,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-mayis-ayi-atolyeleri/71",
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-20-21-22-mayis",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
@@ -41579,16 +41505,16 @@
       }
     ],
     "source": "unknown",
-    "provider": "Eyüpsultan Belediyesi",
+    "provider": "Çatalca Belediyesi",
     "providers": [
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Eyüpsultan Belediyesi"
+      "Çatalca Belediyesi"
     ],
-    "provider_label": "Eyüpsultan Belediyesi",
+    "provider_label": "Çatalca Belediyesi",
     "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-mayis-ayi-atolyeleri/71"
+      "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-20-21-22-mayis"
     ],
     "external_id": null,
     "category": null,
@@ -41663,6 +41589,524 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/579/uykusuz-bir-ruya-salim"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "yaza merhaba konseri",
+    "description": "Daha Fazla",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-01T17:00:00Z",
+        "local_date": "2026-06-01",
+        "local_time": "20:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-755c3ab3d7dd1e36",
+            "title": "yaza merhaba konseri",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/587/yaza-merhaba-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/587/yaza-merhaba-konseri",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/587/yaza-merhaba-konseri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "volkan konak ve edip akbayram eserleri thm konseri",
+    "description": "Daha Fazla",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-02T17:30:00Z",
+        "local_date": "2026-06-02",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-03610f4819b749cb",
+            "title": "volkan konak ve edip akbayram eserleri thm konseri",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/588/volkan-konak-ve-edip-akbayram-eserleri-thm-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/588/volkan-konak-ve-edip-akbayram-eserleri-thm-konseri",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/588/volkan-konak-ve-edip-akbayram-eserleri-thm-konseri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "yatar bursa kalesinde",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-03T17:30:00Z",
+        "local_date": "2026-06-03",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-d84fb5ec96565513",
+            "title": "yatar bursa kalesinde",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/589/yatar-bursa-kalesinde",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/589/yatar-bursa-kalesinde",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/589/yatar-bursa-kalesinde"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "bir hadise var can ile cnan arasinda",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-05T17:30:00Z",
+        "local_date": "2026-06-05",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-5592c77cd71f3213",
+            "title": "bir hadise var can ile cnan arasinda",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/590/bir-hadise-var-can-ile-cnan-arasinda",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/590/bir-hadise-var-can-ile-cnan-arasinda",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/590/bir-hadise-var-can-ile-cnan-arasinda"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ahde vefa konseri",
+    "description": "Daha Fazla",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-08T17:30:00Z",
+        "local_date": "2026-06-08",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-ec097aae9a0145f9",
+            "title": "ahde vefa konseri",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/591/ahde-vefa-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/591/ahde-vefa-konseri",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/591/ahde-vefa-konseri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "harputtan urfaya firatin ezgisi",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-09T17:30:00Z",
+        "local_date": "2026-06-09",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-72ff381fcdea0611",
+            "title": "harputtan urfaya firatin ezgisi",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/592/harputtan-urfaya-firatin-ezgisi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/592/harputtan-urfaya-firatin-ezgisi",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/592/harputtan-urfaya-firatin-ezgisi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "turk sanat muzigi konseri",
+    "description": "Daha Fazla",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-10T17:30:00Z",
+        "local_date": "2026-06-10",
+        "local_time": "20:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-e236f816a724b7dd",
+            "title": "turk sanat muzigi konseri",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/593/turk-sanat-muzigi-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/593/turk-sanat-muzigi-konseri",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/593/turk-sanat-muzigi-konseri"
     ],
     "external_id": null,
     "category": null,
