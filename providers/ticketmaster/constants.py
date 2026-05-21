@@ -4,6 +4,10 @@ from __future__ import annotations
 
 FEED_BASE_URL = "https://app.ticketmaster.com/discovery-feed/v2/"
 BASE_URL = "https://app.ticketmaster.com/discovery/v2/"
+AFFILIATE_URL_PREFIX = "ticketmaster.evyy.net/c/"
+# Impact Radius deep link — used for events where the Discovery Feed omits primaryEventUrl.
+# ircid=23908 is the Ticketmaster/Biletix campaign ID extracted from working affiliate URLs.
+AFFILIATE_DEEP_LINK_TEMPLATE = "https://ticketmaster.evyy.net/c/7294156/23908?u={encoded_url}"
 EVENTS_ENDPOINT = "events.json"
 DETAIL_ENDPOINT_TEMPLATE = "events/{event_id}.json"
 ISTANBUL_TIMEZONE = "Europe/Istanbul"

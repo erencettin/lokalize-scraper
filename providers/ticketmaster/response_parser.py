@@ -53,7 +53,10 @@ class ResponseParser:
         ))
 
         # --- Affiliate / Discovery Feed 2.0 specific fields ---
-        primary_event_url = clean_text(str(raw.get("primaryEventUrl") or raw.get("url") or ""))
+        # primaryEventUrl is the affiliate-tracked URL (ticketmaster.evyy.net/c/...).
+        # Do NOT fall back to "url" here — that would overwrite the affiliate link with
+        # a plain biletix.com URL for Biletix-branded events. source_url carries "url".
+        primary_event_url = clean_text(str(raw.get("primaryEventUrl") or ""))
 
         # eventStatus: Discovery Feed top-level | Standard API: dates.status.code
         status_block = dates_obj.get("status") if isinstance(dates_obj.get("status"), dict) else {}
