@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import logging
 import unicodedata
-import urllib.parse
 from datetime import datetime
 from typing import Optional
 
@@ -14,8 +13,6 @@ from config import settings
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
 
 from providers.ticketmaster.constants import (
-    AFFILIATE_DEEP_LINK_TEMPLATE,
-    AFFILIATE_URL_PREFIX,
     DEFAULT_CURRENCY,
     DEFAULT_EVENT_TYPE,
     DEFAULT_TICKET_STATUS,
@@ -42,16 +39,9 @@ class EventBuilder:
         """Build one normalized event or return None when essential data is missing."""
         if not item.event_id or not item.title:
             return None
-        # Prefer affiliate URL from feed; if missing, construct an Impact Radius deep link
-        # so every outbound URL goes through affiliate tracking (ircid=23908).
-        effective_url = item.primary_event_url
-        if not effective_url and item.source_url.startswith("http"):
-            encoded = urllib.parse.quote(item.source_url, safe="")
-            effective_url = AFFILIATE_DEEP_LINK_TEMPLATE.format(encoded_url=encoded)
-            self._logger.debug(
-                "Ticketmaster: constructed affiliate deep link event_id=%s brand=%r",
-                item.event_id, item.brand_name,
-            )
+        # Prefer affiliate URL from feed (primaryEventUrl); fall back to plain source URL.
+        # Do NOT construct fake evyy deep links — the format is proprietary and breaks.
+        effective_url = item.primary_event_url or item.source_url
         if not effective_url or not effective_url.startswith("http"):
             return None
         # City filter: skip events not in the configured city.
