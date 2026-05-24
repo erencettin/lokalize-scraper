@@ -11428,7 +11428,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/49c/25dcda52-5b3f-4304-b926-4c243dcaf49c_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/3c8/0004c461-14c2-4b7a-b0af-f0cf507f73c8_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-08-22T13:00:00Z",
@@ -38009,6 +38009,968 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/594/ahmet-kiratli-turk-muzigi-korosu-yesilcam-sarkilari-konseri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Çocuk Kulübü Show",
+    "description": "Çocuk Kulübü Show",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/cocukkulubu-06.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-24T20:00:00Z",
+        "local_date": "2026-05-24",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Çocuk Kulübü Show",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Çırak ve Prenses",
+    "description": "Çırak ve Prenses",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/cirakveprenses-06.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-24T20:00:00Z",
+        "local_date": "2026-05-24",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Çırak ve Prenses",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Haybeden Gerçeküstü Konuşmalar",
+    "description": "Haybeden Gerçeküstü Konuşmalar",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/haybeden-06.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-24T20:00:00Z",
+        "local_date": "2026-05-24",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Haybeden Gerçeküstü Konuşmalar",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Alice’in Harikalar Diyarı",
+    "description": "Alice’in Harikalar Diyarı",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/alice-06.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-31T20:00:00Z",
+        "local_date": "2026-05-31",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Alice’in Harikalar Diyarı",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Uykusuz Bir Rüya, Salim",
+    "description": "Uykusuz Bir Rüya, Salim",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/04/uykusuzbirruya-06.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-05-31T20:00:00Z",
+        "local_date": "2026-05-31",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Uykusuz Bir Rüya, Salim",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Küçük Eller Büyük Hayaller",
+    "description": "Küçük Eller Büyük Hayaller",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/KULTUR-WEB-01-4.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-02T20:00:00Z",
+        "local_date": "2026-06-02",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Küçük Eller Büyük Hayaller",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Unutulmaz Dizelerin İzinde Dostların Arasındayız Nâzım",
+    "description": "Unutulmaz Dizelerin İzinde Dostların Arasındayız Nâzım",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/nazimSM-06-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-03T20:00:00Z",
+        "local_date": "2026-06-03",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Unutulmaz Dizelerin İzinde Dostların Arasındayız Nâzım",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Atakent Türk Halk Müziği Korosu Baharın Türküleri",
+    "description": "Atakent Türk Halk Müziği Korosu Baharın Türküleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/KULTUR-WEB-01.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-05T20:00:00Z",
+        "local_date": "2026-06-05",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Atakent Türk Halk Müziği Korosu Baharın Türküleri",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Küçükçekmece Mûsıkî Derneği Konseri",
+    "description": "Küçükçekmece Mûsıkî Derneği Konseri",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/KucukcekmeceMusikiDernegi-06-kopya-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-08T20:00:00Z",
+        "local_date": "2026-06-08",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Küçükçekmece Mûsıkî Derneği Konseri",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Halil Altıngöz TSM Korosu Konseri",
+    "description": "Halil Altıngöz TSM Korosu Konseri",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/halilaltingoz-06-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-09T20:00:00Z",
+        "local_date": "2026-06-09",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Halil Altıngöz TSM Korosu Konseri",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Devlerin Savaşı",
+    "description": "Devlerin Savaşı",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/devlerinsavasi-06-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-10T20:00:00Z",
+        "local_date": "2026-06-10",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Devlerin Savaşı",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Devlerin Savaşı Söyleşi",
+    "description": "Devlerin Savaşı Söyleşi",
+    "type": "show",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/devlerinsavasiSOYLESi-06-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-10T20:00:00Z",
+        "local_date": "2026-06-10",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Devlerin Savaşı Söyleşi",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Dönüşüm Franz Kafka",
+    "description": "Dönüşüm Franz Kafka",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/05/donusum-06-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-17T20:00:00Z",
+        "local_date": "2026-06-17",
+        "local_time": "23:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Dönüşüm Franz Kafka",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
     ],
     "external_id": null,
     "category": null,
