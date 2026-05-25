@@ -8,8 +8,8 @@ import re
 from datetime import datetime
 from typing import List, Optional
 
+import cloudscraper
 import pytz
-import requests
 
 from config import settings
 from models.normalized_event import (
@@ -74,7 +74,10 @@ class BiletimgoProvider(BaseProvider):
     # ------------------------------------------------------------------
     def _fetch(self, token: str) -> Optional[list]:
         try:
-            resp = requests.get(
+            scraper = cloudscraper.create_scraper(
+                browser={"browser": "chrome", "platform": "windows", "mobile": False}
+            )
+            resp = scraper.get(
                 _API_URL,
                 params={"access_token": token},
                 timeout=settings.biletimgo_timeout_seconds,
