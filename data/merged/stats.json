@@ -1,14 +1,14 @@
 {
-  "total_events": 820,
-  "total_events_before_dedup": 828,
-  "total_events_after_dedup": 820,
+  "total_events": 689,
+  "total_events_before_dedup": 695,
+  "total_events_after_dedup": 689,
   "ticketmaster_municipal_count": 517,
   "serpapi_count": 11,
-  "biletimgo_count": 300,
-  "overlap_count": 8,
+  "biletimgo_count": 167,
+  "overlap_count": 6,
   "multi_provider_event_count": 6,
   "provider_combo_counts": {
-    "BiletimGO": 298,
+    "BiletimGO": 167,
     "MunicipalRSS": 8,
     "MunicipalWeb": 25,
     "SerpAPIEvents": 5,
@@ -21,8 +21,8 @@
     "Küçükçekmece Belediyesi": 17,
     "Ticketmaster": 478,
     "Ticketmaster+Google": 6,
-    "biletimGO": 298,
+    "biletimGO": 167,
     "İBB": 8
   },
-  "last_merge": "2026-05-25T20:46:51.417205+00:00"
+  "last_merge": "2026-05-25T21:18:13.112273+00:00"
 }
