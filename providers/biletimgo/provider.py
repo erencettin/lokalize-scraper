@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import logging
 import re
+from urllib.parse import unquote
 from datetime import datetime
 from typing import List, Optional
 
@@ -27,7 +28,8 @@ _TAG_RE = re.compile(r"<[^>]+>")
 
 
 def _strip_html(text: str) -> str:
-    return html.unescape(_TAG_RE.sub(" ", text)).strip()
+    decoded = html.unescape(unquote(text))
+    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", decoded)).strip()
 
 
 def _parse_local_dt(value: str) -> Optional[datetime]:
