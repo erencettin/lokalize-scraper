@@ -79,10 +79,22 @@ class BiletimgoProvider(BaseProvider):
                 params={"access_token": token},
                 timeout=settings.biletimgo_timeout_seconds,
             )
-            resp.raise_for_status()
+        except Exception as exc:
+            self._logger.error("BiletimGO: connection failed (%s): %s", type(exc).__name__, exc)
+            return None
+
+        if resp.status_code != 200:
+            self._logger.error(
+                "BiletimGO: HTTP %s — body: %s",
+                resp.status_code,
+                resp.text[:500],
+            )
+            return None
+
+        try:
             data = resp.json()
         except Exception as exc:
-            self._logger.error("BiletimGO: request failed (%s)", type(exc).__name__)
+            self._logger.error("BiletimGO: JSON parse failed — body: %s", resp.text[:500])
             return None
 
         if data.get("error") != "success":
