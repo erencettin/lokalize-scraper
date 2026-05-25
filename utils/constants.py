@@ -62,6 +62,7 @@ CANONICAL_PROVIDER_ORDER: list[str] = [
     "MunicipalWeb",
     "SerpAPIEvents",
     "SerpAPILocal",
+    "BiletimGO",
 ]
 
 CANONICAL_PROVIDER_ALIASES: Dict[str, str] = {
@@ -76,6 +77,8 @@ CANONICAL_PROVIDER_ALIASES: Dict[str, str] = {
     "serpapilocal": "SerpAPILocal",
     "serpapi_local": "SerpAPILocal",
     "serpapi_google_local": "SerpAPILocal",
+    "biletimgo": "BiletimGO",
+    "biletimgo_partner": "BiletimGO",
 }
 
 PROVIDER_UI_TAG_MAP: Dict[str, str] = {
@@ -83,4 +86,5 @@ PROVIDER_UI_TAG_MAP: Dict[str, str] = {
     "MunicipalRSS": "İBB",
     "SerpAPIEvents": "Google",
     "SerpAPILocal": "Google",
+    "BiletimGO": "biletimGO",
 }

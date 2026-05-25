@@ -151,7 +151,7 @@ class BiletimgoProvider(BaseProvider):
         venue = (item.get("konum") or "").strip()
 
         raw_detail = (item.get("detay") or "").strip()
-        description = _strip_html(raw_detail) if raw_detail else None
+        description = _strip_html(raw_detail)[:4800] if raw_detail else None
 
         event_url = (item.get("url") or "").strip() or None
         image_url = (item.get("gorsel") or "").strip() or None
@@ -186,7 +186,7 @@ class BiletimgoProvider(BaseProvider):
             city_name=city,
             image_url=image_url,
             occurrences=[occurrence],
-            source="biletimgo",
+            source="BiletimGO",
             providers=["BiletimGO"],
             provider_label="biletimGO",
             external_id=external_id,

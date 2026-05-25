@@ -66,7 +66,7 @@ class BackendClient:
                 logging.info("Successfully synced with backend: %s", response.json().get("message"))
                 return True
 
-            logging.error("Backend sync failed (%s)", response.status_code)
+            logging.error("Backend sync failed (%s) — body: %s", response.status_code, response.text[:1000])
             return False
         except Exception as exc:
             logging.error("Error connecting to backend: %s", exc)
