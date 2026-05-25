@@ -150,6 +150,8 @@ class BiletimgoProvider(BaseProvider):
 
         address = (item.get("adres") or "").strip()
         city = _extract_city(address) if address else "İstanbul"
+        if city.lower() != "istanbul" and city != "İstanbul":
+            return None
         venue = (item.get("konum") or "").strip()
 
         raw_detail = (item.get("detay") or "").strip()
