@@ -68,6 +68,11 @@ class Settings(BaseSettings):
     municipal_web_list_delay_seconds: float = Field(1.5, alias="MUNICIPAL_WEB_LIST_DELAY_SECONDS")
     municipal_web_detail_delay_seconds: float = Field(1.2, alias="MUNICIPAL_WEB_DETAIL_DELAY_SECONDS")
 
+    # biletimGO Provider Config
+    biletimgo_access_token: str = Field("", alias="BILETIMGO_ACCESS_TOKEN")
+    biletimgo_enabled: bool = Field(False, alias="BILETIMGO_ENABLED")
+    biletimgo_timeout_seconds: int = Field(20, alias="BILETIMGO_TIMEOUT_SECONDS")
+
     # SerpAPI Nearby Config
     serpapi_api_key: str = Field("", alias="SERPAPI_API_KEY")
     serpapi_city: str = Field("Istanbul", alias="SERPAPI_CITY")

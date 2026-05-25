@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 from providers.ticketmaster import TicketmasterProvider
 from providers.municipal_rss import MunicipalRssProvider
 from providers.municipal_web import MunicipalWebProvider
+from providers.biletimgo import BiletimgoProvider
 
 from services.sync_service import SyncService
 from services.events_sync_service import EventsSyncService
@@ -63,6 +64,7 @@ def main():
         TicketmasterProvider(),
         MunicipalRssProvider(),
         MunicipalWebProvider(),
+        BiletimgoProvider(),
     ]
 
     # Filter providers if requested
