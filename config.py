@@ -34,7 +34,6 @@ class Settings(BaseSettings):
     ticketmaster_enabled: bool = Field(False, alias="TICKETMASTER_ENABLED")
     ticketmaster_user_agent: str = Field("LokalizeApp/1.0", alias="TICKETMASTER_USER_AGENT")
     ticketmaster_country_code: str = Field("TR", alias="TICKETMASTER_COUNTRY_CODE")
-    ticketmaster_city: str = Field("Istanbul", alias="TICKETMASTER_CITY")
     ticketmaster_size: int = Field(50, alias="TICKETMASTER_SIZE")
     ticketmaster_max_pages: int = Field(3, alias="TICKETMASTER_MAX_PAGES")
     ticketmaster_page_delay_seconds: float = Field(1.0, alias="TICKETMASTER_PAGE_DELAY_SECONDS")

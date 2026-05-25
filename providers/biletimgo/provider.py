@@ -42,13 +42,32 @@ def _parse_local_dt(value: str) -> Optional[datetime]:
     return None
 
 
-def _extract_city(address: str) -> str:
-    """Extract city name from Turkish address format 'Street, PostCode District / City'."""
-    if "/" in address:
-        city = address.rsplit("/", 1)[-1].strip()
-        if city:
-            return city
-    return "İstanbul"
+# Canonical Turkish city names (81 provinces) as stored in the DB.
+_TURKISH_CITIES: list[str] = [
+    "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya",
+    "Ankara", "Antalya", "Ardahan", "Artvin", "Aydın", "Balıkesir",
+    "Bartın", "Batman", "Bayburt", "Bilecik", "Bingöl", "Bitlis",
+    "Bolu", "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum",
+    "Denizli", "Diyarbakır", "Düzce", "Edirne", "Elazığ", "Erzincan",
+    "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane",
+    "Hakkari", "Hatay", "Iğdır", "Isparta", "İstanbul", "İzmir",
+    "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu",
+    "Kayseri", "Kilis", "Kırıkkale", "Kırklareli", "Kırşehir",
+    "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa", "Mardin",
+    "Mersin", "Muğla", "Muş", "Nevşehir", "Niğde", "Ordu",
+    "Osmaniye", "Rize", "Sakarya", "Samsun", "Şanlıurfa", "Siirt",
+    "Sinop", "Şırnak", "Sivas", "Tekirdağ", "Tokat", "Trabzon",
+    "Tunceli", "Uşak", "Van", "Yalova", "Yozgat", "Zonguldak",
+]
+
+# Lookup table: normalised lowercase → canonical DB name
+_CITY_LOOKUP: dict[str, str] = {c.lower(): c for c in _TURKISH_CITIES}
+
+
+def _extract_city(address: str) -> Optional[str]:
+    """Return canonical DB city name from a Turkish address, or None if not recognised."""
+    candidate = address.rsplit("/", 1)[-1].strip() if "/" in address else address.strip()
+    return _CITY_LOOKUP.get(candidate.lower())
 
 
 class BiletimgoProvider(BaseProvider):
@@ -149,8 +168,9 @@ class BiletimgoProvider(BaseProvider):
         category_id = category_map.resolve(raw_category)
 
         address = (item.get("adres") or "").strip()
-        city = _extract_city(address) if address else "İstanbul"
-        if city.lower() != "istanbul" and city != "İstanbul":
+        city = _extract_city(address) if address else None
+        if city is None:
+            self._logger.debug("BiletimGO: unrecognised city in address '%s', skipping '%s'", address, title)
             return None
         venue = (item.get("konum") or "").strip()
 

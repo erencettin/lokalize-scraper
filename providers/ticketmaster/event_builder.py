@@ -3,13 +3,11 @@
 from __future__ import annotations
 
 import logging
-import unicodedata
 from datetime import datetime
 from typing import Optional
 
 import pytz
 
-from config import settings
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
 
 from providers.ticketmaster.constants import (
@@ -25,6 +23,40 @@ from providers.ticketmaster.price_extractor import PriceExtractor
 from utils.date_parser import DateParser
 from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
+
+
+# Ticketmaster returns city names in English; map to canonical DB names.
+_TM_CITY_MAP: dict[str, str] = {
+    "istanbul": "İstanbul",
+    "ankara": "Ankara",
+    "izmir": "İzmir",
+    "antalya": "Antalya",
+    "bursa": "Bursa",
+    "adana": "Adana",
+    "gaziantep": "Gaziantep",
+    "konya": "Konya",
+    "mersin": "Mersin",
+    "kayseri": "Kayseri",
+    "eskisehir": "Eskişehir",
+    "eskişehir": "Eskişehir",
+    "samsun": "Samsun",
+    "trabzon": "Trabzon",
+    "denizli": "Denizli",
+    "malatya": "Malatya",
+    "manisa": "Manisa",
+    "bodrum": "Muğla",
+    "mugla": "Muğla",
+    "muğla": "Muğla",
+    "diyarbakir": "Diyarbakır",
+    "diyarbakır": "Diyarbakır",
+}
+
+
+def _resolve_city(venue_city: Optional[str]) -> Optional[str]:
+    """Map a Ticketmaster venue city string to a canonical DB city name."""
+    if not venue_city:
+        return None
+    return _TM_CITY_MAP.get(venue_city.strip().lower())
 
 
 class EventBuilder:
@@ -44,13 +76,12 @@ class EventBuilder:
         effective_url = item.primary_event_url or item.source_url
         if not effective_url or not effective_url.startswith("http"):
             return None
-        # City filter: skip events not in the configured city.
-        # venue_city is extracted from feed data; fallback to config city when missing.
-        resolved_city = item.venue_city or settings.ticketmaster_city
-        if _normalize_city(resolved_city) != _normalize_city(settings.ticketmaster_city):
+
+        city_name = _resolve_city(item.venue_city)
+        if city_name is None:
             self._logger.debug(
-                "Ticketmaster: skip event_id=%s reason=city_mismatch venue_city=%r target=%r",
-                item.event_id, resolved_city, settings.ticketmaster_city,
+                "Ticketmaster: skip event_id=%s reason=unrecognised_city venue_city=%r",
+                item.event_id, item.venue_city,
             )
             return None
 
@@ -64,7 +95,7 @@ class EventBuilder:
             title=item.title,
             description=self._truncate_description(item.description),
             type=item.event_type or DEFAULT_EVENT_TYPE,
-            city_name=item.venue_city or settings.ticketmaster_city,
+            city_name=city_name,
             image_url=item.image_url or None,
             occurrences=[occurrence],
         )
@@ -151,7 +182,3 @@ class EventBuilder:
         return cleaned[:MAX_DESCRIPTION_LENGTH]
 
 
-def _normalize_city(name: str) -> str:
-    """ASCII-fold city name so 'Istanbul' matches 'İstanbul'."""
-    nfkd = unicodedata.normalize("NFKD", name.strip())
-    return nfkd.encode("ascii", "ignore").decode("ascii").lower()
