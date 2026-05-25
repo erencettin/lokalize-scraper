@@ -128,7 +128,7 @@ class BiletimgoProvider(BaseProvider):
         return results
 
     def _build_event(self, item: dict, now_utc: datetime) -> Optional[NormalizedEvent]:
-        title = (item.get("etkinlik") or "").strip()
+        title = html.unescape((item.get("etkinlik") or "").strip())
         if not title:
             return None
 
@@ -153,7 +153,7 @@ class BiletimgoProvider(BaseProvider):
         venue = (item.get("konum") or "").strip()
 
         raw_detail = (item.get("detay") or "").strip()
-        description = _strip_html(raw_detail)[:4800] if raw_detail else None
+        description = (_strip_html(raw_detail)[:4800] if raw_detail else None) or None
 
         event_url = (item.get("url") or "").strip() or None
         image_url = (item.get("gorsel") or "").strip() or None
