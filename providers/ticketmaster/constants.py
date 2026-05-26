@@ -13,6 +13,7 @@ DETAIL_ENDPOINT_TEMPLATE = "events/{event_id}.json"
 ISTANBUL_TIMEZONE = "Europe/Istanbul"
 
 TICKETMASTER_CATEGORY_MAP = {
+    # English (Ticketmaster international)
     "standup": "standup",
     "stand-up": "standup",
     "stand up": "standup",
@@ -21,11 +22,27 @@ TICKETMASTER_CATEGORY_MAP = {
     "concert": "concert",
     "theatre": "theatre",
     "theater": "theatre",
-    "arts": "show",
+    "arts": "theatre",
+    "arts & theatre": "theatre",
+    "performing arts": "theatre",
     "family": "kids",
     "sports": "match",
     "film": "cinema",
     "festival": "festival",
+    "exhibition": "exhibition",
+    "workshop": "workshop",
+    # Turkish (Biletix Turkey)
+    "muzik": "concert",
+    "müzik": "concert",
+    "spor": "match",
+    "sahne": "theatre",
+    "aile": "kids",
+    "egitim": "workshop",
+    "eğitim": "workshop",
+    "eğitim & fazlası": "workshop",
+    "egitim & fazlasi": "workshop",
+    "sergi": "exhibition",
+    "tiyatro": "theatre",
 }
 
 DEFAULT_USER_AGENT = "LokalizeApp/1.0"

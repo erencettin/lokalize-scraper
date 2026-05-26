@@ -202,11 +202,14 @@ class ResponseParser:
         if any(token in lower_title for token in ("konser", "concert", " tour")):
             return "concert"
 
-        # If primary Ticketmaster segment is "Music", it's always a concert —
-        # regardless of the venue name (prevents sports arena misclassification).
+        # If primary segment is Music/Müzik → always concert (prevents sports arena misclassification).
+        # If primary segment is Spor (Biletix Turkey) → always match; Biletix segment is event-type,
+        # not venue-based, so title confirmation is not needed here.
         primary_segment = self._get_primary_segment(classifications)
-        if primary_segment == "music":
+        if primary_segment in ("music", "muzik", "müzik"):
             return "concert"
+        if primary_segment == "spor":
+            return "match"
 
         tokens = " ".join(self._collect_tokens(classifications))
 

@@ -12,8 +12,8 @@ _MAP: dict[str, str] = {
     "parti": "concert",
     "çocuk etkinlikleri": "kids",
     "cocuk etkinlikleri": "kids",
-    "diğer": "other",
-    "diger": "other",
+    "diğer": "social",
+    "diger": "social",
 }
 
 

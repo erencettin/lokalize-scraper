@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import logging
 import re
+import unicodedata
 from urllib.parse import unquote
 from datetime import datetime
 from typing import List, Optional
@@ -60,14 +61,30 @@ _TURKISH_CITIES: list[str] = [
     "Tunceli", "Uşak", "Van", "Yalova", "Yozgat", "Zonguldak",
 ]
 
-# Lookup table: normalised lowercase → canonical DB name
-_CITY_LOOKUP: dict[str, str] = {c.lower(): c for c in _TURKISH_CITIES}
+def _normalize_key(text: str) -> str:
+    """Lowercase + strip combining chars (handles Turkish İ/Ş/Ğ → ASCII)."""
+    nfkd = unicodedata.normalize("NFKD", text.strip().lower())
+    return "".join(c for c in nfkd if not unicodedata.combining(c))
+
+
+# Lookup table: normalised (NFKD) lowercase → canonical DB name
+_CITY_LOOKUP: dict[str, str] = {_normalize_key(c): c for c in _TURKISH_CITIES}
 
 
 def _extract_city(address: str) -> Optional[str]:
-    """Return canonical DB city name from a Turkish address, or None if not recognised."""
-    candidate = address.rsplit("/", 1)[-1].strip() if "/" in address else address.strip()
-    return _CITY_LOOKUP.get(candidate.lower())
+    """Return canonical DB city name from a Turkish address, or None if not recognised.
+
+    Searches each '/' segment from right to left so that 'District / City' and
+    'City / District / Venue' formats both resolve correctly.  NFKD normalization
+    ensures Turkish İ/Ş/Ğ variants are handled robustly.
+    """
+    segments = [s.strip() for s in address.split("/")]
+    # Right-to-left: city is usually the last segment in Turkish addresses.
+    for segment in reversed(segments):
+        city = _CITY_LOOKUP.get(_normalize_key(segment))
+        if city is not None:
+            return city
+    return None
 
 
 class BiletimgoProvider(BaseProvider):
