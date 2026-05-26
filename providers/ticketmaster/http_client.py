@@ -52,7 +52,9 @@ class TicketmasterHttpClient(BaseHttpClient):
 
     # Ticketmaster Discovery API uses English segment names even for Biletix Turkey events.
     # One request batch per segment ensures complete coverage across all event types.
-    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Education"]
+    # None = catch-all (no classificationName filter) to capture events under Miscellaneous
+    # or any segment/genre combination not covered by the named segments above.
+    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Education", None]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
         """Fetch all events by querying each Biletix segment separately."""
@@ -73,7 +75,7 @@ class TicketmasterHttpClient(BaseHttpClient):
         self._logger.info("Ticketmaster: all segments done total_pages=%s unique_events=%s", total_pages_fetched, len(all_events))
         return all_events
 
-    def _fetch_segment(self, segment: str, seen_ids: Set[str]) -> tuple[List[Dict[str, Any]], int]:
+    def _fetch_segment(self, segment: Optional[str], seen_ids: Set[str]) -> tuple[List[Dict[str, Any]], int]:
         """Fetch all pages for a single classification segment."""
         events: List[Dict[str, Any]] = []
         page = 0
