@@ -22,11 +22,10 @@ TICKETMASTER_CATEGORY_MAP = {
     "theatre": "theatre",
     "theater": "theatre",
     "arts": "show",
-    "family": "show",
+    "family": "kids",
     "sports": "match",
     "film": "cinema",
     "festival": "festival",
-    "miscellaneous": "experience",
 }
 
 DEFAULT_USER_AGENT = "LokalizeApp/1.0"

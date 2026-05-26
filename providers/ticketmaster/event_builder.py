@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import unicodedata
 from datetime import datetime
 from typing import Optional
 
@@ -26,7 +27,10 @@ from utils.text_normalizer import clean_text
 
 
 # Ticketmaster returns city names in English; map to canonical DB names.
+# Keys are pre-normalized (ASCII, no diacritics) — _normalize_city_key() is applied
+# to the API value before lookup, so Turkish İ/Ş/Ğ/etc. are handled automatically.
 _TM_CITY_MAP: dict[str, str] = {
+    # Major metros
     "istanbul": "İstanbul",
     "ankara": "Ankara",
     "izmir": "İzmir",
@@ -38,25 +42,107 @@ _TM_CITY_MAP: dict[str, str] = {
     "mersin": "Mersin",
     "kayseri": "Kayseri",
     "eskisehir": "Eskişehir",
-    "eskişehir": "Eskişehir",
     "samsun": "Samsun",
     "trabzon": "Trabzon",
     "denizli": "Denizli",
     "malatya": "Malatya",
     "manisa": "Manisa",
-    "bodrum": "Muğla",
-    "mugla": "Muğla",
-    "muğla": "Muğla",
     "diyarbakir": "Diyarbakır",
-    "diyarbakır": "Diyarbakır",
+    # Muğla / resort districts
+    "mugla": "Muğla",
+    "bodrum": "Muğla",
+    "marmaris": "Muğla",
+    "fethiye": "Muğla",
+    # Aegean / Marmara
+    "aydin": "Aydın",
+    "balikesir": "Balıkesir",
+    "canakkale": "Çanakkale",
+    "edirne": "Edirne",
+    "kirklareli": "Kırklareli",
+    "tekirdag": "Tekirdağ",
+    "kocaeli": "Kocaeli",
+    "izmit": "Kocaeli",
+    "yalova": "Yalova",
+    "sakarya": "Sakarya",
+    "adapazari": "Sakarya",
+    "bolu": "Bolu",
+    "duzce": "Düzce",
+    "usak": "Uşak",
+    "kutahya": "Kütahya",
+    "afyonkarahisar": "Afyonkarahisar",
+    "afyon": "Afyonkarahisar",
+    # Mediterranean
+    "isparta": "Isparta",
+    "burdur": "Burdur",
+    "hatay": "Hatay",
+    "antakya": "Hatay",
+    "iskenderun": "Hatay",
+    "osmaniye": "Osmaniye",
+    "kahramanmaras": "Kahramanmaraş",
+    "kilis": "Kilis",
+    # Central Anatolia
+    "nevsehir": "Nevşehir",
+    "kapadokya": "Nevşehir",
+    "cappadocia": "Nevşehir",
+    "nigde": "Niğde",
+    "aksaray": "Aksaray",
+    "karaman": "Karaman",
+    "kirsehir": "Kırşehir",
+    "yozgat": "Yozgat",
+    "corum": "Çorum",
+    "amasya": "Amasya",
+    "tokat": "Tokat",
+    "sivas": "Sivas",
+    "kirikkale": "Kırıkkale",
+    "cankiri": "Çankırı",
+    # Black Sea
+    "zonguldak": "Zonguldak",
+    "bartin": "Bartın",
+    "karabuk": "Karabük",
+    "kastamonu": "Kastamonu",
+    "sinop": "Sinop",
+    "ordu": "Ordu",
+    "giresun": "Giresun",
+    "gumushane": "Gümüşhane",
+    "bayburt": "Bayburt",
+    "rize": "Rize",
+    "artvin": "Artvin",
+    # Eastern Anatolia
+    "erzurum": "Erzurum",
+    "erzincan": "Erzincan",
+    "agri": "Ağrı",
+    "igdir": "Iğdır",
+    "ardahan": "Ardahan",
+    "kars": "Kars",
+    "van": "Van",
+    "bitlis": "Bitlis",
+    "mus": "Muş",
+    "bingol": "Bingöl",
+    "elazig": "Elazığ",
+    "tunceli": "Tunceli",
+    # Southeast
+    "sanliurfa": "Şanlıurfa",
+    "urfa": "Şanlıurfa",
+    "mardin": "Mardin",
+    "batman": "Batman",
+    "sirnak": "Şırnak",
+    "hakkari": "Hakkari",
+    "siirt": "Siirt",
+    "adiyaman": "Adıyaman",
 }
+
+
+def _normalize_city_key(text: str) -> str:
+    """Lowercase and strip combining characters (handles Turkish İ → i)."""
+    nfkd = unicodedata.normalize("NFKD", text.strip().lower())
+    return "".join(c for c in nfkd if not unicodedata.combining(c))
 
 
 def _resolve_city(venue_city: Optional[str]) -> Optional[str]:
     """Map a Ticketmaster venue city string to a canonical DB city name."""
     if not venue_city:
         return None
-    return _TM_CITY_MAP.get(venue_city.strip().lower())
+    return _TM_CITY_MAP.get(_normalize_city_key(venue_city))
 
 
 class EventBuilder:

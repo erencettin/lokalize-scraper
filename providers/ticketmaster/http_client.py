@@ -1,20 +1,17 @@
 """HTTP client for Ticketmaster API fetch and retry behavior."""
 from __future__ import annotations
 
-import gzip
-import io
 import json
 import logging
 import threading
 import time
-import zipfile
 from typing import Any, Dict, List, Optional, Set
 
 import requests
 
 from config import settings
 from providers.base_http_client import BaseHttpClient
-from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, FEED_BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
+from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
 
 class TicketmasterHttpClient(BaseHttpClient):
     """Encapsulates session lifecycle, pagination and request retry logic."""
@@ -54,85 +51,79 @@ class TicketmasterHttpClient(BaseHttpClient):
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
-        """Download Discovery Feed ZIP and return deduplicated event list."""
-        raw_events = self._fetch_feed_as_events()
-        if raw_events is None:
-            self._logger.error("Ticketmaster: feed download failed, no events returned")
-            return []
+        """Fetch all events via paginated Discovery API (countryCode=TR, size=200)."""
         seen_ids: Set[str] = set()
         events: List[Dict[str, Any]] = []
-        for item in raw_events:
-            if not isinstance(item, dict):
-                continue
-            event_id = str(item.get("eventId") or item.get("id") or "")
-            if event_id and event_id not in seen_ids:
-                seen_ids.add(event_id)
-                events.append(item)
-        self.last_fetched_pages = 1
-        self._logger.info("Ticketmaster: feed total unique events=%s", len(events))
+        page = 0
+        total_pages: Optional[int] = None
+
+        while True:
+            payload = self.fetch_page(page)
+            if payload is None:
+                self._logger.warning("Ticketmaster: page %s returned None, stopping", page)
+                break
+
+            raw_events, tp = self._parser_extract_page(payload)
+            if total_pages is None and tp is not None:
+                total_pages = tp
+                self._logger.info("Ticketmaster: total_pages=%s", total_pages)
+
+            if not raw_events:
+                self._logger.info("Ticketmaster: empty page %s, stopping", page)
+                break
+
+            for item in raw_events:
+                if not isinstance(item, dict):
+                    continue
+                event_id = str(item.get("eventId") or item.get("id") or "")
+                if event_id and event_id not in seen_ids:
+                    seen_ids.add(event_id)
+                    events.append(item)
+
+            page += 1
+            self.last_fetched_pages = page
+
+            if total_pages is not None and page >= total_pages:
+                break
+
+            time.sleep(settings.ticketmaster_page_delay_seconds)
+
+        self._logger.info("Ticketmaster: fetched pages=%s unique_events=%s", page, len(events))
         return events
 
-    def _fetch_feed_as_events(self) -> Optional[List[Dict[str, Any]]]:
-        """Download Discovery Feed ZIP/GZIP and extract event list."""
+    def _parser_extract_page(self, payload: Dict[str, Any]):
+        """Extract event list and total page count from a Discovery API response."""
+        embedded = payload.get("_embedded") or {}
+        raw_events = embedded.get("events") if isinstance(embedded, dict) else []
+        page_info = payload.get("page") or {}
+        total_pages = page_info.get("totalPages") if isinstance(page_info, dict) else None
+        if not isinstance(raw_events, list):
+            raw_events = []
+        return raw_events, total_pages
+
+    def fetch_page(self, page: int) -> Optional[Dict[str, Any]]:
+        """Fetch one page from the Discovery API."""
         params = {
             "apikey": settings.ticketmaster_api_key,
             "countryCode": settings.ticketmaster_country_code,
+            "size": 200,
+            "page": page,
+            "sort": "date,asc",
         }
         response = self._request_with_retry(
-            f"{FEED_BASE_URL}{EVENTS_ENDPOINT}",
+            f"{BASE_URL}{EVENTS_ENDPOINT}",
             params,
             max(settings.ticketmaster_timeout_seconds, 1),
             max(settings.ticketmaster_max_retries, 1),
         )
         if response is None or response.status_code != 200:
             self._logger.warning(
-                "Ticketmaster: feed request failed status=%s",
+                "Ticketmaster: page %s failed status=%s",
+                page,
                 getattr(response, "status_code", "none"),
             )
             return None
-        content = response.content
-        if not content:
-            self._logger.warning("Ticketmaster: feed response body is empty")
-            return None
-        # Try ZIP (magic bytes PK)
-        if content[:2] == b"PK":
-            try:
-                with zipfile.ZipFile(io.BytesIO(content)) as zf:
-                    json_names = [n for n in zf.namelist() if n.lower().endswith(".json")]
-                    if not json_names:
-                        self._logger.warning("Ticketmaster: ZIP contains no JSON file, names=%s", zf.namelist())
-                        return None
-                    json_bytes = zf.read(json_names[0])
-                    self._logger.info("Ticketmaster: extracted %s from ZIP (%d bytes)", json_names[0], len(json_bytes))
-                    return self._parse_feed_json(json_bytes)
-            except zipfile.BadZipFile as exc:
-                self._logger.warning("Ticketmaster: ZIP parse failed reason=%s", exc)
-        # Try GZIP (magic bytes 1f 8b)
-        if content[:2] == b"\x1f\x8b":
-            try:
-                return self._parse_feed_json(gzip.decompress(content))
-            except Exception as exc:
-                self._logger.warning("Ticketmaster: GZIP decompress failed reason=%s", exc)
-        # Try plain JSON
-        return self._parse_feed_json(content)
-
-    def _parse_feed_json(self, data: bytes) -> Optional[List[Dict[str, Any]]]:
-        """Parse raw bytes as JSON and extract event list."""
-        try:
-            raw = json.loads(data)
-        except Exception as exc:
-            self._logger.warning("Ticketmaster: feed JSON parse failed reason=%s", exc)
-            return None
-        if isinstance(raw, list):
-            return raw
-        if isinstance(raw, dict):
-            embedded = raw.get("_embedded") or {}
-            if isinstance(embedded, dict) and isinstance(embedded.get("events"), list):
-                return embedded["events"]
-            if isinstance(raw.get("events"), list):
-                return raw["events"]
-        self._logger.warning("Ticketmaster: feed JSON structure unrecognised type=%s", type(raw).__name__)
-        return None
+        return self._parse_json(response, "page", page)
 
     def fetch_event_detail(self, event_id: str) -> Optional[Dict[str, Any]]:
         """Fetch event detail payload used for optional price fallback."""
