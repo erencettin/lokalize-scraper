@@ -50,11 +50,9 @@ class TicketmasterHttpClient(BaseHttpClient):
         except Exception as exc:
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
-    # Biletix Turkey segments — one request batch per segment ensures complete coverage.
-    # Querying by segment is more reliable than fetching all events and guessing the type
-    # from title/classification, especially for sports where team-name titles have no
-    # generic sport keywords.
-    BILETIX_SEGMENTS = ["Müzik", "Sahne", "Spor", "Aile", "Eğitim & Fazlası"]
+    # Ticketmaster Discovery API uses English segment names even for Biletix Turkey events.
+    # One request batch per segment ensures complete coverage across all event types.
+    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Education"]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
         """Fetch all events by querying each Biletix segment separately."""
