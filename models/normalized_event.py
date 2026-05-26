@@ -184,6 +184,8 @@ class NormalizedEvent(BaseModel):
     city_name: str
     image_url: Optional[HttpUrl] = None
     occurrences: List[NormalizedOccurrence] = Field(default_factory=list)
+    attraction_id: Optional[str] = None              # TM attraction ID (artist / team)
+    attraction_upcoming_count: Optional[int] = None  # TM upcomingEvents._total — global demand proxy
     source: str = "unknown"
     provider: Optional[str] = None  # Backward-compatible single provider field.
     providers: List[str] = Field(default_factory=list)

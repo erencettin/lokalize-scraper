@@ -33,3 +33,5 @@ class RawTicketmasterEvent:
     brand_name: str = ""                 # e.g. "Biletix"
     is_official_seller: Optional[bool] = None
     venue_city: str = ""                 # city extracted from venue data
+    attraction_id: Optional[str] = None              # TM attractions[0].id
+    attraction_upcoming_count: Optional[int] = None  # TM attractions[0].upcomingEvents._total

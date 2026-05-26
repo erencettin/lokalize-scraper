@@ -74,6 +74,8 @@ class SyncService:
                         "salesStartAt": source.sales_start_at.isoformat() if source.sales_start_at else None,
                         "brandName": source.brand_name or None,
                         "isOfficialSeller": source.is_official_seller,
+                        "attractionId": event.attraction_id,
+                        "attractionUpcomingCount": event.attraction_upcoming_count,
                         "isPriceUnknown": source.price.is_unknown,
                         "isFree": source.price.is_free,
                         "priceConfidence": price_resolution.get("confidence"),

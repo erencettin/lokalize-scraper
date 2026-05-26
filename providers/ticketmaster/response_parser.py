@@ -85,6 +85,16 @@ class ResponseParser:
         # Discovery Feed adds "eventInfo" / "eventNotes" alongside standard "info" / "pleaseNote"
         description = self._extract_description(raw)
 
+        # --- Attraction (artist / team) metadata ---
+        # Standard Discovery API: _embedded.attractions[]. Discovery Feed 2.0 may omit this.
+        # Take only the first attraction — multi-headliner events are rare and secondary acts
+        # would dilute the signal.
+        attractions = self._extract_list(raw.get("_embedded", {}).get("attractions"))
+        first_attraction = attractions[0] if attractions else {}
+        attraction_id = clean_text(str(first_attraction.get("id") or "")) or None
+        upcoming_obj = first_attraction.get("upcomingEvents") if isinstance(first_attraction.get("upcomingEvents"), dict) else {}
+        attraction_upcoming_count: Optional[int] = upcoming_obj.get("_total") if isinstance(upcoming_obj.get("_total"), int) else None
+
         return RawTicketmasterEvent(
             event_id=event_id,
             title=title,
@@ -105,6 +115,8 @@ class ResponseParser:
             event_status=event_status,
             brand_name=brand_name,
             is_official_seller=is_official_seller,
+            attraction_id=attraction_id,
+            attraction_upcoming_count=attraction_upcoming_count,
         )
 
     def _extract_page_payload(self, payload: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], Optional[int]]:

@@ -184,6 +184,8 @@ class EventBuilder:
             city_name=city_name,
             image_url=item.image_url or None,
             occurrences=[occurrence],
+            attraction_id=item.attraction_id,
+            attraction_upcoming_count=item.attraction_upcoming_count,
         )
 
     def _extract_datetime(self, item: RawTicketmasterEvent) -> Optional[datetime]:
