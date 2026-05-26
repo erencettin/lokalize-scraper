@@ -42,3 +42,11 @@ DETAIL_PREVIEW_LENGTH = 200
 
 RETRYABLE_STATUS_CODES = {429}
 AUTH_FAILURE_STATUS_CODES = {401, 403}
+
+# Rate limiting: minimum interval between requests to stay under 100 req/min OAuth limit.
+# 0.65s → ~92 req/min, gives ~8% headroom below the 100 req/min cap.
+RATE_LIMIT_MIN_INTERVAL_SECONDS = 0.65
+# Maximum backoff cap (seconds) for exponential retry delays.
+MAX_RETRY_BACKOFF_SECONDS = 60
+# Default sort order for paginated event queries.
+DEFAULT_SORT = "date,asc"

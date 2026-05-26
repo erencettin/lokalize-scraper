@@ -11,7 +11,7 @@ import requests
 
 from config import settings
 from providers.base_http_client import BaseHttpClient
-from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, RETRYABLE_STATUS_CODES
+from providers.ticketmaster.constants import AUTH_FAILURE_STATUS_CODES, BASE_URL, DEFAULT_SORT, DEFAULT_USER_AGENT, DETAIL_ENDPOINT_TEMPLATE, DETAIL_PREVIEW_LENGTH, ERROR_PREVIEW_LENGTH, EVENTS_ENDPOINT, MAX_RETRY_BACKOFF_SECONDS, RATE_LIMIT_MIN_INTERVAL_SECONDS, RETRYABLE_STATUS_CODES
 
 class TicketmasterHttpClient(BaseHttpClient):
     """Encapsulates session lifecycle, pagination and request retry logic."""
@@ -51,7 +51,7 @@ class TicketmasterHttpClient(BaseHttpClient):
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
-        """Fetch all events via paginated Discovery API (countryCode=TR, size=200)."""
+        """Fetch all events via paginated Discovery API."""
         seen_ids: Set[str] = set()
         events: List[Dict[str, Any]] = []
         page = 0
@@ -86,6 +86,11 @@ class TicketmasterHttpClient(BaseHttpClient):
             if total_pages is not None and page >= total_pages:
                 break
 
+            max_pages = settings.ticketmaster_max_pages
+            if max_pages > 0 and page >= max_pages:
+                self._logger.info("Ticketmaster: max_pages=%s reached, stopping", max_pages)
+                break
+
             time.sleep(settings.ticketmaster_page_delay_seconds)
 
         self._logger.info("Ticketmaster: fetched pages=%s unique_events=%s", page, len(events))
@@ -106,9 +111,9 @@ class TicketmasterHttpClient(BaseHttpClient):
         params = {
             "apikey": settings.ticketmaster_api_key,
             "countryCode": settings.ticketmaster_country_code,
-            "size": 200,
+            "size": max(settings.ticketmaster_size, 1),
             "page": page,
-            "sort": "date,asc",
+            "sort": DEFAULT_SORT,
         }
         response = self._request_with_retry(
             f"{BASE_URL}{EVENTS_ENDPOINT}",
@@ -137,13 +142,12 @@ class TicketmasterHttpClient(BaseHttpClient):
         return self._parse_json(response, "detail", event_id)
 
     def _wait_for_rate_limit(self) -> None:
-        """Enforces a strict global 2 req/s limit across all parallel threads."""
-        delay = 0.55
+        """Enforces a minimum interval between requests to stay under the OAuth rate limit."""
         with self._lock:
             now = time.monotonic()
             elapsed = now - self._last_request_time
-            if elapsed < delay:
-                time.sleep(delay - elapsed)
+            if elapsed < RATE_LIMIT_MIN_INTERVAL_SECONDS:
+                time.sleep(RATE_LIMIT_MIN_INTERVAL_SECONDS - elapsed)
             self._last_request_time = time.monotonic()
 
     def _request_with_retry(self, url: str, params: Dict[str, Any], timeout: int, max_retries: int) -> Optional[requests.Response]:
@@ -159,7 +163,7 @@ class TicketmasterHttpClient(BaseHttpClient):
                     return response
                 if response.status_code in RETRYABLE_STATUS_CODES:
                     self._logger.warning("Ticketmaster: rate limited url=%s attempt=%s/%s", url, attempt, max_retries)
-                    time.sleep(min(2 ** attempt, 60))
+                    time.sleep(min(2 ** attempt, MAX_RETRY_BACKOFF_SECONDS))
                     continue
                 return response
             except requests.exceptions.Timeout:
@@ -168,7 +172,7 @@ class TicketmasterHttpClient(BaseHttpClient):
                 last_error = self._safe_error(exc)
             self._logger.warning("Ticketmaster: request failed url=%s attempt=%s/%s error=%s", url, attempt, max_retries, last_error)
             if attempt < max_retries:
-                time.sleep(min(2 ** attempt, 60))
+                time.sleep(min(2 ** attempt, MAX_RETRY_BACKOFF_SECONDS))
         self._logger.error("Ticketmaster: retries exhausted url=%s error=%s", url, last_error)
         return None
 
