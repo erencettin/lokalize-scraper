@@ -187,41 +187,34 @@ class ResponseParser:
         city_name = city_block.get("name") if isinstance(city_block, dict) else ""
         return clean_text(str(city_name or ""))
 
-    _SPORT_TITLE_KEYWORDS = (
-        "maç", "futbol", "basketbol", "voleybol", "tenis", "formula",
-        "mma", "boks", " lig", "derbi", "esport", "maraton", "marathon",
-        "kupa", "turnuva", "playoff", "championship", " vs ",
-    )
-
     def _resolve_category(self, classifications: List[Dict[str, Any]], title: str) -> str:
         lower_title = title.lower()
 
-        # Title-based overrides: highest precision, checked before API classifications
+        # 1. Title overrides — highest precision, checked before classification data.
         if any(token in lower_title for token in ("stand up", "stand-up", "standup")):
             return "standup"
         if any(token in lower_title for token in ("konser", "concert", " tour")):
             return "concert"
 
-        # If primary segment is Music/Müzik → always concert (prevents sports arena misclassification).
-        # If primary segment is Spor (Biletix Turkey) → always match; Biletix segment is event-type,
-        # not venue-based, so title confirmation is not needed here.
+        # 2. Primary-segment direct mapping — event type comes straight from the segment name.
+        #    No title confirmation needed; primary segment reflects event type, not venue.
         primary_segment = self._get_primary_segment(classifications)
         if primary_segment in ("music", "muzik", "müzik"):
             return "concert"
-        if primary_segment == "spor":
+        if primary_segment in ("sports", "spor"):
             return "match"
+        if primary_segment in ("arts", "theatre", "theater", "sahne", "tiyatro"):
+            return "theatre"
+        if primary_segment in ("family", "aile"):
+            return "kids"
+        if primary_segment in ("education", "egitim", "eğitim", "eğitim & fazlası", "egitim & fazlasi"):
+            return "workshop"
 
+        # 3. Token-based map for remaining classifications.
         tokens = " ".join(self._collect_tokens(classifications))
-
         for keyword, mapped in TICKETMASTER_CATEGORY_MAP.items():
             if keyword in tokens:
-                # Only trust "sports" classification when the title confirms it.
-                # Concerts at sports venues (e.g. Manifest at Ülker Sports Arena)
-                # must not be stored as "match".
-                if mapped == "match" and not any(kw in lower_title for kw in self._SPORT_TITLE_KEYWORDS):
-                    continue
                 return mapped
-
         for keyword, mapped in SHARED_CATEGORY_MAP.items():
             if keyword in tokens:
                 return mapped

@@ -27,6 +27,22 @@ _API_URL = "https://www.biletimgo.com/api/v1/etkinlik-listesi"
 _TZ = pytz.timezone("Europe/Istanbul")
 _TAG_RE = re.compile(r"<[^>]+>")
 
+# All BiletimGO categories — one request per category ensures complete coverage.
+_BILETIMGO_CATEGORIES = [
+    "Festival",
+    "Konser",
+    "Sahne",
+    "Topluluklar",
+    "Parti",
+    "Eğitim",
+    "Kamp",
+    "Tiyatro",
+    "Stand-Up",
+    "Workshop",
+    "Çocuk Etkinlikleri",
+    "Diğer",
+]
+
 
 def _strip_html(text: str) -> str:
     decoded = html.unescape(unquote(text))
@@ -101,50 +117,59 @@ class BiletimgoProvider(BaseProvider):
             self._logger.warning("BiletimGO: access token missing, skipping")
             return []
 
-        raw = self._fetch(token)
-        if raw is None:
-            return []
+        scraper = cloudscraper.create_scraper(
+            browser={"browser": "chrome", "platform": "windows", "mobile": False}
+        )
 
-        events = self._normalize(raw)
-        self._logger.info("BiletimGO: parsed %d events", len(events))
+        seen_ids: set[str] = set()
+        all_raw: list = []
+
+        for kategori in _BILETIMGO_CATEGORIES:
+            items = self._fetch_category(scraper, token, kategori)
+            if items is None:
+                continue
+            for item in items:
+                item_id = str(item.get("id")) if item.get("id") is not None else None
+                if item_id and item_id in seen_ids:
+                    continue
+                if item_id:
+                    seen_ids.add(item_id)
+                all_raw.append(item)
+            self._logger.info("BiletimGO: kategori=%r fetched=%d total_so_far=%d", kategori, len(items), len(all_raw))
+
+        events = self._normalize(all_raw)
+        self._logger.info("BiletimGO: parsed %d events from %d categories", len(events), len(_BILETIMGO_CATEGORIES))
         return events
 
     # ------------------------------------------------------------------
-    def _fetch(self, token: str) -> Optional[list]:
+    def _fetch_category(self, scraper, token: str, kategori: str) -> Optional[list]:
         try:
-            scraper = cloudscraper.create_scraper(
-                browser={"browser": "chrome", "platform": "windows", "mobile": False}
-            )
             resp = scraper.get(
                 _API_URL,
-                params={"access_token": token},
+                params={"access_token": token, "kategori": kategori},
                 timeout=settings.biletimgo_timeout_seconds,
             )
         except Exception as exc:
-            self._logger.error("BiletimGO: connection failed (%s): %s", type(exc).__name__, exc)
+            self._logger.error("BiletimGO: connection failed kategori=%r (%s): %s", kategori, type(exc).__name__, exc)
             return None
 
         if resp.status_code != 200:
-            self._logger.error(
-                "BiletimGO: HTTP %s — body: %s",
-                resp.status_code,
-                resp.text[:500],
-            )
+            self._logger.error("BiletimGO: HTTP %s kategori=%r — body: %s", resp.status_code, kategori, resp.text[:300])
             return None
 
         try:
             data = resp.json()
-        except Exception as exc:
-            self._logger.error("BiletimGO: JSON parse failed — body: %s", resp.text[:500])
+        except Exception:
+            self._logger.error("BiletimGO: JSON parse failed kategori=%r — body: %s", kategori, resp.text[:300])
             return None
 
         if data.get("error") != "success":
-            self._logger.error("BiletimGO: API error response: %s", data.get("error"))
+            self._logger.error("BiletimGO: API error kategori=%r: %s", kategori, data.get("error"))
             return None
 
         items = data.get("data")
         if not isinstance(items, list):
-            self._logger.warning("BiletimGO: unexpected 'data' shape")
+            self._logger.warning("BiletimGO: unexpected 'data' shape kategori=%r", kategori)
             return None
 
         return items

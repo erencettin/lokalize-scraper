@@ -1,4 +1,5 @@
 _MAP: dict[str, str] = {
+    # BiletimGO canonical categories → internal type
     "konser": "concert",
     "festival": "festival",
     "sahne": "theatre",
