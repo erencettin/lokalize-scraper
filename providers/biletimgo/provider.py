@@ -49,6 +49,14 @@ _BILETIMGO_CATEGORIES = [
 ]
 
 
+def _full_unescape(text: str) -> str:
+    while True:
+        decoded = html.unescape(text)
+        if decoded == text:
+            return decoded
+        text = decoded
+
+
 def _strip_html(text: str) -> str:
     decoded = html.unescape(unquote(text))
     decoded = _BLOCK_TAG_RE.sub("\n", decoded)
@@ -200,7 +208,7 @@ class BiletimgoProvider(BaseProvider):
         return results
 
     def _build_event(self, item: dict, now_utc: datetime) -> Optional[NormalizedEvent]:
-        title = html.unescape((item.get("etkinlik") or "").strip())
+        title = _full_unescape((item.get("etkinlik") or "").strip())
         if not title:
             return None
 
@@ -220,12 +228,12 @@ class BiletimgoProvider(BaseProvider):
         raw_category = item.get("kategori") or ""
         category_id = category_map.resolve(raw_category)
 
-        address = html.unescape((item.get("adres") or "").strip())
+        address = _full_unescape((item.get("adres") or "").strip())
         city = _extract_city(address) if address else None
         if city is None:
             self._logger.debug("BiletimGO: unrecognised city in address '%s', skipping '%s'", address, title)
             return None
-        venue = html.unescape((item.get("konum") or "").strip())
+        venue = _full_unescape((item.get("konum") or "").strip())
 
         raw_detail = (item.get("detay") or "").strip()
         description = (_strip_html(raw_detail)[:4800] if raw_detail else None) or None
@@ -233,7 +241,7 @@ class BiletimgoProvider(BaseProvider):
         event_url = (item.get("url") or "").strip() or None
         image_url = (item.get("gorsel") or "").strip() or None
         external_id = str(item.get("id")) if item.get("id") is not None else None
-        organizer = html.unescape((item.get("organizator") or "").strip())
+        organizer = _full_unescape((item.get("organizator") or "").strip())
 
         source = NormalizedSource(
             provider="BiletimGO",
