@@ -26,6 +26,10 @@ from providers.biletimgo import category_map
 _API_URL = "https://www.biletimgo.com/api/v1/etkinlik-listesi"
 _TZ = pytz.timezone("Europe/Istanbul")
 _TAG_RE = re.compile(r"<[^>]+>")
+_BLOCK_TAG_RE = re.compile(
+    r"<(?:br\s*/?\s*|/?p|/?div|/?li|/?h[1-6]|/?ul|/?ol|/?section)[^>]*>",
+    re.IGNORECASE,
+)
 
 # All BiletimGO categories — one request per category ensures complete coverage.
 _BILETIMGO_CATEGORIES = [
@@ -46,7 +50,11 @@ _BILETIMGO_CATEGORIES = [
 
 def _strip_html(text: str) -> str:
     decoded = html.unescape(unquote(text))
-    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", decoded)).strip()
+    decoded = _BLOCK_TAG_RE.sub("\n", decoded)
+    cleaned = _TAG_RE.sub("", decoded)
+    lines = [re.sub(r"[ \t]+", " ", line).strip() for line in cleaned.split("\n")]
+    result = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
+    return result.strip()
 
 
 def _parse_local_dt(value: str) -> Optional[datetime]:
@@ -209,12 +217,12 @@ class BiletimgoProvider(BaseProvider):
         raw_category = item.get("kategori") or ""
         category_id = category_map.resolve(raw_category)
 
-        address = (item.get("adres") or "").strip()
+        address = html.unescape((item.get("adres") or "").strip())
         city = _extract_city(address) if address else None
         if city is None:
             self._logger.debug("BiletimGO: unrecognised city in address '%s', skipping '%s'", address, title)
             return None
-        venue = (item.get("konum") or "").strip()
+        venue = html.unescape((item.get("konum") or "").strip())
 
         raw_detail = (item.get("detay") or "").strip()
         description = (_strip_html(raw_detail)[:4800] if raw_detail else None) or None
@@ -222,7 +230,7 @@ class BiletimgoProvider(BaseProvider):
         event_url = (item.get("url") or "").strip() or None
         image_url = (item.get("gorsel") or "").strip() or None
         external_id = str(item.get("id")) if item.get("id") is not None else None
-        organizer = (item.get("organizator") or "").strip()
+        organizer = html.unescape((item.get("organizator") or "").strip())
 
         source = NormalizedSource(
             provider="BiletimGO",
