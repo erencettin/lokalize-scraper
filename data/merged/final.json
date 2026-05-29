@@ -1,81 +1,5 @@
 [
   {
-    "title": "Lvbel C5",
-    "description": null,
-    "type": "concert",
-    "city_name": "İzmir",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-29T14:30:00Z",
-        "local_date": "2026-05-29",
-        "local_time": "17:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Kali Beach Club Alaçatı",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z6HyzZyMZGkvjlDZv",
-            "title": "Lvbel C5",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CAFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CAFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-05-14T09:00:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1kGto4Pz",
-    "attraction_upcoming_count": 3,
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CAFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Sıla Kurban Bayramı Konseri",
     "description": null,
     "type": "concert",
@@ -1826,9 +1750,9 @@
   {
     "title": "Şahları Da Vururlar",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-30T17:00:00Z",
@@ -1872,7 +1796,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kod3p_O",
+    "attraction_id": "Z6HyzZyMZ1ku4j90w",
     "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -3576,7 +3500,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-05-31T18:00:00Z",
@@ -3620,7 +3544,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1k3K8tf9",
+    "attraction_id": "Z6HyzZyMZ1k8KPaAe",
     "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -3861,6 +3785,82 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SPGD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Hosted by TRAVIS SCOTT",
+    "description": null,
+    "type": "concert",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/a/900/d0e95074-2a57-4b0e-8cce-781b43a2a900_SOURCE",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-01T16:00:00Z",
+        "local_date": "2026-06-01",
+        "local_time": "19:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kalt",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkqrqvvve",
+            "title": "Hosted by TRAVIS SCOTT",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5STS0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5STS0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-05-29T10:02:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "K8vZ9178bS0",
+    "attraction_upcoming_count": 2,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5STS0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -6270,7 +6270,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-04T12:00:00Z",
@@ -6314,8 +6314,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1k8z34ee",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1A8AwuZ",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -9192,7 +9192,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-05T18:00:00Z",
@@ -9236,7 +9236,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -11322,8 +11322,8 @@
         ]
       }
     ],
-    "attraction_id": "Z5HyzZyMZAvvv",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1kvPC4-3",
+    "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -12722,7 +12722,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Ankara",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-06T18:00:00Z",
@@ -12766,7 +12766,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -14590,8 +14590,8 @@
         ]
       }
     ],
-    "attraction_id": "Z5HyzZyMZ7Faa",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1k8oobot",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -14698,7 +14698,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-07T12:00:00Z",
@@ -14742,8 +14742,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kGPOKe3",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1kuE73f-",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -15912,9 +15912,9 @@
   {
     "title": "Model",
     "description": null,
-    "type": "show",
+    "type": "concert",
     "city_name": "Konya",
-    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-07T18:00:00Z",
@@ -15958,8 +15958,8 @@
         ]
       }
     ],
-    "attraction_id": "Z7r9jZaKAW",
-    "attraction_upcoming_count": 16,
+    "attraction_id": "Z6HyzZyMZ1AoPE-O",
+    "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -16110,8 +16110,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZv6kZ",
-    "attraction_upcoming_count": 1,
+    "attraction_id": "Z6HyzZyMZ1kuNAO7P",
+    "attraction_upcoming_count": 26,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -17662,7 +17662,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-10T18:00:00Z",
@@ -17706,7 +17706,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -18268,9 +18268,9 @@
   {
     "title": "Model",
     "description": null,
-    "type": "show",
+    "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-10T18:00:00Z",
@@ -18314,8 +18314,8 @@
         ]
       }
     ],
-    "attraction_id": "Z7r9jZaKAW",
-    "attraction_upcoming_count": 16,
+    "attraction_id": "Z6HyzZyMZ1AoPE-O",
+    "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -19748,7 +19748,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-12T16:30:00Z",
@@ -19792,8 +19792,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917hCY0",
-    "attraction_upcoming_count": 1,
+    "attraction_id": "Z6HyzZyMZ1kAU4K8w",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -21420,7 +21420,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Denizli",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-12T18:00:00Z",
@@ -21464,7 +21464,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -23506,7 +23506,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/82d/b5b8bb51-9789-4b32-a124-ba492b5b482d_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-13T13:00:00Z",
@@ -23550,8 +23550,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9175IKf",
-    "attraction_upcoming_count": 12,
+    "attraction_id": "Z6HyzZyMZ1kf8C6oU",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -28144,8 +28144,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917Gtd0",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "K8vZ9171HXV",
+    "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -28404,7 +28404,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-17T18:00:00Z",
@@ -28448,7 +28448,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -29284,8 +29284,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A8AS8d",
-    "attraction_upcoming_count": 9,
+    "attraction_id": "Z6HyzZyMZ1A8aZ3v",
+    "attraction_upcoming_count": 16,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -29618,9 +29618,9 @@
   {
     "title": "Cem Erdost İleri ile PortakalAltı Buluşmaları",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "Adana",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-18T18:00:00Z",
@@ -29664,8 +29664,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1k8986b3",
-    "attraction_upcoming_count": 3,
+    "attraction_id": "Z6HyzZyMZ1k8ej6Gg",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -31596,7 +31596,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Gaziantep",
-    "image_url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-19T18:00:00Z",
@@ -31640,8 +31640,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917Q90f",
-    "attraction_upcoming_count": 3,
+    "attraction_id": "Z6HyzZyMZ1kGxpkjV",
+    "attraction_upcoming_count": 11,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -32280,7 +32280,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İzmir",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-19T18:30:00Z",
@@ -32324,8 +32324,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuv--1e",
-    "attraction_upcoming_count": 11,
+    "attraction_id": "Z6HyzZyMZ1kfVPwAx",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -32932,7 +32932,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1k77jPPZ",
+    "attraction_id": "Z6HyzZyMZ1kCeu-u3",
     "attraction_upcoming_count": 8,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -34254,9 +34254,9 @@
   {
     "title": "Maximum Sunar: Yann Tiersen",
     "description": null,
-    "type": "concert",
+    "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/c28/a0bb77bd-852d-4ca9-b299-d4c62e941c28_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-20T18:30:00Z",
@@ -34300,8 +34300,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917bUlf",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "K8vZ9175YYf",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -35778,7 +35778,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1koU4-jV",
+    "attraction_id": "Z6HyzZyMZ1k8z34ee",
     "attraction_upcoming_count": 5,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -36680,7 +36680,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Muğla",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-06-24T18:00:00Z",
@@ -36724,7 +36724,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -38006,7 +38006,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Çanakkale",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-26T12:00:00Z",
@@ -38050,8 +38050,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1koU4-jV",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1kf_C3-g",
+    "attraction_upcoming_count": 8,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -39494,7 +39494,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kAPA9rd",
+    "attraction_id": "Z6HyzZyMZ1kAOv6AI",
     "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -39982,7 +39982,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Hatay",
-    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-27T12:00:00Z",
@@ -40026,8 +40026,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917_yWV",
-    "attraction_upcoming_count": 10,
+    "attraction_id": "Z6HyzZyMZ1k3bFaoZ",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -40058,7 +40058,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-27T12:00:00Z",
@@ -40102,8 +40102,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917pYbf",
-    "attraction_upcoming_count": 3,
+    "attraction_id": "Z6HyzZyMZ1kf8oPop",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -40178,8 +40178,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1koU4-jg",
-    "attraction_upcoming_count": 3,
+    "attraction_id": "Z6HyzZyMZ1koU4-jV",
+    "attraction_upcoming_count": 5,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -40210,7 +40210,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-27T13:00:00Z",
@@ -40254,8 +40254,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A8Ayfx",
-    "attraction_upcoming_count": 1,
+    "attraction_id": "Z6HyzZyMZ1kGt-bPA",
+    "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -41774,8 +41774,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1koU4-jV",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1koU4-jg",
+    "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -42338,7 +42338,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Hatay",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-28T12:00:00Z",
@@ -42382,8 +42382,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZGxf-",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1kGto4Pz",
+    "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -42414,7 +42414,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-28T13:00:00Z",
@@ -42458,8 +42458,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kf-v0uY",
-    "attraction_upcoming_count": 1,
+    "attraction_id": "Z6HyzZyMZ1k7Avd13",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -44010,7 +44010,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-07-01T18:00:00Z",
@@ -44054,7 +44054,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -46062,7 +46062,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-05T18:00:00Z",
@@ -46106,8 +46106,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A8ASA9",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1kCeu-uo",
+    "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -46670,7 +46670,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Nevşehir",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-08T18:00:00Z",
@@ -46714,7 +46714,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -49330,7 +49330,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-07-15T18:00:00Z",
@@ -49374,7 +49374,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -50468,9 +50468,9 @@
   {
     "title": "The Cardigans, Fatma Turgut, Ankara Echoes",
     "description": null,
-    "type": "concert",
+    "type": "show",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-18T13:00:00Z",
@@ -50514,8 +50514,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kf_AIO-",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z7r9jZaKAW",
+    "attraction_upcoming_count": 16,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -51578,7 +51578,7 @@
         ]
       }
     ],
-    "attraction_id": "Z5HyzZyMZeve1",
+    "attraction_id": "Z1HyzZyMZevk",
     "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -53206,7 +53206,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/8f8/26cb202d-3153-48b8-a355-77f86c7b08f8_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/a/d84/5e68054a-976c-4225-9f63-2acc19e2bd84_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-07-25T15:00:00Z",
@@ -53250,7 +53250,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9171n_V",
+    "attraction_id": "K8vZ91715h7",
     "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -54270,7 +54270,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/bea/03d47f66-d37b-4aca-aa17-0135be64dbea_105801_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-26T18:00:00Z",
@@ -54314,8 +54314,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuPOx0o",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1A8aIq3",
+    "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -57006,7 +57006,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Muğla",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-07T18:00:00Z",
@@ -57050,8 +57050,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuv--1e",
-    "attraction_upcoming_count": 11,
+    "attraction_id": "Z6HyzZyMZ1AoPE-O",
+    "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -57310,7 +57310,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-08T18:00:00Z",
@@ -57354,8 +57354,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku38d8k",
-    "attraction_upcoming_count": 1,
+    "attraction_id": "Z6HyzZyMZ1k33eA7v",
+    "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -58298,7 +58298,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Nevşehir",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-12T18:00:00Z",
@@ -58342,7 +58342,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -59590,7 +59590,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Muğla",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-19T18:00:00Z",
@@ -59634,7 +59634,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -59970,7 +59970,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/d84/32b21c7a-0850-4477-9a0f-d9978d346d84_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-22T13:00:00Z",
@@ -60014,8 +60014,8 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ917oF50",
-    "attraction_upcoming_count": 24,
+    "attraction_id": "Z6HyzZyMZ1ko60aq6",
+    "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -60426,7 +60426,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/a/ab0/1943940a-752c-4c96-ad5e-57b02f7dcab0_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-23T13:00:00Z",
@@ -60470,7 +60470,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9173lg7",
+    "attraction_id": "Z6HyzZyMZ1ko60aq6",
     "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -60578,7 +60578,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-26T18:00:00Z",
@@ -60622,7 +60622,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -61718,7 +61718,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-09-05T18:00:00Z",
@@ -61762,7 +61762,7 @@
         ]
       }
     ],
-    "attraction_id": "Z5HyzZyMZdava",
+    "attraction_id": "ZaHyzZyMZ7e",
     "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -62174,7 +62174,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Nevşehir",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-09-09T18:00:00Z",
@@ -62218,7 +62218,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -62478,7 +62478,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Denizli",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
     "occurrences": [
       {
         "start_at_utc": "2026-09-11T18:00:00Z",
@@ -62522,7 +62522,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A88VZ-",
+    "attraction_id": "K8vZ9179rKV",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -64986,7 +64986,7 @@
     "description": null,
     "type": "concert",
     "city_name": "İzmir",
-    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-09-19T18:00:00Z",
@@ -65030,7 +65030,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1A8As7Z",
+    "attraction_id": "K8vZ9172Gd0",
     "attraction_upcoming_count": 3,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -65214,7 +65214,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Adana",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-09-19T18:00:00Z",
@@ -65258,8 +65258,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuv--1e",
-    "attraction_upcoming_count": 11,
+    "attraction_id": "Z6HyzZyMZ1AoPE-O",
+    "attraction_upcoming_count": 9,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -65746,7 +65746,7 @@
     "description": null,
     "type": "concert",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/a/12e/44e5c385-0674-4db4-bc6c-eda07b9d012e_SOURCE",
+    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-09-23T18:00:00Z",
@@ -65790,7 +65790,7 @@
         ]
       }
     ],
-    "attraction_id": "K8vZ9179rKV",
+    "attraction_id": "Z6HyzZyMZ1A88VZ-",
     "attraction_upcoming_count": 18,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -66246,7 +66246,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kAPA9rd",
+    "attraction_id": "Z6HyzZyMZ1kAOv6AI",
     "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -67842,8 +67842,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1k8obPOM",
-    "attraction_upcoming_count": 2,
+    "attraction_id": "Z6HyzZyMZ1kGMPgqZ",
+    "attraction_upcoming_count": 5,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -68222,8 +68222,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kGMPgqZ",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1k8obPOM",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -68602,7 +68602,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kfMQF7p",
+    "attraction_id": "Z6HyzZyMZ1kfMQF74",
     "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -69164,9 +69164,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "standup",
+    "type": "show",
     "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-04T17:30:00Z",
@@ -69210,7 +69210,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1AfvxFb",
+    "attraction_id": "Z6HyzZyMZ1kGgFPfb",
     "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -70958,7 +70958,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZZgOk",
+    "attraction_id": "Z6HyzZyMZ1k8xPKQv",
     "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -71262,7 +71262,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku7fZOp",
+    "attraction_id": "Z6HyzZyMZ1k8ppk48",
     "attraction_upcoming_count": 1,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -71490,7 +71490,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kufJZuP",
+    "attraction_id": "Z6HyzZyMZ1kGM07Aa",
     "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -71566,8 +71566,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ke7ft0v",
-    "attraction_upcoming_count": 3,
+    "attraction_id": "Z6HyzZyMZ1kGM07AZ",
+    "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -74408,9 +74408,9 @@
   {
     "title": "Meçhul Paşa",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-13T17:30:00Z",
@@ -74454,8 +74454,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku8GM8K",
-    "attraction_upcoming_count": 7,
+    "attraction_id": "Z6HyzZyMZ1k7ba3J4",
+    "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -75624,9 +75624,9 @@
   {
     "title": "Meçhul Paşa",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-16T17:30:00Z",
@@ -75670,8 +75670,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku8GM8K",
-    "attraction_upcoming_count": 7,
+    "attraction_id": "Z6HyzZyMZ1k7ba3J4",
+    "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -76232,9 +76232,9 @@
   {
     "title": "Meçhul Paşa",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-18T17:30:00Z",
@@ -76278,8 +76278,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku6FyAg",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1k7ba3J4",
+    "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -77220,9 +77220,9 @@
   {
     "title": "Şebbaz",
     "description": null,
-    "type": "theatre",
+    "type": "standup",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-20T17:30:00Z",
@@ -77266,8 +77266,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku8GM8K",
-    "attraction_upcoming_count": 7,
+    "attraction_id": "Z6HyzZyMZ1k7ba3J4",
+    "attraction_upcoming_count": 6,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -77646,8 +77646,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1ku-8IAS",
-    "attraction_upcoming_count": 4,
+    "attraction_id": "Z6HyzZyMZ1kuv8-b9",
+    "attraction_upcoming_count": 8,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -77828,9 +77828,9 @@
   {
     "title": "Meksika Açmazı - İyi misin?",
     "description": null,
-    "type": "standup",
+    "type": "show",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-22T17:30:00Z",
@@ -77874,8 +77874,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 16,
+    "attraction_id": "Z6HyzZyMZ1kGgFPfb",
+    "attraction_upcoming_count": 4,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -78664,9 +78664,9 @@
   {
     "title": "Boşanma Teklifi",
     "description": null,
-    "type": "standup",
+    "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-06-25T17:30:00Z",
@@ -78710,8 +78710,8 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZZojk",
-    "attraction_upcoming_count": 5,
+    "attraction_id": "Z6HyzZyMZ1k8bowfd",
+    "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
     "providers": [
@@ -80868,9 +80868,9 @@
   {
     "title": "Bir Baba Hamlet",
     "description": null,
-    "type": "theatre",
+    "type": "show",
     "city_name": "İzmir",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-07-15T18:00:00Z",
@@ -80914,7 +80914,7 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuvFx0k",
+    "attraction_id": "Z6HyzZyMZ1k8ej6Gy",
     "attraction_upcoming_count": 2,
     "source": "unknown",
     "provider": "Ticketmaster",
@@ -85350,82 +85350,6 @@
     "fetched_at": null
   },
   {
-    "title": "Miniatürk’te Bayram Etkinlikleri",
-    "description": "Miniatürk’te Bayram Etkinlikleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-29T11:00:00Z",
-        "local_date": "2026-05-29",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-302b725a9f2cadf0",
-            "title": "Miniatürk’te Bayram Etkinlikleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/miniaturkte-bayram-etkinlikleri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/miniaturkte-bayram-etkinlikleri/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Okur Yazar Buluşması",
     "description": "Okur Yazar Buluşması",
     "type": "experience",
@@ -85943,82 +85867,6 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "29 MAYIS İSTANBUL’UN FETHİ ETKİNLİKLERİ – İBB MEHTERANI EŞİLİĞİNDE EDİRNEKAPI’DAN SARAÇHANE’YE İSTANBUL’UN MUHAFIZLARI YÜRÜYÜŞÜ",
-    "description": "29 MAYIS İSTANBUL’UN FETHİ ETKİNLİKLERİ – İBB MEHTERANI EŞİLİĞİNDE EDİRNEKAPI’DAN SARAÇHANE’YE İSTANBUL’UN MUHAFIZLARI YÜRÜYÜŞÜ",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-05-29T15:00:00Z",
-        "local_date": "2026-05-29",
-        "local_time": "18:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-12a18375207e4642",
-            "title": "29 MAYIS İSTANBUL’UN FETHİ ETKİNLİKLERİ – İBB MEHTERANI EŞİLİĞİNDE EDİRNEKAPI’DAN SARAÇHANE’YE İSTANBUL’UN MUHAFIZLARI YÜRÜYÜŞÜ",
-            "description": null,
-            "source_url": "https://orkestralar.ibb.istanbul/29-mayis-istanbulun-fethi-etkinlikleri-ibb-mehterani-esiliginde-edirnekapidan-sarachaneye-istanbulun-muhafizlari-yuruyusu/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://orkestralar.ibb.istanbul/29-mayis-istanbulun-fethi-etkinlikleri-ibb-mehterani-esiliginde-edirnekapidan-sarachaneye-istanbulun-muhafizlari-yuruyusu/"
     ],
     "external_id": null,
     "category": null,
