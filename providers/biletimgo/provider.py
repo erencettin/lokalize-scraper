@@ -30,6 +30,7 @@ _BLOCK_TAG_RE = re.compile(
     r"<(?:br\s*/?\s*|/?p|/?div|/?li|/?h[1-6]|/?ul|/?ol|/?section)[^>]*>",
     re.IGNORECASE,
 )
+_BULLET_RE = re.compile(r"[ \t]*[•●][ \t]*")
 
 # All BiletimGO categories — one request per category ensures complete coverage.
 _BILETIMGO_CATEGORIES = [
@@ -52,7 +53,9 @@ def _strip_html(text: str) -> str:
     decoded = html.unescape(unquote(text))
     decoded = _BLOCK_TAG_RE.sub("\n", decoded)
     cleaned = _TAG_RE.sub("", decoded)
+    cleaned = _BULLET_RE.sub("\n• ", cleaned)
     lines = [re.sub(r"[ \t]+", " ", line).strip() for line in cleaned.split("\n")]
+    lines = [l for l in lines if l]
     result = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
     return result.strip()
 
