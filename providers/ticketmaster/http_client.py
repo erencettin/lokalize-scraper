@@ -50,19 +50,12 @@ class TicketmasterHttpClient(BaseHttpClient):
         except Exception as exc:
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
-    # Biletix Turkey uses BOTH English and Turkish segment names in the Discovery API.
-    # English segments cover international events; Turkish segments cover local Biletix events.
-    # Example: Turkish sports events use "Spor" not "Sports" → only 1 result with English query.
-    # seen_ids deduplication ensures no event is double-counted across segments.
-    # None = catch-all (no classificationName filter) to capture anything not covered above.
-    BILETIX_SEGMENTS = [
-        # English segments (international / Ticketmaster global events)
-        "Music", "Arts & Theatre", "Sports", "Family", "Miscellaneous",
-        # Turkish segments (Biletix Turkey local events)
-        "Müzik", "Spor", "Sahne", "Aile", "Eğitim & Fazlası",
-        # Catch-all
-        None,
-    ]
+    # Discovery API classificationName only accepts English segment names.
+    # Turkish names (Spor, Müzik, etc.) return 0 results — confirmed by testing.
+    # Biletix Turkey sports/family events visible on biletix.com are served via Passo
+    # or club-specific systems, NOT the Ticketmaster Discovery API inventory.
+    # None = catch-all (no classificationName filter) to capture unclassified events.
+    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Miscellaneous", None]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
         """Fetch all events by querying each Biletix segment separately."""
