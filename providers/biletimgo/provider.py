@@ -32,21 +32,9 @@ _BLOCK_TAG_RE = re.compile(
 )
 _BULLET_RE = re.compile(r"[ \t]*[•●][ \t]*")
 
-# All BiletimGO categories — one request per category ensures complete coverage.
-_BILETIMGO_CATEGORIES = [
-    "Festival",
-    "Konser",
-    "Sahne",
-    "Topluluklar",
-    "Parti",
-    "Eğitim",
-    "Kamp",
-    "Tiyatro",
-    "Stand-Up",
-    "Workshop",
-    "Çocuk Etkinlikleri",
-    "Diğer",
-]
+# BiletimGO API returns all active events in a single call.
+# The API documentation only supports access_token — no server-side category filtering.
+# Category field is present in each event and handled client-side.
 
 
 def _full_unescape(text: str) -> str:
@@ -109,17 +97,42 @@ _CITY_LOOKUP: dict[str, str] = {_normalize_key(c): c for c in _TURKISH_CITIES}
 def _extract_city(address: str) -> Optional[str]:
     """Return canonical DB city name from a Turkish address, or None if not recognised.
 
-    Searches each '/' segment from right to left so that 'District / City' and
-    'City / District / Venue' formats both resolve correctly.  NFKD normalization
+    Searches each '/' and ',' segment from right to left so that 'District / City'
+    and 'City / District / Venue' formats both resolve correctly.  NFKD normalization
     ensures Turkish İ/Ş/Ğ variants are handled robustly.
     """
-    segments = [s.strip() for s in address.split("/")]
-    # Right-to-left: city is usually the last segment in Turkish addresses.
+    # Split on both '/' and ',' to handle comma-separated address formats.
+    raw_segments = address.replace(",", "/").split("/")
+    segments = [s.strip() for s in raw_segments]
+    # Right-to-left: city is usually the last/second-last segment in Turkish addresses.
     for segment in reversed(segments):
         city = _CITY_LOOKUP.get(_normalize_key(segment))
         if city is not None:
             return city
+    # Last-resort: scan each word in the address for a city name match.
+    for word in address.replace("/", " ").replace(",", " ").split():
+        city = _CITY_LOOKUP.get(_normalize_key(word))
+        if city is not None:
+            return city
     return None
+
+
+_DEFAULT_CITY = "İstanbul"
+
+
+def _extract_city_with_fallback(address: str, venue: str) -> str:
+    """Try address first, then venue name, then return default city.
+
+    BiletimGO is a Turkish-focused platform; the majority of events are in İstanbul.
+    Returning a default prevents dropping valid events due to address parsing failures.
+    """
+    city = _extract_city(address) if address else None
+    if city:
+        return city
+    city = _extract_city(venue) if venue else None
+    if city:
+        return city
+    return _DEFAULT_CITY
 
 
 class BiletimgoProvider(BaseProvider):
@@ -140,57 +153,47 @@ class BiletimgoProvider(BaseProvider):
             browser={"browser": "chrome", "platform": "windows", "mobile": False}
         )
 
-        seen_ids: set[str] = set()
-        all_raw: list = []
-
-        for kategori in _BILETIMGO_CATEGORIES:
-            items = self._fetch_category(scraper, token, kategori)
-            if items is None:
-                continue
-            for item in items:
-                item_id = str(item.get("id")) if item.get("id") is not None else None
-                if item_id and item_id in seen_ids:
-                    continue
-                if item_id:
-                    seen_ids.add(item_id)
-                all_raw.append(item)
-            self._logger.info("BiletimGO: kategori=%r fetched=%d total_so_far=%d", kategori, len(items), len(all_raw))
+        all_raw = self._fetch_all(scraper, token)
+        if all_raw is None:
+            return []
 
         events = self._normalize(all_raw)
-        self._logger.info("BiletimGO: parsed %d events from %d categories", len(events), len(_BILETIMGO_CATEGORIES))
+        self._logger.info("BiletimGO: parsed %d events from %d raw items", len(events), len(all_raw))
         return events
 
     # ------------------------------------------------------------------
-    def _fetch_category(self, scraper, token: str, kategori: str) -> Optional[list]:
+    def _fetch_all(self, scraper, token: str) -> Optional[list]:
+        """Fetch all active events in a single API call (API only supports access_token)."""
         try:
             resp = scraper.get(
                 _API_URL,
-                params={"access_token": token, "kategori": kategori},
+                params={"access_token": token},
                 timeout=settings.biletimgo_timeout_seconds,
             )
         except Exception as exc:
-            self._logger.error("BiletimGO: connection failed kategori=%r (%s): %s", kategori, type(exc).__name__, exc)
+            self._logger.error("BiletimGO: connection failed (%s): %s", type(exc).__name__, exc)
             return None
 
         if resp.status_code != 200:
-            self._logger.error("BiletimGO: HTTP %s kategori=%r — body: %s", resp.status_code, kategori, resp.text[:300])
+            self._logger.error("BiletimGO: HTTP %s — body: %s", resp.status_code, resp.text[:300])
             return None
 
         try:
             data = resp.json()
         except Exception:
-            self._logger.error("BiletimGO: JSON parse failed kategori=%r — body: %s", kategori, resp.text[:300])
+            self._logger.error("BiletimGO: JSON parse failed — body: %s", resp.text[:300])
             return None
 
         if data.get("error") != "success":
-            self._logger.error("BiletimGO: API error kategori=%r: %s", kategori, data.get("error"))
+            self._logger.error("BiletimGO: API error: %s", data.get("error"))
             return None
 
         items = data.get("data")
         if not isinstance(items, list):
-            self._logger.warning("BiletimGO: unexpected 'data' shape kategori=%r", kategori)
+            self._logger.warning("BiletimGO: unexpected 'data' shape")
             return None
 
+        self._logger.info("BiletimGO: fetched %d raw events", len(items))
         return items
 
     def _normalize(self, items: list) -> List[NormalizedEvent]:
@@ -222,18 +225,14 @@ class BiletimgoProvider(BaseProvider):
         if start_utc < now_utc:
             return None
 
-        end_str = item.get("bitis") or ""
-        end_dt = _parse_local_dt(end_str)
-
         raw_category = item.get("kategori") or ""
         category_id = category_map.resolve(raw_category)
 
         address = _full_unescape((item.get("adres") or "").strip())
-        city = _extract_city(address) if address else None
-        if city is None:
-            self._logger.debug("BiletimGO: unrecognised city in address '%s', skipping '%s'", address, title)
-            return None
         venue = _full_unescape((item.get("konum") or "").strip())
+        city = _extract_city_with_fallback(address, venue)
+        if city == _DEFAULT_CITY and not address:
+            self._logger.debug("BiletimGO: no address for '%s', defaulting to %s", title, _DEFAULT_CITY)
 
         raw_detail = (item.get("detay") or "").strip()
         description = (_strip_html(raw_detail)[:4800] if raw_detail else None) or None

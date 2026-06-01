@@ -43,6 +43,8 @@ TICKETMASTER_CATEGORY_MAP = {
     "egitim & fazlasi": "workshop",
     "sergi": "exhibition",
     "tiyatro": "theatre",
+    # Miscellaneous segment — covers Biletix "Eğitim & Fazlası" and uncategorised events
+    "miscellaneous": "social",
 }
 
 DEFAULT_USER_AGENT = "LokalizeApp/1.0"

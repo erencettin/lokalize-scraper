@@ -51,10 +51,10 @@ class TicketmasterHttpClient(BaseHttpClient):
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
     # Ticketmaster Discovery API uses English segment names even for Biletix Turkey events.
-    # One request batch per segment ensures complete coverage across all event types.
-    # None = catch-all (no classificationName filter) to capture events under Miscellaneous
-    # or any segment/genre combination not covered by the named segments above.
-    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Education", None]
+    # Valid TM segments: Music, Sports, Arts & Theatre, Family, Miscellaneous.
+    # "Education" is not a valid TM segment — Biletix "Eğitim & Fazlası" falls under Miscellaneous.
+    # None = catch-all (no classificationName filter) to capture events not covered above.
+    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Miscellaneous", None]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
         """Fetch all events by querying each Biletix segment separately."""

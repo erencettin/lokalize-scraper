@@ -8,9 +8,9 @@ _MAP: dict[str, str] = {
     "workshop": "workshop",
     "eğitim": "workshop",
     "egitim": "workshop",
-    "topluluklar": "workshop",
-    "kamp": "festival",
-    "parti": "concert",
+    "topluluklar": "social",   # topluluk buluşması = sosyal etkinlik
+    "kamp": "workshop",        # kamp etkinlikleri genellikle eğitim/atölye amaçlı
+    "parti": "social",         # parti = sosyal eğlence, konser değil
     "çocuk etkinlikleri": "kids",
     "cocuk etkinlikleri": "kids",
     "diğer": "social",

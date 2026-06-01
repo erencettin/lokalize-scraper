@@ -221,6 +221,8 @@ class ResponseParser:
             return "kids"
         if primary_segment in ("education", "egitim", "eğitim", "eğitim & fazlası", "egitim & fazlasi"):
             return "workshop"
+        if primary_segment in ("miscellaneous",):
+            return "social"
 
         # 3. Token-based map for remaining classifications.
         tokens = " ".join(self._collect_tokens(classifications))
