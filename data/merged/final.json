@@ -109134,30 +109134,30 @@
     "fetched_at": null
   },
   {
-    "title": "Dinopark",
-    "description": "Göynük Dinopark indirimli biletleri bilet.com'da. 4 yaş ve üzeri için girişler ücretlidir.",
+    "title": "Forest Kemerburgaz",
+    "description": "Forest Kemerburgaz kapılarını açılıyor. İndirimli fiyatlar bilet.com'da.",
     "type": "activity",
-    "city_name": "Antalya",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/dinopark/dinopark-yeni.webp",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/forest-kemerburgaz/forest-logo.png",
     "occurrences": [
       {
         "start_at_utc": "2026-06-03T07:00:00Z",
         "local_date": "2026-06-03",
         "local_time": "10:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Dinopark",
+        "venue_name": "Forest Kemerburgaz",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
             "external_id": "0",
-            "title": "Dinopark",
-            "description": "Göynük Dinopark indirimli biletleri bilet.com'da. 4 yaş ve üzeri için girişler ücretlidir.",
-            "source_url": "https://www.bilet.com/etkinlik/dinopark",
+            "title": "Forest Kemerburgaz",
+            "description": "Forest Kemerburgaz kapılarını açılıyor. İndirimli fiyatlar bilet.com'da.",
+            "source_url": "https://www.bilet.com/etkinlik/forest-kemerburgaz",
             "deep_link_url": null,
             "price": {
-              "min_value": 552.0,
-              "max_value": 552.0,
+              "min_value": 750.0,
+              "max_value": 2800.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -109174,7 +109174,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/dinopark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/forest-kemerburgaz?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -109264,47 +109264,6 @@
         ]
       },
       {
-        "start_at_utc": "2026-11-21T07:00:00Z",
-        "local_date": "2026-11-21",
-        "local_time": "10:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Beşiktaş",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "0",
-            "title": "%100 Metal Sunar: Gåte",
-            "description": "%100 Metal İftiharla Sunar: Gate, \"Autumn Tour 2026\" turnesi kapsamında, ilk İstanbul konseri için 21 Kasım’da IF Performance Hall Beşiktaş sahnesine çıkıyor!",
-            "source_url": "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 890.0,
-              "max_value": 1430.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-06-27T07:00:00Z",
         "local_date": "2026-06-27",
         "local_time": "10:00",
@@ -109380,6 +109339,47 @@
             },
             "ticket_status": "on_sale",
             "ticket_url": "https://www.bilet.com/etkinlik/sila-samsun-dogu-park-amfi-tiyatro?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-21T07:00:00Z",
+        "local_date": "2026-11-21",
+        "local_time": "10:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Beşiktaş",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "0",
+            "title": "%100 Metal Sunar: Gåte",
+            "description": "%100 Metal İftiharla Sunar: Gate, \"Autumn Tour 2026\" turnesi kapsamında, ilk İstanbul konseri için 21 Kasım’da IF Performance Hall Beşiktaş sahnesine çıkıyor!",
+            "source_url": "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 890.0,
+              "max_value": 1430.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -110014,12 +110014,12 @@
     ],
     "provider_label": "bilet.com",
     "source_urls": [
-      "https://www.bilet.com/etkinlik/dinopark",
+      "https://www.bilet.com/etkinlik/forest-kemerburgaz",
       "https://www.bilet.com/etkinlik/100-metal-sunar-savatage-zorlu-psm",
       "https://www.bilet.com/etkinlik/ilyas-yalcintas-hayal-kahvesi-balikesir",
-      "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas",
       "https://www.bilet.com/etkinlik/ozcan-deniz-samsun-dogu-park-amfi-tiyatro",
       "https://www.bilet.com/etkinlik/sila-samsun-dogu-park-amfi-tiyatro",
+      "https://www.bilet.com/etkinlik/100-metal-sunar-gate-if-performance-hall-besiktas",
       "https://www.bilet.com/etkinlik/sibel-can-samsun-dogu-park-amfi-tiyatro",
       "https://www.bilet.com/etkinlik/peter-pan-on-ice-istanbul-ataturk-kultur-merkezi",
       "https://www.bilet.com/etkinlik/cinderella-on-ice-istanbul-ataturk-kultur-merkezi",
@@ -110032,15 +110032,15 @@
     ],
     "external_id": "0",
     "category": "activity",
-    "address": "Esentepe Mah. Adnan Menderes Bulvarı Dinopark Göynük-Kemer /Antalya",
-    "venue": "Dinopark",
+    "address": "Mithatpaşa, Kurt Kemeri Mesire Alanı, Çiftalan-Kemerburgaz Yolu, Davutpaşa Cd., 34075 Eyüp/İstanbul",
+    "venue": "Forest Kemerburgaz",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 36.674048,
-    "longitude": 30.557815,
+    "latitude": 41.196957,
+    "longitude": 28.915756,
     "fetched_at": null
   }
 ]
