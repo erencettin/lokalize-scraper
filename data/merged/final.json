@@ -1184,37 +1184,6 @@
             "sales_start_at": "2026-04-29T14:06:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-21ce1113508b4db9b661",
-            "title": "Deniz Tekin",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/2ypvZd2zoFxNGo1XK1gEV9",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
           }
         ]
       }
@@ -1222,19 +1191,16 @@
     "attraction_id": "Z6HyzZyMZ1k8vqUO3",
     "attraction_upcoming_count": 2,
     "source": "unknown",
-    "provider": "Ticketmaster, Google",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "SerpAPIEvents"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Google"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Google",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCAU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://open.spotify.com/concert/2ypvZd2zoFxNGo1XK1gEV9"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCAU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -14772,6 +14738,37 @@
             "sales_start_at": "2026-03-12T10:24:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-6ac785bdf6e8db57a848",
+            "title": "KARDES TURKULER",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Kardes-Tuerkueler-Tickets",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
           }
         ]
       }
@@ -14779,16 +14776,19 @@
     "attraction_id": "Z6HyzZyMZ1A8ASA7",
     "attraction_upcoming_count": 9,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Google",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK46%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Kardes-Tuerkueler-Tickets"
     ],
     "external_id": null,
     "category": null,
@@ -83534,82 +83534,6 @@
     "fetched_at": null
   },
   {
-    "title": "Aleyna Tilki 10. Yıl Konseri - Kırlar Turnesi",
-    "description": "Venue Volkswagen Arena, h5 h5 34396 İstanbul Other",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-01T08:30:21.080091Z",
-        "local_date": "2026-06-01",
-        "local_time": "11:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Belirtilmedi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-c0d4cc6b46c42ab2630b",
-            "title": "Aleyna Tilki 10. Yıl Konseri - Kırlar Turnesi",
-            "description": null,
-            "source_url": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve"
-    ],
-    "external_id": "serpapi-event-c0d4cc6b46c42ab2630b",
-    "category": "concert",
-    "address": "VOLKSWAGEN ARENA, Huzur, Maslak Ayazağa Cd. 4/A, Sarıyer/İstanbul, Türkiye",
-    "venue": null,
-    "link": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
-    "source_url": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQMC27b4lsMvHd7W-l43_KYH6Z_cmkAGfLrOglGlqBYit7hsQ0bEaZzJQ&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-06-01T08:30:21.080091Z"
-  },
-  {
     "title": "Senfoni Orkestrası Eşliğinde Zamansız Sezen Aksu...",
     "description": null,
     "type": "concert",
@@ -83683,7 +83607,159 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBhHCHIB-G-LJk0p7D2NTG6zNyOuaNXiRkGpa4ZaO93JJxWUWsx14umo&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-01T08:30:21.080091Z"
+    "fetched_at": "2026-06-02T07:20:53.911935Z"
+  },
+  {
+    "title": "Aleyna Tilki 10. Yıl Konseri - Kırlar Turnesi",
+    "description": "Venue Volkswagen Arena, h5 h5 34396 İstanbul Other",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-02T07:20:53.911935Z",
+        "local_date": "2026-06-02",
+        "local_time": "10:20",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Belirtilmedi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-c0d4cc6b46c42ab2630b",
+            "title": "Aleyna Tilki 10. Yıl Konseri - Kırlar Turnesi",
+            "description": null,
+            "source_url": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve"
+    ],
+    "external_id": "serpapi-event-c0d4cc6b46c42ab2630b",
+    "category": "concert",
+    "address": "VOLKSWAGEN ARENA, Huzur, Maslak Ayazağa Cd. 4/A, Sarıyer/İstanbul, Türkiye",
+    "venue": null,
+    "link": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
+    "source_url": "https://www.concertflow.com/tickets/Aleyna-Tilki-10.-Y%C4%B1l-Konseri---K%C4%B1rlar-Turnesi-tickets-%C4%B0stanbul?event_id=Z2HyzZyMZko9Q5vve",
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4VZByciM2m6Mk5VbMly-FzDiOM7FLabe38RmzrEmZnDELpa_gEB2_CCw&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-06-02T07:20:53.911935Z"
+  },
+  {
+    "title": "Shaggy",
+    "description": "Ticket listings for Shaggy at Istanbul Congress Center in Istanbul on 06/25/2026",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-02T07:20:53.911935Z",
+        "local_date": "2026-06-02",
+        "local_time": "10:20",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Belirtilmedi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-13ef905ffcc4f6c1470d",
+            "title": "Shaggy",
+            "description": null,
+            "source_url": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786"
+    ],
+    "external_id": "serpapi-event-13ef905ffcc4f6c1470d",
+    "category": "concert",
+    "address": "Istanbul Congress Center, Harbiye, Darülbedai Cd. No:3, Şişli/İstanbul, Türkiye",
+    "venue": null,
+    "link": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
+    "source_url": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYPT8eDFrSUEzuF7u291-cy08RmMppB8hmJuxW_ecehH6TbVknSBRI0ak&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-06-02T07:20:53.911935Z"
   },
   {
     "title": "Blind Fest at Life Park 2026",
@@ -83759,83 +83835,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVi1AZtaR5oQxzsNSzL8-A4U22LnOCZeiibxo0AyZZJkqqVr0ENZiIqUM&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-01T08:30:21.080091Z"
-  },
-  {
-    "title": "Shaggy",
-    "description": "Ticket listings for Shaggy at Istanbul Congress Center in Istanbul on 06/25/2026",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-01T08:30:21.080091Z",
-        "local_date": "2026-06-01",
-        "local_time": "11:30",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Belirtilmedi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-13ef905ffcc4f6c1470d",
-            "title": "Shaggy",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786"
-    ],
-    "external_id": "serpapi-event-13ef905ffcc4f6c1470d",
-    "category": "concert",
-    "address": "Istanbul Congress Center, Harbiye, Darülbedai Cd. No:3, Şişli/İstanbul, Türkiye",
-    "venue": null,
-    "link": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
-    "source_url": "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Shaggy-Tickets/E-160498786",
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYPT8eDFrSUEzuF7u291-cy08RmMppB8hmJuxW_ecehH6TbVknSBRI0ak&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-06-01T08:30:21.080091Z"
+    "fetched_at": "2026-06-02T07:20:53.911935Z"
   },
   {
     "title": "CEV EuroVolley 2026 Grup Aşaması Kombine",
@@ -83845,9 +83845,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-01T08:30:21.080091Z",
-        "local_date": "2026-06-01",
-        "local_time": "11:30",
+        "start_at_utc": "2026-06-02T07:20:53.911935Z",
+        "local_date": "2026-06-02",
+        "local_time": "10:20",
         "timezone": "Europe/Istanbul",
         "venue_name": "Belirtilmedi",
         "district": null,
@@ -83911,7 +83911,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc22rA7uOXxY91roex_KldylGC2p-vdW65sQKKf_8TpraIBfbHGITOLeA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-01T08:30:21.080091Z"
+    "fetched_at": "2026-06-02T07:20:53.911935Z"
   },
   {
     "title": "Mert Demirliçakmak - Stand-Up Gösterisi",
