@@ -105,12 +105,18 @@ class BiletcomHttpClient:
             self._logger.error("bilet.com: token response JSON parse failed — %s", resp.text[:200])
             return None
 
-        # Response may return token directly or nested under a key.
+        # Response shape: {"status":"success","data":{"token":"<jwt>"}}
         token: Optional[str] = None
         if isinstance(data, str):
             token = data
         elif isinstance(data, dict):
-            token = data.get("token") or data.get("access_token") or data.get("data")
+            token = data.get("token") or data.get("access_token")
+            if not token:
+                nested = data.get("data")
+                if isinstance(nested, str):
+                    token = nested
+                elif isinstance(nested, dict):
+                    token = nested.get("token") or nested.get("access_token")
 
         if not token or not isinstance(token, str):
             self._logger.error("bilet.com: unexpected token response shape: %s", str(data)[:200])
