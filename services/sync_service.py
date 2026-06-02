@@ -131,6 +131,12 @@ class SyncService:
         self.last_backend_sync_status = "success" if all_success else "partial_failure"
         return all_success
 
-    def trigger_stale_cleanup(self, sync_run_id: str):
-        """V4: Triggers lifecycle cleanup in the backend."""
-        return self._backend.deactivate_stale(sync_run_id)
+    def trigger_stale_cleanup(self, sync_run_id: str, provider: str | None = None):
+        """V4: Triggers lifecycle cleanup in the backend.
+
+        Pass provider when only one provider was synced in this run — this
+        scopes the cleanup to that provider's sources only and avoids
+        cross-killing other providers' sources.
+        Pass None (default) only when ALL providers have run together.
+        """
+        return self._backend.deactivate_stale(sync_run_id, provider=provider)

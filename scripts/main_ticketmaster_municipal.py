@@ -133,13 +133,22 @@ def main() -> int:
             _logger.error("Backend sync raised an exception provider=%s: %s", provider_name, exc)
             overall_success = False
 
-    # Trigger stale cleanup once after all providers are done.
-    # Use the last sync_run_id as a marker (cleanup is idempotent).
-    if last_sync_run_id:
+    # Trigger provider-scoped stale cleanup for each provider that ran.
+    # Provider-scoped cleanup only deactivates stale sources for that specific
+    # provider — avoids cross-killing other providers' sources (e.g. bilet.com).
+    cleanup_map = {
+        "Ticketmaster": ("Ticketmaster", tm_events),
+        "MunicipalRSS": ("MunicipalRSS", rss_events),
+        "MunicipalWeb": ("MunicipalWeb", web_events),
+    }
+    for provider_name, (provider_key, events) in cleanup_map.items():
+        if not events:
+            continue
+        cleanup_run_id = f"{provider_name.lower()}-cleanup-{datetime.now().strftime('%H%M%S')}"
         try:
-            sync_service.trigger_stale_cleanup(last_sync_run_id)
+            sync_service.trigger_stale_cleanup(cleanup_run_id, provider=provider_key)
         except Exception as exc:
-            _logger.error("Stale cleanup failed: %s", exc)
+            _logger.error("Stale cleanup failed provider=%s: %s", provider_name, exc)
 
     _logger.info("=== Ticketmaster & Municipal sync finished ===")
     return 0 if overall_success else 1

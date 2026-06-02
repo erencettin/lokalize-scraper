@@ -72,9 +72,11 @@ class BackendClient:
             logging.error("Error connecting to backend: %s", exc)
             return False
 
-    def deactivate_stale(self, sync_run_id: str) -> bool:
+    def deactivate_stale(self, sync_run_id: str, provider: str | None = None) -> bool:
         """
         Triggers the stale data cleanup lifecycle in the backend.
+        Pass provider to scope cleanup to a single provider (recommended for
+        individual-provider scripts). Pass None only when ALL providers have run.
         Skip safely when backend sync is disabled for this environment.
         """
         if not self.enabled:
@@ -82,6 +84,8 @@ class BackendClient:
             return True
 
         url = f"{self.base_url}/api/migration/deactivate-stale?syncRunId={sync_run_id}"
+        if provider:
+            url += f"&provider={provider}"
         try:
             response = self.session.post(url, timeout=30)
             return 200 <= response.status_code < 300

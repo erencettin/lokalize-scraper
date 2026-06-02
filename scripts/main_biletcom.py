@@ -91,7 +91,7 @@ def main() -> int:
         return 1
 
     try:
-        sync_service.trigger_stale_cleanup(sync_run_id)
+        sync_service.trigger_stale_cleanup(sync_run_id, provider="bilet.com")
     except Exception as exc:
         _logger.error("Stale cleanup failed: %s", exc)
 

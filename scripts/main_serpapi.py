@@ -91,7 +91,7 @@ def main() -> int:
             _logger.info("Backend sync completed successfully")
         else:
             _logger.error("Backend sync reported failure")
-        sync_service.trigger_stale_cleanup(sync_run_id)
+        sync_service.trigger_stale_cleanup(sync_run_id, provider="SerpAPI")
     except Exception as exc:
         _logger.error("Backend sync raised an exception: %s", exc)
         return 1
