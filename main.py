@@ -6,6 +6,7 @@ from providers.ticketmaster import TicketmasterProvider
 from providers.municipal_rss import MunicipalRssProvider
 from providers.municipal_web import MunicipalWebProvider
 from providers.biletimgo import BiletimgoProvider
+from providers.biletcom import BiletcomProvider
 
 from services.sync_service import SyncService
 from services.events_sync_service import EventsSyncService
@@ -65,6 +66,7 @@ def main():
         MunicipalRssProvider(),
         MunicipalWebProvider(),
         BiletimgoProvider(),
+        BiletcomProvider(),
     ]
 
     # Filter providers if requested

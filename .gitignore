@@ -1,27 +1,60 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 .env
+.env.*
 .venv/
 .venv
 venv/
 env/
+
+# Test / coverage
 .pytest_cache/
 .coverage
 htmlcov/
-dist/
-build/
-*.egg-info/
+
+# OS
 .DS_Store
-# Supabase Local
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Supabase local dev
 .supabase/
 
-# Generated debug/probe/test outputs
+# Ad-hoc debug/probe outputs (not part of the scraper pipeline)
 artifacts/
+*.log
+jolly_*.log
 err.txt
 error_dump.txt
-jolly_*.log
-*.log
+check_out.txt
+melanie.json
 
-# Development/debug scripts (not part of the scraper pipeline)
+# Ad-hoc debug scripts at repo root
+test.py
+test2.py
+tm_debug.py
+tmp_debug_tribe.py
+test_feed_smoke.py
+test_price_extraction.py
+
+# Platform-specific helper scripts
+*.bat
+
+# Development-only scripts (not part of production pipeline)
 scripts/smoke_test_*.py
 check_db.py
+
+# Postman collections may contain hardcoded API credentials — never commit
+*.postman_collection.json
+*.postman_environment.json

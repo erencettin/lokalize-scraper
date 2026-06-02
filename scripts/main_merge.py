@@ -20,6 +20,7 @@ from utils.provider_enrichment import build_provider_payload
 _TM_EVENTS_PATH = _ROOT / "data" / "ticketmaster_municipal" / "events.json"
 _SERPAPI_EVENTS_PATH = _ROOT / "data" / "serpapi" / "events.json"
 _BILETIMGO_EVENTS_PATH = _ROOT / "data" / "biletimgo" / "events.json"
+_BILETCOM_EVENTS_PATH = _ROOT / "data" / "biletcom" / "events.json"
 _OUT_DIR = _ROOT / "data" / "merged"
 
 
@@ -128,6 +129,7 @@ def _compute_stats(
     tm_count: int,
     serpapi_count: int,
     biletimgo_count: int,
+    biletcom_count: int,
     overlap_count: int,
 ) -> dict:
     multi_provider = sum(1 for r in merged if len(r.get("providers") or []) > 1)
@@ -140,11 +142,12 @@ def _compute_stats(
 
     return {
         "total_events": len(merged),
-        "total_events_before_dedup": tm_count + serpapi_count + biletimgo_count,
+        "total_events_before_dedup": tm_count + serpapi_count + biletimgo_count + biletcom_count,
         "total_events_after_dedup": len(merged),
         "ticketmaster_municipal_count": tm_count,
         "serpapi_count": serpapi_count,
         "biletimgo_count": biletimgo_count,
+        "biletcom_count": biletcom_count,
         "overlap_count": overlap_count,
         "multi_provider_event_count": multi_provider,
         "provider_combo_counts": dict(sorted(provider_combo.items())),
@@ -175,8 +178,9 @@ def main() -> int:
     tm_events = _load_json(_TM_EVENTS_PATH)
     serpapi_events = _load_json(_SERPAPI_EVENTS_PATH)
     biletimgo_events = _load_json(_BILETIMGO_EVENTS_PATH)
+    biletcom_events = _load_json(_BILETCOM_EVENTS_PATH)
 
-    print(f"Loaded tm_municipal={len(tm_events)} serpapi={len(serpapi_events)} biletimgo={len(biletimgo_events)}")
+    print(f"Loaded tm_municipal={len(tm_events)} serpapi={len(serpapi_events)} biletimgo={len(biletimgo_events)} biletcom={len(biletcom_events)}")
 
     # Start merged list from TM/Municipal (deep copy)
     merged: List[dict] = [deepcopy(r) for r in tm_events]
@@ -186,7 +190,7 @@ def main() -> int:
 
     overlap_count = 0
 
-    for serpapi_record in serpapi_events + biletimgo_events:
+    for serpapi_record in serpapi_events + biletimgo_events + biletcom_events:
         match_idx = MatchingService.find_event_match_index(
             record=serpapi_record,
             merged_records=merged,
@@ -224,7 +228,7 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    stats = _compute_stats(merged, len(tm_events), len(serpapi_events), len(biletimgo_events), overlap_count)
+    stats = _compute_stats(merged, len(tm_events), len(serpapi_events), len(biletimgo_events), len(biletcom_events), overlap_count)
     (_OUT_DIR / "stats.json").write_text(
         json.dumps(stats, ensure_ascii=False, indent=2),
         encoding="utf-8",

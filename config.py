@@ -72,6 +72,14 @@ class Settings(BaseSettings):
     biletimgo_enabled: bool = Field(False, alias="BILETIMGO_ENABLED")
     biletimgo_timeout_seconds: int = Field(20, alias="BILETIMGO_TIMEOUT_SECONDS")
 
+    # Bilet.com Affiliate API Config
+    biletcom_enabled: bool = Field(False, alias="BILETCOM_ENABLED")
+    biletcom_client_id: str = Field("", alias="BILETCOM_CLIENT_ID")
+    biletcom_client_secret: str = Field("", alias="BILETCOM_CLIENT_SECRET")
+    biletcom_timeout_seconds: int = Field(20, alias="BILETCOM_TIMEOUT_SECONDS")
+    biletcom_detail_workers: int = Field(5, alias="BILETCOM_DETAIL_WORKERS")
+    biletcom_lookahead_days: int = Field(120, alias="BILETCOM_LOOKAHEAD_DAYS")
+
     # SerpAPI Nearby Config
     serpapi_api_key: str = Field("", alias="SERPAPI_API_KEY")
     serpapi_city: str = Field("Istanbul", alias="SERPAPI_CITY")
