@@ -194,12 +194,15 @@ class EventBuilder:
             #   - Her sync aynı tarihi gönderir → FindOccurrence tutarlı eşleşir
             #   - StartAtUtc=None → backend query'de "null path" (her filtre için görünür)
             #   - LocalStartDate=2099-12-31 > today → lifecycle servisi deaktive etmez
+            # venue_name="" → normalizedVenue="" → FindOccurrence venue koşulunu
+            # atlar, sadece LocalStartDate=2099-12-31 üzerinden eşleşir.
+            # venue.name API'den çağrıya çağrı değişebileceği için boş bırakılır.
             occurrences.append(NormalizedOccurrence(
                 start_at_utc=None,
                 local_date=_ONGOING_LOCAL_DATE,
                 local_time=None,
                 timezone="Europe/Istanbul",
-                venue_name=(venue.name if venue else title),
+                venue_name="",
                 district=None,
                 sources=[source],
             ))
