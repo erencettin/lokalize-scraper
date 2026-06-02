@@ -20,7 +20,11 @@ MAX_RETRY_BACKOFF_SECONDS = 30
 # HTTP status codes that warrant a retry
 RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
-# Sentinel time for ongoing attractions (hour of day in 24h)
-ONGOING_ATTRACTION_HOUR = 10
+# Sentinel LocalStartDate for ongoing/date-selectable attractions.
+# Using a far-future date ensures:
+#   - FindOccurrence always finds the same occurrence across syncs
+#   - EventLifecycleService never deactivates (2099 > today always)
+#   - Backend query (StartAtUtc==null path) shows event in all date filters
+ONGOING_SENTINEL_DATE = "2099-12-31"
 
 ERROR_PREVIEW_LENGTH = 300

@@ -63,7 +63,7 @@ class SyncService:
                         "venueName": occurrence.venue_name,
                         "localStartDate": occurrence.local_date,
                         "localStartTime": occurrence.local_time,
-                        "startAtUtc": occurrence.start_at_utc.isoformat(),
+                        "startAtUtc": occurrence.start_at_utc.isoformat() if occurrence.start_at_utc else None,
                         "sourceUrl": str(source.source_url),
                         "minPrice": resolved_min,
                         "maxPrice": resolved_max,

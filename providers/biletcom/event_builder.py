@@ -19,11 +19,12 @@ from models.normalized_event import (
     PriceResolution,
 )
 from providers.biletcom import category_map
-from providers.biletcom.constants import ONGOING_ATTRACTION_HOUR
+from providers.biletcom.constants import ONGOING_SENTINEL_DATE
 from providers.biletcom.models import BiletcomActivity, BiletcomListing, BiletcomOption, BiletcomVenue
 
 _TZ = pytz.timezone("Europe/Istanbul")
 _DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
+_ONGOING_LOCAL_DATE = ONGOING_SENTINEL_DATE  # "2099-12-31"
 _TAG_RE = re.compile(r"<[^>]+>")
 _BLOCK_TAG_RE = re.compile(
     r"<(?:br\s*/?\s*|/?p|/?div|/?li|/?h[1-6]|/?ul|/?ol)[^>]*>",
@@ -65,23 +66,14 @@ def _city_from_venue(venue: Optional[BiletcomVenue]) -> str:
 
 
 def _parse_date_str(date_str: str) -> Optional[datetime]:
-    """Parse YYYY-MM-DD into a timezone-aware local datetime at ONGOING_ATTRACTION_HOUR."""
+    """Parse YYYY-MM-DD into a timezone-aware local datetime at noon."""
     try:
         naive = datetime.strptime(date_str[:10], "%Y-%m-%d").replace(
-            hour=ONGOING_ATTRACTION_HOUR, minute=0, second=0, microsecond=0
+            hour=12, minute=0, second=0, microsecond=0
         )
         return _TZ.localize(naive)
     except ValueError:
         return None
-
-
-def _synthetic_tomorrow() -> datetime:
-    """Return tomorrow at ONGOING_ATTRACTION_HOUR in Istanbul time."""
-    now_local = datetime.now(_TZ)
-    tomorrow = (now_local + timedelta(days=1)).replace(
-        hour=ONGOING_ATTRACTION_HOUR, minute=0, second=0, microsecond=0
-    )
-    return tomorrow
 
 
 def _extract_dates(activity: BiletcomActivity, options: List[BiletcomOption]) -> List[datetime]:
@@ -192,24 +184,37 @@ class EventBuilder:
 
         dates = _extract_dates(activity, options)
         is_ongoing = not dates
-        if is_ongoing:
-            dates = [_synthetic_tomorrow()]
 
         image_url: Optional[str] = activity.logo or (activity.photos[0] if activity.photos else None)
 
         occurrences: List[NormalizedOccurrence] = []
-        for dt in dates:
-            dt_utc = dt.astimezone(pytz.UTC)
-            occ = NormalizedOccurrence(
-                start_at_utc=dt_utc,
-                local_date=dt.strftime("%Y-%m-%d"),
-                local_time=dt.strftime("%H:%M"),
+        if is_ongoing:
+            # Sürekli açık / tarih seçilebilir mekan.
+            # Sentinel tarih (2099-12-31) kullanılır:
+            #   - Her sync aynı tarihi gönderir → FindOccurrence tutarlı eşleşir
+            #   - StartAtUtc=None → backend query'de "null path" (her filtre için görünür)
+            #   - LocalStartDate=2099-12-31 > today → lifecycle servisi deaktive etmez
+            occurrences.append(NormalizedOccurrence(
+                start_at_utc=None,
+                local_date=_ONGOING_LOCAL_DATE,
+                local_time=None,
                 timezone="Europe/Istanbul",
                 venue_name=(venue.name if venue else title),
                 district=None,
                 sources=[source],
-            )
-            occurrences.append(occ)
+            ))
+        else:
+            for dt in dates:
+                dt_utc = dt.astimezone(pytz.UTC)
+                occurrences.append(NormalizedOccurrence(
+                    start_at_utc=dt_utc,
+                    local_date=dt.strftime("%Y-%m-%d"),
+                    local_time=dt.strftime("%H:%M"),
+                    timezone="Europe/Istanbul",
+                    venue_name=(venue.name if venue else title),
+                    district=None,
+                    sources=[source],
+                ))
 
         if not occurrences:
             return None

@@ -168,9 +168,9 @@ class NormalizedSource(BaseModel):
 
 
 class NormalizedOccurrence(BaseModel):
-    start_at_utc: datetime
+    start_at_utc: Optional[datetime] = None   # None for ongoing/date-selectable attractions
     local_date: str  # YYYY-MM-DD
-    local_time: str  # HH:MM
+    local_time: Optional[str] = None           # None for ongoing/date-selectable attractions
     timezone: str = "Europe/Istanbul"
     venue_name: str
     district: Optional[str] = None
