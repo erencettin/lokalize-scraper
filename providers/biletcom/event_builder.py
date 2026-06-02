@@ -171,7 +171,7 @@ class EventBuilder:
 
         source = NormalizedSource(
             provider="bilet.com",
-            external_id=str(activity.id),
+            external_id=str(listing.id),  # listing.id always unique; activity.id may be 0
             title=title,
             description=description,
             source_url=source_url,
@@ -242,7 +242,7 @@ class EventBuilder:
             source="bilet.com",
             providers=["bilet.com"],
             provider_label="bilet.com",
-            external_id=str(activity.id),
+            external_id=str(listing.id),  # listing.id always unique; activity.id may be 0
             address=(venue.address if venue else None),
             venue=(venue.name if venue else None),
             latitude=lat,
