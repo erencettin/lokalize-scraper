@@ -56,6 +56,52 @@ def _strip_html(text: str) -> str:
     return result.strip()
 
 
+_FIYAT_RANGE_RE = re.compile(r"^\s*(\d[\d.,]*)\s*[-–]\s*(\d[\d.,]*)\s*$")
+_FIYAT_SINGLE_RE = re.compile(r"^\s*(\d[\d.,]*)\s*$")
+
+
+def _parse_fiyat(fiyat: Optional[str]) -> PriceInfo:
+    """Parse biletimGO 'fiyat' field into PriceInfo.
+
+    Formats (from API docs):
+      "450"              → min=max=450
+      "300 - 500"        → min=300, max=500
+      "Aktif Bilet Yok"  → is_unknown=True
+      None / ""          → is_unknown=True
+    """
+    if not fiyat:
+        return PriceInfo(is_unknown=True)
+
+    raw = fiyat.strip()
+    lower = raw.lower()
+
+    if not any(c.isdigit() for c in raw):
+        # "Aktif Bilet Yok" or any non-numeric string
+        return PriceInfo(is_unknown=True)
+
+    if "ücretsiz" in lower or raw == "0":
+        return PriceInfo(min_value=0, max_value=0, currency="TRY", is_free=True, is_unknown=False)
+
+    m = _FIYAT_RANGE_RE.match(raw)
+    if m:
+        try:
+            min_v = float(m.group(1).replace(",", "."))
+            max_v = float(m.group(2).replace(",", "."))
+            return PriceInfo(min_value=min_v, max_value=max_v, currency="TRY", is_free=False, is_unknown=False)
+        except ValueError:
+            pass
+
+    m = _FIYAT_SINGLE_RE.match(raw)
+    if m:
+        try:
+            val = float(m.group(1).replace(",", "."))
+            return PriceInfo(min_value=val, max_value=val, currency="TRY", is_free=False, is_unknown=False)
+        except ValueError:
+            pass
+
+    return PriceInfo(is_unknown=True)
+
+
 def _parse_local_dt(value: str) -> Optional[datetime]:
     for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
         try:
@@ -241,6 +287,8 @@ class BiletimgoProvider(BaseProvider):
         image_url = (item.get("gorsel") or "").strip() or None
         external_id = str(item.get("id")) if item.get("id") is not None else None
         organizer = _full_unescape((item.get("organizator") or "").strip())
+        fiyat_raw = (item.get("fiyat") or "").strip() or None
+        price = _parse_fiyat(fiyat_raw)
 
         source = NormalizedSource(
             provider="BiletimGO",
@@ -248,7 +296,7 @@ class BiletimgoProvider(BaseProvider):
             title=title,
             source_url=event_url or _API_URL,
             ticket_url=event_url,
-            price=PriceInfo(is_unknown=True),
+            price=price,
             brand_name=organizer or "biletimGO",
             is_official_seller=True,
         )
