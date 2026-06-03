@@ -202,7 +202,7 @@ class EventBuilder:
                 local_date=_ONGOING_LOCAL_DATE,
                 local_time=None,
                 timezone="Europe/Istanbul",
-                venue_name="",
+                venue_name=(venue.name if venue else ""),
                 district=None,
                 sources=[source],
             ))
