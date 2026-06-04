@@ -276,7 +276,10 @@ class BiletimgoProvider(BaseProvider):
 
         address = _full_unescape((item.get("adres") or "").strip())
         venue = _full_unescape((item.get("konum") or "").strip())
-        city = _extract_city_with_fallback(address, venue)
+        sehir_raw = _full_unescape((item.get("sehir") or "").strip())
+        city = _CITY_LOOKUP.get(_normalize_key(sehir_raw)) if sehir_raw else None
+        if not city:
+            city = _extract_city_with_fallback(address, venue)
         if city == _DEFAULT_CITY and not address:
             self._logger.debug("BiletimGO: no address for '%s', defaulting to %s", title, _DEFAULT_CITY)
 
