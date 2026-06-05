@@ -108,6 +108,11 @@ class TicketmasterHttpClient(BaseHttpClient):
             if total_pages is not None and page >= total_pages:
                 break
 
+            # Catch-all segment (no classificationName) hits 400 at page 6 due to
+            # Ticketmaster's lower pagination depth limit for unfiltered queries.
+            if segment is None and page >= 5:
+                break
+
             max_pages = settings.ticketmaster_max_pages
             if max_pages > 0 and page >= max_pages:
                 break
