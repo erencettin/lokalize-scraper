@@ -131,13 +131,13 @@ class TicketmasterHttpClient(BaseHttpClient):
         params: Dict[str, Any] = {
             "apikey": settings.ticketmaster_api_key,
             "countryCode": settings.ticketmaster_country_code,
-            "locale": "tr,*",
             "size": max(settings.ticketmaster_size, 1),
             "page": page,
             "sort": DEFAULT_SORT,
         }
         if classification_name:
             params["classificationName"] = classification_name
+            params["locale"] = "tr,*"
         response = self._request_with_retry(
             f"{BASE_URL}{EVENTS_ENDPOINT}",
             params,
