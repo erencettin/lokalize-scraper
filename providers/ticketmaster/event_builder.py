@@ -133,8 +133,15 @@ _TM_CITY_MAP: dict[str, str] = {
 
 
 def _normalize_city_key(text: str) -> str:
-    """Lowercase and strip combining characters (handles Turkish İ → i)."""
-    nfkd = unicodedata.normalize("NFKD", text.strip().lower())
+    """Lowercase and strip combining characters for city map lookup.
+
+    Turkish dotless-i (ı, U+0131) has no NFKD decomposition so it survives
+    the combining-char filter unchanged. Map keys use plain ASCII 'i', so we
+    must replace ı→i before normalising, otherwise cities like Balıkesir,
+    Diyarbakır, Aydın, Kırklareli all miss the lookup and events get dropped.
+    """
+    lowered = text.strip().lower().replace("ı", "i")
+    nfkd = unicodedata.normalize("NFKD", lowered)
     return "".join(c for c in nfkd if not unicodedata.combining(c))
 
 
