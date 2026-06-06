@@ -52,17 +52,16 @@ class TicketmasterHttpClient(BaseHttpClient):
 
     # Each entry: (label, api_param_key, api_param_value)
     # segmentId is preferred — stable across locales, unlike classificationName string matching.
-    # Miscellaneous uses classificationName because its segment ID is not in public Discovery docs.
-    # E-Sports uses classificationName at genre level to catch events not attached to a segment.
+    # Segments confirmed via classifications.json: Music(nJ), Arts&Theatre(na), Sports(nE), Miscellaneous(n1).
+    # There is no separate Family segment; Family is a genre (KnvZfZ7vA1n) within Miscellaneous.
+    # E-Sports is a genre within Sports (KnvZfZ7vAJF); Sports segmentId already captures it.
     # None entry = catch-all (no filter) for unclassified events; stops naturally on empty page or 400.
     BILETIX_QUERIES: list = [
-        ("Music",           "segmentId",          "KZFzniwnSyZfZ7v7nJ"),
-        ("Arts & Theatre",  "segmentId",          "KZFzniwnSyZfZ7v7na"),
-        ("Sports",          "segmentId",          "KZFzniwnSyZfZ7v7nE"),
-        ("Family",          "segmentId",          "KZFzniwnSyZfZ7v7n1"),
-        ("Miscellaneous",   "classificationName",  "Miscellaneous"),
-        ("E-Sports",        "classificationName",  "E-Sports"),
-        (None,              None,                  None),
+        ("Music",           "segmentId",  "KZFzniwnSyZfZ7v7nJ"),
+        ("Arts & Theatre",  "segmentId",  "KZFzniwnSyZfZ7v7na"),
+        ("Sports",          "segmentId",  "KZFzniwnSyZfZ7v7nE"),
+        ("Miscellaneous",   "segmentId",  "KZFzniwnSyZfZ7v7n1"),
+        (None,              None,         None),
     ]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
