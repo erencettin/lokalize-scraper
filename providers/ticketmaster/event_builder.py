@@ -156,24 +156,35 @@ class EventBuilder:
     def build(self, item: RawTicketmasterEvent) -> Optional[NormalizedEvent]:
         """Build one normalized event or return None when essential data is missing."""
         if not item.event_id or not item.title:
+            self._logger.info(
+                "Ticketmaster: skip reason=missing_id_or_title event_id=%r title=%r",
+                item.event_id, item.title,
+            )
             return None
         # Prefer affiliate URL from feed (primaryEventUrl); fall back to plain source URL.
         # Do NOT construct fake evyy deep links — the format is proprietary and breaks.
         effective_url = item.primary_event_url or item.source_url
         if not effective_url or not effective_url.startswith("http"):
+            self._logger.info(
+                "Ticketmaster: skip event_id=%s title=%r reason=no_valid_url primary=%r source=%r",
+                item.event_id, item.title, item.primary_event_url, item.source_url,
+            )
             return None
 
         city_name = _resolve_city(item.venue_city)
         if city_name is None:
-            self._logger.debug(
-                "Ticketmaster: skip event_id=%s reason=unrecognised_city venue_city=%r",
-                item.event_id, item.venue_city,
+            self._logger.info(
+                "Ticketmaster: skip event_id=%s title=%r reason=unrecognised_city venue_city=%r",
+                item.event_id, item.title, item.venue_city,
             )
             return None
 
         start_at_utc = self._extract_datetime(item)
         if start_at_utc is None:
-            self._logger.info("Ticketmaster: skip event_id=%s reason=missing_or_invalid_date", item.event_id)
+            self._logger.info(
+                "Ticketmaster: skip event_id=%s title=%r reason=missing_or_invalid_date",
+                item.event_id, item.title,
+            )
             return None
         price = self._build_price(item)
         occurrence = self._build_occurrence(item, start_at_utc, price, effective_url)

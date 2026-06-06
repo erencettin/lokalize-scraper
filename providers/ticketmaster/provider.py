@@ -74,6 +74,7 @@ class TicketmasterProvider(BaseProvider):
         import concurrent.futures
         parsed: List[NormalizedEvent] = []
         skipped = 0
+        deduped = 0
         seen: Set[str] = set()
         with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
             for normalized in executor.map(self._normalize_with_detail, raw_events):
@@ -82,20 +83,34 @@ class TicketmasterProvider(BaseProvider):
                     continue
                 key = self._dedup_key(normalized)
                 if key in seen:
+                    deduped += 1
                     continue
                 seen.add(key)
                 parsed.append(normalized)
+        self._logger.info(
+            "Ticketmaster: normalize done raw=%s parsed=%s skipped=%s deduped=%s",
+            len(raw_events), len(parsed), skipped, deduped,
+        )
         return parsed, skipped
 
     def _normalize_with_detail(self, raw_event: Dict[str, Any]) -> Optional[NormalizedEvent]:
         item = self._parser.parse_event(raw_event)
         if item is None:
+            self._logger.info(
+                "Ticketmaster: skip reason=parse_failed raw_id=%r",
+                raw_event.get("id") or raw_event.get("eventId"),
+            )
             return None
         item = self._price_extractor.enrich_with_detail(item, self._http, item.event_id)
         normalized = self._builder.build(item)
         if normalized is None:
             return None
         if not self._is_within_lookahead(normalized.occurrences[0].start_at_utc):
+            self._logger.info(
+                "Ticketmaster: skip event_id=%s title=%r reason=outside_lookahead date=%s",
+                item.event_id, item.title,
+                normalized.occurrences[0].start_at_utc.date(),
+            )
             return None
         return normalized
 
