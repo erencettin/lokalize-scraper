@@ -52,15 +52,20 @@ class TicketmasterHttpClient(BaseHttpClient):
 
     # Each entry: (label, api_param_key, api_param_value)
     # segmentId is preferred — stable across locales, unlike classificationName string matching.
-    # Segments confirmed via classifications.json: Music(nJ), Arts&Theatre(na), Sports(nE), Miscellaneous(n1).
-    # There is no separate Family segment; Family is a genre (KnvZfZ7vA1n) within Miscellaneous.
-    # E-Sports is a genre within Sports (KnvZfZ7vAJF); Sports segmentId already captures it.
-    # None entry = catch-all (no filter) for unclassified events; stops naturally on empty page or 400.
+    # All 6 TM segments confirmed via classifications.json:
+    #   Music(nJ), Arts&Theatre(na), Sports(nE), Miscellaneous(n1), Film(nn), Undefined(nl).
+    # Family has no segment; it is a genre (KnvZfZ7vA1n) inside Miscellaneous — already covered.
+    # E-Sports is a genre inside Sports (KnvZfZ7vAJF) — already covered by Sports segmentId.
+    # Film → maps to "cinema" category via TICKETMASTER_CATEGORY_MAP.
+    # Undefined → only genre is "Undefined/Undefined"; maps to default "show" type.
+    # None entry = catch-all (no filter) for any remaining untagged events.
     BILETIX_QUERIES: list = [
         ("Music",           "segmentId",  "KZFzniwnSyZfZ7v7nJ"),
         ("Arts & Theatre",  "segmentId",  "KZFzniwnSyZfZ7v7na"),
         ("Sports",          "segmentId",  "KZFzniwnSyZfZ7v7nE"),
         ("Miscellaneous",   "segmentId",  "KZFzniwnSyZfZ7v7n1"),
+        ("Film",            "segmentId",  "KZFzniwnSyZfZ7v7nn"),
+        ("Undefined",       "segmentId",  "KZFzniwnSyZfZ7v7nl"),
         (None,              None,         None),
     ]
 
