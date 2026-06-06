@@ -50,42 +50,57 @@ class TicketmasterHttpClient(BaseHttpClient):
         except Exception as exc:
             self._logger.warning("Ticketmaster: session close failed reason=%s", self._safe_error(exc))
 
-    # Discovery API classificationName only accepts English segment names.
-    # Turkish names (Spor, Müzik, etc.) return 0 results — confirmed by testing.
-    # Biletix Turkey sports/family events visible on biletix.com are served via Passo
-    # or club-specific systems, NOT the Ticketmaster Discovery API inventory.
-    # None = catch-all (no classificationName filter) to capture unclassified events.
-    BILETIX_SEGMENTS = ["Music", "Arts & Theatre", "Sports", "Family", "Miscellaneous", None]
+    # Each entry: (label, api_param_key, api_param_value)
+    # segmentId is preferred — stable across locales, unlike classificationName string matching.
+    # Miscellaneous uses classificationName because its segment ID is not in public Discovery docs.
+    # E-Sports uses classificationName at genre level to catch events not attached to a segment.
+    # None entry = catch-all (no filter) for unclassified events; stops naturally on empty page or 400.
+    BILETIX_QUERIES: list = [
+        ("Music",           "segmentId",          "KZFzniwnSyZfZ7v7nJ"),
+        ("Arts & Theatre",  "segmentId",          "KZFzniwnSyZfZ7v7na"),
+        ("Sports",          "segmentId",          "KZFzniwnSyZfZ7v7nE"),
+        ("Family",          "segmentId",          "KZFzniwnSyZfZ7v7n1"),
+        ("Miscellaneous",   "classificationName",  "Miscellaneous"),
+        ("E-Sports",        "classificationName",  "E-Sports"),
+        (None,              None,                  None),
+    ]
 
     def fetch_all_pages(self) -> List[Dict[str, Any]]:
-        """Fetch all events by querying each Biletix segment separately."""
+        """Fetch all events by querying each Biletix segment/genre query separately."""
         seen_ids: Set[str] = set()
         all_events: List[Dict[str, Any]] = []
         total_pages_fetched = 0
 
-        for segment in self.BILETIX_SEGMENTS:
-            segment_events, pages = self._fetch_segment(segment, seen_ids)
+        for label, param_key, param_value in self.BILETIX_QUERIES:
+            segment_events, pages = self._fetch_segment(label, param_key, param_value, seen_ids)
             all_events.extend(segment_events)
             total_pages_fetched += pages
             self._logger.info(
                 "Ticketmaster: segment=%r pages=%s events=%s total_so_far=%s",
-                segment, pages, len(segment_events), len(all_events),
+                label, pages, len(segment_events), len(all_events),
             )
 
         self.last_fetched_pages = total_pages_fetched
         self._logger.info("Ticketmaster: all segments done total_pages=%s unique_events=%s", total_pages_fetched, len(all_events))
         return all_events
 
-    def _fetch_segment(self, segment: Optional[str], seen_ids: Set[str]) -> tuple[List[Dict[str, Any]], int]:
-        """Fetch all pages for a single classification segment."""
+    def _fetch_segment(
+        self,
+        label: Optional[str],
+        param_key: Optional[str],
+        param_value: Optional[str],
+        seen_ids: Set[str],
+    ) -> tuple[List[Dict[str, Any]], int]:
+        """Fetch all pages for a single classification query (segment ID, name, or genre)."""
         events: List[Dict[str, Any]] = []
         page = 0
         total_pages: Optional[int] = None
 
         while True:
-            payload = self.fetch_page(page, classification_name=segment)
+            payload = self.fetch_page(page, param_key=param_key, param_value=param_value)
             if payload is None:
-                self._logger.warning("Ticketmaster: segment=%r page=%s returned None, stopping segment", segment, page)
+                # 400 on deep unfiltered pages is expected; treated as end-of-results.
+                self._logger.warning("Ticketmaster: segment=%r page=%s returned None, stopping segment", label, page)
                 break
 
             raw_events, tp = self._parser_extract_page(payload)
@@ -108,11 +123,6 @@ class TicketmasterHttpClient(BaseHttpClient):
             if total_pages is not None and page >= total_pages:
                 break
 
-            # Catch-all segment (no classificationName) hits 400 at page 6 due to
-            # Ticketmaster's lower pagination depth limit for unfiltered queries.
-            if segment is None and page >= 5:
-                break
-
             max_pages = settings.ticketmaster_max_pages
             if max_pages > 0 and page >= max_pages:
                 break
@@ -131,8 +141,18 @@ class TicketmasterHttpClient(BaseHttpClient):
             raw_events = []
         return raw_events, total_pages
 
-    def fetch_page(self, page: int, classification_name: Optional[str] = None) -> Optional[Dict[str, Any]]:
-        """Fetch one page from the Discovery API, optionally filtered by segment name."""
+    def fetch_page(
+        self,
+        page: int,
+        classification_name: Optional[str] = None,
+        param_key: Optional[str] = None,
+        param_value: Optional[str] = None,
+    ) -> Optional[Dict[str, Any]]:
+        """Fetch one page from the Discovery API with an optional classification filter.
+
+        Callers should prefer param_key/param_value (e.g. segmentId=KZFzniwnSyZfZ7v7nJ).
+        classification_name is kept for backward compatibility with existing tests.
+        """
         params: Dict[str, Any] = {
             "apikey": settings.ticketmaster_api_key,
             "countryCode": settings.ticketmaster_country_code,
@@ -140,8 +160,10 @@ class TicketmasterHttpClient(BaseHttpClient):
             "page": page,
             "sort": DEFAULT_SORT,
         }
-        if classification_name:
-            params["classificationName"] = classification_name
+        effective_key = param_key or ("classificationName" if classification_name else None)
+        effective_value = param_value or classification_name
+        if effective_key and effective_value:
+            params[effective_key] = effective_value
             params["locale"] = "tr,*"
         response = self._request_with_retry(
             f"{BASE_URL}{EVENTS_ENDPOINT}",
@@ -151,9 +173,10 @@ class TicketmasterHttpClient(BaseHttpClient):
         )
         if response is None or response.status_code != 200:
             self._logger.warning(
-                "Ticketmaster: page %s classification=%r failed status=%s",
+                "Ticketmaster: page %s %s=%r failed status=%s",
                 page,
-                classification_name,
+                effective_key or "unfiltered",
+                effective_value,
                 getattr(response, "status_code", "none"),
             )
             return None
