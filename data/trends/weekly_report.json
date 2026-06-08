@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T23:11:18.692591+00:00",
+  "generatedAt": "2026-06-08T23:18:27.902414+00:00",
   "lookbackDays": 14,
   "cities": {
     "İstanbul": [
@@ -78,25 +78,14 @@
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
         "trendingTopics": [
-          "Kitap",
-          "İstanbul",
-          "etkinlik",
-          "Çocuk"
+          "avrasya tüneli"
         ],
         "isTrending": true,
         "events": [
           {
-            "id": "783e44af-5512-4eb6-99a3-56aaeda70a21",
-            "title": "İstanbul Dolphinarium",
-            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/istanbul-dolphinarium/dolphinarium-logo-guncel.webp",
-            "sourceUrl": "https://www.bilet.com/etkinlik/istanbul-dolphinarium",
-            "nextDate": "2099-12-31T00:00:00",
-            "isFeatured": false
-          },
-          {
-            "id": "96d037ad-88b4-47dd-9eae-794968eb305f",
-            "title": "Nickelodeon Play! Tersane İstanbul",
-            "imageUrl": "https://static.bilet.com/images/vialand/land-of-legends/nickelodeon-play-istanbul/nickelodion_play_logo.webp",
+            "id": "6d692f0e-720c-4192-96b4-03d2eefe317b",
+            "title": "Dentur Avrasya Boğaz Turu",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/dentur-avrasya-bogaz-turu/dentur-avrasya-bogaz-turu-yeni.webp",
             "sourceUrl": null,
             "nextDate": null,
             "isFeatured": false
@@ -106,20 +95,17 @@
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTopics": [
-          "Atasözü",
-          "Tasarım",
-          "Tarih",
-          "Nezaket",
-          "Sporcu",
-          "Cümle",
-          "Din",
-          "Meddah",
-          "Haziran",
-          "Sanat Galerisi"
-        ],
-        "isTrending": true,
+        "trendingTopics": [],
+        "isTrending": false,
         "events": [
+          {
+            "id": "5c5c9874-e703-42d4-ac7b-df501a957fe5",
+            "title": "Museum of Illusions",
+            "imageUrl": "https://static.bilet.com/images/vialand/ventrata/museum-of-illusions/museum-of-illusions-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/museum-of-illusions",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
           {
             "id": "e70f5f5d-55ef-4905-81dc-f8058bd23b62",
             "title": "İstanbul Robot Müzesi",
@@ -133,12 +119,8 @@
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTopics": [
-          "Komedi",
-          "Stand-up Komedi",
-          "Film"
-        ],
-        "isTrending": true,
+        "trendingTopics": [],
+        "isTrending": false,
         "events": [
           {
             "id": "bfe029a0-e3f6-4d43-9c08-8c7261c68091",
@@ -146,6 +128,14 @@
             "imageUrl": "https://www.biletimgo.com/images/zoltan-illes-english-standup-comedy-show-X7Q3CH.jpeg",
             "sourceUrl": "https://www.biletimgo.com/etkinlik/zoltan-illes-english-standup-comedy-show-27800?partner=14",
             "nextDate": "2026-06-20T17:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "af861d13-f295-4d57-b9cc-c62ecc70928b",
+            "title": "Hayrettin ile Kaos Night",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW67%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-21T17:00:00Z",
             "isFeatured": false
           }
         ]
@@ -270,39 +260,17 @@
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTopics": [],
-        "isTrending": false,
+        "trendingTopics": [
+          "istanbul namaz vakitleri"
+        ],
+        "isTrending": true,
         "events": [
-          {
-            "id": "43102d2d-4ce8-40db-9efd-6068aceabf0b",
-            "title": "AISUPOP PARTY’",
-            "imageUrl": "https://www.biletimgo.com/images/aisupop-party-1780396059.jpeg",
-            "sourceUrl": "https://www.biletimgo.com/etkinlik/aisupop-party-27720?partner=14",
-            "nextDate": "2026-06-16T19:00:00Z",
-            "isFeatured": false
-          },
           {
             "id": "903d7f16-ad13-42d0-9eb4-fc614f488474",
             "title": "WORST BRAT IN ISTANBUL PARTY",
             "imageUrl": "https://www.biletimgo.com/images/worst-brat-in-istanbul-party-1780411325.jpeg",
             "sourceUrl": "https://www.biletimgo.com/etkinlik/worst-brat-in-istanbul-party-27791?partner=14",
             "nextDate": "2026-06-17T19:00:00Z",
-            "isFeatured": false
-          },
-          {
-            "id": "2ed81d68-8679-4db4-ac1e-c1a77c829057",
-            "title": "ALİZADE LISTENING PARTY / %100 BAD-ASS BY YOUROTIKA",
-            "imageUrl": "https://www.biletimgo.com/images/alizade-listening-party-100-badass-by-yourotika-1780790705.png",
-            "sourceUrl": "https://www.biletimgo.com/etkinlik/alizade-listening-party-100-badass-by-yourotika-27956?partner=14",
-            "nextDate": "2026-06-20T18:00:00Z",
-            "isFeatured": false
-          },
-          {
-            "id": "c1bf36b6-9cd6-460e-8a1e-eaafd7c66349",
-            "title": "Boğazda Sınırsız Serpme Kahvaltı",
-            "imageUrl": "https://www.biletimgo.com/images/bogazda-sinirsiz-serpme-kahvalti-1780303836.jpeg",
-            "sourceUrl": "https://www.biletimgo.com/etkinlik/bogazda-sinirsiz-serpme-kahvalti-27642?partner=14",
-            "nextDate": "2026-06-21T07:00:00Z",
             "isFeatured": false
           }
         ]
@@ -636,31 +604,17 @@
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTopics": [],
-        "isTrending": false,
+        "trendingTopics": [
+          "ankara namaz"
+        ],
+        "isTrending": true,
         "events": [
-          {
-            "id": "609bf470-6efd-4823-ac11-f24f7771125e",
-            "title": "90'LAR 2000'LER TÜRKÇE POP PARTİSİ",
-            "imageUrl": "https://www.biletimgo.com/images/90lar-2000ler-turkce-pop-partisi-1780928962.jpeg",
-            "sourceUrl": "https://www.biletimgo.com/etkinlik/90lar-2000ler-turkce-pop-partisi-27992?partner=14",
-            "nextDate": "2026-06-19T17:00:00Z",
-            "isFeatured": false
-          },
           {
             "id": "b558b5d0-7268-4de5-8058-14a5eb5f80b5",
             "title": "Emo Era Party Ankara",
             "imageUrl": "https://www.biletimgo.com/images/emo-era-party-ankara-1780321336.jpeg",
             "sourceUrl": "https://www.biletimgo.com/etkinlik/emo-era-party-ankara-27651?partner=14",
             "nextDate": "2026-06-19T18:30:00Z",
-            "isFeatured": false
-          },
-          {
-            "id": "5afaa829-9957-480a-8f23-bc0665c08cec",
-            "title": "PINKMINK JUNE SPECIAL",
-            "imageUrl": "https://www.biletimgo.com/images/pinkmink-june-special-1780675470.jpeg",
-            "sourceUrl": "https://www.biletimgo.com/etkinlik/pinkmink-june-special-27896?partner=14",
-            "nextDate": "2026-06-20T19:00:00Z",
             "isFeatured": false
           }
         ]
@@ -987,41 +941,11 @@
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTopics": [],
-        "isTrending": false,
+        "trendingTopics": [
+          "antalya hava durumu"
+        ],
+        "isTrending": true,
         "events": [
-          {
-            "id": "12d4d104-f70b-45fd-82d3-f7bfbfae0ce6",
-            "title": "Olympos Teleferik",
-            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/olympos-teleferik/olympos-teleferik-yeni.webp",
-            "sourceUrl": "https://www.bilet.com/etkinlik/olympos-teleferik",
-            "nextDate": "2099-12-31T00:00:00",
-            "isFeatured": false
-          },
-          {
-            "id": "5866d402-0efb-404d-b34f-430c13072375",
-            "title": "The Land Of Legends Tema Park",
-            "imageUrl": "https://static.bilet.com/images/vialand/land-of-legends/land-of-legends/land-of-legends-yeni.webp",
-            "sourceUrl": "https://www.bilet.com/etkinlik/land-of-legends",
-            "nextDate": "2099-12-31T00:00:00",
-            "isFeatured": false
-          },
-          {
-            "id": "9044b3c5-f579-4170-9243-7a733e728ff7",
-            "title": "Voyage Relax Yachting",
-            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/voyage-relax-yachting/voyage-ralax-yachting-main.webp",
-            "sourceUrl": "https://www.bilet.com/etkinlik/voyage-relax-yachting",
-            "nextDate": "2099-12-31T00:00:00",
-            "isFeatured": false
-          },
-          {
-            "id": "ef13d457-f352-4384-b53a-5e3fc54f8b36",
-            "title": "Dinopark",
-            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/dinopark/dinopark-yeni.webp",
-            "sourceUrl": "https://www.bilet.com/etkinlik/dinopark",
-            "nextDate": "2099-12-31T00:00:00",
-            "isFeatured": false
-          },
           {
             "id": "f852d9c0-3f62-4f8f-9f9d-640a1dd8abd2",
             "title": "Antalya Aquarium",
@@ -1036,16 +960,7 @@
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
         "trendingTopics": [
-          "Atasözü",
-          "Tasarım",
-          "Tarih",
-          "Nezaket",
-          "Sporcu",
-          "Cümle",
-          "Din",
-          "Meddah",
-          "Haziran",
-          "Sanat Galerisi"
+          "antalya hava durumu"
         ],
         "isTrending": true,
         "events": [
@@ -1265,5 +1180,5 @@
       }
     ]
   },
-  "requestCount": 12
+  "requestCount": 7
 }
