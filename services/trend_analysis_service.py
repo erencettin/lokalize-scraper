@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+from datetime import date, datetime, timedelta
 from typing import Any, Dict, List, Optional
 
 from clients.backend_client import BackendClient
@@ -55,11 +56,19 @@ class TrendAnalysisService:
         scored.sort(key=lambda c: c["trendScore"], reverse=True)
 
         # Step 2: for each city, fetch matching events per category
+        week_from, week_to = self._compute_week_range()
+        _logger.info("Haftalık tarama aralığı: %s – %s", week_from, week_to)
+
         cities_report: Dict[str, List[Dict[str, Any]]] = {}
         for city in TREND_CITIES:
             city_candidates = []
             for cat in scored:
-                events = self._fetch_matching_events(city=city, backend_type=cat["backendType"])
+                events = self._fetch_matching_events(
+                    city=city,
+                    backend_type=cat["backendType"],
+                    date_from=week_from,
+                    date_to=week_to,
+                )
                 city_candidates.append({
                     "category":   cat["id"],
                     "label":      cat["label"],
@@ -91,5 +100,28 @@ class TrendAnalysisService:
 
         return max(values) if values else 0
 
-    def _fetch_matching_events(self, *, city: str, backend_type: str) -> List[Dict[str, Any]]:
-        return self._backend.get_trend_candidates(city=city, category=backend_type, limit=5)
+    @staticmethod
+    def _compute_week_range() -> tuple[date, date]:
+        today = date.today()
+        days_until_monday = (7 - today.weekday()) % 7 or 7
+        next_monday = today + timedelta(days=days_until_monday)
+        return next_monday, next_monday + timedelta(days=6)
+
+    @staticmethod
+    def _in_week(event: Dict[str, Any], date_from: date, date_to: date) -> bool:
+        raw = event.get("nextDate")
+        if not raw:
+            return True
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            d = dt.date()
+            return d.year >= 2050 or date_from <= d <= date_to
+        except Exception:
+            return True
+
+    def _fetch_matching_events(
+        self, *, city: str, backend_type: str, date_from: date, date_to: date
+    ) -> List[Dict[str, Any]]:
+        raw = self._backend.get_trend_candidates(city=city, category=backend_type, limit=20)
+        filtered = [e for e in raw if self._in_week(e, date_from, date_to)]
+        return filtered[:5]
