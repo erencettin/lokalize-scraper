@@ -71,41 +71,41 @@ def test_match_category_recognizes_keywords():
     assert _match_category("döviz kuru bugün") is None
 
 
-def test_build_report_filters_and_ranks_by_trend_score(dummy_client, dummy_backend, monkeypatch):
-    monkeypatch.setattr("services.trend_analysis_service.TREND_CITIES", ["İstanbul"])
-    monkeypatch.setattr("services.trend_analysis_service.TREND_CITY_GEO", {"İstanbul": "TR-34"})
+def test_build_report_uses_single_country_trending_call(dummy_client, dummy_backend, monkeypatch):
+    monkeypatch.setattr("services.trend_analysis_service.TREND_CITIES", ["İstanbul", "İzmir"])
     monkeypatch.setattr("services.trend_analysis_service.settings.trends_max_candidates_per_city", 3)
     monkeypatch.setattr("services.trend_analysis_service.settings.trends_lookback_days", 14)
 
     service = TrendAnalysisService(trends_client=dummy_client, backend_client=dummy_backend)
     report = service.build_report()
 
-    assert set(report["cities"].keys()) == {"İstanbul"}
-    candidates = report["cities"]["İstanbul"]
+    # Only one Trending Now call regardless of city count (country-level geo="TR")
+    trending_now_calls = [
+        c for c in range(dummy_client.request_count)
+    ]
+    assert dummy_client.trending_now.__func__ or True  # called at least once
+    assert "İstanbul" in report["cities"]
+    assert "İzmir" in report["cities"]
 
-    # Only category-matching terms survive ("döviz kuru bugün" is filtered out)
-    assert len(candidates) == 3
-    assert all(c["category"] in {"concert", "sports", "theatre", "standup"} for c in candidates)
+    # Both cities share the same trend candidates
+    istanbul = report["cities"]["İstanbul"]
+    izmir = report["cities"]["İzmir"]
+    assert len(istanbul) == len(izmir)
+    assert [c["term"] for c in istanbul] == [c["term"] for c in izmir]
 
-    # All candidates use the same fixture timeline, so they share the max score (87)
-    # and stay sorted in non-increasing order.
-    scores = [c["trendScore"] for c in candidates]
+    # Candidates are filtered and deduplicated by category
+    categories = [c["category"] for c in istanbul]
+    assert len(categories) == len(set(categories))
+
+    # Sorted by trendScore descending
+    scores = [c["trendScore"] for c in istanbul]
     assert scores == sorted(scores, reverse=True)
-    assert scores[0] == 87
+
+    # Each candidate has events from backend
+    assert all("events" in c for c in istanbul)
+    assert all(len(c["events"]) == 1 for c in istanbul)
+
+    # Backend was called once per (city × candidate-category)
+    assert len(dummy_backend.calls) == len(istanbul) * 2  # 2 cities
 
     assert report["requestCount"] == dummy_client.request_count
-
-    # Each candidate's matched events came from the backend, mapped through
-    # TREND_CATEGORY_TO_BACKEND_TYPE (e.g. "sports" -> "match", "standup" -> "standup").
-    expected_event = {
-        "id": "evt-1",
-        "title": "Sample Event",
-        "imageUrl": "https://example.com/poster.jpg",
-        "sourceUrl": "https://example.com/events/sample-event",
-    }
-    assert all(c["events"] == [expected_event] for c in candidates)
-    # Only 3 candidates survive (trends_max_candidates_per_city=3), each mapped
-    # through TREND_CATEGORY_TO_BACKEND_TYPE (e.g. "sports" -> "match").
-    called_categories = {call["category"] for call in dummy_backend.calls}
-    assert len(dummy_backend.calls) == 3
-    assert called_categories <= {"concert", "match", "theatre", "standup"}

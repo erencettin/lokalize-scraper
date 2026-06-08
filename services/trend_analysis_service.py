@@ -11,10 +11,11 @@ from utils.constants import (
     TREND_CATEGORY_KEYWORDS,
     TREND_CATEGORY_TO_BACKEND_TYPE,
     TREND_CITIES,
-    TREND_CITY_GEO,
 )
 
 _logger = logging.getLogger(__name__)
+
+_TRENDS_GEO = "TR"
 
 
 _TURKISH_FOLD_MAP = str.maketrans({"ı": "i", "İ": "i"})
@@ -43,9 +44,15 @@ def _match_category(term: str) -> Optional[str]:
 
 class TrendAnalysisService:
     """
-    Builds the weekly "this week in your city" trend report:
-    for each priority city, finds trending search terms that match one of our
-    event categories and ranks them by Google Trends interest score.
+    Builds the weekly "this week in your city" trend report.
+
+    Strategy:
+    - One Trending Now call for Turkey (geo="TR") to find category-matched terms.
+    - One interest-over-time call per matched term to score it.
+    - One backend call per (city, category) combo to fetch matching events.
+
+    This minimises SerpAPI quota usage vs. per-city Trending Now calls,
+    which the API does not support well at province level.
     """
 
     def __init__(
@@ -57,29 +64,19 @@ class TrendAnalysisService:
         self._backend = backend_client or BackendClient(base_url=settings.backend_url)
 
     def build_report(self) -> Dict[str, Any]:
-        cities_report: Dict[str, List[Dict[str, Any]]] = {}
-
         if not self._client.is_enabled:
             _logger.warning("[WARN] SERPAPI_API_KEY tanimli degil. Trend analizi atlandi.")
-            return {"cities": cities_report, "requestCount": 0}
+            return {"cities": {}, "requestCount": 0}
 
-        for city in TREND_CITIES:
-            geo = TREND_CITY_GEO.get(city)
-            if not geo:
-                _logger.warning("Trend geo kodu bulunamadi, sehir atlaniyor: %s", city)
-                continue
-            cities_report[city] = self._build_city_section(city=city, geo=geo)
-
-        return {"cities": cities_report, "requestCount": self._client.request_count}
-
-    def _build_city_section(self, *, city: str, geo: str) -> List[Dict[str, Any]]:
-        candidates: List[Dict[str, Any]] = []
+        # Step 1: single Trending Now call at country level
         try:
-            trending_terms = self._client.trending_now(geo=geo)
+            trending_terms = self._client.trending_now(geo=_TRENDS_GEO)
         except RuntimeError as exc:
-            _logger.warning("Trending Now sorgusu basarisiz sehir=%s: %s", city, exc)
-            return candidates
+            _logger.warning("Trending Now sorgusu basarisiz: %s", exc)
+            return {"cities": {}, "requestCount": self._client.request_count}
 
+        # Step 2: match trending terms to our event categories
+        candidates: List[Dict[str, Any]] = []
         for entry in trending_terms:
             term = (entry.get("query") or entry.get("title") or "").strip()
             if not term:
@@ -87,35 +84,44 @@ class TrendAnalysisService:
             category = _match_category(term)
             if category is None:
                 continue
+            if any(c["category"] == category for c in candidates):
+                # one candidate per category keeps the report focused
+                continue
             candidates.append({"term": term, "category": category})
             if len(candidates) >= settings.trends_max_candidates_per_city:
                 break
 
+        _logger.info(
+            "Trending Now (geo=%s): %s terim bulundu, %s kategoriyle eslestirildi.",
+            _TRENDS_GEO, len(trending_terms), len(candidates),
+        )
+
+        # Step 3: score each candidate via interest-over-time
         for candidate in candidates:
-            candidate["trendScore"] = self._score_candidate(query=candidate["term"], geo=geo)
-            candidate["events"] = self._fetch_matching_events(city=city, category=candidate["category"])
+            candidate["trendScore"] = self._score_candidate(candidate["term"])
 
-        candidates.sort(key=lambda item: item["trendScore"], reverse=True)
-        return candidates
+        candidates.sort(key=lambda c: c["trendScore"], reverse=True)
 
-    def _fetch_matching_events(self, *, city: str, category: str) -> List[Dict[str, Any]]:
-        backend_type = TREND_CATEGORY_TO_BACKEND_TYPE.get(category)
-        if not backend_type:
-            return []
-        return self._backend.get_trend_candidates(city=city, category=backend_type, limit=5)
+        # Step 4: for each city, fetch matching events per candidate category
+        cities_report: Dict[str, List[Dict[str, Any]]] = {}
+        for city in TREND_CITIES:
+            city_candidates = []
+            for candidate in candidates:
+                events = self._fetch_matching_events(city=city, category=candidate["category"])
+                city_candidates.append({**candidate, "events": events})
+            cities_report[city] = city_candidates
 
-    def _score_candidate(self, *, query: str, geo: str) -> int:
+        return {"cities": cities_report, "requestCount": self._client.request_count}
+
+    def _score_candidate(self, query: str) -> int:
         try:
             timeline = self._client.interest_over_time(
                 query=query,
-                geo=geo,
+                geo=_TRENDS_GEO,
                 lookback_days=settings.trends_lookback_days,
             )
         except RuntimeError as exc:
             _logger.warning("Interest-over-time sorgusu basarisiz query=%s: %s", query, exc)
-            return 0
-
-        if not timeline:
             return 0
 
         values: List[int] = []
@@ -126,3 +132,9 @@ class TrendAnalysisService:
                     values.append(extracted)
 
         return max(values) if values else 0
+
+    def _fetch_matching_events(self, *, city: str, category: str) -> List[Dict[str, Any]]:
+        backend_type = TREND_CATEGORY_TO_BACKEND_TYPE.get(category)
+        if not backend_type:
+            return []
+        return self._backend.get_trend_candidates(city=city, category=backend_type, limit=5)
