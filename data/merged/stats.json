@@ -1,16 +1,16 @@
 {
-  "total_events": 1274,
-  "total_events_before_dedup": 1285,
-  "total_events_after_dedup": 1274,
+  "total_events": 1279,
+  "total_events_before_dedup": 1290,
+  "total_events_after_dedup": 1279,
   "ticketmaster_count": 1034,
   "municipal_count": 0,
   "serpapi_count": 12,
-  "biletimgo_count": 177,
+  "biletimgo_count": 182,
   "biletcom_count": 62,
   "overlap_count": 11,
   "multi_provider_event_count": 11,
   "provider_combo_counts": {
-    "BiletimGO": 177,
+    "BiletimGO": 182,
     "SerpAPIEvents": 8,
     "Ticketmaster": 1023,
     "Ticketmaster+SerpAPIEvents": 4,
@@ -23,7 +23,7 @@
     "Ticketmaster+Google": 4,
     "Ticketmaster+bilet.com": 7,
     "bilet.com": 55,
-    "biletimGO": 177
+    "biletimGO": 182
   },
-  "last_merge": "2026-06-08T12:33:47.125367+00:00"
+  "last_merge": "2026-06-08T16:35:29.335503+00:00"
 }
