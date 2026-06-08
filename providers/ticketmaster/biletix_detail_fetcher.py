@@ -20,7 +20,7 @@ import threading
 import time
 from typing import Dict, Optional
 from urllib import robotparser
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
 
 import requests
 
@@ -43,6 +43,11 @@ _META_DESCRIPTION_RE = re.compile(
     r'<meta\s+name=["\']description["\']\s+content=(["\'])(.*?)\1',
     re.IGNORECASE | re.DOTALL,
 )
+
+# Discovery API gives "/performance/{code}/{subcode}/{country}/{lang}" pages, which
+# return HTTP 401 when fetched directly. The "/etkinlik/{code}/{country}/{lang}" page
+# for the same event code renders fine and contains "Etkinliğe Dair" in its meta description.
+_PERFORMANCE_PATH_RE = re.compile(r'^/performance/([A-Za-z0-9]+)/\d+/([A-Za-z]+)/(\w+)/?$')
 
 
 class BiletixDetailFetcher(BaseHttpClient):
@@ -82,11 +87,15 @@ class BiletixDetailFetcher(BaseHttpClient):
         """Fetch the "Etkinliğe Dair" text for a biletix.com event page, or None."""
         if not url or not url.startswith("http"):
             return None
-        if not self._can_fetch(url):
-            self._logger.info("BiletixDetail: robots.txt disallows url=%s", url)
+        resolved_url = self._resolve_event_url(url)
+        if not resolved_url:
+            self._logger.info("BiletixDetail: could not resolve biletix event url from=%s", url)
+            return None
+        if not self._can_fetch(resolved_url):
+            self._logger.info("BiletixDetail: robots.txt disallows url=%s", resolved_url)
             return None
 
-        html = self._fetch_with_retry(url)
+        html = self._fetch_with_retry(resolved_url)
         if not html:
             return None
 
@@ -95,6 +104,39 @@ class BiletixDetailFetcher(BaseHttpClient):
             self._logger.info("BiletixDetail: no description found url=%s", url)
             return None
         return about
+
+    # ------------------------------------------------------------------
+    # URL resolution
+    # ------------------------------------------------------------------
+
+    def _resolve_event_url(self, url: str) -> Optional[str]:
+        """Resolve a (possibly affiliate-redirected) Ticketmaster URL to the
+        biletix.com "/etkinlik/..." page that actually renders "Etkinliğe Dair".
+
+        Discovery API's `url` field is an affiliate redirect (ticketmaster.evyy.net/c/...
+        ?u=<encoded target>) pointing at biletix.com "/performance/{code}/{subcode}/
+        {country}/{lang}", which returns HTTP 401 when fetched directly — so we extract
+        the encoded target and rewrite its path to "/etkinlik/{code}/{country}/{lang}".
+        """
+        parsed = urlparse(url)
+        target = url
+        if "biletix.com" not in parsed.netloc.lower():
+            encoded_targets = parse_qs(parsed.query).get("u") or []
+            if not encoded_targets:
+                return None
+            target = unquote(encoded_targets[0])
+
+        target_parsed = urlparse(target)
+        if "biletix.com" not in target_parsed.netloc.lower():
+            return None
+
+        match = _PERFORMANCE_PATH_RE.match(target_parsed.path)
+        if not match:
+            return target_parsed._replace(query="", fragment="").geturl()
+
+        code, country, lang = match.groups()
+        rewritten = target_parsed._replace(path=f"/etkinlik/{code}/{country}/{lang}", query="", fragment="")
+        return rewritten.geturl()
 
     # ------------------------------------------------------------------
     # HTTP

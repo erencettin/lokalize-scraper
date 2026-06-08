@@ -13,7 +13,7 @@ from config import settings
 from models.normalized_event import NormalizedEvent
 from providers.base_provider import BaseProvider
 from providers.ticketmaster.biletix_detail_fetcher import BiletixDetailFetcher
-from providers.ticketmaster.constants import BILETIX_BRAND_NAME, ERROR_PREVIEW_LENGTH
+from providers.ticketmaster.constants import BILETIX_DOMAIN, ERROR_PREVIEW_LENGTH
 from providers.ticketmaster.event_builder import EventBuilder
 from providers.ticketmaster.http_client import TicketmasterHttpClient
 from providers.ticketmaster.price_extractor import PriceExtractor
@@ -125,15 +125,18 @@ class TicketmasterProvider(BaseProvider):
     def _enrich_with_biletix_about(self, item):
         """Fill in the missing description for Biletix events by scraping their detail page.
 
-        Discovery API leaves eventInfo/eventNotes/info/pleaseNote empty for Biletix-branded
-        events. Biletix granted permission (2026-06-08) to scrape "Etkinliğe Dair" from
-        biletix.com, with attribution — see BILETIX_SOURCE_ATTRIBUTION in event_builder.
+        Discovery API leaves eventInfo/eventNotes/info/pleaseNote (and brandName) empty for
+        Biletix-sourced events, so brand_name can't be used for detection — we instead check
+        whether source_url points at biletix.com (affiliate redirects embed the target URL as
+        a literal substring, e.g. "...?u=https%3A%2F%2Fwww.biletix.com%2F..."). Biletix granted
+        permission (2026-06-08) to scrape "Etkinliğe Dair" with attribution — see
+        BILETIX_SOURCE_ATTRIBUTION in event_builder.
         """
         if not settings.biletix_detail_enabled:
             return item
-        if item.brand_name != BILETIX_BRAND_NAME or item.description:
+        if item.description or not item.source_url:
             return item
-        if not item.source_url:
+        if BILETIX_DOMAIN not in item.source_url.lower():
             return item
         try:
             item.about_description = self._biletix_detail.fetch_about_description(item.source_url)

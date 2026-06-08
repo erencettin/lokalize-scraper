@@ -60,6 +60,10 @@ DEFAULT_CURRENCY = "TRY"
 # section, on the condition that the source is attributed and the bot identifies
 # itself transparently. Do NOT spoof a browser User-Agent here.
 BILETIX_BRAND_NAME = "Biletix"
+# Discovery API never populates `brandName` for Biletix-sourced events, so detection
+# relies on the event's source_url pointing at biletix.com (affiliate redirects embed
+# the target URL as a literal substring, e.g. "...?u=https%3A%2F%2Fwww.biletix.com%2F...").
+BILETIX_DOMAIN = "biletix.com"
 BILETIX_DETAIL_DEFAULT_USER_AGENT = "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
 BILETIX_SOURCE_ATTRIBUTION = "Kaynak: Biletix"
 BILETIX_DETAIL_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
