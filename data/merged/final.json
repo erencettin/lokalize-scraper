@@ -8658,6 +8658,37 @@
             "sales_start_at": "2025-12-15T11:35:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-ef956e0a8bc2d5e95bf7",
+            "title": "Yıldız Tilbe",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/28xXWEONvoTVURiYHcr7eA",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/28xXWEONvoTVURiYHcr7eA",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
           }
         ]
       }
@@ -8665,16 +8696,19 @@
     "attraction_id": "ZaHyzZyMZ16",
     "attraction_upcoming_count": 8,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Google",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW57%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW57%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://open.spotify.com/concert/28xXWEONvoTVURiYHcr7eA"
     ],
     "external_id": null,
     "category": null,
@@ -21038,6 +21072,37 @@
             "sales_start_at": "2026-02-18T08:00:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-b31075d79f60a4e62434",
+            "title": "%100 Müzik Sunar: Blind Fest - Tom Odell",
+            "description": null,
+            "source_url": "https://www.stubhub.com/nz/tom-odell-istanbul-tickets-6-23-2026/event/160439320/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Bandsintown.com|https://www.bandsintown.com/f/208444-blind-fest-at-life-park-2026?came_from=209",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
           }
         ]
       }
@@ -21045,16 +21110,19 @@
     "attraction_id": "K8vZ9178PgV",
     "attraction_upcoming_count": 20,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Google",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "SerpAPIEvents"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Google"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Google",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5EP09%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5EP09%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://www.stubhub.com/nz/tom-odell-istanbul-tickets-6-23-2026/event/160439320/"
     ],
     "external_id": null,
     "category": null,
@@ -80182,82 +80250,6 @@
     "fetched_at": null
   },
   {
-    "title": "Rewşan",
-    "description": "Find tickets for Rewşan at Dream Park İstanbul in Beyazıtağa on 6/13/2026 at 9:00 PM",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Dream Park İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-7e54d4a3b1a47026c1cc",
-            "title": "Rewşan",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI"
-    ],
-    "external_id": "serpapi-event-7e54d4a3b1a47026c1cc",
-    "category": "concert",
-    "address": "Dream Park İstanbul, Denizköşkler, Kemal Sunal Cd. No:1 Blok B, Avcılar/İstanbul, Türkiye",
-    "venue": "Dream Park İstanbul",
-    "link": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
-    "source_url": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
-    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | Concert Flow (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-JA6rM_XAztXhTfsNSWAAN8ON3wmKfAPOBKLgudjY5a8OnbdrjjPCCs&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
-  },
-  {
     "title": "Aleyna Tilki 10. Yıl Konseri - Kırlar Turnesi",
     "description": "Venue Volkswagen Arena, h5 h5 34396 İstanbul Other",
     "type": "concert",
@@ -80265,9 +80257,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
         "timezone": "Europe/Istanbul",
         "venue_name": "VOLKSWAGEN ARENA",
         "district": null,
@@ -80331,7 +80323,159 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6IMt2G4zQcS8C5_UjrWsXWgYifnXsXdMHzo0dqLY8FhORkdh5cALlW2s&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
+  },
+  {
+    "title": "Rewşan",
+    "description": "Find tickets for Rewşan at Dream Park İstanbul in Beyazıtağa on 6/13/2026 at 9:00 PM",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dream Park İstanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-7e54d4a3b1a47026c1cc",
+            "title": "Rewşan",
+            "description": null,
+            "source_url": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "Spotify.com|https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI"
+    ],
+    "external_id": "serpapi-event-7e54d4a3b1a47026c1cc",
+    "category": "concert",
+    "address": "Dream Park İstanbul, Denizköşkler, Kemal Sunal Cd. No:1 Blok B, Avcılar/İstanbul, Türkiye",
+    "venue": "Dream Park İstanbul",
+    "link": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
+    "source_url": "https://open.spotify.com/concert/1VPjfQkpCtcZJ5A9KgkAbI",
+    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | Concert Flow (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-JA6rM_XAztXhTfsNSWAAN8ON3wmKfAPOBKLgudjY5a8OnbdrjjPCCs&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
+  },
+  {
+    "title": "Sadık Gürbüz 50.Sanat Yılı Konserleri",
+    "description": "Ticket listings for Sadık Gürbüz 50.Sanat Yılı Konserleri at BARIŞ MANÇO KÜLTÜR MERKEZİ in İstanbul on 12/06/2026",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "BARIŞ MANÇO KÜLTÜR MERKEZİ",
+        "district": null,
+        "sources": [
+          {
+            "provider": "serpapi_google_events",
+            "external_id": "serpapi-event-205edd2296bc8fcd885d",
+            "title": "Sadık Gürbüz 50.Sanat Yılı Konserleri",
+            "description": null,
+            "source_url": "https://www.viagogo.com/nz/Billets-de-theatre/Classique/Sadik-Gurbuz-Billets/E-161177815",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "search_indexed_api",
+                "source": "serpapi_google_events_ticket_info",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Search-indexed ticket info. Prefer direct provider API when available."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "serpapi_google_events",
+    "provider": "Google",
+    "providers": [
+      "SerpAPIEvents"
+    ],
+    "provider_tags": [
+      "Google"
+    ],
+    "provider_label": "Google",
+    "source_urls": [
+      "https://www.viagogo.com/nz/Billets-de-theatre/Classique/Sadik-Gurbuz-Billets/E-161177815"
+    ],
+    "external_id": "serpapi-event-205edd2296bc8fcd885d",
+    "category": "concert",
+    "address": "BARIŞ MANÇO KÜLTÜR MERKEZİ, Merkez, Reşit Paşa Cd. No:63, Avcılar/İstanbul, Türkiye",
+    "venue": "BARIŞ MANÇO KÜLTÜR MERKEZİ",
+    "link": "https://www.viagogo.com/nz/Billets-de-theatre/Classique/Sadik-Gurbuz-Billets/E-161177815",
+    "source_url": "https://www.viagogo.com/nz/Billets-de-theatre/Classique/Sadik-Gurbuz-Billets/E-161177815",
+    "ticket_info": "StubHub (more info) | Viagogo (more info)",
+    "ticket_url": null,
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeDpBq2YSebHIV96rdMZOLWv407cqoGnRd8TE1GXsNYTtL75_ClBQIecE&s",
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
     "title": "Shaggy",
@@ -80341,9 +80485,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
         "timezone": "Europe/Istanbul",
         "venue_name": "Istanbul Congress Center",
         "district": null,
@@ -80407,29 +80551,29 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7ED0JF8Gwqxb4fsvCKx1bjPa2NB51naLI1qzcvlONIEYAtJS0Ne5mqA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
-    "title": "Kamuran Akkor",
-    "description": "Find tickets for Kamuran Akkor at Dada Salon Kabarett in İstanbul on 6/6/2026 at 10:30 PM",
+    "title": "Alice Cooper",
+    "description": "100% Metal Presents: Alice Cooper Concert Age Limit: 16+ // Participants under the age of 16 can enter with parental accompaniment. Yüzdeyüz Metal Presents: Alice Cooper June 13, 2026, Life Park...",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-06T17:00:00Z",
-        "local_date": "2026-06-06",
+        "start_at_utc": "2026-06-13T17:00:00Z",
+        "local_date": "2026-06-13",
         "local_time": "20:00",
         "timezone": "Europe/Istanbul",
-        "venue_name": "Dada Salon Kabarett",
+        "venue_name": "Life Park",
         "district": null,
         "sources": [
           {
             "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-9cba63116ba13683909c",
-            "title": "Kamuran Akkor",
+            "external_id": "serpapi-event-524eac17d7d4d8bc7fbe",
+            "title": "Alice Cooper",
             "description": null,
-            "source_url": "https://open.spotify.com/concert/6pQBQK4am68fND7m4dVTq0",
+            "source_url": "https://biletinial.com/en-tr/muzik/100-metal-sunar-alice-cooper",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -80450,7 +80594,7 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/6pQBQK4am68fND7m4dVTq0",
+            "ticket_url": "Koobit.com|https://www.koobit.com/visit?sem=603993&su=/alice-cooper-e116851",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
@@ -80470,20 +80614,20 @@
     ],
     "provider_label": "Google",
     "source_urls": [
-      "https://open.spotify.com/concert/6pQBQK4am68fND7m4dVTq0"
+      "https://biletinial.com/en-tr/muzik/100-metal-sunar-alice-cooper"
     ],
-    "external_id": "serpapi-event-9cba63116ba13683909c",
+    "external_id": "serpapi-event-524eac17d7d4d8bc7fbe",
     "category": "concert",
-    "address": "Dada Salon Kabarett, Quasar Tower, Fulya, Büyükdere Cd. no:76, Şişli/İstanbul, Türkiye",
-    "venue": "Dada Salon Kabarett",
-    "link": "https://open.spotify.com/concert/6pQBQK4am68fND7m4dVTq0",
-    "source_url": "https://open.spotify.com/concert/6pQBQK4am68fND7m4dVTq0",
-    "ticket_info": "Spotify.com (tickets) | Ticketmaster.com (tickets) | GlobalGigMap (more info)",
+    "address": "Life Park, Bahçeköy Yeni, Bahçeköy Cd. No:114, Sarıyer/İstanbul, Türkiye",
+    "venue": "Life Park",
+    "link": "https://biletinial.com/en-tr/muzik/100-metal-sunar-alice-cooper",
+    "source_url": "https://biletinial.com/en-tr/muzik/100-metal-sunar-alice-cooper",
+    "ticket_info": "Koobit.com (tickets) | Myguide-istanbul.com (tickets) | Picnicandgathering.com (tickets) | Biletinial (more info) | StubHub (more info)",
     "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycKNNsIEiN4GuLPIEa79xWXxMRbGxIFxja9gw1ISOoRNOgR-1MqeSzQs&s",
+    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpvcEYEXFjFjRCs_coi8LTgBVIFn0Ojae3wURa49jEZnF6-luofRKlbl8&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
     "title": "%100 Müzik Sunar: Dogma",
@@ -80493,9 +80637,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
         "timezone": "Europe/Istanbul",
         "venue_name": "Blind",
         "district": null,
@@ -80559,159 +80703,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvaoGoQAm-6QUIvunDVUVAnRcShLbzGgv3P5CnV_MIn523NE3S6z7UUE&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
-  },
-  {
-    "title": "Ozbi",
-    "description": "Find tickets for Ozbi at IF Performance Hall Beşiktaş in İstanbul on 6/19/2026 at 10:00 PM",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-19T17:00:00Z",
-        "local_date": "2026-06-19",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Beşiktaş",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-fb7a0ef677bdf4fa2d83",
-            "title": "Ozbi",
-            "description": null,
-            "source_url": "https://open.spotify.com/concert/26yike7LgAgkOh330X6yMx",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "Spotify.com|https://open.spotify.com/concert/26yike7LgAgkOh330X6yMx",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://open.spotify.com/concert/26yike7LgAgkOh330X6yMx"
-    ],
-    "external_id": "serpapi-event-fb7a0ef677bdf4fa2d83",
-    "category": "concert",
-    "address": "IF Performance Hall Beşiktaş, Cihannüma, Hasfırın Cd. No:26, Beşiktaş/İstanbul, Türkiye",
-    "venue": "IF Performance Hall Beşiktaş",
-    "link": "https://open.spotify.com/concert/26yike7LgAgkOh330X6yMx",
-    "source_url": "https://open.spotify.com/concert/26yike7LgAgkOh330X6yMx",
-    "ticket_info": "Spotify.com (tickets) | Viagogo (more info) | StubHub (more info) | Gigs Guide (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3FF_mvAkC87W7af0gW7cDIjr6hdidbPbPssb_H7Z6K4m6_94xVJ8IrY&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
-  },
-  {
-    "title": "Senfoni Orkestrası Eşliğinde Zamansız Sezen Aksu Şarkıları Konseri: Tuğba Bizi Sezen'e Götür! Senfonik Vol.3",
-    "description": null,
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-06T17:00:00Z",
-        "local_date": "2026-06-06",
-        "local_time": "20:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Harbiye Cemil Topuzlu Open Air Theatre",
-        "district": null,
-        "sources": [
-          {
-            "provider": "serpapi_google_events",
-            "external_id": "serpapi-event-c5a66372a27dcce21aff",
-            "title": "Senfoni Orkestrası Eşliğinde Zamansız Sezen Aksu Şarkıları Konseri: Tuğba Bizi Sezen'e Götür! Senfonik Vol.3",
-            "description": null,
-            "source_url": "https://www.viagogo.com/Theater-Tickets/Classical/Esin-Aydingoz-Tickets",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "serpapi_ticket_info_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "search_indexed_api",
-                "source": "serpapi_google_events_ticket_info",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Search-indexed ticket info. Prefer direct provider API when available."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "serpapi_google_events",
-    "provider": "Google",
-    "providers": [
-      "SerpAPIEvents"
-    ],
-    "provider_tags": [
-      "Google"
-    ],
-    "provider_label": "Google",
-    "source_urls": [
-      "https://www.viagogo.com/Theater-Tickets/Classical/Esin-Aydingoz-Tickets"
-    ],
-    "external_id": "serpapi-event-c5a66372a27dcce21aff",
-    "category": "concert",
-    "address": "Harbiye Cemil Topuzlu Open Air Theatre, Harbiye, Taşkışla Cd. No:8, Şişli/İstanbul, Türkiye",
-    "venue": "Harbiye Cemil Topuzlu Open Air Theatre",
-    "link": "https://www.viagogo.com/Theater-Tickets/Classical/Esin-Aydingoz-Tickets",
-    "source_url": "https://www.viagogo.com/Theater-Tickets/Classical/Esin-Aydingoz-Tickets",
-    "ticket_info": "Viagogo (more info) | StubHub (more info)",
-    "ticket_url": null,
-    "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBhHCHIB-G-LJk0p7D2NTG6zNyOuaNXiRkGpa4ZaO93JJxWUWsx14umo&s",
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
     "title": "Büyük ev ablukada with Edis, Nova Norda, Lin Pesto, Selin Çıngır, Mavi Solman",
@@ -80721,9 +80713,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
         "timezone": "Europe/Istanbul",
         "venue_name": "KüçükÇiftlik Park",
         "district": null,
@@ -80787,7 +80779,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI1c5NZSttk9k_bTSr8djdTwzGIKRScs94KuaLIjM3ctHkJD9_BI9e7pc&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
     "title": "CEV EuroVolley 2026 Grup Aşaması Kombine",
@@ -80797,9 +80789,9 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-06-05T07:04:06.224690Z",
-        "local_date": "2026-06-05",
-        "local_time": "10:04",
+        "start_at_utc": "2026-06-08T07:26:56.784175Z",
+        "local_date": "2026-06-08",
+        "local_time": "10:26",
         "timezone": "Europe/Istanbul",
         "venue_name": "Sinan Erdem Dome",
         "district": null,
@@ -80863,7 +80855,7 @@
     "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc22rA7uOXxY91roex_KldylGC2p-vdW65sQKKf_8TpraIBfbHGITOLeA&s",
     "latitude": null,
     "longitude": null,
-    "fetched_at": "2026-06-05T07:04:06.224690Z"
+    "fetched_at": "2026-06-08T07:26:56.784175Z"
   },
   {
     "title": "Noa Coffee Art - Pazartesi",
