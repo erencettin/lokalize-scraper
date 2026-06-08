@@ -7,9 +7,18 @@ from typing import Any, Dict, List, Optional
 from clients.backend_client import BackendClient
 from clients.serpapi_trends_client import SerpApiTrendsClient
 from config import settings
-from utils.constants import TREND_CATEGORIES, TREND_CITIES, TREND_CITY_GEO
+from utils.constants import TREND_CATEGORIES, TREND_CITIES
 
 _logger = logging.getLogger(__name__)
+
+# These 4 categories use google_events (28 requests/week).
+# Remaining categories fall back to top upcoming events from the DB.
+_GOOGLE_EVENTS_CATEGORIES: Dict[str, str] = {
+    "concert":  "konser",
+    "theatre":  "tiyatro",
+    "standup":  "stand up",
+    "festival": "festival",
+}
 
 
 def _normalize(text: str) -> str:
@@ -22,14 +31,13 @@ class TrendAnalysisService:
     Builds the weekly "this week in your city" trend report.
 
     Strategy:
-    - One Trending Now call per city (7 total) to get what people are actually
-      searching for right now in that city (e.g. "Tarkan", "Doğu Demirkol").
-    - One backend call per (city × category) to fetch candidate events.
-    - Events are scored by fuzzy word overlap against the city's trending terms.
-    - If no trending match found for a category, falls back to top upcoming
-      events so every category always appears in the report.
-
-    Total SerpAPI budget: 7 requests/week.
+    - For Konser, Tiyatro, Stand-up, Festival: one google_events call per
+      (city × category) to fetch what Google actually shows for that search.
+      Event titles from Google are matched against our DB events.
+      (4 categories × 7 cities = 28 SerpAPI requests/week)
+    - For all other categories: top upcoming events from the DB (no API call).
+    - If no Google Events match is found for a category, falls back to top
+      upcoming DB events so every category always appears in the report.
     """
 
     def __init__(
@@ -50,26 +58,31 @@ class TrendAnalysisService:
 
         cities_report: Dict[str, List[Dict[str, Any]]] = {}
         for city in TREND_CITIES:
-            geo = TREND_CITY_GEO.get(city, "TR")
-            trending_terms = self._get_trending_now(geo)
-            _logger.info(
-                "Şehir '%s' için %d trending terim: %s",
-                city, len(trending_terms), trending_terms[:5],
-            )
-
             city_candidates = []
             for cat in TREND_CATEGORIES:
-                events, is_trending, matched_terms = self._fetch_and_match(
-                    city=city,
-                    backend_type=cat["backendType"],
-                    trending_terms=trending_terms,
-                    date_from=week_from,
-                    date_to=week_to,
-                )
+                term = _GOOGLE_EVENTS_CATEGORIES.get(cat["id"])
+                if term:
+                    events, is_trending, matched_titles = self._fetch_via_google_events(
+                        city=city,
+                        backend_type=cat["backendType"],
+                        query=f"{city} {term}",
+                        date_from=week_from,
+                        date_to=week_to,
+                    )
+                else:
+                    events = self._fetch_fallback(
+                        city=city,
+                        backend_type=cat["backendType"],
+                        date_from=week_from,
+                        date_to=week_to,
+                    )
+                    is_trending = False
+                    matched_titles = []
+
                 city_candidates.append({
                     "category":      cat["id"],
                     "label":         cat["label"],
-                    "trendingTopics": matched_terms,
+                    "trendingTopics": matched_titles,
                     "isTrending":    is_trending,
                     "events":        events,
                 })
@@ -77,53 +90,69 @@ class TrendAnalysisService:
 
         return {"cities": cities_report, "requestCount": self._client.request_count}
 
-    def _get_trending_now(self, geo: str) -> List[str]:
-        try:
-            results = self._client.trending_now(geo=geo)
-            return [item.get("query", "").strip() for item in results if item.get("query")]
-        except RuntimeError as exc:
-            _logger.warning("Trending now başarısız geo=%s: %s", geo, exc)
-            return []
-
-    def _fetch_and_match(
+    def _fetch_via_google_events(
         self,
         *,
         city: str,
         backend_type: str,
-        trending_terms: List[str],
+        query: str,
         date_from: date,
         date_to: date,
     ) -> tuple[List[Dict[str, Any]], bool, List[str]]:
+        # Fetch Google Events titles for this city+category
+        google_titles: List[str] = []
+        try:
+            results = self._client.google_events(query=query)
+            google_titles = [r.get("title", "").strip() for r in results if r.get("title")]
+            _logger.info("google_events '%s' → %d sonuç: %s", query, len(google_titles), google_titles[:3])
+        except RuntimeError as exc:
+            _logger.warning("google_events başarısız query=%s: %s", query, exc)
+
+        # Fetch DB candidates and filter by week
         raw = self._backend.get_trend_candidates(city=city, category=backend_type, limit=50)
         in_week = [e for e in raw if self._in_week(e, date_from, date_to)]
 
-        if trending_terms:
+        # Match DB events against Google Events titles
+        if google_titles:
             scored = []
             for event in in_week:
-                score = self._match_score(event.get("title", ""), trending_terms)
+                score = self._match_score(event.get("title", ""), google_titles)
                 if score > 0:
                     scored.append((score, event))
             if scored:
                 scored.sort(key=lambda x: x[0], reverse=True)
                 matched_events = [e for _, e in scored[:5]]
-                matched_terms = self._matched_terms(
+                matched = self._matched_titles(
                     [e.get("title", "") for e in matched_events],
-                    trending_terms,
+                    google_titles,
                 )
-                return matched_events, True, matched_terms
+                return matched_events, True, matched
 
+        # Fallback: top upcoming DB events
         return in_week[:5], False, []
 
+    def _fetch_fallback(
+        self,
+        *,
+        city: str,
+        backend_type: str,
+        date_from: date,
+        date_to: date,
+    ) -> List[Dict[str, Any]]:
+        raw = self._backend.get_trend_candidates(city=city, category=backend_type, limit=20)
+        in_week = [e for e in raw if self._in_week(e, date_from, date_to)]
+        return in_week[:5]
+
     @staticmethod
-    def _matched_terms(titles: List[str], trending_terms: List[str]) -> List[str]:
-        all_title_words = set()
-        for t in titles:
-            all_title_words.update(w for w in _normalize(t).split() if len(w) > 2)
+    def _matched_titles(event_titles: List[str], google_titles: List[str]) -> List[str]:
+        all_words = set()
+        for t in event_titles:
+            all_words.update(w for w in _normalize(t).split() if len(w) > 2)
         result = []
-        for term in trending_terms:
-            term_words = set(w for w in _normalize(term).split() if len(w) > 2)
-            if term_words & all_title_words:
-                result.append(term)
+        for gt in google_titles:
+            gt_words = set(w for w in _normalize(gt).split() if len(w) > 2)
+            if gt_words & all_words:
+                result.append(gt)
         return result[:5]
 
     @staticmethod
@@ -146,10 +175,10 @@ class TrendAnalysisService:
             return True
 
     @staticmethod
-    def _match_score(title: str, terms: List[str]) -> int:
-        title_words = set(w for w in _normalize(title).split() if len(w) > 2)
+    def _match_score(db_title: str, google_titles: List[str]) -> int:
+        db_words = set(w for w in _normalize(db_title).split() if len(w) > 2)
         score = 0
-        for term in terms:
-            term_words = set(w for w in _normalize(term).split() if len(w) > 2)
-            score += len(term_words & title_words)
+        for gt in google_titles:
+            gt_words = set(w for w in _normalize(gt).split() if len(w) > 2)
+            score += len(gt_words & db_words)
         return score

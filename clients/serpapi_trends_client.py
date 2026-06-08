@@ -38,6 +38,14 @@ class SerpApiTrendsClient:
         timeline = payload.get("interest_over_time", {}).get("timeline_data", [])
         return timeline or []
 
+    def google_events(self, *, query: str) -> List[Dict[str, Any]]:
+        """Returns upcoming events from Google Events for a search query."""
+        payload = self._client.search(
+            engine="google_events",
+            query=query,
+        )
+        return payload.get("events_results", []) or []
+
     def related_topics(self, *, query: str, geo: str, lookback_days: int = 14) -> Dict[str, Any]:
         """Returns related topics (top + rising Knowledge Graph entities) for a keyword in a region."""
         date_range = "now 7-d" if lookback_days <= 7 else "today 1-m"
