@@ -24,13 +24,14 @@ class TrendAnalysisService:
     Builds the weekly "this week in your city" trend report.
 
     Strategy:
-    - One related-queries call per category (12 total) to discover which specific
-      events/artists are trending in Turkey for that category.
+    - One related-topics call per category (12 total) to get Knowledge Graph
+      entities (artist names, venue names, event titles) trending in Turkey.
     - One backend call per (city × category) to fetch candidate events.
-    - Events are matched against trending terms via fuzzy word overlap.
-    - Only events with at least one match are included in the report.
+    - Events are scored by fuzzy word overlap against trending topic titles.
+    - If no trending match found for a category, falls back to top upcoming
+      events from the backend so every category always appears in the report.
 
-    Total SerpAPI budget: 12 requests/week, same as before.
+    Total SerpAPI budget: 12 requests/week.
     """
 
     def __init__(
@@ -49,82 +50,84 @@ class TrendAnalysisService:
         week_from, week_to = self._compute_week_range()
         _logger.info("Haftalık tarama aralığı: %s – %s", week_from, week_to)
 
-        # Step 1: get trending related queries per category (one SerpAPI call each)
-        category_terms: Dict[str, List[str]] = {}
+        # Step 1: get trending topic titles per category (one SerpAPI call each)
+        category_topics: Dict[str, List[str]] = {}
         for cat in TREND_CATEGORIES:
-            terms = self._get_related_terms(cat["query"])
-            category_terms[cat["id"]] = terms
+            topics = self._get_topic_titles(cat["query"])
+            category_topics[cat["id"]] = topics
             _logger.info(
-                "Kategori '%s' için %d trending terim: %s",
-                cat["label"], len(terms), terms[:5],
+                "Kategori '%s' için %d trending topic: %s",
+                cat["label"], len(topics), topics[:5],
             )
 
-        # Step 2: for each city, match trending terms against backend events
+        # Step 2: for each city, match topics against backend events
         cities_report: Dict[str, List[Dict[str, Any]]] = {}
         for city in TREND_CITIES:
             city_candidates = []
             for cat in TREND_CATEGORIES:
-                terms = category_terms[cat["id"]]
-                events = self._fetch_and_match(
+                topics = category_topics[cat["id"]]
+                events, is_trending = self._fetch_and_match(
                     city=city,
                     backend_type=cat["backendType"],
-                    terms=terms,
+                    topics=topics,
                     date_from=week_from,
                     date_to=week_to,
                 )
                 city_candidates.append({
-                    "category":     cat["id"],
-                    "label":        cat["label"],
-                    "trendingTerms": terms[:10],
-                    "events":       events,
+                    "category":      cat["id"],
+                    "label":         cat["label"],
+                    "trendingTopics": topics[:10] if is_trending else [],
+                    "isTrending":    is_trending,
+                    "events":        events,
                 })
             cities_report[city] = city_candidates
 
         return {"cities": cities_report, "requestCount": self._client.request_count}
 
-    def _get_related_terms(self, query: str) -> List[str]:
+    def _get_topic_titles(self, query: str) -> List[str]:
         try:
-            related = self._client.related_queries(
+            related = self._client.related_topics(
                 query=query,
                 geo=_TRENDS_GEO,
                 lookback_days=settings.trends_lookback_days,
             )
         except RuntimeError as exc:
-            _logger.warning("Related queries başarısız query=%s: %s", query, exc)
+            _logger.warning("Related topics başarısız query=%s: %s", query, exc)
             return []
 
-        terms: List[str] = []
+        titles: List[str] = []
         for section in ("rising", "top"):
             for item in related.get(section) or []:
-                q = item.get("query", "").strip()
-                if q and q not in terms:
-                    terms.append(q)
-        return terms
+                title = (item.get("topic") or {}).get("title", "").strip()
+                if title and title not in titles:
+                    titles.append(title)
+        return titles
 
     def _fetch_and_match(
         self,
         *,
         city: str,
         backend_type: str,
-        terms: List[str],
+        topics: List[str],
         date_from: date,
         date_to: date,
-    ) -> List[Dict[str, Any]]:
-        if not terms:
-            return []
-
+    ) -> tuple[List[Dict[str, Any]], bool]:
         raw = self._backend.get_trend_candidates(city=city, category=backend_type, limit=50)
+        in_week = [e for e in raw if self._in_week(e, date_from, date_to)]
 
-        scored: List[tuple[int, Dict[str, Any]]] = []
-        for event in raw:
-            if not self._in_week(event, date_from, date_to):
-                continue
-            score = self._match_score(event.get("title", ""), terms)
-            if score > 0:
-                scored.append((score, event))
+        # Try trending match first
+        if topics:
+            scored = []
+            for event in in_week:
+                score = self._match_score(event.get("title", ""), topics)
+                if score > 0:
+                    scored.append((score, event))
+            if scored:
+                scored.sort(key=lambda x: x[0], reverse=True)
+                return [e for _, e in scored[:5]], True
 
-        scored.sort(key=lambda x: x[0], reverse=True)
-        return [e for _, e in scored[:5]]
+        # Fallback: top upcoming events, no trending match
+        return in_week[:5], False
 
     @staticmethod
     def _compute_week_range() -> tuple[date, date]:
@@ -146,10 +149,10 @@ class TrendAnalysisService:
             return True
 
     @staticmethod
-    def _match_score(title: str, terms: List[str]) -> int:
+    def _match_score(title: str, topics: List[str]) -> int:
         title_words = set(w for w in _normalize(title).split() if len(w) > 2)
         score = 0
-        for term in terms:
-            term_words = set(w for w in _normalize(term).split() if len(w) > 2)
-            score += len(term_words & title_words)
+        for topic in topics:
+            topic_words = set(w for w in _normalize(topic).split() if len(w) > 2)
+            score += len(topic_words & title_words)
         return score

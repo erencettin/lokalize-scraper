@@ -66,16 +66,19 @@ def _build_markdown(report: Dict[str, Any]) -> str:
 
         for candidate in candidates:
             label = candidate.get("label") or candidate.get("category", "")
-            trending_terms = candidate.get("trendingTerms") or []
+            trending_topics = candidate.get("trendingTopics") or []
+            is_trending = candidate.get("isTrending", False)
             events = candidate.get("events", [])
 
             if not events:
                 continue
 
             lines.append(f"### {label}")
-            if trending_terms:
-                terms_display = ", ".join(f'"{t}"' for t in trending_terms[:5])
-                lines.append(f"> Trend sorgular: {terms_display}")
+            if is_trending and trending_topics:
+                topics_display = ", ".join(f'"{t}"' for t in trending_topics[:5])
+                lines.append(f"> 🔥 Trend: {topics_display}")
+            else:
+                lines.append(f"> 📅 Bu hafta yaklaşan etkinlikler")
             lines.append("")
 
             for ev in events:
