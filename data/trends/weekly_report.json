@@ -1,41 +1,62 @@
 {
-  "generatedAt": "2026-06-08T23:03:27.368094+00:00",
+  "generatedAt": "2026-06-08T23:11:18.692591+00:00",
   "lookbackDays": 14,
   "cities": {
     "İstanbul": [
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "346a1bf1-38d9-42ee-b9e1-21c4e121d5ea",
+            "title": "Kardeş Türküler",
+            "imageUrl": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": null,
+            "nextDate": null,
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": [
+          {
+            "id": "b90b9094-8e27-4797-892f-382ba33cc314",
+            "title": "Mea",
+            "imageUrl": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PQ48%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-18T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "6f92aba3-7c80-481c-aa7a-d588c933d804",
+            "title": "“Bir Adamla İlişkiler” İnteraktif Game Show",
+            "imageUrl": "https://www.biletimgo.com/images/bir-adamla-iliskiler-interaktif-game-show-1779564459.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/bir-adamla-iliskiler-interaktif-game-show-27476?partner=14",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "83352524-5bb5-48ae-9531-c210357e9ab5",
+            "title": "Mercaniye Çok Yaşa",
+            "imageUrl": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5D783%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "26a7608b-3794-4d27-ab73-b209fd628cb4",
+            "title": "Şebbaz",
+            "imageUrl": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5D789%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-20T17:30:00Z",
+            "isFeatured": false
+          },
           {
             "id": "5657bc60-bc75-4374-9967-002651f364a6",
             "title": "Drag Open Stage Act II : Drag Me To The Noh",
@@ -49,136 +70,315 @@
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
+        "trendingTopics": [
+          "Kitap",
+          "İstanbul",
+          "etkinlik",
+          "Çocuk"
         ],
-        "events": []
+        "isTrending": true,
+        "events": [
+          {
+            "id": "783e44af-5512-4eb6-99a3-56aaeda70a21",
+            "title": "İstanbul Dolphinarium",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/istanbul-dolphinarium/dolphinarium-logo-guncel.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/istanbul-dolphinarium",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
+          {
+            "id": "96d037ad-88b4-47dd-9eae-794968eb305f",
+            "title": "Nickelodeon Play! Tersane İstanbul",
+            "imageUrl": "https://static.bilet.com/images/vialand/land-of-legends/nickelodeon-play-istanbul/nickelodion_play_logo.webp",
+            "sourceUrl": null,
+            "nextDate": null,
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
+        "trendingTopics": [
+          "Atasözü",
+          "Tasarım",
+          "Tarih",
+          "Nezaket",
+          "Sporcu",
+          "Cümle",
+          "Din",
+          "Meddah",
+          "Haziran",
+          "Sanat Galerisi"
         ],
-        "events": []
+        "isTrending": true,
+        "events": [
+          {
+            "id": "e70f5f5d-55ef-4905-81dc-f8058bd23b62",
+            "title": "İstanbul Robot Müzesi",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/istanbul-robot-muzesi/istanbul-robot-muzesi-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/istanbul-robot-muzesi",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [
+          "Komedi",
+          "Stand-up Komedi",
+          "Film"
+        ],
+        "isTrending": true,
+        "events": [
+          {
+            "id": "bfe029a0-e3f6-4d43-9c08-8c7261c68091",
+            "title": "Zoltan Illes - English Stand-up Comedy Show",
+            "imageUrl": "https://www.biletimgo.com/images/zoltan-illes-english-standup-comedy-show-X7Q3CH.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/zoltan-illes-english-standup-comedy-show-27800?partner=14",
+            "nextDate": "2026-06-20T17:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "4632228b-4ae7-5ff9-83d9-bf62cdd2aec2",
+            "title": "Zaz",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxioX85UybWxdEolI3TxK9hptSoHEaCf3H8Y91T29rqT5XmjGmsCHFtQ&s",
+            "sourceUrl": "https://open.spotify.com/concert/4g2cjn2yLfVKmOCNLFeqzn",
+            "nextDate": "2026-06-16T17:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "6b25178c-fbee-44c9-9130-0af24b83024c",
+            "title": "Seninle Evlenir miyim?",
+            "imageUrl": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CXAU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-18T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "547fe637-0302-40a2-aa24-b54030a00394",
+            "title": "Coachella On Sea",
+            "imageUrl": "https://www.biletimgo.com/images/coachella-on-sea-1779196027.png",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/coachella-on-sea-27389?partner=14",
+            "nextDate": "2026-06-20T16:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "83a4b976-a150-456a-9926-9a342c2098b9",
+            "title": "Yüzeyin Derinliğinde",
+            "imageUrl": null,
+            "sourceUrl": "https://kultur.istanbul/etkinlik/yuzeyin-derinliginde/",
+            "nextDate": "2026-06-20T21:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "a8fa19c8-13ee-4d9d-85fc-c9b292bdad20",
+            "title": "Reis10line Party",
+            "imageUrl": "https://www.biletimgo.com/images/reis10line-party-1778219608.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/reis10line-party-27140?partner=14",
+            "nextDate": "2026-06-21T10:03:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "a02bdf6b-b268-4436-886e-a021c4530bde",
+            "title": "Ebru Bez Çanta Sanat Atölyesi - Haziran Etkinlikleri",
+            "imageUrl": "https://www.biletimgo.com/images/ebru-bez-canta-sanat-atolyesi-haziran-etkinlikleri-1779453352.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/ebru-bez-canta-sanat-atolyesi-haziran-etkinlikleri-27450?partner=14",
+            "nextDate": "2026-06-15T09:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "c2459ade-b842-4d8e-8942-1b5f77ac1a57",
+            "title": "Silivri Belediyesi Kültür Sanat Merkezi",
+            "imageUrl": "https://kultursanat.silivri.bel.tr/source/images/kultursanat-desktop-popup.jpg",
+            "sourceUrl": "https://kultursanat.silivri.bel.tr/etkinlik/590/747",
+            "nextDate": "2026-06-16T07:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "f6f5aa53-33f7-4b66-aedc-53f8220dc6e3",
+            "title": "Derispace Deri Kartlık Atölyesi | Deri Workshop İstanbul",
+            "imageUrl": "https://www.biletimgo.com/images/derispace-deri-kartlik-atolyesi-deri-workshop-istanbul-1780236889.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/derispace-deri-kartlik-atolyesi-deri-workshop-istanbul-27622?partner=14",
+            "nextDate": "2026-06-20T13:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "deaf1d39-ee01-44d4-817b-04ca7a24e218",
+            "title": "Boğazda Teknede Kahvaltı",
+            "imageUrl": "https://www.biletimgo.com/images/bogazda-teknede-kahvalti-1779708866.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/bogazda-teknede-kahvalti-27512?partner=14",
+            "nextDate": "2026-06-21T06:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "e03eab84-d19d-4329-971d-d4584a46131f",
+            "title": "Seramik Atölyesi (Aylık Kurs veya Tek Seans Workshop)",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/seramik-atolyesi-aylik-kurs-veya-tek-seans-workshop/seramik-logo.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/seramik-atolyesi-aylik-kurs-veya-tek-seans-workshop",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "43102d2d-4ce8-40db-9efd-6068aceabf0b",
+            "title": "AISUPOP PARTY’",
+            "imageUrl": "https://www.biletimgo.com/images/aisupop-party-1780396059.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/aisupop-party-27720?partner=14",
+            "nextDate": "2026-06-16T19:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "903d7f16-ad13-42d0-9eb4-fc614f488474",
+            "title": "WORST BRAT IN ISTANBUL PARTY",
+            "imageUrl": "https://www.biletimgo.com/images/worst-brat-in-istanbul-party-1780411325.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/worst-brat-in-istanbul-party-27791?partner=14",
+            "nextDate": "2026-06-17T19:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "2ed81d68-8679-4db4-ac1e-c1a77c829057",
+            "title": "ALİZADE LISTENING PARTY / %100 BAD-ASS BY YOUROTIKA",
+            "imageUrl": "https://www.biletimgo.com/images/alizade-listening-party-100-badass-by-yourotika-1780790705.png",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/alizade-listening-party-100-badass-by-yourotika-27956?partner=14",
+            "nextDate": "2026-06-20T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "c1bf36b6-9cd6-460e-8a1e-eaafd7c66349",
+            "title": "Boğazda Sınırsız Serpme Kahvaltı",
+            "imageUrl": "https://www.biletimgo.com/images/bogazda-sinirsiz-serpme-kahvalti-1780303836.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/bogazda-sinirsiz-serpme-kahvalti-27642?partner=14",
+            "nextDate": "2026-06-21T07:00:00Z",
+            "isFeatured": false
+          }
+        ]
       }
     ],
     "İzmir": [
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "8eb4975e-41a4-454b-8d36-dff0a3a5f16d",
+            "title": "Cafe Del Mundo GuitaRevolution",
+            "imageUrl": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DTAG%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-15T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "d23be721-6f7e-48df-8ba1-dba3e54b1c57",
+            "title": "Chris Isaak",
+            "imageUrl": "https://s1.ticketm.net/dam/a/bc7/45eea68d-adda-4327-8f5e-904ebae81bc7_SOURCE",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5EP05%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-16T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "42d0209b-da2d-4fed-b68c-07a34da05097",
+            "title": "Ahmet Kaya ile Kardeş Türküler",
+            "imageUrl": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JB87%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "42ca56a8-b395-4eda-b9ec-255dacbd8b58",
+            "title": "Sagopa Kajmer",
+            "imageUrl": "https://s1.ticketm.net/dam/a/733/94a471a4-04b8-4943-8bf1-4fa3581aa733_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RG29%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "9b9550de-0051-482a-8ea5-bc34a89f09c4",
+            "title": "Can Temiz & Od Band",
+            "imageUrl": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OEA4%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T18:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": [
+          {
+            "id": "8ce392f9-f4fc-4842-a21f-0fb90c31091e",
+            "title": "Eser Yenenler ile İtiraf Et - Güzelbahçe",
+            "imageUrl": "https://www.biletimgo.com/images/eser-yenenler-ile-itiraf-et-guzelbahce-1772104394.png",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/eser-yenenler-ile-itiraf-et-guzelbahce-24217?partner=14",
+            "nextDate": "2026-06-16T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "38fd808a-667e-4a2a-93a4-ba00c524dfbb",
+            "title": "Smyrna’dan İzmir’e",
+            "imageUrl": "https://www.biletimgo.com/images/smyrnadan-izmire-HSGT4Y.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/smyrnadan-izmire-26747?partner=14",
+            "nextDate": "2026-06-17T16:30:00Z",
+            "isFeatured": false
+          },
           {
             "id": "8bd14360-1463-49a8-a751-0e4c54e16a9c",
             "title": "NINJA ALL NIGHT LONG WITH THE BEST DJS",
@@ -186,105 +386,103 @@
             "sourceUrl": "https://www.biletimgo.com/etkinlik/ninja-all-night-long-with-the-best-djs-27883?partner=14",
             "nextDate": "2026-06-19T19:00:00Z",
             "isFeatured": false
+          },
+          {
+            "id": "98abcd0f-6b63-4eeb-84d0-d95fc5af3f98",
+            "title": "Güldür Güldür Show",
+            "imageUrl": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F55A93%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T18:00:00Z",
+            "isFeatured": false
           }
         ]
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "5de79d49-2d75-4ebb-9260-3e64bd01257f",
+            "title": "Funtastic Aquarium İzmir",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/funtastic-aquarium-izmir/funtastic-akvaryum-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/funtastic-aquarium-izmir",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "07929759-0e51-44aa-8bd0-89a8ae6b18d9",
+            "title": "Doğu Demirkol",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T922%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       }
     ],
@@ -292,140 +490,177 @@
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "c3d8f09c-2dc7-4b80-b2ee-ab4f26a207d7",
+            "title": "Güler Tuncer",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": null,
+            "nextDate": "2026-06-16T09:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "10adf86a-44cc-45ca-a718-65e9882fde7d",
+            "title": "Kahraman Deniz",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": null,
+            "nextDate": null,
+            "isFeatured": false
+          },
+          {
+            "id": "119bd55c-1dab-4b8c-b7b4-a8d27a4bed24",
+            "title": "Aisu",
+            "imageUrl": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": null,
+            "nextDate": null,
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "aec89c9a-a786-4910-8e39-5649f0b55535",
+            "title": "Uğur Yücel - Neyzen Tevfik Hiç",
+            "imageUrl": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5YS75%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-15T17:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "192bb404-fd0c-4486-bbda-67a55571c949",
+            "title": "Aqua Vega Akvaryum",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/aqua-vega-akvaryum/aquavegaakvaryum.png",
+            "sourceUrl": "https://www.bilet.com/etkinlik/aqua-vega-akvaryum",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "e9f552d3-83a5-4790-9b7a-acc706ec5174",
+            "title": "Salih Tıraş ile Açık Mikrofon Stand Up",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MUB0%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-15T17:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "830f6514-983b-4782-86d0-23b9f07f2508",
+            "title": "Doğu Demirkol",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T923%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-21T17:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "61fa6231-0166-4193-91ca-5960c6dc0cf6",
+            "title": "Noa Coffee Art - Pazartesi",
+            "imageUrl": "https://www.biletimgo.com/images/noa-coffee-art-pazartesi-1780406854.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/noa-coffee-art-pazartesi-27763?partner=14",
+            "nextDate": "2026-06-15T11:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": [
+          {
+            "id": "609bf470-6efd-4823-ac11-f24f7771125e",
+            "title": "90'LAR 2000'LER TÜRKÇE POP PARTİSİ",
+            "imageUrl": "https://www.biletimgo.com/images/90lar-2000ler-turkce-pop-partisi-1780928962.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/90lar-2000ler-turkce-pop-partisi-27992?partner=14",
+            "nextDate": "2026-06-19T17:00:00Z",
+            "isFeatured": false
+          },
           {
             "id": "b558b5d0-7268-4de5-8058-14a5eb5f80b5",
             "title": "Emo Era Party Ankara",
             "imageUrl": "https://www.biletimgo.com/images/emo-era-party-ankara-1780321336.jpeg",
             "sourceUrl": "https://www.biletimgo.com/etkinlik/emo-era-party-ankara-27651?partner=14",
             "nextDate": "2026-06-19T18:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "5afaa829-9957-480a-8f23-bc0665c08cec",
+            "title": "PINKMINK JUNE SPECIAL",
+            "imageUrl": "https://www.biletimgo.com/images/pinkmink-june-special-1780675470.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/pinkmink-june-special-27896?partner=14",
+            "nextDate": "2026-06-20T19:00:00Z",
             "isFeatured": false
           }
         ]
@@ -435,133 +670,143 @@
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "038c96ea-e2c1-4bf1-bd4f-1cddb09de2da",
+            "title": "13 Killoki",
+            "imageUrl": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OF33%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-16T18:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "af43bba6-8e58-4153-bb80-c7c9549a4a09",
+            "title": "Levent Yüksel",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F51916%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "15a51d56-3c0c-453a-9d77-7f53309a949a",
+            "title": "Başar Keklik",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5HO31%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-18T18:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "42459878-dd24-4e9a-ab36-5ae654f4e771",
+            "title": "Grub Abdal",
+            "imageUrl": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DP39%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "7e49dc24-e583-497f-bcf9-3447d69e7488",
+            "title": "Melek Mosso",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DH07%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T20:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "5c38f5dd-093e-4d89-9390-610584e20552",
+            "title": "Doğu Demirkol",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T921%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-18T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "f1edfc20-8945-43a5-9b4d-6a87cdb57885",
+            "title": "Eda Özyurt - Uyanan Güzel",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9LD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-20T17:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       }
     ],
@@ -569,133 +814,110 @@
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "7e0dd553-7434-45dc-ac95-ae833fd48c30",
+            "title": "Ufuk Beydemir",
+            "imageUrl": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FE53%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T18:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "fd4169ac-b4dd-4848-b67c-071b3f126fa8",
+            "title": "PANDAMİ MUSIC",
+            "imageUrl": "https://www.biletimgo.com/images/pandami-music-YTLDND.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/pandami-music-25857?partner=14",
+            "nextDate": "2026-06-19T19:20:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "3d17dd1f-a575-47eb-900c-aaa357666dde",
+            "title": "LATINAS POP NIGHT (ESKISEHIR)",
+            "imageUrl": "https://www.biletimgo.com/images/latinas-pop-night-eskisehir-1779802003.png",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/latinas-pop-night-eskisehir-27541?partner=14",
+            "nextDate": "2026-06-21T19:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       }
     ],
@@ -703,267 +925,342 @@
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "fa66b9b4-8f94-413a-93c8-b318dbddbe82",
+            "title": "Emre Nalbantoğlu",
+            "imageUrl": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5METL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-16T19:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "11a45d38-cd10-4d9c-a31d-752a76195bab",
+            "title": "Çelik ve DJ Hakan Küfündür ile 90lar 2000ler Türkçe Pop Parti",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F50P11%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T19:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "a4c71bc3-4803-49de-afed-8e584f0c0f8a",
+            "title": "Richard Bona & Alfredo Rodriguez Trio",
+            "imageUrl": "https://s1.ticketm.net/dam/a/7f3/37a70d48-a2a8-4288-ba80-717ce0cb97f3_SOURCE",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5C308%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "79a49bc1-e66d-47a1-b2a7-3b664b1b9255",
+            "title": "Fazıl Say",
+            "imageUrl": "https://s1.ticketm.net/dam/a/6fc/1fa702c5-0563-48e5-a891-53f6d03bd6fc_SOURCE",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5C310%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "f004bd13-1211-44c5-887d-f659d0d71e95",
+            "title": "Yaşar",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JLY1%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T18:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "12d4d104-f70b-45fd-82d3-f7bfbfae0ce6",
+            "title": "Olympos Teleferik",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/olympos-teleferik/olympos-teleferik-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/olympos-teleferik",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
+          {
+            "id": "5866d402-0efb-404d-b34f-430c13072375",
+            "title": "The Land Of Legends Tema Park",
+            "imageUrl": "https://static.bilet.com/images/vialand/land-of-legends/land-of-legends/land-of-legends-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/land-of-legends",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
+          {
+            "id": "9044b3c5-f579-4170-9243-7a733e728ff7",
+            "title": "Voyage Relax Yachting",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/voyage-relax-yachting/voyage-ralax-yachting-main.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/voyage-relax-yachting",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
+          {
+            "id": "ef13d457-f352-4384-b53a-5e3fc54f8b36",
+            "title": "Dinopark",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/dinopark/dinopark-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/dinopark",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          },
+          {
+            "id": "f852d9c0-3f62-4f8f-9f9d-640a1dd8abd2",
+            "title": "Antalya Aquarium",
+            "imageUrl": "https://static.bilet.com/images/vialand/antalya-akvaryum/antalya-akvaryum/antalya-akvaryum-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/antalya-akvaryum",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
+        "trendingTopics": [
+          "Atasözü",
+          "Tasarım",
+          "Tarih",
+          "Nezaket",
+          "Sporcu",
+          "Cümle",
+          "Din",
+          "Meddah",
+          "Haziran",
+          "Sanat Galerisi"
         ],
-        "events": []
+        "isTrending": true,
+        "events": [
+          {
+            "id": "c0155015-1e1e-455e-ae0c-25d3e86783d8",
+            "title": "Sandland Antalya Kum Heykel Müzesi",
+            "imageUrl": "https://static.bilet.com/images/vialand/biletcom/sandland-antalya-kum-heykel-muzesi/sandland-yeni.webp",
+            "sourceUrl": "https://www.bilet.com/etkinlik/sandland-antalya-kum-heykel-muzesi",
+            "nextDate": "2099-12-31T00:00:00",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "4660f255-c9dd-4b20-add1-c6c353492733",
+            "title": "Tahsin Hasoğlu",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MKS3%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-17T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "d8216f64-1e60-4e81-a17c-ddfe2d90e45f",
+            "title": "Yusuf Bilal Altıntaş - Entel Maganda Stand Up",
+            "imageUrl": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN74%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T17:30:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "bc71d6b4-616b-4d01-991b-2c59efc4d771",
+            "title": "Kerimcan Durmaz",
+            "imageUrl": "https://s1.ticketm.net/dam/a/560/0ecc78f5-e389-4726-99fb-48cf12bb2560_SOURCE",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KAM3%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T19:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "774bf2b8-b2bb-4272-9325-2c9f8e352076",
+            "title": "Private Yacht Party",
+            "imageUrl": "https://www.biletimgo.com/images/private-yacht-party-1780828197.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/private-yacht-party-27960?partner=14",
+            "nextDate": "2026-06-20T15:00:00Z",
+            "isFeatured": false
+          }
+        ]
       }
     ],
     "Denizli": [
       {
         "category": "concert",
         "label": "🎵 Konser & Müzik",
-        "trendingTerms": [
-          "travis scott konser istanbul",
-          "ankara millet bahçesi konser",
-          "atatürk havalimanı konser",
-          "tarkan ankara konseri",
-          "travis scott izmir konser",
-          "kanye west konser bilet fiyat",
-          "poizi konser bursa",
-          "gürsel aksel stadyumu konser",
-          "kanye west konser saat kaçta",
-          "atatürk olimpiyat stadyumu"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "14a2b722-471c-46c7-8fc2-c27343a6e043",
+            "title": "Erkolar Kapatıldı Party | DENİZLİ",
+            "imageUrl": "https://www.biletimgo.com/images/erkolar-kapatildi-party-denizli-SHTIGP.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/erkolar-kapatildi-party-denizli-24624?partner=14",
+            "nextDate": "2026-06-15T17:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "14fda062-28bc-4940-8b0d-c7346dc44b61",
+            "title": "Aşkın Nur Yengi Senfonik",
+            "imageUrl": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JB83%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-19T18:00:00Z",
+            "isFeatured": false
+          },
+          {
+            "id": "ac86812b-dc7c-4579-a40f-f0d2858924fa",
+            "title": "Melike Şahin",
+            "imageUrl": "https://s1.ticketm.net/dam/a/850/3bbe175b-8808-4b68-9f60-6ab2e9341850_SOURCE",
+            "sourceUrl": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F55AF1%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "nextDate": "2026-06-21T18:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "theatre",
         "label": "🎭 Tiyatro & Sahne",
-        "trendingTerms": [
-          "tiyatro türünün özellikleri",
-          "kaş amfi tiyatro",
-          "boş beşik kimin eseri",
-          "çorum tiyatro",
-          "dört mevsim tiyatro salonu",
-          "demet evgar tiyatro",
-          "anlatım teknikleri",
-          "necip fazıl kısakürek tiyatro eserleri",
-          "denizli antik tiyatro",
-          "midasın kulakları kimin eseri"
-        ],
-        "events": []
+        "trendingTopics": [],
+        "isTrending": false,
+        "events": [
+          {
+            "id": "8b4991b3-0d74-4748-af16-62185e246b25",
+            "title": "Kalbur Üstü İlişki",
+            "imageUrl": "https://www.biletimgo.com/images/kalbur-ustu-iliski-1780073365.jpeg",
+            "sourceUrl": "https://www.biletimgo.com/etkinlik/kalbur-ustu-iliski-27591?partner=14",
+            "nextDate": "2026-06-15T18:00:00Z",
+            "isFeatured": false
+          }
+        ]
       },
       {
         "category": "cinema",
         "label": "🎬 Sinema & Gösterim",
-        "trendingTerms": [
-          "obsession 2026",
-          "backrooms",
-          "obsession",
-          "obsession sinema",
-          "özdilek sinema",
-          "ankamall sinema",
-          "vizyonda olan filmler",
-          "optimum sinema",
-          "sinema filmleri",
-          "vizyonda ne var"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "activity",
         "label": "🎡 Aktivite & Deneyim",
-        "trendingTerms": [
-          "istanbul aktivite",
-          "istanbul etkinlik"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "exhibition",
         "label": "🖼️ Sergi & Sanat",
-        "trendingTerms": [
-          "sergi nedir",
-          "istanbul modern",
-          "sanat nedir"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "standup",
         "label": "🎤 Stand-up & Gösteri",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "festival",
         "label": "🎪 Festival & Gösteri",
-        "trendingTerms": [
-          "atatürk havalimanı etkinlik",
-          "istanbul etkinlik",
-          "festival park yenikapı",
-          "izmir etkinlik",
-          "ankara etkinlik",
-          "lidl near me"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "sports",
         "label": "⚽ Spor Etkinlikleri",
-        "trendingTerms": [
-          "ülker spor ve etkinlik salonu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "workshop",
         "label": "📚 Workshop & Eğitim",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "food",
         "label": "🍽️ Yeme & İçme",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "kids",
         "label": "👨‍👩‍👧 Aile & Çocuk",
-        "trendingTerms": [],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       },
       {
         "category": "social",
         "label": "🎉 Sosyal & Eğlence",
-        "trendingTerms": [
-          "ankara etkinlik",
-          "e okul sosyal etkinlik girişi",
-          "sosyal etkinlikler yönetmeliği",
-          "e okul sosyal etkinlik modülü",
-          "kızılay kulübü sosyal etkinlik örnekleri",
-          "sosyal etkinlik modülü",
-          "4.sınıf sosyal bilgiler etkinlik",
-          "mebbis",
-          "sosyal etkinlik girişi",
-          "sosyal etkinlik bilgilendirme formu"
-        ],
+        "trendingTopics": [],
+        "isTrending": false,
         "events": []
       }
     ]
