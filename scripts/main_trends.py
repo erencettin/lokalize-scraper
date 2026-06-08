@@ -23,18 +23,6 @@ logging.basicConfig(
 )
 _logger = logging.getLogger(__name__)
 
-_CATEGORY_LABELS = {
-    "concert":   "🎵 Konser & Müzik",
-    "theatre":   "🎭 Tiyatro & Sahne",
-    "standup":   "🎤 Stand-up & Komedi",
-    "festival":  "🎪 Festival",
-    "cinema":    "🎬 Sinema",
-    "exhibition":"🖼️ Sergi & Sanat",
-    "experience":"🎨 Atölye & Deneyim",
-    "show":      "🎙️ Söyleşi & Gösteri",
-    "sports":    "⚽ Spor",
-    "family":    "👨‍👩‍👧 Aile & Çocuk",
-}
 
 
 def _format_date(iso: str | None) -> str:
@@ -77,8 +65,7 @@ def _build_markdown(report: Dict[str, Any]) -> str:
             continue
 
         for candidate in candidates:
-            category = candidate.get("category", "")
-            label = _CATEGORY_LABELS.get(category, f"🔹 {category}")
+            label = candidate.get("label") or candidate.get("category", "")
             term = candidate.get("term", "")
             score = candidate.get("trendScore", 0)
             events = candidate.get("events", [])

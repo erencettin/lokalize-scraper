@@ -98,17 +98,27 @@ TREND_CATEGORY_KEYWORDS: Dict[str, list[str]] = {
 # terms) to the canonical category ids stored in Event.Type on the backend
 # (see LokalizeBackend Domain/Utilities/CategoryCatalog.cs), so that
 # GET /api/events/trend-candidates?category=<id> returns matching events.
+# All frontend-visible categories, mapped to backend canonical Event.Type values
+# (see LokalizeBackend Domain/Utilities/CategoryCatalog.cs).
+# Order here determines the display order in the Markdown report.
+TREND_CATEGORIES: list[Dict[str, str]] = [
+    {"id": "concert",   "label": "🎵 Konser & Müzik",       "backendType": "concert",   "query": "konser"},
+    {"id": "theatre",   "label": "🎭 Tiyatro & Sahne",       "backendType": "theatre",   "query": "tiyatro"},
+    {"id": "cinema",    "label": "🎬 Sinema & Gösterim",     "backendType": "cinema",    "query": "sinema vizyonda"},
+    {"id": "activity",  "label": "🎡 Aktivite & Deneyim",   "backendType": "activity",  "query": "aktivite etkinlik"},
+    {"id": "exhibition","label": "🖼️ Sergi & Sanat",        "backendType": "exhibition","query": "sergi sanat"},
+    {"id": "standup",   "label": "🎤 Stand-up & Gösteri",   "backendType": "standup",   "query": "stand up komedi"},
+    {"id": "festival",  "label": "🎪 Festival & Gösteri",   "backendType": "festival",  "query": "festival etkinlik"},
+    {"id": "sports",    "label": "⚽ Spor Etkinlikleri",    "backendType": "match",     "query": "spor etkinlik bilet"},
+    {"id": "workshop",  "label": "📚 Workshop & Eğitim",    "backendType": "workshop",  "query": "atölye workshop"},
+    {"id": "food",      "label": "🍽️ Yeme & İçme",         "backendType": "food",      "query": "yeme içme etkinlik"},
+    {"id": "kids",      "label": "👨‍👩‍👧 Aile & Çocuk",      "backendType": "kids",      "query": "çocuk aile etkinlik"},
+    {"id": "social",    "label": "🎉 Sosyal & Eğlence",     "backendType": "social",    "query": "sosyal etkinlik"},
+]
+
+# Legacy mapping kept for backwards-compat with any existing references.
 TREND_CATEGORY_TO_BACKEND_TYPE: Dict[str, str] = {
-    "concert": "concert",
-    "theatre": "theatre",
-    "standup": "standup",
-    "festival": "festival",
-    "cinema": "cinema",
-    "exhibition": "exhibition",
-    "experience": "workshop",
-    "show": "festival",
-    "sports": "match",
-    "family": "kids",
+    c["id"]: c["backendType"] for c in TREND_CATEGORIES
 }
 
 CANONICAL_PROVIDER_ORDER: list[str] = [
