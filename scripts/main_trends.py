@@ -66,25 +66,26 @@ def _build_markdown(report: Dict[str, Any]) -> str:
 
         for candidate in candidates:
             label = candidate.get("label") or candidate.get("category", "")
-            term = candidate.get("term", "")
-            score = candidate.get("trendScore", 0)
+            trending_terms = candidate.get("trendingTerms") or []
             events = candidate.get("events", [])
 
+            if not events:
+                continue
+
             lines.append(f"### {label}")
-            lines.append(f'> Trend: **"{term}"** &nbsp;|&nbsp; Skor: `{score}`')
+            if trending_terms:
+                terms_display = ", ".join(f'"{t}"' for t in trending_terms[:5])
+                lines.append(f"> Trend sorgular: {terms_display}")
             lines.append("")
 
-            if events:
-                for ev in events:
-                    title = ev.get("title", "").strip()
-                    url = ev.get("sourceUrl") or ""
-                    date = _format_date(ev.get("nextDate"))
-                    if url:
-                        lines.append(f"- [{title}]({url}) — {date}")
-                    else:
-                        lines.append(f"- {title} — {date}")
-            else:
-                lines.append("_Sistemde bu kategoride yaklaşan etkinlik bulunamadı._")
+            for ev in events:
+                title = ev.get("title", "").strip()
+                url = ev.get("sourceUrl") or ""
+                date = _format_date(ev.get("nextDate"))
+                if url:
+                    lines.append(f"- [{title}]({url}) — {date}")
+                else:
+                    lines.append(f"- {title} — {date}")
 
             lines.append("")
 

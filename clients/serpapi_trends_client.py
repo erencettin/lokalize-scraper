@@ -37,3 +37,13 @@ class SerpApiTrendsClient:
         )
         timeline = payload.get("interest_over_time", {}).get("timeline_data", [])
         return timeline or []
+
+    def related_queries(self, *, query: str, geo: str, lookback_days: int = 14) -> Dict[str, Any]:
+        """Returns related queries (top + rising) for a keyword in a region."""
+        date_range = "now 7-d" if lookback_days <= 7 else "today 1-m"
+        payload = self._client.search(
+            engine="google_trends",
+            query=query,
+            extra_params={"geo": geo, "data_type": "RELATED_QUERIES", "date": date_range},
+        )
+        return payload.get("related_queries", {})
