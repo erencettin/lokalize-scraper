@@ -1,7 +1,7 @@
 # 📅 Haftalık Trend Raporu — 8 Haz 2026
 
 > Son 14 günün Google Trends verisine göre Türkiye'de öne çıkan etkinlik kategorileri ve şehirlerdeki etkinlikler.
-> **7 SerpAPI isteği kullanıldı.**
+> **28 SerpAPI isteği kullanıldı.**
 
 ---
 
@@ -22,9 +22,13 @@
 - [Drag Open Stage Act II : Drag Me To The Noh](https://www.biletimgo.com/etkinlik/drag-open-stage-act-ii-drag-me-to-the-noh-27789?partner=14) — 20 Haz 2026
 
 ### 🎡 Aktivite & Deneyim
-> 🔥 Trend: "avrasya tüneli"
+> 📅 Bu hafta yaklaşan etkinlikler
 
-- Dentur Avrasya Boğaz Turu — ?
+- [Torium Snowpark](https://www.bilet.com/etkinlik/torium-snowpark) — 31 Ara 2099
+- [Forest Kemerburgaz](https://www.bilet.com/etkinlik/forest-kemerburgaz) — 31 Ara 2099
+- [Conia Paintball Çekmeköy](https://www.bilet.com/etkinlik/conia-paintball-cekmekoy) — 31 Ara 2099
+- [Emaar SkyView](https://www.bilet.com/etkinlik/emaar-skyview) — 31 Ara 2099
+- [Çamlıca Kulesi](https://www.bilet.com/etkinlik/camlica-kulesi) — 31 Ara 2099
 
 ### 🖼️ Sergi & Sanat
 > 📅 Bu hafta yaklaşan etkinlikler
@@ -57,9 +61,12 @@
 - [Seramik Atölyesi (Aylık Kurs veya Tek Seans Workshop)](https://www.bilet.com/etkinlik/seramik-atolyesi-aylik-kurs-veya-tek-seans-workshop) — 31 Ara 2099
 
 ### 🎉 Sosyal & Eğlence
-> 🔥 Trend: "istanbul namaz vakitleri"
+> 📅 Bu hafta yaklaşan etkinlikler
 
+- [AISUPOP PARTY’](https://www.biletimgo.com/etkinlik/aisupop-party-27720?partner=14) — 16 Haz 2026
 - [WORST BRAT IN ISTANBUL PARTY](https://www.biletimgo.com/etkinlik/worst-brat-in-istanbul-party-27791?partner=14) — 17 Haz 2026
+- [ALİZADE LISTENING PARTY / %100 BAD-ASS BY YOUROTIKA](https://www.biletimgo.com/etkinlik/alizade-listening-party-100-badass-by-yourotika-27956?partner=14) — 20 Haz 2026
+- [Boğazda Sınırsız Serpme Kahvaltı](https://www.biletimgo.com/etkinlik/bogazda-sinirsiz-serpme-kahvalti-27642?partner=14) — 21 Haz 2026
 
 ---
 
@@ -125,9 +132,11 @@
 - [Noa Coffee Art - Pazartesi](https://www.biletimgo.com/etkinlik/noa-coffee-art-pazartesi-27763?partner=14) — 15 Haz 2026
 
 ### 🎉 Sosyal & Eğlence
-> 🔥 Trend: "ankara namaz"
+> 📅 Bu hafta yaklaşan etkinlikler
 
+- [90'LAR 2000'LER TÜRKÇE POP PARTİSİ](https://www.biletimgo.com/etkinlik/90lar-2000ler-turkce-pop-partisi-27992?partner=14) — 19 Haz 2026
 - [Emo Era Party Ankara](https://www.biletimgo.com/etkinlik/emo-era-party-ankara-27651?partner=14) — 19 Haz 2026
+- [PINKMINK JUNE SPECIAL](https://www.biletimgo.com/etkinlik/pinkmink-june-special-27896?partner=14) — 20 Haz 2026
 
 ---
 
@@ -173,12 +182,16 @@
 - [Yaşar](https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JLY1%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate) — 19 Haz 2026
 
 ### 🎡 Aktivite & Deneyim
-> 🔥 Trend: "antalya hava durumu"
+> 📅 Bu hafta yaklaşan etkinlikler
 
+- [Olympos Teleferik](https://www.bilet.com/etkinlik/olympos-teleferik) — 31 Ara 2099
+- [The Land Of Legends Tema Park](https://www.bilet.com/etkinlik/land-of-legends) — 31 Ara 2099
+- [Voyage Relax Yachting](https://www.bilet.com/etkinlik/voyage-relax-yachting) — 31 Ara 2099
+- [Dinopark](https://www.bilet.com/etkinlik/dinopark) — 31 Ara 2099
 - [Antalya Aquarium](https://www.bilet.com/etkinlik/antalya-akvaryum) — 31 Ara 2099
 
 ### 🖼️ Sergi & Sanat
-> 🔥 Trend: "antalya hava durumu"
+> 📅 Bu hafta yaklaşan etkinlikler
 
 - [Sandland Antalya Kum Heykel Müzesi](https://www.bilet.com/etkinlik/sandland-antalya-kum-heykel-muzesi) — 31 Ara 2099
 
