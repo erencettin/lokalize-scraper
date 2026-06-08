@@ -95,6 +95,12 @@ class Settings(BaseSettings):
     serpapi_timeout_seconds: int = Field(30, alias="SERPAPI_TIMEOUT_SECONDS")
     serpapi_max_attempts: int = Field(2, alias="SERPAPI_MAX_ATTEMPTS")
 
+    # SerpAPI Trend Analysis Config (weekly "this week in your city" Instagram posts)
+    trends_enabled: bool = Field(False, alias="TRENDS_ENABLED")
+    trends_lookback_days: int = Field(14, alias="TRENDS_LOOKBACK_DAYS")
+    trends_max_candidates_per_city: int = Field(3, alias="TRENDS_MAX_CANDIDATES_PER_CITY")
+    trends_output_path: str = Field("data/trends/weekly_report.json", alias="TRENDS_OUTPUT_PATH")
+
     class Config:
         env_file = ".env"
         case_sensitive = False

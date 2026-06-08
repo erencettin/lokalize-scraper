@@ -28,23 +28,27 @@ class SerpApiClient:
         self,
         *,
         engine: str,
-        query: str,
+        query: Optional[str] = None,
         location: Optional[str] = None,
         hl: str = "tr",
         gl: str = "tr",
+        extra_params: Optional[Dict[str, Any]] = None,
     ) -> Dict[str, Any]:
         if not self.is_enabled:
             raise RuntimeError("SERPAPI_API_KEY is missing.")
 
-        params = {
+        params: Dict[str, Any] = {
             "api_key": self._api_key,
             "engine": engine,
-            "q": query,
             "hl": hl,
             "gl": gl,
         }
+        if query and query.strip():
+            params["q"] = query.strip()
         if location and location.strip():
             params["location"] = location.strip()
+        if extra_params:
+            params.update(extra_params)
 
         last_error: Optional[str] = None
         for attempt in range(1, self._max_attempts + 1):

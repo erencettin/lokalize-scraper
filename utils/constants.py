@@ -56,6 +56,61 @@ CATEGORY_MAP: Dict[str, str] = {
     "konferans": "show",
 }
 
+# Priority cities for the weekly trend-analysis feature ("this week in your city"
+# Instagram posts), ordered by post priority.
+TREND_CITIES: list[str] = [
+    "İstanbul",
+    "İzmir",
+    "Ankara",
+    "Bursa",
+    "Eskişehir",
+    "Antalya",
+    "Denizli",
+]
+
+# Google Trends region codes (ISO 3166-2:TR province codes) for each priority city.
+TREND_CITY_GEO: Dict[str, str] = {
+    "İstanbul": "TR-34",
+    "İzmir": "TR-35",
+    "Ankara": "TR-06",
+    "Bursa": "TR-16",
+    "Eskişehir": "TR-26",
+    "Antalya": "TR-07",
+    "Denizli": "TR-20",
+}
+
+# Maps our event categories to Turkish keyword sets used to recognize a trending
+# search term as belonging to that category (lowercase, accent-folded match).
+TREND_CATEGORY_KEYWORDS: Dict[str, list[str]] = {
+    "concert": ["konser", "müzik", "muzik", "festival müzik"],
+    "theatre": ["tiyatro", "oyun", "sahne"],
+    "standup": ["stand up", "stand-up", "komedi"],
+    "festival": ["festival"],
+    "cinema": ["sinema", "film", "vizyon"],
+    "exhibition": ["sergi", "galeri", "müze", "muze"],
+    "experience": ["atölye", "atolye", "workshop", "deneyim"],
+    "show": ["söyleşi", "soylesi", "panel", "konferans"],
+    "sports": ["maç", "mac", "spor", "lig"],
+    "family": ["çocuk", "cocuk", "aile"],
+}
+
+# Maps the trend service's category buckets (used for matching trending search
+# terms) to the canonical category ids stored in Event.Type on the backend
+# (see LokalizeBackend Domain/Utilities/CategoryCatalog.cs), so that
+# GET /api/events/trend-candidates?category=<id> returns matching events.
+TREND_CATEGORY_TO_BACKEND_TYPE: Dict[str, str] = {
+    "concert": "concert",
+    "theatre": "theatre",
+    "standup": "standup",
+    "festival": "festival",
+    "cinema": "cinema",
+    "exhibition": "exhibition",
+    "experience": "workshop",
+    "show": "festival",
+    "sports": "match",
+    "family": "kids",
+}
+
 CANONICAL_PROVIDER_ORDER: list[str] = [
     "Ticketmaster",
     "MunicipalRSS",

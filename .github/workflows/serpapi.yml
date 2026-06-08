@@ -1,8 +1,9 @@
 name: SerpAPI Sync
 
+# Scheduled run disabled 2026-06-08: SerpAPI quota is now reserved for the
+# weekly trend-analysis feature (see services/trend_analysis_service.py).
+# Kept as workflow_dispatch only, in case manual event-sync runs are needed.
 on:
-  schedule:
-    - cron: "0 3 * * 1-5"
   workflow_dispatch:
 
 concurrency:

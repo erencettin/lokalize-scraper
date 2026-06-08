@@ -72,6 +72,36 @@ class BackendClient:
             logging.error("Error connecting to backend: %s", exc)
             return False
 
+    def get_trend_candidates(self, *, city: str, category: str, limit: int = 5) -> List[Dict]:
+        """
+        Fetches the top active, upcoming events for a city/category combo
+        (GET /api/events/trend-candidates) — used by the weekly trend report
+        to attach poster images to trending categories. Returns [] when
+        backend sync is disabled or the request fails.
+        """
+        if not self.enabled:
+            self._log_skip_reason()
+            return []
+
+        url = f"{self.base_url}/api/events/trend-candidates"
+        try:
+            response = self.session.get(
+                url,
+                params={"city": city, "category": category, "limit": limit},
+                timeout=30,
+            )
+            if 200 <= response.status_code < 300:
+                payload = response.json()
+                return payload if isinstance(payload, list) else []
+            logging.warning(
+                "Trend candidates request failed (%s) city=%s category=%s — body: %s",
+                response.status_code, city, category, response.text[:500],
+            )
+            return []
+        except Exception as exc:
+            logging.error("Error fetching trend candidates: %s", exc)
+            return []
+
     def deactivate_stale(self, sync_run_id: str, provider: str | None = None) -> bool:
         """
         Triggers the stale data cleanup lifecycle in the backend.
