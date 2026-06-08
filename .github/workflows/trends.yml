@@ -37,7 +37,7 @@ jobs:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
 
       - name: Build Weekly Trend Report
-        if: steps.quota.outputs.remaining > 30
+        if: steps.quota.outputs.remaining > 25
         run: python scripts/main_trends.py
         env:
           PYTHONPATH: "."
