@@ -12,7 +12,8 @@ import requests
 from config import settings
 from models.normalized_event import NormalizedEvent
 from providers.base_provider import BaseProvider
-from providers.ticketmaster.constants import ERROR_PREVIEW_LENGTH
+from providers.ticketmaster.biletix_detail_fetcher import BiletixDetailFetcher
+from providers.ticketmaster.constants import BILETIX_BRAND_NAME, ERROR_PREVIEW_LENGTH
 from providers.ticketmaster.event_builder import EventBuilder
 from providers.ticketmaster.http_client import TicketmasterHttpClient
 from providers.ticketmaster.price_extractor import PriceExtractor
@@ -29,6 +30,7 @@ class TicketmasterProvider(BaseProvider):
         response_parser: Optional[ResponseParser] = None,
         event_builder: Optional[EventBuilder] = None,
         price_extractor: Optional[PriceExtractor] = None,
+        biletix_detail_fetcher: Optional[BiletixDetailFetcher] = None,
     ) -> None:
         super().__init__("Ticketmaster", mode="http")
         self._logger = logging.getLogger(__name__)
@@ -36,6 +38,7 @@ class TicketmasterProvider(BaseProvider):
         self._http = http_client or TicketmasterHttpClient()
         self._parser = response_parser or ResponseParser()
         self._builder = event_builder or EventBuilder(price_extractor=self._price_extractor)
+        self._biletix_detail = biletix_detail_fetcher or BiletixDetailFetcher()
         self._last_fetched_pages = 0
 
     @property
@@ -56,6 +59,8 @@ class TicketmasterProvider(BaseProvider):
             self._logger.warning("Ticketmaster: API key missing, skipping provider safely")
             return []
         self._http.setup_session()
+        if settings.biletix_detail_enabled:
+            self._biletix_detail.setup_session()
         try:
             raw_events = self._fetch_all_events()
             parsed, skipped = self._normalize_events(raw_events)
@@ -63,6 +68,8 @@ class TicketmasterProvider(BaseProvider):
             return parsed
         finally:
             self._http.close_session()
+            if settings.biletix_detail_enabled:
+                self._biletix_detail.close_session()
 
     def _fetch_all_events(self) -> List[Dict[str, Any]]:
         events = self._http.fetch_all_pages()
@@ -102,6 +109,7 @@ class TicketmasterProvider(BaseProvider):
             )
             return None
         item = self._price_extractor.enrich_with_detail(item, self._http, item.event_id)
+        item = self._enrich_with_biletix_about(item)
         normalized = self._builder.build(item)
         if normalized is None:
             return None
@@ -113,6 +121,25 @@ class TicketmasterProvider(BaseProvider):
             )
             return None
         return normalized
+
+    def _enrich_with_biletix_about(self, item):
+        """Fill in the missing description for Biletix events by scraping their detail page.
+
+        Discovery API leaves eventInfo/eventNotes/info/pleaseNote empty for Biletix-branded
+        events. Biletix granted permission (2026-06-08) to scrape "Etkinliğe Dair" from
+        biletix.com, with attribution — see BILETIX_SOURCE_ATTRIBUTION in event_builder.
+        """
+        if not settings.biletix_detail_enabled:
+            return item
+        if item.brand_name != BILETIX_BRAND_NAME or item.description:
+            return item
+        if not item.source_url:
+            return item
+        try:
+            item.about_description = self._biletix_detail.fetch_about_description(item.source_url)
+        except Exception as exc:
+            self._logger.warning("Ticketmaster: biletix detail fetch failed event_id=%s reason=%s", item.event_id, exc)
+        return item
 
     def _normalize_event(self, raw_event: Dict[str, Any]) -> Optional[NormalizedEvent]:
         """Compatibility helper that normalizes without any HTTP detail call."""

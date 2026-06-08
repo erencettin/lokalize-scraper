@@ -12,6 +12,7 @@ import pytz
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
 
 from providers.ticketmaster.constants import (
+    BILETIX_SOURCE_ATTRIBUTION,
     DEFAULT_CURRENCY,
     DEFAULT_EVENT_TYPE,
     DEFAULT_TICKET_STATUS,
@@ -197,7 +198,7 @@ class EventBuilder:
         occurrence = self._build_occurrence(item, start_at_utc, price, effective_url)
         return NormalizedEvent(
             title=item.title,
-            description=self._truncate_description(item.description),
+            description=self._resolve_description(item),
             type=item.event_type or DEFAULT_EVENT_TYPE,
             city_name=city_name,
             image_url=item.image_url or None,
@@ -286,5 +287,20 @@ class EventBuilder:
         if not cleaned:
             return None
         return cleaned[:MAX_DESCRIPTION_LENGTH]
+
+    def _resolve_description(self, item: RawTicketmasterEvent) -> Optional[str]:
+        """Prefer the API-provided description; fall back to scraped Biletix "about" text.
+
+        Discovery API leaves description fields empty for Biletix-branded events.
+        When that happens and we scraped "Etkinliğe Dair" from biletix.com (with
+        Biletix's permission, granted 2026-06-08), attribute the source explicitly.
+        """
+        if item.description:
+            return self._truncate_description(item.description)
+        about = clean_text(item.about_description or "")
+        if not about:
+            return None
+        suffix = f" — {BILETIX_SOURCE_ATTRIBUTION}"
+        return about[:MAX_DESCRIPTION_LENGTH - len(suffix)] + suffix
 
 

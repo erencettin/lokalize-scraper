@@ -55,6 +55,16 @@ FREE_PRICE_TEXT = "Ucretsiz"
 DEFAULT_TICKET_STATUS = "on_sale"
 DEFAULT_CURRENCY = "TRY"
 
+# --- Biletix detail page enrichment (scraping "Etkinliğe Dair") ---
+# Biletix granted permission (2026-06-08, affiliate partnership) to scrape this
+# section, on the condition that the source is attributed and the bot identifies
+# itself transparently. Do NOT spoof a browser User-Agent here.
+BILETIX_BRAND_NAME = "Biletix"
+BILETIX_DETAIL_DEFAULT_USER_AGENT = "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
+BILETIX_SOURCE_ATTRIBUTION = "Kaynak: Biletix"
+BILETIX_DETAIL_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+BILETIX_DETAIL_MAX_RETRY_BACKOFF_SECONDS = 30
+
 MAX_DESCRIPTION_LENGTH = 2000
 ERROR_PREVIEW_LENGTH = 300
 DETAIL_PREVIEW_LENGTH = 200

@@ -35,3 +35,6 @@ class RawTicketmasterEvent:
     venue_city: str = ""                 # city extracted from venue data
     attraction_id: Optional[str] = None              # TM attractions[0].id
     attraction_upcoming_count: Optional[int] = None  # TM attractions[0].upcomingEvents._total
+    # Scraped from biletix.com detail page when Discovery API leaves description empty
+    # for Biletix-branded events. See providers/ticketmaster/biletix_detail_fetcher.py
+    about_description: Optional[str] = None

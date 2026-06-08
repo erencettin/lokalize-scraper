@@ -45,6 +45,15 @@ class Settings(BaseSettings):
     ticketmaster_detail_price_max_retries: int = Field(2, alias="TICKETMASTER_DETAIL_PRICE_MAX_RETRIES")
     ticketmaster_lookahead_days: int = Field(120, alias="TICKETMASTER_LOOKAHEAD_DAYS")
 
+    # Biletix detail page enrichment ("Etkinliğe Dair" scraping — permission granted by Biletix 2026-06-08)
+    biletix_detail_enabled: bool = Field(True, alias="BILETIX_DETAIL_ENABLED")
+    biletix_detail_user_agent: str = Field(
+        "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)",
+        alias="BILETIX_DETAIL_USER_AGENT",
+    )
+    biletix_detail_timeout_seconds: int = Field(15, alias="BILETIX_DETAIL_TIMEOUT_SECONDS")
+    biletix_detail_max_retries: int = Field(2, alias="BILETIX_DETAIL_MAX_RETRIES")
+
     # Municipal Open Data / RSS Provider Config
     municipal_rss_enabled: bool = Field(False, alias="MUNICIPAL_RSS_ENABLED")
     municipal_rss_urls: str = Field("", alias="MUNICIPAL_RSS_URLS")

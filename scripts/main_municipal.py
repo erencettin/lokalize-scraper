@@ -1,10 +1,9 @@
-"""Entry point for Ticketmaster + Municipal (RSS + Web) sync pipeline."""
+"""Entry point for Municipal (RSS + Web) sync pipeline."""
 
 from __future__ import annotations
 
 import json
 import logging
-import os
 import sys
 import uuid
 from datetime import datetime, timezone
@@ -18,7 +17,6 @@ if str(_ROOT) not in sys.path:
 
 from config import settings
 from models.normalized_event import NormalizedEvent
-from providers.ticketmaster.provider import TicketmasterProvider
 from providers.municipal_rss.provider import MunicipalRssProvider
 from providers.municipal_web.provider import MunicipalWebProvider
 from services.sync_service import SyncService
@@ -32,7 +30,7 @@ _logger = logging.getLogger(__name__)
 
 
 def _save_results(events: List[NormalizedEvent], provider_counts: dict) -> None:
-    out_dir = _ROOT / "data" / "ticketmaster_municipal"
+    out_dir = _ROOT / "data" / "municipal"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     events_path = out_dir / "events.json"
@@ -57,18 +55,10 @@ def _save_results(events: List[NormalizedEvent], provider_counts: dict) -> None:
 
 
 def main() -> int:
-    _logger.info("=== Ticketmaster & Municipal sync started ===")
+    _logger.info("=== Municipal sync started ===")
 
-    tm_events: List[NormalizedEvent] = []
     rss_events: List[NormalizedEvent] = []
     web_events: List[NormalizedEvent] = []
-
-    try:
-        _logger.info("Running TicketmasterProvider...")
-        tm_events = TicketmasterProvider().fetch_and_parse()
-        _logger.info("Ticketmaster: %s events", len(tm_events))
-    except Exception as exc:
-        _logger.error("TicketmasterProvider failed: %s", exc)
 
     try:
         _logger.info("Running MunicipalRssProvider...")
@@ -84,9 +74,8 @@ def main() -> int:
     except Exception as exc:
         _logger.error("MunicipalWebProvider failed: %s", exc)
 
-    all_events = tm_events + rss_events + web_events
+    all_events = rss_events + web_events
     provider_counts = {
-        "Ticketmaster": len(tm_events),
         "MunicipalRSS": len(rss_events),
         "MunicipalWeb": len(web_events),
     }
@@ -103,24 +92,21 @@ def main() -> int:
         return 0
 
     # CRITICAL: Each provider MUST be synced separately.
-    # Merging all providers into a single bulk call causes dominantProvider detection
+    # Merging providers into a single bulk call causes dominantProvider detection
     # to pick the wrong provider, making GetChangedSinceAsync load the wrong events
     # and failing to find existing occurrences in the dedup cache — leading to duplicates.
     sync_service = SyncService()
     provider_batches = [
-        ("Ticketmaster", tm_events),
         ("MunicipalRSS", rss_events),
         ("MunicipalWeb", web_events),
     ]
 
     overall_success = True
-    last_sync_run_id = None
     for provider_name, events in provider_batches:
         if not events:
             _logger.info("Provider %s: no events, skipping", provider_name)
             continue
         sync_run_id = f"{provider_name.lower()}-{uuid.uuid4().hex[:8]}-{datetime.now().strftime('%H%M%S')}"
-        last_sync_run_id = sync_run_id
         _logger.info("Starting backend sync provider=%s events=%s sync_run_id=%s", provider_name, len(events), sync_run_id)
         try:
             success = sync_service.sync_events_to_backend_bulk(events, sync_run_id)
@@ -133,24 +119,17 @@ def main() -> int:
             _logger.error("Backend sync raised an exception provider=%s: %s", provider_name, exc)
             overall_success = False
 
-    # Trigger provider-scoped stale cleanup for each provider that ran.
-    # Provider-scoped cleanup only deactivates stale sources for that specific
-    # provider — avoids cross-killing other providers' sources (e.g. bilet.com).
-    cleanup_map = {
-        "Ticketmaster": ("Ticketmaster", tm_events),
-        "MunicipalRSS": ("MunicipalRSS", rss_events),
-        "MunicipalWeb": ("MunicipalWeb", web_events),
-    }
-    for provider_name, (provider_key, events) in cleanup_map.items():
+    # Provider-scoped stale cleanup avoids cross-killing other providers' sources.
+    for provider_name, events in provider_batches:
         if not events:
             continue
         cleanup_run_id = f"{provider_name.lower()}-cleanup-{datetime.now().strftime('%H%M%S')}"
         try:
-            sync_service.trigger_stale_cleanup(cleanup_run_id, provider=provider_key)
+            sync_service.trigger_stale_cleanup(cleanup_run_id, provider=provider_name)
         except Exception as exc:
             _logger.error("Stale cleanup failed provider=%s: %s", provider_name, exc)
 
-    _logger.info("=== Ticketmaster & Municipal sync finished ===")
+    _logger.info("=== Municipal sync finished ===")
     return 0 if overall_success else 1
 
 

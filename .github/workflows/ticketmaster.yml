@@ -1,0 +1,80 @@
+name: Ticketmaster Sync
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: lokalize-scraper-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      actions: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Ticketmaster Sync
+        run: python scripts/main_ticketmaster.py
+        env:
+          PYTHONPATH: "."
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SYNC_MODE: live
+          TICKETMASTER_ENABLED: "true"
+          TICKETMASTER_COUNTRY_CODE: "TR"
+          TICKETMASTER_CITY: "Istanbul"
+          TICKETMASTER_SIZE: "200"
+          TICKETMASTER_MAX_PAGES: "0"
+          TICKETMASTER_PAGE_DELAY_SECONDS: "1.0"
+          TICKETMASTER_TIMEOUT_SECONDS: "20"
+          TICKETMASTER_MAX_RETRIES: "3"
+          TICKETMASTER_DETAIL_PRICE_ENABLED: "true"
+          TICKETMASTER_DETAIL_PRICE_LIMIT: "200"
+          TICKETMASTER_DETAIL_PRICE_TIMEOUT_SECONDS: "15"
+          TICKETMASTER_DETAIL_PRICE_MAX_RETRIES: "2"
+          TICKETMASTER_LOOKAHEAD_DAYS: "120"
+          TICKETMASTER_USER_AGENT: "LokalizeApp/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
+          BILETIX_DETAIL_ENABLED: "true"
+          BILETIX_DETAIL_USER_AGENT: "LokalizeAppBot/1.0 (contact: iletisim.lokalizeapp@gmail.com)"
+          BILETIX_DETAIL_TIMEOUT_SECONDS: "15"
+          BILETIX_DETAIL_MAX_RETRIES: "2"
+
+      - name: Commit and Push Ticketmaster Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ticketmaster/
+          git stash
+          git pull --rebase origin main || true
+          git stash pop || true
+          git add data/ticketmaster/
+          git diff --staged --quiet || git commit -m "🎫 Ticketmaster güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Trigger Merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run merge.yml --ref main

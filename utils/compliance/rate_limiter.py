@@ -28,6 +28,9 @@ RATE_LIMITS: Dict[str, float] = {
     "api.ticketmaster.com":  5.0,
     # SerpAPI: plan-dependent, 2 s is safe for standard plans
     "serpapi.com":           2.0,
+    # Biletix detail pages — scraped with explicit permission (affiliate partner);
+    # stay polite to avoid burdening their site.
+    "www.biletix.com":       1.5,
     # Default for all municipal sites and unknown domains
     "default":               1.5,
 }
