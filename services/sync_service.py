@@ -11,6 +11,8 @@ from utils.provider_enrichment import build_provider_payload_from_event
 
 _CHUNK_SIZE = 50
 _INTER_CHUNK_SLEEP_SECONDS = 1.5
+_CHUNK_MAX_ATTEMPTS = 3
+_CHUNK_RETRY_BACKOFF_SECONDS = [5, 10]
 
 
 class SyncService:
@@ -123,9 +125,17 @@ class SyncService:
         while current_chunk:
             chunk_num += 1
             logging.info(f"Syncing chunk {chunk_num} ({len(current_chunk)} events)...")
-            success = self._backend.sync_events_bulk(current_chunk, sync_run_id)
+            success = False
+            for attempt in range(1, _CHUNK_MAX_ATTEMPTS + 1):
+                success = self._backend.sync_events_bulk(current_chunk, sync_run_id)
+                if success:
+                    break
+                if attempt < _CHUNK_MAX_ATTEMPTS:
+                    wait = _CHUNK_RETRY_BACKOFF_SECONDS[attempt - 1]
+                    logging.warning(f"Chunk {chunk_num} attempt {attempt} failed, retrying in {wait}s...")
+                    time.sleep(wait)
             if not success:
-                logging.error(f"Chunk {chunk_num} failed.")
+                logging.error(f"Chunk {chunk_num} failed after {_CHUNK_MAX_ATTEMPTS} attempts.")
                 all_success = False
             current_chunk = list(itertools.islice(dto_stream, _CHUNK_SIZE))
             if current_chunk:
