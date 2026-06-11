@@ -1,0 +1,64 @@
+name: Biletinial Sync
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: lokalize-scraper-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Biletinial Sync
+        run: python scripts/main_biletinial.py
+        env:
+          PYTHONPATH: "."
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+          BILETINIAL_ENABLED: "true"
+          BILETINIAL_FEED_URLS: "https://feed.biletinial.com/sitemap-facebook/2,https://feed.biletinial.com/sitemap-facebook/3"
+          BILETINIAL_AFFILIATE_ID: "lokalize"
+          BILETINIAL_TIMEOUT_SECONDS: "30"
+          BILETINIAL_MAX_RETRIES: "3"
+          SYNC_MODE: live
+
+      - name: Commit and Push Biletinial Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/biletinial/
+          git stash
+          git pull --rebase origin main || true
+          git stash pop || true
+          git add data/biletinial/
+          git diff --staged --quiet || git commit -m "🎭 biletinial güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Trigger Merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run merge.yml --ref main
