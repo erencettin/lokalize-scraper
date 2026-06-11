@@ -128,7 +128,10 @@ class EventBuilder:
             self._logger.debug("Biletinial: skipping '%s' — link not on %s (%s)", title, ALLOWED_LINK_HOST, link)
             return None
 
-        description = strip_html(item.get("description") or "")[:DESCRIPTION_MAX_LENGTH] or None
+        description = strip_html(item.get("description") or "")
+        if description and description.casefold().startswith(title.casefold()):
+            description = description[len(title):].lstrip(" \t-–—:.")
+        description = description[:DESCRIPTION_MAX_LENGTH] or None
         venue_name = (item.get("venue_name") or "").strip() or title
         image_url = (item.get("image_link") or "").strip() or None
         price = _parse_price(item.get("price", ""))
