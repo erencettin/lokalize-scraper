@@ -40,8 +40,8 @@ jobs:
           BACKEND_URL: ${{ secrets.BACKEND_URL }}
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
           BILETINIAL_ENABLED: "true"
-          BILETINIAL_FEED_URLS: "https://feed.biletinial.com/sitemap-facebook/2,https://feed.biletinial.com/sitemap-facebook/3"
-          BILETINIAL_AFFILIATE_ID: "lokalize"
+          BILETINIAL_FEED_URLS: ${{ secrets.BILETINIAL_FEED_URLS }}
+          BILETINIAL_AFFILIATE_ID: ${{ secrets.BILETINIAL_AFFILIATE_ID }}
           BILETINIAL_TIMEOUT_SECONDS: "30"
           BILETINIAL_MAX_RETRIES: "3"
           SYNC_MODE: live

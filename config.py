@@ -91,11 +91,8 @@ class Settings(BaseSettings):
 
     # Biletinial Affiliate Feed Config
     biletinial_enabled: bool = Field(False, alias="BILETINIAL_ENABLED")
-    biletinial_feed_urls: str = Field(
-        "https://feed.biletinial.com/sitemap-facebook/2,https://feed.biletinial.com/sitemap-facebook/3",
-        alias="BILETINIAL_FEED_URLS",
-    )
-    biletinial_affiliate_id: str = Field("lokalize", alias="BILETINIAL_AFFILIATE_ID")
+    biletinial_feed_urls: str = Field("", alias="BILETINIAL_FEED_URLS")
+    biletinial_affiliate_id: str = Field("", alias="BILETINIAL_AFFILIATE_ID")
     biletinial_timeout_seconds: int = Field(30, alias="BILETINIAL_TIMEOUT_SECONDS")
     biletinial_max_retries: int = Field(3, alias="BILETINIAL_MAX_RETRIES")
 
