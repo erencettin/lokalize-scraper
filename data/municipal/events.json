@@ -1,5 +1,425 @@
 [
   {
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-26T21:00:00Z",
+        "local_date": "2026-06-27",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-8443b3cdce5b357a",
+            "title": "Sanat Rotası",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Terasta Caz",
+    "description": "Terasta Caz",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-20T21:00:00Z",
+        "local_date": "2026-06-21",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-89cf2cbebe83d171",
+            "title": "Terasta Caz",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İllüstratörler Buluşması",
+    "description": "İllüstratörler Buluşması",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-19T13:00:00Z",
+        "local_date": "2026-06-19",
+        "local_time": "16:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-eeb82ac3f3cec1ab",
+            "title": "İllüstratörler Buluşması",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/illustratorler-bulusmasi/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Terasta Caz",
+    "description": "Terasta Caz",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-23T21:00:00Z",
+        "local_date": "2026-06-24",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-18e324b90b7375bb",
+            "title": "Terasta Caz",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Japonya Söyleşileri",
+    "description": "Japonya Söyleşileri",
+    "type": "show",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-28T12:00:00Z",
+        "local_date": "2026-06-28",
+        "local_time": "15:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-f794a16a49c27439",
+            "title": "Japonya Söyleşileri",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/japonya-soylesileri-3/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-21T21:00:00Z",
+        "local_date": "2026-06-22",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-639cebaaca3ac6e8",
+            "title": "Okur Yazar Buluşması",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-4/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "21 Haziran Dünya Müzik Günü Etkinlikleri",
     "description": "21 Haziran Dünya Müzik Günü Etkinlikleri",
     "type": "concert",
@@ -20,146 +440,6 @@
             "title": "21 Haziran Dünya Müzik Günü Etkinlikleri",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/21-haziran-dunya-muzik-gunu-etkinlikleri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Kalben",
-    "description": "Kalben",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-19T11:00:00Z",
-        "local_date": "2026-06-19",
-        "local_time": "14:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-5b722ca4fbb3cd50",
-            "title": "Kalben",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/kalben/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Jakuzi",
-    "description": "Jakuzi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-19T09:00:00Z",
-        "local_date": "2026-06-19",
-        "local_time": "12:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-1853f786ddb80585",
-            "title": "Jakuzi",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/jakuzi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -370,76 +650,6 @@
             "title": "Sanat Rotası",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Okur Yazar Buluşması",
-    "description": "Okur Yazar Buluşması",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-06-27T12:00:00Z",
-        "local_date": "2026-06-27",
-        "local_time": "15:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-e25dba624264adbe",
-            "title": "Okur Yazar Buluşması",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi-2/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -1400,15 +1610,15 @@
     "fetched_at": null
   },
   {
-    "title": "star Form Etkinliği Mutfak Atölyesi Workshop 23-27 Haziran event 23.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
-    "description": "star Form Etkinliği Mutfak Atölyesi Workshop 23-27 Haziran event 23.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "title": "star Form Etkinliği Mutfak Atölyesi Workshop 16-20 Haziran event 20.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Mutfak Atölyesi Workshop 16-20 Haziran event 20.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
     "type": "experience",
     "city_name": "Istanbul",
     "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-06-22T21:00:00Z",
-        "local_date": "2026-06-23",
+        "start_at_utc": "2026-06-19T21:00:00Z",
+        "local_date": "2026-06-20",
         "local_time": "00:00",
         "timezone": "Europe/Istanbul",
         "venue_name": "Çatalca Belediyesi",
@@ -1416,10 +1626,10 @@
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-fd3009f5bbb66f6d",
-            "title": "star Form Etkinliği Mutfak Atölyesi Workshop 23-27 Haziran event 23.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+            "external_id": "web-24d7185d942d802f",
+            "title": "star Form Etkinliği Mutfak Atölyesi Workshop 16-20 Haziran event 20.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
             "description": null,
-            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-23-27-haziran",
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-16-20-haziran",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -1440,7 +1650,77 @@
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-23-27-haziran",
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/mutfak-atolyesi-workshop-16-20-haziran",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "star Form Etkinliği Babalar Günü Pizza Atölyesi Workshop event 21.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "description": "star Form Etkinliği Babalar Günü Pizza Atölyesi Workshop event 21.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://etkinlik.catalca.bel.tr/source/images/icons/home.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-06-20T21:00:00Z",
+        "local_date": "2026-06-21",
+        "local_time": "00:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Çatalca Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-ecf42597cf1cd6a5",
+            "title": "star Form Etkinliği Babalar Günü Pizza Atölyesi Workshop event 21.06.2026 *Gösterilen tarih/saat en yakın seanstır, detayda farklı gün ve saatler mevcuttur. arrow_outward KAYIT OL",
+            "description": null,
+            "source_url": "https://etkinlik.catalca.bel.tr/etkinlik-form/babalar-gunu-pizza-atolyesi-workshop",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://etkinlik.catalca.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://etkinlik.catalca.bel.tr/etkinlik-form/babalar-gunu-pizza-atolyesi-workshop",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
