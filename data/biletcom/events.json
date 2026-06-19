@@ -1,77 +1,5 @@
 [
   {
-    "title": "Emaar Akvaryum",
-    "description": "Emaar Akvaryum & Sualtı Hayvanat Bahçesi’nde unutulmaz anlar yaşayacağınız, eğlencenin tadını çıkaracağınız bir keşif sizi bekliyor! Emaar Akvaryum ve Sualtı Hayvanat Bahçesi'nde eşsiz bir deneyime hazır olun!",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/emaar-akvaryum/emaar-ekvaryum-yeni.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Emaar AVM",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "11",
-            "title": "Emaar Akvaryum",
-            "description": "Emaar Akvaryum & Sualtı Hayvanat Bahçesi’nde unutulmaz anlar yaşayacağınız, eğlencenin tadını çıkaracağınız bir keşif sizi bekliyor! Emaar Akvaryum ve Sualtı Hayvanat Bahçesi'nde eşsiz bir deneyime hazır olun!",
-            "source_url": "https://www.bilet.com/etkinlik/emaar-akvaryum",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 609.0,
-              "max_value": 659.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/emaar-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "11",
-    "category": "activity",
-    "address": "Ünalan, Libadiye Cd No:88, 34700 Üsküdar/İstanbul",
-    "venue": "Emaar AVM",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.002518,
-    "longitude": 29.070582,
-    "fetched_at": null
-  },
-  {
     "title": "Forest Kemerburgaz",
     "description": "Forest Kemerburgaz kapılarını açılıyor. İndirimli fiyatlar bilet.com'da.",
     "type": "activity",
@@ -141,6 +69,78 @@
     "thumbnail_url": null,
     "latitude": 41.196957,
     "longitude": 28.915756,
+    "fetched_at": null
+  },
+  {
+    "title": "Emaar Akvaryum",
+    "description": "Emaar Akvaryum & Sualtı Hayvanat Bahçesi’nde unutulmaz anlar yaşayacağınız, eğlencenin tadını çıkaracağınız bir keşif sizi bekliyor! Emaar Akvaryum ve Sualtı Hayvanat Bahçesi'nde eşsiz bir deneyime hazır olun!",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/emaar-akvaryum/emaar-ekvaryum-yeni.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Emaar AVM",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "11",
+            "title": "Emaar Akvaryum",
+            "description": "Emaar Akvaryum & Sualtı Hayvanat Bahçesi’nde unutulmaz anlar yaşayacağınız, eğlencenin tadını çıkaracağınız bir keşif sizi bekliyor! Emaar Akvaryum ve Sualtı Hayvanat Bahçesi'nde eşsiz bir deneyime hazır olun!",
+            "source_url": "https://www.bilet.com/etkinlik/emaar-akvaryum",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 609.0,
+              "max_value": 659.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/emaar-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "11",
+    "category": "activity",
+    "address": "Ünalan, Libadiye Cd No:88, 34700 Üsküdar/İstanbul",
+    "venue": "Emaar AVM",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.002518,
+    "longitude": 29.070582,
     "fetched_at": null
   },
   {
@@ -432,30 +432,30 @@
     "fetched_at": null
   },
   {
-    "title": "Dentur Avrasya Boğaz Turu",
-    "description": "Dentur Avrasya Klasik Boğaz Turları Bilet.com'da. Hizmet bedeli ödemeden online biletini güvenle al, QR kod ile gişede beklemeden giriş yap!",
+    "title": "Nakkaştepe Zipline ve Macera Parkı",
+    "description": "Nakkaştepe Millet Bahçesi Zipline ve Macera Parkuru Seni Bekliyor. En Uygun Fiyatlarla Bilet Satın Al.",
     "type": "activity",
     "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/dentur-avrasya-bogaz-turu/dentur-avrasya-bogaz-turu-yeni.webp",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/nakkestepe-zipline-macera-park/nakkastepe-zippline-yeni.webp",
     "occurrences": [
       {
         "start_at_utc": null,
         "local_date": "2099-12-31",
         "local_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Dentur Avrasya Kabataş İskelesi",
+        "venue_name": "Nakkaştepe Millet Bahçesi",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "49",
-            "title": "Dentur Avrasya Boğaz Turu",
-            "description": "Dentur Avrasya Klasik Boğaz Turları Bilet.com'da. Hizmet bedeli ödemeden online biletini güvenle al, QR kod ile gişede beklemeden giriş yap!",
-            "source_url": "https://www.bilet.com/etkinlik/dentur-avrasya-bogaz-turu",
+            "external_id": "36",
+            "title": "Nakkaştepe Zipline ve Macera Parkı",
+            "description": "Nakkaştepe Millet Bahçesi Zipline ve Macera Parkuru Seni Bekliyor. En Uygun Fiyatlarla Bilet Satın Al.",
+            "source_url": "https://www.bilet.com/etkinlik/nakkestepe-zipline-macera-park",
             "deep_link_url": null,
             "price": {
-              "min_value": 250.0,
-              "max_value": 300.0,
+              "min_value": 450.0,
+              "max_value": 450.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -472,7 +472,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/dentur-avrasya-bogaz-turu?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/nakkestepe-zipline-macera-park?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -490,17 +490,17 @@
     "provider_tags": [],
     "provider_label": "bilet.com",
     "source_urls": [],
-    "external_id": "49",
+    "external_id": "36",
     "category": "activity",
-    "address": "Ömer Avni, Mahallesi, Meclis-i Mebusan Cd. No:34 Beyoğlu/İstanbul",
-    "venue": "Dentur Avrasya Kabataş İskelesi",
+    "address": "Kuzguncuk, 34674 Üsküdar/İstanbul",
+    "venue": "Nakkaştepe Millet Bahçesi",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 41.035385,
-    "longitude": 28.994103,
+    "latitude": 41.036213,
+    "longitude": 29.037277,
     "fetched_at": null
   },
   {
@@ -576,30 +576,30 @@
     "fetched_at": null
   },
   {
-    "title": "Nakkaştepe Zipline ve Macera Parkı",
-    "description": "Nakkaştepe Millet Bahçesi Zipline ve Macera Parkuru Seni Bekliyor. En Uygun Fiyatlarla Bilet Satın Al.",
+    "title": "Dentur Avrasya Boğaz Turu",
+    "description": "Dentur Avrasya Klasik Boğaz Turları Bilet.com'da. Hizmet bedeli ödemeden online biletini güvenle al, QR kod ile gişede beklemeden giriş yap!",
     "type": "activity",
     "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/nakkestepe-zipline-macera-park/nakkastepe-zippline-yeni.webp",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/dentur-avrasya-bogaz-turu/dentur-avrasya-bogaz-turu-yeni.webp",
     "occurrences": [
       {
         "start_at_utc": null,
         "local_date": "2099-12-31",
         "local_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Nakkaştepe Millet Bahçesi",
+        "venue_name": "Dentur Avrasya Kabataş İskelesi",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "36",
-            "title": "Nakkaştepe Zipline ve Macera Parkı",
-            "description": "Nakkaştepe Millet Bahçesi Zipline ve Macera Parkuru Seni Bekliyor. En Uygun Fiyatlarla Bilet Satın Al.",
-            "source_url": "https://www.bilet.com/etkinlik/nakkestepe-zipline-macera-park",
+            "external_id": "49",
+            "title": "Dentur Avrasya Boğaz Turu",
+            "description": "Dentur Avrasya Klasik Boğaz Turları Bilet.com'da. Hizmet bedeli ödemeden online biletini güvenle al, QR kod ile gişede beklemeden giriş yap!",
+            "source_url": "https://www.bilet.com/etkinlik/dentur-avrasya-bogaz-turu",
             "deep_link_url": null,
             "price": {
-              "min_value": 450.0,
-              "max_value": 450.0,
+              "min_value": 250.0,
+              "max_value": 300.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -616,7 +616,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/nakkestepe-zipline-macera-park?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/dentur-avrasya-bogaz-turu?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -634,17 +634,17 @@
     "provider_tags": [],
     "provider_label": "bilet.com",
     "source_urls": [],
-    "external_id": "36",
+    "external_id": "49",
     "category": "activity",
-    "address": "Kuzguncuk, 34674 Üsküdar/İstanbul",
-    "venue": "Nakkaştepe Millet Bahçesi",
+    "address": "Ömer Avni, Mahallesi, Meclis-i Mebusan Cd. No:34 Beyoğlu/İstanbul",
+    "venue": "Dentur Avrasya Kabataş İskelesi",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 41.036213,
-    "longitude": 29.037277,
+    "latitude": 41.035385,
+    "longitude": 28.994103,
     "fetched_at": null
   },
   {
@@ -936,30 +936,30 @@
     "fetched_at": null
   },
   {
-    "title": "The Sign Kocaeli Thermal Spa Hotel Aquapark",
-    "description": "The Sign Kocaeli Thermal Spa Hotel Aquapark İndirimli Günlük Giriş Biletleri Bilet.com'da!",
+    "title": "Silivri Eser Diamond Aqua Park",
+    "description": "Silivri Eser Aqua Park Biletleri En Ucuz Fiyat Seçenekleri ile Bilet.com 'da!",
     "type": "activity",
-    "city_name": "Kocaeli",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/the-sign-kocaeli-thermal-spa-hotel-aquapark/kocaeli-sign-aquapark-2026.webp",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/eser-aquapark/eser-aqua-park-2025-kapak.webp",
     "occurrences": [
       {
         "start_at_utc": null,
         "local_date": "2099-12-31",
         "local_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "The Sign Kocaeli Thermal Spa Hotel",
+        "venue_name": "Silivri Eser Diamond Hotel & Spa",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "1632",
-            "title": "The Sign Kocaeli Thermal Spa Hotel Aquapark",
-            "description": "The Sign Kocaeli Thermal Spa Hotel Aquapark İndirimli Günlük Giriş Biletleri Bilet.com'da!",
-            "source_url": "https://www.bilet.com/etkinlik/the-sign-kocaeli-thermal-spa-hotel-aquapark",
+            "external_id": "348",
+            "title": "Silivri Eser Diamond Aqua Park",
+            "description": "Silivri Eser Aqua Park Biletleri En Ucuz Fiyat Seçenekleri ile Bilet.com 'da!",
+            "source_url": "https://www.bilet.com/etkinlik/eser-aquapark",
             "deep_link_url": null,
             "price": {
-              "min_value": 549.0,
-              "max_value": 1149.0,
+              "min_value": 489.0,
+              "max_value": 1699.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -976,7 +976,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/the-sign-kocaeli-thermal-spa-hotel-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/eser-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -994,17 +994,17 @@
     "provider_tags": [],
     "provider_label": "bilet.com",
     "source_urls": [],
-    "external_id": "1632",
+    "external_id": "348",
     "category": "activity",
-    "address": "Yeniköy Merkez, Atakent Cad.Mine Çiçeği Sokak No. 6, 41275, 41090 Başiskele/Kocaeli",
-    "venue": "The Sign Kocaeli Thermal Spa Hotel",
+    "address": "Çanta Mimarsinan Mh.Kınalı Cad. No:17 Çorlu Sk, 34500 SİLİVRİ – İSTANBUL",
+    "venue": "Silivri Eser Diamond Hotel & Spa",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 40.7026,
-    "longitude": 29.880094,
+    "latitude": 41.074155,
+    "longitude": 28.087492,
     "fetched_at": null
   },
   {
@@ -1077,6 +1077,78 @@
     "thumbnail_url": null,
     "latitude": 41.063728,
     "longitude": 28.32239,
+    "fetched_at": null
+  },
+  {
+    "title": "The Sign Kocaeli Thermal Spa Hotel Aquapark",
+    "description": "The Sign Kocaeli Thermal Spa Hotel Aquapark İndirimli Günlük Giriş Biletleri Bilet.com'da!",
+    "type": "activity",
+    "city_name": "Kocaeli",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/the-sign-kocaeli-thermal-spa-hotel-aquapark/kocaeli-sign-aquapark-2026.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "The Sign Kocaeli Thermal Spa Hotel",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "1632",
+            "title": "The Sign Kocaeli Thermal Spa Hotel Aquapark",
+            "description": "The Sign Kocaeli Thermal Spa Hotel Aquapark İndirimli Günlük Giriş Biletleri Bilet.com'da!",
+            "source_url": "https://www.bilet.com/etkinlik/the-sign-kocaeli-thermal-spa-hotel-aquapark",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 549.0,
+              "max_value": 1149.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/the-sign-kocaeli-thermal-spa-hotel-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "1632",
+    "category": "activity",
+    "address": "Yeniköy Merkez, Atakent Cad.Mine Çiçeği Sokak No. 6, 41275, 41090 Başiskele/Kocaeli",
+    "venue": "The Sign Kocaeli Thermal Spa Hotel",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 40.7026,
+    "longitude": 29.880094,
     "fetched_at": null
   },
   {
@@ -1440,150 +1512,6 @@
     "fetched_at": null
   },
   {
-    "title": "Pirinç Çerçeveli Cam Üzerine Hat/Kaligrafi Sanatı Atölyesi",
-    "description": "Geleneksel Türk \"Hat\" sanatının büyüleyici dünyasını keşfetmeye hazır mısınız?\nİstanbul'un tam merkezinde, 3 saatlik bu uygulamalı atölyeyle hem eğlenecek hem de yüzyıllık bir kültüre dokunacaksınız. Sanatseverler ve bu eşsiz formu ilk kez deneyimleyecek olanlar için özel olarak tasarlanan bu programda, yetenekli bir yerel sanatçının rehberliğinde Hat sanatının temellerini öğreneceksiniz. Osmanlı ve Türk kültüründe bu kutsal sanatın tarihini ve derin anlamını keşfederek, sanat yolculuğunuza ilham verici bir başlangıç yapın.\nBu atölyede, sadece teoriyi değil, bizzat el becerilerinizi geliştireceksiniz. Geleneksel Hat sanatında kullanılan özel araç ve gereçleri tanıyacak, özellikle mürekkep veya boyanın cam yüzeye nasıl ustalıkla uygulandığını deneyimleyeceksiniz. Uzman eğitmen eşliğinde temel vuruşları ve harf formlarını çalıştıktan sonra, bu teknikleri cama uygulamaya adapte edeceksiniz. En anlamlı kelimenizi, geleneksel bir motifi veya isminizi stilize bir Hat yazısıyla kendi ellerinizle tasarlama heyecanını yaşayın.\nSeçtiğiniz Hat tasarımını, özel mürekkep ve boyalarla cam panelinize büyük bir titizlikle aktaracaksınız. Eseriniz tamamlanıp koruma altına alınırken, siz de geleneksel Türk misafirperverliğinin tadını çıkarın. Atölye katılımcıları ve sanatçınızla birlikte sanatı, kültürü ve İstanbul'u konuşurken, ikramımız olan sınırsız Türk çayı veya kahvesi ve geleneksel atıştırmalıklarla keyifli bir mola verin. Bu anlar, sadece bir mola değil, aynı zamanda yeni dostluklar kuracağınız samimi bir paylaşım ortamı sunar.\nAtölyenin sonunda, el emeğiniz göz nurunuz olan bu eşsiz eseri evinize götüreceksiniz. Cam üzerine işlediğiniz Hat sanatınız, onu mükemmel bir şekilde sergileyecek zarif, dekoratif bir pirinç çerçeve içinde size teslim edilecek. Bu, sadece bir hatıra değil, İstanbul'daki sanatsal deneyiminizin somut, şık ve kişisel bir yansımasıdır. Üstelik bu deneyiminizi resmiyet kazanmış bir sertifika ile taçlandıracaksınız. Bu benzersiz parçayı hem yaşam alanınızı ",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi/hat-sanati-atolyesi-4.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2146",
-            "title": "Pirinç Çerçeveli Cam Üzerine Hat/Kaligrafi Sanatı Atölyesi",
-            "description": "Geleneksel Türk \"Hat\" sanatının büyüleyici dünyasını keşfetmeye hazır mısınız?\nİstanbul'un tam merkezinde, 3 saatlik bu uygulamalı atölyeyle hem eğlenecek hem de yüzyıllık bir kültüre dokunacaksınız. Sanatseverler ve bu eşsiz formu ilk kez deneyimleyecek olanlar için özel olarak tasarlanan bu programda, yetenekli bir yerel sanatçının rehberliğinde Hat sanatının temellerini öğreneceksiniz. Osmanlı ve Türk kültüründe bu kutsal sanatın tarihini ve derin anlamını keşfederek, sanat yolculuğunuza ilham verici bir başlangıç yapın.\nBu atölyede, sadece teoriyi değil, bizzat el becerilerinizi geliştireceksiniz. Geleneksel Hat sanatında kullanılan özel araç ve gereçleri tanıyacak, özellikle mürekkep veya boyanın cam yüzeye nasıl ustalıkla uygulandığını deneyimleyeceksiniz. Uzman eğitmen eşliğinde temel vuruşları ve harf formlarını çalıştıktan sonra, bu teknikleri cama uygulamaya adapte edeceksiniz. En anlamlı kelimenizi, geleneksel bir motifi veya isminizi stilize bir Hat yazısıyla kendi ellerinizle tasarlama heyecanını yaşayın.\nSeçtiğiniz Hat tasarımını, özel mürekkep ve boyalarla cam panelinize büyük bir titizlikle aktaracaksınız. Eseriniz tamamlanıp koruma altına alınırken, siz de geleneksel Türk misafirperverliğinin tadını çıkarın. Atölye katılımcıları ve sanatçınızla birlikte sanatı, kültürü ve İstanbul'u konuşurken, ikramımız olan sınırsız Türk çayı veya kahvesi ve geleneksel atıştırmalıklarla keyifli bir mola verin. Bu anlar, sadece bir mola değil, aynı zamanda yeni dostluklar kuracağınız samimi bir paylaşım ortamı sunar.\nAtölyenin sonunda, el emeğiniz göz nurunuz olan bu eşsiz eseri evinize götüreceksiniz. Cam üzerine işlediğiniz Hat sanatınız, onu mükemmel bir şekilde sergileyecek zarif, dekoratif bir pirinç çerçeve içinde size teslim edilecek. Bu, sadece bir hatıra değil, İstanbul'daki sanatsal deneyiminizin somut, şık ve kişisel bir yansımasıdır. Üstelik bu deneyiminizi resmiyet kazanmış bir sertifika ile taçlandıracaksınız. Bu benzersiz parçayı hem yaşam alanınızı ",
-            "source_url": "https://www.bilet.com/etkinlik/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1790.0,
-              "max_value": 1790.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "2146",
-    "category": "activity",
-    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
-    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.023278,
-    "longitude": 29.014729,
-    "fetched_at": null
-  },
-  {
-    "title": "Silivri Eser Diamond Aqua Park",
-    "description": "Silivri Eser Aqua Park Biletleri En Ucuz Fiyat Seçenekleri ile Bilet.com 'da!",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/eser-aquapark/eser-aqua-park-2025-kapak.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Silivri Eser Diamond Hotel & Spa",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "348",
-            "title": "Silivri Eser Diamond Aqua Park",
-            "description": "Silivri Eser Aqua Park Biletleri En Ucuz Fiyat Seçenekleri ile Bilet.com 'da!",
-            "source_url": "https://www.bilet.com/etkinlik/eser-aquapark",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 489.0,
-              "max_value": 1699.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/eser-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "348",
-    "category": "activity",
-    "address": "Çanta Mimarsinan Mh.Kınalı Cad. No:17 Çorlu Sk, 34500 SİLİVRİ – İSTANBUL",
-    "venue": "Silivri Eser Diamond Hotel & Spa",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.074155,
-    "longitude": 28.087492,
-    "fetched_at": null
-  },
-  {
     "title": "Mozaik Lamba Atölyesi",
     "description": "Mozaik Lamba Sanatının Büyüleyici Dünyasına Hoş Geldiniz!\nİstanbul’un tarihi atmosferinde, asırlık Türk mozaik lamba sanatının derinliklerine inmeye hazır mısınız?\nBu eşsiz atölyede, sadece bir zanaat öğrenmekle kalmayacak, aynı zamanda evinizin en özel köşesini aydınlatacak, ruhu olan bir eser yaratacaksınız. Tecrübeli ustalarımızın rehberliğinde, canlı renklerin ve geleneksel desenlerin gizemli hikayesini keşfedin. Bu, sadece bir hobi değil, aynı zamanda kültürel bir yolculuğa çıkma davetidir.\nDeneyime, atölyemizin kültürel önemini ve lambaların Anadolu medeniyetlerindeki yerini anlatan keyifli bir sunumla başlıyoruz. Türk misafirperverliğini iliklerinize kadar hissedeceğiniz bu ortamda, mozaik sanatının inceliklerini ve desenlerin dilini çözümlüyoruz. Ardından, geleneksel bir motif oluşturmak üzere cam küre üzerine geometrik şablonları nasıl uygulayacağınızı adım adım öğreneceksiniz. 45’ten fazla farklı renkteki mozaik taş ve cam boncukları kullanarak, kendi kişisel hikayenizi yansıtan, göz kamaştırıcı bir tasarım oluşturmanın tadını çıkarın.\nSanat eserinizi özenle yerleştirip kurumasını beklerken, kısa bir mola veriyoruz. Bu esnada, taze demlenmiş mis kokulu Türk çayı veya kahvesi eşliğinde, el yapımı nefis kurabiyelerimizi tadarken koyu bir sohbete dalın. Ustalarımızdan, İstanbul’un sadece turistik değil, aynı zamanda gizli kalmış, yerel halkın bildiği tarihi ve kültürel hazinelerini dinleyin. Hem ruhunuzu hem de zihninizi besleyen, keyifli ve samimi bir paylaşım anı yaşayacaksınız.\nSon dokunuşları yapmak için masanıza geri döndüğünüzde, lambanızın kalan kısımlarını monte edecek ve eserinize son şeklini vereceksiniz. Kendi ellerinizle yarattığınız, paha biçilmez mozaik lambanızı, güvenli taşıma çantasıyla beraber gururla evinize götürün. Bu sadece bir lamba değil, İstanbul anılarınızı ve el emeğinizin değerini sonsuza dek yaşatacak, göz kamaştırıcı bir hatıradır. Hemen yerinizi ayırtın ve bu ışıklı serüvene adım atın!\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSını",
     "type": "activity",
@@ -1653,6 +1581,78 @@
     "thumbnail_url": null,
     "latitude": 41.011702,
     "longitude": 28.975139,
+    "fetched_at": null
+  },
+  {
+    "title": "Pirinç Çerçeveli Cam Üzerine Hat/Kaligrafi Sanatı Atölyesi",
+    "description": "Geleneksel Türk \"Hat\" sanatının büyüleyici dünyasını keşfetmeye hazır mısınız?\nİstanbul'un tam merkezinde, 3 saatlik bu uygulamalı atölyeyle hem eğlenecek hem de yüzyıllık bir kültüre dokunacaksınız. Sanatseverler ve bu eşsiz formu ilk kez deneyimleyecek olanlar için özel olarak tasarlanan bu programda, yetenekli bir yerel sanatçının rehberliğinde Hat sanatının temellerini öğreneceksiniz. Osmanlı ve Türk kültüründe bu kutsal sanatın tarihini ve derin anlamını keşfederek, sanat yolculuğunuza ilham verici bir başlangıç yapın.\nBu atölyede, sadece teoriyi değil, bizzat el becerilerinizi geliştireceksiniz. Geleneksel Hat sanatında kullanılan özel araç ve gereçleri tanıyacak, özellikle mürekkep veya boyanın cam yüzeye nasıl ustalıkla uygulandığını deneyimleyeceksiniz. Uzman eğitmen eşliğinde temel vuruşları ve harf formlarını çalıştıktan sonra, bu teknikleri cama uygulamaya adapte edeceksiniz. En anlamlı kelimenizi, geleneksel bir motifi veya isminizi stilize bir Hat yazısıyla kendi ellerinizle tasarlama heyecanını yaşayın.\nSeçtiğiniz Hat tasarımını, özel mürekkep ve boyalarla cam panelinize büyük bir titizlikle aktaracaksınız. Eseriniz tamamlanıp koruma altına alınırken, siz de geleneksel Türk misafirperverliğinin tadını çıkarın. Atölye katılımcıları ve sanatçınızla birlikte sanatı, kültürü ve İstanbul'u konuşurken, ikramımız olan sınırsız Türk çayı veya kahvesi ve geleneksel atıştırmalıklarla keyifli bir mola verin. Bu anlar, sadece bir mola değil, aynı zamanda yeni dostluklar kuracağınız samimi bir paylaşım ortamı sunar.\nAtölyenin sonunda, el emeğiniz göz nurunuz olan bu eşsiz eseri evinize götüreceksiniz. Cam üzerine işlediğiniz Hat sanatınız, onu mükemmel bir şekilde sergileyecek zarif, dekoratif bir pirinç çerçeve içinde size teslim edilecek. Bu, sadece bir hatıra değil, İstanbul'daki sanatsal deneyiminizin somut, şık ve kişisel bir yansımasıdır. Üstelik bu deneyiminizi resmiyet kazanmış bir sertifika ile taçlandıracaksınız. Bu benzersiz parçayı hem yaşam alanınızı ",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi/hat-sanati-atolyesi-4.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2146",
+            "title": "Pirinç Çerçeveli Cam Üzerine Hat/Kaligrafi Sanatı Atölyesi",
+            "description": "Geleneksel Türk \"Hat\" sanatının büyüleyici dünyasını keşfetmeye hazır mısınız?\nİstanbul'un tam merkezinde, 3 saatlik bu uygulamalı atölyeyle hem eğlenecek hem de yüzyıllık bir kültüre dokunacaksınız. Sanatseverler ve bu eşsiz formu ilk kez deneyimleyecek olanlar için özel olarak tasarlanan bu programda, yetenekli bir yerel sanatçının rehberliğinde Hat sanatının temellerini öğreneceksiniz. Osmanlı ve Türk kültüründe bu kutsal sanatın tarihini ve derin anlamını keşfederek, sanat yolculuğunuza ilham verici bir başlangıç yapın.\nBu atölyede, sadece teoriyi değil, bizzat el becerilerinizi geliştireceksiniz. Geleneksel Hat sanatında kullanılan özel araç ve gereçleri tanıyacak, özellikle mürekkep veya boyanın cam yüzeye nasıl ustalıkla uygulandığını deneyimleyeceksiniz. Uzman eğitmen eşliğinde temel vuruşları ve harf formlarını çalıştıktan sonra, bu teknikleri cama uygulamaya adapte edeceksiniz. En anlamlı kelimenizi, geleneksel bir motifi veya isminizi stilize bir Hat yazısıyla kendi ellerinizle tasarlama heyecanını yaşayın.\nSeçtiğiniz Hat tasarımını, özel mürekkep ve boyalarla cam panelinize büyük bir titizlikle aktaracaksınız. Eseriniz tamamlanıp koruma altına alınırken, siz de geleneksel Türk misafirperverliğinin tadını çıkarın. Atölye katılımcıları ve sanatçınızla birlikte sanatı, kültürü ve İstanbul'u konuşurken, ikramımız olan sınırsız Türk çayı veya kahvesi ve geleneksel atıştırmalıklarla keyifli bir mola verin. Bu anlar, sadece bir mola değil, aynı zamanda yeni dostluklar kuracağınız samimi bir paylaşım ortamı sunar.\nAtölyenin sonunda, el emeğiniz göz nurunuz olan bu eşsiz eseri evinize götüreceksiniz. Cam üzerine işlediğiniz Hat sanatınız, onu mükemmel bir şekilde sergileyecek zarif, dekoratif bir pirinç çerçeve içinde size teslim edilecek. Bu, sadece bir hatıra değil, İstanbul'daki sanatsal deneyiminizin somut, şık ve kişisel bir yansımasıdır. Üstelik bu deneyiminizi resmiyet kazanmış bir sertifika ile taçlandıracaksınız. Bu benzersiz parçayı hem yaşam alanınızı ",
+            "source_url": "https://www.bilet.com/etkinlik/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1790.0,
+              "max_value": 1790.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/pirinc-cerceveli-cam-uzerine-hat-kaligrafi-sanati-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "2146",
+    "category": "activity",
+    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
+    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.023278,
+    "longitude": 29.014729,
     "fetched_at": null
   },
   {
@@ -1941,6 +1941,78 @@
     "thumbnail_url": null,
     "latitude": 41.023278,
     "longitude": 29.014729,
+    "fetched_at": null
+  },
+  {
+    "title": "Conia Buggy Off-Road Çekmeköy",
+    "description": "İstanbul Anadolu Yakası Buggy Offroad\nİstanbul Anadolu Yakası, Nişantepe Orman Park içerisinde offroad tutkunlarının vazgeçilmez noktası olan Conia Buggy Offroad Merkezi, buggy araçlarla güvenli ve eğlenceli bir macera sunuyor. Ailece keyifli bir gün geçirmek isteyenler için ideal olan çift kişilik araçlar, her yaştan misafire hitap ediyor. Orman içinde, doğayla iç içe, zorlu ama bir o kadarda eğlenceli parkurlarda geçireceğiniz unutulmaz anlar sizi bekliyor.\nConia Buggy, her türlü tecrübeye sahip kullanıcıya hitap eden bir merkez olarak, profesyonel eğitmenlerle birlikte offroad deneyimi sunuyor. İster ilk defa deniyor olun, ister deneyimli bir sürücü; güvenlik önlemleri ve araç kontrolleriyle size sadece eğlence kalıyor. Zorlu parkurlar, doğanın güzellikleriyle birleşerek heyecan dolu bir maceraya dönüşüyor.\nİstanbul'da benzersiz bir eğlence deneyimi yaşamak için Conia Buggy Offroad Merkezi'ni tercih edin.\nHem doğa ile iç içe olun hem de adrenalin dolu anlar yaşayın. Ailece keyifli bir gün geçirmek isteyen herkesi Conia Buggy Offroad merkezine bekliyoruz.\nProfesyonel off road parkuru 12 etaptan oluşan bol sulu bol çamurlu bol engebeli bir parkurdur ve Parkura Rehbersiz girilmektedir.\nEtkinlik Detayları ve Kurallar\nParkura rehbersiz girilmektedir.\nAraçların emniyet kemeri mevcut ve güvenlidir. Devrilme riski yoktur.\nEtkinlik katılım için Min. 16 yaş sınırı vardır.\nEhliyet zorunluluğu yoktur.\n2 Kişilik araçlarda 7 yaşından küçük olmamak üzere şoför ile bereber yolcu katılabilir. Ancak 2 kişilik araçlarda MAX 140 KG (şoför + yolcu) sınırı vardır.\nKask, gözlük ve kalın yağmurluk verilmektedir. Yedek ayakkabı getirilmesi önerilir.\nSeanslar sabah 08.00 akşam 20.30 arasındadır. Araç ve kişi sınırlaması yoktur. 0546 253 99 42 numaralı hattan arayarak yoğunluk durumu hakkında bilgi alınabilir.\n1 tur ücreti Bilet.com'a özel olarak Tek Kişilik Araç için 1.250 TL ve İki Kişilik Araç (Max. 140 Kg) için 1.800 TL olarak belirlenmiştir.\nBuggy ile safari yapılmak istenirse, orman ",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/conia-buggy-off-road-cekmekoy/conia-buggy-offroad-logo.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Conia Game Center",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2335",
+            "title": "Conia Buggy Off-Road Çekmeköy",
+            "description": "İstanbul Anadolu Yakası Buggy Offroad\nİstanbul Anadolu Yakası, Nişantepe Orman Park içerisinde offroad tutkunlarının vazgeçilmez noktası olan Conia Buggy Offroad Merkezi, buggy araçlarla güvenli ve eğlenceli bir macera sunuyor. Ailece keyifli bir gün geçirmek isteyenler için ideal olan çift kişilik araçlar, her yaştan misafire hitap ediyor. Orman içinde, doğayla iç içe, zorlu ama bir o kadarda eğlenceli parkurlarda geçireceğiniz unutulmaz anlar sizi bekliyor.\nConia Buggy, her türlü tecrübeye sahip kullanıcıya hitap eden bir merkez olarak, profesyonel eğitmenlerle birlikte offroad deneyimi sunuyor. İster ilk defa deniyor olun, ister deneyimli bir sürücü; güvenlik önlemleri ve araç kontrolleriyle size sadece eğlence kalıyor. Zorlu parkurlar, doğanın güzellikleriyle birleşerek heyecan dolu bir maceraya dönüşüyor.\nİstanbul'da benzersiz bir eğlence deneyimi yaşamak için Conia Buggy Offroad Merkezi'ni tercih edin.\nHem doğa ile iç içe olun hem de adrenalin dolu anlar yaşayın. Ailece keyifli bir gün geçirmek isteyen herkesi Conia Buggy Offroad merkezine bekliyoruz.\nProfesyonel off road parkuru 12 etaptan oluşan bol sulu bol çamurlu bol engebeli bir parkurdur ve Parkura Rehbersiz girilmektedir.\nEtkinlik Detayları ve Kurallar\nParkura rehbersiz girilmektedir.\nAraçların emniyet kemeri mevcut ve güvenlidir. Devrilme riski yoktur.\nEtkinlik katılım için Min. 16 yaş sınırı vardır.\nEhliyet zorunluluğu yoktur.\n2 Kişilik araçlarda 7 yaşından küçük olmamak üzere şoför ile bereber yolcu katılabilir. Ancak 2 kişilik araçlarda MAX 140 KG (şoför + yolcu) sınırı vardır.\nKask, gözlük ve kalın yağmurluk verilmektedir. Yedek ayakkabı getirilmesi önerilir.\nSeanslar sabah 08.00 akşam 20.30 arasındadır. Araç ve kişi sınırlaması yoktur. 0546 253 99 42 numaralı hattan arayarak yoğunluk durumu hakkında bilgi alınabilir.\n1 tur ücreti Bilet.com'a özel olarak Tek Kişilik Araç için 1.250 TL ve İki Kişilik Araç (Max. 140 Kg) için 1.800 TL olarak belirlenmiştir.\nBuggy ile safari yapılmak istenirse, orman ",
+            "source_url": "https://www.bilet.com/etkinlik/conia-buggy-off-road-cekmekoy",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1250.0,
+              "max_value": 1800.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/conia-buggy-off-road-cekmekoy?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "2335",
+    "category": "activity",
+    "address": "Nişantepe, Saray Caddesi. No: 321 (Nişantepe Orman Parkı) Çekmeköy / İstanbul",
+    "venue": "Conia Game Center",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.044844,
+    "longitude": 29.270285,
     "fetched_at": null
   },
   {
@@ -2448,78 +2520,6 @@
     "fetched_at": null
   },
   {
-    "title": "Conia Buggy Off-Road Çekmeköy",
-    "description": "İstanbul Anadolu Yakası Buggy Offroad\nİstanbul Anadolu Yakası, Nişantepe Orman Park içerisinde offroad tutkunlarının vazgeçilmez noktası olan Conia Buggy Offroad Merkezi, buggy araçlarla güvenli ve eğlenceli bir macera sunuyor. Ailece keyifli bir gün geçirmek isteyenler için ideal olan çift kişilik araçlar, her yaştan misafire hitap ediyor. Orman içinde, doğayla iç içe, zorlu ama bir o kadarda eğlenceli parkurlarda geçireceğiniz unutulmaz anlar sizi bekliyor.\nConia Buggy, her türlü tecrübeye sahip kullanıcıya hitap eden bir merkez olarak, profesyonel eğitmenlerle birlikte offroad deneyimi sunuyor. İster ilk defa deniyor olun, ister deneyimli bir sürücü; güvenlik önlemleri ve araç kontrolleriyle size sadece eğlence kalıyor. Zorlu parkurlar, doğanın güzellikleriyle birleşerek heyecan dolu bir maceraya dönüşüyor.\nİstanbul'da benzersiz bir eğlence deneyimi yaşamak için Conia Buggy Offroad Merkezi'ni tercih edin.\nHem doğa ile iç içe olun hem de adrenalin dolu anlar yaşayın. Ailece keyifli bir gün geçirmek isteyen herkesi Conia Buggy Offroad merkezine bekliyoruz.\nProfesyonel off road parkuru 12 etaptan oluşan bol sulu bol çamurlu bol engebeli bir parkurdur ve Parkura Rehbersiz girilmektedir.\nEtkinlik Detayları ve Kurallar\nParkura rehbersiz girilmektedir.\nAraçların emniyet kemeri mevcut ve güvenlidir. Devrilme riski yoktur.\nEtkinlik katılım için Min. 16 yaş sınırı vardır.\nEhliyet zorunluluğu yoktur.\n2 Kişilik araçlarda 7 yaşından küçük olmamak üzere şoför ile bereber yolcu katılabilir. Ancak 2 kişilik araçlarda MAX 140 KG (şoför + yolcu) sınırı vardır.\nKask, gözlük ve kalın yağmurluk verilmektedir. Yedek ayakkabı getirilmesi önerilir.\nSeanslar sabah 08.00 akşam 20.30 arasındadır. Araç ve kişi sınırlaması yoktur. 0546 253 99 42 numaralı hattan arayarak yoğunluk durumu hakkında bilgi alınabilir.\n1 tur ücreti Bilet.com'a özel olarak Tek Kişilik Araç için 1.250 TL ve İki Kişilik Araç (Max. 140 Kg) için 1.800 TL olarak belirlenmiştir.\nBuggy ile safari yapılmak istenirse, orman ",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/conia-buggy-off-road-cekmekoy/conia-buggy-offroad-logo.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Conia Game Center",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2335",
-            "title": "Conia Buggy Off-Road Çekmeköy",
-            "description": "İstanbul Anadolu Yakası Buggy Offroad\nİstanbul Anadolu Yakası, Nişantepe Orman Park içerisinde offroad tutkunlarının vazgeçilmez noktası olan Conia Buggy Offroad Merkezi, buggy araçlarla güvenli ve eğlenceli bir macera sunuyor. Ailece keyifli bir gün geçirmek isteyenler için ideal olan çift kişilik araçlar, her yaştan misafire hitap ediyor. Orman içinde, doğayla iç içe, zorlu ama bir o kadarda eğlenceli parkurlarda geçireceğiniz unutulmaz anlar sizi bekliyor.\nConia Buggy, her türlü tecrübeye sahip kullanıcıya hitap eden bir merkez olarak, profesyonel eğitmenlerle birlikte offroad deneyimi sunuyor. İster ilk defa deniyor olun, ister deneyimli bir sürücü; güvenlik önlemleri ve araç kontrolleriyle size sadece eğlence kalıyor. Zorlu parkurlar, doğanın güzellikleriyle birleşerek heyecan dolu bir maceraya dönüşüyor.\nİstanbul'da benzersiz bir eğlence deneyimi yaşamak için Conia Buggy Offroad Merkezi'ni tercih edin.\nHem doğa ile iç içe olun hem de adrenalin dolu anlar yaşayın. Ailece keyifli bir gün geçirmek isteyen herkesi Conia Buggy Offroad merkezine bekliyoruz.\nProfesyonel off road parkuru 12 etaptan oluşan bol sulu bol çamurlu bol engebeli bir parkurdur ve Parkura Rehbersiz girilmektedir.\nEtkinlik Detayları ve Kurallar\nParkura rehbersiz girilmektedir.\nAraçların emniyet kemeri mevcut ve güvenlidir. Devrilme riski yoktur.\nEtkinlik katılım için Min. 16 yaş sınırı vardır.\nEhliyet zorunluluğu yoktur.\n2 Kişilik araçlarda 7 yaşından küçük olmamak üzere şoför ile bereber yolcu katılabilir. Ancak 2 kişilik araçlarda MAX 140 KG (şoför + yolcu) sınırı vardır.\nKask, gözlük ve kalın yağmurluk verilmektedir. Yedek ayakkabı getirilmesi önerilir.\nSeanslar sabah 08.00 akşam 20.30 arasındadır. Araç ve kişi sınırlaması yoktur. 0546 253 99 42 numaralı hattan arayarak yoğunluk durumu hakkında bilgi alınabilir.\n1 tur ücreti Bilet.com'a özel olarak Tek Kişilik Araç için 1.250 TL ve İki Kişilik Araç (Max. 140 Kg) için 1.800 TL olarak belirlenmiştir.\nBuggy ile safari yapılmak istenirse, orman ",
-            "source_url": "https://www.bilet.com/etkinlik/conia-buggy-off-road-cekmekoy",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1250.0,
-              "max_value": 1800.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/conia-buggy-off-road-cekmekoy?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "2335",
-    "category": "activity",
-    "address": "Nişantepe, Saray Caddesi. No: 321 (Nişantepe Orman Parkı) Çekmeköy / İstanbul",
-    "venue": "Conia Game Center",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.044844,
-    "longitude": 29.270285,
-    "fetched_at": null
-  },
-  {
     "title": "Torium Snowpark",
     "description": "Türkiye’nin İlk ve Tek Kapalı Kar Eğlence Merkezi\nTorium Alışveriş Merkezi bünyesinde 2.000 m² alanda hizmet veren Snowpark, aynı anda 250 kişiye kadar ziyaretçi ağırlayabilen Türkiye’nin ilk ve tek kapalı kar eğlence merkezidir. Yılın 365 günü gerçek kar deneyimi sunan Snowpark, her yaş grubuna hitap eden kapsamlı bir kar eğlence ve kış sporları tesisidir.\nYerli ve yabancı birçok ziyaretçi tarafından tercih edilen Torium Snowpark, şehrin en özgün destinasyonlarından biri olmayı başarmıştır. Gelişmiş soğutma altyapısı ve kar üretim teknolojileri sayesinde dört mevsim ideal kar kalitesini koruyan tesis; 6 farklı snowtubing parkuru, 3 ayrı kızak parkuru, kar konseptli fotoğraf alanları, gerçek iglo, kar mağaraları, kar basketbolu ve kar motoru gibi geniş aktivite seçenekleriyle dinamik bir eğlence ortamı sunmaktadır.\n-4°C sabit sıcaklıkta güvenli bir deneyim sağlayan Snowpark’ta giriş için gerekli bot, kask, mont ve eldiven gibi ekipmanlar tesis tarafından sağlanmaktadır. Snowpark; aileler, okullar, kurumsal gruplar ve organizasyonlar için dört mevsim kar eğlencesi sunmaktadır.\nKurallar ve Detaylar\nBilet Geçerliliği ve Kullanım Şartları\nSatın alınan biletler 30 Haziran 2026 tarihine kadar geçerlidir.\nSatın alınan biletler tesis çalışma saatleri (11:00 – 22:00) içerisinde geçerlidir. Biletler en geç saat 20:00 seansı ile birlikte kullanılabilir.\nBiletler yalnızca giriş hakkı sağlar; ek hizmet ve aktiviteler giriş ücretine dahil değildir.\nToplam kullanım süresi, giriş ve çıkış hazırlık süresi dahil olmak üzere 60 dakikadır. Bu sürenin 20 dakikası ekipman giyme/çıkarma ve hazırlık süresi, 40 dakikası ise karlı alanda kullanım süresidir. Süre, giriş işleminin tamamlanmasıyla başlar. Bilet.com'dan alınan biletlerde 40 dakikalık karlı alan süresine ek olarak 20 dakika hediye olarak verilir ve toplam karlı alanda 60 dakika geçirilebilir. Süre aşımı halinde ek ücret uygulanır.\nÖdenen giriş ücreti kapsamında ziyaretçilere Snowpark tarafından ücretsiz olarak kar botu, kar montu",
     "type": "activity",
@@ -2589,78 +2589,6 @@
     "thumbnail_url": null,
     "latitude": 41.003908,
     "longitude": 28.688354,
-    "fetched_at": null
-  },
-  {
-    "title": "Diriliş Ateşi",
-    "description": "Türkiye’nin En Görkemli Epik Sahne Gösterisi: DİRİLİŞ ATEŞİ\nDiriliş Ateşi, Türklerin Anadolu’ya gelişini ve bu toprakları yurt edinişini sahne sanatları, atlı akrobasi, dans, ateş performansları ve güçlü koreografilerle anlatan görkemli bir gösteridir.\nHem Türk hem de uluslararası sanatçılardan oluşan 45 kişilik akrobat, dansçı ve stunt ekibinin yer aldığı gösteride; özel eğitimli atlar, kurtlar, şahin ve kartal da sahnenin önemli unsurları arasında yer alır.\nKartalın kanadı, kurtların çağrısı, atların nal sesi ve ateşin gücüyle şekillenen Diriliş Ateşi, izleyiciyi tarihin ruhunu bugünün sahnesinde yaşamaya davet eder.\nBozdağ Film Platoları’nın tarihi atmosferinde sahnelenecek Diriliş Ateşi, cesaretin, mücadelenin ve yurt edinme ruhunun etkileyici bir sahne diliyle anlatıldığı özel bir deneyim sunar.\nBozdağ Film Platoları\nZiyaretçiler Bozdağ Film Platolarının tarihi atmosferinde zamanın içerisinde bir yolculuk yaparak başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok sinema filmi ve  televizyon dizisine ev sahipliği yapan bu büyüleyici alanı ziyaret edebilir,  Söğüt 1299 restoranında günümüz ve tarihi  800 yıllık geçmişe dayanan  Selçuklu ve  Osmanlı mutfağının leziz ürünlerini tadabilirler. At binme ve ok atma gibi etkinlikleri deneyimleme şansına da sahip olabilecek ziyaretçiler ayrıca HAR cafe ve Oba cafede çeşitli tatlılar ile birlikte sıcak ve soğuk kahve çeşitlerinden faydalanabilirler.\nHanlı Pazar hediyelik eşya mağazasında Diriliş Ertuğrul ve Kuruluş Osman dizilerinin ürünlerini satın alabilirler. Misafirler ayrıca Geleneksel Türk Çadır konseptinde kostümlü fotoğraf çekimi ile ziyaretlerini ölümsüzleştirebilirler.\nBozdağ Film Platoları 2014 yılı itibari ile faaliyete geçmiş ve başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok televizyon dizisi ve sinema filminin çekimlerine ev sahipliği yapmıştır.  2023 yılı itibari ile kapıları misafirlerin ziyaretine açılmış olan Bozdağ Film Platoları aynı zamanda Türkiye’nin misafirlerin ziyaretine açık ",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/dirilis-atesi/dirilis-1.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bozdağ Film Platoları",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2390",
-            "title": "Diriliş Ateşi",
-            "description": "Türkiye’nin En Görkemli Epik Sahne Gösterisi: DİRİLİŞ ATEŞİ\nDiriliş Ateşi, Türklerin Anadolu’ya gelişini ve bu toprakları yurt edinişini sahne sanatları, atlı akrobasi, dans, ateş performansları ve güçlü koreografilerle anlatan görkemli bir gösteridir.\nHem Türk hem de uluslararası sanatçılardan oluşan 45 kişilik akrobat, dansçı ve stunt ekibinin yer aldığı gösteride; özel eğitimli atlar, kurtlar, şahin ve kartal da sahnenin önemli unsurları arasında yer alır.\nKartalın kanadı, kurtların çağrısı, atların nal sesi ve ateşin gücüyle şekillenen Diriliş Ateşi, izleyiciyi tarihin ruhunu bugünün sahnesinde yaşamaya davet eder.\nBozdağ Film Platoları’nın tarihi atmosferinde sahnelenecek Diriliş Ateşi, cesaretin, mücadelenin ve yurt edinme ruhunun etkileyici bir sahne diliyle anlatıldığı özel bir deneyim sunar.\nBozdağ Film Platoları\nZiyaretçiler Bozdağ Film Platolarının tarihi atmosferinde zamanın içerisinde bir yolculuk yaparak başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok sinema filmi ve  televizyon dizisine ev sahipliği yapan bu büyüleyici alanı ziyaret edebilir,  Söğüt 1299 restoranında günümüz ve tarihi  800 yıllık geçmişe dayanan  Selçuklu ve  Osmanlı mutfağının leziz ürünlerini tadabilirler. At binme ve ok atma gibi etkinlikleri deneyimleme şansına da sahip olabilecek ziyaretçiler ayrıca HAR cafe ve Oba cafede çeşitli tatlılar ile birlikte sıcak ve soğuk kahve çeşitlerinden faydalanabilirler.\nHanlı Pazar hediyelik eşya mağazasında Diriliş Ertuğrul ve Kuruluş Osman dizilerinin ürünlerini satın alabilirler. Misafirler ayrıca Geleneksel Türk Çadır konseptinde kostümlü fotoğraf çekimi ile ziyaretlerini ölümsüzleştirebilirler.\nBozdağ Film Platoları 2014 yılı itibari ile faaliyete geçmiş ve başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok televizyon dizisi ve sinema filminin çekimlerine ev sahipliği yapmıştır.  2023 yılı itibari ile kapıları misafirlerin ziyaretine açılmış olan Bozdağ Film Platoları aynı zamanda Türkiye’nin misafirlerin ziyaretine açık ",
-            "source_url": "https://www.bilet.com/etkinlik/dirilis-atesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 650.0,
-              "max_value": 1400.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/dirilis-atesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "2390",
-    "category": "activity",
-    "address": "Bozdağ Film Platoları, Riva, Riva Cd. No: 35/1, 34829 Beykoz/İstanbul",
-    "venue": "Bozdağ Film Platoları",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.216337,
-    "longitude": 29.213242,
     "fetched_at": null
   },
   {
@@ -2736,6 +2664,150 @@
     "fetched_at": null
   },
   {
+    "title": "ViaSea Akvaryum",
+    "description": "Dünyanın ilk iklim temalı akvaryumu Viasea Akvaryum’da farklı iklim kuşaklarından binlerce deniz altı canlısının ve muhteşem sürüngenlerin yaşamına tanık olmaya hazır mısınız? Bilet.com'a özel indirimlerle hemen yerinizi alın!",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-marina/viasea-akvaryum-haziran.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "ViaSea Akvaryum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "10",
+            "title": "ViaSea Akvaryum",
+            "description": "Dünyanın ilk iklim temalı akvaryumu Viasea Akvaryum’da farklı iklim kuşaklarından binlerce deniz altı canlısının ve muhteşem sürüngenlerin yaşamına tanık olmaya hazır mısınız? Bilet.com'a özel indirimlerle hemen yerinizi alın!",
+            "source_url": "https://www.bilet.com/etkinlik/viasea-marina",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 699.0,
+              "max_value": 699.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/viasea-marina?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "10",
+    "category": "activity",
+    "address": "Cami Mh Balıkçılar Sokak U Blok 20 U, D:226, 34940 Tuzla/İstanbul",
+    "venue": "ViaSea Akvaryum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 40.818206,
+    "longitude": 29.317312,
+    "fetched_at": null
+  },
+  {
+    "title": "Diriliş Ateşi",
+    "description": "Türkiye’nin En Görkemli Epik Sahne Gösterisi: DİRİLİŞ ATEŞİ\nDiriliş Ateşi, Türklerin Anadolu’ya gelişini ve bu toprakları yurt edinişini sahne sanatları, atlı akrobasi, dans, ateş performansları ve güçlü koreografilerle anlatan görkemli bir gösteridir.\nHem Türk hem de uluslararası sanatçılardan oluşan 45 kişilik akrobat, dansçı ve stunt ekibinin yer aldığı gösteride; özel eğitimli atlar, kurtlar, şahin ve kartal da sahnenin önemli unsurları arasında yer alır.\nKartalın kanadı, kurtların çağrısı, atların nal sesi ve ateşin gücüyle şekillenen Diriliş Ateşi, izleyiciyi tarihin ruhunu bugünün sahnesinde yaşamaya davet eder.\nBozdağ Film Platoları’nın tarihi atmosferinde sahnelenecek Diriliş Ateşi, cesaretin, mücadelenin ve yurt edinme ruhunun etkileyici bir sahne diliyle anlatıldığı özel bir deneyim sunar.\nBozdağ Film Platoları\nZiyaretçiler Bozdağ Film Platolarının tarihi atmosferinde zamanın içerisinde bir yolculuk yaparak başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok sinema filmi ve  televizyon dizisine ev sahipliği yapan bu büyüleyici alanı ziyaret edebilir,  Söğüt 1299 restoranında günümüz ve tarihi  800 yıllık geçmişe dayanan  Selçuklu ve  Osmanlı mutfağının leziz ürünlerini tadabilirler. At binme ve ok atma gibi etkinlikleri deneyimleme şansına da sahip olabilecek ziyaretçiler ayrıca HAR cafe ve Oba cafede çeşitli tatlılar ile birlikte sıcak ve soğuk kahve çeşitlerinden faydalanabilirler.\nHanlı Pazar hediyelik eşya mağazasında Diriliş Ertuğrul ve Kuruluş Osman dizilerinin ürünlerini satın alabilirler. Misafirler ayrıca Geleneksel Türk Çadır konseptinde kostümlü fotoğraf çekimi ile ziyaretlerini ölümsüzleştirebilirler.\nBozdağ Film Platoları 2014 yılı itibari ile faaliyete geçmiş ve başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok televizyon dizisi ve sinema filminin çekimlerine ev sahipliği yapmıştır.  2023 yılı itibari ile kapıları misafirlerin ziyaretine açılmış olan Bozdağ Film Platoları aynı zamanda Türkiye’nin misafirlerin ziyaretine açık ",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/dirilis-atesi/dirilis-1.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bozdağ Film Platoları",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2390",
+            "title": "Diriliş Ateşi",
+            "description": "Türkiye’nin En Görkemli Epik Sahne Gösterisi: DİRİLİŞ ATEŞİ\nDiriliş Ateşi, Türklerin Anadolu’ya gelişini ve bu toprakları yurt edinişini sahne sanatları, atlı akrobasi, dans, ateş performansları ve güçlü koreografilerle anlatan görkemli bir gösteridir.\nHem Türk hem de uluslararası sanatçılardan oluşan 45 kişilik akrobat, dansçı ve stunt ekibinin yer aldığı gösteride; özel eğitimli atlar, kurtlar, şahin ve kartal da sahnenin önemli unsurları arasında yer alır.\nKartalın kanadı, kurtların çağrısı, atların nal sesi ve ateşin gücüyle şekillenen Diriliş Ateşi, izleyiciyi tarihin ruhunu bugünün sahnesinde yaşamaya davet eder.\nBozdağ Film Platoları’nın tarihi atmosferinde sahnelenecek Diriliş Ateşi, cesaretin, mücadelenin ve yurt edinme ruhunun etkileyici bir sahne diliyle anlatıldığı özel bir deneyim sunar.\nBozdağ Film Platoları\nZiyaretçiler Bozdağ Film Platolarının tarihi atmosferinde zamanın içerisinde bir yolculuk yaparak başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok sinema filmi ve  televizyon dizisine ev sahipliği yapan bu büyüleyici alanı ziyaret edebilir,  Söğüt 1299 restoranında günümüz ve tarihi  800 yıllık geçmişe dayanan  Selçuklu ve  Osmanlı mutfağının leziz ürünlerini tadabilirler. At binme ve ok atma gibi etkinlikleri deneyimleme şansına da sahip olabilecek ziyaretçiler ayrıca HAR cafe ve Oba cafede çeşitli tatlılar ile birlikte sıcak ve soğuk kahve çeşitlerinden faydalanabilirler.\nHanlı Pazar hediyelik eşya mağazasında Diriliş Ertuğrul ve Kuruluş Osman dizilerinin ürünlerini satın alabilirler. Misafirler ayrıca Geleneksel Türk Çadır konseptinde kostümlü fotoğraf çekimi ile ziyaretlerini ölümsüzleştirebilirler.\nBozdağ Film Platoları 2014 yılı itibari ile faaliyete geçmiş ve başta Diriliş Ertuğrul ve Kuruluş Osman olmak üzere birçok televizyon dizisi ve sinema filminin çekimlerine ev sahipliği yapmıştır.  2023 yılı itibari ile kapıları misafirlerin ziyaretine açılmış olan Bozdağ Film Platoları aynı zamanda Türkiye’nin misafirlerin ziyaretine açık ",
+            "source_url": "https://www.bilet.com/etkinlik/dirilis-atesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 1400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/dirilis-atesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "2390",
+    "category": "activity",
+    "address": "Bozdağ Film Platoları, Riva, Riva Cd. No: 35/1, 34829 Beykoz/İstanbul",
+    "venue": "Bozdağ Film Platoları",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.216337,
+    "longitude": 29.213242,
+    "fetched_at": null
+  },
+  {
     "title": "Demokrasi ve Özgürlükler Adası’nda Gün Batımı Turu",
     "description": "İstanbul’un Tarih ve Huzur Adası\nDemokrasi ve Özgürlükler Adası’nda muhteşem gün batımı…\nŞehrin gürültüsünden uzaklaşıp Marmara’nın maviliklerinde, yakın tarihimize tanıklık eden muazzam bir adaya davetlisiniz. Eski adıyla Yassıada, bugün Demokrasi ve Özgürlükler Adası adıyla; müzeleri, açık hava sanat eserleri ve etkileyici mimarisiyle kapılarını ziyaretçilerine açıyor.\nSadece bir geziye değil, hafızalarda iz bırakacak bir deneyime yolculuk yapın. Güne İskele Kafe’de, Adanın kıyısında, denizin taze esintisi eşliğinde başlamaya ne dersiniz? Maviliklere karşı yapacağınız bu keyifli kahvaltı, günün geri kalanındaki keşifleriniz için size enerji verecek.\nPaket Fiyatları\nGün Batımı Turu: Kişi Başı 1500 TL\nGün Batımı Turu + Adada Yemek: Kişi Başı 2750 TL\n* 0-6 Yaş Çocuklar Ücretsiz!\nTur Tarihleri\n12, 19 ve 26 Haziran Cuma Günleri\nGidiş: 17:30 (Bostancı Mavi Marmara İskelesi Kalkış)\nDönüş: 21:30 (Demokrasi ve Özgürlükler Adası)\nKonum: Bostancı Mavi Marmara İskelesi\nYemek Menüsü\nKöfte Izgara veya Tavuk Külbastı (Seçmeli)\nSalata\nSütlaç\nMeşrubat\nÖrnek Tur Proğramı\n17.30: Kalkış iskelesinde buluşma ve hareket\n18.20: Demokrasi ve Özgürlükler Adası varış\n18.30: Rehber eşliğinde Ada kültür turu\n20.00: Yemek\n21.30: Demokrasi ve Özgürlükler Adası iskelesinden dönüş için hareket\nBilet Kuralları\nBilgi ve rezervasyon için 05468011939 arayabilirsiniz.\nBilet ücretine gidiş dönüş deniz ulaşım, rehber eşliğinde ada turu ve müze girişleri dahildir.\n0-6 yaş arası çocuklar ücretsizdir. 7 Yaş ve üzeri için mevcut fiyatlar geçerlidir.\nBelirtilen saatler feribot hareket saatidir, bilet sahiplerinin belirtilen kalkış saatinden en az 15 dakika öncesinde ilgili iskelede bulunmaları gerekmektedir.\nHizmet standartlarımız nedeniyle, adamıza günlük sınırlı sayıda ziyaretçi kabul edilebilmektedir.\nAdada denize girilebilecek ve piknik yapılabilecek alanlar bulunmamaktadır. Ada genelindeki düzeni ve tarihi dokuyu korumak amacıyla, dışarıdan yiyecek ve alkollü içecek getirilmemesi rica olunur.\nBiletlerde",
     "type": "activity",
@@ -2808,83 +2880,11 @@
     "fetched_at": null
   },
   {
-    "title": "ViaSea Akvaryum",
-    "description": "Dünyanın ilk iklim temalı akvaryumu Viasea Akvaryum’da farklı iklim kuşaklarından binlerce deniz altı canlısının ve muhteşem sürüngenlerin yaşamına tanık olmaya hazır mısınız? Bilet.com'a özel indirimlerle hemen yerinizi alın!",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-marina/viasea-akvaryum-yeni.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "ViaSea Akvaryum",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "10",
-            "title": "ViaSea Akvaryum",
-            "description": "Dünyanın ilk iklim temalı akvaryumu Viasea Akvaryum’da farklı iklim kuşaklarından binlerce deniz altı canlısının ve muhteşem sürüngenlerin yaşamına tanık olmaya hazır mısınız? Bilet.com'a özel indirimlerle hemen yerinizi alın!",
-            "source_url": "https://www.bilet.com/etkinlik/viasea-marina",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 699.0,
-              "max_value": 699.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/viasea-marina?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "10",
-    "category": "activity",
-    "address": "Cami Mh Balıkçılar Sokak U Blok 20 U, D:226, 34940 Tuzla/İstanbul",
-    "venue": "ViaSea Akvaryum",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 40.818206,
-    "longitude": 29.317312,
-    "fetched_at": null
-  },
-  {
     "title": "Aslan Park",
     "description": "Vahşi doğanın en güçlü, ihtişamlı ve büyüleyici yırtıcıları ile tanışmaya hazır mısın?\nBüyük kedigillerin dünyasını daha yakından keşfetmek için Bilet.com'a özel indirimli biletler seni bekliyor!",
     "type": "activity",
     "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aslanpark/aslanpark-yeni.webp",
+    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aslanpark/aslanpark-haziran.webp",
     "occurrences": [
       {
         "start_at_utc": null,
@@ -2952,83 +2952,11 @@
     "fetched_at": null
   },
   {
-    "title": "Marina Aquapark",
-    "description": "Marina Aquapark, ViaSea Akvaryum, ViaSea Tema Park ve Aslan Park Biletleri En Ucuz Fiyatlarla Bilet.com'da!",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aquapark/marina-aqua-logo-2.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Marina Aquapark",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "39",
-            "title": "Marina Aquapark",
-            "description": "Marina Aquapark, ViaSea Akvaryum, ViaSea Tema Park ve Aslan Park Biletleri En Ucuz Fiyatlarla Bilet.com'da!",
-            "source_url": "https://www.bilet.com/etkinlik/viasea-aquapark",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1389.0,
-              "max_value": 1389.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/viasea-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "39",
-    "category": "activity",
-    "address": "Cami, Balıkçılar Sk. no:20/1, 34940 Tuzla/İstanbul",
-    "venue": "Marina Aquapark",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 40.814353,
-    "longitude": 29.313851,
-    "fetched_at": null
-  },
-  {
     "title": "ViaSea  Tema Park",
     "description": "ViaSea Tema Park, ViaSea Akvaryum ve Aslan Park Biletleri En Ucuz Fiyatlarla Bilet.com'da!",
     "type": "activity",
     "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-korsanpark/viasea-tema-park-logo.webp",
+    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-korsanpark/viasea-temapark-haziran.webp",
     "occurrences": [
       {
         "start_at_utc": null,
@@ -3096,30 +3024,30 @@
     "fetched_at": null
   },
   {
-    "title": "Antalya Aquarium",
-    "description": "Dünyanın en büyük tünel akvaryumunda yürümeye hazır mısınız? 40'dan fazla tematik akvaryum ve Snow World, WildPark, Face2Face ve Oceanride XD Cinema gibi büyüleyici alanları keşfedin!",
+    "title": "Marina Aquapark",
+    "description": "Marina Aquapark, ViaSea Akvaryum, ViaSea Tema Park ve Aslan Park Biletleri En Ucuz Fiyatlarla Bilet.com'da!",
     "type": "activity",
-    "city_name": "Antalya",
-    "image_url": "https://static.bilet.com/images/vialand/antalya-akvaryum/antalya-akvaryum/antalya-akvaryum-yeni.webp",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aquapark/marina-aquapark-haz-2026.webp",
     "occurrences": [
       {
         "start_at_utc": null,
         "local_date": "2099-12-31",
         "local_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Antalya Aquarium",
+        "venue_name": "Marina Aquapark",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "23",
-            "title": "Antalya Aquarium",
-            "description": "Dünyanın en büyük tünel akvaryumunda yürümeye hazır mısınız? 40'dan fazla tematik akvaryum ve Snow World, WildPark, Face2Face ve Oceanride XD Cinema gibi büyüleyici alanları keşfedin!",
-            "source_url": "https://www.bilet.com/etkinlik/antalya-akvaryum",
+            "external_id": "39",
+            "title": "Marina Aquapark",
+            "description": "Marina Aquapark, ViaSea Akvaryum, ViaSea Tema Park ve Aslan Park Biletleri En Ucuz Fiyatlarla Bilet.com'da!",
+            "source_url": "https://www.bilet.com/etkinlik/viasea-aquapark",
             "deep_link_url": null,
             "price": {
-              "min_value": 445.0,
-              "max_value": 590.0,
+              "min_value": 1389.0,
+              "max_value": 1389.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -3136,7 +3064,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/antalya-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/viasea-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -3154,17 +3082,17 @@
     "provider_tags": [],
     "provider_label": "bilet.com",
     "source_urls": [],
-    "external_id": "23",
+    "external_id": "39",
     "category": "activity",
-    "address": "Dumlupınar Bulvarı Arapsuyu Mahallesi No: 502 Konyaaltı, Antalya.",
-    "venue": "Antalya Aquarium",
+    "address": "Cami, Balıkçılar Sk. no:20/1, 34940 Tuzla/İstanbul",
+    "venue": "Marina Aquapark",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 36.879227,
-    "longitude": 30.660247,
+    "latitude": 40.814353,
+    "longitude": 29.313851,
     "fetched_at": null
   },
   {
@@ -3240,30 +3168,30 @@
     "fetched_at": null
   },
   {
-    "title": "Museum of Illusions",
-    "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
-    "type": "exhibition",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/ventrata/museum-of-illusions/museum-of-illusions-yeni.webp",
+    "title": "Antalya Aquarium",
+    "description": "Dünyanın en büyük tünel akvaryumunda yürümeye hazır mısınız? 40'dan fazla tematik akvaryum ve Snow World, WildPark, Face2Face ve Oceanride XD Cinema gibi büyüleyici alanları keşfedin!",
+    "type": "activity",
+    "city_name": "Antalya",
+    "image_url": "https://static.bilet.com/images/vialand/antalya-akvaryum/antalya-akvaryum/antalya-akvaryum-yeni.webp",
     "occurrences": [
       {
         "start_at_utc": null,
         "local_date": "2099-12-31",
         "local_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Museum of Illusions - İstanbul İstiklal",
+        "venue_name": "Antalya Aquarium",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "168",
-            "title": "Museum of Illusions",
-            "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
-            "source_url": "https://www.bilet.com/etkinlik/museum-of-illusions",
+            "external_id": "23",
+            "title": "Antalya Aquarium",
+            "description": "Dünyanın en büyük tünel akvaryumunda yürümeye hazır mısınız? 40'dan fazla tematik akvaryum ve Snow World, WildPark, Face2Face ve Oceanride XD Cinema gibi büyüleyici alanları keşfedin!",
+            "source_url": "https://www.bilet.com/etkinlik/antalya-akvaryum",
             "deep_link_url": null,
             "price": {
-              "min_value": 390.0,
-              "max_value": 530.0,
+              "min_value": 445.0,
+              "max_value": 590.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -3280,7 +3208,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/museum-of-illusions?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/antalya-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -3298,17 +3226,17 @@
     "provider_tags": [],
     "provider_label": "bilet.com",
     "source_urls": [],
-    "external_id": "168",
-    "category": "exhibition",
-    "address": "Asmali Mescit, İstiklal Cd. No:180 D:4B, 34430 Beyoğlu/İstanbul",
-    "venue": "Museum of Illusions - İstanbul İstiklal",
+    "external_id": "23",
+    "category": "activity",
+    "address": "Dumlupınar Bulvarı Arapsuyu Mahallesi No: 502 Konyaaltı, Antalya.",
+    "venue": "Antalya Aquarium",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 41.029045,
-    "longitude": 28.975502,
+    "latitude": 36.879227,
+    "longitude": 30.660247,
     "fetched_at": null
   },
   {
@@ -3381,6 +3309,78 @@
     "thumbnail_url": null,
     "latitude": 41.033522,
     "longitude": 28.959507,
+    "fetched_at": null
+  },
+  {
+    "title": "Museum of Illusions",
+    "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
+    "type": "exhibition",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/ventrata/museum-of-illusions/museum-of-illusions-yeni.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Museum of Illusions - İstanbul İstiklal",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "168",
+            "title": "Museum of Illusions",
+            "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
+            "source_url": "https://www.bilet.com/etkinlik/museum-of-illusions",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 390.0,
+              "max_value": 530.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/museum-of-illusions?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "168",
+    "category": "exhibition",
+    "address": "Asmali Mescit, İstiklal Cd. No:180 D:4B, 34430 Beyoğlu/İstanbul",
+    "venue": "Museum of Illusions - İstanbul İstiklal",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.029045,
+    "longitude": 28.975502,
     "fetched_at": null
   },
   {
@@ -3744,6 +3744,78 @@
     "fetched_at": null
   },
   {
+    "title": "Alef",
+    "description": "Alef, 2 Temmuz'da IF Performance Hall Tunus'ta! Alef Ankara konser biletleri Bilet.com'da seni bekliyor.",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://static.bilet.com/images/vialand/iticket/alef-if-performance-hall-tunus/photos/alef.webp",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-02T09:00:00Z",
+        "local_date": "2026-07-02",
+        "local_time": "12:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Tunus",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2374",
+            "title": "Alef",
+            "description": "Alef, 2 Temmuz'da IF Performance Hall Tunus'ta! Alef Ankara konser biletleri Bilet.com'da seni bekliyor.",
+            "source_url": "https://www.bilet.com/etkinlik/alef-if-performance-hall-tunus",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 250.0,
+              "max_value": 250.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/alef-if-performance-hall-tunus?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "bilet.com",
+    "provider": null,
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [],
+    "provider_label": "bilet.com",
+    "source_urls": [],
+    "external_id": "2374",
+    "category": "concert",
+    "address": null,
+    "venue": "IF Performance Hall Tunus",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 39.911647,
+    "longitude": 32.856077,
+    "fetched_at": null
+  },
+  {
     "title": "%100 Metal Sunar: Mantar",
     "description": "Kuzey Almanya’nın ödün vermez sludge metal grubu Mantar, Avrupa metal sahnesini sarsan vahşi enerjisini 13 Ekim 2026’da Blind sahnesine taşıyor!",
     "type": "concert",
@@ -3885,78 +3957,6 @@
     "thumbnail_url": null,
     "latitude": 42.047928,
     "longitude": 35.044019,
-    "fetched_at": null
-  },
-  {
-    "title": "Alef",
-    "description": "Alef, 2 Temmuz'da IF Performance Hall Tunus'ta! Alef Ankara konser biletleri Bilet.com'da seni bekliyor.",
-    "type": "concert",
-    "city_name": "Ankara",
-    "image_url": "https://static.bilet.com/images/vialand/iticket/alef-if-performance-hall-tunus/photos/alef.webp",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-02T09:00:00Z",
-        "local_date": "2026-07-02",
-        "local_time": "12:00",
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Performance Hall Tunus",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2374",
-            "title": "Alef",
-            "description": "Alef, 2 Temmuz'da IF Performance Hall Tunus'ta! Alef Ankara konser biletleri Bilet.com'da seni bekliyor.",
-            "source_url": "https://www.bilet.com/etkinlik/alef-if-performance-hall-tunus",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 250.0,
-              "max_value": 250.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/alef-if-performance-hall-tunus?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "source": "bilet.com",
-    "provider": null,
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [],
-    "provider_label": "bilet.com",
-    "source_urls": [],
-    "external_id": "2374",
-    "category": "concert",
-    "address": null,
-    "venue": "IF Performance Hall Tunus",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 39.911647,
-    "longitude": 32.856077,
     "fetched_at": null
   }
 ]
