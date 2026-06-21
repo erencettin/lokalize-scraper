@@ -1390,7 +1390,7 @@
             "source_url": "https://www.biletimgo.com/etkinlik/latinas-pop-night-eskisehir-27541?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 475.0,
+              "min_value": 500.0,
               "max_value": 850.0,
               "text": null,
               "currency": "TRY",
@@ -7006,8 +7006,8 @@
             "source_url": "https://www.biletimgo.com/etkinlik/nemrparty-27953?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 750.0,
-              "max_value": 2000.0,
+              "min_value": 1000.0,
+              "max_value": 2500.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -8702,6 +8702,78 @@
     "category": "standup",
     "address": "Caferağa Mahallesi Misbah Muhayyeş Sokak No: 6D - Kadıköy / İstanbul",
     "venue": "Corner Kadıköy",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "KV QUİZ NİGHT (İLK 97 BÖLÜM)",
+    "description": "🐺🔥 KV QUIZ NIGHT – İLK 97 BÖLÜM 🔥🐺\n\"Bu bir oyun değil... Bu bir Kurtlar Vadisi meselesi!\" 😎💼\nPolat Alemdar, Süleyman Çakır, Memati, Aslan Akbey ve daha niceleriyle dolu efsane serinin unutulmaz anılarını yeniden yaşamaya hazır mısın? 🐺⚡\n📅 5 Temmuz Pazar\n🕘 Saat 21:00\n📍 Buvons Bistro Cafe KEŞAN\n⚠️ Biletler sınırlıdır! Kurtlar Konseyi toplanmadan yerini ayırt!\n🎯 İlk 97 bölümden hazırlanan sorularla gerçek Kurtlar Vadisi ustaları belli olacak. Polat'ın operasyonlarını, Çakır'ın unutulmaz sözlerini ve dizinin en kritik detaylarını hatırlıyorsan bu gece tam sana göre!",
+    "type": "social",
+    "city_name": "Edirne",
+    "image_url": "https://www.biletimgo.com/images/kurtlar-vadisi-quiz-night-ilk-97-bolum-MIS8QE.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-05T18:00:00Z",
+        "local_date": "2026-07-05",
+        "local_time": "21:00",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Buvons Bistro & Cafe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "BiletimGO",
+            "external_id": "28339",
+            "title": "KV QUİZ NİGHT (İLK 97 BÖLÜM)",
+            "description": null,
+            "source_url": "https://www.biletimgo.com/etkinlik/kv-quiz-night-ilk-97-bolum-28339?partner=14",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1000.0,
+              "max_value": 2500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "unknown",
+                "confidence": 0.0,
+                "legal_mode": "unknown",
+                "source": "unknown",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "https://www.biletimgo.com/etkinlik/kv-quiz-night-ilk-97-bolum-28339?partner=14",
+            "sales_start_at": null,
+            "brand_name": "Teneke Organizasyon",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "BiletimGO",
+    "provider": null,
+    "providers": [
+      "BiletimGO"
+    ],
+    "provider_tags": [],
+    "provider_label": "biletimGO",
+    "source_urls": [],
+    "external_id": "28339",
+    "category": "social",
+    "address": "Yukarı Zaferiye Mahallesi Paşa Yiğit Caddesi No: 21 Kat: 3 - Keşan / Edirne",
+    "venue": "Buvons Bistro & Cafe",
     "link": null,
     "source_url": null,
     "ticket_info": null,
