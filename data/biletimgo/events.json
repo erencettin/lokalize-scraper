@@ -94,12 +94,12 @@
             "source_url": "https://www.biletimgo.com/etkinlik/artun-sanat-merkezi-yaza-merhaba-konseri-22-haziran-pazartesi-27187?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 500.0,
-              "max_value": 1500.0,
+              "min_value": null,
+              "max_value": null,
               "text": null,
               "currency": "TRY",
               "is_free": false,
-              "is_unknown": false,
+              "is_unknown": true,
               "resolution": {
                 "strategy": "unknown",
                 "confidence": 0.0,
@@ -454,7 +454,7 @@
             "source_url": "https://www.biletimgo.com/etkinlik/artun-sanat-merkezi-yaza-merhaba-konseri-23-haziran-sali-27365?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 500.0,
+              "min_value": 1000.0,
               "max_value": 1500.0,
               "text": null,
               "currency": "TRY",
@@ -8774,6 +8774,78 @@
     "category": "theatre",
     "address": "Kuloğlu, Sadri Alışık Sk. No:24 K:4 D:4, 34443 Beyoğlu/İstanbul",
     "venue": "Taksim İstiklal Sahne",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Off Campus Party - Ankara",
+    "description": "Off-Campus dizisini kaç kez baştan izlediğimizi, o sahneleri kaç kere geriye sardığımızı hiç konuşmayalım bile. Eğer sen de bizim gibi ekran başında Garrett ve Hannah’nın kimyasına düşenlerdensen, bu gece tam olarak olman gereken yerdesin. Ekrandaki o enerjiyi, müzikleri ve ortamı doğrudan mekana taşıyoruz.\nDJ kabininde tabii ki dizinin soundtrack'lerinden o favori hitler dönecek. En önemlisi de ne? \"On the Floor\" çalmaya başladığında Allie ve Dean gibi pistin tozunu yutturmaya hazır olun!\nDizinin atmosferini yansıtan şarkılar ve sosyal medyada gündemden düşmeyen o meşhur “edit” müzikleriyle devam ediyoruz. Tüm gece boyunca dev ekranda ikonik sahneler bizlere eşlik edecek.\nGecenin en iyi giyinen kişisine ise Off Campus kitap seti hediyemiz olacak!\nDiziye özel dekorlar, dizinin müzikleri, güncel pop hitleri ve dizinin editleriyle harika bir gece için biletinizi almayı unutmayın!\n🚨Etkinlik 18 yaş ve üzeri içindir. 18 yaşın altındaki katılımcılar etkinliğe alınmayacaktır.",
+    "type": "social",
+    "city_name": "Ankara",
+    "image_url": "https://www.biletimgo.com/images/off-campus-party-ankara-1781797674.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-18T18:30:00Z",
+        "local_date": "2026-07-18",
+        "local_time": "21:30",
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Route Selanik Ankara",
+        "district": null,
+        "sources": [
+          {
+            "provider": "BiletimGO",
+            "external_id": "28270",
+            "title": "Off Campus Party - Ankara",
+            "description": null,
+            "source_url": "https://www.biletimgo.com/etkinlik/off-campus-party-ankara-28270?partner=14",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 300.0,
+              "max_value": 400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "unknown",
+                "confidence": 0.0,
+                "legal_mode": "unknown",
+                "source": "unknown",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "https://www.biletimgo.com/etkinlik/off-campus-party-ankara-28270?partner=14",
+            "sales_start_at": null,
+            "brand_name": "Petersays Events",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "source": "BiletimGO",
+    "provider": null,
+    "providers": [
+      "BiletimGO"
+    ],
+    "provider_tags": [],
+    "provider_label": "biletimGO",
+    "source_urls": [],
+    "external_id": "28270",
+    "category": "social",
+    "address": "Meşrutiyet Mahallesi Selanik Caddesi No: 70 - Çankaya / Ankara",
+    "venue": "Route Selanik Ankara",
     "link": null,
     "source_url": null,
     "ticket_info": null,
