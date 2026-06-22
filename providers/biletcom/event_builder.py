@@ -31,21 +31,35 @@ _BLOCK_TAG_RE = re.compile(
     re.IGNORECASE,
 )
 
-_TURKISH_CITIES = {
-    "istanbul": "İstanbul",
-    "ankara": "Ankara",
-    "izmir": "İzmir",
-    "antalya": "Antalya",
-    "bursa": "Bursa",
-    "kocaeli": "Kocaeli",
-    "eskisehir": "Eskişehir",
-    "konya": "Konya",
-    "adana": "Adana",
-    "mersin": "Mersin",
-    "gaziantep": "Gaziantep",
-}
+_TURKISH_PROVINCES = [
+    "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Amasya", "Ankara", "Antalya",
+    "Artvin", "Aydın", "Balıkesir", "Bilecik", "Bingöl", "Bitlis", "Bolu",
+    "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır",
+    "Edirne", "Elazığ", "Erzincan", "Erzurum", "Eskişehir", "Gaziantep",
+    "Giresun", "Gümüşhane", "Hakkari", "Hatay", "Isparta", "Mersin", "İstanbul",
+    "İzmir", "Kars", "Kastamonu", "Kayseri", "Kırklareli", "Kırşehir", "Kocaeli",
+    "Konya", "Kütahya", "Malatya", "Manisa", "Kahramanmaraş", "Mardin", "Muğla",
+    "Muş", "Nevşehir", "Niğde", "Ordu", "Rize", "Sakarya", "Samsun", "Siirt",
+    "Sinop", "Sivas", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Şanlıurfa",
+    "Uşak", "Van", "Yozgat", "Zonguldak", "Aksaray", "Bayburt", "Karaman",
+    "Kırıkkale", "Batman", "Şırnak", "Bartın", "Ardahan", "Iğdır", "Yalova",
+    "Karabük", "Kilis", "Osmaniye", "Düzce",
+]
 
-_DEFAULT_CITY = "İstanbul"
+
+def _ascii_fold(value: str) -> str:
+    nfkd = unicodedata.normalize("NFKD", value)
+    return "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
+
+
+_TURKISH_CITIES = {_ascii_fold(name): name for name in _TURKISH_PROVINCES}
+
+# Sentinel used when bilet.com omits venue.city AND no province name can be
+# recovered from the address/venue name. Deliberately NOT a real city — a
+# wrong city (e.g. always defaulting to İstanbul) silently mislabels events,
+# while this string never matches a row in the backend's Cities table, so the
+# event still syncs but won't show up mislabeled on a city page.
+_UNKNOWN_CITY = "Bilinmeyen Şehir"
 
 
 def _strip_html(text: str) -> str:
@@ -56,13 +70,30 @@ def _strip_html(text: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(l for l in lines if l)).strip()
 
 
+def _find_province_in_text(text: Optional[str]) -> Optional[str]:
+    if not text:
+        return None
+    ascii_text = _ascii_fold(text)
+    for word in re.findall(r"[a-z]+", ascii_text):
+        province = _TURKISH_CITIES.get(word)
+        if province:
+            return province
+    return None
+
+
 def _city_from_venue(venue: Optional[BiletcomVenue]) -> str:
-    if not venue or not venue.city:
-        return _DEFAULT_CITY
-    key = venue.city.strip().lower()
-    nfkd = unicodedata.normalize("NFKD", key)
-    ascii_key = "".join(c for c in nfkd if not unicodedata.combining(c))
-    return _TURKISH_CITIES.get(ascii_key, venue.city.strip()) or _DEFAULT_CITY
+    if venue and venue.city:
+        ascii_key = _ascii_fold(venue.city.strip())
+        return _TURKISH_CITIES.get(ascii_key, venue.city.strip())
+
+    # venue.city is missing from the bilet.com response — try to recover the
+    # province from the address, then the venue name, before giving up.
+    if venue:
+        found = _find_province_in_text(venue.address) or _find_province_in_text(venue.name)
+        if found:
+            return found
+
+    return _UNKNOWN_CITY
 
 
 def _parse_date_str(date_str: str) -> Optional[datetime]:
@@ -136,6 +167,11 @@ class EventBuilder:
 
         venue = _primary_venue(options)
         city = _city_from_venue(venue)
+        if city == _UNKNOWN_CITY:
+            self._logger.warning(
+                "bilet.com: city unresolved for listing_id=%s venue=%r address=%r",
+                listing.id, venue.name if venue else None, venue.address if venue else None,
+            )
 
         description: Optional[str] = None
         if activity.description:
