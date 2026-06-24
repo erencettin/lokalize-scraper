@@ -17,6 +17,7 @@ from models.normalized_event import (
     PriceInfo,
 )
 from utils.date_parser import DateParser
+from utils.performer_extractor import extract_performer_from_title
 from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
@@ -145,10 +146,11 @@ class SerpApiEventsProvider:
         )
 
         description = self._clean_optional(raw.get("description"))
+        event_type = self._infer_type_from_content(title, description, category)
         return NormalizedEvent(
             title=title,
             description=description,
-            type=self._infer_type_from_content(title, description, category),
+            type=event_type,
             city_name=city,
             occurrences=[occurrence],
             source="serpapi_google_events",
@@ -161,6 +163,7 @@ class SerpApiEventsProvider:
             thumbnail_url=self._clean_optional(raw.get("thumbnail")),
             fetched_at=fetched_at,
             source_url=link,
+            performer_name=extract_performer_from_title(title, event_type),
         )
 
     # Keywords that confirm an event is genuinely a sport event (not a concert at a sports venue)

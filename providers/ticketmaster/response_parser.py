@@ -92,8 +92,19 @@ class ResponseParser:
         attractions = self._extract_list(raw.get("_embedded", {}).get("attractions"))
         first_attraction = attractions[0] if attractions else {}
         attraction_id = clean_text(str(first_attraction.get("id") or "")) or None
+        attraction_name = clean_text(str(first_attraction.get("name") or "")) or None
         upcoming_obj = first_attraction.get("upcomingEvents") if isinstance(first_attraction.get("upcomingEvents"), dict) else {}
         attraction_upcoming_count: Optional[int] = upcoming_obj.get("_total") if isinstance(upcoming_obj.get("_total"), int) else None
+
+        # Promoter / organizer — standard API: promoter.name or promoters[0].name
+        promoter_name: Optional[str] = None
+        promoter_obj = raw.get("promoter")
+        if isinstance(promoter_obj, dict):
+            promoter_name = clean_text(str(promoter_obj.get("name") or "")) or None
+        if not promoter_name:
+            promoters_list = self._extract_list(raw.get("promoters"))
+            if promoters_list:
+                promoter_name = clean_text(str(promoters_list[0].get("name") or "")) or None
 
         return RawTicketmasterEvent(
             event_id=event_id,
@@ -116,7 +127,9 @@ class ResponseParser:
             brand_name=brand_name,
             is_official_seller=is_official_seller,
             attraction_id=attraction_id,
+            attraction_name=attraction_name,
             attraction_upcoming_count=attraction_upcoming_count,
+            promoter_name=promoter_name,
         )
 
     def _extract_page_payload(self, payload: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], Optional[int]]:

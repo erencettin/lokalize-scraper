@@ -16,6 +16,7 @@ from providers.municipal_web.constants import CATEGORY_MAP, EXTERNAL_ID_HASH_LEN
 from providers.municipal_web.models import MunicipalSite, RawEventItem
 from utils.date_parser import DateParser
 from utils.html_extractor import extract_jsonld_price, extract_meta_price
+from utils.performer_extractor import extract_performer_from_title
 from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
@@ -50,14 +51,17 @@ class EventBuilder:
                 self._logged_sites = set()
             self._logged_sites.add(site.name)
 
+        event_type = self._resolve_type(f"{title} {description}")
         occurrence = self._build_occurrence(start_at_utc, title, link, clean_text(item.venue or site.name), price)
         return NormalizedEvent(
             title=title,
             description=self._truncate(description),
-            type=self._resolve_type(f"{title} {description}"),
+            type=event_type,
             city_name=settings.municipal_web_city_name.strip() or "Istanbul",
             image_url=clean_text(item.image_url) or None,
             occurrences=[occurrence],
+            performer_name=extract_performer_from_title(title, event_type),
+            organizer_name=clean_text(site.name) or None,
         )
 
     def _is_valid(self, title: str, link: str, item: RawEventItem, site: MunicipalSite) -> bool:

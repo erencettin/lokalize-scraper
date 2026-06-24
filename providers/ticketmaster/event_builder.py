@@ -205,6 +205,8 @@ class EventBuilder:
             occurrences=[occurrence],
             attraction_id=item.attraction_id,
             attraction_upcoming_count=item.attraction_upcoming_count,
+            performer_name=item.attraction_name,
+            organizer_name=item.promoter_name,
         )
 
     def _extract_datetime(self, item: RawTicketmasterEvent) -> Optional[datetime]:

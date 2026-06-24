@@ -171,6 +171,7 @@ class NormalizedOccurrence(BaseModel):
     start_at_utc: Optional[datetime] = None   # None for ongoing/date-selectable attractions
     local_date: str  # YYYY-MM-DD
     local_time: Optional[str] = None           # None for ongoing/date-selectable attractions
+    local_end_time: Optional[str] = None       # "HH:MM:SS" — for schema.org endDate
     timezone: str = "Europe/Istanbul"
     venue_name: str
     district: Optional[str] = None
@@ -186,6 +187,8 @@ class NormalizedEvent(BaseModel):
     occurrences: List[NormalizedOccurrence] = Field(default_factory=list)
     attraction_id: Optional[str] = None              # TM attraction ID (artist / team)
     attraction_upcoming_count: Optional[int] = None  # TM upcomingEvents._total — global demand proxy
+    performer_name: Optional[str] = None             # Artist / performer name — for schema.org performer
+    organizer_name: Optional[str] = None             # Event organizer — for schema.org organizer
     source: str = "unknown"
     provider: Optional[str] = None  # Backward-compatible single provider field.
     providers: List[str] = Field(default_factory=list)

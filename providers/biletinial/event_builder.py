@@ -22,6 +22,7 @@ from providers.biletinial.constants import (
     ALLOWED_LINK_HOST,
     DESCRIPTION_MAX_LENGTH,
 )
+from utils.performer_extractor import extract_performer_from_title
 from utils.text_normalizer import strip_html
 
 _TZ = pytz.timezone("Europe/Istanbul")
@@ -171,4 +172,6 @@ class EventBuilder:
             provider_label="Biletinial",
             external_id=external_id,
             venue=venue_name,
+            performer_name=extract_performer_from_title(title, type_id),
+            organizer_name="Biletinial",
         )

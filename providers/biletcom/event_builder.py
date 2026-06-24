@@ -21,6 +21,7 @@ from models.normalized_event import (
 from providers.biletcom import category_map
 from providers.biletcom.constants import ONGOING_SENTINEL_DATE
 from providers.biletcom.models import BiletcomActivity, BiletcomListing, BiletcomOption, BiletcomVenue
+from utils.performer_extractor import extract_performer_from_title
 
 _TZ = pytz.timezone("Europe/Istanbul")
 _DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
@@ -283,4 +284,6 @@ class EventBuilder:
             venue=(venue.name if venue else None),
             latitude=lat,
             longitude=lon,
+            performer_name=extract_performer_from_title(title, type_id),
+            organizer_name="bilet.com",
         )

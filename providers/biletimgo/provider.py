@@ -22,6 +22,7 @@ from models.normalized_event import (
 )
 from providers.base_provider import BaseProvider
 from providers.biletimgo import category_map
+from utils.performer_extractor import extract_performer_from_title
 
 _API_URL = "https://www.biletimgo.com/api/v1/etkinlik-listesi"
 _TZ = pytz.timezone("Europe/Istanbul")
@@ -327,4 +328,6 @@ class BiletimgoProvider(BaseProvider):
             external_id=external_id,
             address=address or None,
             venue=venue or None,
+            performer_name=extract_performer_from_title(title, category_id),
+            organizer_name=organizer or None,
         )

@@ -16,6 +16,7 @@ from models.normalized_event import NormalizedEvent, NormalizedOccurrence, Norma
 from providers.municipal_rss.constants import CATEGORY_MAP, DEFAULT_CITY_NAME, DEFAULT_VENUE, EXTERNAL_ID_HASH_LENGTH, EXTERNAL_ID_PREFIX, ISTANBUL_TIMEZONE, MAX_DESCRIPTION_LENGTH, TURKISH_MONTHS
 from providers.municipal_rss.models import RawRssItem
 from utils.date_parser import DateParser
+from utils.performer_extractor import extract_performer_from_title
 from utils.price_parser import PriceParser
 from utils.text_normalizer import clean_text
 
@@ -44,13 +45,17 @@ class EventBuilder:
             return None
         description = self._truncate(clean_text(item.description or title))
         price = self._build_price(item)
+        city_name = settings.municipal_rss_city_name.strip() or DEFAULT_CITY_NAME
+        event_type = self._resolve_type(f"{title} {description} {item.category}")
         return NormalizedEvent(
             title=title,
             description=description,
-            type=self._resolve_type(f"{title} {description} {item.category}"),
-            city_name=settings.municipal_rss_city_name.strip() or DEFAULT_CITY_NAME,
+            type=event_type,
+            city_name=city_name,
             image_url=clean_text(item.image_url) or None,
             occurrences=[self._build_occurrence(start_at_utc, title, link, clean_text(item.venue) or DEFAULT_VENUE, price)],
+            performer_name=extract_performer_from_title(title, event_type),
+            organizer_name=f"{city_name} Belediyesi",
         )
 
     def parse_pub_date(self, value: str) -> Optional[datetime]:
