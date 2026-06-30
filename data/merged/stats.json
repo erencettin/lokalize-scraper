@@ -1,19 +1,19 @@
 {
-  "total_events": 2120,
-  "total_events_before_dedup": 4018,
-  "total_events_after_dedup": 2120,
+  "total_events": 2098,
+  "total_events_before_dedup": 4022,
+  "total_events_after_dedup": 2098,
   "ticketmaster_count": 1032,
   "municipal_count": 8,
   "serpapi_count": 12,
   "biletimgo_count": 129,
   "biletcom_count": 60,
-  "biletinial_count": 2777,
-  "overlap_count": 1898,
-  "multi_provider_event_count": 293,
+  "biletinial_count": 2781,
+  "overlap_count": 1924,
+  "multi_provider_event_count": 291,
   "provider_combo_counts": {
-    "BiletimGO": 99,
-    "BiletimGO+Biletinial": 30,
-    "Biletinial": 880,
+    "BiletimGO": 101,
+    "BiletimGO+Biletinial": 28,
+    "Biletinial": 858,
     "Biletinial+bilet.com": 1,
     "MunicipalRSS": 4,
     "MunicipalWeb": 4,
@@ -24,7 +24,7 @@
     "bilet.com": 58
   },
   "provider_tag_combo_counts": {
-    "Biletinial": 880,
+    "Biletinial": 858,
     "Biletinial+bilet.com": 1,
     "Eyüpsultan Belediyesi": 1,
     "Google": 12,
@@ -33,10 +33,10 @@
     "Ticketmaster+Biletinial": 261,
     "Ticketmaster+bilet.com": 1,
     "bilet.com": 58,
-    "biletimGO": 99,
-    "biletimGO+Biletinial": 30,
+    "biletimGO": 101,
+    "biletimGO+Biletinial": 28,
     "Çatalca Belediyesi": 1,
     "İBB": 4
   },
-  "last_merge": "2026-06-30T20:12:57.258835+00:00"
+  "last_merge": "2026-06-30T20:27:19.576861+00:00"
 }
