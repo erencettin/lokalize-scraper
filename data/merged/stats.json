@@ -1,19 +1,19 @@
 {
-  "total_events": 2348,
-  "total_events_before_dedup": 4416,
-  "total_events_after_dedup": 2348,
+  "total_events": 2362,
+  "total_events_before_dedup": 4441,
+  "total_events_after_dedup": 2362,
   "ticketmaster_count": 1138,
   "municipal_count": 7,
   "serpapi_count": 12,
   "biletimgo_count": 168,
   "biletcom_count": 65,
-  "biletinial_count": 3026,
-  "overlap_count": 2068,
+  "biletinial_count": 3051,
+  "overlap_count": 2079,
   "multi_provider_event_count": 316,
   "provider_combo_counts": {
     "BiletimGO": 147,
     "BiletimGO+Biletinial": 20,
-    "Biletinial": 961,
+    "Biletinial": 975,
     "Biletinial+bilet.com": 2,
     "MunicipalRSS": 5,
     "MunicipalWeb": 2,
@@ -24,7 +24,7 @@
     "bilet.com": 61
   },
   "provider_tag_combo_counts": {
-    "Biletinial": 961,
+    "Biletinial": 975,
     "Biletinial+bilet.com": 2,
     "Eyüpsultan Belediyesi": 2,
     "Google": 12,
@@ -36,5 +36,5 @@
     "biletimGO+Biletinial": 20,
     "İBB": 5
   },
-  "last_merge": "2026-07-10T13:15:23.333726+00:00"
+  "last_merge": "2026-07-10T14:53:38.605990+00:00"
 }
