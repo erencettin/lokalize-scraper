@@ -99609,12 +99609,12 @@
             "source_url": "https://www.biletimgo.com/etkinlik/notwork-bir-tur-network-eventi-28473?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 450.0,
-              "max_value": 800.0,
+              "min_value": null,
+              "max_value": null,
               "text": null,
               "currency": "TRY",
               "is_free": false,
-              "is_unknown": false,
+              "is_unknown": true,
               "resolution": {
                 "strategy": "unknown",
                 "confidence": 0.0,
@@ -100783,7 +100783,7 @@
             "source_url": "https://www.biletimgo.com/etkinlik/berat-mert-demir-28687?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 750.0,
+              "min_value": 850.0,
               "max_value": 1250.0,
               "text": null,
               "currency": "TRY",
@@ -101653,6 +101653,85 @@
     "category": "workshop",
     "address": "Mustafa Kemal Mahallesi 2096. Sokak Barış Sitesi No: 28 - Çankaya / Ankara",
     "venue": "NOA Coffee & Art",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Cidden Mi? İnteraktif Doğaçlama Mizah",
+    "description": "Cidden Mi?; günlük hayatın içinden çıkan, insanın “bunu gerçekten yaşadın mı?” diyeceği anları bu kez seyirciyle birlikte konuşuyor. Sorular soruluyor, anılar ortaya çıkıyor, kahkaha büyüyor.\nSeyirciden gelen hikâyeler ve cevaplar sohbeti bambaşka yerlere götürüyor; sahnedeki mizah anında doğaçlanıyor. O anda salonda tek bir soru dolaşıyor: Cidden mi?\nKonuksuz gösteri.",
+    "type": "standup",
+    "city_name": "Konya",
+    "image_url": "https://www.biletimgo.com/images/cidden-mi-interaktif-dogaclama-mizah-1782989644.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-17T17:30:00Z",
+        "local_date": "2026-07-17",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Yache Coffee Shop",
+        "district": null,
+        "sources": [
+          {
+            "provider": "BiletimGO",
+            "external_id": "28675",
+            "title": "Cidden Mi? İnteraktif Doğaçlama Mizah",
+            "description": null,
+            "source_url": "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 200.0,
+              "max_value": 300.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "unknown",
+                "confidence": 0.0,
+                "legal_mode": "unknown",
+                "source": "unknown",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14",
+            "sales_start_at": null,
+            "brand_name": "Vodvil Organizasyon",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Vodvil Organizasyon",
+    "source": "BiletimGO",
+    "provider": "biletimGO",
+    "providers": [
+      "BiletimGO"
+    ],
+    "provider_tags": [
+      "biletimGO"
+    ],
+    "provider_label": "biletimGO",
+    "source_urls": [
+      "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14"
+    ],
+    "external_id": "28675",
+    "category": "standup",
+    "address": "İhsaniye Mahallesi Kazım Karabekir Caddesi No: 48/C - Selçuklu / Konya",
+    "venue": "Yache Coffee Shop",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -106708,85 +106787,6 @@
     "category": "theatre",
     "address": "Kuloğlu, Sadri Alışık Sk. No:24 K:4 D:4, 34443 Beyoğlu/İstanbul",
     "venue": "Taksim İstiklal Sahne",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Cidden Mi? İnteraktif Doğaçlama Mizah",
-    "description": "Cidden Mi?; günlük hayatın içinden çıkan, insanın “bunu gerçekten yaşadın mı?” diyeceği anları bu kez seyirciyle birlikte konuşuyor. Sorular soruluyor, anılar ortaya çıkıyor, kahkaha büyüyor.\nSeyirciden gelen hikâyeler ve cevaplar sohbeti bambaşka yerlere götürüyor; sahnedeki mizah anında doğaçlanıyor. O anda salonda tek bir soru dolaşıyor: Cidden mi?",
-    "type": "standup",
-    "city_name": "Konya",
-    "image_url": "https://www.biletimgo.com/images/cidden-mi-interaktif-dogaclama-mizah-1782989644.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-25T17:30:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Yache Coffee Shop",
-        "district": null,
-        "sources": [
-          {
-            "provider": "BiletimGO",
-            "external_id": "28675",
-            "title": "Cidden Mi? İnteraktif Doğaçlama Mizah",
-            "description": null,
-            "source_url": "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 200.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "unknown",
-                "confidence": 0.0,
-                "legal_mode": "unknown",
-                "source": "unknown",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14",
-            "sales_start_at": null,
-            "brand_name": "Vodvil Organizasyon",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Vodvil Organizasyon",
-    "source": "BiletimGO",
-    "provider": "biletimGO",
-    "providers": [
-      "BiletimGO"
-    ],
-    "provider_tags": [
-      "biletimGO"
-    ],
-    "provider_label": "biletimGO",
-    "source_urls": [
-      "https://www.biletimgo.com/etkinlik/cidden-mi-interaktif-dogaclama-mizah-28675?partner=14"
-    ],
-    "external_id": "28675",
-    "category": "standup",
-    "address": "İhsaniye Mahallesi Kazım Karabekir Caddesi No: 48/C - Selçuklu / Konya",
-    "venue": "Yache Coffee Shop",
     "link": null,
     "source_url": null,
     "ticket_info": null,
