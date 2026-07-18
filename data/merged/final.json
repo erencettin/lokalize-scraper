@@ -98560,27 +98560,27 @@
     "fetched_at": null
   },
   {
-    "title": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
-    "description": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
+    "title": "Harbiye Açık Hava etkinlikleri",
+    "description": "Harbiye Açık Hava etkinlikleri",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-07-23T21:00:00Z",
-        "local_date": "2026-07-24",
-        "local_time": "00:00",
+        "start_at_utc": "2026-07-19T17:07:00Z",
+        "local_date": "2026-07-19",
+        "local_time": "20:07",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
         "district": null,
         "sources": [
           {
-            "provider": "MunicipalWeb",
-            "external_id": "web-de82ebabee27afc0",
-            "title": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
+            "provider": "MunicipalRSS",
+            "external_id": "rss-559199cbc219e3a8",
+            "title": "Harbiye Açık Hava etkinlikleri",
             "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88",
+            "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -98590,18 +98590,18 @@
               "is_free": false,
               "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
                 "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
                 "is_authoritative": false,
                 "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88",
+            "ticket_url": null,
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
@@ -98612,176 +98612,18 @@
     "attraction_id": null,
     "attraction_upcoming_count": null,
     "performer_name": null,
-    "organizer_name": "Eyüpsultan Belediyesi",
+    "organizer_name": "Istanbul Belediyesi",
     "source": "unknown",
-    "provider": "Eyüpsultan Belediyesi",
+    "provider": "İBB",
     "providers": [
-      "MunicipalWeb"
+      "MunicipalRSS"
     ],
     "provider_tags": [
-      "Eyüpsultan Belediyesi"
+      "İBB"
     ],
-    "provider_label": "Eyüpsultan Belediyesi",
+    "provider_label": "İBB",
     "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "ESADEM ile Kahve Yanı Sohbetleri",
-    "description": "ESADEM ile Kahve Yanı Sohbetleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-23T21:00:00Z",
-        "local_date": "2026-07-24",
-        "local_time": "00:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-1b9b49094ac42e3c",
-            "title": "ESADEM ile Kahve Yanı Sohbetleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Eyüpsultan Belediyesi",
-    "source": "unknown",
-    "provider": "Eyüpsultan Belediyesi",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "ESMEK - Temmuz Ayı Atölyeleri",
-    "description": "ESMEK - Temmuz Ayı Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://mc.yandex.ru/watch/47176179",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-22T21:00:00Z",
-        "local_date": "2026-07-23",
-        "local_time": "00:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Eyüpsultan Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3362afccecaf94db",
-            "title": "ESMEK - Temmuz Ayı Atölyeleri",
-            "description": null,
-            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.eyupsultan.bel.tr",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "ESMEK",
-    "organizer_name": "Eyüpsultan Belediyesi",
-    "source": "unknown",
-    "provider": "Eyüpsultan Belediyesi",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Eyüpsultan Belediyesi"
-    ],
-    "provider_label": "Eyüpsultan Belediyesi",
-    "source_urls": [
-      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87"
+      "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/"
     ],
     "external_id": null,
     "category": null,
@@ -99177,6 +99019,243 @@
     "provider_label": "Çatalca Belediyesi",
     "source_urls": [
       "https://etkinlik.catalca.bel.tr/etkinlik-form/makara-tel-ile-cicek-yapim-atolyesi"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
+    "description": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-23T21:00:00Z",
+        "local_date": "2026-07-24",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-de82ebabee27afc0",
+            "title": "ESADEM Rota Farkındalık Temmuz Ayı Etkinlikleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Eyüpsultan Belediyesi",
+    "source": "unknown",
+    "provider": "Eyüpsultan Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-rota-farkindalik-temmuz-ayi-etkinlikle/88"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ESADEM ile Kahve Yanı Sohbetleri",
+    "description": "ESADEM ile Kahve Yanı Sohbetleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-23T21:00:00Z",
+        "local_date": "2026-07-24",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-1b9b49094ac42e3c",
+            "title": "ESADEM ile Kahve Yanı Sohbetleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Eyüpsultan Belediyesi",
+    "source": "unknown",
+    "provider": "Eyüpsultan Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esadem-ile-kahve-yani-sohbetleri/89"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "ESMEK - Temmuz Ayı Atölyeleri",
+    "description": "ESMEK - Temmuz Ayı Atölyeleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://mc.yandex.ru/watch/47176179",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-22T21:00:00Z",
+        "local_date": "2026-07-23",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Eyüpsultan Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3362afccecaf94db",
+            "title": "ESMEK - Temmuz Ayı Atölyeleri",
+            "description": null,
+            "source_url": "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.eyupsultan.bel.tr",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "ESMEK",
+    "organizer_name": "Eyüpsultan Belediyesi",
+    "source": "unknown",
+    "provider": "Eyüpsultan Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Eyüpsultan Belediyesi"
+    ],
+    "provider_label": "Eyüpsultan Belediyesi",
+    "source_urls": [
+      "https://www.eyupsultan.bel.tr/tr/basvuru/etkinlikler/esmek-temmuz-ayi-atolyeleri/87"
     ],
     "external_id": null,
     "category": null,
