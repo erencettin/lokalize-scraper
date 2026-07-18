@@ -102757,37 +102757,6 @@
             "sales_start_at": null,
             "brand_name": "Barbar Stand-Up",
             "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18068146",
-            "title": "Kadıköy Çakırkeyif Stand up Gecesi",
-            "description": "Etkinliği Kadıköy’de kahkahaya doymaya hazır mısınız? Kadıköy’ün yeni stand up sahnesi açıldı! Birbirinden eğlenceli komedyenlerle gülmekten gözlerinizden yaş gelsin istiyorsanız, Corner Kadıköy’de buluşalım!",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 200.0,
-              "max_value": 200.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -102797,19 +102766,16 @@
     "performer_name": null,
     "organizer_name": "Barbar Stand-Up",
     "source": "BiletimGO",
-    "provider": "biletimGO, Biletinial",
+    "provider": "biletimGO",
     "providers": [
-      "BiletimGO",
-      "Biletinial"
+      "BiletimGO"
     ],
     "provider_tags": [
-      "biletimGO",
-      "Biletinial"
+      "biletimGO"
     ],
-    "provider_label": "biletimGO, Biletinial",
+    "provider_label": "biletimGO",
     "source_urls": [
-      "https://www.biletimgo.com/etkinlik/kadikoy-cakirkeyif-stand-up-gecesi-29216?partner=14",
-      "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi"
+      "https://www.biletimgo.com/etkinlik/kadikoy-cakirkeyif-stand-up-gecesi-29216?partner=14"
     ],
     "external_id": "29216",
     "category": "standup",
@@ -189103,48 +189069,6 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/katil-kim-dian-20266241013592b33621db56c46729ee8c8a65d714929.jpeg",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-18T17:00:00Z",
-        "local_date": "2026-07-18",
-        "local_time": "20:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Farabi Sahne",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18212598",
-            "title": "Dedektif Sizsiniz: Katil Kim?",
-            "description": "Tiyatro Oyunu Bu oyunda dedektif sizsiniz Sorgulayacak, ipuçlarını birleştirecek ve gerçeği ortaya çıkarmaya çalışacaksınız. Bir cinayet işlendi. 3 şüpheli var. Her birinin anlatacak bir hikayesi, saklayacak sırları var. Peki hangisi doğruyu söylüyor? Hangisi yalan söylüyor? Ve en önemlisi… katil kim? Moderasyon eşliğinde şüphelilere sorular soracak, cevapları analiz edecek ve olayın perde arkasını çözmeye çalışacaksınız. Bu interaktif dedektiflik doğaçlama oyununda seyirci artık sadece seyirci değil; olayın bir parçası. Sizce gerçeği ortaya çıkarabilir misiniz?",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/katil-kim-dian",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 550.0,
-              "max_value": 550.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/katil-kim-dian?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-07-19T17:00:00Z",
         "local_date": "2026-07-19",
         "local_time": "20:00",
@@ -189203,7 +189127,7 @@
     "source_urls": [
       "https://biletinial.com/tr-tr/tiyatro/katil-kim-dian"
     ],
-    "external_id": "18212598",
+    "external_id": "18212599",
     "category": "theatre",
     "address": null,
     "venue": "Farabi Sahne",
