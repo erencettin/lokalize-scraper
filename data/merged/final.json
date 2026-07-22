@@ -109399,16 +109399,16 @@
     "fetched_at": null
   },
   {
-    "title": "Bilim Felsefesi 101",
-    "description": "Bilim Felsefesi 101",
-    "type": "experience",
+    "title": "Müzik TR100 Jukebox",
+    "description": "Müzik TR100 Jukebox",
+    "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-07-22T11:00:00Z",
-        "local_date": "2026-07-22",
-        "local_time": "14:00",
+        "start_at_utc": "2026-07-24T16:30:00Z",
+        "local_date": "2026-07-24",
+        "local_time": "19:30",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -109416,10 +109416,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-40d342b6905a3ccc",
-            "title": "Bilim Felsefesi 101",
+            "external_id": "rss-56d577a4bf8c27e6",
+            "title": "Müzik TR100 Jukebox",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/bilim-felsefesi-101/",
+            "source_url": "https://kultur.istanbul/etkinlik/muzik-tr100-jukebox/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -109462,7 +109462,7 @@
     ],
     "provider_label": "İBB",
     "source_urls": [
-      "https://kultur.istanbul/etkinlik/bilim-felsefesi-101/"
+      "https://kultur.istanbul/etkinlik/muzik-tr100-jukebox/"
     ],
     "external_id": null,
     "category": null,
@@ -109858,85 +109858,6 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/sanat-rotasi/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Sanat Rotası",
-    "description": "Sanat Rotası",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-22T13:00:00Z",
-        "local_date": "2026-07-22",
-        "local_time": "16:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-c56a0a1f0753bb41",
-            "title": "Sanat Rotası",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/sanat-rotasi-2/"
     ],
     "external_id": null,
     "category": null,
