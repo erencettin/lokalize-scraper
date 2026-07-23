@@ -2021,7 +2021,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuZASb0",
-    "attraction_upcoming_count": 5,
+    "attraction_upcoming_count": 6,
     "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
@@ -5150,7 +5150,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "postponed",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LA59%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-06-30T11:49:00Z",
             "brand_name": null,
@@ -6182,7 +6182,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuZASb0",
-    "attraction_upcoming_count": 5,
+    "attraction_upcoming_count": 6,
     "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
@@ -17497,7 +17497,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuZASb0",
-    "attraction_upcoming_count": 5,
+    "attraction_upcoming_count": 6,
     "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
@@ -18521,6 +18521,79 @@
     "attraction_id": "Z6HyzZyMZ1kf8oxqz",
     "attraction_upcoming_count": 1,
     "performer_name": "Derdo Disco",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Tekir",
+    "description": "-Bu etkinlikte 18 yaş sınırı vardır. 18 yaş altı etkinliğe katılım sağlayamayacaktır. -Kapıda görevliler fiziki kimlik kartı kontrolü yapabilecektir. Fiziki kimlik kartı ibraz edemeyen katılımcılar ücret iadesi yapılmadan etkinliğe alınmayacaktır. -Mekan girişinde kadın-erkek eşitliğine önem verilmektedir. Organizatör bu kurala aykırılık oluşturan kişileri etkinlik mekanına almama hakkına sahiptir. -Mekanda içecek fişi uygulaması vardır. -Konser alanına girecek herkes bilete tabidir. -E-Biletiniz Mail ve Sms olarak size gelecektir. -Çıktı almanıza gerek yoktur. -Organizasyon şirketi, etkinlik için uygun görmediği kişileri bilet bedelini iade etmek koşuluyla etkinlik mekanına almama hakkına sahiptir. -Organizasyon şirketi, öngörülemeyen ve kaçınılmaz nedenlerden ötürü oluşan teknik vb. aksaklıklar nedeniyle programda her türlü değişiklik yapma hakkını saklı tutar. -Konser alanı içinde yiyecek ve içecek satışı yapılacağı için, dışarıdan getirilen yiyecek ve içecek konser alanına alınmayacaktır. -Konser alanına profesyonel ses ve görüntü kayıt araçları (video kamera ve fotoğraf makinası) ve Selfie ve GoPro çubukları alınmayacaktır. Organizatör tarafından konser boyunca görüntü ve ses kaydı yapılacaktır. Bilet satın alan ve konser alanında olan herkes görüntülenmeyi kabul etmiş sayılır. -Konser alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. -Konser bileti alanlar, organizatör ve güvenlik ekibinin belirleyeceği üst ve çanta aranması dâhil her türlü güvenlik önlemini kabul etmiş sayılır. Bu önlemlere uymak istemeyen katılımcıların, alana giriş haklarının iptal edileceği gibi, bilet iadeleri de yapılmayacaktır. -Konser alanına yanıcı, patlayıcı, parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. -Konser alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. -Konser alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. -Konser bil",
+    "type": "concert",
+    "city_name": "Balıkesir",
+    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-09T19:00:00Z",
+        "local_date": "2026-08-09",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Hayal Kahvesi Burhaniye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk_44vvve",
+            "title": "Tekir",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OKK0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OKK0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-23T06:54:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kuZASb0",
+    "attraction_upcoming_count": 6,
+    "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -26426,6 +26499,79 @@
     "fetched_at": null
   },
   {
+    "title": "Summer Vibes - Emir Yargın: Klas Pop",
+    "description": "- Etkinlikte yaş sınırı bulunmaktadır. 18 yaş altı katılımcılar etkinliğe kabul edilmemektedir. - Her katılımcı bilete tabiidir. - Etkinlik başladıktan sonra salona seyirci alınmamaktadır. - Etkinlik alanına dışarıdan getirilecek yiyecek ve içecekler kabul edilmemektedir. - Tüm katılımcıların kimliklerini yanlarında bulundurmaları ve talep edilmesi durumunda ibraz etmeleri gerekmektedir. - Etkinlik başlangıcından 1 saat önce katılımcıların Etkinlik alanında bulunması gerekmektedir. Araç ya da toplu taşıma ile gelecek misafirlerin trafik, otopark, vale vs. konular sebebiyle vaktinde gelememesinden kaynaklanacak gecikmelerin sorumluluğu misafirlere aittir. - Organizasyonun etkinlik alanı ve saatinde değişiklik yapma hakkı saklıdır. - Etkinlik alanındaki ses ve ışık düzenleyiciler çeşitli rahatsızlıklara sebep olabilmektedir. - Etkinlik sırasında fotoğraf ve video çekmek yasaktır. Çekim yapan katılımcılar uyarılacaktır. Uyarılara uymayan katılımcılar Etkinlik dışına çıkarılacaktır. - Yanıcı, patlayıcı (deodorant, sprey, parfüm, biber gazı vb gibi), kesici/delici aletler, ateşli silahlar, lazer imleci, selfie çubuğu, tripod ve bunlarla sınırlı olmamak üzere güvenlik ihlali oluşturabilecek nesneler Etkinlik alanına alınmamaktadır. - Etkinlik alanına kabul edilmeyen malzemeler için emanet noktası ve/veya saklama kasası vs. alan hizmeti sunulmamaktadır. - Etkinlik alanına portatif sandalye, tabure, oturak vs. malzemeler kabul edilmemektedir. - Etkinlik alanına ambalajı açık tütün mamulleri kabul edilmemektedir. - Ayakta yapılan konser, gösteri vs. etkinliklere sırt çantası, bavul, el valizi, motosiklet kaskı vb. kişisel eşyalar kabul edilmemektedir. - Etkinlik alanına evcil hayvan kabul edilmemektedir. - Organizatör etkinlik için bilet bedelini iade etmek koşuluyla, herhangi bir sebep göstermeksizin etkinlik mekanına kişiyi almama hakkına sahiptir. - Organizatör herhangi bir nedenle bilet iadesi yaparak etkinliği iptal etme hakkına sahiptir. - Organizasyonun Etkinlik Progr",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-21T18:00:00Z",
+        "local_date": "2026-08-21",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Paribu Art",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkQja4mt",
+            "title": "Summer Vibes - Emir Yargın: Klas Pop",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PR89%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PR89%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-23T06:52:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1Ao4z_8",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Emir Yargın",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "DUMAN",
     "description": "- Etkinlik alanına giriş yapıldıktan sonra etkinlik alanına giriş çıkış yapılamayacaktır. - Etkinlik süresince tüm katılımcıların biletlerini yanlarında bulundurması gerekmektedir. - Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. - Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanına almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Organizatör, etkinlik alanı, etkinlik programı, etkinlik saati ve bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Organizatör, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir.Etkinlik mekanına yiyecek ve içecek sokmak yasaktır. - Etkinlik mekanına sandalye alınmamaktadır.Etkinlik alanı içinde özel eşyalarınızı yanınızdan ayırmamanız gerekmektedir. Tüm özel eşyalarının sorumluluğu katılımcıya aittir. - Etkinlik mekanına kamera, fotoğraf makinası vb alınmayacaktır. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm, kolonya vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet, termos, motor kaskı ve lazer imleci ile girilmemektedir. - Etkinliğe katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizatöre ait olup katılımcı etkinliğe katılarak bu hakkın kullanılmasını kabul etmektedir.",
     "type": "concert",
@@ -27352,7 +27498,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuZASb0",
-    "attraction_upcoming_count": 5,
+    "attraction_upcoming_count": 6,
     "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
@@ -35916,7 +36062,7 @@
     "fetched_at": null
   },
   {
-    "title": "Serkan Çağrı - Balkan Journey",
+    "title": "Homeland",
     "description": "- 18 yaş sınırı vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından bileti",
     "type": "concert",
     "city_name": "İstanbul",
@@ -35934,7 +36080,7 @@
           {
             "provider": "Ticketmaster",
             "external_id": "Z2HyzZyMZkqu2Kvve",
-            "title": "Serkan Çağrı - Balkan Journey",
+            "title": "Homeland",
             "description": null,
             "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCEI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "deep_link_url": null,
@@ -61443,7 +61589,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuZASb0",
-    "attraction_upcoming_count": 5,
+    "attraction_upcoming_count": 6,
     "performer_name": "Tekir",
     "organizer_name": null,
     "source": "unknown",
@@ -82761,79 +82907,6 @@
     "attraction_id": "Z6HyzZyMZ1k8-O6J8",
     "attraction_upcoming_count": 3,
     "performer_name": "Mert Fırat",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Antalya Kum Heykel Müzesi - 2026",
-    "description": "- Bilet belirtilen tarih ve saatler arasında 1 kez giriş hakkı sağlar. - 1 Kasım 2025 Tarihinden itibaren Antalya Kum Heykel Müzesi 09:00-22:00 saatleri arasında ziyarete açık olacaktır . - 0-4 Yaş çocuklar ebeveynlerinin yanında ücretsizdir. - İndirimli bilet satın alan kişilerin, etkinlik alanına giriş esnasında yararlandıkları indirimi belgeleyen, geçerli bir kimlik kartı ibraz etmesi gerekmektedir. - Hava koşullarından kaynaklanan olumsuzluklar sonucu meydana gelecek teknik sorunlarda ve bu gibi nedenlerle etkinlik alanının kısmen veya tamamen geçici bir süre ziyarete kapatılması nedeniyle, organizasyon firması tarafından sorumluluk kabul edilmemektedir. - Etkinlik mekanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma, gerekli hallerde etkinliği erteleme hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.- Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Kayıp veya unutulan biletler için yeniden basım / teslimat yapılmayacaktır. Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur.",
-    "type": "social",
-    "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-23T06:00:00Z",
-        "local_date": "2026-07-23",
-        "local_time": "09:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Antalya Kum Heykel Müzesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkq5bdvd7",
-            "title": "Antalya Kum Heykel Müzesi - 2026",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SAN2%2F023%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SAN2%2F023%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-06-17T09:10:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 70,
-    "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
