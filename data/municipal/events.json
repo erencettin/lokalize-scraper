@@ -146,6 +146,79 @@
     "fetched_at": null
   },
   {
+    "title": "Derinden Gelen Sesler",
+    "description": "Derinden Gelen Sesler",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-25T17:30:00Z",
+        "local_date": "2026-07-25",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-c8a1b8b0680a96b0",
+            "title": "Derinden Gelen Sesler",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/derinden-gelen-sesler/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "No Land",
     "description": "No Land",
     "type": "experience",
@@ -226,8 +299,8 @@
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-07-24T21:00:00Z",
-        "local_date": "2026-07-25",
+        "start_at_utc": "2026-07-25T21:00:00Z",
+        "local_date": "2026-07-26",
         "local_time": "00:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -236,10 +309,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-e25deddc72e34043",
+            "external_id": "rss-c56a0a1f0753bb41",
             "title": "Sanat Rotası",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-4/",
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -292,16 +365,16 @@
     "fetched_at": null
   },
   {
-    "title": "Sanat Rotası",
-    "description": "Sanat Rotası",
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
     "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-07-25T21:00:00Z",
-        "local_date": "2026-07-26",
-        "local_time": "00:00",
+        "start_at_utc": "2026-07-25T12:00:00Z",
+        "local_date": "2026-07-25",
+        "local_time": "15:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -309,10 +382,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-c56a0a1f0753bb41",
-            "title": "Sanat Rotası",
+            "external_id": "rss-34828dcb00ce5ed9",
+            "title": "Okur Yazar Buluşması",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-2/",
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
