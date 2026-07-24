@@ -946,8 +946,8 @@
             "source_url": "https://biletinial.com/tr-tr/muzik/kobra-murat-ile-roman-gecesi",
             "deep_link_url": null,
             "price": {
-              "min_value": 580.0,
-              "max_value": 580.0,
+              "min_value": 690.0,
+              "max_value": 690.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -8874,37 +8874,6 @@
             "sales_start_at": "2026-05-12T12:08:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18015783",
-            "title": "Mazhar Alanson",
-            "description": "Konseri Türk müziğinin en özgün ve en sevilen isimlerinden Mazhar Alanson, kendine has yorumu, güçlü sahne duruşu ve kuşaklar boyunca hafızalara kazınan şarkılarıyla dinleyicileriyle buluşuyor. MFÖ ile müzik tarihine geçen “Ele Güne Karşı”, “Benim Hâlâ Umudum Var”, “Sarı Laleler” ve “Ali Desidero” gibi unutulmaz eserlerin yanı sıra solo kariyerinden sevilen parçaları da seslendiren sanatçı, nostalji ve samimiyet dolu özel bir konser deneyimi sunuyor. Mizahı, içten anlatımı ve yılların birikimini yansıtan güçlü performansıyla Mazhar Alanson, dinleyicilerini hem duygusal hem de keyifli bir müzik yolculuğuna davet ediyor.",
-            "source_url": "https://biletinial.com/tr-tr/muzik/mazhar-alanson",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1258.95,
-              "max_value": 1258.95,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/mazhar-alanson?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -8914,19 +8883,16 @@
     "performer_name": "Mazhar Alanson",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK71%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/mazhar-alanson"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SK71%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -61219,6 +61185,37 @@
             "sales_start_at": "2026-07-24T07:17:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369402",
+            "title": "Mustafa Sandal",
+            "description": "Konseri Mustafa Sandal, yıllardır dillerden düşmeyen hit şarkıları ve enerjisi yüksek sahne performansıyla dinleyicileriyle buluşuyor. “Aya Benzer”, “Jest Oldu”, “Araba” ve “İsyankar” gibi sevilen parçalarını canlı performansıyla seslendirecek sanatçı, pop müziğin nostalji ve eğlence dolu atmosferini sahneye taşıyor. Hareketli ritimler, güçlü sahne enerjisi ve hep bir ağızdan söylenecek şarkılarla Mustafa Sandal konseri unutulmaz bir gece vadediyor.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/mustafa-sandal",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 2375.0,
+              "max_value": 2375.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/mustafa-sandal?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
           }
         ]
       }
@@ -61228,16 +61225,19 @@
     "performer_name": "Mustafa Sandal",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Biletinial",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Biletinial",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LWD7%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LWD7%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/muzik/mustafa-sandal"
     ],
     "external_id": null,
     "category": null,
@@ -141264,8 +141264,435 @@
             "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
             "deep_link_url": null,
             "price": {
+              "min_value": 575.0,
+              "max_value": 575.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369459",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 575.0,
+              "max_value": 575.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369460",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 575.0,
+              "max_value": 575.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-22T10:00:00Z",
+        "local_date": "2026-08-22",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Üsküdar Bağlarbaşı Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369450",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 425.0,
+              "max_value": 425.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369452",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 425.0,
+              "max_value": 425.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-10T10:00:00Z",
+        "local_date": "2026-10-10",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kadıköy Eğitim Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369454",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369455",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-18T10:00:00Z",
+        "local_date": "2026-10-18",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Torium Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369462",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
               "min_value": 475.0,
               "max_value": 475.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369463",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 475.0,
+              "max_value": 475.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-24T11:00:00Z",
+        "local_date": "2026-10-24",
+        "local_time": "14:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kulis Sanat Tiyatrosu Panora",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369514",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369549",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-25T11:00:00Z",
+        "local_date": "2026-10-25",
+        "local_time": "14:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Başkent Sanat Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369566",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369567",
+            "title": "3D Hologram Sirki",
+            "description": "BİR GÖSTERİDEN ÇOK DAHA FAZLASI Yepyeni bir deneyim Dünyada ilk kez sahnelenen 3D HOLOGRAM SİRKİ 3D ile hologram teknolojisini bir araya getirerek hayal gücünüzü sahneye taşıyor Gösteri başlamadan önce dağıtılan özel 3D gözlüklerle sahneden size doğru uzanan balinaları dinozorları filleri maymunları ve daha nicelerini neredeyse dokunabileceğiniz kadar yakından göreceksiniz Olağanüstü bir gerçeklik hissine hazır olun Hayvanlar ait oldukları doğada özgürce yaşamalı Ama merak etmeyin denizlerin devasa canlıları ormanların güçlü dostları ve tarih öncesinin dinozorları hologram teknolojisiyle sahnede yeniden hayat buluyor Ama hepsi bu değil Nefes kesen akrobatlar sihirli anlar jonglörlerin şaşırtıcı performansları dans ve müzikle dolu büyülü bir atmosfer sizleri bekliyor Üstelik geleneksel Hacivat ve Karagöz de teknolojinin büyüsüyle yeniden doğuyor Her anı sürprizlerle dolu teknolojinin sınırlarını zorlayan bu eşsiz şovu kaçırmayın Proje Tasarım ve Yapımcı : Kadir Yücel Yönetmen : Yasemin Kurttekin Genel Koordinatör : Melih Ener",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/3d-hologram-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 525.0,
+              "max_value": 525.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -161077,7 +161504,7 @@
   },
   {
     "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
-    "description": "Tiyatro Oyunu Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+    "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
     "type": "theatre",
     "city_name": "Muğla",
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/60532/Reklam-16f5e5e18e794da7a0d706e33da27b3b.jpg",
@@ -161095,7 +161522,7 @@
             "provider": "Biletinial",
             "external_id": "18097853",
             "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
-            "description": "Tiyatro Oyunu Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+            "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari",
             "deep_link_url": null,
             "price": {
@@ -161137,7 +161564,7 @@
             "provider": "Biletinial",
             "external_id": "18159153",
             "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
-            "description": "Tiyatro Oyunu Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+            "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari",
             "deep_link_url": null,
             "price": {
@@ -161179,7 +161606,7 @@
             "provider": "Biletinial",
             "external_id": "18201323",
             "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
-            "description": "Tiyatro Oyunu Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+            "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari",
             "deep_link_url": null,
             "price": {
@@ -161221,12 +161648,54 @@
             "provider": "Biletinial",
             "external_id": "18205649",
             "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
-            "description": "Tiyatro Oyunu Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+            "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari",
             "deep_link_url": null,
             "price": {
               "min_value": 1355.0,
               "max_value": 1355.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-22T18:00:00Z",
+        "local_date": "2026-08-22",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "HABİTAT Hilltown",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369451",
+            "title": "Gömercin Kuşları Sahnede - Ayşe Balıbey ve Kaan Sekban",
+            "description": "Talk Show Ayşe Balıbey ve Kaan Sekban'ın sevilen programı Gömercin Kuşları sizlerle buluşuyor... Taklacı gömercinler koltuklarını ve küreklerini alıp bu kez sahnenin tam ortasına oturuyorlar, önlerine geleni gömüp geçiyorlar; üstelik bu sefer seyirciler arasındaki gömercinlerin de katkısıyla! Bu toplu gömü seansını sakın kaçırmayın.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/gomercin-kuslari",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1084.0,
+              "max_value": 1084.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -166510,9 +166979,9 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-24T17:30:00Z",
-        "local_date": "2026-07-24",
-        "local_time": "20:30",
+        "start_at_utc": "2026-09-12T15:00:00Z",
+        "local_date": "2026-09-12",
+        "local_time": "18:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Şaneşîn Performans",
@@ -166552,9 +167021,9 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-25T17:30:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "20:30",
+        "start_at_utc": "2026-09-13T17:40:00Z",
+        "local_date": "2026-09-13",
+        "local_time": "20:40",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Tumturak Sanat Atölyesi",
@@ -166570,37 +167039,6 @@
             "price": {
               "min_value": 400.0,
               "max_value": 400.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/operadaki-hayalet-tiyatro-oyunu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18258599",
-            "title": "Operadaki Hayalet",
-            "description": "Tiyatro Oyunu Operadaki Hayalet, 1890'lar Paris Operası'nda geçen; yüzü deforme olduğu için maske takan ve yeraltında yaşayan dahi bir bestecinin (\"Hayalet\"), yetenekli sopranolardan Christine Daaé'ye duyduğu saplantılı aşkı, onu opera yıldızı yapma çabasını ve bu uğurda işlediği cinayetlerle yarattığı korku dolu trajik aşk üçgenini konu alır. Sude Naz Demirci'nin uyarlaması, Müslüm Çelik’in muhteşem oyunculuğu ile Operadaki Hayalet Tiyatro Oyunu sanatseverler ile buluşuyor. Bu eşsiz oyunu kaçırmamak için hemen sahnedeki yerini almayı unutma... Uyarlayan : Sude Naz Demirci Yöneten : Muhammet Emre Aydın Oynayan : Müslüm Çelik Reji : Melek Aslan Kostüm : Sema Çoruh Ses ve Işık : Müslüm Çelik Kareografi : Zehra Suri",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/operadaki-hayalet-tiyatro-oyunu",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 168.0,
-              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -166674,6 +167112,48 @@
             "price": {
               "min_value": 400.0,
               "max_value": 400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/operadaki-hayalet-tiyatro-oyunu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-07-25T17:30:00Z",
+        "local_date": "2026-07-25",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bakırköy Butik Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18258599",
+            "title": "Operadaki Hayalet",
+            "description": "Tiyatro Oyunu Operadaki Hayalet, 1890'lar Paris Operası'nda geçen; yüzü deforme olduğu için maske takan ve yeraltında yaşayan dahi bir bestecinin (\"Hayalet\"), yetenekli sopranolardan Christine Daaé'ye duyduğu saplantılı aşkı, onu opera yıldızı yapma çabasını ve bu uğurda işlediği cinayetlerle yarattığı korku dolu trajik aşk üçgenini konu alır. Sude Naz Demirci'nin uyarlaması, Müslüm Çelik’in muhteşem oyunculuğu ile Operadaki Hayalet Tiyatro Oyunu sanatseverler ile buluşuyor. Bu eşsiz oyunu kaçırmamak için hemen sahnedeki yerini almayı unutma... Uyarlayan : Sude Naz Demirci Yöneten : Muhammet Emre Aydın Oynayan : Müslüm Çelik Reji : Melek Aslan Kostüm : Sema Çoruh Ses ve Işık : Müslüm Çelik Kareografi : Zehra Suri",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/operadaki-hayalet-tiyatro-oyunu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 168.0,
+              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -167102,8 +167582,8 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-24T16:30:00Z",
-        "local_date": "2026-07-24",
+        "start_at_utc": "2026-09-12T16:30:00Z",
+        "local_date": "2026-09-12",
         "local_time": "19:30",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -167144,9 +167624,9 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-25T16:30:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "19:30",
+        "start_at_utc": "2026-09-13T16:40:00Z",
+        "local_date": "2026-09-13",
+        "local_time": "19:40",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Tumturak Sanat Atölyesi",
@@ -167663,9 +168143,9 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/56917/Reklam-b5a8bcabde3c4086a4ff75d47c6fde52.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-24T15:00:00Z",
-        "local_date": "2026-07-24",
-        "local_time": "18:00",
+        "start_at_utc": "2026-09-12T17:30:00Z",
+        "local_date": "2026-09-12",
+        "local_time": "20:30",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Şaneşîn Performans",
@@ -167705,8 +168185,8 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-25T15:00:00Z",
-        "local_date": "2026-07-25",
+        "start_at_utc": "2026-09-13T15:00:00Z",
+        "local_date": "2026-09-13",
         "local_time": "18:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -167723,37 +168203,6 @@
             "price": {
               "min_value": 400.0,
               "max_value": 400.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/masumiyet-muzesi-tiyatro?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18258592",
-            "title": "Masumiyet Müzesi",
-            "description": "Tiyatro Oyunu Masumiyet Müzesi tiyatro oyunu adım tiyatro imzası ile tek kişilik oyunculuk ile sahneye taşınıyor.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/masumiyet-muzesi-tiyatro",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 168.0,
-              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -167869,6 +168318,48 @@
             "price": {
               "min_value": 336.0,
               "max_value": 336.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/masumiyet-muzesi-tiyatro?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-07-25T16:30:00Z",
+        "local_date": "2026-07-25",
+        "local_time": "19:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bakırköy Butik Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18258592",
+            "title": "Masumiyet Müzesi",
+            "description": "Tiyatro Oyunu Masumiyet Müzesi tiyatro oyunu adım tiyatro imzası ile tek kişilik oyunculuk ile sahneye taşınıyor.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/masumiyet-muzesi-tiyatro",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 168.0,
+              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -168266,8 +168757,8 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/56921/Reklam-38dcef14bc734f78bb0b46ecc290cd17.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-25T13:00:00Z",
-        "local_date": "2026-07-25",
+        "start_at_utc": "2026-09-13T13:00:00Z",
+        "local_date": "2026-09-13",
         "local_time": "16:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -168284,37 +168775,6 @@
             "price": {
               "min_value": 400.0,
               "max_value": 400.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/suc-ve-ceza-tiyatro-oyun?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18258573",
-            "title": "Suç ve Ceza",
-            "description": "Tiyatro Oyunu Fyodor Dostoyevski tarafından yazılan roman Suç Ve Ceza. Adım tiyatro imzalı sahneye taşınıyor.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/suc-ve-ceza-tiyatro-oyun",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 168.0,
-              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -168357,6 +168817,48 @@
             "price": {
               "min_value": 400.0,
               "max_value": 400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/suc-ve-ceza-tiyatro-oyun?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-07-25T15:15:00Z",
+        "local_date": "2026-07-25",
+        "local_time": "18:15",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bakırköy Butik Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18258573",
+            "title": "Suç ve Ceza",
+            "description": "Tiyatro Oyunu Fyodor Dostoyevski tarafından yazılan roman Suç Ve Ceza. Adım tiyatro imzalı sahneye taşınıyor.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/suc-ve-ceza-tiyatro-oyun",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 168.0,
+              "max_value": 168.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -173094,6 +173596,90 @@
             "price": {
               "min_value": 1400.0,
               "max_value": 1400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/cok-guzel-hareketler?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-29T18:00:00Z",
+        "local_date": "2026-08-29",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Yalova Barış Manço Açık Hava Tiyatrosu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369461",
+            "title": "Çok Güzel Hareketler 2",
+            "description": "Yaklaşık iki yıl boyunca sahne, senaryo ve oyunculuk eğitimlerinden geçen ve 5 sezondur BKM’de kapalı gişe oynayan Çok Güzel Hareketler 2 oyunlarına devam ediyor. Bkm Mutfak’ın 20 kişiden oluşan ekibi, atölyeden yeni çıkan skeçleri ile sizlerle...",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/cok-guzel-hareketler",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1400.0,
+              "max_value": 1400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/cok-guzel-hareketler?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-30T18:00:00Z",
+        "local_date": "2026-08-30",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Sapanca Kırkpınar Açık Hava Tiyatrosu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369552",
+            "title": "Çok Güzel Hareketler 2",
+            "description": "Yaklaşık iki yıl boyunca sahne, senaryo ve oyunculuk eğitimlerinden geçen ve 5 sezondur BKM’de kapalı gişe oynayan Çok Güzel Hareketler 2 oyunlarına devam ediyor. Bkm Mutfak’ın 20 kişiden oluşan ekibi, atölyeden yeni çıkan skeçleri ile sizlerle...",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/cok-guzel-hareketler",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 2100.0,
+              "max_value": 2100.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -200820,7 +201406,7 @@
   },
   {
     "title": "Afacanlar Sirki",
-    "description": "Çocuk Tiyatrosu Palyaço, Dans ve İllüzyon Kapatılmaya karar verilmiş Afacanlar Sirki'ni kurtarmak için Kiki ve Kuku kardeşler iş başında. İnteraktif çocuk tiyatromuz eğlendirirken eğiten bir dil ile dolu dolu bir sanat sergiliyor.",
+    "description": "Çocuk Tiyatrosu Bir zamanlar dünyanın en eğlenceli sirki olan Afacanlar Sirki, artık kapanma tehlikesiyle karşı karşıyadır. Sirkin neşeli palyaçoları Kiki ve Kuku, sevdikleri sirki yeniden eski günlerine kavuşturmak için birbirinden eğlenceli ve sürprizlerle dolu bir maceraya atılır. Palyaçolar, danslar, illüzyon gösterileri ve çocukların da aktif olarak katıldığı interaktif bölümlerle minik izleyiciler hem kahkahalarla eğlenecek hem de dostluk, dayanışma ve umut gibi değerleri keşfedecek. Renkli kostümler, enerjik müzikler ve unutulmaz sahnelerle dolu Afacanlar Sirki, tüm çocukları ve ailelerini eğlence dolu bu büyülü yolculuğa davet ediyor! 2 YAŞ VE ÜSTÜ HEM ÇOCUK HEM YETİŞKİN BİLET ALMAK ZORUNDADIR",
     "type": "kids",
     "city_name": "Ankara",
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/34100/Reklam-0d5511eb1df7482aa7ebd30f7f68a034.jpg",
@@ -200838,7 +201424,7 @@
             "provider": "Biletinial",
             "external_id": "18252241",
             "title": "Afacanlar Sirki",
-            "description": "Çocuk Tiyatrosu Palyaço, Dans ve İllüzyon Kapatılmaya karar verilmiş Afacanlar Sirki'ni kurtarmak için Kiki ve Kuku kardeşler iş başında. İnteraktif çocuk tiyatromuz eğlendirirken eğiten bir dil ile dolu dolu bir sanat sergiliyor.",
+            "description": "Çocuk Tiyatrosu Bir zamanlar dünyanın en eğlenceli sirki olan Afacanlar Sirki, artık kapanma tehlikesiyle karşı karşıyadır. Sirkin neşeli palyaçoları Kiki ve Kuku, sevdikleri sirki yeniden eski günlerine kavuşturmak için birbirinden eğlenceli ve sürprizlerle dolu bir maceraya atılır. Palyaçolar, danslar, illüzyon gösterileri ve çocukların da aktif olarak katıldığı interaktif bölümlerle minik izleyiciler hem kahkahalarla eğlenecek hem de dostluk, dayanışma ve umut gibi değerleri keşfedecek. Renkli kostümler, enerjik müzikler ve unutulmaz sahnelerle dolu Afacanlar Sirki, tüm çocukları ve ailelerini eğlence dolu bu büyülü yolculuğa davet ediyor! 2 YAŞ VE ÜSTÜ HEM ÇOCUK HEM YETİŞKİN BİLET ALMAK ZORUNDADIR",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/afacanlar-sirki",
             "deep_link_url": null,
             "price": {
@@ -207659,7 +208245,7 @@
     "description": "Bi Gökben Bi Alpay Senede Bir Gün Stand Up Gösterisi İki perde, 90 dakika boyunca büyük gülme garantili süpersonik bir stand up gecesi! Bir tarafta psikiyatrist Gökben Hızlı Sayar, diğer yanda ise komedyen ve “hasta ruh” Alpay Erdem! Uzun yıllardır dost olan bu iki isim, hayata başka başka yerlerden bakıyor, biri insanları iyileştirmeye çalışırken diğeri iyice delirtiyor! Bir şekilde biri diğerini dengeliyor! Aynı sahnede buluştuklarında ise sonuç belli, bu geceyi unutamayacaksınız!",
     "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/bi-gokben-bi-alpay-senede-bir-gun-202673164157a6c86c6d9c1443de9c8bc640e23676e6.jpeg",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72109/Reklam-0eb1c6378d1f4a77a031e6dbbc03dea4.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-30T16:00:00Z",
@@ -213360,6 +213946,48 @@
             "price": {
               "min_value": 920.0,
               "max_value": 920.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/hijyenik-asklar-tiyatro-oyunu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-28T17:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "House Of Performance",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369458",
+            "title": "Hijyenik Aşklar Tiyatro Oyunu",
+            "description": "Aşklar hep başladığı noktada biter mi ? Yahut başlaması için sebeplere mi gerek var ? Bizler aşkları yeterince kirletmedik mi ? Belki de temizlemenin yolu aslında çok uzağımızda değildir.. Aşkları daha hijyenik bir hale getirmenin en güzel yolu bazen sadece tartışmaktır.. Anlaşmak ortak noktayı bulana kadar birbirine aynı adımı attırmaktır. Cümlelerin değil eylemlerin konuştuğu bir Yılmaz Erdoğan klasiği sizi şu cümlelerle ağırlamak ve sonrasında o ebedi aşka uğurlamak için beklemektedir. “ Kalabalık geceleri bekleyen yalnız kahvaltılar için hep acele ediyorduk. Yağsız beyaz peynir tadında ilişkiler kuruyorduk. Seviyorduk. Sevmeyi seviyorduk. Bazı elele yürüyüşlerde yağmur yağsın istiyorduk. Hangi sevdanın üstüne yağmur yağsa, biz onu aşk belliyorduk. Hijyene önem vermiyorduk. Beyaz çarşafların üstündeki lekeler aşklarımızın haritalarıydı. Hangisi biz, hangisi yavru vatan oradan anlıyorduk.” Hangisi siz? hangisi aşk? yada hangisi hijyenik? hadi hep birlikte bu oyunda bulalım .. Yazan : Yılmaz Erdoğan Yöneten : Banu Güngör İNAL Yapımcı : Kemal Yasin BAŞAĞAÇ Oyuncular : Melisa VAROL - Muhammet YONCA",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/hijyenik-asklar-tiyatro-oyunu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 940.0,
+              "max_value": 940.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -225622,6 +226250,48 @@
             "is_official_seller": true
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-11-13T17:00:00Z",
+        "local_date": "2026-11-13",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ordu Atatürk Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369551",
+            "title": "Lady Macbeth",
+            "description": "Tiyatro Oyunu Tacın ağırlığını sadece krallar mı taşır? Fısıltılar susup, eldeki kan lekeleri çıkmadığında geriye ne kalır? Hırs, aşkı yendiğinde zafer kimindir? William Shakespeare'in en karanlık, en hırslı ve tarih boyunca en yanlış anlaşılan karakteri Lady Macbeth, yüzyıllar süren suskunluğunu bozuyor ve hikayeyi nihayet kendi ağzından anlatıyor. Klasik Macbeth evreninin şiirsel ve kanlı dokusunu, günümüzün acımasız güç dinamikleriyle harmanlayan bu uyarlamada, iktidar hırsının sınırlarında gezinen bir zihnin içine hapsoluyoruz. Oynayan ve Uyarlayan: Özge Durmuşcan Oyuncu Koçu: Esin Doğan Yardımcı Yönetmen: Fulya Selvi Işık ve Ses Tasarım: Berker Selvi Makyaj ve Saç Tasarım: Azra Zehra Kalfa Kostüm Tasarım: Hülya Sağlık Yönetmen: Özge Durmuşcan",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/lady-macbeth-",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 767.0,
+              "max_value": 767.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/lady-macbeth-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
       }
     ],
     "attraction_id": null,
@@ -225973,6 +226643,48 @@
             "price": {
               "min_value": 384.0,
               "max_value": 384.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/agustos-bocegi-ile-karinca-reverans?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-13T15:00:00Z",
+        "local_date": "2026-11-13",
+        "local_time": "18:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ordu Atatürk Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369560",
+            "title": "Ağustos Böceği ile Karınca",
+            "description": "Tiyatro Oyunu Yaz boyunca saz çalıp şarkı söyleyen neşeli Ağustos Böceği ile kışa hazırlık için ter döken çalışkan Karınca'nın hikayesini hiç böyle izlemediniz! Bu renkli tiyatro oyununda klasik masalı, modern ve sevgi dolu bir bakış açısıyla sahneye taşıyoruz. Çalışmanın erdemi ile sanatın neşesi karşı karşıya gelirse ne olur? Soğuk kış günlerinde dostluk kazanacak mı? Çocuğunuz Bu Oyunda Neler Bulacak? ✅ Rengarenk bir sahne ve kostümler ✅ Eğlenceli şarkılar ve interaktif anlar ✅ Yardımlaşma, paylaşma ve empati üzerine değerli dersler Çocuğunuzun hem çok eğleneceği hem de önemli kazanımlar elde edeceği bu müzikli macerayı kaçırmayın. Koltuklar dolmadan biletinizi alın, bu büyülü ormana siz de katılın! *Veli ve çocuk ayrı olarak ücrete tabii dir. Bilet alırken buna dikkat etmenizi rica ederiz. * Reverans Sanat eksik alınan biletlerde alıcıya yan yana ek koltuk sunma garantisi vermez. Bilet alırken bu detayı dikkate almanızı rica ederiz.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/agustos-bocegi-ile-karinca-reverans",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 438.0,
+              "max_value": 438.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -238023,7 +238735,7 @@
     "description": "Tiyatro Oyunu Fazla Mesai yine çok eğlenceli bir oyunla sahnede. Yıl 1914, İstanbul’un Galata semti çevresindeyiz. Oyun, düzenbaz bir komiserin kurduğu tezgâhları konu alır. Amirinin, çıkarları için kullandığı nahif bir Osmanlı beyefendisi olan karakol kâtibi, kendisine oynanan oyunu anlayacak mı? Madam’ın pansiyonunda çalışan hafifmeşrep kadınlardan birine âşık olan beyefendimiz, aşkının peşinden mi gidecek yoksa amirinin sözünden çıkmayıp onun uygun gördüğü biriyle mi saadet bulacak? Hepsi ve daha fazlası için sizleri çalgılı çengili, işveli cilveli, danslı eğlenceli oyunumuza davet ediyoruz. Fazla Mesai Tiyatro Grubu Onlar, tiyatrodan farklı meslekleri olan tiyatro aşıkları. Kimi bankacı, kimi mühendis, kimi öğretmen, kimi öğrenci, doktor, avukat... Hepsinin ortak noktası tiyatroya gönül vermiş olmaları. İşlerini tamamladıktan sonra dinlenmek yerine tiyatro provası yapmayı tercih ediyorlar, Fazla Mesai'ye geliyorlar... Yöneten: Can Törtop Oyuncular Barış Çırak Burçin Aydınoğlu Ece Adıgüzel Fatih Şahin Furkan Yapıcıoğlu Merve Yıldız Özgür Akıl Sevcan Sarıkaya Yasemin Akkaya Somunsu Zehra Karababa",
     "type": "theatre",
     "city_name": "İstanbul",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/galatada-cumbus-2026511154042faf75b3e93c471d896f51e86091617e.jpg",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/70331/Reklam-3a6e660da61b4d1f8dcba802d056e6fa.jpg",
     "occurrences": [
       {
         "start_at_utc": "2026-08-13T17:30:00Z",
@@ -239844,6 +240556,110 @@
           {
             "provider": "Biletinial",
             "external_id": "18367404",
+            "title": "Büyük Afrika Sirki",
+            "description": "Tüm yaşlar bilete tabiidir. Dünya'nın yeteneklerini bir araya getiren 'Büyük Afrika Sirki' Akrobasi Performansı, İllüzyon Show Performansı, Profesyonel Jonglör Performansları, İnsan Kule Showları, Lastik İnsan performansı, profesyonel sunucu ve daha birçok sahne gösterileri ile hem yetişkinlere hem de çocuklara özel olarak Ankara'da. 17 kişilik Büyük Afrika Sirki, dev kadrosu ile akıl almaz performansları eğlendirirken, şaşırtıyor. Birçok ülkeden bir araya gelen yetenekli sirk sanatçıları büyük beğeni topluyor. -Hayvansız sirkimiz tamamen hayvan haklarına ve bütün sirk gösterilerine uygundur. -Sahnelenecek olan her performans, çocuklar için uygundur. -17 kişilik dev kadrosu ile yetişkin seyircilerimize de uygundur -Renkli görseller ve dekorlar çocuk seyircilerimiz için özenle yapılmıştır. -Profesyonel destekler ile hazırlanan sirkimiz tamamen sahne sanatları olarak hazırlanmıştır. -Türkiye'nin her iline sahne sanatları sergileyen tecrübeli ekibimiz ile hazırlanmış ve seyircilerimize sunulmuştur. -Pedagojik destek ile aile için uygun hale getirilmiştir.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 800.0,
+              "max_value": 800.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-28T10:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "House Of Performance",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369453",
+            "title": "Büyük Afrika Sirki",
+            "description": "Tüm yaşlar bilete tabiidir. Dünya'nın yeteneklerini bir araya getiren 'Büyük Afrika Sirki' Akrobasi Performansı, İllüzyon Show Performansı, Profesyonel Jonglör Performansları, İnsan Kule Showları, Lastik İnsan performansı, profesyonel sunucu ve daha birçok sahne gösterileri ile hem yetişkinlere hem de çocuklara özel olarak Ankara'da. 17 kişilik Büyük Afrika Sirki, dev kadrosu ile akıl almaz performansları eğlendirirken, şaşırtıyor. Birçok ülkeden bir araya gelen yetenekli sirk sanatçıları büyük beğeni topluyor. -Hayvansız sirkimiz tamamen hayvan haklarına ve bütün sirk gösterilerine uygundur. -Sahnelenecek olan her performans, çocuklar için uygundur. -17 kişilik dev kadrosu ile yetişkin seyircilerimize de uygundur -Renkli görseller ve dekorlar çocuk seyircilerimiz için özenle yapılmıştır. -Profesyonel destekler ile hazırlanan sirkimiz tamamen sahne sanatları olarak hazırlanmıştır. -Türkiye'nin her iline sahne sanatları sergileyen tecrübeli ekibimiz ile hazırlanmış ve seyircilerimize sunulmuştur. -Pedagojik destek ile aile için uygun hale getirilmiştir.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 800.0,
+              "max_value": 800.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369456",
+            "title": "Büyük Afrika Sirki",
+            "description": "Tüm yaşlar bilete tabiidir. Dünya'nın yeteneklerini bir araya getiren 'Büyük Afrika Sirki' Akrobasi Performansı, İllüzyon Show Performansı, Profesyonel Jonglör Performansları, İnsan Kule Showları, Lastik İnsan performansı, profesyonel sunucu ve daha birçok sahne gösterileri ile hem yetişkinlere hem de çocuklara özel olarak Ankara'da. 17 kişilik Büyük Afrika Sirki, dev kadrosu ile akıl almaz performansları eğlendirirken, şaşırtıyor. Birçok ülkeden bir araya gelen yetenekli sirk sanatçıları büyük beğeni topluyor. -Hayvansız sirkimiz tamamen hayvan haklarına ve bütün sirk gösterilerine uygundur. -Sahnelenecek olan her performans, çocuklar için uygundur. -17 kişilik dev kadrosu ile yetişkin seyircilerimize de uygundur -Renkli görseller ve dekorlar çocuk seyircilerimiz için özenle yapılmıştır. -Profesyonel destekler ile hazırlanan sirkimiz tamamen sahne sanatları olarak hazırlanmıştır. -Türkiye'nin her iline sahne sanatları sergileyen tecrübeli ekibimiz ile hazırlanmış ve seyircilerimize sunulmuştur. -Pedagojik destek ile aile için uygun hale getirilmiştir.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 800.0,
+              "max_value": 800.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18369457",
             "title": "Büyük Afrika Sirki",
             "description": "Tüm yaşlar bilete tabiidir. Dünya'nın yeteneklerini bir araya getiren 'Büyük Afrika Sirki' Akrobasi Performansı, İllüzyon Show Performansı, Profesyonel Jonglör Performansları, İnsan Kule Showları, Lastik İnsan performansı, profesyonel sunucu ve daha birçok sahne gösterileri ile hem yetişkinlere hem de çocuklara özel olarak Ankara'da. 17 kişilik Büyük Afrika Sirki, dev kadrosu ile akıl almaz performansları eğlendirirken, şaşırtıyor. Birçok ülkeden bir araya gelen yetenekli sirk sanatçıları büyük beğeni topluyor. -Hayvansız sirkimiz tamamen hayvan haklarına ve bütün sirk gösterilerine uygundur. -Sahnelenecek olan her performans, çocuklar için uygundur. -17 kişilik dev kadrosu ile yetişkin seyircilerimize de uygundur -Renkli görseller ve dekorlar çocuk seyircilerimiz için özenle yapılmıştır. -Profesyonel destekler ile hazırlanan sirkimiz tamamen sahne sanatları olarak hazırlanmıştır. -Türkiye'nin her iline sahne sanatları sergileyen tecrübeli ekibimiz ile hazırlanmış ve seyircilerimize sunulmuştur. -Pedagojik destek ile aile için uygun hale getirilmiştir.",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/buyuk-afrika-sirki",
@@ -242242,6 +243058,127 @@
     "category": "theatre",
     "address": null,
     "venue": "Saraka Kültür Sanat Merkezi",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Mummenschanz - 50 Years",
+    "description": "Tiyatro Oyunu Mummenschanz - 50 Years Aile - Çocuk Tiyatrosu 31 Ekim ve 1 Kasım’da Paribu Art’ta 1972’de kurulduğu günden bu yana Mummenschanz, dünyanın dört bir yanında seyircileri büyüledi ve tiyatro salonlarına heyecan kattı. Çok sayıda ödüle sahip İsviçreli topluluk, 50. yılına özel hazırladığı prodüksiyonuyla izleyicileri hayal gücü ve şiirsellikle örülü bir yolculuğa çıkarıyor; yarım asırlık repertuvarının en sevilen skeçlerini yeniden sahneye taşıyor. 1972’de Paris’te kurulan Mummenschanz, kültürel ve dilsel sınırları aşan çağdaş maske tiyatrosunun dünya çapındaki en önemli temsilcilerinden biri hâline geldi. Topluluğun üç kurucusu Floriana Frassetto, Andres Bossard ve Bernie Schürch, tek bir kelime söylemeden; siyah bir fon üzerinde adeta boşlukta süzülen maskelerden oluşan bütünüyle görsel bir dil kullanarak dünyayı fethetti. Mummenschanz adıyla sahne sanatlarında yepyeni ve kendine özgü bir alan yarattılar. Andres Bossard’ın 1992’de hayatını kaybetmesi ve Bernie Schürch’ün 2012’de emekliye ayrılmasının ardından Floriana Frassetto, ödüllü topluluğun başlıca sanatsal itici gücü olmayı sürdürüyor. Frassetto, topluluğun 50. yılını kutlamak üzere seyirciyi Mummenschanz’ın büyüleyici dünyasında yarım asırlık bir yolculuğa çıkaran özel bir prodüksiyon tasarladı. Gösteri, geçmiş yılların en sevilen ve en başarılı çalışmalarına yeniden hayat veriyor. Efsanevi Kil Maskeler ve Tuvalet Kâğıdı Yüzler gibi karakterler bir kez daha izleyici karşısına çıkıyor. “50 Years”ta ayrıca havayla şişirilmiş narin Devler, Boru Yaratığı ve topluluğun beş oyuncusu tarafından canlandırılan daha pek çok sıra dışı nesne ve biçim sahne alıyor. Prodüksiyonda, Mummenschanz’ın kendine özgü ruhunu yansıtan şaşırtıcı yeni formlara ve karakterlere yer veren skeçler de bulunuyor. “50 Years”, seyirciyi Mummenschanz’ın hayal gücüyle yarattığı, sonsuz olduğu kadar tanıdık da gelen bir dünyada iki saatlik büyülü ve büyüleyici bir yolculuğa çıkarıyor. Her kuşaktan izleyiciye hitap eden “50 Years”; e",
+    "type": "kids",
+    "city_name": "İstanbul",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72437/Reklam-2c7fe61435834ec9bf3c851b44ecbe6e.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-31T17:30:00Z",
+        "local_date": "2026-10-31",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Paribu Art",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369448",
+            "title": "Mummenschanz - 50 Years",
+            "description": "Tiyatro Oyunu Mummenschanz - 50 Years Aile - Çocuk Tiyatrosu 31 Ekim ve 1 Kasım’da Paribu Art’ta 1972’de kurulduğu günden bu yana Mummenschanz, dünyanın dört bir yanında seyircileri büyüledi ve tiyatro salonlarına heyecan kattı. Çok sayıda ödüle sahip İsviçreli topluluk, 50. yılına özel hazırladığı prodüksiyonuyla izleyicileri hayal gücü ve şiirsellikle örülü bir yolculuğa çıkarıyor; yarım asırlık repertuvarının en sevilen skeçlerini yeniden sahneye taşıyor. 1972’de Paris’te kurulan Mummenschanz, kültürel ve dilsel sınırları aşan çağdaş maske tiyatrosunun dünya çapındaki en önemli temsilcilerinden biri hâline geldi. Topluluğun üç kurucusu Floriana Frassetto, Andres Bossard ve Bernie Schürch, tek bir kelime söylemeden; siyah bir fon üzerinde adeta boşlukta süzülen maskelerden oluşan bütünüyle görsel bir dil kullanarak dünyayı fethetti. Mummenschanz adıyla sahne sanatlarında yepyeni ve kendine özgü bir alan yarattılar. Andres Bossard’ın 1992’de hayatını kaybetmesi ve Bernie Schürch’ün 2012’de emekliye ayrılmasının ardından Floriana Frassetto, ödüllü topluluğun başlıca sanatsal itici gücü olmayı sürdürüyor. Frassetto, topluluğun 50. yılını kutlamak üzere seyirciyi Mummenschanz’ın büyüleyici dünyasında yarım asırlık bir yolculuğa çıkaran özel bir prodüksiyon tasarladı. Gösteri, geçmiş yılların en sevilen ve en başarılı çalışmalarına yeniden hayat veriyor. Efsanevi Kil Maskeler ve Tuvalet Kâğıdı Yüzler gibi karakterler bir kez daha izleyici karşısına çıkıyor. “50 Years”ta ayrıca havayla şişirilmiş narin Devler, Boru Yaratığı ve topluluğun beş oyuncusu tarafından canlandırılan daha pek çok sıra dışı nesne ve biçim sahne alıyor. Prodüksiyonda, Mummenschanz’ın kendine özgü ruhunu yansıtan şaşırtıcı yeni formlara ve karakterlere yer veren skeçler de bulunuyor. “50 Years”, seyirciyi Mummenschanz’ın hayal gücüyle yarattığı, sonsuz olduğu kadar tanıdık da gelen bir dünyada iki saatlik büyülü ve büyüleyici bir yolculuğa çıkarıyor. Her kuşaktan izleyiciye hitap eden “50 Years”; e",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/mummenschanz-50-years",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 900.0,
+              "max_value": 900.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/mummenschanz-50-years?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-01T12:00:00Z",
+        "local_date": "2026-11-01",
+        "local_time": "15:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Paribu Art",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369449",
+            "title": "Mummenschanz - 50 Years",
+            "description": "Tiyatro Oyunu Mummenschanz - 50 Years Aile - Çocuk Tiyatrosu 31 Ekim ve 1 Kasım’da Paribu Art’ta 1972’de kurulduğu günden bu yana Mummenschanz, dünyanın dört bir yanında seyircileri büyüledi ve tiyatro salonlarına heyecan kattı. Çok sayıda ödüle sahip İsviçreli topluluk, 50. yılına özel hazırladığı prodüksiyonuyla izleyicileri hayal gücü ve şiirsellikle örülü bir yolculuğa çıkarıyor; yarım asırlık repertuvarının en sevilen skeçlerini yeniden sahneye taşıyor. 1972’de Paris’te kurulan Mummenschanz, kültürel ve dilsel sınırları aşan çağdaş maske tiyatrosunun dünya çapındaki en önemli temsilcilerinden biri hâline geldi. Topluluğun üç kurucusu Floriana Frassetto, Andres Bossard ve Bernie Schürch, tek bir kelime söylemeden; siyah bir fon üzerinde adeta boşlukta süzülen maskelerden oluşan bütünüyle görsel bir dil kullanarak dünyayı fethetti. Mummenschanz adıyla sahne sanatlarında yepyeni ve kendine özgü bir alan yarattılar. Andres Bossard’ın 1992’de hayatını kaybetmesi ve Bernie Schürch’ün 2012’de emekliye ayrılmasının ardından Floriana Frassetto, ödüllü topluluğun başlıca sanatsal itici gücü olmayı sürdürüyor. Frassetto, topluluğun 50. yılını kutlamak üzere seyirciyi Mummenschanz’ın büyüleyici dünyasında yarım asırlık bir yolculuğa çıkaran özel bir prodüksiyon tasarladı. Gösteri, geçmiş yılların en sevilen ve en başarılı çalışmalarına yeniden hayat veriyor. Efsanevi Kil Maskeler ve Tuvalet Kâğıdı Yüzler gibi karakterler bir kez daha izleyici karşısına çıkıyor. “50 Years”ta ayrıca havayla şişirilmiş narin Devler, Boru Yaratığı ve topluluğun beş oyuncusu tarafından canlandırılan daha pek çok sıra dışı nesne ve biçim sahne alıyor. Prodüksiyonda, Mummenschanz’ın kendine özgü ruhunu yansıtan şaşırtıcı yeni formlara ve karakterlere yer veren skeçler de bulunuyor. “50 Years”, seyirciyi Mummenschanz’ın hayal gücüyle yarattığı, sonsuz olduğu kadar tanıdık da gelen bir dünyada iki saatlik büyülü ve büyüleyici bir yolculuğa çıkarıyor. Her kuşaktan izleyiciye hitap eden “50 Years”; e",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/mummenschanz-50-years",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 900.0,
+              "max_value": 900.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/mummenschanz-50-years?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Mummenschanz",
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/mummenschanz-50-years"
+    ],
+    "external_id": "18369448",
+    "category": "kids",
+    "address": null,
+    "venue": "Paribu Art",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -273306,8 +274243,8 @@
         ]
       },
       {
-        "start_at_utc": "2026-08-12T18:00:00Z",
-        "local_date": "2026-08-12",
+        "start_at_utc": "2026-09-24T18:00:00Z",
+        "local_date": "2026-09-24",
         "local_time": "21:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -279997,9 +280934,9 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72436/Reklam-1f378e93c3ef414c8a3db80db2601ea8.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-26T18:00:00Z",
+        "start_at_utc": "2026-07-26T14:00:00Z",
         "local_date": "2026-07-26",
-        "local_time": "21:00",
+        "local_time": "17:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Minoa Pera",
@@ -280138,6 +281075,253 @@
     "category": "concert",
     "address": null,
     "venue": "Zorlu Psm Turkcell Sahnesi",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Onur Özdemir Sakin Tribute",
+    "description": "Konseri",
+    "type": "concert",
+    "city_name": "Denizli",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/61265/Reklam-70e8ec359a704f7ca9516c6b26e7ef7a.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-02T19:00:00Z",
+        "local_date": "2026-10-02",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Holly Stone Denizli",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369561",
+            "title": "Onur Özdemir Sakin Tribute",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-03T18:00:00Z",
+        "local_date": "2026-10-03",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Antalya Holly Stone",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369562",
+            "title": "Onur Özdemir Sakin Tribute",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-04T19:00:00Z",
+        "local_date": "2026-10-04",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Holly Stone Adana",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369563",
+            "title": "Onur Özdemir Sakin Tribute",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-11T19:00:00Z",
+        "local_date": "2026-10-11",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Holly Stone Eskişehir",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369564",
+            "title": "Onur Özdemir Sakin Tribute",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-15T19:00:00Z",
+        "local_date": "2026-11-15",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Holly Stone Performance Hall Bursa",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18369565",
+            "title": "Onur Özdemir Sakin Tribute",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/onur-ozdemir-sakin-tribute"
+    ],
+    "external_id": "18369561",
+    "category": "concert",
+    "address": null,
+    "venue": "Holly Stone Denizli",
     "link": null,
     "source_url": null,
     "ticket_info": null,
