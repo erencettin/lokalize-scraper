@@ -8376,6 +8376,37 @@
             "sales_start_at": "2026-07-22T10:53:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18344906",
+            "title": "2000's Party / Daddy-E & Dear Darling",
+            "description": "Konseri 2000’ler Ruhu Geri Geliyor!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 300.0,
+              "max_value": 300.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
           }
         ]
       }
@@ -8385,16 +8416,19 @@
     "performer_name": "Dj Daddy-E",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Biletinial",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Biletinial",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCEK%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCEK%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-"
     ],
     "external_id": null,
     "category": null,
@@ -155547,48 +155581,6 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/stand-up-bekarlar-gecesi-2026526125197f0055ba2ea244de97525e415e34ac55.png",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-25T19:45:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "22:45",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Corner Kadıköy",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18068159",
-            "title": "Stand up Bekarlar Gecesi",
-            "description": "Etkinliği Corner Kadıköy’de stand up geceleri bitmiyor! Her Cumartesi 22:00’da Stand up Bekarlar Gecesi’nde eğlenceye doyacağız. Sen de hemen bu etkinlikte yerini al!",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/stand-up-bekarlar-gecesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 150.0,
-              "max_value": 150.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/stand-up-bekarlar-gecesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-08-01T19:45:00Z",
         "local_date": "2026-08-01",
         "local_time": "22:45",
@@ -155815,7 +155807,7 @@
     "source_urls": [
       "https://biletinial.com/tr-tr/tiyatro/stand-up-bekarlar-gecesi"
     ],
-    "external_id": "18068159",
+    "external_id": "18068160",
     "category": "theatre",
     "address": null,
     "venue": "Corner Kadıköy",
@@ -175114,48 +175106,6 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/17749/Reklam-1c8250608dad44baa5dcd191616ba9f6.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-07-25T20:00:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18189392",
-            "title": "Edepsiz Komedi",
-            "description": "Tiyatro Oyunu Metin Zakoğlu ile EVDE TİYATRO sizlerle buluşuyor. Gerçek bir ev, gerçek bir komedyen ve içeri alınan sadece 30 kişi Metin Zakoğlu’nun evinin salonunda bir araya geliyorlar ve sıradan bir ev salonunu hep birlikte şenlikli bir kabare çeviriyorlar. Dünyanın bu en avangard mekanında yerinizi ayırtmakta acele edin. Metin Zakoğlu'ndan cinselleşemeyen ülkenin insanları ve durumları üzerine edepsiz bir komedi. Zakoğlu hikayelerinde kadın - erkek ilişkilerinde erkeğin tarafı ile kadının tarafını şaşırtıcı bir şekilde gösterirken, sizleri nefes almadan gülmeye zorluyor. Ölçüsüz şamata, acımasız dürüstlük, yüze çarpan cinsel bilgisizlik...Uyumsuz komedyen Metin Zakoğlu ile siz de tanışın.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/edepsiz-komedi-doruk-tyt",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 438.0,
-              "max_value": 438.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/edepsiz-komedi-doruk-tyt?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-07-31T20:00:00Z",
         "local_date": "2026-07-31",
         "local_time": "23:00",
@@ -175592,7 +175542,7 @@
     "source_urls": [
       "https://biletinial.com/tr-tr/tiyatro/edepsiz-komedi-doruk-tyt"
     ],
-    "external_id": "18189392",
+    "external_id": "18189393",
     "category": "theatre",
     "address": null,
     "venue": "Cafe Theatre",
@@ -241426,48 +241376,6 @@
         ]
       },
       {
-        "start_at_utc": "2026-07-25T20:00:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Alanya Holly Stone",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18138799",
-            "title": "Cem Adrian Konseri",
-            "description": "Müzikte sınırları, tarzları, kuralları dışlayan, kendini sadece “özgür bir müzisyen” olarak tanımlayan Cem Adrian, sevenleriyle buluşmaya devam ediyor. Türk müziğinin en sıra dışı seslerinden biri olan Cem Adrian, geniş ses yelpazesi ve derin duygusal şarkılarıyla sahnede! Ses tellerinin ortalama bir insanın üç katı uzunluğunda olması, Adrian’a benzersiz bir vokal yeteneği kazandırıyor ve bas tonlardan soprano tınılara kadar geniş bir aralıkta şarkı söylemesine olanak tanıyor. Bu olağanüstü yetenek, onu dinleyenleri adeta büyülüyor. Kendi yazıp bestelediği şarkılarıyla dinleyicilerine duygusal bir yolculuk sunan Cem Adrian, konserlerinde müzikseverleri hem melodilerle hem de derin hislerle buluşturuyor. Unutulmaz bir müzik deneyimi yaşamak için bu konseri kaçırmayın! Etkinlik genelinde geçerli olan kurallara ek olarak, seanslara özgü ek düzenlemeler de yapılmıştır. Seans listesinde, katılacağınız seansın kurallarını bulabilirsiniz.",
-            "source_url": "https://biletinial.com/tr-tr/muzik/cem-adrian-konseri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1100.0,
-              "max_value": 1100.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/cem-adrian-konseri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-08-02T19:00:00Z",
         "local_date": "2026-08-02",
         "local_time": "22:00",
@@ -267577,127 +267485,6 @@
     "category": "concert",
     "address": null,
     "venue": "Penguen Kültür Sanat Bistro & Comedy Club",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "2000's Party / Daddy-E & Dear Darling",
-    "description": "Konseri 2000’ler Ruhu Geri Geliyor!",
-    "type": "concert",
-    "city_name": "İstanbul",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/51163/Reklam-2fab6674f648422b8ed4a8756db43031.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-07-25T20:45:00Z",
-        "local_date": "2026-07-25",
-        "local_time": "23:45",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18309699",
-            "title": "2000's Party / Daddy-E & Dear Darling",
-            "description": "Konseri 2000’ler Ruhu Geri Geliyor!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 300.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-08-01T20:59:00Z",
-        "local_date": "2026-08-01",
-        "local_time": "23:59",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18344906",
-            "title": "2000's Party / Daddy-E & Dear Darling",
-            "description": "Konseri 2000’ler Ruhu Geri Geliyor!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 300.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/muzik/2000s-party-daddy-e-dear-darling-"
-    ],
-    "external_id": "18309699",
-    "category": "concert",
-    "address": null,
-    "venue": "Blind İstanbul",
     "link": null,
     "source_url": null,
     "ticket_info": null,
