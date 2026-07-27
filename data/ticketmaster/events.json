@@ -2774,6 +2774,79 @@
     "fetched_at": null
   },
   {
+    "title": "Nodus",
+    "description": "- Etkinlik 18 yaş ve üzeri katılımcılar içindir. - Açık sigara paketi alınmayacaktır. - Konser düzeni ayakta olacaktır. - Etkinlik alanına yiyecek içecek, kesici, delici veya yanıcı alet sokmak yasaktır. - Etkinlik katılımcıları etkinlik alanı içerisinde fotoğraf & video çekiminin yapılacağını kabul eder. - Yazılı izin olmadığı takdirde profesyonel görüntü kayıt cihazları sokmak ve çekim yapmak yasaktır. - Profesyonel olmayan cihazlarla, diğer misafirleri ve performans veren sanatçıları rahatsız edecek ve özel hayatının gizliliğini ihlal edecek çekim yapılmamasına özen gösterilmesi beklenmektedir. - Organizasyon ve mekan yetkilileri uygun görmedikleri kişileri etkinlik ve backstage alanına almama hakkına sahiptir. - Kadın-erkek sayısındaki dengeye, tavır, üslup, giyim ve genel anlamıyla uygunluk konularına özellikle özen gösterilmekte olup bu ve bu gibi sebeplerden ötürü giriş yapılamayabilir. Bunun kararı tamamen kapı inisiyatifindedir. Kapımızın kararı sondur ve her koşulda geçerlidir. - Satın alınan biletlerde iade, iptal veya değişim yapılamaz.Organizatörün programda, line-up'ta ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Etkinliğe katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizatöre ait olup katılımcı etkinliğe katılarak bu hakkın kullanılmasını kabul etmektedir.",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-31T17:00:00Z",
+        "local_date": "2026-07-31",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Spago İstanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZku5b6vve",
+            "title": "Nodus",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CAN6%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5CAN6%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T12:52:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1koa_UPd",
+    "attraction_upcoming_count": 1,
+    "performer_name": "NODUS",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Özcan Deniz",
     "description": "- Belirtilen saat kapı açılış saatidir. - Etkinlikte 18 yaş sınırı vardır. - Organizatör firma uygun görmediği kişileri bilet ücretini iade etmek koşuluyla etkinliğe almama hakkına sahiptir.- Fix menü ve limtsiz kadehli yerli içecek fiyatlara dahildir. - Masalar minimum 2 kişi Kadın-Erkek eşli veya minimum 2 Kadın olmak zorundadır bilet alımından sonra muhakkak rezervasyon yapılması gerekmektedir. - Bilet satın aldıktan sonra 0532 443 3333 numaralı telefondan rezervasyon yapılması gerekmektedir.",
     "type": "concert",
@@ -3398,7 +3471,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F52703%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-06-22T09:00:00Z",
             "brand_name": null,
@@ -5598,7 +5671,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGMJ_k4",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Flashback 90'lar Türkçe Pop Gecesi",
     "organizer_name": null,
     "source": "unknown",
@@ -12264,6 +12337,79 @@
     "fetched_at": null
   },
   {
+    "title": "Ersay Üner",
+    "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizyasyon firması etkinlik mekanına kadın -- erkek sayısının eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapıl",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-08T18:00:00Z",
+        "local_date": "2026-08-08",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Roota Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk59jkvve",
+            "title": "Ersay Üner",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AMR5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AMR5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T12:06:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
+    "attraction_upcoming_count": 9,
+    "performer_name": "Ersay Üner",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Semicenk",
     "description": "-⁠ ⁠Etkinlik başladıktan sonra gelen seyircilerin satın almış oldukları koltuğa oturamama durumundan biletleme firması ve Organizatör sorumlu değildir. -⁠ ⁠Organizatör firma ve biletleme firması geç kalan misafirler için koltuk garantisi vermez. Bu sebeple etkinliğe konser saatinden önce gelmenizi önemle rica ederiz. - ⁠6 yaş altı giremez, 6 yaş ve üstü bilete tabidir. -⁠ ⁠Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. -⁠ ⁠Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. Aynı zamanda, bileti okutularak etkinlik alanına giriş yapan misafirler daha sonra etkinlik alanını terk etmesi durumunda tekrar aynı bilet ile etkinlik alanına giriş yapamayacaktır. Tekrar etkinlik alanına girmek isteyen misafirlerin yeni bilet satın almaları gerekmektedir. -⁠ ⁠Etkinlik süresince tüm katılımcıların biletlerini yanlarında bulundurması gerekmektedir. - ⁠Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanına almama hakkına sahiptir. -⁠ ⁠Satın alınan bilet Organizatör tarafından yazılı izin alınmadığı takdirde; reklam, yarışma, çekiliş, promosyon vb. kişisel kullanım haricinde ticari ya da ticari olmayan amaçlarda kullanılamaz. Bu amaçla kullanılan biletler iptal edilecektir. -⁠ ⁠Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. -⁠ ⁠Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. -⁠ ⁠Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. her türlü görsel-işitsel kayıt cihazı alınmayacaktır. Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. -⁠ ⁠Etkinlik alanına selfie stick ve GoPro çubukları alınmayacaktır. - ⁠⁠Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cih",
     "type": "concert",
@@ -16133,6 +16279,79 @@
     "fetched_at": null
   },
   {
+    "title": "Bosphorus Series : Caiiro",
+    "description": "-Etkinlik 18 yaş ve üzeri katılımcılar içindir. -Etkinlik alanına yiyecek, içecek, kesici, delici veya yanıcı alet sokmak yasaktır. -Etkinlik katılımcıları, etkinlik alanı içerisinde fotoğraf ve video çekimi yapılacağını kabul eder. -Yazılı izin olmadığı takdirde profesyonel görüntü kayıt cihazları ile çekim yapılması yasaktır. -Profesyonel olmayan cihazlarla dahi diğer misafirleri ve performans sanatçılarını rahatsız edecek veya özel hayatın gizliliğini ihlal edecek çekimler yapılmaması beklenmektedir. Flaşlı çekim kesinlikle yasaktır. -Organizasyon ve mekân yetkilileri uygun görmedikleri kişileri etkinlik ve backstage alanına almama hakkına sahiptir. -Kadın-erkek sayısındaki dengeye, tavır, üslup, giyim ve genel uygunluk kriterlerine özen gösterilmekte olup, bu ve benzeri nedenlerle girişe izin verilmeyebilir. Bu konudaki karar tamamen kapı inisiyatifindedir ve kesindir. -Satın alınan biletlerde iade, iptal veya değişiklik yapılamaz. -Etkinliğe katılan kişilerin fotoğraf ve video kayıtlarının tanıtım materyallerinde kullanım hakkı organizatöre aittir. Katılımcılar etkinliğe katılarak bu kullanım hakkını kabul etmiş sayılır. -Organizatörün programda, line-up'ta ve bilet fiyatlarında değişiklik yapma hakkı saklıdır",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/060/c5c08e7a-9912-456c-a060-2758be94e060_105881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-14T14:00:00Z",
+        "local_date": "2026-08-14",
+        "local_time": "17:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Swissotel The Bosphorus",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkQG7tvZv",
+            "title": "Bosphorus Series : Caiiro",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PA41%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PA41%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T11:03:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "K8vZ917q-i0",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Caiiro",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Hande Yener",
     "description": "- Satın alınan biletlerde iptal, iade ve değişiklik yapılamamaktadır. - Etkinlik kapı açılış saati 16:30'dur. - 18 yaş altı katılımcılar etkinlik alanına alınmayacaktır. - 18 yaş ve üzeri tüm katılımcılar bilete tabidir. - Organizasyon şirketi, uygun görmediği kişileri bilet ücretini iade ederek etkinlik alanına almama hakkına sahiptir. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanında bay-bayan dengesi gözetilecektir. - Etkinlik alanına cam şişe, kesici-delici alet, yanıcı-patlayıcı madde, lazer pointer ve güvenlik riski oluşturabilecek materyaller alınmamaktadır. - Profesyonel ses ve görüntü kayıt ekipmanları; profesyonel kamera, video kamera, drone vb. etkinlik alanına alınmamaktadır. - Tüm katılımcıların geçerli kimlik belgelerini yanlarında bulundurmaları ve talep halinde ibraz etmeleri zorunludur. - Güvenlik görevlileri gerekli gördükleri durumlarda üst ve çanta araması yapma hakkına sahiptir. - Etkinlik alanına giriş yapan katılımcılar, alan dışına çıkış yapmaları halinde tekrar giriş haklarını kaybedebilirler. - Etkinlik süresince yüksek ses ve yoğun ışık efektleri kullanılabilir. - Etkinlik alanındaki ses düzenleri geçici işitme rahatsızlıklarına neden olabilir; katılımcıların gerekli hassasiyeti göstermesi önerilir. - Organizasyon şirketi, hava koşullarına bağlı olarak etkinlik düzeninde değişiklik yapma hakkını saklı tutar. - Etkinlik alanındaki tüm katılımcılar, güvenlik ve organizasyon ekiplerinin yönlendirmelerine uymayı kabul etmiş sayılır. - Etkinlik alanında güvenliği riske atan kişiler alan dışına çıkarılabilir. - Etkinliğe katılan kişilerin fotoğraf ve video çekimleri organizasyon tarafından tanıtım amaçlı kullanılabilir. Katılımcılar etkinlik alanına giriş yaparak bu kullanım hakkını kabul etmiş sayılır.",
     "type": "concert",
@@ -19470,6 +19689,79 @@
     "attraction_id": "Z6HyzZyMZ1kuKrkZ-",
     "attraction_upcoming_count": 2,
     "performer_name": "Güncel Gürsel Artıktay",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Flashback 90'lar Türkçe Pop Gecesi",
+    "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizyasyon firması etkinlik mekanına kadın -- erkek eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Etkinliğe katılım yapılırken, etkinliğe beraber katılan seyircilerin kadın-erkek sayısı eşitliğine dikkat edilecektir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımc",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-15T19:00:00Z",
+        "local_date": "2026-08-15",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Moda Kayıkhane",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk9oafTw",
+            "title": "Flashback 90'lar Türkçe Pop Gecesi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MG86%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MG86%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-06T14:13:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGMJ_k4",
+    "attraction_upcoming_count": 5,
+    "performer_name": "Flashback 90'lar Türkçe Pop Gecesi",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -25089,7 +25381,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -25746,7 +26038,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGMJ_k4",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Flashback 90'lar Türkçe Pop Gecesi",
     "organizer_name": null,
     "source": "unknown",
@@ -30272,7 +30564,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGMJ_k4",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Flashback 90'lar Türkçe Pop Gecesi",
     "organizer_name": null,
     "source": "unknown",
@@ -33922,7 +34214,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -35163,7 +35455,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGMJ_k4",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Flashback 90'lar Türkçe Pop Gecesi",
     "organizer_name": null,
     "source": "unknown",
@@ -35747,7 +36039,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -45675,7 +45967,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -51369,7 +51661,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -57574,7 +57866,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -62100,7 +62392,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -63852,7 +64144,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGbJ3C8",
-    "attraction_upcoming_count": 8,
+    "attraction_upcoming_count": 9,
     "performer_name": "Ersay Üner",
     "organizer_name": null,
     "source": "unknown",
@@ -66920,6 +67212,79 @@
     "attraction_id": "K8vZ91715Q7",
     "attraction_upcoming_count": 13,
     "performer_name": "Uzi",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "TNK",
+    "description": "- 18 yaş sınırı vardır. 18 yaş altı giriş yapamaz. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizyasyon firması etkinlik mekanına kadın -- erkek sayısının eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmekted",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-29T18:45:00Z",
+        "local_date": "2026-10-29",
+        "local_time": "21:45",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "6:45 KK Ankara",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk89apca",
+            "title": "TNK",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FM93%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FM93%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T10:35:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ASAv",
+    "attraction_upcoming_count": 1,
+    "performer_name": "TNK",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -74218,7 +74583,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -74291,7 +74656,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -74948,7 +75313,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -75023,6 +75388,79 @@
     "attraction_id": "Z6HyzZyMZ1AfvxFK",
     "attraction_upcoming_count": 3,
     "performer_name": "Alpay Erdem",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-01T20:00:00Z",
+        "local_date": "2026-08-01",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vvk",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F005%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F005%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -75167,7 +75605,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -75315,6 +75753,79 @@
     "attraction_id": "Z6HyzZyMZ1k4FZNaw",
     "attraction_upcoming_count": 6,
     "performer_name": "Taşkın Sabah",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-05T19:00:00Z",
+        "local_date": "2026-08-05",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vev",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -75555,6 +76066,79 @@
     "fetched_at": null
   },
   {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-07T20:00:00Z",
+        "local_date": "2026-08-07",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vve",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Hayrettin ile Kaos Night",
     "description": "- 18 yaş sınırı vardır. 14-18 yaş arasındaki izleyiciler etkinliğe ebeveynlerinin (anne ya da baba) refakatinde katılabilirler. 14 yaş altı izleyiciler mekâna alınmaz. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik süresince her türlü ses ve görüntü kaydı ile görüntü çekimi (fotoğraf ve video dahil) yapılması kesinlikle yasaktır. Bu kurala uyulmadığı takdirde etkinlik alanından dışarı çıkarılacaktır. - Etkinlik süresince biletinizi saklayınız. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde haklarını kaybederler tekrar alana girebilmeleri için yeni bilet satın almaları gerekmektedir. - Misafirlerin belirtilen oturma düzenine uyması gerekmektedir. - Organizatör firma etkinlik için uygun görmediği kişileri içeri almama hakkına sahiptir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanına Selfie Stick ve GoPro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girilmemektedir. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm, kolonya vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet, termos, motor kaskı ve lazer imleci ile girilmemektedir. - Tüm katılımcıların kimliklerini yanlarında bulundurması ve istendiğinde ibraz etmeleri gerekmektedir. - Etkinlik alanında ya",
     "type": "standup",
@@ -75680,6 +76264,79 @@
     "attraction_id": "Z6HyzZyMZ1kuv8-b9",
     "attraction_upcoming_count": 7,
     "performer_name": "Okan Bayülgen",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-08T20:00:00Z",
+        "local_date": "2026-08-08",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vv6",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F006%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F006%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -76116,7 +76773,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -76191,6 +76848,79 @@
     "attraction_id": "Z6HyzZyMZ1k4FZNaw",
     "attraction_upcoming_count": 6,
     "performer_name": "Taşkın Sabah",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-12T19:00:00Z",
+        "local_date": "2026-08-12",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vee",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F011%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F011%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -76431,6 +77161,79 @@
     "fetched_at": null
   },
   {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-14T20:00:00Z",
+        "local_date": "2026-08-14",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vvd",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Egemen Şimşek Aykırı Düşünceler Stand Up",
     "description": "- Gösteri esnasında kayıt yapılması veya canlı yayın yapılması yasaktır. - Organizasyon firması etkinlik için uygun görmediği kişileri, etkinlik mekanına almama hakkına sahiptir. - Etkinlik süresi yaklaşık 1 saat 30 dakikadır. - Etkinlikte +18 yaş sınırı bulunmaktadır.",
     "type": "standup",
@@ -76556,6 +77359,79 @@
     "attraction_id": "Z7r9jZaCgu",
     "attraction_upcoming_count": 4,
     "performer_name": "Mary Jane",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-15T20:00:00Z",
+        "local_date": "2026-08-15",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vvF",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F007%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F007%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -76773,7 +77649,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -77015,6 +77891,79 @@
     "fetched_at": null
   },
   {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-19T19:00:00Z",
+        "local_date": "2026-08-19",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9ved",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Still Standing - Uraz Kaygılaroğlu Stand Up",
     "description": "- 18 yaş sınırı bulunmaktadır. - Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Gösteri başladıktan sonra içeriye seyirci alınamayacağını bildirir iyi seyirler dileriz. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmemesi rica olunur. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir.",
     "type": "standup",
@@ -77161,6 +78110,79 @@
     "fetched_at": null
   },
   {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-21T20:00:00Z",
+        "local_date": "2026-08-21",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vv7",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Alpay Erdem Stand Up",
     "description": "- Etkinlikte 18 yaş sınırı vardır. 18 yaş ve üzeri bilete tabidir. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
     "type": "standup",
@@ -77213,6 +78235,79 @@
     "attraction_id": "Z6HyzZyMZ1AfvxFK",
     "attraction_upcoming_count": 3,
     "performer_name": "Alpay Erdem",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-22T20:00:00Z",
+        "local_date": "2026-08-22",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vva",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F008%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F008%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -77430,7 +78525,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 9,
+    "attraction_upcoming_count": 20,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -77576,7 +78671,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGyfy8S",
-    "attraction_upcoming_count": 3,
+    "attraction_upcoming_count": 4,
     "performer_name": "Demet Akbağ",
     "organizer_name": null,
     "source": "unknown",
@@ -77651,6 +78746,79 @@
     "attraction_id": "Z6HyzZyMZ1k7z74fY",
     "attraction_upcoming_count": 2,
     "performer_name": "Okan Çabalar",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-26T19:00:00Z",
+        "local_date": "2026-08-26",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9ve7",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -77870,6 +79038,152 @@
     "attraction_id": "Z6HyzZyMZ1k48-a3v",
     "attraction_upcoming_count": 1,
     "performer_name": "Hakan Bilgin",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-28T20:00:00Z",
+        "local_date": "2026-08-28",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vvA",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Edepsiz Komedi",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-29T20:00:00Z",
+        "local_date": "2026-08-29",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfF9vv1",
+            "title": "Edepsiz Komedi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F009%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F009%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 20,
+    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -80715,7 +82029,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGyfy8S",
-    "attraction_upcoming_count": 3,
+    "attraction_upcoming_count": 4,
     "performer_name": "Demet Akbağ",
     "organizer_name": null,
     "source": "unknown",
@@ -81301,6 +82615,79 @@
     "attraction_id": "ZaHyzZyMZ6e",
     "attraction_upcoming_count": 7,
     "performer_name": "Nihat Sırdar",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Aydınlıkevler",
+    "description": "- 8 yaş sınırı bulunmaktadır. - Etkinlik alanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmesi yasaktır. -Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. -Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik saatinden sonra gelen izleyiciler, salon düzeninin bozulmaması ve diğer izleyicilerin rahatsız edilmemesi adına müsait koltuklara yönlendirileceklerdir.",
+    "type": "theatre",
+    "city_name": "Ankara",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-10T17:30:00Z",
+        "local_date": "2026-10-10",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Congresium Ankara",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkk5pkvve",
+            "title": "Aydınlıkevler",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F55AL5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F55AL5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T11:06:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGyfy8S",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Demet Akbağ",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -84096,6 +85483,79 @@
     "fetched_at": null
   },
   {
+    "title": "Troya",
+    "description": "- Servis talebi olan misafirlerimiz 0533 814 93 84 numaradan güzergah ve ücret bilgisi alabilirsiniz. - Oturma düzeni mevcuttur. Yerler numarasızdır. Ayrılan alanlar içinde yer seçimi serbesttir. - Etkinlik girişinde,kimlik kontrolü yapılacaktır.T,C Vatandaşları için ayrılan kategoriden farklı bilet geldiği takdirde aradaki fiyat farkı etkinlik girişinde yetkililer tarafından alınacaktır. - 11 Yaş ve altı çocuklar, etkinlik mekanına girişte geçerli ve resmi kimlik ibraz edildiği takdirde, ebeveynlerinin yanında ücretsizdir. - 12 Yaş ve üzeri tam bilete tabidir. - Etkinlik mekanına kamera, fotoğraf makinası, ses kayıt cihazı vb. alınmayacaktır. - Etkinlik mekanına yiyecek-içecek vb alınmayacaktır. - VIP Kategori biletleri VIP yer ayrıcalığı içermektedir.",
+    "type": "social",
+    "city_name": "Antalya",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-04T18:00:00Z",
+        "local_date": "2026-08-04",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aspendos Antik Tiyatro",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvfI4Zv",
+            "title": "Troya",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T10:42:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8vFjd",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Troya",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Antalya Kum Heykel Müzesi - 2026",
     "description": "- Bilet belirtilen tarih ve saatler arasında 1 kez giriş hakkı sağlar. - 1 Kasım 2025 Tarihinden itibaren Antalya Kum Heykel Müzesi 09:00-22:00 saatleri arasında ziyarete açık olacaktır . - 0-4 Yaş çocuklar ebeveynlerinin yanında ücretsizdir. - İndirimli bilet satın alan kişilerin, etkinlik alanına giriş esnasında yararlandıkları indirimi belgeleyen, geçerli bir kimlik kartı ibraz etmesi gerekmektedir. - Hava koşullarından kaynaklanan olumsuzluklar sonucu meydana gelecek teknik sorunlarda ve bu gibi nedenlerle etkinlik alanının kısmen veya tamamen geçici bir süre ziyarete kapatılması nedeniyle, organizasyon firması tarafından sorumluluk kabul edilmemektedir. - Etkinlik mekanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma, gerekli hallerde etkinliği erteleme hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.- Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Kayıp veya unutulan biletler için yeniden basım / teslimat yapılmayacaktır. Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur.",
     "type": "social",
@@ -84899,6 +86359,79 @@
     "fetched_at": null
   },
   {
+    "title": "Troya",
+    "description": "- Servis talebi olan misafirlerimiz 0533 814 93 84 numaradan güzergah ve ücret bilgisi alabilirsiniz. - Oturma düzeni mevcuttur. Yerler numarasızdır. Ayrılan alanlar içinde yer seçimi serbesttir. - Etkinlik girişinde,kimlik kontrolü yapılacaktır.T,C Vatandaşları için ayrılan kategoriden farklı bilet geldiği takdirde aradaki fiyat farkı etkinlik girişinde yetkililer tarafından alınacaktır. - 11 Yaş ve altı çocuklar, etkinlik mekanına girişte geçerli ve resmi kimlik ibraz edildiği takdirde, ebeveynlerinin yanında ücretsizdir. - 12 Yaş ve üzeri tam bilete tabidir. - Etkinlik mekanına kamera, fotoğraf makinası, ses kayıt cihazı vb. alınmayacaktır. - Etkinlik mekanına yiyecek-içecek vb alınmayacaktır. - VIP Kategori biletleri VIP yer ayrıcalığı içermektedir.",
+    "type": "social",
+    "city_name": "Antalya",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-11T18:00:00Z",
+        "local_date": "2026-08-11",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aspendos Antik Tiyatro",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvfI4Ze",
+            "title": "Troya",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T10:42:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8vFjd",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Troya",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Antalya Kum Heykel Müzesi - 2026",
     "description": "- Bilet belirtilen tarih ve saatler arasında 1 kez giriş hakkı sağlar. - 1 Kasım 2025 Tarihinden itibaren Antalya Kum Heykel Müzesi 09:00-22:00 saatleri arasında ziyarete açık olacaktır . - 0-4 Yaş çocuklar ebeveynlerinin yanında ücretsizdir. - İndirimli bilet satın alan kişilerin, etkinlik alanına giriş esnasında yararlandıkları indirimi belgeleyen, geçerli bir kimlik kartı ibraz etmesi gerekmektedir. - Hava koşullarından kaynaklanan olumsuzluklar sonucu meydana gelecek teknik sorunlarda ve bu gibi nedenlerle etkinlik alanının kısmen veya tamamen geçici bir süre ziyarete kapatılması nedeniyle, organizasyon firması tarafından sorumluluk kabul edilmemektedir. - Etkinlik mekanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma, gerekli hallerde etkinliği erteleme hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.- Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Kayıp veya unutulan biletler için yeniden basım / teslimat yapılmayacaktır. Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur.",
     "type": "social",
@@ -85556,6 +87089,79 @@
     "fetched_at": null
   },
   {
+    "title": "Troya",
+    "description": "- Servis talebi olan misafirlerimiz 0533 814 93 84 numaradan güzergah ve ücret bilgisi alabilirsiniz. - Oturma düzeni mevcuttur. Yerler numarasızdır. Ayrılan alanlar içinde yer seçimi serbesttir. - Etkinlik girişinde,kimlik kontrolü yapılacaktır.T,C Vatandaşları için ayrılan kategoriden farklı bilet geldiği takdirde aradaki fiyat farkı etkinlik girişinde yetkililer tarafından alınacaktır. - 11 Yaş ve altı çocuklar, etkinlik mekanına girişte geçerli ve resmi kimlik ibraz edildiği takdirde, ebeveynlerinin yanında ücretsizdir. - 12 Yaş ve üzeri tam bilete tabidir. - Etkinlik mekanına kamera, fotoğraf makinası, ses kayıt cihazı vb. alınmayacaktır. - Etkinlik mekanına yiyecek-içecek vb alınmayacaktır. - VIP Kategori biletleri VIP yer ayrıcalığı içermektedir.",
+    "type": "social",
+    "city_name": "Antalya",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-18T18:00:00Z",
+        "local_date": "2026-08-18",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aspendos Antik Tiyatro",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvfI4Zd",
+            "title": "Troya",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T10:42:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8vFjd",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Troya",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Antalya Kum Heykel Müzesi - 2026",
     "description": "- Bilet belirtilen tarih ve saatler arasında 1 kez giriş hakkı sağlar. - 1 Kasım 2025 Tarihinden itibaren Antalya Kum Heykel Müzesi 09:00-22:00 saatleri arasında ziyarete açık olacaktır . - 0-4 Yaş çocuklar ebeveynlerinin yanında ücretsizdir. - İndirimli bilet satın alan kişilerin, etkinlik alanına giriş esnasında yararlandıkları indirimi belgeleyen, geçerli bir kimlik kartı ibraz etmesi gerekmektedir. - Hava koşullarından kaynaklanan olumsuzluklar sonucu meydana gelecek teknik sorunlarda ve bu gibi nedenlerle etkinlik alanının kısmen veya tamamen geçici bir süre ziyarete kapatılması nedeniyle, organizasyon firması tarafından sorumluluk kabul edilmemektedir. - Etkinlik mekanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma, gerekli hallerde etkinliği erteleme hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.- Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Kayıp veya unutulan biletler için yeniden basım / teslimat yapılmayacaktır. Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur.",
     "type": "social",
@@ -86192,6 +87798,79 @@
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
     "attraction_upcoming_count": 66,
     "performer_name": "Antalya Kum Heykel Festivali",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Troya",
+    "description": "- Servis talebi olan misafirlerimiz 0533 814 93 84 numaradan güzergah ve ücret bilgisi alabilirsiniz. - Oturma düzeni mevcuttur. Yerler numarasızdır. Ayrılan alanlar içinde yer seçimi serbesttir. - Etkinlik girişinde,kimlik kontrolü yapılacaktır.T,C Vatandaşları için ayrılan kategoriden farklı bilet geldiği takdirde aradaki fiyat farkı etkinlik girişinde yetkililer tarafından alınacaktır. - 11 Yaş ve altı çocuklar, etkinlik mekanına girişte geçerli ve resmi kimlik ibraz edildiği takdirde, ebeveynlerinin yanında ücretsizdir. - 12 Yaş ve üzeri tam bilete tabidir. - Etkinlik mekanına kamera, fotoğraf makinası, ses kayıt cihazı vb. alınmayacaktır. - Etkinlik mekanına yiyecek-içecek vb alınmayacaktır. - VIP Kategori biletleri VIP yer ayrıcalığı içermektedir.",
+    "type": "social",
+    "city_name": "Antalya",
+    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-25T18:00:00Z",
+        "local_date": "2026-08-25",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aspendos Antik Tiyatro",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z6HyzZyMZGkvfI4Z7",
+            "title": "Troya",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54A15%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-27T10:42:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8vFjd",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Troya",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
