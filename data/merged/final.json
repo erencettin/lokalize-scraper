@@ -90718,37 +90718,6 @@
             "sales_start_at": "2026-05-20T13:48:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18042626",
-            "title": "Metin Zakoğlu Stand Up",
-            "description": "Tiyatro'da \"evde tiyatronun\" mucidi Metin Zakoğlu'ndan sizler için çok eğlenceli ve etkiliyici bir stand-up gösteri... Zakoğlu şovlarında bilinmesi gereken en önemli özellik, Zakoğlu'nun sahne seyirci ayrımını ortadan kaldıran ve malzemeyi seyirciden alan bir sihirli tarafının olmasıdır. Bu gösterisinde de yine izleyiciler ile kuracağı interaktif ilişki de bazen o sizin aranıza girerken bazen de siz onunla kendinizi sahnede bulabileceksiniz. Konularını insandan ve insana dair hayal kırıklıklarından seçen Zakoğlu, evlilik, ayrılık, aşk-meşk-iş-işsizlik-Kadın-Erkek, sanatçı ve sanatçı bozuntuları gibi üst başlıklarından alan Metin Zakoğlu'nu izlerken gülmekten ikinci espriyi kaçıracak, iki saat boyunca hayatta atladığımız önemli kavramların içini gülerek dolduracaksınız.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/metin-zakoglu-stand-up-",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 329.0,
-              "max_value": 329.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/metin-zakoglu-stand-up-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -90758,19 +90727,16 @@
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ63%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/tiyatro/metin-zakoglu-stand-up-"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ63%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -147154,8 +147120,8 @@
         ]
       },
       {
-        "start_at_utc": "2026-08-21T17:00:00Z",
-        "local_date": "2026-08-21",
+        "start_at_utc": "2026-08-23T17:00:00Z",
+        "local_date": "2026-08-23",
         "local_time": "20:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -159380,6 +159346,90 @@
             "is_official_seller": true
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-08-15T10:00:00Z",
+        "local_date": "2026-08-15",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ankara Çayyolu Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380476",
+            "title": "Pamuk Prenses ve Sihirli Ayna",
+            "description": "Tiyatro Oyunu Pamuk Prenses ve Sihirli Ayna, iyi olmanın, paylaşmanın ve kalbin sesini dinlemenin önemini eğlenceli ve sıcak bir dille anlatan, her yaştan çocuğa hitap eden keyifli bir masal izlemeye hazır mısınız?",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/pamuk-prenses-ve-sihirli-ayna",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 448.0,
+              "max_value": 448.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/pamuk-prenses-ve-sihirli-ayna?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-22T10:00:00Z",
+        "local_date": "2026-08-22",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ankara Çayyolu Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380477",
+            "title": "Pamuk Prenses ve Sihirli Ayna",
+            "description": "Tiyatro Oyunu Pamuk Prenses ve Sihirli Ayna, iyi olmanın, paylaşmanın ve kalbin sesini dinlemenin önemini eğlenceli ve sıcak bir dille anlatan, her yaştan çocuğa hitap eden keyifli bir masal izlemeye hazır mısınız?",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/pamuk-prenses-ve-sihirli-ayna",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 448.0,
+              "max_value": 448.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/pamuk-prenses-ve-sihirli-ayna?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
       }
     ],
     "attraction_id": null,
@@ -162719,6 +162769,48 @@
             "is_official_seller": true
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-09-11T17:00:00Z",
+        "local_date": "2026-09-11",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ankara Çayyolu Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380478",
+            "title": "Faust",
+            "description": "Tiyatro Oyunu Faust eserinden esinlenerek sahneye taşınan bu özel uyarlama, insan ruhunun en karanlık ve en derin sorularına cesur bir yolculuk sunar. Bilginin sınırlarına ulaşmış, her şeyi öğrenmiş ama hiçbir şeyle tatmin olamamış bir adam: Faust. Onun en büyük arzusu artık bilgi değil, anlamdır. Tam bu noktada karşısına çıkan şeytan Mephistopheles, Faust’a bir teklif sunar: Sınırsız haz, güç ve deneyim karşılığında ruhunu ister. Bu tek kişilik sahnelemede Faust’un iç çatışması, vicdanı, arzuları ve karanlık tarafı tek bir beden üzerinden hayat bulur. Seyirci, yalnızca bir karakteri değil; insanın içindeki iyi ile kötünün savaşını izler. Maskeler, ışıklar ve seslerle kurulan atmosfer; Faust’un zihninin içine girmenizi sağlar. Gerçek ile hayal, doğru ile yanlış, insan ile şeytan arasındaki çizgi giderek silikleşir. Bu oyun bir ruhun parçalanışını sahneye taşır. Künye Yazar: Johann Wolfgang von Goethe Yönetmen / Uyarlama / Oyuncu: Heja Acar Işık & Ses: Umut Acar Yapımcı: Hasan Acar",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/faust-tiyatro-oyunu-biletleri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 560.0,
+              "max_value": 560.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/faust-tiyatro-oyunu-biletleri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
       }
     ],
     "attraction_id": null,
@@ -163781,48 +163873,6 @@
             "price": {
               "min_value": 1096.0,
               "max_value": 1096.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/nilgun-belgun-ask-ve-komedi-epizot-tytr?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-10-08T17:30:00Z",
-        "local_date": "2026-10-08",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Denizli Merkezefendi Belediyesi Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18165300",
-            "title": "Nilgün Belgün Aşk ve Komedi",
-            "description": "Tiyatro Oyunu Nilgün Belgün’ün hayat hikayesinden ve anılarından yola çıkarak sahnelediği \"Nilgün Belgün’le Aşk ve Komedi\" isimli müzikli danslı gösteri seyirci ile buluşmaya devam ediyor... Nilgün Belgün'ün büyük ilgi gören İçimdeki Kadın Aşk ve Komedi isimli kitabından sahneye uyarlanan Nilgün Belgün’le Aşk ve Komedi isimli müzikli danslı gösteride, sanatçı, hayatını, anılarını, yaşadıklarını, şarkılar ve danslarla kimi zaman hüzünlü kimi zaman kahkahalar eşliğinde anlatarak seyircileri ile buluşuyor.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/nilgun-belgun-ask-ve-komedi-epizot-tytr",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1456.0,
-              "max_value": 1456.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -184692,8 +184742,8 @@
             "source_url": "https://biletinial.com/tr-tr/tiyatro/sut-kardesler",
             "deep_link_url": null,
             "price": {
-              "min_value": 750.0,
-              "max_value": 750.0,
+              "min_value": 1200.0,
+              "max_value": 1200.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -188202,7 +188252,7 @@
   },
   {
     "title": "Uyanış Orta Çağdan Yeni Çağa",
-    "description": "Tiyatro Oyunu Her şey bir soruyla başlar: “Neden?” Orta Çağ’dan Modern düşünceye uzanan bu yolculukta, akıl ile inanç aynı sahnede yeniden karşı karşıya gelir. Savaşların, salgınların, yıkımların ve yeniden doğuşların gölgesinde felsefe yalnızca düşünce değil, hayatta kalma biçimidir. Tiyatro, müzik ve etkileyici görsel bir atmosfer içinde düşünce tarihi yeniden canlanır. Sahne, zamanın kendisine dönüşür. Düşünce anlatılmaz… yaşanır. Yazan ve Yöneten Metin Payman Oyuncular Metin Payman Tuğba Öztürk Ege Can Karcı Mert Çıkla",
+    "description": "Tiyatro Oyunu Her şey bir soruyla başlar: “Neden?” Orta Çağ’dan Modern düşünceye uzanan bu yolculukta, akıl ile inanç aynı sahnede yeniden karşı karşıya gelir. Savaşların, salgınların, yıkımların ve yeniden doğuşların gölgesinde felsefe yalnızca düşünce değil, hayatta kalma biçimidir. Tiyatro, müzik ve etkileyici görsel bir atmosfer içinde düşünce tarihi yeniden canlanır. Sahne, zamanın kendisine dönüşür. Düşünce anlatılmaz… yaşanır. Yazan&Yöneten ve Oynayan Metin Payman",
     "type": "theatre",
     "city_name": "Ankara",
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72051/Reklam-ea26c9f3a62a4490b724055a79ae885b.jpg",
@@ -188220,7 +188270,7 @@
             "provider": "Biletinial",
             "external_id": "18240495",
             "title": "Uyanış Orta Çağdan Yeni Çağa",
-            "description": "Tiyatro Oyunu Her şey bir soruyla başlar: “Neden?” Orta Çağ’dan Modern düşünceye uzanan bu yolculukta, akıl ile inanç aynı sahnede yeniden karşı karşıya gelir. Savaşların, salgınların, yıkımların ve yeniden doğuşların gölgesinde felsefe yalnızca düşünce değil, hayatta kalma biçimidir. Tiyatro, müzik ve etkileyici görsel bir atmosfer içinde düşünce tarihi yeniden canlanır. Sahne, zamanın kendisine dönüşür. Düşünce anlatılmaz… yaşanır. Yazan ve Yöneten Metin Payman Oyuncular Metin Payman Tuğba Öztürk Ege Can Karcı Mert Çıkla",
+            "description": "Tiyatro Oyunu Her şey bir soruyla başlar: “Neden?” Orta Çağ’dan Modern düşünceye uzanan bu yolculukta, akıl ile inanç aynı sahnede yeniden karşı karşıya gelir. Savaşların, salgınların, yıkımların ve yeniden doğuşların gölgesinde felsefe yalnızca düşünce değil, hayatta kalma biçimidir. Tiyatro, müzik ve etkileyici görsel bir atmosfer içinde düşünce tarihi yeniden canlanır. Sahne, zamanın kendisine dönüşür. Düşünce anlatılmaz… yaşanır. Yazan&Yöneten ve Oynayan Metin Payman",
             "source_url": "https://biletinial.com/tr-tr/tiyatro/uyanis-orta-cagdan-yeni-caga",
             "deep_link_url": null,
             "price": {
@@ -189914,6 +189964,48 @@
             "price": {
               "min_value": 850.0,
               "max_value": 850.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/9-8lik-kiyamet?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-07T17:30:00Z",
+        "local_date": "2026-09-07",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Moda Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18381115",
+            "title": "9/8'lik Kıyamet",
+            "description": "Tiyatro Oyunu Yakın gelecek… İklim krizinin vurduğu bir dünyadayız! Kıyamet gibi “acayip” bir şey olmuş, ama tam öyle de olmamış! Hiçbir ülkenin istemediği, Parazitler denen göçebe topluluklar çıkmış ortaya. Bir oğlan: Diyar! Bu yeni toplumun hikâye anlatıcılarından biri. Her akşam, ateş başında toplanan Parazitler’e, kıyametin ilk günlerine dönüp darbukasıyla bir hikâye anlatıyor. Bir ihanet hikâyesi! İklim krizinin ilk günleri! İstanbul’dayız! Büyüyen açlık ve kıtlığa eşlik eden büyük bir isyan! Krizi fırsata çeviren muhafazakâr bir hareket: İzan! Diyar’ın bütün hikâyesini değiştiren “acayip” gizemli bir kız: Leylâ! Büyük yangınların, hastalıkların, göçlerin, kan sıcaklarının, açlık ve susuzluğun zamanında, bir soru bütün sorulardan daha önemli hâle geliyor: Bildiğimiz dünya elimizden kayıp giderken, biz kimin elini tutacak, kimlerle yan yana yürüyeceğiz? “O gece ilk bombalar patladı! Yer sarsıldı ayağımızın altında! Dışarı çıktık! Cehennem gibi kırmızıya kesmiş gökyüzü! Cayır cayır her yer! Belki 30 yerde birden patlatmışlar İstanbul’u! “Geliyolar,” dedi Leyla! Öyle acayip bi şey vardı ki sesinde… Korku gibi ama değil gibi de… “Kim geliyo?” dedim, bi şey demedi… Dönüp bakmadı bile… Ben baktım ama! Bütün yangın yüzüne vurmuş! Kara saçları kızıl kızıl parlıyo! Ateş gözünün bebeğinde dönüyo girdap gibi! Bıraktım yangını falan! Çünkü aşk! koca şehirler yanarken dönüp tek kişiye bakabilmektir!” Aldığı ödüller: - XXV. DİREKLERARASI SEYİRCİ ÖDÜLLERİ - TEK KİŞİLİK PERFORMANS ÖDÜLÜ - 27. YAPI KREDİ AFİFE TİYATRO ÖDÜLLERİ - CEVAT FEHMİ BAŞKUT ÖZEL ÖDÜLÜ - 27. YAPI KREDİ AFİFE TİYATRO ÖDÜLLERİ - YILIN EN BAŞARILI OYUNU ADAYI - 27. YAPI KREDİ AFİFE TİYATRO ÖDÜLLERİ - YILIN EN BAŞARILI ERKEK OYUNCU ÖDÜLÜ - 26. HDI SİGORTA SADRİ ALIŞIK SİNEMA VE TİYATRO ÖDÜLLERİ - TEK KİŞİLİK PERFORMANS ADAYI - 32. TİYATRO ELEŞTİRMENLERİ BİRLİĞİ ÖDÜLLERİ - TEK KİŞİLİK PERFORMANS ÖDÜLÜ - 32. TİYATRO ELEŞTİRMENLERİ BİRLİĞİ ÖDÜLLERİ - YILIN METNİ ÖDÜLÜ Yazan: Şâmil Yılmaz Yöneten: Sezen Keser Oyn",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/9-8lik-kiyamet",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 831.0,
+              "max_value": 831.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -202484,85 +202576,6 @@
     "fetched_at": null
   },
   {
-    "title": "Genç Werther'in Acıları",
-    "description": "Tiyatro Oyunu Aşk, insanı yaşatır mı yoksa tüketir mi? Werther'in Lotte'ye duyduğu o imkânsız aşkı ve ruhunun derinliklerindeki fırtınayı hissetmeye hazır mısınız? Goethe'nin başyapıtı, Alman edebiyatının \"Sturm und Drang\" (Fırtına ve Coşku) döneminin en önemli eseri Genç Werther'in Acıları, bu sezon Archura Yapım sahnelerinde!",
-    "type": "theatre",
-    "city_name": "Kocaeli",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/65693/Reklam-f3fae96cbe904e2393de93c53afecc8f.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-09-26T17:00:00Z",
-        "local_date": "2026-09-26",
-        "local_time": "20:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Kocaeli Alternaif Sahne",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18275842",
-            "title": "Genç Werther'in Acıları",
-            "description": "Tiyatro Oyunu Aşk, insanı yaşatır mı yoksa tüketir mi? Werther'in Lotte'ye duyduğu o imkânsız aşkı ve ruhunun derinliklerindeki fırtınayı hissetmeye hazır mısınız? Goethe'nin başyapıtı, Alman edebiyatının \"Sturm und Drang\" (Fırtına ve Coşku) döneminin en önemli eseri Genç Werther'in Acıları, bu sezon Archura Yapım sahnelerinde!",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/genc-wertherin-acilari-tiyatro",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 840.0,
-              "max_value": 840.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/genc-wertherin-acilari-tiyatro?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/tiyatro/genc-wertherin-acilari-tiyatro"
-    ],
-    "external_id": "18275842",
-    "category": "theatre",
-    "address": null,
-    "venue": "Kocaeli Alternaif Sahne",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Bir Garip Adam İle Quiz Night - 90'lar Nostalji",
     "description": "Lütfen Dikkat! Bilet aldıktan sonra seans kurallarını okuyunuz... Bir Garip Adam İle Quiz Night şehrinize geliyor. KALDIRIN TELEFONLARI. BİR GARİP ADAM İLE ÖDÜLLÜ İNTERAKTİF QUIZ NIGHT YAPIYORUZ. BİLDİĞİNİZ KAHOOT SİSTEMİ QUIZ NIGHT'LARINI UNUTUN VE BU KONSEPTİN TADINI ÇIKARTIN. En az 2, En fazla 6 kişiden oluşturacağınız takımınız için size özel hazırladığımız yazı tahtası ve kalemleriyle keyifli bir Quiz Night konsepti sizi bekliyor. Bir Garip Adam tarafından hazırlanan klasik,şıklı veya videolu sorular ile hafızanızı tazeliyor ve eğlenirken bir taraftan da dizi/filmlere dair bilgi birikiminizi test ediyoruz. Takımınla soruları cevaplayarak EN FAZLA DOĞRU CEVABI VEREN TAKIM OL ve ŞAMPİYONLUK ÖDÜLÜNÜ KAP. Bu eğlenceli konseptte EN YARATICI TAKIM İSMİNİ BELİRLEYEN ve SONUNCU OLAN TAKIM da sürpriz ödüller kazanıyor.Bir Garip Adam ile Night etkinliklerine katılarak, yemek ve içecek menüsünün tadını çıkartırken eğlenceli bir etkinliğe adım atın ve dostlarınızla birlikte unutulmaz anılar biriktirin! 14 yıllık İnteraktif Tiyatro tecrübesini, Psikolojik Danışman kimliğiyle birleştirerek insan ruhunun derinliklerine inen klinik bakış açısıyla harmanlayan 'Bir Garip Adam', alışılmış quiz gecelerini birer performans sanatına dönüştürüyor. O, sadece soru sormuyor; salonu yaşayan, nefes alan ve her anı sürprizlerle dolu bir oyun alanına çeviriyor. 'Bir Garip Adam'ın yönettiği gecelerde sadece bilginiz değil, hızınız, dikkatiniz, kısa süreli görsel-işitsel belleğiniz ve hatta karakteriniz test edilir. Kimi zaman bir dizinin en karanlık karakterini analiz ederken, kimi zaman unutulmayan sahnelerin derinliğinde kaybolacaksınız.Eskişehir’in enerjisini sahneye taşıyan, Türkiye’nin dört bir yanına 'bilgi ve eğlence' götürmeye hazırlanan bu interaktif deneyimde yerinizi alın.Hazırsanız başlayalım; çünkü bu sahnede her şey biraz 'garip' ama çok gerçek!\"",
     "type": "theatre",
@@ -203409,6 +203422,206 @@
     "category": "theatre",
     "address": null,
     "venue": "Sakarya Ted Sahne",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Haramiler",
+    "description": "Tiyatro Oyunu 2 Perde Haramiler müzikali akrabası Şeyhülislam Efendisi'nin kayırmasıyla devletin en üst mertebelerine erişebilmiş Kadı Yakup Efendi' nin Saray' a dek uzanan ikbal yolculuğu ekseninde gelişen olayları anlatıyor. Halkın başına musallat olan harami yöneticiler, çürümüş bürokrasi, malları gasp edilen yetim bir kız, gözü dönmüş papazlar, büyülerle muskalarla yolunu bulan cinci hocalar ve en önemlisi mağdur edilmiş halk bu oyunun en önemli figürleri olarak karşımıza çıkıyor. Musahipzade Celal’in Fermanlı Deli Hazretleri, Aynaroz Kadısı ve Atlı Ases oyunundan oluşturulan füzyon bir adaptasyonla kaleme alınan oyun mizahın, hicvin ve müziğin yumuşak kucağında kocaman bir yangını gözler önüne seriyor. Yazan: Musahipzade CELAL Uyarlayan-Yöneten: Engin ALKAN Dekor ve Işık Tasarımı: Cem YILMAZER Kostüm Tasarımı: Duygu TÜRKEKUL Koreograf: Senem OLUZ Müzik Düzenleme, Mix Mastering: Sinan Can SARI Efekt Tasarımı: Metin KÜCÜKYILMAZ Korrepetitör: Murat BAVLİ Yardımcı Yönetmen: Selin TÜRKMEN Yönetmen Yardımcıları: Cihat Faruk SEVİNDİK, Ahmet KAHVECİOĞLU, Serkan BOZKURT Suflör: Özer KÖSE",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/63829/Reklam-628dd102e33c441a93e2a679787b7842.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-25T18:00:00Z",
+        "local_date": "2026-08-25",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18279973",
+            "title": "Haramiler",
+            "description": "Tiyatro Oyunu 2 Perde Haramiler müzikali akrabası Şeyhülislam Efendisi'nin kayırmasıyla devletin en üst mertebelerine erişebilmiş Kadı Yakup Efendi' nin Saray' a dek uzanan ikbal yolculuğu ekseninde gelişen olayları anlatıyor. Halkın başına musallat olan harami yöneticiler, çürümüş bürokrasi, malları gasp edilen yetim bir kız, gözü dönmüş papazlar, büyülerle muskalarla yolunu bulan cinci hocalar ve en önemlisi mağdur edilmiş halk bu oyunun en önemli figürleri olarak karşımıza çıkıyor. Musahipzade Celal’in Fermanlı Deli Hazretleri, Aynaroz Kadısı ve Atlı Ases oyunundan oluşturulan füzyon bir adaptasyonla kaleme alınan oyun mizahın, hicvin ve müziğin yumuşak kucağında kocaman bir yangını gözler önüne seriyor. Yazan: Musahipzade CELAL Uyarlayan-Yöneten: Engin ALKAN Dekor ve Işık Tasarımı: Cem YILMAZER Kostüm Tasarımı: Duygu TÜRKEKUL Koreograf: Senem OLUZ Müzik Düzenleme, Mix Mastering: Sinan Can SARI Efekt Tasarımı: Metin KÜCÜKYILMAZ Korrepetitör: Murat BAVLİ Yardımcı Yönetmen: Selin TÜRKMEN Yönetmen Yardımcıları: Cihat Faruk SEVİNDİK, Ahmet KAHVECİOĞLU, Serkan BOZKURT Suflör: Özer KÖSE",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/haramiler",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 192.0,
+              "max_value": 192.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/haramiler?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/haramiler"
+    ],
+    "external_id": "18279973",
+    "category": "theatre",
+    "address": null,
+    "venue": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Yoldan Çıkan Oyun",
+    "description": "Tiyatro Oyunu 2 Perde Bol ödüllü komedi oyunu Yoldan Çıkan Oyun, tiyatro sahnesinde yaşanabilecek en büyük aksilikleri, bol kahkaha ve sürprizlerle seyirciye sunuyor! Amatör bir tiyatro topluluğu, büyük bir hevesle klasik bir cinayet oyununu sahnelemeye hazırlanır. Ancak daha perde açıldığı anda yanlış giden olaylar zinciri durdurulamaz hale gelir. Dekor çöker, aksesuarlar kaybolur, oyuncular repliklerini unutunca doğaçlamaya başlar… Ama ne olursa olsun, oyun devam etmelidir! Londra’dan Broadway’e uzanan bu muhteşem yapım, fiziksel komediyle absürd mizahı ustalıkla harmanlıyor. Tiyatro sanatıyla ilgili tüm klişeleri ters yüz eden Yoldan Çıkan Oyun, seyirciye kahkahaya boğmaya hazırlanıyor. Yoldan Çıkan Oyun'da, her şeyin ters gitmesinden dolayı çok memnun olacaksınız. Oyunun Kadrosu Yazan: Henry LEWİS, Jonathan SAYER, Henry SHİELDS Çeviren: Mehmet ERGEN Yöneten: Lerzan PAMİR Dekor Tasarımı: Behlüldane TOR Kostüm Tasarımı: Ahsen Nur YAMAN Işık Tasarımı: Mustafa TÜRKOĞLU Efekt Tasarımı: Metin KÜÇÜKYILMAZ Hareket Düzeni: Yasemin GEZGİN YAVUZCAN Suflör: Özer KÖSE Yardımcı Yönetmen: Onur DEMİRCAN Yönetmen Yardımcıları: Gülsün ODABAŞ, Kamer KARABEKTAŞ, Osman KABA",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/55745/Reklam-6935dfebe2ee4c03bf2b4cd139ec2e4c.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-27T18:00:00Z",
+        "local_date": "2026-08-27",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18279974",
+            "title": "Yoldan Çıkan Oyun",
+            "description": "Tiyatro Oyunu 2 Perde Bol ödüllü komedi oyunu Yoldan Çıkan Oyun, tiyatro sahnesinde yaşanabilecek en büyük aksilikleri, bol kahkaha ve sürprizlerle seyirciye sunuyor! Amatör bir tiyatro topluluğu, büyük bir hevesle klasik bir cinayet oyununu sahnelemeye hazırlanır. Ancak daha perde açıldığı anda yanlış giden olaylar zinciri durdurulamaz hale gelir. Dekor çöker, aksesuarlar kaybolur, oyuncular repliklerini unutunca doğaçlamaya başlar… Ama ne olursa olsun, oyun devam etmelidir! Londra’dan Broadway’e uzanan bu muhteşem yapım, fiziksel komediyle absürd mizahı ustalıkla harmanlıyor. Tiyatro sanatıyla ilgili tüm klişeleri ters yüz eden Yoldan Çıkan Oyun, seyirciye kahkahaya boğmaya hazırlanıyor. Yoldan Çıkan Oyun'da, her şeyin ters gitmesinden dolayı çok memnun olacaksınız. Oyunun Kadrosu Yazan: Henry LEWİS, Jonathan SAYER, Henry SHİELDS Çeviren: Mehmet ERGEN Yöneten: Lerzan PAMİR Dekor Tasarımı: Behlüldane TOR Kostüm Tasarımı: Ahsen Nur YAMAN Işık Tasarımı: Mustafa TÜRKOĞLU Efekt Tasarımı: Metin KÜÇÜKYILMAZ Hareket Düzeni: Yasemin GEZGİN YAVUZCAN Suflör: Özer KÖSE Yardımcı Yönetmen: Onur DEMİRCAN Yönetmen Yardımcıları: Gülsün ODABAŞ, Kamer KARABEKTAŞ, Osman KABA",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 192.0,
+              "max_value": 192.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-28T18:00:00Z",
+        "local_date": "2026-08-28",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18279975",
+            "title": "Yoldan Çıkan Oyun",
+            "description": "Tiyatro Oyunu 2 Perde Bol ödüllü komedi oyunu Yoldan Çıkan Oyun, tiyatro sahnesinde yaşanabilecek en büyük aksilikleri, bol kahkaha ve sürprizlerle seyirciye sunuyor! Amatör bir tiyatro topluluğu, büyük bir hevesle klasik bir cinayet oyununu sahnelemeye hazırlanır. Ancak daha perde açıldığı anda yanlış giden olaylar zinciri durdurulamaz hale gelir. Dekor çöker, aksesuarlar kaybolur, oyuncular repliklerini unutunca doğaçlamaya başlar… Ama ne olursa olsun, oyun devam etmelidir! Londra’dan Broadway’e uzanan bu muhteşem yapım, fiziksel komediyle absürd mizahı ustalıkla harmanlıyor. Tiyatro sanatıyla ilgili tüm klişeleri ters yüz eden Yoldan Çıkan Oyun, seyirciye kahkahaya boğmaya hazırlanıyor. Yoldan Çıkan Oyun'da, her şeyin ters gitmesinden dolayı çok memnun olacaksınız. Oyunun Kadrosu Yazan: Henry LEWİS, Jonathan SAYER, Henry SHİELDS Çeviren: Mehmet ERGEN Yöneten: Lerzan PAMİR Dekor Tasarımı: Behlüldane TOR Kostüm Tasarımı: Ahsen Nur YAMAN Işık Tasarımı: Mustafa TÜRKOĞLU Efekt Tasarımı: Metin KÜÇÜKYILMAZ Hareket Düzeni: Yasemin GEZGİN YAVUZCAN Suflör: Özer KÖSE Yardımcı Yönetmen: Onur DEMİRCAN Yönetmen Yardımcıları: Gülsün ODABAŞ, Kamer KARABEKTAŞ, Osman KABA",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 192.0,
+              "max_value": 192.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb"
+    ],
+    "external_id": "18279974",
+    "category": "theatre",
+    "address": null,
+    "venue": "İstanbul Büyükşehir Belediyesi Şehir Tiyatroları",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -227312,6 +227525,90 @@
             "is_official_seller": true
           }
         ]
+      },
+      {
+        "start_at_utc": "2026-09-03T17:00:00Z",
+        "local_date": "2026-09-03",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Rene Lokal",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18381136",
+            "title": "Nevzat Can Ünsal Tek Kişilik Stand Up",
+            "description": "Gösterisi Kurcala Youtube kanalı ve Zaytung'da yayınladığı parodi içeriklerle tanınan Nevzat Can Ünsal yeni stand up gösterisi ile hepimizin tanık olduğu absürtlükleri, kendine has tarzıyla sahneye taşıyor! Gösteride ses ve görüntü kaydı almak yasaktır! Gösteride interaktif yoktur.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/nevzat-can-unsal",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/nevzat-can-unsal?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-14T17:00:00Z",
+        "local_date": "2026-08-14",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Fade Stage and Coffe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18381802",
+            "title": "Nevzat Can Ünsal Tek Kişilik Stand Up",
+            "description": "Gösterisi Kurcala Youtube kanalı ve Zaytung'da yayınladığı parodi içeriklerle tanınan Nevzat Can Ünsal yeni stand up gösterisi ile hepimizin tanık olduğu absürtlükleri, kendine has tarzıyla sahneye taşıyor! Gösteride ses ve görüntü kaydı almak yasaktır! Gösteride interaktif yoktur.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/nevzat-can-unsal",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/nevzat-can-unsal?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
       }
     ],
     "attraction_id": null,
@@ -244520,8 +244817,8 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/46266/Reklam-11f65733ae2c437a9939d51d5dd42f12.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-08-14T17:00:00Z",
-        "local_date": "2026-08-14",
+        "start_at_utc": "2026-08-17T17:00:00Z",
+        "local_date": "2026-08-17",
         "local_time": "20:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -246447,8 +246744,8 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/30370/Reklam-8e2c74621af34a39b14ee6c0ce9ce717.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-08-28T17:00:00Z",
-        "local_date": "2026-08-28",
+        "start_at_utc": "2026-08-25T17:00:00Z",
+        "local_date": "2026-08-25",
         "local_time": "20:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -248565,8 +248862,8 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/45904/Reklam-089be00bf67a4e219695fc2100a96ef4.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-08-09T17:00:00Z",
-        "local_date": "2026-08-09",
+        "start_at_utc": "2026-08-16T17:00:00Z",
+        "local_date": "2026-08-16",
         "local_time": "20:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -249553,8 +249850,8 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/63273/Reklam-42433b645fcf4e1d91342892f64f9636.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-09-19T17:00:00Z",
-        "local_date": "2026-09-19",
+        "start_at_utc": "2026-08-19T17:00:00Z",
+        "local_date": "2026-08-19",
         "local_time": "20:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -252185,6 +252482,910 @@
     "category": "theatre",
     "address": null,
     "venue": "Editör Dükkan - Kitap & Kahve & Komedi",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Olağanüstü Bir Gece",
+    "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/70986/Reklam-5f3fe2f41d3a42b68da32e78cda7067e.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-05T15:30:00Z",
+        "local_date": "2026-09-05",
+        "local_time": "18:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Torium Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380480",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-27T17:00:00Z",
+        "local_date": "2026-09-27",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kale Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380482",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-06T17:30:00Z",
+        "local_date": "2026-10-06",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Edremit Şükrü Tunar Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380483",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-07T17:30:00Z",
+        "local_date": "2026-10-07",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bandırma Barış Manço Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380484",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-10T17:30:00Z",
+        "local_date": "2026-10-10",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kapadokya Kültür Ve Sanat Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380485",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-11T17:30:00Z",
+        "local_date": "2026-10-11",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Karaman Piri Reis Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380486",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-12T17:30:00Z",
+        "local_date": "2026-10-12",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mersin Yenişehir Belediyesi Konferans Salonu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380488",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-13T17:30:00Z",
+        "local_date": "2026-10-13",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Silifke Prof.Dr. Doğan Cüceloğlu Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380489",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-15T17:30:00Z",
+        "local_date": "2026-10-15",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Antalya Türkan Şoray Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380490",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-16T17:30:00Z",
+        "local_date": "2026-10-16",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Isparta Belediyesi Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380494",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-17T17:30:00Z",
+        "local_date": "2026-10-17",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Ankara Çayyolu Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380497",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-18T17:00:00Z",
+        "local_date": "2026-10-18",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bolu Necip Fazıl Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380499",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-20T17:30:00Z",
+        "local_date": "2026-10-20",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Samsun Büyükşehir Belediyesi Atakum Sanat Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380500",
+            "title": "Olağanüstü Bir Gece",
+            "description": "Tiyatro Oyunu Bir gecede değişen bir hayatın hikâyesini anlatan bu özel oyun; insanın yalnızlığına, tutkularına, kaybettiklerine ve yeniden hissetme arzusuna çarpıcı bir şekilde ışık tutuyor. Stefan Zweig’ın zamansız anlatımı; sahnede kimi zaman duygusal, kimi zaman ironik, kimi zaman da şaşırtıcı derecede eğlenceli bir atmosfer yaratıyor. Tek kişilik performansıyla Barbaros Uzunöner, seyirciyi sıradan bir gecenin içinde başlayan olağanüstü bir yolculuğa davet ediyor. İç dünyamızın karanlık ve tuhaf taraflarını aynı anda hissettiren bu oyun; hem düşündüren hem de güçlü bir sahne deneyimi yaşatan etkileyici bir tiyatro gecesi sunuyor. Bazı geceler insanın hayatını değiştirir… Bu gece onlardan biri olabilir. Yazan : Stefan Zweik Uyarlayan: Barbaros Uzunöner Dramaturg: Nezihe Ayda Bilen Yöneten ve Oynayan: Barbaros Uzunöner Dekor Tasarımı: Barbaros Uzunöner Dekor Uygulama: Ayhan Tazeoğlu Müzik Tasarımı: Çiğdem Neşeli Kostüm: Can Kostüm Afiş Tasarımı: Mert Kerem Aygün",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 840.0,
+              "max_value": 840.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/olaganustu-bir-gece"
+    ],
+    "external_id": "18380480",
+    "category": "theatre",
+    "address": null,
+    "venue": "Torium Sahne",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Bir Garip Adam İle Quiz Night - Aşk-ı Memnu",
+    "description": "Lütfen Dikkat! Bilet aldıktan sonra seans kurallarını okuyunuz... İçerikleriyle sosyal medyayı kasıp kavuran Bir Garip Adam İle Quiz Night şehrinize geliyor. KALDIRIN TELEFONLARI. BİR GARİP ADAM İLE ÖDÜLLÜ İNTERAKTİF QUIZ NIGHT YAPIYORUZ. BİLDİĞİNİZ KAHOOT SİSTEMİ QUIZ NIGHT'LARINI UNUTUN VE BU KONSEPTİN TADINI ÇIKARTIN. En az 2, En fazla 6 kişiden oluşturacağınız takımınız için size özel hazırladığımız yazı tahtası ve kalemleriyle keyifli bir Quiz Night konsepti sizi bekliyor. Bir Garip Adam tarafından hazırlanan klasik,şıklı veya videolu sorular ile hafızanızı tazeliyor ve eğlenirken bir taraftan da dizi/filmlere dair bilgi birikiminizi test ediyoruz. Takımınla soruları cevaplayarak EN FAZLA DOĞRU CEVABI VEREN TAKIM OL ve ŞAMPİYONLUK ÖDÜLÜNÜ KAP. Bu eğlenceli konseptte EN YARATICI TAKIM İSMİNİ BELİRLEYEN ve SONUNCU OLAN TAKIM da sürpriz ödüller kazanıyor.Bir Garip Adam ile Night etkinliklerine katılarak, yemek ve içecek menüsünün tadını çıkartırken eğlenceli bir etkinliğe adım atın ve dostlarınızla birlikte unutulmaz anılar biriktirin! 14 yıllık İnteraktif Tiyatro tecrübesini, Psikolojik Danışman kimliğiyle birleştirerek insan ruhunun derinliklerine inen klinik bakış açısıyla harmanlayan 'Bir Garip Adam', alışılmış quiz gecelerini birer performans sanatına dönüştürüyor. O, sadece soru sormuyor; salonu yaşayan, nefes alan ve her anı sürprizlerle dolu bir oyun alanına çeviriyor. 'Bir Garip Adam'ın yönettiği gecelerde sadece bilginiz değil, hızınız, dikkatiniz, kısa süreli görsel-işitsel belleğiniz ve hatta karakteriniz test edilir. Kimi zaman bir dizinin en karanlık karakterini analiz ederken, kimi zaman unutulmayan sahnelerin derinliğinde kaybolacaksınız.Eskişehir’in enerjisini sahneye taşıyan, Türkiye’nin dört bir yanına 'bilgi ve eğlence' götürmeye hazırlanan bu interaktif deneyimde yerinizi alın.Hazırsanız başlayalım; çünkü bu sahnede her şey biraz 'garip' ama çok gerçek!\"",
+    "type": "theatre",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/bir-garip-adam-ile-quiz-night-ask-i-memnu-20254281413540579ba48cddd4456bab7fc7e733c6e31.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-09T18:00:00Z",
+        "local_date": "2026-08-09",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bavyera Pub Fethiye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380481",
+            "title": "Bir Garip Adam İle Quiz Night - Aşk-ı Memnu",
+            "description": "Lütfen Dikkat! Bilet aldıktan sonra seans kurallarını okuyunuz... İçerikleriyle sosyal medyayı kasıp kavuran Bir Garip Adam İle Quiz Night şehrinize geliyor. KALDIRIN TELEFONLARI. BİR GARİP ADAM İLE ÖDÜLLÜ İNTERAKTİF QUIZ NIGHT YAPIYORUZ. BİLDİĞİNİZ KAHOOT SİSTEMİ QUIZ NIGHT'LARINI UNUTUN VE BU KONSEPTİN TADINI ÇIKARTIN. En az 2, En fazla 6 kişiden oluşturacağınız takımınız için size özel hazırladığımız yazı tahtası ve kalemleriyle keyifli bir Quiz Night konsepti sizi bekliyor. Bir Garip Adam tarafından hazırlanan klasik,şıklı veya videolu sorular ile hafızanızı tazeliyor ve eğlenirken bir taraftan da dizi/filmlere dair bilgi birikiminizi test ediyoruz. Takımınla soruları cevaplayarak EN FAZLA DOĞRU CEVABI VEREN TAKIM OL ve ŞAMPİYONLUK ÖDÜLÜNÜ KAP. Bu eğlenceli konseptte EN YARATICI TAKIM İSMİNİ BELİRLEYEN ve SONUNCU OLAN TAKIM da sürpriz ödüller kazanıyor.Bir Garip Adam ile Night etkinliklerine katılarak, yemek ve içecek menüsünün tadını çıkartırken eğlenceli bir etkinliğe adım atın ve dostlarınızla birlikte unutulmaz anılar biriktirin! 14 yıllık İnteraktif Tiyatro tecrübesini, Psikolojik Danışman kimliğiyle birleştirerek insan ruhunun derinliklerine inen klinik bakış açısıyla harmanlayan 'Bir Garip Adam', alışılmış quiz gecelerini birer performans sanatına dönüştürüyor. O, sadece soru sormuyor; salonu yaşayan, nefes alan ve her anı sürprizlerle dolu bir oyun alanına çeviriyor. 'Bir Garip Adam'ın yönettiği gecelerde sadece bilginiz değil, hızınız, dikkatiniz, kısa süreli görsel-işitsel belleğiniz ve hatta karakteriniz test edilir. Kimi zaman bir dizinin en karanlık karakterini analiz ederken, kimi zaman unutulmayan sahnelerin derinliğinde kaybolacaksınız.Eskişehir’in enerjisini sahneye taşıyan, Türkiye’nin dört bir yanına 'bilgi ve eğlence' götürmeye hazırlanan bu interaktif deneyimde yerinizi alın.Hazırsanız başlayalım; çünkü bu sahnede her şey biraz 'garip' ama çok gerçek!\"",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/bir-garip-adam-ile-quiz-night-ask-i-memnu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 384.0,
+              "max_value": 384.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/bir-garip-adam-ile-quiz-night-ask-i-memnu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Bir Garip Adam İle Quiz Night",
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/bir-garip-adam-ile-quiz-night-ask-i-memnu"
+    ],
+    "external_id": "18380481",
+    "category": "theatre",
+    "address": null,
+    "venue": "Bavyera Pub Fethiye",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Yanlış Adres",
+    "description": "Tiyatro Oyunu Yıllardır aynı apartmanda yaşayan iki komşu, Leyla ve Suzan… Birbirlerinin en yakın dostu, en büyük sırdaşı ve en amansız rakibidir. Geçmişe özlemle tutunurken, birbirlerini kıskandıran hayali aşk mektupları, bitmek bilmeyen atışmaları ve birbirinden absürt sohbetleriyle hayatlarını renklendirirler. Ancak şehirde dolaşan gizemli bir yabancının haberi, iki kadının sakin dünyasını tam anlamıyla altüst eder. Korkuyla merak, cesaretle telaş birbirine karışırken, yanlış anlamalar peş peşe gelir; kapılar çalar, hayaller gerçeklere karışır ve kahkahalar ardı ardına yükselir. Yanlış Adres, zekice yazılmış diyalogları, sürprizlerle dolu olay örgüsü ve unutulmaz karakterleriyle izleyiciyi baştan sona güldüren, finalinde ise büyük bir sürprizle seyirciyi başbaşa bırakan keyifli bir komedidir.",
+    "type": "theatre",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72552/Reklam-3ed76cdd474b44da9ca88a4a05138fdc.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-18T18:00:00Z",
+        "local_date": "2026-08-18",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mendos Stüdyo Sahne Fethiye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380491",
+            "title": "Yanlış Adres",
+            "description": "Tiyatro Oyunu Yıllardır aynı apartmanda yaşayan iki komşu, Leyla ve Suzan… Birbirlerinin en yakın dostu, en büyük sırdaşı ve en amansız rakibidir. Geçmişe özlemle tutunurken, birbirlerini kıskandıran hayali aşk mektupları, bitmek bilmeyen atışmaları ve birbirinden absürt sohbetleriyle hayatlarını renklendirirler. Ancak şehirde dolaşan gizemli bir yabancının haberi, iki kadının sakin dünyasını tam anlamıyla altüst eder. Korkuyla merak, cesaretle telaş birbirine karışırken, yanlış anlamalar peş peşe gelir; kapılar çalar, hayaller gerçeklere karışır ve kahkahalar ardı ardına yükselir. Yanlış Adres, zekice yazılmış diyalogları, sürprizlerle dolu olay örgüsü ve unutulmaz karakterleriyle izleyiciyi baştan sona güldüren, finalinde ise büyük bir sürprizle seyirciyi başbaşa bırakan keyifli bir komedidir.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yanlis-adres-tiyatro-oyunu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yanlis-adres-tiyatro-oyunu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-19T18:00:00Z",
+        "local_date": "2026-08-19",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mendos Stüdyo Sahne Fethiye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380492",
+            "title": "Yanlış Adres",
+            "description": "Tiyatro Oyunu Yıllardır aynı apartmanda yaşayan iki komşu, Leyla ve Suzan… Birbirlerinin en yakın dostu, en büyük sırdaşı ve en amansız rakibidir. Geçmişe özlemle tutunurken, birbirlerini kıskandıran hayali aşk mektupları, bitmek bilmeyen atışmaları ve birbirinden absürt sohbetleriyle hayatlarını renklendirirler. Ancak şehirde dolaşan gizemli bir yabancının haberi, iki kadının sakin dünyasını tam anlamıyla altüst eder. Korkuyla merak, cesaretle telaş birbirine karışırken, yanlış anlamalar peş peşe gelir; kapılar çalar, hayaller gerçeklere karışır ve kahkahalar ardı ardına yükselir. Yanlış Adres, zekice yazılmış diyalogları, sürprizlerle dolu olay örgüsü ve unutulmaz karakterleriyle izleyiciyi baştan sona güldüren, finalinde ise büyük bir sürprizle seyirciyi başbaşa bırakan keyifli bir komedidir.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yanlis-adres-tiyatro-oyunu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yanlis-adres-tiyatro-oyunu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/yanlis-adres-tiyatro-oyunu"
+    ],
+    "external_id": "18380491",
+    "category": "theatre",
+    "address": null,
+    "venue": "Mendos Stüdyo Sahne Fethiye",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Yarım Kalan Hikâyenin İkinci Perdesi",
+    "description": "Tiyatro Oyunu Geçmiş gerçekten geride kalır mı? Yoksa her gece yeniden kapınızı mı çalar? Bir yıl önce ölen ünlü kalıp ustası Cesur'un ardından sessizliğe gömülen bir ev... Her gece aynı saatte çalan hayali bir kapı... Tam unutmaya çalışırken çıkan beklenmedik bir misafir... Ve gerçekle hayalin, yaşamla ölümün, sevgiyle saplantının birbirine karıştığı uzun bir gece... İki kadının yüzleşmesiyle başlayan hikâye; yas, pişmanlık, kıskançlık, sevginin görünmeyen yüzü ve insan zihninin en karanlık odalarında dolaşırken izleyiciyi tek bir soruyla baş başa bırakıyor: Gerçekten ölen insanlar mı bizi terk eder, yoksa yarım kalan duygular mı? Tek perde boyunca yükselen gerilim, derinleşen diyaloglar ve çarpıcı finaliyle bu oyun; yalnızlığın, belleğin ve tamamlanamayan hayatların etkileyici bir sahne yolculuğuna dönüşüyor. Bazı hikâyeler biter. Bazıları ise ikinci perdesini, insanın zihninde oynamaya devam eder.",
+    "type": "theatre",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72554/Reklam-756f20cb1f834cd4a243b984170d6fa8.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-07T18:00:00Z",
+        "local_date": "2026-09-07",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mendos Stüdyo Sahne Fethiye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380495",
+            "title": "Yarım Kalan Hikâyenin İkinci Perdesi",
+            "description": "Tiyatro Oyunu Geçmiş gerçekten geride kalır mı? Yoksa her gece yeniden kapınızı mı çalar? Bir yıl önce ölen ünlü kalıp ustası Cesur'un ardından sessizliğe gömülen bir ev... Her gece aynı saatte çalan hayali bir kapı... Tam unutmaya çalışırken çıkan beklenmedik bir misafir... Ve gerçekle hayalin, yaşamla ölümün, sevgiyle saplantının birbirine karıştığı uzun bir gece... İki kadının yüzleşmesiyle başlayan hikâye; yas, pişmanlık, kıskançlık, sevginin görünmeyen yüzü ve insan zihninin en karanlık odalarında dolaşırken izleyiciyi tek bir soruyla baş başa bırakıyor: Gerçekten ölen insanlar mı bizi terk eder, yoksa yarım kalan duygular mı? Tek perde boyunca yükselen gerilim, derinleşen diyaloglar ve çarpıcı finaliyle bu oyun; yalnızlığın, belleğin ve tamamlanamayan hayatların etkileyici bir sahne yolculuğuna dönüşüyor. Bazı hikâyeler biter. Bazıları ise ikinci perdesini, insanın zihninde oynamaya devam eder.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yarim-kalan-hikayenin-ikinci-perdesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yarim-kalan-hikayenin-ikinci-perdesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-08T18:00:00Z",
+        "local_date": "2026-09-08",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mendos Stüdyo Sahne Fethiye",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380496",
+            "title": "Yarım Kalan Hikâyenin İkinci Perdesi",
+            "description": "Tiyatro Oyunu Geçmiş gerçekten geride kalır mı? Yoksa her gece yeniden kapınızı mı çalar? Bir yıl önce ölen ünlü kalıp ustası Cesur'un ardından sessizliğe gömülen bir ev... Her gece aynı saatte çalan hayali bir kapı... Tam unutmaya çalışırken çıkan beklenmedik bir misafir... Ve gerçekle hayalin, yaşamla ölümün, sevgiyle saplantının birbirine karıştığı uzun bir gece... İki kadının yüzleşmesiyle başlayan hikâye; yas, pişmanlık, kıskançlık, sevginin görünmeyen yüzü ve insan zihninin en karanlık odalarında dolaşırken izleyiciyi tek bir soruyla baş başa bırakıyor: Gerçekten ölen insanlar mı bizi terk eder, yoksa yarım kalan duygular mı? Tek perde boyunca yükselen gerilim, derinleşen diyaloglar ve çarpıcı finaliyle bu oyun; yalnızlığın, belleğin ve tamamlanamayan hayatların etkileyici bir sahne yolculuğuna dönüşüyor. Bazı hikâyeler biter. Bazıları ise ikinci perdesini, insanın zihninde oynamaya devam eder.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/yarim-kalan-hikayenin-ikinci-perdesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/yarim-kalan-hikayenin-ikinci-perdesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/yarim-kalan-hikayenin-ikinci-perdesi"
+    ],
+    "external_id": "18380495",
+    "category": "theatre",
+    "address": null,
+    "venue": "Mendos Stüdyo Sahne Fethiye",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -259664,8 +260865,8 @@
             "source_url": "https://biletinial.com/tr-tr/muzik/samhal-ismail-string-quartet",
             "deep_link_url": null,
             "price": {
-              "min_value": 224.0,
-              "max_value": 224.0,
+              "min_value": 336.0,
+              "max_value": 336.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -264383,6 +265584,48 @@
             "price": {
               "min_value": 650.0,
               "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/discman-90lar-2000ler-turkce-pop-gecesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-14T19:00:00Z",
+        "local_date": "2026-08-14",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Moda Kayıkhane Sokak",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380479",
+            "title": "Discman 90’lar & 2000’ler Türkçe Pop Gecesi",
+            "description": "Konseri",
+            "source_url": "https://biletinial.com/tr-tr/muzik/discman-90lar-2000ler-turkce-pop-gecesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -291513,6 +292756,485 @@
     "category": "concert",
     "address": null,
     "venue": "Beykoz Kundura",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Son de Cuba",
+    "description": "Konseri Pera Thai Bodrum’da Son De Kuba ile Latin Gecesi gerçekleşiyor. Son De Kuba’nın enerjik sahne performansı; salsa, son, cha-cha ve Latin müziğinin sevilen ritimleriyle Dibeklihan’ın açık hava atmosferinde buluşuyor. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/63543/Reklam-70ea5bbaeb69408ab6a9b7edbacb6552.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-29T18:00:00Z",
+        "local_date": "2026-07-29",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380542",
+            "title": "Son de Cuba",
+            "description": "Konseri Pera Thai Bodrum’da Son De Kuba ile Latin Gecesi gerçekleşiyor. Son De Kuba’nın enerjik sahne performansı; salsa, son, cha-cha ve Latin müziğinin sevilen ritimleriyle Dibeklihan’ın açık hava atmosferinde buluşuyor. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/son-de-kuba-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 900.0,
+              "max_value": 900.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/son-de-kuba-konseri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-05T18:00:00Z",
+        "local_date": "2026-08-05",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380575",
+            "title": "Son de Cuba",
+            "description": "Konseri Pera Thai Bodrum’da Son De Kuba ile Latin Gecesi gerçekleşiyor. Son De Kuba’nın enerjik sahne performansı; salsa, son, cha-cha ve Latin müziğinin sevilen ritimleriyle Dibeklihan’ın açık hava atmosferinde buluşuyor. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/son-de-kuba-konseri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1000.0,
+              "max_value": 1000.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/son-de-kuba-konseri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/son-de-kuba-konseri"
+    ],
+    "external_id": "18380542",
+    "category": "concert",
+    "address": null,
+    "venue": "Pera Thai Bodrum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Serdar Şensezgin ile Love Songs",
+    "description": "30 Temmuz Perşembe akşamı Pera Thai Bodrum’da Serdar Şensezgin ile Love Songs gecesi gerçekleşiyor. Serdar Şensezgin’in güçlü vokali ve romantik, zamansız şarkılardan oluşan özel repertuvarı; Dibeklihan’ın açık hava atmosferinde akşam yemeği eşliğinde sunulacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/72557/Reklam-74c02bf0a6224d04b6ccb8bbe9c63f98.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-30T18:00:00Z",
+        "local_date": "2026-07-30",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380695",
+            "title": "Serdar Şensezgin ile Love Songs",
+            "description": "30 Temmuz Perşembe akşamı Pera Thai Bodrum’da Serdar Şensezgin ile Love Songs gecesi gerçekleşiyor. Serdar Şensezgin’in güçlü vokali ve romantik, zamansız şarkılardan oluşan özel repertuvarı; Dibeklihan’ın açık hava atmosferinde akşam yemeği eşliğinde sunulacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/serdar-sensezgin-ile-love-songs",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 900.0,
+              "max_value": 900.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/serdar-sensezgin-ile-love-songs?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/serdar-sensezgin-ile-love-songs"
+    ],
+    "external_id": "18380695",
+    "category": "concert",
+    "address": null,
+    "venue": "Pera Thai Bodrum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Gülcan Altan ile Caz Makamı",
+    "description": "Konseri Pera Thai Bodrum’da Gülcan Altan ile Caz Makamı gerçekleşiyor. Gülcan Altan, Türk müziğinin güçlü duygusunu cazın zarif tınılarıyla buluşturan özel repertuvarıyla Pera Thai Bodrum sahnesinde olacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/gulcan-altan-ile-caz-makami-20267291053125e539912c1304563b1008183044df33b.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-07-31T18:00:00Z",
+        "local_date": "2026-07-31",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380814",
+            "title": "Gülcan Altan ile Caz Makamı",
+            "description": "Konseri Pera Thai Bodrum’da Gülcan Altan ile Caz Makamı gerçekleşiyor. Gülcan Altan, Türk müziğinin güçlü duygusunu cazın zarif tınılarıyla buluşturan özel repertuvarıyla Pera Thai Bodrum sahnesinde olacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/gulcan-altan-ile-caz-makami",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1250.0,
+              "max_value": 1250.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/gulcan-altan-ile-caz-makami?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-08-06T18:00:00Z",
+        "local_date": "2026-08-06",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380815",
+            "title": "Gülcan Altan ile Caz Makamı",
+            "description": "Konseri Pera Thai Bodrum’da Gülcan Altan ile Caz Makamı gerçekleşiyor. Gülcan Altan, Türk müziğinin güçlü duygusunu cazın zarif tınılarıyla buluşturan özel repertuvarıyla Pera Thai Bodrum sahnesinde olacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/gulcan-altan-ile-caz-makami",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1250.0,
+              "max_value": 1250.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/gulcan-altan-ile-caz-makami?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/gulcan-altan-ile-caz-makami"
+    ],
+    "external_id": "18380814",
+    "category": "concert",
+    "address": null,
+    "venue": "Pera Thai Bodrum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Barbaros Büyükakkan ile Zamansız Şarkılar",
+    "description": "Konseri 7 Ağustos Cuma akşamı Barbaros Büyükakkan, güçlü sahne yorumu ve zamansız şarkılardan oluşan özel repertuvarıyla Pera Thai Bodrum’da. Dibeklihan’ın açık hava atmosferinde, akşam yemeği eşliğinde gerçekleşecek bu özel gecede Türkçe ve yabancı müziğin sevilen şarkıları dinleyicilerle buluşacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/barbaros-buyukakkan-ile-zamansiz-sarkilar-20267291059396c692b3196054f40b0e3e9f605846cf9.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-07T18:00:00Z",
+        "local_date": "2026-08-07",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380895",
+            "title": "Barbaros Büyükakkan ile Zamansız Şarkılar",
+            "description": "Konseri 7 Ağustos Cuma akşamı Barbaros Büyükakkan, güçlü sahne yorumu ve zamansız şarkılardan oluşan özel repertuvarıyla Pera Thai Bodrum’da. Dibeklihan’ın açık hava atmosferinde, akşam yemeği eşliğinde gerçekleşecek bu özel gecede Türkçe ve yabancı müziğin sevilen şarkıları dinleyicilerle buluşacak. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/barbaros-buyukakkan-ile-zamansiz-sarkilar",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 2000.0,
+              "max_value": 2000.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/barbaros-buyukakkan-ile-zamansiz-sarkilar?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/barbaros-buyukakkan-ile-zamansiz-sarkilar"
+    ],
+    "external_id": "18380895",
+    "category": "concert",
+    "address": null,
+    "venue": "Pera Thai Bodrum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Erdem Özkan ile Jazz Dinner Night",
+    "description": "Konseri 1 Ağustos Cumartesi akşamı Pera Thai Bodrum’da Erdem Özkan ile Jazz Dinner Night gerçekleşiyor. Erdem Özkan’ın caz, swing ve zamansız şarkılardan oluşan özel repertuvarı; Dibeklihan’ın açık hava atmosferinde Thai mutfağı ve akşam yemeği deneyimiyle buluşuyor. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/erdem-ozkan-ile-jazz-dinner-night-2026729105720c7b929ec48514a1290e72f5af8b95c62.jpeg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-01T18:00:00Z",
+        "local_date": "2026-08-01",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Pera Thai Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18380902",
+            "title": "Erdem Özkan ile Jazz Dinner Night",
+            "description": "Konseri 1 Ağustos Cumartesi akşamı Pera Thai Bodrum’da Erdem Özkan ile Jazz Dinner Night gerçekleşiyor. Erdem Özkan’ın caz, swing ve zamansız şarkılardan oluşan özel repertuvarı; Dibeklihan’ın açık hava atmosferinde Thai mutfağı ve akşam yemeği deneyimiyle buluşuyor. Bu etkinlik klasik ayakta konser formatında değildir. Misafirler masa düzeninde ağırlanır. Bilet, canlı performans katılımı ve genel masa rezervasyon hakkını kapsar. Yiyecek ve içecek tüketimi ayrıca ücretlendirilir. Masa yerleşimi satın alma sırası, kişi sayısı ve operasyon uygunluğuna göre yapılacaktır.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/erdem-ozkan-ile-jazz-dinner-night",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1250.0,
+              "max_value": 1250.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/erdem-ozkan-ile-jazz-dinner-night?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/erdem-ozkan-ile-jazz-dinner-night"
+    ],
+    "external_id": "18380902",
+    "category": "concert",
+    "address": null,
+    "venue": "Pera Thai Bodrum",
     "link": null,
     "source_url": null,
     "ticket_info": null,
