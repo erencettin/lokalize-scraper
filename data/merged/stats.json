@@ -1,28 +1,36 @@
 {
-  "total_events": 1546,
-  "total_events_before_dedup": 1554,
-  "total_events_after_dedup": 1546,
+  "total_events": 2619,
+  "total_events_before_dedup": 5111,
+  "total_events_after_dedup": 2619,
   "ticketmaster_count": 1349,
   "municipal_count": 0,
   "serpapi_count": 12,
   "biletimgo_count": 126,
   "biletcom_count": 67,
-  "biletinial_count": 0,
-  "overlap_count": 8,
-  "multi_provider_event_count": 3,
+  "biletinial_count": 3557,
+  "overlap_count": 2492,
+  "multi_provider_event_count": 357,
   "provider_combo_counts": {
-    "BiletimGO": 121,
+    "BiletimGO": 117,
+    "BiletimGO+Biletinial": 4,
+    "Biletinial": 1073,
+    "Biletinial+bilet.com": 5,
     "SerpAPIEvents": 12,
-    "Ticketmaster": 1346,
+    "Ticketmaster": 1001,
+    "Ticketmaster+Biletinial": 345,
     "Ticketmaster+bilet.com": 3,
-    "bilet.com": 64
+    "bilet.com": 59
   },
   "provider_tag_combo_counts": {
+    "Biletinial": 1073,
+    "Biletinial+bilet.com": 5,
     "Google": 12,
-    "Ticketmaster": 1346,
+    "Ticketmaster": 1001,
+    "Ticketmaster+Biletinial": 345,
     "Ticketmaster+bilet.com": 3,
-    "bilet.com": 64,
-    "biletimGO": 121
+    "bilet.com": 59,
+    "biletimGO": 117,
+    "biletimGO+Biletinial": 4
   },
-  "last_merge": "2026-08-01T12:06:16.910736+00:00"
+  "last_merge": "2026-08-01T13:56:23.529254+00:00"
 }
