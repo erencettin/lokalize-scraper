@@ -1,151 +1,5 @@
 [
   {
-    "title": "Haktan",
-    "description": "- 18 Yaş sınırı vardır. - 21:30 kapı açılış saatidir. - Konser başlangıç saati 23:00 - Misafirlere rahat ve konforlu eğlenebilcekleri bir ortam sunabilmek için kadın erkek eşitliğine dikkat edilecektir. Gerekli durumlarda mekan uygun görmediği kişileri bilet iadesi yaparak içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır.- Alana yiyecek içecek sokulması yasaktır. - Konser biletleri ayakta düzen şeklinde iki kategori şeklinde satışa sunulmaktadır.",
-    "type": "concert",
-    "city_name": "Bursa",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-07T20:00:00Z",
-        "local_date": "2026-08-07",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Club Inferno Bursa",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z1HyzZyMZkC3aeD-",
-            "title": "Haktan",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DH12%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "cancelled",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DH12%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-06-15T09:00:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1k7A_AZo",
-    "attraction_upcoming_count": 4,
-    "performer_name": "Haktan",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Reckol",
-    "description": "- Etkinlikte 18 yaş sınırı vardır. Kimlik Kontrolü yapılacaktır. - Mekan girişinde kadın - erkek eşitliğine önem verilmektedir. - ⁠Organizatör bu kurala aykırılık oluşturan kişilere etkinlik mekanını almama hakkına sahiptir. - ⁠İşletmemizde masa kullanımı rezervasyon sistemi ile sağlanmaktadır. Rezervasyonsuz giriş yapan misafirlerimiz etkinlik alanında ayakta ve masasız konumlandırılmaktadır. - E- Biletiniz Mail ve Sms olarak size gelecektir. Çıktı almanıza gerek yoktur. - ⁠Mekan girişinin uygun görmediği kişilerin bilet bedelini iade etmek koşuluyla etkinlik alanına almama hakkına sahiptir. - ⁠Organizatör firma programda ve bilet fiyatlarında değişiklik yapma hakkını saklı tutar. - ⁠Organizasyon şirkette öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - ⁠Mekanda içecek uygulaması bulunmaktadır girişte içecek alımı zorunludur. - ⁠Etkinliğe katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı etkinlik organizasyonuna ait olup katılımcı, etkinliğe katılarak bu hakkın kullanılmasını kabul etmektedir.",
-    "type": "concert",
-    "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-07T20:00:00Z",
-        "local_date": "2026-08-07",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Gaga Club Lara",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZk459Fvve",
-            "title": "Reckol",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KAM7%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KAM7%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-28T07:58:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1ku_aSq3",
-    "attraction_upcoming_count": 2,
-    "performer_name": "Reckol",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Luv X 90s & 2000s Hiphop Party",
     "description": "- 18 yaş sınırı vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından bileti",
     "type": "concert",
@@ -1729,7 +1583,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -8737,7 +8591,7 @@
       }
     ],
     "attraction_id": "K8vZ9172gS0",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 17,
     "performer_name": "Hande Yener",
     "organizer_name": null,
     "source": "unknown",
@@ -9613,7 +9467,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k74P_vV",
-    "attraction_upcoming_count": 2,
+    "attraction_upcoming_count": 3,
     "performer_name": "Fatih Erkoç",
     "organizer_name": null,
     "source": "unknown",
@@ -12095,7 +11949,7 @@
       }
     ],
     "attraction_id": "K8vZ9172gS0",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 17,
     "performer_name": "Hande Yener",
     "organizer_name": null,
     "source": "unknown",
@@ -12752,7 +12606,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -14723,7 +14577,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -20855,7 +20709,7 @@
       }
     ],
     "attraction_id": "K8vZ9172gS0",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 17,
     "performer_name": "Hande Yener",
     "organizer_name": null,
     "source": "unknown",
@@ -25600,7 +25454,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -27352,7 +27206,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -33046,7 +32900,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -34798,7 +34652,7 @@
       }
     ],
     "attraction_id": "K8vZ917pw30",
-    "attraction_upcoming_count": 13,
+    "attraction_upcoming_count": 12,
     "performer_name": "Mabel Matiz",
     "organizer_name": null,
     "source": "unknown",
@@ -80496,7 +80350,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGt-bP6",
-    "attraction_upcoming_count": 12,
+    "attraction_upcoming_count": 13,
     "performer_name": "Ayna",
     "organizer_name": null,
     "source": "unknown",
@@ -83710,79 +83564,6 @@
     "attraction_id": "K8vZ917pSd7",
     "attraction_upcoming_count": 19,
     "performer_name": "Emre Aydin",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Edepsiz Komedi",
-    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
-    "type": "theatre",
-    "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-07T20:00:00Z",
-        "local_date": "2026-08-07",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Cafe Theatre Koşuyolu",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkQfF9vve",
-            "title": "Edepsiz Komedi",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7M%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-22T13:32:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 28,
-    "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -112762,7 +112543,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -112981,7 +112762,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113054,7 +112835,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113127,7 +112908,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113273,7 +113054,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113492,7 +113273,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113565,7 +113346,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113638,7 +113419,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113711,7 +113492,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113857,7 +113638,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -113930,7 +113711,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114076,7 +113857,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114149,7 +113930,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114295,7 +114076,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114514,7 +114295,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114587,7 +114368,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114660,7 +114441,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114733,7 +114514,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114879,7 +114660,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -114952,7 +114733,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115025,7 +114806,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115098,7 +114879,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115171,7 +114952,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115244,7 +115025,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115317,7 +115098,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115390,7 +115171,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115463,7 +115244,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115609,7 +115390,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115755,7 +115536,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115901,7 +115682,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -115974,7 +115755,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116120,7 +115901,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116193,7 +115974,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116266,7 +116047,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116339,7 +116120,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116412,7 +116193,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116485,7 +116266,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116558,7 +116339,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116631,7 +116412,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116704,7 +116485,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116777,7 +116558,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116923,7 +116704,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -116996,7 +116777,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117069,7 +116850,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117142,7 +116923,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117215,7 +116996,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117288,7 +117069,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117361,7 +117142,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117434,7 +117215,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117507,7 +117288,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117580,7 +117361,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117653,7 +117434,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
@@ -117726,7 +117507,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 83,
+    "attraction_upcoming_count": 55,
     "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
