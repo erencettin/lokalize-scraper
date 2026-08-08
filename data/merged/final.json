@@ -9607,6 +9607,37 @@
             "sales_start_at": "2026-08-03T10:58:00Z",
             "brand_name": null,
             "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18398796",
+            "title": "Luv X 90s & 2000s HIPHOP PARTY",
+            "description": null,
+            "source_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 300.0,
+              "max_value": 300.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
           }
         ]
       }
@@ -9616,16 +9647,19 @@
     "performer_name": "Luv X 90s 2000s Hiphop",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster",
+    "provider": "Ticketmaster, Biletinial",
     "providers": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
     "provider_tags": [
-      "Ticketmaster"
+      "Ticketmaster",
+      "Biletinial"
     ],
-    "provider_label": "Ticketmaster",
+    "provider_label": "Ticketmaster, Biletinial",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCEN%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SCEN%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi"
     ],
     "external_id": null,
     "category": null,
@@ -187479,48 +187513,6 @@
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kadikoy-cakirkeyif-stand-up-gecesi-20265261153124212670920d545fdb7a6f38aef228dfd.png",
     "occurrences": [
       {
-        "start_at_utc": "2026-08-07T19:45:00Z",
-        "local_date": "2026-08-07",
-        "local_time": "22:45",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Corner Kadıköy",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18068149",
-            "title": "Kadıköy Çakırkeyif Stand up Gecesi",
-            "description": "Etkinliği Kadıköy’de kahkahaya doymaya hazır mısınız? Kadıköy’ün yeni stand up sahnesi açıldı! Birbirinden eğlenceli komedyenlerle gülmekten gözlerinizden yaş gelsin istiyorsanız, Corner Kadıköy’de buluşalım!",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 150.0,
-              "max_value": 150.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
         "start_at_utc": "2026-08-14T19:45:00Z",
         "local_date": "2026-08-14",
         "local_time": "22:45",
@@ -187663,7 +187655,7 @@
     "source_urls": [
       "https://biletinial.com/tr-tr/tiyatro/kadikoy-cakirkeyif-stand-up-gecesi"
     ],
-    "external_id": "18068149",
+    "external_id": "18068150",
     "category": "theatre",
     "address": null,
     "venue": "Corner Kadıköy",
@@ -332723,127 +332715,6 @@
     "category": "concert",
     "address": null,
     "venue": "Avusturya Başkonsolosluğu",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Luv X 90s & 2000s HIPHOP PARTY",
-    "description": null,
-    "type": "concert",
-    "city_name": "İstanbul",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/53055/Reklam-929954660299426e825525d51fcdcbfc.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-07T20:45:00Z",
-        "local_date": "2026-08-07",
-        "local_time": "23:45",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18337140",
-            "title": "Luv X 90s & 2000s HIPHOP PARTY",
-            "description": null,
-            "source_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 300.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-08-14T20:59:00Z",
-        "local_date": "2026-08-14",
-        "local_time": "23:59",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Blind İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18398796",
-            "title": "Luv X 90s & 2000s HIPHOP PARTY",
-            "description": null,
-            "source_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 300.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/muzik/luv-x-90s-2000s-hiphop-party-etkinligi"
-    ],
-    "external_id": "18337140",
-    "category": "concert",
-    "address": null,
-    "venue": "Blind İstanbul",
     "link": null,
     "source_url": null,
     "ticket_info": null,
