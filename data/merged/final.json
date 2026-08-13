@@ -521,37 +521,6 @@
             "is_official_seller": null
           },
           {
-            "provider": "bilet.com",
-            "external_id": "2413",
-            "title": "Roy",
-            "description": "Roy 13 Ağustos'ta IF Performance Hall Tunus'ta! Roy Ankara konseri biletleri Bilet.com'da seni bekliyor!",
-            "source_url": "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 300.0,
-              "max_value": 600.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          },
-          {
             "provider": "Biletinial",
             "external_id": "18316362",
             "title": "Roy",
@@ -590,21 +559,18 @@
     "performer_name": "Roy",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial, bilet.com",
+    "provider": "Ticketmaster, Biletinial",
     "providers": [
       "Ticketmaster",
-      "Biletinial",
-      "bilet.com"
+      "Biletinial"
     ],
     "provider_tags": [
       "Ticketmaster",
-      "Biletinial",
-      "bilet.com"
+      "Biletinial"
     ],
-    "provider_label": "Ticketmaster, Biletinial, bilet.com",
+    "provider_label": "Ticketmaster, Biletinial",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5K7AD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus",
       "https://biletinial.com/tr-tr/muzik/roy-if"
     ],
     "external_id": null,
@@ -167017,6 +166983,85 @@
     "fetched_at": null
   },
   {
+    "title": "Olympos Teleferik",
+    "description": "Dünyanın en uzun ikinci, Avrupa'nın ise en uzun Teleferiği olan Olympos Teleferik; Akdeniz'i ve 2365 Metre yüksekliğindeki Tahtalı Dağı'nın zirvesini birleştirmektedir.",
+    "type": "activity",
+    "city_name": "Antalya",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/olympos-teleferik/olympos-teleferik-yeni.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Olympos Teleferik",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "31",
+            "title": "Olympos Teleferik",
+            "description": "Dünyanın en uzun ikinci, Avrupa'nın ise en uzun Teleferiği olan Olympos Teleferik; Akdeniz'i ve 2365 Metre yüksekliğindeki Tahtalı Dağı'nın zirvesini birleştirmektedir.",
+            "source_url": "https://www.bilet.com/etkinlik/olympos-teleferik",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 735.0,
+              "max_value": 1050.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/olympos-teleferik?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/olympos-teleferik"
+    ],
+    "external_id": "31",
+    "category": "activity",
+    "address": "Tekirova Mahallesi Antalya Kumluca Anayolu Caddesi No:2 Kemer/Antalya",
+    "venue": "Olympos Teleferik",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 36.541174,
+    "longitude": 30.487749,
+    "fetched_at": null
+  },
+  {
     "title": "Dinopark",
     "description": "Göynük Dinopark indirimli biletleri bilet.com'da. 4 yaş ve üzeri için girişler ücretlidir.",
     "type": "activity",
@@ -167175,85 +167220,6 @@
     "fetched_at": null
   },
   {
-    "title": "Park Of İstanbul",
-    "description": "İstanbul’un yanı başında Çekmeköy’de orman içerisinde 60 farklı türden 350 canlının yanı sıra bir birinden heyecanlı oyun parkurları ile Park Of İstanbul (POİ) siz adrenalin ve doğa tutkunlarını çağırıyor!\nBilet.com'a özel indirimli fiyatlarla b",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/park-of-istanbul/park-of-istanbul-yeni.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Park of İstanbul",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "8",
-            "title": "Park Of İstanbul",
-            "description": "İstanbul’un yanı başında Çekmeköy’de orman içerisinde 60 farklı türden 350 canlının yanı sıra bir birinden heyecanlı oyun parkurları ile Park Of İstanbul (POİ) siz adrenalin ve doğa tutkunlarını çağırıyor!\nBilet.com'a özel indirimli fiyatlarla b",
-            "source_url": "https://www.bilet.com/etkinlik/park-of-istanbul",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 449.0,
-              "max_value": 599.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/park-of-istanbul?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/park-of-istanbul"
-    ],
-    "external_id": "8",
-    "category": "activity",
-    "address": "Çatalmeşe Mahallesi, 30 Ağustos Cd. Mesire Alanı No:3 Alemdağ – Çekmeköy / İstanbul",
-    "venue": "Park of İstanbul",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.051024,
-    "longitude": 29.248736,
-    "fetched_at": null
-  },
-  {
     "title": "Forest Kemerburgaz",
     "description": "Forest Kemerburgaz kapılarını açılıyor. İndirimli fiyatlar bilet.com'da.",
     "type": "activity",
@@ -167333,11 +167299,11 @@
     "fetched_at": null
   },
   {
-    "title": "Olympos Teleferik",
-    "description": "Dünyanın en uzun ikinci, Avrupa'nın ise en uzun Teleferiği olan Olympos Teleferik; Akdeniz'i ve 2365 Metre yüksekliğindeki Tahtalı Dağı'nın zirvesini birleştirmektedir.",
+    "title": "Park Of İstanbul",
+    "description": "İstanbul’un yanı başında Çekmeköy’de orman içerisinde 60 farklı türden 350 canlının yanı sıra bir birinden heyecanlı oyun parkurları ile Park Of İstanbul (POİ) siz adrenalin ve doğa tutkunlarını çağırıyor!\nBilet.com'a özel indirimli fiyatlarla b",
     "type": "activity",
-    "city_name": "Antalya",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/olympos-teleferik/olympos-teleferik-yeni.webp",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/park-of-istanbul/park-of-istanbul-yeni.webp",
     "occurrences": [
       {
         "start_at_utc": null,
@@ -167345,19 +167311,19 @@
         "local_time": null,
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Olympos Teleferik",
+        "venue_name": "Park of İstanbul",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "31",
-            "title": "Olympos Teleferik",
-            "description": "Dünyanın en uzun ikinci, Avrupa'nın ise en uzun Teleferiği olan Olympos Teleferik; Akdeniz'i ve 2365 Metre yüksekliğindeki Tahtalı Dağı'nın zirvesini birleştirmektedir.",
-            "source_url": "https://www.bilet.com/etkinlik/olympos-teleferik",
+            "external_id": "8",
+            "title": "Park Of İstanbul",
+            "description": "İstanbul’un yanı başında Çekmeköy’de orman içerisinde 60 farklı türden 350 canlının yanı sıra bir birinden heyecanlı oyun parkurları ile Park Of İstanbul (POİ) siz adrenalin ve doğa tutkunlarını çağırıyor!\nBilet.com'a özel indirimli fiyatlarla b",
+            "source_url": "https://www.bilet.com/etkinlik/park-of-istanbul",
             "deep_link_url": null,
             "price": {
-              "min_value": 735.0,
-              "max_value": 1050.0,
+              "min_value": 449.0,
+              "max_value": 599.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -167374,7 +167340,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/olympos-teleferik?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/park-of-istanbul?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -167396,98 +167362,19 @@
     ],
     "provider_label": "bilet.com",
     "source_urls": [
-      "https://www.bilet.com/etkinlik/olympos-teleferik"
+      "https://www.bilet.com/etkinlik/park-of-istanbul"
     ],
-    "external_id": "31",
+    "external_id": "8",
     "category": "activity",
-    "address": "Tekirova Mahallesi Antalya Kumluca Anayolu Caddesi No:2 Kemer/Antalya",
-    "venue": "Olympos Teleferik",
+    "address": "Çatalmeşe Mahallesi, 30 Ağustos Cd. Mesire Alanı No:3 Alemdağ – Çekmeköy / İstanbul",
+    "venue": "Park of İstanbul",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 36.541174,
-    "longitude": 30.487749,
-    "fetched_at": null
-  },
-  {
-    "title": "Aqua Vega Akvaryum",
-    "description": "98 metre uzunluğunda, 120.000 farklı deniz canlısını barındıran, AVM içerisindeki en uzun tünel akvaryumu Aqua Vega Akvaryum biletleri Bilet.com'da.",
-    "type": "activity",
-    "city_name": "Ankara",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/aqua-vega-akvaryum/aquavegaakvaryum.png",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Aqua Vega Akvaryum",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "33",
-            "title": "Aqua Vega Akvaryum",
-            "description": "98 metre uzunluğunda, 120.000 farklı deniz canlısını barındıran, AVM içerisindeki en uzun tünel akvaryumu Aqua Vega Akvaryum biletleri Bilet.com'da.",
-            "source_url": "https://www.bilet.com/etkinlik/aqua-vega-akvaryum",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 239.0,
-              "max_value": 309.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/aqua-vega-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/aqua-vega-akvaryum"
-    ],
-    "external_id": "33",
-    "category": "activity",
-    "address": "Akşemsettin, Doğukent Bulvarı Nata Vega Outlet, 06480 Mamak/Ankara",
-    "venue": "Aqua Vega Akvaryum",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 39.88787,
-    "longitude": 32.935189,
+    "latitude": 41.051024,
+    "longitude": 29.248736,
     "fetched_at": null
   },
   {
@@ -167728,6 +167615,164 @@
     "fetched_at": null
   },
   {
+    "title": "Aqua Vega Akvaryum",
+    "description": "98 metre uzunluğunda, 120.000 farklı deniz canlısını barındıran, AVM içerisindeki en uzun tünel akvaryumu Aqua Vega Akvaryum biletleri Bilet.com'da.",
+    "type": "activity",
+    "city_name": "Ankara",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/aqua-vega-akvaryum/aquavegaakvaryum.png",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aqua Vega Akvaryum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "33",
+            "title": "Aqua Vega Akvaryum",
+            "description": "98 metre uzunluğunda, 120.000 farklı deniz canlısını barındıran, AVM içerisindeki en uzun tünel akvaryumu Aqua Vega Akvaryum biletleri Bilet.com'da.",
+            "source_url": "https://www.bilet.com/etkinlik/aqua-vega-akvaryum",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 239.0,
+              "max_value": 309.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/aqua-vega-akvaryum?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/aqua-vega-akvaryum"
+    ],
+    "external_id": "33",
+    "category": "activity",
+    "address": "Akşemsettin, Doğukent Bulvarı Nata Vega Outlet, 06480 Mamak/Ankara",
+    "venue": "Aqua Vega Akvaryum",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 39.88787,
+    "longitude": 32.935189,
+    "fetched_at": null
+  },
+  {
+    "title": "Sapphire Seyir Terası",
+    "description": "Sapphire Seyir Terası ile İstanbul’u Gökyüzünden Keşfet. Biletler Bilet.com'da.",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/sapphire-seyir-terasi/sapphire-seyir-terasi-yeni.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Sapphire AVM",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "194",
+            "title": "Sapphire Seyir Terası",
+            "description": "Sapphire Seyir Terası ile İstanbul’u Gökyüzünden Keşfet. Biletler Bilet.com'da.",
+            "source_url": "https://www.bilet.com/etkinlik/sapphire-seyir-terasi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 218.0,
+              "max_value": 313.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/sapphire-seyir-terasi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/sapphire-seyir-terasi"
+    ],
+    "external_id": "194",
+    "category": "activity",
+    "address": "Emniyetevleri, Eski Büyükdere Cd. No:1, 34415 Kağıthane/İstanbul",
+    "venue": "Sapphire AVM",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.085089,
+    "longitude": 29.006454,
+    "fetched_at": null
+  },
+  {
     "title": "Sandland Antalya Kum Heykel Müzesi",
     "description": "Dünyanın ilk ve tek 12 ay ziyarete açık kum heykel sergisi olan Sandland'i Bilet.com ile keşfetmeye hazır mısın?\nDevasa boyutlarda yüzlerce kum heykele ev sahipliği yapan Sandland Antalya Kum Heykel Müzesi’nde hayranlık duyacağınız unutulmaz bir",
     "type": "exhibition",
@@ -167883,85 +167928,6 @@
     "thumbnail_url": null,
     "latitude": 41.002518,
     "longitude": 29.070582,
-    "fetched_at": null
-  },
-  {
-    "title": "Sapphire Seyir Terası",
-    "description": "Sapphire Seyir Terası ile İstanbul’u Gökyüzünden Keşfet. Biletler Bilet.com'da.",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/sapphire-seyir-terasi/sapphire-seyir-terasi-yeni.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Sapphire AVM",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "194",
-            "title": "Sapphire Seyir Terası",
-            "description": "Sapphire Seyir Terası ile İstanbul’u Gökyüzünden Keşfet. Biletler Bilet.com'da.",
-            "source_url": "https://www.bilet.com/etkinlik/sapphire-seyir-terasi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 218.0,
-              "max_value": 313.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/sapphire-seyir-terasi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/sapphire-seyir-terasi"
-    ],
-    "external_id": "194",
-    "category": "activity",
-    "address": "Emniyetevleri, Eski Büyükdere Cd. No:1, 34415 Kağıthane/İstanbul",
-    "venue": "Sapphire AVM",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.085089,
-    "longitude": 29.006454,
     "fetched_at": null
   },
   {
@@ -168281,85 +168247,6 @@
     "fetched_at": null
   },
   {
-    "title": "LEGENDS OF ISTANBUL",
-    "description": "İstanbul’un Efsaneleri Sahneye Taşınıyor!\nAyasofya’nın tam karşısında, sahnelenen Legends of Istanbul, şehrin büyülü geçmişini sahneye taşıyor.\nGösteri Saati 16:00'dır.\nFatih Sultan Mehmet’in İstanbul’u fethinden Medusa’nın lanetine, Kız Kulesi’nin gizeminden Hezarfen Ahmet Çelebi’nin gökyüzüne süzüldüğü ana, Hürrem Sultan’ın hikayesinden Mimar Sinan’ın ihtişamlı eserlerine kadar birçok unutulmaz hikâye bu gösteride yeniden hayat buluyor.\nDans, müzik, etkileyici görseller ve anlatımla zenginleşen bu özel gösteri, İngilizce seslendirmeli, Türkçe ve İngilizce altyazılı olarak sahneleniyor.\nİstanbul’u sahnede yaşa, efsaneleri hisset!\nGösteri tek perde 50 dakika sürmektedir.\nEtkinlik kuralları:\nZamanında Katılım: Gösteri başlamadan 15 dakika önce salona gelin. Gösteri başladıktan sonra geç gelen izleyiciler alınamayabilir.\nTelefon Kullanımı: Gösteri sırasında telefonları sessize alın veya kapatın. Işıklar veya sesler, hem oyuncuları hem de diğer izleyicileri rahatsız edebilir.\nKameralar ve Fotoğraf Çekimi: Gösteri sırasında fotoğraf veya video çekimi yapmak yasaktır. Etkinlik sonrası fotoğraf alanlarında fotoğraf çekebilirsiniz.\nSessizlik ve Dikkat: Gösteri boyunca dikkatlice izleyin ve sessiz olun. Anlatıcı ve oyuncuların performansını bölmemek için odaklanın.\nYemek ve İçecek: Gösteri sırasında salon içinde yiyecek ve içecek tüketimi yasaktır. Etkinlik öncesi ve sonrasında ikramlar sunulacaktır.\nGüvenlik ve Acil Durum: Acil bir durumda güvenlik görevlilerinin talimatlarına uyun. Çıkış yollarını önceden öğrenin.\nÇocuklar ve Aile Katılımı: Gösteri, 7 yaş ve üzeri izleyiciler için uygundur. Küçük çocuklar için etkinlik uygun olmayabilir.\nDavranış Kuralları: Saygılı ve olumlu bir tutum sergileyin. Rahatsız edici davranışlar gösteren izleyiciler salondan çıkarılabilir. Aksi durumda, etkinlik sahibi ve güvenlik görevlileri izleyiciyi oyundan çıkarma hakkına sahiptir.\nBilet ve Rezervasyon: Etkinliğe katılım için geçerli biletinizi temin edin. Biletinizi Bilet.com güvencesiyle",
-    "type": "activity",
-    "city_name": "Bilinmeyen Şehir",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/legends-of-istanbul/loi-2.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "1798",
-            "title": "LEGENDS OF ISTANBUL",
-            "description": "İstanbul’un Efsaneleri Sahneye Taşınıyor!\nAyasofya’nın tam karşısında, sahnelenen Legends of Istanbul, şehrin büyülü geçmişini sahneye taşıyor.\nGösteri Saati 16:00'dır.\nFatih Sultan Mehmet’in İstanbul’u fethinden Medusa’nın lanetine, Kız Kulesi’nin gizeminden Hezarfen Ahmet Çelebi’nin gökyüzüne süzüldüğü ana, Hürrem Sultan’ın hikayesinden Mimar Sinan’ın ihtişamlı eserlerine kadar birçok unutulmaz hikâye bu gösteride yeniden hayat buluyor.\nDans, müzik, etkileyici görseller ve anlatımla zenginleşen bu özel gösteri, İngilizce seslendirmeli, Türkçe ve İngilizce altyazılı olarak sahneleniyor.\nİstanbul’u sahnede yaşa, efsaneleri hisset!\nGösteri tek perde 50 dakika sürmektedir.\nEtkinlik kuralları:\nZamanında Katılım: Gösteri başlamadan 15 dakika önce salona gelin. Gösteri başladıktan sonra geç gelen izleyiciler alınamayabilir.\nTelefon Kullanımı: Gösteri sırasında telefonları sessize alın veya kapatın. Işıklar veya sesler, hem oyuncuları hem de diğer izleyicileri rahatsız edebilir.\nKameralar ve Fotoğraf Çekimi: Gösteri sırasında fotoğraf veya video çekimi yapmak yasaktır. Etkinlik sonrası fotoğraf alanlarında fotoğraf çekebilirsiniz.\nSessizlik ve Dikkat: Gösteri boyunca dikkatlice izleyin ve sessiz olun. Anlatıcı ve oyuncuların performansını bölmemek için odaklanın.\nYemek ve İçecek: Gösteri sırasında salon içinde yiyecek ve içecek tüketimi yasaktır. Etkinlik öncesi ve sonrasında ikramlar sunulacaktır.\nGüvenlik ve Acil Durum: Acil bir durumda güvenlik görevlilerinin talimatlarına uyun. Çıkış yollarını önceden öğrenin.\nÇocuklar ve Aile Katılımı: Gösteri, 7 yaş ve üzeri izleyiciler için uygundur. Küçük çocuklar için etkinlik uygun olmayabilir.\nDavranış Kuralları: Saygılı ve olumlu bir tutum sergileyin. Rahatsız edici davranışlar gösteren izleyiciler salondan çıkarılabilir. Aksi durumda, etkinlik sahibi ve güvenlik görevlileri izleyiciyi oyundan çıkarma hakkına sahiptir.\nBilet ve Rezervasyon: Etkinliğe katılım için geçerli biletinizi temin edin. Biletinizi Bilet.com güvencesiyle",
-            "source_url": "https://www.bilet.com/etkinlik/legends-of-istanbul",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 790.0,
-              "max_value": 990.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/legends-of-istanbul?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/legends-of-istanbul"
-    ],
-    "external_id": "1798",
-    "category": "activity",
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Yemekli 2 Ada Turu: İstanbul’un Adalarına Rüya Gibi Bir Yolculuk",
     "description": "İstanbul Adalarına Unutulmaz Bir Geziye Hazır mısın? Biletler Bilet.com'da!",
     "type": "activity",
@@ -168426,6 +168313,85 @@
       "https://www.bilet.com/etkinlik/yemekli-3-ada-turu-istanbul-un-adalarina-ruya-gibi-bir-yolculuk"
     ],
     "external_id": "1638",
+    "category": "activity",
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "LEGENDS OF ISTANBUL",
+    "description": "İstanbul’un Efsaneleri Sahneye Taşınıyor!\nAyasofya’nın tam karşısında, sahnelenen Legends of Istanbul, şehrin büyülü geçmişini sahneye taşıyor.\nGösteri Saati 16:00'dır.\nFatih Sultan Mehmet’in İstanbul’u fethinden Medusa’nın lanetine, Kız Kulesi’nin gizeminden Hezarfen Ahmet Çelebi’nin gökyüzüne süzüldüğü ana, Hürrem Sultan’ın hikayesinden Mimar Sinan’ın ihtişamlı eserlerine kadar birçok unutulmaz hikâye bu gösteride yeniden hayat buluyor.\nDans, müzik, etkileyici görseller ve anlatımla zenginleşen bu özel gösteri, İngilizce seslendirmeli, Türkçe ve İngilizce altyazılı olarak sahneleniyor.\nİstanbul’u sahnede yaşa, efsaneleri hisset!\nGösteri tek perde 50 dakika sürmektedir.\nEtkinlik kuralları:\nZamanında Katılım: Gösteri başlamadan 15 dakika önce salona gelin. Gösteri başladıktan sonra geç gelen izleyiciler alınamayabilir.\nTelefon Kullanımı: Gösteri sırasında telefonları sessize alın veya kapatın. Işıklar veya sesler, hem oyuncuları hem de diğer izleyicileri rahatsız edebilir.\nKameralar ve Fotoğraf Çekimi: Gösteri sırasında fotoğraf veya video çekimi yapmak yasaktır. Etkinlik sonrası fotoğraf alanlarında fotoğraf çekebilirsiniz.\nSessizlik ve Dikkat: Gösteri boyunca dikkatlice izleyin ve sessiz olun. Anlatıcı ve oyuncuların performansını bölmemek için odaklanın.\nYemek ve İçecek: Gösteri sırasında salon içinde yiyecek ve içecek tüketimi yasaktır. Etkinlik öncesi ve sonrasında ikramlar sunulacaktır.\nGüvenlik ve Acil Durum: Acil bir durumda güvenlik görevlilerinin talimatlarına uyun. Çıkış yollarını önceden öğrenin.\nÇocuklar ve Aile Katılımı: Gösteri, 7 yaş ve üzeri izleyiciler için uygundur. Küçük çocuklar için etkinlik uygun olmayabilir.\nDavranış Kuralları: Saygılı ve olumlu bir tutum sergileyin. Rahatsız edici davranışlar gösteren izleyiciler salondan çıkarılabilir. Aksi durumda, etkinlik sahibi ve güvenlik görevlileri izleyiciyi oyundan çıkarma hakkına sahiptir.\nBilet ve Rezervasyon: Etkinliğe katılım için geçerli biletinizi temin edin. Biletinizi Bilet.com güvencesiyle",
+    "type": "activity",
+    "city_name": "Bilinmeyen Şehir",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/legends-of-istanbul/loi-2.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "1798",
+            "title": "LEGENDS OF ISTANBUL",
+            "description": "İstanbul’un Efsaneleri Sahneye Taşınıyor!\nAyasofya’nın tam karşısında, sahnelenen Legends of Istanbul, şehrin büyülü geçmişini sahneye taşıyor.\nGösteri Saati 16:00'dır.\nFatih Sultan Mehmet’in İstanbul’u fethinden Medusa’nın lanetine, Kız Kulesi’nin gizeminden Hezarfen Ahmet Çelebi’nin gökyüzüne süzüldüğü ana, Hürrem Sultan’ın hikayesinden Mimar Sinan’ın ihtişamlı eserlerine kadar birçok unutulmaz hikâye bu gösteride yeniden hayat buluyor.\nDans, müzik, etkileyici görseller ve anlatımla zenginleşen bu özel gösteri, İngilizce seslendirmeli, Türkçe ve İngilizce altyazılı olarak sahneleniyor.\nİstanbul’u sahnede yaşa, efsaneleri hisset!\nGösteri tek perde 50 dakika sürmektedir.\nEtkinlik kuralları:\nZamanında Katılım: Gösteri başlamadan 15 dakika önce salona gelin. Gösteri başladıktan sonra geç gelen izleyiciler alınamayabilir.\nTelefon Kullanımı: Gösteri sırasında telefonları sessize alın veya kapatın. Işıklar veya sesler, hem oyuncuları hem de diğer izleyicileri rahatsız edebilir.\nKameralar ve Fotoğraf Çekimi: Gösteri sırasında fotoğraf veya video çekimi yapmak yasaktır. Etkinlik sonrası fotoğraf alanlarında fotoğraf çekebilirsiniz.\nSessizlik ve Dikkat: Gösteri boyunca dikkatlice izleyin ve sessiz olun. Anlatıcı ve oyuncuların performansını bölmemek için odaklanın.\nYemek ve İçecek: Gösteri sırasında salon içinde yiyecek ve içecek tüketimi yasaktır. Etkinlik öncesi ve sonrasında ikramlar sunulacaktır.\nGüvenlik ve Acil Durum: Acil bir durumda güvenlik görevlilerinin talimatlarına uyun. Çıkış yollarını önceden öğrenin.\nÇocuklar ve Aile Katılımı: Gösteri, 7 yaş ve üzeri izleyiciler için uygundur. Küçük çocuklar için etkinlik uygun olmayabilir.\nDavranış Kuralları: Saygılı ve olumlu bir tutum sergileyin. Rahatsız edici davranışlar gösteren izleyiciler salondan çıkarılabilir. Aksi durumda, etkinlik sahibi ve güvenlik görevlileri izleyiciyi oyundan çıkarma hakkına sahiptir.\nBilet ve Rezervasyon: Etkinliğe katılım için geçerli biletinizi temin edin. Biletinizi Bilet.com güvencesiyle",
+            "source_url": "https://www.bilet.com/etkinlik/legends-of-istanbul",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 790.0,
+              "max_value": 990.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/legends-of-istanbul?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/legends-of-istanbul"
+    ],
+    "external_id": "1798",
     "category": "activity",
     "address": null,
     "venue": null,
@@ -168755,85 +168721,6 @@
     "fetched_at": null
   },
   {
-    "title": "Mozaik Lamba Atölyesi",
-    "description": "Mozaik Lamba Sanatının Büyüleyici Dünyasına Hoş Geldiniz!\nİstanbul’un tarihi atmosferinde, asırlık Türk mozaik lamba sanatının derinliklerine inmeye hazır mısınız?\nBu eşsiz atölyede, sadece bir zanaat öğrenmekle kalmayacak, aynı zamanda evinizin en özel köşesini aydınlatacak, ruhu olan bir eser yaratacaksınız. Tecrübeli ustalarımızın rehberliğinde, canlı renklerin ve geleneksel desenlerin gizemli hikayesini keşfedin. Bu, sadece bir hobi değil, aynı zamanda kültürel bir yolculuğa çıkma davetidir.\nDeneyime, atölyemizin kültürel önemini ve lambaların Anadolu medeniyetlerindeki yerini anlatan keyifli bir sunumla başlıyoruz. Türk misafirperverliğini iliklerinize kadar hissedeceğiniz bu ortamda, mozaik sanatının inceliklerini ve desenlerin dilini çözümlüyoruz. Ardından, geleneksel bir motif oluşturmak üzere cam küre üzerine geometrik şablonları nasıl uygulayacağınızı adım adım öğreneceksiniz. 45’ten fazla farklı renkteki mozaik taş ve cam boncukları kullanarak, kendi kişisel hikayenizi yansıtan, göz kamaştırıcı bir tasarım oluşturmanın tadını çıkarın.\nSanat eserinizi özenle yerleştirip kurumasını beklerken, kısa bir mola veriyoruz. Bu esnada, taze demlenmiş mis kokulu Türk çayı veya kahvesi eşliğinde, el yapımı nefis kurabiyelerimizi tadarken koyu bir sohbete dalın. Ustalarımızdan, İstanbul’un sadece turistik değil, aynı zamanda gizli kalmış, yerel halkın bildiği tarihi ve kültürel hazinelerini dinleyin. Hem ruhunuzu hem de zihninizi besleyen, keyifli ve samimi bir paylaşım anı yaşayacaksınız.\nSon dokunuşları yapmak için masanıza geri döndüğünüzde, lambanızın kalan kısımlarını monte edecek ve eserinize son şeklini vereceksiniz. Kendi ellerinizle yarattığınız, paha biçilmez mozaik lambanızı, güvenli taşıma çantasıyla beraber gururla evinize götürün. Bu sadece bir lamba değil, İstanbul anılarınızı ve el emeğinizin değerini sonsuza dek yaşatacak, göz kamaştırıcı bir hatıradır. Hemen yerinizi ayırtın ve bu ışıklı serüvene adım atın!\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSını",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/mozaik-lamba-atolyesi/mozaik-lamba-cover.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Bağımsız Sanat Vakfı",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2147",
-            "title": "Mozaik Lamba Atölyesi",
-            "description": "Mozaik Lamba Sanatının Büyüleyici Dünyasına Hoş Geldiniz!\nİstanbul’un tarihi atmosferinde, asırlık Türk mozaik lamba sanatının derinliklerine inmeye hazır mısınız?\nBu eşsiz atölyede, sadece bir zanaat öğrenmekle kalmayacak, aynı zamanda evinizin en özel köşesini aydınlatacak, ruhu olan bir eser yaratacaksınız. Tecrübeli ustalarımızın rehberliğinde, canlı renklerin ve geleneksel desenlerin gizemli hikayesini keşfedin. Bu, sadece bir hobi değil, aynı zamanda kültürel bir yolculuğa çıkma davetidir.\nDeneyime, atölyemizin kültürel önemini ve lambaların Anadolu medeniyetlerindeki yerini anlatan keyifli bir sunumla başlıyoruz. Türk misafirperverliğini iliklerinize kadar hissedeceğiniz bu ortamda, mozaik sanatının inceliklerini ve desenlerin dilini çözümlüyoruz. Ardından, geleneksel bir motif oluşturmak üzere cam küre üzerine geometrik şablonları nasıl uygulayacağınızı adım adım öğreneceksiniz. 45’ten fazla farklı renkteki mozaik taş ve cam boncukları kullanarak, kendi kişisel hikayenizi yansıtan, göz kamaştırıcı bir tasarım oluşturmanın tadını çıkarın.\nSanat eserinizi özenle yerleştirip kurumasını beklerken, kısa bir mola veriyoruz. Bu esnada, taze demlenmiş mis kokulu Türk çayı veya kahvesi eşliğinde, el yapımı nefis kurabiyelerimizi tadarken koyu bir sohbete dalın. Ustalarımızdan, İstanbul’un sadece turistik değil, aynı zamanda gizli kalmış, yerel halkın bildiği tarihi ve kültürel hazinelerini dinleyin. Hem ruhunuzu hem de zihninizi besleyen, keyifli ve samimi bir paylaşım anı yaşayacaksınız.\nSon dokunuşları yapmak için masanıza geri döndüğünüzde, lambanızın kalan kısımlarını monte edecek ve eserinize son şeklini vereceksiniz. Kendi ellerinizle yarattığınız, paha biçilmez mozaik lambanızı, güvenli taşıma çantasıyla beraber gururla evinize götürün. Bu sadece bir lamba değil, İstanbul anılarınızı ve el emeğinizin değerini sonsuza dek yaşatacak, göz kamaştırıcı bir hatıradır. Hemen yerinizi ayırtın ve bu ışıklı serüvene adım atın!\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSını",
-            "source_url": "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1400.0,
-              "max_value": 1400.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "Mozaik Lamba",
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi"
-    ],
-    "external_id": "2147",
-    "category": "activity",
-    "address": "Hobyar, Ankara Cd. No;3, 34110 Fatih/İstanbul",
-    "venue": "Bağımsız Sanat Vakfı",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.011702,
-    "longitude": 28.975139,
-    "fetched_at": null
-  },
-  {
     "title": "Parfüm Atölyesi",
     "description": "İstanbul'da kendi imzanızı taşıyan parfümünüzü yaratın. Bir uzmanın önderliğinde, esans sanatını keşfeden 2 saatlik bir parfüm yapımı atölyesine katılın.\nİstanbul'un eski parfüm hikayesini ve baharat satışındaki rolünü keşfedin. İnsanların parfümleri nasıl yaptığını görün ve Türk gülünden sandal ağacına kadar birçok malzemeyi öğrenin. Koklamak için 50'den fazla çeşit var! En çok beğendiğiniz kokuları bulun ve kendi özel parfümünüzü yaratın.\nParfümünüz yapılırken güzel bir Türk çayı veya kahvesi içebilirsiniz. Ayrıca taze kurabiye de alacaksın. Şehrin gizli mücevherleri ve sırları hakkında konuşmalar yapın.\nParfümünüze bir isim verin ve 50 ml'lik şişeniz için benzersiz bir etiket tasarlayın. Gelecekte parfümünüzü yeniden yaratabilmeniz için tarifi içeren bir kart da alacaksınız.\nSon olarak, kendi özel parfüm şişenizi alarak deneyiminizi sonlandırın.\nBir parfümden daha fazlasıyla ayrılın; Tamamı kendi ellerinizle hazırlanmış parfüm yapımı yolculuğunuzun anısını evinize götürün.\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar:\nBir uzmanla kendi eşsiz parfümünüzü yaratın\nİstanbul parfümlerinin büyüleyici tarihine dalın\nParfüm yapma sanatının ardındaki sırları ortaya çıkarın\nSizin tarafınızdan tasarlanan bir etikete sahip özelleştirilmiş bir 50ml parfüm şişesini eve götürün\nİstanbul'un gizli mücevherlerini keşfederken Türk misafirperverliğini deneyimleyin\nKurallar:\nEtkinlik 3 saat sürmektedir.\nEtkinlik başlangıcından 15 dakika sonra derse giriş yapılamaz.\nTüm malzemeler fiyatımıza dahildir.\nBilet fiyatları ve malzeme kullanımı kişi başıdır.\n5 yaş ve üzeri tüm katılımcılar için uygundur.",
     "type": "activity",
@@ -168913,6 +168800,85 @@
     "fetched_at": null
   },
   {
+    "title": "Mozaik Lamba Atölyesi",
+    "description": "Mozaik Lamba Sanatının Büyüleyici Dünyasına Hoş Geldiniz!\nİstanbul’un tarihi atmosferinde, asırlık Türk mozaik lamba sanatının derinliklerine inmeye hazır mısınız?\nBu eşsiz atölyede, sadece bir zanaat öğrenmekle kalmayacak, aynı zamanda evinizin en özel köşesini aydınlatacak, ruhu olan bir eser yaratacaksınız. Tecrübeli ustalarımızın rehberliğinde, canlı renklerin ve geleneksel desenlerin gizemli hikayesini keşfedin. Bu, sadece bir hobi değil, aynı zamanda kültürel bir yolculuğa çıkma davetidir.\nDeneyime, atölyemizin kültürel önemini ve lambaların Anadolu medeniyetlerindeki yerini anlatan keyifli bir sunumla başlıyoruz. Türk misafirperverliğini iliklerinize kadar hissedeceğiniz bu ortamda, mozaik sanatının inceliklerini ve desenlerin dilini çözümlüyoruz. Ardından, geleneksel bir motif oluşturmak üzere cam küre üzerine geometrik şablonları nasıl uygulayacağınızı adım adım öğreneceksiniz. 45’ten fazla farklı renkteki mozaik taş ve cam boncukları kullanarak, kendi kişisel hikayenizi yansıtan, göz kamaştırıcı bir tasarım oluşturmanın tadını çıkarın.\nSanat eserinizi özenle yerleştirip kurumasını beklerken, kısa bir mola veriyoruz. Bu esnada, taze demlenmiş mis kokulu Türk çayı veya kahvesi eşliğinde, el yapımı nefis kurabiyelerimizi tadarken koyu bir sohbete dalın. Ustalarımızdan, İstanbul’un sadece turistik değil, aynı zamanda gizli kalmış, yerel halkın bildiği tarihi ve kültürel hazinelerini dinleyin. Hem ruhunuzu hem de zihninizi besleyen, keyifli ve samimi bir paylaşım anı yaşayacaksınız.\nSon dokunuşları yapmak için masanıza geri döndüğünüzde, lambanızın kalan kısımlarını monte edecek ve eserinize son şeklini vereceksiniz. Kendi ellerinizle yarattığınız, paha biçilmez mozaik lambanızı, güvenli taşıma çantasıyla beraber gururla evinize götürün. Bu sadece bir lamba değil, İstanbul anılarınızı ve el emeğinizin değerini sonsuza dek yaşatacak, göz kamaştırıcı bir hatıradır. Hemen yerinizi ayırtın ve bu ışıklı serüvene adım atın!\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSını",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/mozaik-lamba-atolyesi/mozaik-lamba-cover.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bağımsız Sanat Vakfı",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2147",
+            "title": "Mozaik Lamba Atölyesi",
+            "description": "Mozaik Lamba Sanatının Büyüleyici Dünyasına Hoş Geldiniz!\nİstanbul’un tarihi atmosferinde, asırlık Türk mozaik lamba sanatının derinliklerine inmeye hazır mısınız?\nBu eşsiz atölyede, sadece bir zanaat öğrenmekle kalmayacak, aynı zamanda evinizin en özel köşesini aydınlatacak, ruhu olan bir eser yaratacaksınız. Tecrübeli ustalarımızın rehberliğinde, canlı renklerin ve geleneksel desenlerin gizemli hikayesini keşfedin. Bu, sadece bir hobi değil, aynı zamanda kültürel bir yolculuğa çıkma davetidir.\nDeneyime, atölyemizin kültürel önemini ve lambaların Anadolu medeniyetlerindeki yerini anlatan keyifli bir sunumla başlıyoruz. Türk misafirperverliğini iliklerinize kadar hissedeceğiniz bu ortamda, mozaik sanatının inceliklerini ve desenlerin dilini çözümlüyoruz. Ardından, geleneksel bir motif oluşturmak üzere cam küre üzerine geometrik şablonları nasıl uygulayacağınızı adım adım öğreneceksiniz. 45’ten fazla farklı renkteki mozaik taş ve cam boncukları kullanarak, kendi kişisel hikayenizi yansıtan, göz kamaştırıcı bir tasarım oluşturmanın tadını çıkarın.\nSanat eserinizi özenle yerleştirip kurumasını beklerken, kısa bir mola veriyoruz. Bu esnada, taze demlenmiş mis kokulu Türk çayı veya kahvesi eşliğinde, el yapımı nefis kurabiyelerimizi tadarken koyu bir sohbete dalın. Ustalarımızdan, İstanbul’un sadece turistik değil, aynı zamanda gizli kalmış, yerel halkın bildiği tarihi ve kültürel hazinelerini dinleyin. Hem ruhunuzu hem de zihninizi besleyen, keyifli ve samimi bir paylaşım anı yaşayacaksınız.\nSon dokunuşları yapmak için masanıza geri döndüğünüzde, lambanızın kalan kısımlarını monte edecek ve eserinize son şeklini vereceksiniz. Kendi ellerinizle yarattığınız, paha biçilmez mozaik lambanızı, güvenli taşıma çantasıyla beraber gururla evinize götürün. Bu sadece bir lamba değil, İstanbul anılarınızı ve el emeğinizin değerini sonsuza dek yaşatacak, göz kamaştırıcı bir hatıradır. Hemen yerinizi ayırtın ve bu ışıklı serüvene adım atın!\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSını",
+            "source_url": "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1400.0,
+              "max_value": 1400.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Mozaik Lamba",
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/mozaik-lamba-atolyesi"
+    ],
+    "external_id": "2147",
+    "category": "activity",
+    "address": "Hobyar, Ankara Cd. No;3, 34110 Fatih/İstanbul",
+    "venue": "Bağımsız Sanat Vakfı",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.011702,
+    "longitude": 28.975139,
+    "fetched_at": null
+  },
+  {
     "title": "Tezhip Atölyesi",
     "description": "Sizi bir zamanlar el yazmalarını, fermanları ve Kuran-ı Kerim'leri süsleyen o görkemli dünyaya, yani geleneksel Türk tezhih sanatına davet ediyoruz. İstanbul'da, sadece 3 saat sürecek bu özel atölyede, bu kadim sanat formunu tanımlayan o eşsiz, incecik işlenmiş bitkisel ve geometrik motiflerin sırlarını keşfedeceksiniz. Osmanlı ihtişamının zarafetini kendi ellerinizle tecrübe etmeye hazır olun.\nAtölyemiz, sanatın tarihçesine kısa ve etkileyici bir girişle başlıyor; Tezhip'in Osmanlı'daki yükselişini ve günümüze nasıl taşındığını öğreneceksiniz. Ardından, bir usta sanatkâr rehberliğinde doğrudan uygulamaya geçiyoruz. Fırça kullanma ve altın varak uygulama tekniklerinin temellerini öğrenecek, gerçek altın ve doğal pigmentlerle özel kâğıt üzerine önceden çizilmiş bir deseni süsleyeceksiniz. Katmanlama, gölgelendirme ve detaylandırma gibi inceliklerle motifleri hayata geçirmenin büyüsüne tanık olun.\nYoğun sanat çalışmanızın ardından hak ettiğiniz keyifli bir mola zamanı! Eseriniz kurumaya bırakılırken, size ikramımız olan sınırsız Türk çayı veya kahvesi ile taze, el yapımı kurabiyelerin tadını çıkarın. Bu sıcak atmosferde, diğer misafirlerle sanat ve tasarımların kültürel hikayeleri üzerine sohbet edebilir, deneyiminizi daha da zenginleştirebilirsiniz. Misafirperverliğimiz bu sanatsal yolculuğun ayrılmaz bir parçası.\nAtölyenin sonunda, sadece bir bilgi birikimiyle değil, aynı zamanda bizzat kendi ellerinizle yarattığınız o eşsiz Tezhip eseriyle ayrılacaksınız. Bu sanat eseri, hem İstanbul anılarınızın hem de Osmanlı sanatına yaptığınız yaratıcı yolculuğun en zarif ve kişisel hatırası olacak. Sanatla mühürlediğiniz bu deneyiminizi teyit eden özel bir sertifika da cabası. Hemen yerinizi ayırtın ve bu sanat dolu maceraya adım atın!\nETKİNLİK TAKVİMİ - Mart 2026\nHafta İçin Günler: 09.00 - 12.00 - 15.00\nCumartesi Günleri: 15.00\nPazar Günleri: 12.00 - 15.00\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar",
     "type": "activity",
@@ -168979,6 +168945,85 @@
       "https://www.bilet.com/etkinlik/tezhip-atolyesi"
     ],
     "external_id": "2149",
+    "category": "activity",
+    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
+    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.023278,
+    "longitude": 29.014729,
+    "fetched_at": null
+  },
+  {
+    "title": "Vitray Atölyesi",
+    "description": "Vitray sanatının zamansız güzelliği ve yaratıcı ışık oyunları ile tanışmaya hazır mısınız?\nBu eşsiz yolculukta, Avrupa ve Afrika'dan Türkiye topraklarına uzanan köklü bir sanatın tarihini ve inceliklerini keşfedeceksiniz. Kendi ellerinizle bir şaheser yaratırken, her bir cam parçasının anlattığı o derin hikâyeye ortak olacaksınız. Sanatın bu büyüleyici formu, şimdi Türk kültürü ve estetiğiyle buluşuyor.\nSizi, zengin Türk gelenekleriyle harmanlanmış vitray tekniklerine derinlemesine bir dalış yapmaya davet ediyoruz. Yerel ustalarımızın rehberliğinde, yalnızca cam boyama becerilerinizi değil, aynı zamanda hayalinizdeki renk paletini cama nasıl aktaracağınızı öğreneceksiniz. Pratik uygulamalı seanslarla yeteneklerinizi zirveye taşırken, bu kadim zanaatın inceliklerini uzmanından öğrenmenin keyfini yaşayacaksınız.\nAtölyemizde sadece bir eğitim almıyorsunuz, aynı zamanda keyifli bir kültürel deneyime ortak oluyorsunuz. Molalarınızda sınırsız Türk çayı, kahvesi ve özel yapım kurabiyelerimiz eşliğinde, İstanbul'un sanatı, kültürü ve saklı kalmış güzellikleri üzerine samimi sohbetlere katılın. Bu dostane ortamda hem yeni dostluklar kuracak hem de eğitiminizi zenginleştireceksiniz. Ayrıca, evinize götüreceğiniz eserinizin uzun ömürlü olması için gereken bakım bilgilerini de alacaksınız.\nBu unutulmaz deneyimden ayrılırken, sadece kendi el emeğiniz olan muhteşem bir sanat eseriyle kalmayacak, aynı zamanda vitray sanatına dair yolculuğunuzun canlı bir hatırasını da yanınızda götüreceksiniz. Atölye sonunda alacağınız onaylı sertifika ve eserinizin koruyucu ambalajı ile bu benzersiz anıyı güvenle taşıyın. Kendi ışığınızı yansıtacağınız bu sanatsal maceraya hemen katılın!\nETKİNLİK TAKVİMİ - Mart 2026\nHafta İçi Seanslar: 09.00 - 12.00 - 15.00\nHafta Sonu Seanslar: 12:00 - 15:00\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar:\nUygulamalı bir atölye çalışması sırasında güzel vitray boyama sanatını keşfedin\nSıcak",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/vitray-atolyesi/vitray-cover.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2151",
+            "title": "Vitray Atölyesi",
+            "description": "Vitray sanatının zamansız güzelliği ve yaratıcı ışık oyunları ile tanışmaya hazır mısınız?\nBu eşsiz yolculukta, Avrupa ve Afrika'dan Türkiye topraklarına uzanan köklü bir sanatın tarihini ve inceliklerini keşfedeceksiniz. Kendi ellerinizle bir şaheser yaratırken, her bir cam parçasının anlattığı o derin hikâyeye ortak olacaksınız. Sanatın bu büyüleyici formu, şimdi Türk kültürü ve estetiğiyle buluşuyor.\nSizi, zengin Türk gelenekleriyle harmanlanmış vitray tekniklerine derinlemesine bir dalış yapmaya davet ediyoruz. Yerel ustalarımızın rehberliğinde, yalnızca cam boyama becerilerinizi değil, aynı zamanda hayalinizdeki renk paletini cama nasıl aktaracağınızı öğreneceksiniz. Pratik uygulamalı seanslarla yeteneklerinizi zirveye taşırken, bu kadim zanaatın inceliklerini uzmanından öğrenmenin keyfini yaşayacaksınız.\nAtölyemizde sadece bir eğitim almıyorsunuz, aynı zamanda keyifli bir kültürel deneyime ortak oluyorsunuz. Molalarınızda sınırsız Türk çayı, kahvesi ve özel yapım kurabiyelerimiz eşliğinde, İstanbul'un sanatı, kültürü ve saklı kalmış güzellikleri üzerine samimi sohbetlere katılın. Bu dostane ortamda hem yeni dostluklar kuracak hem de eğitiminizi zenginleştireceksiniz. Ayrıca, evinize götüreceğiniz eserinizin uzun ömürlü olması için gereken bakım bilgilerini de alacaksınız.\nBu unutulmaz deneyimden ayrılırken, sadece kendi el emeğiniz olan muhteşem bir sanat eseriyle kalmayacak, aynı zamanda vitray sanatına dair yolculuğunuzun canlı bir hatırasını da yanınızda götüreceksiniz. Atölye sonunda alacağınız onaylı sertifika ve eserinizin koruyucu ambalajı ile bu benzersiz anıyı güvenle taşıyın. Kendi ışığınızı yansıtacağınız bu sanatsal maceraya hemen katılın!\nETKİNLİK TAKVİMİ - Mart 2026\nHafta İçi Seanslar: 09.00 - 12.00 - 15.00\nHafta Sonu Seanslar: 12:00 - 15:00\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar:\nUygulamalı bir atölye çalışması sırasında güzel vitray boyama sanatını keşfedin\nSıcak",
+            "source_url": "https://www.bilet.com/etkinlik/vitray-atolyesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1100.0,
+              "max_value": 1100.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/vitray-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Vitray",
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/vitray-atolyesi"
+    ],
+    "external_id": "2151",
     "category": "activity",
     "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
     "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
@@ -169150,85 +169195,6 @@
     "fetched_at": null
   },
   {
-    "title": "Vitray Atölyesi",
-    "description": "Vitray sanatının zamansız güzelliği ve yaratıcı ışık oyunları ile tanışmaya hazır mısınız?\nBu eşsiz yolculukta, Avrupa ve Afrika'dan Türkiye topraklarına uzanan köklü bir sanatın tarihini ve inceliklerini keşfedeceksiniz. Kendi ellerinizle bir şaheser yaratırken, her bir cam parçasının anlattığı o derin hikâyeye ortak olacaksınız. Sanatın bu büyüleyici formu, şimdi Türk kültürü ve estetiğiyle buluşuyor.\nSizi, zengin Türk gelenekleriyle harmanlanmış vitray tekniklerine derinlemesine bir dalış yapmaya davet ediyoruz. Yerel ustalarımızın rehberliğinde, yalnızca cam boyama becerilerinizi değil, aynı zamanda hayalinizdeki renk paletini cama nasıl aktaracağınızı öğreneceksiniz. Pratik uygulamalı seanslarla yeteneklerinizi zirveye taşırken, bu kadim zanaatın inceliklerini uzmanından öğrenmenin keyfini yaşayacaksınız.\nAtölyemizde sadece bir eğitim almıyorsunuz, aynı zamanda keyifli bir kültürel deneyime ortak oluyorsunuz. Molalarınızda sınırsız Türk çayı, kahvesi ve özel yapım kurabiyelerimiz eşliğinde, İstanbul'un sanatı, kültürü ve saklı kalmış güzellikleri üzerine samimi sohbetlere katılın. Bu dostane ortamda hem yeni dostluklar kuracak hem de eğitiminizi zenginleştireceksiniz. Ayrıca, evinize götüreceğiniz eserinizin uzun ömürlü olması için gereken bakım bilgilerini de alacaksınız.\nBu unutulmaz deneyimden ayrılırken, sadece kendi el emeğiniz olan muhteşem bir sanat eseriyle kalmayacak, aynı zamanda vitray sanatına dair yolculuğunuzun canlı bir hatırasını da yanınızda götüreceksiniz. Atölye sonunda alacağınız onaylı sertifika ve eserinizin koruyucu ambalajı ile bu benzersiz anıyı güvenle taşıyın. Kendi ışığınızı yansıtacağınız bu sanatsal maceraya hemen katılın!\nETKİNLİK TAKVİMİ - Mart 2026\nHafta İçi Seanslar: 09.00 - 12.00 - 15.00\nHafta Sonu Seanslar: 12:00 - 15:00\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar:\nUygulamalı bir atölye çalışması sırasında güzel vitray boyama sanatını keşfedin\nSıcak",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/vitray-atolyesi/vitray-cover.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2151",
-            "title": "Vitray Atölyesi",
-            "description": "Vitray sanatının zamansız güzelliği ve yaratıcı ışık oyunları ile tanışmaya hazır mısınız?\nBu eşsiz yolculukta, Avrupa ve Afrika'dan Türkiye topraklarına uzanan köklü bir sanatın tarihini ve inceliklerini keşfedeceksiniz. Kendi ellerinizle bir şaheser yaratırken, her bir cam parçasının anlattığı o derin hikâyeye ortak olacaksınız. Sanatın bu büyüleyici formu, şimdi Türk kültürü ve estetiğiyle buluşuyor.\nSizi, zengin Türk gelenekleriyle harmanlanmış vitray tekniklerine derinlemesine bir dalış yapmaya davet ediyoruz. Yerel ustalarımızın rehberliğinde, yalnızca cam boyama becerilerinizi değil, aynı zamanda hayalinizdeki renk paletini cama nasıl aktaracağınızı öğreneceksiniz. Pratik uygulamalı seanslarla yeteneklerinizi zirveye taşırken, bu kadim zanaatın inceliklerini uzmanından öğrenmenin keyfini yaşayacaksınız.\nAtölyemizde sadece bir eğitim almıyorsunuz, aynı zamanda keyifli bir kültürel deneyime ortak oluyorsunuz. Molalarınızda sınırsız Türk çayı, kahvesi ve özel yapım kurabiyelerimiz eşliğinde, İstanbul'un sanatı, kültürü ve saklı kalmış güzellikleri üzerine samimi sohbetlere katılın. Bu dostane ortamda hem yeni dostluklar kuracak hem de eğitiminizi zenginleştireceksiniz. Ayrıca, evinize götüreceğiniz eserinizin uzun ömürlü olması için gereken bakım bilgilerini de alacaksınız.\nBu unutulmaz deneyimden ayrılırken, sadece kendi el emeğiniz olan muhteşem bir sanat eseriyle kalmayacak, aynı zamanda vitray sanatına dair yolculuğunuzun canlı bir hatırasını da yanınızda götüreceksiniz. Atölye sonunda alacağınız onaylı sertifika ve eserinizin koruyucu ambalajı ile bu benzersiz anıyı güvenle taşıyın. Kendi ışığınızı yansıtacağınız bu sanatsal maceraya hemen katılın!\nETKİNLİK TAKVİMİ - Mart 2026\nHafta İçi Seanslar: 09.00 - 12.00 - 15.00\nHafta Sonu Seanslar: 12:00 - 15:00\nNeleri İçeriyor:\nEl yapımı Kurabiyeler\nSınırsız çay,kahve ve su\nDoğrulanmış sertifika\nEve götürülecek hatıra\nÖne Çıkanlar:\nUygulamalı bir atölye çalışması sırasında güzel vitray boyama sanatını keşfedin\nSıcak",
-            "source_url": "https://www.bilet.com/etkinlik/vitray-atolyesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1100.0,
-              "max_value": 1100.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/vitray-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "Vitray",
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/vitray-atolyesi"
-    ],
-    "external_id": "2151",
-    "category": "activity",
-    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
-    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.023278,
-    "longitude": 29.014729,
-    "fetched_at": null
-  },
-  {
     "title": "Conia Buggy Off-Road/Safari Çekmeköy",
     "description": "İstanbul Anadolu Yakası Buggy Offroad\nİstanbul Anadolu Yakası, Nişantepe Orman Park içerisinde offroad tutkunlarının vazgeçilmez noktası olan Conia Buggy Offroad Merkezi, buggy araçlarla güvenli ve eğlenceli bir macera sunuyor. Ailece keyifli bir gün geçirmek isteyenler için ideal olan çift kişilik araçlar, her yaştan misafire hitap ediyor. Orman içinde, doğayla iç içe, zorlu ama bir o kadarda eğlenceli parkurlarda geçireceğiniz unutulmaz anlar sizi bekliyor.\nConia Buggy, her türlü tecrübeye sahip kullanıcıya hitap eden bir merkez olarak, profesyonel eğitmenlerle birlikte offroad deneyimi sunuyor. İster ilk defa deniyor olun, ister deneyimli bir sürücü; güvenlik önlemleri ve araç kontrolleriyle size sadece eğlence kalıyor. Zorlu parkurlar, doğanın güzellikleriyle birleşerek heyecan dolu bir maceraya dönüşüyor.\nİstanbul'da benzersiz bir eğlence deneyimi yaşamak için Conia Buggy Offroad Merkezi'ni tercih edin.\nHem doğa ile iç içe olun hem de adrenalin dolu anlar yaşayın. Ailece keyifli bir gün geçirmek isteyen herkesi Conia Buggy Offroad merkezine bekliyoruz.\nProfesyonel off road parkuru 12 etaptan oluşan bol sulu bol çamurlu bol engebeli bir parkurdur ve Parkura Rehbersiz girilmektedir.\nEtkinlik Detayları ve Kurallar\nParkura rehbersiz girilmektedir.\nAraçların emniyet kemeri mevcut ve güvenlidir. Devrilme riski yoktur.\nEtkinlik katılım için Min. 16 yaş sınırı vardır.\nEhliyet zorunluluğu yoktur.\n2 Kişilik araçlarda 7 yaşından küçük olmamak üzere şoför ile bereber yolcu katılabilir. Ancak 2 kişilik araçlarda MAX 140 KG (şoför + yolcu) sınırı vardır.\nKask, gözlük ve kalın yağmurluk verilmektedir. Yedek ayakkabı getirilmesi önerilir.\nSeanslar sabah 08.00 akşam 20.30 arasındadır. Araç ve kişi sınırlaması yoktur. 0546 253 99 42 numaralı hattan arayarak yoğunluk durumu hakkında bilgi alınabilir.\n1 tur ücreti Bilet.com'a özel olarak Tek Kişilik Araç için 1.250 TL ve İki Kişilik Araç (Max. 140 Kg) için 1.800 TL olarak belirlenmiştir.\nBuggy ile safari yapılmak istenirse, orman ",
     "type": "activity",
@@ -169387,164 +169353,6 @@
     "fetched_at": null
   },
   {
-    "title": "Conia Macera Parkı Çekmeköy",
-    "description": "Conia Macera Parkı İstanbul\nAVANTAJLI MACERA PAKETİ\nMacera Paketi, tüm macera parkı istasyonları için 1'er defa kullanım hakkı sağlar. Kişi başı ücreti 1.000 TL'dir.\n*Macera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir. Parkın bölümlerini bu sayfanın alt bölümünde inceleyebilirsiniz.\nEtkinlik Detayları ve Kurallar\nMacera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir.\nEtkinlik katılım için Min. 30 kg ve Max. 110 kg sınırı vardır.\n0546 253 99 42 numaralı hattan arayarak yoğunluk durumu ve park üniteleri hakkında detaylı bilgi alınabilir.\nAvantajlı Macera Paketi Bilet.com'a özel fırsattır. İp Parkuru, Zipcoaster, Ziptour ve Dev Salıncak bölümlerinde 1'er defa kullanım hakkı sağlar.\nSatın alınan biletler 1 kişiliktir.\nSatın Alınan Biletlerde İptal veya İade Yapılamaz.\nBiletler satın alındıktan sonra 2 ay boyunca geçerlidir.\nConia Macera Parkı Bölümleri\nİp Parkuru\nİp parkuru 4 yoldan oluşup Zor, Orta, Kolay ve Yüksek kısım olarak ayrılmaktadır ve toplam 66 İstasyondan oluşmaktadır. Parkın muhteşem doğal alanları içinde yer alan ip parkuru, ziyaetçilere zorlu engellerden geçme ve yüksekten ip üzerinde ilerleme fırsatı vererek adrenalin dolu bir macera sunmaktadır.\nConia Macera Parkı'nın ip parkuru hizmeti, farklı zorluk seviyelerinde parkurlar sunar. Bu sayede, hem yeni başlayanlar hem de deneyimli macera severler için uygun bir aktivitedir. Ziyaretçiler, parkın profesyonel eğitmenleri eşliğinde güvenli bir şekilde parkuru tamamlarken, aynı zamanda eğlenceli ve heyecan dolu bir deneyim yaşarlar.\nZiyaretçilerin güvenliğini sağlamak için güvenlik standartlarını en yüksek seviyede tutulmaktadır. İp parkuru alanı, sürekli olarak gözetim altında bulunan deneyimli personeller tarafından yönetilmektedir.\nZipcoaster\nZipcoaster parkuru 250 Metre uzunluğu ile ziyaretçilere unutulmaz bir deneyim sunuyor.\nGeleneksel zip-line deneyimine heyecan verici bir dönüş getiriyor, ziyaretçileri parkın üzerindeki manzara eşliğinde hızla ilerleyen b",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/conia-macera-parki-cekmekoy/conia-macera-parki-logo.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Conia Game Center",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2338",
-            "title": "Conia Macera Parkı Çekmeköy",
-            "description": "Conia Macera Parkı İstanbul\nAVANTAJLI MACERA PAKETİ\nMacera Paketi, tüm macera parkı istasyonları için 1'er defa kullanım hakkı sağlar. Kişi başı ücreti 1.000 TL'dir.\n*Macera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir. Parkın bölümlerini bu sayfanın alt bölümünde inceleyebilirsiniz.\nEtkinlik Detayları ve Kurallar\nMacera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir.\nEtkinlik katılım için Min. 30 kg ve Max. 110 kg sınırı vardır.\n0546 253 99 42 numaralı hattan arayarak yoğunluk durumu ve park üniteleri hakkında detaylı bilgi alınabilir.\nAvantajlı Macera Paketi Bilet.com'a özel fırsattır. İp Parkuru, Zipcoaster, Ziptour ve Dev Salıncak bölümlerinde 1'er defa kullanım hakkı sağlar.\nSatın alınan biletler 1 kişiliktir.\nSatın Alınan Biletlerde İptal veya İade Yapılamaz.\nBiletler satın alındıktan sonra 2 ay boyunca geçerlidir.\nConia Macera Parkı Bölümleri\nİp Parkuru\nİp parkuru 4 yoldan oluşup Zor, Orta, Kolay ve Yüksek kısım olarak ayrılmaktadır ve toplam 66 İstasyondan oluşmaktadır. Parkın muhteşem doğal alanları içinde yer alan ip parkuru, ziyaetçilere zorlu engellerden geçme ve yüksekten ip üzerinde ilerleme fırsatı vererek adrenalin dolu bir macera sunmaktadır.\nConia Macera Parkı'nın ip parkuru hizmeti, farklı zorluk seviyelerinde parkurlar sunar. Bu sayede, hem yeni başlayanlar hem de deneyimli macera severler için uygun bir aktivitedir. Ziyaretçiler, parkın profesyonel eğitmenleri eşliğinde güvenli bir şekilde parkuru tamamlarken, aynı zamanda eğlenceli ve heyecan dolu bir deneyim yaşarlar.\nZiyaretçilerin güvenliğini sağlamak için güvenlik standartlarını en yüksek seviyede tutulmaktadır. İp parkuru alanı, sürekli olarak gözetim altında bulunan deneyimli personeller tarafından yönetilmektedir.\nZipcoaster\nZipcoaster parkuru 250 Metre uzunluğu ile ziyaretçilere unutulmaz bir deneyim sunuyor.\nGeleneksel zip-line deneyimine heyecan verici bir dönüş getiriyor, ziyaretçileri parkın üzerindeki manzara eşliğinde hızla ilerleyen b",
-            "source_url": "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1000.0,
-              "max_value": 1000.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy"
-    ],
-    "external_id": "2338",
-    "category": "activity",
-    "address": "Nişantepe, Saray Caddesi. No: 321 (Nişantepe Orman Parkı) Çekmeköy / İstanbul",
-    "venue": "Conia Game Center",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.044844,
-    "longitude": 29.270285,
-    "fetched_at": null
-  },
-  {
-    "title": "Artisan Çikolata Yapım Atölyesi",
-    "description": "İstanbul Workshops Artisan Çikolata Yapım Atölyesi\nEtkinlik Oturma Düzeni: Numarasız Oturmalı\nİstanbul: Zanaatkar Çikolata Yapımı Atölyesi\nBir çikolatayı kırdığınızda çıkan o çıt sesi ve parlak yüzeyi hiç merak ettiniz mi?\nÜsküdar'da Istanbul Workshops atölyesinde, bu işin nasıl yapıldığını öğrenip kendi çikolatanızı üretiyorsunuz. Atölye sonunda yaptığınız 250 gram çikolatayı paketleyip yanınızda götürüyorsunuz.\nİlgi Çekici Noktalar\nMermer masa üzerinde profesyonel temperleme tekniğini uygulayın.\nBadem, kaju ve yaban mersinli tablet çikolatanızı kendiniz tasarlayın.\nFıstık, lotus ve fındık dolgulu bonbonları hazırlayın.\nYaptığınız çikolatayı özel ambalajıyla eve götürün, isterseniz hediye edin.\nDeneyiminiz olmasa da fark etmez, her adım gösteriliyor.\nAtölyemiz Üsküdar'da, Studio alanımız veya doğrudan pasta atölyemizde. Çikolatayı sadece satan değil, her gün üreten bir ekipten öğreniyorsunuz.\nCallebaut kuvertür çikolatayla çalışıyoruz. Önlük ve eldivenlerinizi giydikten sonra temperlemeyle başlıyoruz. Mermer masada spatulayla işliyorsunuz. Temperleme, çikolatanın parlak görünmesini ve kırıldığında çıt diye ses çıkarmasını sağlayan adım. Zor gibi görünüyor ama adım adım gösterdiğimiz için rahatça yapabilirsiniz.\nSonra tasarım kısmına geçiyoruz. Tablet çikolatalarınızı badem, kaju, yaban mersini gibi malzemelerle süslüyorsunuz. Dolgulu bonbonlarda ise fıstık, lotus ve fındık kreması kullanıyoruz. Toplamda 250 gram çikolata ortaya çıkıyor, hepsi sizin.\nGrup en fazla 8 kişi, atölye 2,5 saat sürüyor. Daha önce hiç çikolata yapmamış olsanız bile sorun yok.\nDahil Olanlar\nCallebaut kuvertür çikolata ve tüm malzemeler\nÖnlük, eldiven, spatula\nProfesyonel eğitmen eşliğinde uygulamalı atölye\n250 gr el yapımı çikolata (tablet + dolgulu bonbon), paketli\nDahil Olmayanlar\nEkstra yiyecek-içecek (isteğe bağlı)\nÖnemli Bilgiler\nDeneyim gerekmez, her seviyeye uygundur.\nMaksimum 8 kişilik grup.\nFındık ve kuruyemiş alerjiniz varsa rezervasyon sırasında belirtiniz.\nRahat kıyafetlerle gelm",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/artisan-cikolata-yapim-atolyesi/workshop-choco-2.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2345",
-            "title": "Artisan Çikolata Yapım Atölyesi",
-            "description": "İstanbul Workshops Artisan Çikolata Yapım Atölyesi\nEtkinlik Oturma Düzeni: Numarasız Oturmalı\nİstanbul: Zanaatkar Çikolata Yapımı Atölyesi\nBir çikolatayı kırdığınızda çıkan o çıt sesi ve parlak yüzeyi hiç merak ettiniz mi?\nÜsküdar'da Istanbul Workshops atölyesinde, bu işin nasıl yapıldığını öğrenip kendi çikolatanızı üretiyorsunuz. Atölye sonunda yaptığınız 250 gram çikolatayı paketleyip yanınızda götürüyorsunuz.\nİlgi Çekici Noktalar\nMermer masa üzerinde profesyonel temperleme tekniğini uygulayın.\nBadem, kaju ve yaban mersinli tablet çikolatanızı kendiniz tasarlayın.\nFıstık, lotus ve fındık dolgulu bonbonları hazırlayın.\nYaptığınız çikolatayı özel ambalajıyla eve götürün, isterseniz hediye edin.\nDeneyiminiz olmasa da fark etmez, her adım gösteriliyor.\nAtölyemiz Üsküdar'da, Studio alanımız veya doğrudan pasta atölyemizde. Çikolatayı sadece satan değil, her gün üreten bir ekipten öğreniyorsunuz.\nCallebaut kuvertür çikolatayla çalışıyoruz. Önlük ve eldivenlerinizi giydikten sonra temperlemeyle başlıyoruz. Mermer masada spatulayla işliyorsunuz. Temperleme, çikolatanın parlak görünmesini ve kırıldığında çıt diye ses çıkarmasını sağlayan adım. Zor gibi görünüyor ama adım adım gösterdiğimiz için rahatça yapabilirsiniz.\nSonra tasarım kısmına geçiyoruz. Tablet çikolatalarınızı badem, kaju, yaban mersini gibi malzemelerle süslüyorsunuz. Dolgulu bonbonlarda ise fıstık, lotus ve fındık kreması kullanıyoruz. Toplamda 250 gram çikolata ortaya çıkıyor, hepsi sizin.\nGrup en fazla 8 kişi, atölye 2,5 saat sürüyor. Daha önce hiç çikolata yapmamış olsanız bile sorun yok.\nDahil Olanlar\nCallebaut kuvertür çikolata ve tüm malzemeler\nÖnlük, eldiven, spatula\nProfesyonel eğitmen eşliğinde uygulamalı atölye\n250 gr el yapımı çikolata (tablet + dolgulu bonbon), paketli\nDahil Olmayanlar\nEkstra yiyecek-içecek (isteğe bağlı)\nÖnemli Bilgiler\nDeneyim gerekmez, her seviyeye uygundur.\nMaksimum 8 kişilik grup.\nFındık ve kuruyemiş alerjiniz varsa rezervasyon sırasında belirtiniz.\nRahat kıyafetlerle gelm",
-            "source_url": "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 2300.0,
-              "max_value": 2300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "Artisan Çikolata Yapım",
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi"
-    ],
-    "external_id": "2345",
-    "category": "activity",
-    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
-    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.023278,
-    "longitude": 29.014729,
-    "fetched_at": null
-  },
-  {
     "title": "Conia Lazer Tag Çekmeköy",
     "description": "Laser Tag İstanbul\nİstanbul Anadolu Yakasında, son model lazer silahlarıyla efsane bir laser tag deneyimine hazır mısınız?\nGörünümü gerçeği ile birebir olan lazer silahları ile hizmet veren Conia Lazer Tag, modern ve eğlenceli bir lazer silahlı eğlence merkezi olarak öne çıkmaktadır.\nConia Lazer, ziyaretçilerine interaktif ve heyecan dolu bir deneyim sunmak için son teknoloji lazer silahlar ve oyun alanlarıyla hizmet sunmaktadır. Her yaş grubundan katılımcıların ilgisini çeken bu merkez, aileler, arkadaş grupları ve şirket etkinlikleri için mükemmel bir eğlence mekanıdır.\nConia Lazer Tag, parkur alanında geniş ve çeşitli oyun seçenekleriyle her zevke uygun bir deneyim parkurundan oluşmaktadır. Farklı temalarda tasarlanmış oyun sahalarında strateji ve rekabet dolu mücadeleler yaşayabilirsiniz.\nTesiste, katılımcıların güvenliğini sağlamak için gerekli tüm önlemler alınmakta ve deneyimli personeller tarafından rutin kontroller günlük olarak yapılmaktadır. Ziyaretçiler, modern teknolojiyle donatılmış lazer silahlarıyla eğlenceli ve güvenli bir ortamda keyifli vakit geçirebilirler.\nSınırsırz Mermiyle 45 Dakika Oyun Süresi Bilet.com'a Özel Kişi Başı 650 TL Yerine 600 TL\nEtkinlik Detayları ve Kurallar\nOrman içerisinde bulunan oyun sahasında Min. 8 Kişi ve Max. 14 Kişi oynayabilir.\nTürkiye'de de tek olan, gerçeği ile bire bir aynı lasertag silahları ile hizmet verilmektedir.\nWi-fi üzerinden haberleşme sağlayan sistemle kesintisiz, algılama hassasiyeti yüksek silahlar ile 7 farklı oyun senaryosu oynanabilmektedir.\n7 farklı silah çeşidi sunulmaktadır.\nOyunculara oyun içi haberleşmeleri için Telsiz ve Taktik Hücum Yeleği verilmektedir.\nMin 14 yaş sınırı vardır.\nOyun Süresi 45 dakikadır.\nOyun alanı Sabah 08.00 - Gece 12.00 saatleri arasında kullanıma açıktır.\nSaat rezervasyonu için Bilet.com'dan biletinizi aldıktan sonra  0546 253 99 42 numaralı hattan rezervasyon yaptırabilirsiniz.\nAlınan Biletlerde İptal veya İade Yapılamaz.",
     "type": "activity",
@@ -169611,6 +169419,85 @@
       "https://www.bilet.com/etkinlik/conia-lazer-tag-cekmekoy"
     ],
     "external_id": "2337",
+    "category": "activity",
+    "address": "Nişantepe, Saray Caddesi. No: 321 (Nişantepe Orman Parkı) Çekmeköy / İstanbul",
+    "venue": "Conia Game Center",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.044844,
+    "longitude": 29.270285,
+    "fetched_at": null
+  },
+  {
+    "title": "Conia Macera Parkı Çekmeköy",
+    "description": "Conia Macera Parkı İstanbul\nAVANTAJLI MACERA PAKETİ\nMacera Paketi, tüm macera parkı istasyonları için 1'er defa kullanım hakkı sağlar. Kişi başı ücreti 1.000 TL'dir.\n*Macera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir. Parkın bölümlerini bu sayfanın alt bölümünde inceleyebilirsiniz.\nEtkinlik Detayları ve Kurallar\nMacera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir.\nEtkinlik katılım için Min. 30 kg ve Max. 110 kg sınırı vardır.\n0546 253 99 42 numaralı hattan arayarak yoğunluk durumu ve park üniteleri hakkında detaylı bilgi alınabilir.\nAvantajlı Macera Paketi Bilet.com'a özel fırsattır. İp Parkuru, Zipcoaster, Ziptour ve Dev Salıncak bölümlerinde 1'er defa kullanım hakkı sağlar.\nSatın alınan biletler 1 kişiliktir.\nSatın Alınan Biletlerde İptal veya İade Yapılamaz.\nBiletler satın alındıktan sonra 2 ay boyunca geçerlidir.\nConia Macera Parkı Bölümleri\nİp Parkuru\nİp parkuru 4 yoldan oluşup Zor, Orta, Kolay ve Yüksek kısım olarak ayrılmaktadır ve toplam 66 İstasyondan oluşmaktadır. Parkın muhteşem doğal alanları içinde yer alan ip parkuru, ziyaetçilere zorlu engellerden geçme ve yüksekten ip üzerinde ilerleme fırsatı vererek adrenalin dolu bir macera sunmaktadır.\nConia Macera Parkı'nın ip parkuru hizmeti, farklı zorluk seviyelerinde parkurlar sunar. Bu sayede, hem yeni başlayanlar hem de deneyimli macera severler için uygun bir aktivitedir. Ziyaretçiler, parkın profesyonel eğitmenleri eşliğinde güvenli bir şekilde parkuru tamamlarken, aynı zamanda eğlenceli ve heyecan dolu bir deneyim yaşarlar.\nZiyaretçilerin güvenliğini sağlamak için güvenlik standartlarını en yüksek seviyede tutulmaktadır. İp parkuru alanı, sürekli olarak gözetim altında bulunan deneyimli personeller tarafından yönetilmektedir.\nZipcoaster\nZipcoaster parkuru 250 Metre uzunluğu ile ziyaretçilere unutulmaz bir deneyim sunuyor.\nGeleneksel zip-line deneyimine heyecan verici bir dönüş getiriyor, ziyaretçileri parkın üzerindeki manzara eşliğinde hızla ilerleyen b",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/conia-macera-parki-cekmekoy/conia-macera-parki-logo.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Conia Game Center",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2338",
+            "title": "Conia Macera Parkı Çekmeköy",
+            "description": "Conia Macera Parkı İstanbul\nAVANTAJLI MACERA PAKETİ\nMacera Paketi, tüm macera parkı istasyonları için 1'er defa kullanım hakkı sağlar. Kişi başı ücreti 1.000 TL'dir.\n*Macera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir. Parkın bölümlerini bu sayfanın alt bölümünde inceleyebilirsiniz.\nEtkinlik Detayları ve Kurallar\nMacera Parkı Sabah 10.00 - Akşam 19.30 saatleri arasında hizmet vermektedir.\nEtkinlik katılım için Min. 30 kg ve Max. 110 kg sınırı vardır.\n0546 253 99 42 numaralı hattan arayarak yoğunluk durumu ve park üniteleri hakkında detaylı bilgi alınabilir.\nAvantajlı Macera Paketi Bilet.com'a özel fırsattır. İp Parkuru, Zipcoaster, Ziptour ve Dev Salıncak bölümlerinde 1'er defa kullanım hakkı sağlar.\nSatın alınan biletler 1 kişiliktir.\nSatın Alınan Biletlerde İptal veya İade Yapılamaz.\nBiletler satın alındıktan sonra 2 ay boyunca geçerlidir.\nConia Macera Parkı Bölümleri\nİp Parkuru\nİp parkuru 4 yoldan oluşup Zor, Orta, Kolay ve Yüksek kısım olarak ayrılmaktadır ve toplam 66 İstasyondan oluşmaktadır. Parkın muhteşem doğal alanları içinde yer alan ip parkuru, ziyaetçilere zorlu engellerden geçme ve yüksekten ip üzerinde ilerleme fırsatı vererek adrenalin dolu bir macera sunmaktadır.\nConia Macera Parkı'nın ip parkuru hizmeti, farklı zorluk seviyelerinde parkurlar sunar. Bu sayede, hem yeni başlayanlar hem de deneyimli macera severler için uygun bir aktivitedir. Ziyaretçiler, parkın profesyonel eğitmenleri eşliğinde güvenli bir şekilde parkuru tamamlarken, aynı zamanda eğlenceli ve heyecan dolu bir deneyim yaşarlar.\nZiyaretçilerin güvenliğini sağlamak için güvenlik standartlarını en yüksek seviyede tutulmaktadır. İp parkuru alanı, sürekli olarak gözetim altında bulunan deneyimli personeller tarafından yönetilmektedir.\nZipcoaster\nZipcoaster parkuru 250 Metre uzunluğu ile ziyaretçilere unutulmaz bir deneyim sunuyor.\nGeleneksel zip-line deneyimine heyecan verici bir dönüş getiriyor, ziyaretçileri parkın üzerindeki manzara eşliğinde hızla ilerleyen b",
+            "source_url": "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1000.0,
+              "max_value": 1000.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/conia-macera-parki-cekmekoy"
+    ],
+    "external_id": "2338",
     "category": "activity",
     "address": "Nişantepe, Saray Caddesi. No: 321 (Nişantepe Orman Parkı) Çekmeköy / İstanbul",
     "venue": "Conia Game Center",
@@ -169700,6 +169587,85 @@
     "thumbnail_url": null,
     "latitude": 36.856078,
     "longitude": 30.921647,
+    "fetched_at": null
+  },
+  {
+    "title": "Artisan Çikolata Yapım Atölyesi",
+    "description": "İstanbul Workshops Artisan Çikolata Yapım Atölyesi\nEtkinlik Oturma Düzeni: Numarasız Oturmalı\nİstanbul: Zanaatkar Çikolata Yapımı Atölyesi\nBir çikolatayı kırdığınızda çıkan o çıt sesi ve parlak yüzeyi hiç merak ettiniz mi?\nÜsküdar'da Istanbul Workshops atölyesinde, bu işin nasıl yapıldığını öğrenip kendi çikolatanızı üretiyorsunuz. Atölye sonunda yaptığınız 250 gram çikolatayı paketleyip yanınızda götürüyorsunuz.\nİlgi Çekici Noktalar\nMermer masa üzerinde profesyonel temperleme tekniğini uygulayın.\nBadem, kaju ve yaban mersinli tablet çikolatanızı kendiniz tasarlayın.\nFıstık, lotus ve fındık dolgulu bonbonları hazırlayın.\nYaptığınız çikolatayı özel ambalajıyla eve götürün, isterseniz hediye edin.\nDeneyiminiz olmasa da fark etmez, her adım gösteriliyor.\nAtölyemiz Üsküdar'da, Studio alanımız veya doğrudan pasta atölyemizde. Çikolatayı sadece satan değil, her gün üreten bir ekipten öğreniyorsunuz.\nCallebaut kuvertür çikolatayla çalışıyoruz. Önlük ve eldivenlerinizi giydikten sonra temperlemeyle başlıyoruz. Mermer masada spatulayla işliyorsunuz. Temperleme, çikolatanın parlak görünmesini ve kırıldığında çıt diye ses çıkarmasını sağlayan adım. Zor gibi görünüyor ama adım adım gösterdiğimiz için rahatça yapabilirsiniz.\nSonra tasarım kısmına geçiyoruz. Tablet çikolatalarınızı badem, kaju, yaban mersini gibi malzemelerle süslüyorsunuz. Dolgulu bonbonlarda ise fıstık, lotus ve fındık kreması kullanıyoruz. Toplamda 250 gram çikolata ortaya çıkıyor, hepsi sizin.\nGrup en fazla 8 kişi, atölye 2,5 saat sürüyor. Daha önce hiç çikolata yapmamış olsanız bile sorun yok.\nDahil Olanlar\nCallebaut kuvertür çikolata ve tüm malzemeler\nÖnlük, eldiven, spatula\nProfesyonel eğitmen eşliğinde uygulamalı atölye\n250 gr el yapımı çikolata (tablet + dolgulu bonbon), paketli\nDahil Olmayanlar\nEkstra yiyecek-içecek (isteğe bağlı)\nÖnemli Bilgiler\nDeneyim gerekmez, her seviyeye uygundur.\nMaksimum 8 kişilik grup.\nFındık ve kuruyemiş alerjiniz varsa rezervasyon sırasında belirtiniz.\nRahat kıyafetlerle gelm",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/artisan-cikolata-yapim-atolyesi/workshop-choco-2.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstanbul Workshops - Fabrikafa Make&Coffee",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2345",
+            "title": "Artisan Çikolata Yapım Atölyesi",
+            "description": "İstanbul Workshops Artisan Çikolata Yapım Atölyesi\nEtkinlik Oturma Düzeni: Numarasız Oturmalı\nİstanbul: Zanaatkar Çikolata Yapımı Atölyesi\nBir çikolatayı kırdığınızda çıkan o çıt sesi ve parlak yüzeyi hiç merak ettiniz mi?\nÜsküdar'da Istanbul Workshops atölyesinde, bu işin nasıl yapıldığını öğrenip kendi çikolatanızı üretiyorsunuz. Atölye sonunda yaptığınız 250 gram çikolatayı paketleyip yanınızda götürüyorsunuz.\nİlgi Çekici Noktalar\nMermer masa üzerinde profesyonel temperleme tekniğini uygulayın.\nBadem, kaju ve yaban mersinli tablet çikolatanızı kendiniz tasarlayın.\nFıstık, lotus ve fındık dolgulu bonbonları hazırlayın.\nYaptığınız çikolatayı özel ambalajıyla eve götürün, isterseniz hediye edin.\nDeneyiminiz olmasa da fark etmez, her adım gösteriliyor.\nAtölyemiz Üsküdar'da, Studio alanımız veya doğrudan pasta atölyemizde. Çikolatayı sadece satan değil, her gün üreten bir ekipten öğreniyorsunuz.\nCallebaut kuvertür çikolatayla çalışıyoruz. Önlük ve eldivenlerinizi giydikten sonra temperlemeyle başlıyoruz. Mermer masada spatulayla işliyorsunuz. Temperleme, çikolatanın parlak görünmesini ve kırıldığında çıt diye ses çıkarmasını sağlayan adım. Zor gibi görünüyor ama adım adım gösterdiğimiz için rahatça yapabilirsiniz.\nSonra tasarım kısmına geçiyoruz. Tablet çikolatalarınızı badem, kaju, yaban mersini gibi malzemelerle süslüyorsunuz. Dolgulu bonbonlarda ise fıstık, lotus ve fındık kreması kullanıyoruz. Toplamda 250 gram çikolata ortaya çıkıyor, hepsi sizin.\nGrup en fazla 8 kişi, atölye 2,5 saat sürüyor. Daha önce hiç çikolata yapmamış olsanız bile sorun yok.\nDahil Olanlar\nCallebaut kuvertür çikolata ve tüm malzemeler\nÖnlük, eldiven, spatula\nProfesyonel eğitmen eşliğinde uygulamalı atölye\n250 gr el yapımı çikolata (tablet + dolgulu bonbon), paketli\nDahil Olmayanlar\nEkstra yiyecek-içecek (isteğe bağlı)\nÖnemli Bilgiler\nDeneyim gerekmez, her seviyeye uygundur.\nMaksimum 8 kişilik grup.\nFındık ve kuruyemiş alerjiniz varsa rezervasyon sırasında belirtiniz.\nRahat kıyafetlerle gelm",
+            "source_url": "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 2300.0,
+              "max_value": 2300.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Artisan Çikolata Yapım",
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/artisan-cikolata-yapim-atolyesi"
+    ],
+    "external_id": "2345",
+    "category": "activity",
+    "address": "Aziz Mahmut Hüdayi, Gülfem Sk. No:15, 34672 Üsküdar/İstanbul",
+    "venue": "İstanbul Workshops - Fabrikafa Make&Coffee",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.023278,
+    "longitude": 29.014729,
     "fetched_at": null
   },
   {
@@ -169858,6 +169824,85 @@
     "thumbnail_url": null,
     "latitude": 41.02327,
     "longitude": 29.014689,
+    "fetched_at": null
+  },
+  {
+    "title": "Torium Snowpark",
+    "description": "Türkiye’nin İlk ve Tek Kapalı Kar Eğlence Merkezi\nTorium Alışveriş Merkezi bünyesinde 2.000 m² alanda hizmet veren Snowpark, aynı anda 250 kişiye kadar ziyaretçi ağırlayabilen Türkiye’nin ilk ve tek kapalı kar eğlence merkezidir. Yılın 365 günü gerçek kar deneyimi sunan Snowpark, her yaş grubuna hitap eden kapsamlı bir kar eğlence ve kış sporları tesisidir.\nYerli ve yabancı birçok ziyaretçi tarafından tercih edilen Torium Snowpark, şehrin en özgün destinasyonlarından biri olmayı başarmıştır. Gelişmiş soğutma altyapısı ve kar üretim teknolojileri sayesinde dört mevsim ideal kar kalitesini koruyan tesis; 6 farklı snowtubing parkuru, 3 ayrı kızak parkuru, kar konseptli fotoğraf alanları, gerçek iglo, kar mağaraları, kar basketbolu ve kar motoru gibi geniş aktivite seçenekleriyle dinamik bir eğlence ortamı sunmaktadır.\n-4°C sabit sıcaklıkta güvenli bir deneyim sağlayan Snowpark’ta giriş için gerekli bot, kask, mont ve eldiven gibi ekipmanlar tesis tarafından sağlanmaktadır. Snowpark; aileler, okullar, kurumsal gruplar ve organizasyonlar için dört mevsim kar eğlencesi sunmaktadır.\nKurallar ve Detaylar\nBilet Geçerliliği ve Kullanım Şartları\nSatın alınan biletler 31 Ağustos 2026 tarihine kadar geçerlidir.\nSatın alınan biletler tesis çalışma saatleri (11:00 – 22:00) içerisinde geçerlidir. Biletler en geç saat 20:00 seansı ile birlikte kullanılabilir.\nBiletler yalnızca giriş hakkı sağlar; ek hizmet ve aktiviteler giriş ücretine dahil değildir.\nToplam kullanım süresi, giriş ve çıkış hazırlık süresi dahil olmak üzere 60 dakikadır. Bu sürenin 20 dakikası ekipman giyme/çıkarma ve hazırlık süresi, 40 dakikası ise karlı alanda kullanım süresidir. Süre, giriş işleminin tamamlanmasıyla başlar. Bilet.com'dan alınan biletlerde 40 dakikalık karlı alan süresine ek olarak 20 dakika hediye olarak verilir ve toplam karlı alanda 60 dakika geçirilebilir. Süre aşımı halinde ek ücret uygulanır.\nÖdenen giriş ücreti kapsamında ziyaretçilere Snowpark tarafından ücretsiz olarak kar botu, kar montu",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/torium-snowpark/torium-snowpark.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Torium AVM",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2387",
+            "title": "Torium Snowpark",
+            "description": "Türkiye’nin İlk ve Tek Kapalı Kar Eğlence Merkezi\nTorium Alışveriş Merkezi bünyesinde 2.000 m² alanda hizmet veren Snowpark, aynı anda 250 kişiye kadar ziyaretçi ağırlayabilen Türkiye’nin ilk ve tek kapalı kar eğlence merkezidir. Yılın 365 günü gerçek kar deneyimi sunan Snowpark, her yaş grubuna hitap eden kapsamlı bir kar eğlence ve kış sporları tesisidir.\nYerli ve yabancı birçok ziyaretçi tarafından tercih edilen Torium Snowpark, şehrin en özgün destinasyonlarından biri olmayı başarmıştır. Gelişmiş soğutma altyapısı ve kar üretim teknolojileri sayesinde dört mevsim ideal kar kalitesini koruyan tesis; 6 farklı snowtubing parkuru, 3 ayrı kızak parkuru, kar konseptli fotoğraf alanları, gerçek iglo, kar mağaraları, kar basketbolu ve kar motoru gibi geniş aktivite seçenekleriyle dinamik bir eğlence ortamı sunmaktadır.\n-4°C sabit sıcaklıkta güvenli bir deneyim sağlayan Snowpark’ta giriş için gerekli bot, kask, mont ve eldiven gibi ekipmanlar tesis tarafından sağlanmaktadır. Snowpark; aileler, okullar, kurumsal gruplar ve organizasyonlar için dört mevsim kar eğlencesi sunmaktadır.\nKurallar ve Detaylar\nBilet Geçerliliği ve Kullanım Şartları\nSatın alınan biletler 31 Ağustos 2026 tarihine kadar geçerlidir.\nSatın alınan biletler tesis çalışma saatleri (11:00 – 22:00) içerisinde geçerlidir. Biletler en geç saat 20:00 seansı ile birlikte kullanılabilir.\nBiletler yalnızca giriş hakkı sağlar; ek hizmet ve aktiviteler giriş ücretine dahil değildir.\nToplam kullanım süresi, giriş ve çıkış hazırlık süresi dahil olmak üzere 60 dakikadır. Bu sürenin 20 dakikası ekipman giyme/çıkarma ve hazırlık süresi, 40 dakikası ise karlı alanda kullanım süresidir. Süre, giriş işleminin tamamlanmasıyla başlar. Bilet.com'dan alınan biletlerde 40 dakikalık karlı alan süresine ek olarak 20 dakika hediye olarak verilir ve toplam karlı alanda 60 dakika geçirilebilir. Süre aşımı halinde ek ücret uygulanır.\nÖdenen giriş ücreti kapsamında ziyaretçilere Snowpark tarafından ücretsiz olarak kar botu, kar montu",
+            "source_url": "https://www.bilet.com/etkinlik/torium-snowpark",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 800.0,
+              "max_value": 800.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/torium-snowpark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/torium-snowpark"
+    ],
+    "external_id": "2387",
+    "category": "activity",
+    "address": null,
+    "venue": "Torium AVM",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.003908,
+    "longitude": 28.688354,
     "fetched_at": null
   },
   {
@@ -170098,85 +170143,6 @@
     "fetched_at": null
   },
   {
-    "title": "Boğaz'da Kano Deneyimi: Kız Kulesi'ne Kürek Çek",
-    "description": "İKİ YAKA ARASINDA, SUYUN ÜZERİNDE BİR SAAT\nİstanbul'u bilirsiniz, ama Boğaz'ı suyun üzerinden, kürek ve martı sesleri eşliğinde görmek bambaşkadır. Üsküdar kıyısından kürek çekerek Kız Kulesi'ne yaklaşır, Avrupa ile Asya'nın tam ortasında şehre bambaşka bir açıdan bakarsınız.\nHiç deneyim gerektirmeyen bu yolculuk kısa bir güvenlik eğitimiyle başlar, unutulmaz bir anıyla biter.\nSuyun üzerinde, iki kıtanın arasında\nBu deneyim sıradan bir tekne turundan çok daha fazlasıdır. Kendi küreğinizle, kendi ritminizde, Boğaz'ın sakin sularında süzülürsünüz. Telefon yok, trafik yok, kalabalık yok; sadece siz, kürek ve İstanbul'un eşsiz manzarası.\nYolculuk, buluşma noktasında sıcak bir karşılamayla başlar. Kürek çekmeyi hiç bilmeseniz de endişelenmenize gerek yok: kısa ve kolay anlaşılır bir güvenlik ve kürek eğitiminin ardından can yeleğinizi giyip kanonuza yerleşirsiniz. Birkaç dakika içinde Boğaz'ın sularındasınızdır.\nUzman rehberiniz boyunca size eşlik eder; Kız Kulesi'nin ardındaki efsaneleri ve Boğaz'ın hikâyelerini paylaşır, en güzel fotoğraf anlarını yakalamanız için yol gösterir. Güneş asırlık sarayların ardında batarken, vapurlar iki kıta arasında süzülürken o eşsiz kareyi yakalarsınız.\nYaklaşık 50 dakikalık keyifli bir kürek seansının ardından başlangıç noktasına dönersiniz. Günün sonunda İstanbul'da sadece kürek çekmiş olmazsınız; alıştığınız şehri, hiç görmediğiniz bir açıdan, suyun üzerinden yaşamış olursunuz.\nNeleri İçeriyor\n50 dakikalık rehberli Boğaz kano seansı\nGüvenlik brifingi ve temel kürek eğitimi\nKano (tekli/çiftli), kürekler ve can yeleği\nHer kano için bir küçük su geçirmez çanta\nÖne Çıkanlar\nKız Kulesi'ne kürek mesafesinde, su seviyesinden eşsiz manzara\nAvrupa ve Asya'nın tam ortasında, Boğaz'da bir saat\nHiç deneyim gerektirmeyen, başlangıç dostu ve güvenli kano seansı\nAyasofya, Sultanahmet ve Topkapı Sarayı silüeti eşliğinde fotoğraf molası\nBoğaz'ın ve Kız Kulesi'nin efsanelerini anlatan uzman rehber\nEn fazla 10 kişilik küçük ve samimi grup\nÖzet Bilgiler",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek/kanu-logo-main.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Istanbul Workshops KANO",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2402",
-            "title": "Boğaz'da Kano Deneyimi: Kız Kulesi'ne Kürek Çek",
-            "description": "İKİ YAKA ARASINDA, SUYUN ÜZERİNDE BİR SAAT\nİstanbul'u bilirsiniz, ama Boğaz'ı suyun üzerinden, kürek ve martı sesleri eşliğinde görmek bambaşkadır. Üsküdar kıyısından kürek çekerek Kız Kulesi'ne yaklaşır, Avrupa ile Asya'nın tam ortasında şehre bambaşka bir açıdan bakarsınız.\nHiç deneyim gerektirmeyen bu yolculuk kısa bir güvenlik eğitimiyle başlar, unutulmaz bir anıyla biter.\nSuyun üzerinde, iki kıtanın arasında\nBu deneyim sıradan bir tekne turundan çok daha fazlasıdır. Kendi küreğinizle, kendi ritminizde, Boğaz'ın sakin sularında süzülürsünüz. Telefon yok, trafik yok, kalabalık yok; sadece siz, kürek ve İstanbul'un eşsiz manzarası.\nYolculuk, buluşma noktasında sıcak bir karşılamayla başlar. Kürek çekmeyi hiç bilmeseniz de endişelenmenize gerek yok: kısa ve kolay anlaşılır bir güvenlik ve kürek eğitiminin ardından can yeleğinizi giyip kanonuza yerleşirsiniz. Birkaç dakika içinde Boğaz'ın sularındasınızdır.\nUzman rehberiniz boyunca size eşlik eder; Kız Kulesi'nin ardındaki efsaneleri ve Boğaz'ın hikâyelerini paylaşır, en güzel fotoğraf anlarını yakalamanız için yol gösterir. Güneş asırlık sarayların ardında batarken, vapurlar iki kıta arasında süzülürken o eşsiz kareyi yakalarsınız.\nYaklaşık 50 dakikalık keyifli bir kürek seansının ardından başlangıç noktasına dönersiniz. Günün sonunda İstanbul'da sadece kürek çekmiş olmazsınız; alıştığınız şehri, hiç görmediğiniz bir açıdan, suyun üzerinden yaşamış olursunuz.\nNeleri İçeriyor\n50 dakikalık rehberli Boğaz kano seansı\nGüvenlik brifingi ve temel kürek eğitimi\nKano (tekli/çiftli), kürekler ve can yeleği\nHer kano için bir küçük su geçirmez çanta\nÖne Çıkanlar\nKız Kulesi'ne kürek mesafesinde, su seviyesinden eşsiz manzara\nAvrupa ve Asya'nın tam ortasında, Boğaz'da bir saat\nHiç deneyim gerektirmeyen, başlangıç dostu ve güvenli kano seansı\nAyasofya, Sultanahmet ve Topkapı Sarayı silüeti eşliğinde fotoğraf molası\nBoğaz'ın ve Kız Kulesi'nin efsanelerini anlatan uzman rehber\nEn fazla 10 kişilik küçük ve samimi grup\nÖzet Bilgiler",
-            "source_url": "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1750.0,
-              "max_value": 1750.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek"
-    ],
-    "external_id": "2402",
-    "category": "activity",
-    "address": "Salacak, Harem Sahil Yolu Cd. No:28, 34668 Üsküdar/İstanbul",
-    "venue": "Istanbul Workshops KANO",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.017123,
-    "longitude": 29.013327,
-    "fetched_at": null
-  },
-  {
     "title": "İstanbul Flight Center",
     "description": "İstanbul Flight Center Boeing 737 Uçuş Simülatörü\nBugünün Kaptan Pilotu Sen Ol!\nİstanbul Flight Center, profesyonel havacılık ekibi tarafından kurulan ve pilot adaylarından havacılık tutkunlarına kadar herkese gerçekçi bir uçuş deneyimi sunan özel bir simülasyon merkezidir.\nMerkezimizde bulunan Türkiye’nin en büyük fixed-base Boeing 737-800 NG simülatörü, gerçek uçak kokpitine uygun kontrol sistemleri, 180° görüntü teknolojisi ve geliştirilmiş 7+1 ses sistemiyle misafirlerine gerçeğe son derece yakın bir uçuş atmosferi yaşatır.\nDeneyimli pilot eğitmenler eşliğinde gerçekleştirilen uçuşlarda misafirlerimiz, dünya üzerindeki 24.000’den fazla havalimanından dilediklerini seçebilir; kalkış, seyir ve iniş aşamalarını birebir deneyimleyebilir. Farklı hava koşulları, gece ve gündüz uçuşları, özel yaklaşmalar ve teknik arıza senaryoları sayesinde her uçuş kişiye özel ve unutulmaz bir deneyime dönüşür.\nİstanbul Flight Center yalnızca bir simülatör deneyimi değil, havacılık dünyasının içine adım atabileceğiniz kapsamlı bir merkezdir. Merkezimizde yer alan gerçek Airbus A320 uçak kabinini yakından inceleyebilir, gerçek bir kaptan pilot üniforması giyerek birbirinden özel fotoğraflar çektirebilirsiniz. Deneyiminizin sonunda ise bu unutulmaz günü daima hatırlamanız için her misafirimize özel olarak havacılık temalı anahtarlık ve anı sertifikası hediye edilmektedir.\nİster tek başınıza ister bir misafirinizle birlikte katılabileceğiniz bu deneyimde, herhangi bir uçuş tecrübesine sahip olmanız gerekmez. Uçuş öncesinde pilot eğitmenlerimiz tarafından gerekli bilgilendirme yapılır ve tüm uçuş boyunca size eşlik edilir. Kokpite geçin, rotanızı seçin ve İstanbul Flight Center’da gerçek bir pilot gibi uçmanın heyecanını yaşayın.\nBilet Fiyatları\nİstanbul Flight Center’da 1 veya 2 Kişilik 1 Saat Boeing 737 Simülatör Uçuş Deneyimi 3000 TL yerine 2499 TL\nPakete Neler Dahil?\nBoeing 737 Uçuş Simülatörü Deneyimi\nBaşarılı uçuşlara Özel Sertifika\nKaptan pilot üniforması ile fotoğraf çekilme imkâ",
     "type": "activity",
@@ -170253,6 +170219,85 @@
     "thumbnail_url": null,
     "latitude": 41.000001,
     "longitude": 28.798452,
+    "fetched_at": null
+  },
+  {
+    "title": "Boğaz'da Kano Deneyimi: Kız Kulesi'ne Kürek Çek",
+    "description": "İKİ YAKA ARASINDA, SUYUN ÜZERİNDE BİR SAAT\nİstanbul'u bilirsiniz, ama Boğaz'ı suyun üzerinden, kürek ve martı sesleri eşliğinde görmek bambaşkadır. Üsküdar kıyısından kürek çekerek Kız Kulesi'ne yaklaşır, Avrupa ile Asya'nın tam ortasında şehre bambaşka bir açıdan bakarsınız.\nHiç deneyim gerektirmeyen bu yolculuk kısa bir güvenlik eğitimiyle başlar, unutulmaz bir anıyla biter.\nSuyun üzerinde, iki kıtanın arasında\nBu deneyim sıradan bir tekne turundan çok daha fazlasıdır. Kendi küreğinizle, kendi ritminizde, Boğaz'ın sakin sularında süzülürsünüz. Telefon yok, trafik yok, kalabalık yok; sadece siz, kürek ve İstanbul'un eşsiz manzarası.\nYolculuk, buluşma noktasında sıcak bir karşılamayla başlar. Kürek çekmeyi hiç bilmeseniz de endişelenmenize gerek yok: kısa ve kolay anlaşılır bir güvenlik ve kürek eğitiminin ardından can yeleğinizi giyip kanonuza yerleşirsiniz. Birkaç dakika içinde Boğaz'ın sularındasınızdır.\nUzman rehberiniz boyunca size eşlik eder; Kız Kulesi'nin ardındaki efsaneleri ve Boğaz'ın hikâyelerini paylaşır, en güzel fotoğraf anlarını yakalamanız için yol gösterir. Güneş asırlık sarayların ardında batarken, vapurlar iki kıta arasında süzülürken o eşsiz kareyi yakalarsınız.\nYaklaşık 50 dakikalık keyifli bir kürek seansının ardından başlangıç noktasına dönersiniz. Günün sonunda İstanbul'da sadece kürek çekmiş olmazsınız; alıştığınız şehri, hiç görmediğiniz bir açıdan, suyun üzerinden yaşamış olursunuz.\nNeleri İçeriyor\n50 dakikalık rehberli Boğaz kano seansı\nGüvenlik brifingi ve temel kürek eğitimi\nKano (tekli/çiftli), kürekler ve can yeleği\nHer kano için bir küçük su geçirmez çanta\nÖne Çıkanlar\nKız Kulesi'ne kürek mesafesinde, su seviyesinden eşsiz manzara\nAvrupa ve Asya'nın tam ortasında, Boğaz'da bir saat\nHiç deneyim gerektirmeyen, başlangıç dostu ve güvenli kano seansı\nAyasofya, Sultanahmet ve Topkapı Sarayı silüeti eşliğinde fotoğraf molası\nBoğaz'ın ve Kız Kulesi'nin efsanelerini anlatan uzman rehber\nEn fazla 10 kişilik küçük ve samimi grup\nÖzet Bilgiler",
+    "type": "activity",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/biletcom/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek/kanu-logo-main.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Istanbul Workshops KANO",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2402",
+            "title": "Boğaz'da Kano Deneyimi: Kız Kulesi'ne Kürek Çek",
+            "description": "İKİ YAKA ARASINDA, SUYUN ÜZERİNDE BİR SAAT\nİstanbul'u bilirsiniz, ama Boğaz'ı suyun üzerinden, kürek ve martı sesleri eşliğinde görmek bambaşkadır. Üsküdar kıyısından kürek çekerek Kız Kulesi'ne yaklaşır, Avrupa ile Asya'nın tam ortasında şehre bambaşka bir açıdan bakarsınız.\nHiç deneyim gerektirmeyen bu yolculuk kısa bir güvenlik eğitimiyle başlar, unutulmaz bir anıyla biter.\nSuyun üzerinde, iki kıtanın arasında\nBu deneyim sıradan bir tekne turundan çok daha fazlasıdır. Kendi küreğinizle, kendi ritminizde, Boğaz'ın sakin sularında süzülürsünüz. Telefon yok, trafik yok, kalabalık yok; sadece siz, kürek ve İstanbul'un eşsiz manzarası.\nYolculuk, buluşma noktasında sıcak bir karşılamayla başlar. Kürek çekmeyi hiç bilmeseniz de endişelenmenize gerek yok: kısa ve kolay anlaşılır bir güvenlik ve kürek eğitiminin ardından can yeleğinizi giyip kanonuza yerleşirsiniz. Birkaç dakika içinde Boğaz'ın sularındasınızdır.\nUzman rehberiniz boyunca size eşlik eder; Kız Kulesi'nin ardındaki efsaneleri ve Boğaz'ın hikâyelerini paylaşır, en güzel fotoğraf anlarını yakalamanız için yol gösterir. Güneş asırlık sarayların ardında batarken, vapurlar iki kıta arasında süzülürken o eşsiz kareyi yakalarsınız.\nYaklaşık 50 dakikalık keyifli bir kürek seansının ardından başlangıç noktasına dönersiniz. Günün sonunda İstanbul'da sadece kürek çekmiş olmazsınız; alıştığınız şehri, hiç görmediğiniz bir açıdan, suyun üzerinden yaşamış olursunuz.\nNeleri İçeriyor\n50 dakikalık rehberli Boğaz kano seansı\nGüvenlik brifingi ve temel kürek eğitimi\nKano (tekli/çiftli), kürekler ve can yeleği\nHer kano için bir küçük su geçirmez çanta\nÖne Çıkanlar\nKız Kulesi'ne kürek mesafesinde, su seviyesinden eşsiz manzara\nAvrupa ve Asya'nın tam ortasında, Boğaz'da bir saat\nHiç deneyim gerektirmeyen, başlangıç dostu ve güvenli kano seansı\nAyasofya, Sultanahmet ve Topkapı Sarayı silüeti eşliğinde fotoğraf molası\nBoğaz'ın ve Kız Kulesi'nin efsanelerini anlatan uzman rehber\nEn fazla 10 kişilik küçük ve samimi grup\nÖzet Bilgiler",
+            "source_url": "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1750.0,
+              "max_value": 1750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/bogaz-da-kano-deneyimi-kiz-kulesi-ne-kurek-cek"
+    ],
+    "external_id": "2402",
+    "category": "activity",
+    "address": "Salacak, Harem Sahil Yolu Cd. No:28, 34668 Üsküdar/İstanbul",
+    "venue": "Istanbul Workshops KANO",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 41.017123,
+    "longitude": 29.013327,
     "fetched_at": null
   },
   {
@@ -170414,85 +170459,6 @@
     "fetched_at": null
   },
   {
-    "title": "Torium Snowpark",
-    "description": "Türkiye’nin İlk ve Tek Kapalı Kar Eğlence Merkezi\nTorium Alışveriş Merkezi bünyesinde 2.000 m² alanda hizmet veren Snowpark, aynı anda 250 kişiye kadar ziyaretçi ağırlayabilen Türkiye’nin ilk ve tek kapalı kar eğlence merkezidir. Yılın 365 günü gerçek kar deneyimi sunan Snowpark, her yaş grubuna hitap eden kapsamlı bir kar eğlence ve kış sporları tesisidir.\nYerli ve yabancı birçok ziyaretçi tarafından tercih edilen Torium Snowpark, şehrin en özgün destinasyonlarından biri olmayı başarmıştır. Gelişmiş soğutma altyapısı ve kar üretim teknolojileri sayesinde dört mevsim ideal kar kalitesini koruyan tesis; 6 farklı snowtubing parkuru, 3 ayrı kızak parkuru, kar konseptli fotoğraf alanları, gerçek iglo, kar mağaraları, kar basketbolu ve kar motoru gibi geniş aktivite seçenekleriyle dinamik bir eğlence ortamı sunmaktadır.\n-4°C sabit sıcaklıkta güvenli bir deneyim sağlayan Snowpark’ta giriş için gerekli bot, kask, mont ve eldiven gibi ekipmanlar tesis tarafından sağlanmaktadır. Snowpark; aileler, okullar, kurumsal gruplar ve organizasyonlar için dört mevsim kar eğlencesi sunmaktadır.\nKurallar ve Detaylar\nBilet Geçerliliği ve Kullanım Şartları\nSatın alınan biletler 31 Ağustos 2026 tarihine kadar geçerlidir.\nSatın alınan biletler tesis çalışma saatleri (11:00 – 22:00) içerisinde geçerlidir. Biletler en geç saat 20:00 seansı ile birlikte kullanılabilir.\nBiletler yalnızca giriş hakkı sağlar; ek hizmet ve aktiviteler giriş ücretine dahil değildir.\nToplam kullanım süresi, giriş ve çıkış hazırlık süresi dahil olmak üzere 60 dakikadır. Bu sürenin 20 dakikası ekipman giyme/çıkarma ve hazırlık süresi, 40 dakikası ise karlı alanda kullanım süresidir. Süre, giriş işleminin tamamlanmasıyla başlar. Bilet.com'dan alınan biletlerde 40 dakikalık karlı alan süresine ek olarak 20 dakika hediye olarak verilir ve toplam karlı alanda 60 dakika geçirilebilir. Süre aşımı halinde ek ücret uygulanır.\nÖdenen giriş ücreti kapsamında ziyaretçilere Snowpark tarafından ücretsiz olarak kar botu, kar montu",
-    "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/biletcom/torium-snowpark/torium-snowpark.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Torium AVM",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "2387",
-            "title": "Torium Snowpark",
-            "description": "Türkiye’nin İlk ve Tek Kapalı Kar Eğlence Merkezi\nTorium Alışveriş Merkezi bünyesinde 2.000 m² alanda hizmet veren Snowpark, aynı anda 250 kişiye kadar ziyaretçi ağırlayabilen Türkiye’nin ilk ve tek kapalı kar eğlence merkezidir. Yılın 365 günü gerçek kar deneyimi sunan Snowpark, her yaş grubuna hitap eden kapsamlı bir kar eğlence ve kış sporları tesisidir.\nYerli ve yabancı birçok ziyaretçi tarafından tercih edilen Torium Snowpark, şehrin en özgün destinasyonlarından biri olmayı başarmıştır. Gelişmiş soğutma altyapısı ve kar üretim teknolojileri sayesinde dört mevsim ideal kar kalitesini koruyan tesis; 6 farklı snowtubing parkuru, 3 ayrı kızak parkuru, kar konseptli fotoğraf alanları, gerçek iglo, kar mağaraları, kar basketbolu ve kar motoru gibi geniş aktivite seçenekleriyle dinamik bir eğlence ortamı sunmaktadır.\n-4°C sabit sıcaklıkta güvenli bir deneyim sağlayan Snowpark’ta giriş için gerekli bot, kask, mont ve eldiven gibi ekipmanlar tesis tarafından sağlanmaktadır. Snowpark; aileler, okullar, kurumsal gruplar ve organizasyonlar için dört mevsim kar eğlencesi sunmaktadır.\nKurallar ve Detaylar\nBilet Geçerliliği ve Kullanım Şartları\nSatın alınan biletler 31 Ağustos 2026 tarihine kadar geçerlidir.\nSatın alınan biletler tesis çalışma saatleri (11:00 – 22:00) içerisinde geçerlidir. Biletler en geç saat 20:00 seansı ile birlikte kullanılabilir.\nBiletler yalnızca giriş hakkı sağlar; ek hizmet ve aktiviteler giriş ücretine dahil değildir.\nToplam kullanım süresi, giriş ve çıkış hazırlık süresi dahil olmak üzere 60 dakikadır. Bu sürenin 20 dakikası ekipman giyme/çıkarma ve hazırlık süresi, 40 dakikası ise karlı alanda kullanım süresidir. Süre, giriş işleminin tamamlanmasıyla başlar. Bilet.com'dan alınan biletlerde 40 dakikalık karlı alan süresine ek olarak 20 dakika hediye olarak verilir ve toplam karlı alanda 60 dakika geçirilebilir. Süre aşımı halinde ek ücret uygulanır.\nÖdenen giriş ücreti kapsamında ziyaretçilere Snowpark tarafından ücretsiz olarak kar botu, kar montu",
-            "source_url": "https://www.bilet.com/etkinlik/torium-snowpark",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 800.0,
-              "max_value": 800.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/torium-snowpark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/torium-snowpark"
-    ],
-    "external_id": "2387",
-    "category": "activity",
-    "address": null,
-    "venue": "Torium AVM",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.003908,
-    "longitude": 28.688354,
-    "fetched_at": null
-  },
-  {
     "title": "Aslan Park",
     "description": "Vahşi doğanın en güçlü, ihtişamlı ve büyüleyici yırtıcıları ile tanışmaya hazır mısın?\nBüyük kedigillerin dünyasını daha yakından keşfetmek için Bilet.com'a özel indirimli biletler seni bekliyor!",
     "type": "activity",
@@ -170651,11 +170617,11 @@
     "fetched_at": null
   },
   {
-    "title": "Marina Aquapark",
-    "description": "Yaz Bitmeden En Güzel Anılarınızı Biriktirin!\nBazı yazlar sadece geçer... Bazıları ise yıllar sonra bile gülümseyerek hatırlanır.\nMarina Aquapark, yazın son günlerini sadece serinlemek için değil; ailenizle birlikte unutulmayacak anılar biriktirmeniz için sizi bekliyor.\nAdrenalin dolu su kaydırakları, dalga havuzu, çocuklara özel güvenli oyun alanları ve gün boyu süren eğlenceyle İstanbul'un en keyifli yaz deneyimlerinden birini yaşayın.\nŞehrin içinde, tatil hissini yaşayabileceğiniz Marina Aquapark'ta yaz henüz bitmedi.\nÖNEMLİ NOT : Marina Aquapark aile odaklı bir tesistir. Tüm misafirlerimizin konforu için erkek ziyaretçilerin kadın bir refakatçi ile giriş yapmaları rica olunur.\nKampanyaya Özel Tek Fiyat\nTek Fiyat: 1.799 TL yerine 1.489 TL\nYaz sezonunun son fırsatını kaçırmadan yerinizi ayırtın; sıcak yaz günlerini serinlik, eğlence ve birlikte geçirilen kaliteli zamanla taçlandırın.\nMarina Aquapark'ta Sizi Neler Bekliyor?\n17 farklı su kaydırağıyla her yaşa uygun eğlence\nDalga havuzunda gerçek sahil atmosferi\nÇocuklara özel güvenli oyun alanları\nGeniş dinlenme alanları\nMarina manzarası eşliğinde şehirden uzaklaşmadan tatil keyfi\nGün boyu süren su eğlencesi\nAilecek paylaşılacak unutulmaz yaz anıları\nBu Kampanya Neden Kaçırılmamalı?\nYaz mevsimi sona ermeden;\nÇocuklarınızla birlikte kaliteli zaman geçirin.\nTelefon ekranından uzaklaşıp gerçek anılar biriktirin.\nŞehrin içinde kısa ama unutulmaz bir tatil deneyimi yaşayın.\nYazın son güneşini ve son serinliğini birlikte keşfedin.\nÇünkü en güzel yaz hikâyeleri, planlanan değil yaşanan anlardır.\nSağlığınız ve Güvenliğiniz Önceliğimizdir\nSağlık Bakanlığı onaylı dezenfeksiyon sistemleri\nAkredite laboratuvarlarda düzenli su analizleri\nUzman ekipler tarafından gerçekleştirilen periyodik kontroller\nUluslararası standartlarda hijyen uygulamaları\nMarina Aquapark'ta tüm havuzlarımız düzenli olarak analiz edilmekte, uluslararası hijyen standartları uygulanmakta ve misafir güvenliği uzman ekiplerimiz tarafından gün boyunca takip edi",
+    "title": "The Land Of Legends Tema Park",
+    "description": "The Land Of Legends Tema Park biletleri Bilet.com'da.",
     "type": "activity",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aquapark/marina-aquapark-agu-26.webp",
+    "city_name": "Antalya",
+    "image_url": "https://static.bilet.com/images/vialand/land-of-legends/land-of-legends/land-of-legends-yeni.webp",
     "occurrences": [
       {
         "start_at_utc": null,
@@ -170663,19 +170629,19 @@
         "local_time": null,
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Marina Aquapark",
+        "venue_name": "The Land Of Legends",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "39",
-            "title": "Marina Aquapark",
-            "description": "Yaz Bitmeden En Güzel Anılarınızı Biriktirin!\nBazı yazlar sadece geçer... Bazıları ise yıllar sonra bile gülümseyerek hatırlanır.\nMarina Aquapark, yazın son günlerini sadece serinlemek için değil; ailenizle birlikte unutulmayacak anılar biriktirmeniz için sizi bekliyor.\nAdrenalin dolu su kaydırakları, dalga havuzu, çocuklara özel güvenli oyun alanları ve gün boyu süren eğlenceyle İstanbul'un en keyifli yaz deneyimlerinden birini yaşayın.\nŞehrin içinde, tatil hissini yaşayabileceğiniz Marina Aquapark'ta yaz henüz bitmedi.\nÖNEMLİ NOT : Marina Aquapark aile odaklı bir tesistir. Tüm misafirlerimizin konforu için erkek ziyaretçilerin kadın bir refakatçi ile giriş yapmaları rica olunur.\nKampanyaya Özel Tek Fiyat\nTek Fiyat: 1.799 TL yerine 1.489 TL\nYaz sezonunun son fırsatını kaçırmadan yerinizi ayırtın; sıcak yaz günlerini serinlik, eğlence ve birlikte geçirilen kaliteli zamanla taçlandırın.\nMarina Aquapark'ta Sizi Neler Bekliyor?\n17 farklı su kaydırağıyla her yaşa uygun eğlence\nDalga havuzunda gerçek sahil atmosferi\nÇocuklara özel güvenli oyun alanları\nGeniş dinlenme alanları\nMarina manzarası eşliğinde şehirden uzaklaşmadan tatil keyfi\nGün boyu süren su eğlencesi\nAilecek paylaşılacak unutulmaz yaz anıları\nBu Kampanya Neden Kaçırılmamalı?\nYaz mevsimi sona ermeden;\nÇocuklarınızla birlikte kaliteli zaman geçirin.\nTelefon ekranından uzaklaşıp gerçek anılar biriktirin.\nŞehrin içinde kısa ama unutulmaz bir tatil deneyimi yaşayın.\nYazın son güneşini ve son serinliğini birlikte keşfedin.\nÇünkü en güzel yaz hikâyeleri, planlanan değil yaşanan anlardır.\nSağlığınız ve Güvenliğiniz Önceliğimizdir\nSağlık Bakanlığı onaylı dezenfeksiyon sistemleri\nAkredite laboratuvarlarda düzenli su analizleri\nUzman ekipler tarafından gerçekleştirilen periyodik kontroller\nUluslararası standartlarda hijyen uygulamaları\nMarina Aquapark'ta tüm havuzlarımız düzenli olarak analiz edilmekte, uluslararası hijyen standartları uygulanmakta ve misafir güvenliği uzman ekiplerimiz tarafından gün boyunca takip edi",
-            "source_url": "https://www.bilet.com/etkinlik/viasea-aquapark",
+            "external_id": "2",
+            "title": "The Land Of Legends Tema Park",
+            "description": "The Land Of Legends Tema Park biletleri Bilet.com'da.",
+            "source_url": "https://www.bilet.com/etkinlik/land-of-legends",
             "deep_link_url": null,
             "price": {
-              "min_value": 1389.0,
-              "max_value": 1389.0,
+              "min_value": 2880.0,
+              "max_value": 3600.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -170692,7 +170658,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/viasea-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/land-of-legends?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -170714,19 +170680,19 @@
     ],
     "provider_label": "bilet.com",
     "source_urls": [
-      "https://www.bilet.com/etkinlik/viasea-aquapark"
+      "https://www.bilet.com/etkinlik/land-of-legends"
     ],
-    "external_id": "39",
+    "external_id": "2",
     "category": "activity",
-    "address": "Cami, Balıkçılar Sk. no:20/1, 34940 Tuzla/İstanbul",
-    "venue": "Marina Aquapark",
+    "address": "Kadriye Mahallesi No:1, D:No 515, 07525 Serik/Antalya",
+    "venue": "The Land Of Legends",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 40.814353,
-    "longitude": 29.313851,
+    "latitude": 36.879299,
+    "longitude": 31.003764,
     "fetched_at": null
   },
   {
@@ -170809,11 +170775,11 @@
     "fetched_at": null
   },
   {
-    "title": "The Land Of Legends Tema Park",
-    "description": "The Land Of Legends Tema Park biletleri Bilet.com'da.",
+    "title": "Marina Aquapark",
+    "description": "Yaz Bitmeden En Güzel Anılarınızı Biriktirin!\nBazı yazlar sadece geçer... Bazıları ise yıllar sonra bile gülümseyerek hatırlanır.\nMarina Aquapark, yazın son günlerini sadece serinlemek için değil; ailenizle birlikte unutulmayacak anılar biriktirmeniz için sizi bekliyor.\nAdrenalin dolu su kaydırakları, dalga havuzu, çocuklara özel güvenli oyun alanları ve gün boyu süren eğlenceyle İstanbul'un en keyifli yaz deneyimlerinden birini yaşayın.\nŞehrin içinde, tatil hissini yaşayabileceğiniz Marina Aquapark'ta yaz henüz bitmedi.\nÖNEMLİ NOT : Marina Aquapark aile odaklı bir tesistir. Tüm misafirlerimizin konforu için erkek ziyaretçilerin kadın bir refakatçi ile giriş yapmaları rica olunur.\nKampanyaya Özel Tek Fiyat\nTek Fiyat: 1.799 TL yerine 1.489 TL\nYaz sezonunun son fırsatını kaçırmadan yerinizi ayırtın; sıcak yaz günlerini serinlik, eğlence ve birlikte geçirilen kaliteli zamanla taçlandırın.\nMarina Aquapark'ta Sizi Neler Bekliyor?\n17 farklı su kaydırağıyla her yaşa uygun eğlence\nDalga havuzunda gerçek sahil atmosferi\nÇocuklara özel güvenli oyun alanları\nGeniş dinlenme alanları\nMarina manzarası eşliğinde şehirden uzaklaşmadan tatil keyfi\nGün boyu süren su eğlencesi\nAilecek paylaşılacak unutulmaz yaz anıları\nBu Kampanya Neden Kaçırılmamalı?\nYaz mevsimi sona ermeden;\nÇocuklarınızla birlikte kaliteli zaman geçirin.\nTelefon ekranından uzaklaşıp gerçek anılar biriktirin.\nŞehrin içinde kısa ama unutulmaz bir tatil deneyimi yaşayın.\nYazın son güneşini ve son serinliğini birlikte keşfedin.\nÇünkü en güzel yaz hikâyeleri, planlanan değil yaşanan anlardır.\nSağlığınız ve Güvenliğiniz Önceliğimizdir\nSağlık Bakanlığı onaylı dezenfeksiyon sistemleri\nAkredite laboratuvarlarda düzenli su analizleri\nUzman ekipler tarafından gerçekleştirilen periyodik kontroller\nUluslararası standartlarda hijyen uygulamaları\nMarina Aquapark'ta tüm havuzlarımız düzenli olarak analiz edilmekte, uluslararası hijyen standartları uygulanmakta ve misafir güvenliği uzman ekiplerimiz tarafından gün boyunca takip edi",
     "type": "activity",
-    "city_name": "Antalya",
-    "image_url": "https://static.bilet.com/images/vialand/land-of-legends/land-of-legends/land-of-legends-yeni.webp",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/viasea/viasea-aquapark/marina-aquapark-agu-26.webp",
     "occurrences": [
       {
         "start_at_utc": null,
@@ -170821,19 +170787,19 @@
         "local_time": null,
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "The Land Of Legends",
+        "venue_name": "Marina Aquapark",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "2",
-            "title": "The Land Of Legends Tema Park",
-            "description": "The Land Of Legends Tema Park biletleri Bilet.com'da.",
-            "source_url": "https://www.bilet.com/etkinlik/land-of-legends",
+            "external_id": "39",
+            "title": "Marina Aquapark",
+            "description": "Yaz Bitmeden En Güzel Anılarınızı Biriktirin!\nBazı yazlar sadece geçer... Bazıları ise yıllar sonra bile gülümseyerek hatırlanır.\nMarina Aquapark, yazın son günlerini sadece serinlemek için değil; ailenizle birlikte unutulmayacak anılar biriktirmeniz için sizi bekliyor.\nAdrenalin dolu su kaydırakları, dalga havuzu, çocuklara özel güvenli oyun alanları ve gün boyu süren eğlenceyle İstanbul'un en keyifli yaz deneyimlerinden birini yaşayın.\nŞehrin içinde, tatil hissini yaşayabileceğiniz Marina Aquapark'ta yaz henüz bitmedi.\nÖNEMLİ NOT : Marina Aquapark aile odaklı bir tesistir. Tüm misafirlerimizin konforu için erkek ziyaretçilerin kadın bir refakatçi ile giriş yapmaları rica olunur.\nKampanyaya Özel Tek Fiyat\nTek Fiyat: 1.799 TL yerine 1.489 TL\nYaz sezonunun son fırsatını kaçırmadan yerinizi ayırtın; sıcak yaz günlerini serinlik, eğlence ve birlikte geçirilen kaliteli zamanla taçlandırın.\nMarina Aquapark'ta Sizi Neler Bekliyor?\n17 farklı su kaydırağıyla her yaşa uygun eğlence\nDalga havuzunda gerçek sahil atmosferi\nÇocuklara özel güvenli oyun alanları\nGeniş dinlenme alanları\nMarina manzarası eşliğinde şehirden uzaklaşmadan tatil keyfi\nGün boyu süren su eğlencesi\nAilecek paylaşılacak unutulmaz yaz anıları\nBu Kampanya Neden Kaçırılmamalı?\nYaz mevsimi sona ermeden;\nÇocuklarınızla birlikte kaliteli zaman geçirin.\nTelefon ekranından uzaklaşıp gerçek anılar biriktirin.\nŞehrin içinde kısa ama unutulmaz bir tatil deneyimi yaşayın.\nYazın son güneşini ve son serinliğini birlikte keşfedin.\nÇünkü en güzel yaz hikâyeleri, planlanan değil yaşanan anlardır.\nSağlığınız ve Güvenliğiniz Önceliğimizdir\nSağlık Bakanlığı onaylı dezenfeksiyon sistemleri\nAkredite laboratuvarlarda düzenli su analizleri\nUzman ekipler tarafından gerçekleştirilen periyodik kontroller\nUluslararası standartlarda hijyen uygulamaları\nMarina Aquapark'ta tüm havuzlarımız düzenli olarak analiz edilmekte, uluslararası hijyen standartları uygulanmakta ve misafir güvenliği uzman ekiplerimiz tarafından gün boyunca takip edi",
+            "source_url": "https://www.bilet.com/etkinlik/viasea-aquapark",
             "deep_link_url": null,
             "price": {
-              "min_value": 2880.0,
-              "max_value": 3600.0,
+              "min_value": 1389.0,
+              "max_value": 1389.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -170850,7 +170816,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/land-of-legends?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/viasea-aquapark?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -170872,19 +170838,19 @@
     ],
     "provider_label": "bilet.com",
     "source_urls": [
-      "https://www.bilet.com/etkinlik/land-of-legends"
+      "https://www.bilet.com/etkinlik/viasea-aquapark"
     ],
-    "external_id": "2",
+    "external_id": "39",
     "category": "activity",
-    "address": "Kadriye Mahallesi No:1, D:No 515, 07525 Serik/Antalya",
-    "venue": "The Land Of Legends",
+    "address": "Cami, Balıkçılar Sk. no:20/1, 34940 Tuzla/İstanbul",
+    "venue": "Marina Aquapark",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 36.879299,
-    "longitude": 31.003764,
+    "latitude": 40.814353,
+    "longitude": 29.313851,
     "fetched_at": null
   },
   {
@@ -170967,85 +170933,6 @@
     "fetched_at": null
   },
   {
-    "title": "Museum of Illusions",
-    "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
-    "type": "exhibition",
-    "city_name": "İstanbul",
-    "image_url": "https://static.bilet.com/images/vialand/ventrata/museum-of-illusions/museum-of-illusions-yeni.webp",
-    "occurrences": [
-      {
-        "start_at_utc": null,
-        "local_date": "2099-12-31",
-        "local_time": null,
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Museum of Illusions - İstanbul İstiklal",
-        "district": null,
-        "sources": [
-          {
-            "provider": "bilet.com",
-            "external_id": "168",
-            "title": "Museum of Illusions",
-            "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
-            "source_url": "https://www.bilet.com/etkinlik/museum-of-illusions",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 390.0,
-              "max_value": 530.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "bilet.com",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/museum-of-illusions?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
-            "sales_start_at": null,
-            "brand_name": "bilet.com",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "bilet.com",
-    "source": "bilet.com",
-    "provider": "bilet.com",
-    "providers": [
-      "bilet.com"
-    ],
-    "provider_tags": [
-      "bilet.com"
-    ],
-    "provider_label": "bilet.com",
-    "source_urls": [
-      "https://www.bilet.com/etkinlik/museum-of-illusions"
-    ],
-    "external_id": "168",
-    "category": "exhibition",
-    "address": "Asmali Mescit, İstiklal Cd. No:180 D:4B, 34430 Beyoğlu/İstanbul",
-    "venue": "Museum of Illusions - İstanbul İstiklal",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": 41.029045,
-    "longitude": 28.975502,
-    "fetched_at": null
-  },
-  {
     "title": "Çamlıca Kulesi",
     "description": "İstanbul'un yeni simgesi Çamlıca Kulesi seyir terası biletleri Bilet.com'da. Erken rezervasyon yap!",
     "type": "activity",
@@ -171125,31 +171012,31 @@
     "fetched_at": null
   },
   {
-    "title": "Murat Karahan - Sezen Aksu Şarkıları",
-    "description": "Murat Karahan'dan Sezen Aksu şarkılarını dinleyeceğiniz eşsiz bir konser sizleri bekliyor, 15 Eylül akşamı Ankara Oran Açık Hava Sahnesi'nde.",
-    "type": "concert",
-    "city_name": "Ankara",
-    "image_url": "https://static.bilet.com/images/vialand/iticket/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi/photos/murat-karahan-ankara.webp",
+    "title": "Museum of Illusions",
+    "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
+    "type": "exhibition",
+    "city_name": "İstanbul",
+    "image_url": "https://static.bilet.com/images/vialand/ventrata/museum-of-illusions/museum-of-illusions-yeni.webp",
     "occurrences": [
       {
-        "start_at_utc": "2026-09-15T09:00:00Z",
-        "local_date": "2026-09-15",
-        "local_time": "12:00",
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Oran Açık Hava Sahnesi",
+        "venue_name": "Museum of Illusions - İstanbul İstiklal",
         "district": null,
         "sources": [
           {
             "provider": "bilet.com",
-            "external_id": "2395",
-            "title": "Murat Karahan - Sezen Aksu Şarkıları",
-            "description": "Murat Karahan'dan Sezen Aksu şarkılarını dinleyeceğiniz eşsiz bir konser sizleri bekliyor, 15 Eylül akşamı Ankara Oran Açık Hava Sahnesi'nde.",
-            "source_url": "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi",
+            "external_id": "168",
+            "title": "Museum of Illusions",
+            "description": "Duyularınıza olan sarsılmaz inancınızı sorgulamanıza yol açacak muhteşem illüzyonlar dünyası sizi bekliyor!\nMuseum Of Illusions biletleri Bilet.com'da. Online biletinizi hemen alın, sıra beklemeden giriş yapın!",
+            "source_url": "https://www.bilet.com/etkinlik/museum-of-illusions",
             "deep_link_url": null,
             "price": {
-              "min_value": 1375.0,
-              "max_value": 7700.0,
+              "min_value": 390.0,
+              "max_value": 530.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -171166,7 +171053,7 @@
               }
             },
             "ticket_status": "on_sale",
-            "ticket_url": "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "ticket_url": "https://www.bilet.com/etkinlik/museum-of-illusions?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
             "sales_start_at": null,
             "brand_name": "bilet.com",
             "is_official_seller": true
@@ -171176,7 +171063,7 @@
     ],
     "attraction_id": null,
     "attraction_upcoming_count": null,
-    "performer_name": "Murat Karahan",
+    "performer_name": null,
     "organizer_name": "bilet.com",
     "source": "bilet.com",
     "provider": "bilet.com",
@@ -171188,19 +171075,19 @@
     ],
     "provider_label": "bilet.com",
     "source_urls": [
-      "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi"
+      "https://www.bilet.com/etkinlik/museum-of-illusions"
     ],
-    "external_id": "2395",
-    "category": "concert",
-    "address": null,
-    "venue": "Oran Açık Hava Sahnesi",
+    "external_id": "168",
+    "category": "exhibition",
+    "address": "Asmali Mescit, İstiklal Cd. No:180 D:4B, 34430 Beyoğlu/İstanbul",
+    "venue": "Museum of Illusions - İstanbul İstiklal",
     "link": null,
     "source_url": null,
     "ticket_info": null,
     "ticket_url": null,
     "thumbnail_url": null,
-    "latitude": 39.849028,
-    "longitude": 32.832528,
+    "latitude": 41.029045,
+    "longitude": 28.975502,
     "fetched_at": null
   },
   {
@@ -171363,6 +171250,85 @@
   },
   {
     "title": "Murat Karahan - Sezen Aksu Şarkıları",
+    "description": "Murat Karahan'dan Sezen Aksu şarkılarını dinleyeceğiniz eşsiz bir konser sizleri bekliyor, 15 Eylül akşamı Ankara Oran Açık Hava Sahnesi'nde.",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://static.bilet.com/images/vialand/iticket/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi/photos/murat-karahan-ankara.webp",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-15T09:00:00Z",
+        "local_date": "2026-09-15",
+        "local_time": "12:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Oran Açık Hava Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2395",
+            "title": "Murat Karahan - Sezen Aksu Şarkıları",
+            "description": "Murat Karahan'dan Sezen Aksu şarkılarını dinleyeceğiniz eşsiz bir konser sizleri bekliyor, 15 Eylül akşamı Ankara Oran Açık Hava Sahnesi'nde.",
+            "source_url": "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1375.0,
+              "max_value": 7700.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": "Murat Karahan",
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/murat-karahan-sezen-aksu-sarkilari-oran-acik-hava-sahnesi"
+    ],
+    "external_id": "2395",
+    "category": "concert",
+    "address": null,
+    "venue": "Oran Açık Hava Sahnesi",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 39.849028,
+    "longitude": 32.832528,
+    "fetched_at": null
+  },
+  {
+    "title": "Murat Karahan - Sezen Aksu Şarkıları",
     "description": "Murat Karahan'dan Sezen Aksu şarkılarını dinleyeceğiniz eşsiz bir konser sizleri bekliyor, 19 Eylül akşamı Antalya Açıkhava Sahnesi'nde.",
     "type": "concert",
     "city_name": "Antalya",
@@ -171438,6 +171404,85 @@
     "thumbnail_url": null,
     "latitude": 36.881626,
     "longitude": 30.666821,
+    "fetched_at": null
+  },
+  {
+    "title": "Roy",
+    "description": "Roy 13 Ağustos'ta IF Performance Hall Tunus'ta! Roy Ankara konseri biletleri Bilet.com'da seni bekliyor!",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://static.bilet.com/images/vialand/iticket/roy-if-performance-hall-tunus/photos/roy.webp",
+    "occurrences": [
+      {
+        "start_at_utc": null,
+        "local_date": "2099-12-31",
+        "local_time": null,
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Tunus",
+        "district": null,
+        "sources": [
+          {
+            "provider": "bilet.com",
+            "external_id": "2413",
+            "title": "Roy",
+            "description": "Roy 13 Ağustos'ta IF Performance Hall Tunus'ta! Roy Ankara konseri biletleri Bilet.com'da seni bekliyor!",
+            "source_url": "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 300.0,
+              "max_value": 600.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "bilet.com",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus?referrer=LOKALIZEAPP&utm_source=www.lokalize.app&utm_medium=affiliate&utm_campaign=affiliate_partnership",
+            "sales_start_at": null,
+            "brand_name": "bilet.com",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "bilet.com",
+    "source": "bilet.com",
+    "provider": "bilet.com",
+    "providers": [
+      "bilet.com"
+    ],
+    "provider_tags": [
+      "bilet.com"
+    ],
+    "provider_label": "bilet.com",
+    "source_urls": [
+      "https://www.bilet.com/etkinlik/roy-if-performance-hall-tunus"
+    ],
+    "external_id": "2413",
+    "category": "concert",
+    "address": null,
+    "venue": "IF Performance Hall Tunus",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": 39.911647,
+    "longitude": 32.856077,
     "fetched_at": null
   },
   {
