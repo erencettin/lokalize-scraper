@@ -9756,7 +9756,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k3bFaoZ",
-    "attraction_upcoming_count": 2,
+    "attraction_upcoming_count": 3,
     "performer_name": "Poizi",
     "organizer_name": null,
     "source": "unknown",
@@ -12590,6 +12590,85 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OVT1%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Poizi",
+    "description": "- Kapı açılış saati : 23:30 - Gemi Hareket Saati : 00:45 - Gemi Geri Dönüş Saati: 04:00 - Hareket saatinden sonra gelen misafirlerimiz 30 dakikada bir ( bu süre yoğunluğa göre değişebilir.) Ücretsiz shuttle servisimizle giriş yapabilirler. - Hareket ettikten ve sabit demir atıldıktan sonrada 30 dakikada bir ( bu süre yoğunluğa göre değişebilir.) ücretsiz shuttle servisimizle çıkış yapabilirsiniz. - Club Catamaran Girişte Dress Code (kıyafet) uygulaması yapılmaktadır. Uygun görülmediği taktirde içeri almama hakkına sahiptir. - 18 yaş sınırı vardır. ( Turizm belgeli bir işletme olduğumuzdan ebeveyn 18 yaş altıda alınmaktadır minimum yaş sınırı 15(on beş) olmaktadır.) - Gemi hareket halinde ve demirlediğinde gemiden sarmak,denize atlamak,denizi kirletecek materyalleri denize atmak yasaktır. Tespiti halinde bu kişi veya kişiler etkinlik alanından uzaklaştırılacaktır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizasyon firması etkinlik mekanına kadın -- erkek sayısının eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, d",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-21T20:30:00Z",
+        "local_date": "2026-08-21",
+        "local_time": "23:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Club Catamaran Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkGC4Cvve",
+            "title": "Poizi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BDKD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "offsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BDKD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-14T09:00:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k3bFaoZ",
+    "attraction_upcoming_count": 3,
+    "performer_name": "Poizi",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BDKD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -24702,7 +24781,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k3bFaoZ",
-    "attraction_upcoming_count": 2,
+    "attraction_upcoming_count": 3,
     "performer_name": "Poizi",
     "organizer_name": null,
     "source": "unknown",
@@ -101821,6 +101900,243 @@
     "fetched_at": null
   },
   {
+    "title": "Yıldız Tilbe",
+    "description": "- 18 Yaş sınırı vardır. - Belirtilen saat kapı açılış saatidir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Bilet sahiplerinin, 0850 549 01 20 numaralı telefonu arayarak, rezervasyon yaptırmaları zorunludur. - Ayakta kategorisi hariç tüm kategorilerde bilet sahiplerine minimum 2 ya da 3 kişi olması şartı ile bistro imkânı sunulmaktadır. - Organizasyon firması etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir.",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T18:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Vadistanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkf-a4Xo",
+            "title": "Yıldız Tilbe",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW90%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW90%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-06-12T13:58:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "ZaHyzZyMZ16",
+    "attraction_upcoming_count": 9,
+    "performer_name": "Yıldız Tilbe",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JW90%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Melek Mosso",
+    "description": "- 18 Yaş sınırı vardır. - Belirtilen saat kapı açılış saatidir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Bilet sahiplerinin, 0850 549 01 24 numaralı telefonu arayarak, rezervasyon yaptırmaları zorunludur. - Ayakta kategorisi hariç tüm kategorilerde bilet sahiplerine minimum 2 ya da 3 kişi olması şartı ile bistro imkânı sunulmaktadır. - Organizasyon firması etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir.",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T18:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Jolly Joker Kıyı İstanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkf4aFKo",
+            "title": "Melek Mosso",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JK34%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JK34%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-21T08:32:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kA7G3_x",
+    "attraction_upcoming_count": 5,
+    "performer_name": "Melek Mosso",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5JK34%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Mustafa Keser Sizlerle - Denizli",
+    "description": "- 6 yaş altı konsere alınmamaktadır. 6 ve 6 yaş üstü her yaştan katılımcı bilete tabidir. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyeli",
+    "type": "concert",
+    "city_name": "Denizli",
+    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T18:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Nihat Zeybekçi Kongre ve Kültür Merkezi - Özay Gönlüm Salonu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk4qjkvve",
+            "title": "Mustafa Keser Sizlerle - Denizli",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KSR5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KSR5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-01-14T07:21:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kuxFvZo",
+    "attraction_upcoming_count": 3,
+    "performer_name": "Mustafa Keser",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5KSR5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Bir Delinin Hatıra Defteri - Oğuzhan Karadavut",
     "description": "- 7 yaşından küçük çocuklar etkinliğe alınmamaktadır. - 7 yaş ve üzeri bilete tabidir. - Etkinlik başladıktan sonra alana seyirci alınmamaktadır.Geç kalan izleyiciler için bilet iadesi yapılmamaktadır. - Organizatör etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır.",
     "type": "theatre",
@@ -102111,6 +102427,85 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BP66%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-14T17:30:00Z",
+        "local_date": "2026-08-14",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvvd",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -102512,7 +102907,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -103088,7 +103483,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -104048,7 +104443,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -104850,7 +105245,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -105786,6 +106181,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-21T17:30:00Z",
+        "local_date": "2026-08-21",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvv7",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F003%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Still Standing - Uraz Kaygılaroğlu Stand Up",
     "description": "- 18 yaş sınırı bulunmaktadır. - Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Gösteri başladıktan sonra içeriye seyirci alınamayacağını bildirir iyi seyirler dileriz. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmemesi rica olunur. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir.",
     "type": "standup",
@@ -106172,7 +106646,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -106460,6 +106934,85 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MM81%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-22T17:30:00Z",
+        "local_date": "2026-08-22",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvva",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F008%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F008%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F008%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -106974,7 +107527,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -108081,7 +108634,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -108962,7 +109515,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -109762,6 +110315,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-28T17:30:00Z",
+        "local_date": "2026-08-28",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvvA",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Bu Hikaye Senden Uzun Osman",
     "description": "- Etkinlik başladıktan sonra salona giriş yapılamamaktadır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizyasyon firması etkinlik mekanına kadın -- erkek sayısının eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul",
     "type": "theatre",
@@ -110069,7 +110701,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -110199,6 +110831,85 @@
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F59I34%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate",
       "https://biletinial.com/tr-tr/tiyatro/bir-delinin-hatira-defteri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-29T17:30:00Z",
+        "local_date": "2026-08-29",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvv1",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F009%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F009%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F009%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -110634,7 +111345,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -111354,7 +112065,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -112459,6 +113170,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-04T17:30:00Z",
+        "local_date": "2026-09-04",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvev",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F010%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "7 Kocalı Hürmüz",
     "description": "- 13 yaş altı etkinlik alanına alınmamaktadır. 13 ve 13 yaş üstü her yaştan katılımcı bilete tabidir. - Organizatör firma etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanına Selfie Stick ve GoPro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinesi) ile girilmemektedir. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. -Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*şemsiye *deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Tüm katılımcıların kimliklerini yanlarında bulundurması ve istendiğinde ibraz etmeleri gerekmektedir. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. - Etkinlik alanına evcil hayvan ile girilmesine izin verilmeyecektir. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi, resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanından çıkarma hak",
     "type": "theatre",
@@ -113195,7 +113985,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -113517,6 +114307,85 @@
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AGLI%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
       "https://biletinial.com/tr-tr/tiyatro/alti-ustu-kabare-ciftler-ciftler-tklck"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-05T17:30:00Z",
+        "local_date": "2026-09-05",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvee",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F011%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F011%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F011%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -113997,7 +114866,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -114858,7 +115727,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -115576,6 +116445,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-11T17:30:00Z",
+        "local_date": "2026-09-11",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpved",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F012%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Bodyguard Müzikali",
     "description": "- Gösteri, orijinal dili İngilizce olarak sahnelenecek ve performans boyunca Türkçe üst yazı desteği sunulacaktır. - 16 yaş sınırı bulunmaktadır. - Zorlu PSM'nin alanlarında yiyecek ve içecek satışı gerçekleştiği için etkinlik alanına dışarıdan yiyecek ve içecek sokmak yasaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır - Zorlu PSM kapalı alanlarında sigara içmek kesinlikle yasaktır. Bu kurala uymayanlar, uyarı yapılmaksızın etkinlik alanı dışına çıkarılırlar ve bilet iadesi yapılmaz. - Etkinlik alanına girecek herkes , Yaş alt -- üst sınırı olmaksızın bilete tabidir. - Vestiyere bırakılmayan eşyaların sorumluluğu sahibine aittir. - Etkinlik salonuna valiz ve büyük sırt çantası ile giriş yapılamaz. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Organizatör ve Zorlu PSM etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir. - Etkinlik saatinden önce Zorlu Center'da oluşabilecek yoğunluklar nedeniyle, kendi aracıyla gelen misafirlerimizin Otopark ve Vale'de zaman kaybetmemesi adına etkinlik saatinden en az 1 saat önce alana giriş yapmaları önerilmektedir. Anlayışınız için teşekkür ederiz. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik saatinden sonra gelen izleyic",
     "type": "concert",
@@ -116109,7 +117057,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -116462,6 +117410,85 @@
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AGLJ%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
       "https://biletinial.com/tr-tr/tiyatro/90lar"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-12T17:30:00Z",
+        "local_date": "2026-09-12",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpve7",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F013%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -116908,7 +117935,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -118636,7 +119663,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -120463,6 +121490,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-18T17:30:00Z",
+        "local_date": "2026-09-18",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpveA",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F014%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F014%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F014%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Bodyguard Müzikali",
     "description": "- Gösteri, orijinal dili İngilizce olarak sahnelenecek ve performans boyunca Türkçe üst yazı desteği sunulacaktır. - 16 yaş sınırı bulunmaktadır. - Zorlu PSM'nin alanlarında yiyecek ve içecek satışı gerçekleştiği için etkinlik alanına dışarıdan yiyecek ve içecek sokmak yasaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır - Zorlu PSM kapalı alanlarında sigara içmek kesinlikle yasaktır. Bu kurala uymayanlar, uyarı yapılmaksızın etkinlik alanı dışına çıkarılırlar ve bilet iadesi yapılmaz. - Etkinlik alanına girecek herkes , Yaş alt -- üst sınırı olmaksızın bilete tabidir. - Vestiyere bırakılmayan eşyaların sorumluluğu sahibine aittir. - Etkinlik salonuna valiz ve büyük sırt çantası ile giriş yapılamaz. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Organizatör ve Zorlu PSM etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir. - Etkinlik saatinden önce Zorlu Center'da oluşabilecek yoğunluklar nedeniyle, kendi aracıyla gelen misafirlerimizin Otopark ve Vale'de zaman kaybetmemesi adına etkinlik saatinden en az 1 saat önce alana giriş yapmaları önerilmektedir. Anlayışınız için teşekkür ederiz. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik saatinden sonra gelen izleyic",
     "type": "concert",
@@ -121007,7 +122113,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -121439,6 +122545,85 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5YS1O%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-19T17:30:00Z",
+        "local_date": "2026-09-19",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpvek",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F015%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F015%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F015%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -122066,7 +123251,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -123949,7 +125134,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -124749,6 +125934,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-25T17:30:00Z",
+        "local_date": "2026-09-25",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpve6",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F016%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F016%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F016%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Edepsiz Komedi",
     "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
     "type": "theatre",
@@ -124830,7 +126094,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -125325,6 +126589,85 @@
     "fetched_at": null
   },
   {
+    "title": "Neşeli Gazino",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-26T17:30:00Z",
+        "local_date": "2026-09-26",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cafe Theatre Koşuyolu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkQfFpveF",
+            "title": "Neşeli Gazino",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F017%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F017%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-07-22T13:24:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ZebZ",
+    "attraction_upcoming_count": 36,
+    "performer_name": "Metin Zakoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PJ7L%2F017%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Şafak Kaç",
     "description": "Oyun Adı: Şafak Kaç Süre: 120 dk 2 Perde Künye: Yazar: Eray Yasin IŞIK Uyarlayan ve Yöneten: Nami ESATGİL Oyuncular: Mehmet ÇEPİÇ - Nami ESATGİL- Ece GÜRSEL- Efsane GEÇEN- Name ESATGİL Koordinatör: Osman ÇETİN Reji Asist: Ömer Cihan ASLAN Dekor: Hakan KAYMAKAMOĞLU Ses-Işık: Bahri ÇERVATOĞLU- Ömer Cihan ASLAN Afiş Tasarım: Can BALCI Kostüm: Sibel DEMEN Sahne Amiri: Azer RAHİMOV Konusu: Saftirik bir kocası olan Gülpembe depresyondadır ve doktorunun tavsiyesi ile uyku ilacı kullanmaya başlamıştır. Şile'de mahsur kalan Şafak Kaç, Gülpembe'nin evine yardım istemeye girer ilaçlı sudan içerek uyuya kalır. Gülpembe de bir köşede uyuyup kalmıştır. Eşine sürpriz yapmak üzere yazlığa erken dönen Nizamettin Yumuşak'ın eşinin başkasıyla uyuduğunu görmesiyle başlayan komik olaylar, Sevda'nın şöhret olma tutkusu ile sahneye girişleri ve Nizamettin'in kendini polise ihbarı ile bir kahkaha tufanına dönüşür. Tiyatroname sizlere yılın en iyi komedisi olacak \"Şafak Kaç\" ı gururla sunar.",
     "type": "theatre",
@@ -125711,7 +127054,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -127032,7 +128375,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ZebZ",
-    "attraction_upcoming_count": 24,
+    "attraction_upcoming_count": 36,
     "performer_name": "Metin Zakoğlu",
     "organizer_name": null,
     "source": "unknown",
