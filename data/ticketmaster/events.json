@@ -4931,7 +4931,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MARB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-03T13:40:00Z",
             "brand_name": null,
@@ -12085,7 +12085,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MARE%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-05T09:00:00Z",
             "brand_name": null,
@@ -13399,7 +13399,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MARF%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-05T09:00:00Z",
             "brand_name": null,
@@ -16988,6 +16988,79 @@
     "attraction_id": "K8vZ917bnrf",
     "attraction_upcoming_count": 16,
     "performer_name": "Gökhan Türkmen",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ceren Özdemir",
+    "description": "- ⁠18 Yaş sınırı vardır. - Sahne önünde yer alan ilk 2 sıra bistroların bulunduğu alanı kapsar. - SAHNE ÖNÜ VIP BİSTRO MASA bilet tiplerinde ucrete içecek ve ikramlar dahildir, ikram detayları için 0 541 379 88 55 numaralı telefonu arayarak bilgi alabilirsiniz. - ⁠Sahne Önü (VIP) bilet sahiplerinin, 0 541 379 88 55 numaralı telefonu arayarak, rezervasyon yaptırmaları zorunludur. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - ⁠Organizasyon firması etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir.",
+    "type": "concert",
+    "city_name": "Antalya",
+    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-05T18:00:00Z",
+        "local_date": "2026-09-05",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Loop Kaş",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk2q4vvvA",
+            "title": "Ceren Özdemir",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5ESK0%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5ESK0%2F004%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-05-22T13:50:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k8IZyAO",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Ceren ÖZDEMİR",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -119480,79 +119553,6 @@
     "attraction_id": "Z6HyzZyMZ1kuZqkaa",
     "attraction_upcoming_count": 23,
     "performer_name": "Sefa Doğanay",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Antalya Kum Heykel Müzesi - 2026",
-    "description": "- Bilet belirtilen tarih ve saatler arasında 1 kez giriş hakkı sağlar. - 1 Kasım 2025 Tarihinden itibaren Antalya Kum Heykel Müzesi 09:00-22:00 saatleri arasında ziyarete açık olacaktır . - 0-4 Yaş çocuklar ebeveynlerinin yanında ücretsizdir. - İndirimli bilet satın alan kişilerin, etkinlik alanına giriş esnasında yararlandıkları indirimi belgeleyen, geçerli bir kimlik kartı ibraz etmesi gerekmektedir. - Hava koşullarından kaynaklanan olumsuzluklar sonucu meydana gelecek teknik sorunlarda ve bu gibi nedenlerle etkinlik alanının kısmen veya tamamen geçici bir süre ziyarete kapatılması nedeniyle, organizasyon firması tarafından sorumluluk kabul edilmemektedir. - Etkinlik mekanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma, gerekli hallerde etkinliği erteleme hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir.- Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Kayıp veya unutulan biletler için yeniden basım / teslimat yapılmayacaktır. Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur.",
-    "type": "social",
-    "city_name": "Antalya",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-17T06:00:00Z",
-        "local_date": "2026-08-17",
-        "local_time": "09:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Antalya Kum Heykel Müzesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkq5bdvAa",
-            "title": "Antalya Kum Heykel Müzesi - 2026",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SAN2%2F048%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SAN2%2F048%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-06-17T09:10:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1k7A77_s",
-    "attraction_upcoming_count": 45,
-    "performer_name": "Antalya Kum Heykel Festivali",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
