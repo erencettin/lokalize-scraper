@@ -916,7 +916,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SRC5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-06-04T09:00:00Z",
             "brand_name": null,
@@ -6255,7 +6255,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ASA9",
-    "attraction_upcoming_count": 1,
+    "attraction_upcoming_count": 2,
     "performer_name": "Grup Gündoğarken",
     "organizer_name": null,
     "source": "unknown",
@@ -10001,6 +10001,79 @@
     "fetched_at": null
   },
   {
+    "title": "Grup Gündoğarken",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-26T19:00:00Z",
+        "local_date": "2026-08-26",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Gümüşlük Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk8KGGvve",
+            "title": "Grup Gündoğarken",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FIBB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FIBB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T09:23:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ASA9",
+    "attraction_upcoming_count": 2,
+    "performer_name": "Grup Gündoğarken",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Yavuzcan Çetin",
     "description": "- 18 yaş sınırı vardır. - Mekanda içecek fişi uygulaması vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik g",
     "type": "concert",
@@ -13505,6 +13578,79 @@
     "fetched_at": null
   },
   {
+    "title": "Anıl Piyancı",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-29T19:00:00Z",
+        "local_date": "2026-08-29",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dion Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkjb15vve",
+            "title": "Anıl Piyancı",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN9A%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN9A%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-10T09:07:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGNQ_P3",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Anıl Piyancı",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "The Sisters 90s 2000s Pop Gecesi",
     "description": "- 18 yaş sınırı vardır. 18 yaş altı giriş yapamaz. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp ",
     "type": "concert",
@@ -16864,7 +17010,7 @@
   },
   {
     "title": "Sıla",
-    "description": "Sıla, 5 Eylül'de Atlantis & IF ortaklığıyla CerModern'de sizlerle buluşuyor. — Kaynak: Biletix",
+    "description": null,
     "type": "concert",
     "city_name": "Ankara",
     "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -56552,7 +56698,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ16Abajt74",
-    "attraction_upcoming_count": 1,
+    "attraction_upcoming_count": 2,
     "performer_name": "Murat Bolat",
     "organizer_name": null,
     "source": "unknown",
@@ -67869,6 +68015,79 @@
     "attraction_id": "K8vZ9172gS0",
     "attraction_upcoming_count": 14,
     "performer_name": "Hande Yener",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Murat Bolat ve Anadolu Retrosu",
+    "description": "- 18 yaş sınırı vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından bileti",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-27T18:00:00Z",
+        "local_date": "2026-10-27",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk-17PwZv",
+            "title": "Murat Bolat ve Anadolu Retrosu",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5W972%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5W972%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T09:01:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ16Abajt74",
+    "attraction_upcoming_count": 2,
+    "performer_name": "Murat Bolat",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -84242,152 +84461,6 @@
     "fetched_at": null
   },
   {
-    "title": "Beykoz Kundura’da Bir Akşamüstü Konser Serisi - Coşkun Karademir Trio - Folk’n’Jazz",
-    "description": "- Kundura Genç, Beykoz Kundura'nın kültür--sanat alanlarını genç izleyiciler için daha erişilebilir kılmak amacıyla oluşturulmuş, özel bir sanatsever genç izleyici kategorisidir. - Kundura Hafıza'nın etkinliklerinden, film gösterimlerine, sahnedeki kültürel programlara kadar uzanan kürasyonlarda, 25 yaş altındaki izleyicilerin üretimle, mekânla ve birlikte deneyimleme kültürüyle bağ kurmasını desteklemeyi amaçlar. - Kundura Genç, bir indirim uygulamasından ziyade; katılımı, sürekliliği ve kültürel karşılaşmaları önemseyen bir davet olarak tasarlanmıştır. - Biletinizi ibraz ederek gösterimden 2 saat önce Beykoz Kundura'ya giriş yapabilir, yeme-içme alanlarından faydalanabilir ve Kundura'nın Hafızası: Bir Fabrikaya Sığan Dünya sergisini de ücretsiz rezervasyonla ziyaret edebilirsiniz. - Etkinlik bilet/rezervasyonunuzun Beykoz Kundura içinde yer alan çekim platolarına giriş izni vermediğini önemle hatırlatır, belirtilen alan dışına çıkmamanızı rica ederiz. - Profesyonel fotoğraf makinesi ile yazılı izin olmaksızın çekim yapılmasına müsaade verilmemektedir. Kayıt cihazlarınızı Beykoz Kundura girişinde güvenlik noktasına teslim etmenizi rica ederiz. - Konserlerin başlamasının ardından sahneye izleyici alınmamaktadır. İzleyicilerimizin vaktinde gelmeye özen göstermelerini rica ederiz. - Koltuklarımız numarasızdır. - Gösterim sırasında kamera, fotoğraf makinesi, cep telefonu vb. herhangi bir kayıt cihazı ile kayıt yapmak yasaktır. - Beykoz Kundura tarafından etkinlik boyunca ses ve görüntü kaydı yapılacak olup kayıt altına alınan görüntüler yalnızca tanıtım amacıyla Beykoz Kundura'nın internet sitesinde ve sosyal medya hesaplarında yayınlanacaktır. Beykoz Kundura, etkinlik kayıtlarını yalnızca tanıtım amacı ile sınırlı olacak şekilde kullanacak olup bu kayıtları etkinlik sanatçısına aktarabilecektir. - Kendi aracınızla mekana gelebilirsiniz. Otopark ücretsizdir. - Biletli konser ve sinema etkinliklerinde Üsküdar - Kadıköy ve Beşiktaş - Taksim yönlerine ücretsiz dönüş servi",
-    "type": "concert",
-    "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-13T18:00:00Z",
-        "local_date": "2026-12-13",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beykoz Kundura",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkG4L5vve",
-            "title": "Beykoz Kundura’da Bir Akşamüstü Konser Serisi - Coşkun Karademir Trio - Folk’n’Jazz",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BKUA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BKUA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-28T11:50:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "K8vZ917_mjf",
-    "attraction_upcoming_count": 1,
-    "performer_name": "Coşkun Karademir",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Soner Sarıkabadayı",
-    "description": "- 6 yaş altı konsere alınmamaktadır. 6 yaş üstü her yaştan katılımcı bilete tabidir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde haklarını kaybederler tekrar alana girebilmeleri için yeni bilet satın almaları gerekmektedir. - Organizatör firma etkinlik için uygun görmediği kişileri içeri almama hakkına sahiptir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanına Selfie Stick ve GoPro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girilmemektedir. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm, kolonya vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet, termos, motor kaskı ve lazer imleci ile girilmemektedir. - Tüm katılımcıların kimliklerini yanlarında bulundurması ve istendiğinde ibraz etmeleri gerekmektedir. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. - Etkinlik alanına evcil hayvan ile girilmesine izin verilmeyecektir. Sadece rehber köpek ile girilebilir. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanından çıkarma ",
-    "type": "concert",
-    "city_name": "Diyarbakır",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-13T18:00:00Z",
-        "local_date": "2026-12-13",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Diyarbakır Sezai Karakoç Kültür ve Kongre Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkQCbKvve",
-            "title": "Soner Sarıkabadayı",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-01-22T16:27:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "K8vZ9172kb7",
-    "attraction_upcoming_count": 21,
-    "performer_name": "Soner Sarikabadayi",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Konuşanlar - Hasan Can Kaya",
     "description": "• Organizatör firma, daha önce etkinliklerden herhangi birine katılmış olduğunu tespit ettiği izleyicileri, bilet ücretini iade ederek etkinliğe almama hakkına sahiptir. • Etkinlikte 18 yaş sınırı vardır. • Biletler şahsa özeldir ve devri yapılmamaktadır. • Biletix üyelik sahibinin etkinliğe katılması zorunludur, kapıda kimlik kontrolü yapılacaktır. Lütfen sepet sayfasındaki \" Katılımcı Ad Soyadı\" alanına üye sahibinin adını ve soyadını yazmayı unutmayın! • Kadın -- Erkek eşitliğine önem verilmektedir. Kategori bazında satış yapılmaktadır. Bilet alım işleminin buna göre yapılmasını önemle rica ederiz. • Kadın bileti ile sadece kadın izleyiciler giriş yapabilecektir. • Kadın biletlerinde üyelik sahibinin ad soyadı ile sepet sayfasındaki \"Katılımcı Ad Soyadı\" aynı olması zorunludur. • Çift biletleri iki kişiliktir. Etkinliğe bir kadın ve bir erkek olmak üzere birlikte katılımı zorunludur. Bilet sahiplerinden herhangi birinin etkinliğe katılamaması durumunda, diğer bilet sahibinin tek başına girişine izin verilmeyecektir. • Çift biletlerde sepet sayfasındaki \"Katılımcı Ad Soyadı\"nın en az bir tanesinin üyelik sahibi ile aynı olması zorunludur. • Üyelik sahibinin almış olduğu biletler için etkinliğe katılmaması durumunda Biletix müşteri hizmetleri ile görüşüp iade talep etmesi gerekmektedir. İade talepleri etkinlikten 24 saat öncesine kadar alınmaktadır. • Organizasyon şirketi, etkinlik için uygun görmediği kişileri bilet bedelini iade etmek koşuluyla etkinlik mekanına almama hakkına sahiptir. • İşlem sonrası üyelik sahibine iletilen PDF Biletlerin uygulama üzerinden etkinliğe girişte gösterilmesi veya çıktı alınması gerekmektedir. • Etkinliğe herhangi marka, logo, yazı, slogan vb. barındıran giysilerle katılınmaması önemle rica edilmektedir. • Etkinlikte numarasız oturma düzeni vardır. • Etkinlik sırasında yanınızda yiyecek içecek bulundurmamanızı ve yetkililer tarafından yapılan uyarılara uymanızı rica ediyoruz. • Yukardaki kurallara uygun davranmayan sanat severler y",
     "type": "standup",
@@ -84730,7 +84803,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -84949,7 +85022,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -85752,7 +85825,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -87723,7 +87796,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -88161,7 +88234,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -90205,7 +90278,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -90424,7 +90497,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -92249,7 +92322,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -92760,7 +92833,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -94074,7 +94147,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -94658,7 +94731,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -99841,7 +99914,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8AMAy",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Ebru Cündübeyoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -100425,7 +100498,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -101447,7 +101520,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -101814,6 +101887,79 @@
     "attraction_id": "Z6HyzZyMZ1kuPZNjA",
     "attraction_upcoming_count": 8,
     "performer_name": "Özge Günay Göze",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-25T17:30:00Z",
+        "local_date": "2026-09-25",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "PENGUEN Kültür Sanat Bistro & Comedy Club",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKbavve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN8%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN8%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:35:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -102325,6 +102471,79 @@
     "attraction_id": "Z6HyzZyMZ1kuPZNjA",
     "attraction_upcoming_count": 8,
     "performer_name": "Özge Günay Göze",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-26T17:30:00Z",
+        "local_date": "2026-09-26",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Sardunya Alsancak",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKb1vve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN9%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN9%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:43:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -102909,6 +103128,79 @@
     "attraction_id": "Z6HyzZyMZ1kft8xu8",
     "attraction_upcoming_count": 9,
     "performer_name": "Hayrettin",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-27T17:00:00Z",
+        "local_date": "2026-09-27",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Studyou Cafe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKb5vve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:49:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -104732,7 +105024,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuN8Aq7",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Hakan Yılmaz",
     "organizer_name": null,
     "source": "unknown",
@@ -107798,7 +108090,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k8N8oap",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Volkan Aktan",
     "organizer_name": null,
     "source": "unknown",
@@ -107944,7 +108236,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -108090,7 +108382,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuN8Aq7",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Hakan Yılmaz",
     "organizer_name": null,
     "source": "unknown",
@@ -113588,6 +113880,79 @@
     "fetched_at": null
   },
   {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-24T17:30:00Z",
+        "local_date": "2026-10-24",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Studyou Cafe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKbGvve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:49:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Salih Bademci - Sesler",
     "description": "- Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Gösteri başladıktan sonra içeriye seyirci alınamayacağını bildirir iyi seyirler dileriz. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmemesi rica olunur. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir.",
     "type": "theatre",
@@ -114735,6 +115100,79 @@
     "attraction_id": "Z6HyzZyMZ1kuZv6kd",
     "attraction_upcoming_count": 16,
     "performer_name": "Faruk Sofuoğlu",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ölün Bizi Ayırana Dek",
+    "description": "- 12 Yaş ve üzeri bilete tabidir. 12 Yaş altı etkinliğe alınmamaktadır. - Etkinlik başladıktan sonra salona seyirci alınmayacak, geç gelen seyirciler için iptal/iade ve değişiklik yapılmayacaktır. - ⁠Organizasyon firması etkinlik için uygun görmediği kişileri, etkinlik mekanına almama hakkına sahiptir. - ⁠Etkinlik düzenini bozacak ve diğer seyircileri rahatsız edecek davranışta bulunanlar etkinlik alanı dışına çıkarılır ve bilet iadesi yapılmaz. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Organizasyon firması, bilet fiyatlarını değiştirme hakkını saklı tutar. - Satın aldığınız bilet etkinliğe tek giriş hakkı verir, etkinlik alanından çıkış yapıldıktan sonra tekrar giriş yapılamaz. - Etkinlik alanı içine video, fotoğraf makinesi vb. dijital kayıt aletleri alınmayacaktır. - Gösteri esnasında kayıt yapılması ve canlı yayın yapılması yasaktır. - Etkinlik sırasında ışık oyunları ve efektler kullanılacaktır. Epilepsi hastaları ve ışığa duyarlı kişiler için uygun olmayabilir.",
+    "type": "theatre",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-30T17:00:00Z",
+        "local_date": "2026-10-30",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "BAOB Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkQG7VpZv",
+            "title": "Ölün Bizi Ayırana Dek",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PD16%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PD16%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:38:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k8N8oap",
+    "attraction_upcoming_count": 5,
+    "performer_name": "Volkan Aktan",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -120198,7 +120636,7 @@
                 "note": null
               }
             },
-            "ticket_status": "offsale",
+            "ticket_status": "onsale",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5J7AC%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-17T09:00:00Z",
             "brand_name": null,
