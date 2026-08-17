@@ -1022,7 +1022,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SRC5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-06-04T09:00:00Z",
             "brand_name": null,
@@ -7518,7 +7518,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8ASA9",
-    "attraction_upcoming_count": 1,
+    "attraction_upcoming_count": 2,
     "performer_name": "Grup Gündoğarken",
     "organizer_name": null,
     "source": "unknown",
@@ -12114,6 +12114,85 @@
     "fetched_at": null
   },
   {
+    "title": "Grup Gündoğarken",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-26T19:00:00Z",
+        "local_date": "2026-08-26",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Gümüşlük Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZk8KGGvve",
+            "title": "Grup Gündoğarken",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FIBB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FIBB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T09:23:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1A8ASA9",
+    "attraction_upcoming_count": 2,
+    "performer_name": "Grup Gündoğarken",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FIBB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Yavuzcan Çetin",
     "description": "- 18 yaş sınırı vardır. - Mekanda içecek fişi uygulaması vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik g",
     "type": "concert",
@@ -16413,6 +16492,119 @@
     "fetched_at": null
   },
   {
+    "title": "Anıl Piyancı",
+    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "concert",
+    "city_name": "Muğla",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-29T19:00:00Z",
+        "local_date": "2026-08-29",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dion Bodrum",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkjb15vve",
+            "title": "Anıl Piyancı",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN9A%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN9A%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-10T09:07:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18429854",
+            "title": "Anıl Piyancı",
+            "description": "Konseri Anıl Piyancı, 16 yaşında \"Yeşil Oda\" isimli ilk Hip-Hop stüdyosunu kurdu. Piyancı, 2012 yılında beraberindeki Grogi ile Yetenek Sizsiniz Türkiye isimli yarışma programına katılmış ve burada ikinci turda elenmiştir. Sonrasında albüm çalışmalarına devam eden Piyancı, son dönemde kurulmuş olan 8 kişilik grup ile birçok yeni çalışmaya imza atmıştır. Profesyonel ve resmi anlamdaki ilk albümü olan \"Zaman Yok\" isimli albümünü ise 2013 yılında piyasaya sürmüştür.",
+            "source_url": "https://biletinial.com/tr-tr/muzik/anil-piyanci",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 493.0,
+              "max_value": 493.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/anil-piyanci?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGNQ_P3",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Anıl Piyancı",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5RN9A%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/muzik/anil-piyanci"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "The Sisters 90s 2000s Pop Gecesi",
     "description": "- 18 yaş sınırı vardır. 18 yaş altı giriş yapamaz. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp ",
     "type": "concert",
@@ -20490,7 +20682,7 @@
   },
   {
     "title": "Sıla",
-    "description": "Sıla, 5 Eylül'de Atlantis & IF ortaklığıyla CerModern'de sizlerle buluşuyor. — Kaynak: Biletix",
+    "description": null,
     "type": "concert",
     "city_name": "Ankara",
     "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
@@ -28370,37 +28562,6 @@
             "sales_start_at": "2026-07-10T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18387044",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 1500.0,
-              "max_value": 1500.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -28410,19 +28571,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNN%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNN%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -33925,37 +34083,6 @@
             "sales_start_at": "2026-07-10T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18402233",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 950.0,
-              "max_value": 950.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -33965,19 +34092,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -42842,37 +42966,6 @@
             "sales_start_at": "2026-07-10T12:53:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18404197",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 650.0,
-              "max_value": 650.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -42882,19 +42975,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNO%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNO%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -45676,37 +45766,6 @@
             "sales_start_at": "2026-07-20T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18373632",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 750.0,
-              "max_value": 750.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -45716,19 +45775,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNZ%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNZ%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -68419,7 +68475,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ16Abajt74",
-    "attraction_upcoming_count": 1,
+    "attraction_upcoming_count": 2,
     "performer_name": "Murat Bolat",
     "organizer_name": null,
     "source": "unknown",
@@ -81852,6 +81908,119 @@
     "fetched_at": null
   },
   {
+    "title": "Murat Bolat ve Anadolu Retrosu",
+    "description": "- 18 yaş sınırı vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından bileti",
+    "type": "concert",
+    "city_name": "Ankara",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-27T18:00:00Z",
+        "local_date": "2026-10-27",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk-17PwZv",
+            "title": "Murat Bolat ve Anadolu Retrosu",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5W972%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5W972%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T09:01:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18458776",
+            "title": "Murat Bolat ve Anadolu Retrosu",
+            "description": "Konseri Anadolu rock’ın köklerinden bugüne uzanan özel bir gece. Murat Bolat ve Anadolu Retrosu, Barış Manço döneminin ruhunu taşıyan şarkılar, Barış Manço’nun unutulmaz eserleri ve Murat Bolat’ın kendi besteleri ile sahnede. Dönemin melodileri ve hikâye anlatımı, Murat Bolat’ın özgün şarkılarıyla bugüne bağlanıyor; geçmişin ilhamı, yeni üretimlerle aynı sahnede buluşuyor. Anadolu rock’ın hafızasına dokunan, Barış Manço’nun izinden ilerleyen ve yeni bir anlatı kuran bu özel gecede buluşmak üzere",
+            "source_url": "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 822.0,
+              "max_value": 822.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ16Abajt74",
+    "attraction_upcoming_count": 2,
+    "performer_name": "Murat Bolat",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5W972%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Yıldız Tilbe",
     "description": "***VIP LOUNGE LOCA : Özel yükseltilmiş alandır. 6 Kişiye 2 Şişe içecek ve krudite ikramı yapılacaktır. Garson Hizmeti Bulunmaktadır. ***VIP Bistro: Özel yükseltilmiş alandır. VIP Bistro alanından VIP LOUNGE alanına geçiş yapılamaz. Ayakta alandır. 6 Kişiye 1 Şişe içecek ve krudite ikramı yapılacaktır. Garson Hizmeti Bulunmaktadır. • Katılımcıların etkinlik süresince biletlerini ve/veya dijital biletlerini muhafaza etmeleri gerekmektedir. • Etkinlik alanına giriş yapıldıktan sonra bilet/QR kod kullanılmış sayılır. Etkinlik alanından çıkış yapan katılımcıların yeniden giriş hakkı bulunmamaktadır. Tekrar giriş yapmak isteyen katılımcıların yeni bilet satın almaları gerekmektedir. • Bilet/QR kodun kopyalanması, çoğaltılması veya üçüncü kişilerle paylaşılmasından doğabilecek sorunlardan organizatör sorumlu değildir. • 7 yaş altındaki çocuklar etkinlik alanına alınmamaktadır. 7 yaş ve üzerindeki tüm katılımcılar bilete tabidir. • Tüm katılımcıların geçerli kimlik belgelerini yanlarında bulundurmaları ve talep edilmesi halinde ibraz etmeleri gerekmektedir. Yaş sınırının bulunduğu etkinliklerde kimlik ibraz edemeyen katılımcılar etkinlik alanına alınmayabilir. • Organizatör; etkinlik düzenini, güvenliğini veya diğer katılımcıların huzurunu tehlikeye düşürebilecek kişileri etkinlik alanına almama veya etkinlik alanından çıkarma hakkını saklı tutar. • Etkinlik alanında taşkınlık yapan, diğer katılımcıları veya görevlileri rahatsız eden, tehdit veya şiddet içeren davranışlarda bulunan ya da etkinlik güvenliğini tehlikeye atan kişiler ücret iadesi yapılmaksızın etkinlik alanından çıkarılabilir. • Alkol veya uyuşturucu/uyarıcı madde etkisi altında olduğu değerlendirilen ve etkinlik düzeni ya da güvenliği açısından risk oluşturabilecek kişiler etkinlik alanına alınmayabilir veya etkinlik alanından çıkarılabilir. • Organizatör; öngörülemeyen ve kaçınılmaz nedenler, güvenlik gereklilikleri, hava koşulları, teknik veya operasyonel zorunluluklar nedeniyle etkinlik programında, saatle",
     "type": "concert",
@@ -88061,37 +88230,6 @@
             "sales_start_at": "2026-07-21T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18373633",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 750.0,
-              "max_value": 750.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -88101,19 +88239,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDN0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDN0%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -99506,37 +99641,6 @@
             "sales_start_at": "2026-08-05T12:41:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18411320",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 950.0,
-              "max_value": 950.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -99546,19 +99650,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -100161,37 +100262,6 @@
             "sales_start_at": "2026-08-03T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18398747",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 750.0,
-              "max_value": 750.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -100201,19 +100271,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNW%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNW%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -101098,37 +101165,6 @@
             "sales_start_at": "2026-07-20T09:00:00Z",
             "brand_name": null,
             "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18373634",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 750.0,
-              "max_value": 750.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
           }
         ]
       }
@@ -101138,19 +101174,16 @@
     "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
+    "provider": "Ticketmaster",
     "providers": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
     "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
+      "Ticketmaster"
     ],
-    "provider_label": "Ticketmaster, Biletinial",
+    "provider_label": "Ticketmaster",
     "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNX%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNX%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -101230,198 +101263,6 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MK57%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Beykoz Kundura’da Bir Akşamüstü Konser Serisi - Coşkun Karademir Trio - Folk’n’Jazz",
-    "description": "- Kundura Genç, Beykoz Kundura'nın kültür--sanat alanlarını genç izleyiciler için daha erişilebilir kılmak amacıyla oluşturulmuş, özel bir sanatsever genç izleyici kategorisidir. - Kundura Hafıza'nın etkinliklerinden, film gösterimlerine, sahnedeki kültürel programlara kadar uzanan kürasyonlarda, 25 yaş altındaki izleyicilerin üretimle, mekânla ve birlikte deneyimleme kültürüyle bağ kurmasını desteklemeyi amaçlar. - Kundura Genç, bir indirim uygulamasından ziyade; katılımı, sürekliliği ve kültürel karşılaşmaları önemseyen bir davet olarak tasarlanmıştır. - Biletinizi ibraz ederek gösterimden 2 saat önce Beykoz Kundura'ya giriş yapabilir, yeme-içme alanlarından faydalanabilir ve Kundura'nın Hafızası: Bir Fabrikaya Sığan Dünya sergisini de ücretsiz rezervasyonla ziyaret edebilirsiniz. - Etkinlik bilet/rezervasyonunuzun Beykoz Kundura içinde yer alan çekim platolarına giriş izni vermediğini önemle hatırlatır, belirtilen alan dışına çıkmamanızı rica ederiz. - Profesyonel fotoğraf makinesi ile yazılı izin olmaksızın çekim yapılmasına müsaade verilmemektedir. Kayıt cihazlarınızı Beykoz Kundura girişinde güvenlik noktasına teslim etmenizi rica ederiz. - Konserlerin başlamasının ardından sahneye izleyici alınmamaktadır. İzleyicilerimizin vaktinde gelmeye özen göstermelerini rica ederiz. - Koltuklarımız numarasızdır. - Gösterim sırasında kamera, fotoğraf makinesi, cep telefonu vb. herhangi bir kayıt cihazı ile kayıt yapmak yasaktır. - Beykoz Kundura tarafından etkinlik boyunca ses ve görüntü kaydı yapılacak olup kayıt altına alınan görüntüler yalnızca tanıtım amacıyla Beykoz Kundura'nın internet sitesinde ve sosyal medya hesaplarında yayınlanacaktır. Beykoz Kundura, etkinlik kayıtlarını yalnızca tanıtım amacı ile sınırlı olacak şekilde kullanacak olup bu kayıtları etkinlik sanatçısına aktarabilecektir. - Kendi aracınızla mekana gelebilirsiniz. Otopark ücretsizdir. - Biletli konser ve sinema etkinliklerinde Üsküdar - Kadıköy ve Beşiktaş - Taksim yönlerine ücretsiz dönüş servi",
-    "type": "concert",
-    "city_name": "İstanbul",
-    "image_url": "https://s1.ticketm.net/dam/c/548/5fefbd1c-973b-4b0e-9b2e-d78e4ce37548_106111_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-13T18:00:00Z",
-        "local_date": "2026-12-13",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beykoz Kundura",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkG4L5vve",
-            "title": "Beykoz Kundura’da Bir Akşamüstü Konser Serisi - Coşkun Karademir Trio - Folk’n’Jazz",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BKUA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BKUA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-28T11:50:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "K8vZ917_mjf",
-    "attraction_upcoming_count": 1,
-    "performer_name": "Coşkun Karademir",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": "Ticketmaster",
-    "providers": [
-      "Ticketmaster"
-    ],
-    "provider_tags": [
-      "Ticketmaster"
-    ],
-    "provider_label": "Ticketmaster",
-    "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BKUA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Soner Sarıkabadayı",
-    "description": "- 6 yaş altı konsere alınmamaktadır. 6 yaş üstü her yaştan katılımcı bilete tabidir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde haklarını kaybederler tekrar alana girebilmeleri için yeni bilet satın almaları gerekmektedir. - Organizatör firma etkinlik için uygun görmediği kişileri içeri almama hakkına sahiptir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanına Selfie Stick ve GoPro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girilmemektedir. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm, kolonya vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet, termos, motor kaskı ve lazer imleci ile girilmemektedir. - Tüm katılımcıların kimliklerini yanlarında bulundurması ve istendiğinde ibraz etmeleri gerekmektedir. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. - Etkinlik alanına evcil hayvan ile girilmesine izin verilmeyecektir. Sadece rehber köpek ile girilebilir. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanından çıkarma ",
-    "type": "concert",
-    "city_name": "Diyarbakır",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-13T18:00:00Z",
-        "local_date": "2026-12-13",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Diyarbakır Sezai Karakoç Kültür ve Kongre Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkQCbKvve",
-            "title": "Soner Sarıkabadayı",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-01-22T16:27:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "17447569",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 500.0,
-              "max_value": 500.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": "K8vZ9172kb7",
-    "attraction_upcoming_count": 21,
-    "performer_name": "Soner Sarikabadayi",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": "Ticketmaster, Biletinial",
-    "providers": [
-      "Ticketmaster",
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Ticketmaster",
-      "Biletinial"
-    ],
-    "provider_label": "Ticketmaster, Biletinial",
-    "source_urls": [
-      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
     ],
     "external_id": null,
     "category": null,
@@ -101837,7 +101678,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -102139,7 +101980,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -103212,7 +103053,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -105960,7 +105801,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -106536,7 +106377,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -109425,7 +109266,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -109696,7 +109537,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -112144,7 +111985,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -112833,7 +112674,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -114527,7 +114368,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -115428,7 +115269,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -121955,7 +121796,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A8AMAy",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Ebru Cündübeyoğlu",
     "organizer_name": null,
     "source": "unknown",
@@ -122686,7 +122527,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -124095,7 +123936,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -124609,6 +124450,119 @@
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AGLK%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
       "https://biletinial.com/tr-tr/tiyatro/hayri-fitler-tiyatro-oyunu"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-25T17:30:00Z",
+        "local_date": "2026-09-25",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "PENGUEN Kültür Sanat Bistro & Comedy Club",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKbavve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN8%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN8%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:35:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18446711",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 594.0,
+              "max_value": 594.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN8%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri"
     ],
     "external_id": null,
     "category": null,
@@ -125264,6 +125218,119 @@
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5AGLK%2F002%2FTURKIYE%2Ftr&utm_medium=affiliate",
       "https://biletinial.com/tr-tr/tiyatro/hayri-fitler-tiyatro-oyunu"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-26T17:30:00Z",
+        "local_date": "2026-09-26",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Sardunya Alsancak",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKb1vve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN9%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN9%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:43:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18446730",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 594.0,
+              "max_value": 594.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IIN9%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri"
     ],
     "external_id": null,
     "category": null,
@@ -126032,6 +126099,119 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5VV73%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-27T17:00:00Z",
+        "local_date": "2026-09-27",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Studyou Cafe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKb5vve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:49:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18446732",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 594.0,
+              "max_value": 594.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINA%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri"
     ],
     "external_id": null,
     "category": null,
@@ -128299,7 +128479,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuN8Aq7",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Hakan Yılmaz",
     "organizer_name": null,
     "source": "unknown",
@@ -132399,7 +132579,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k8N8oap",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Volkan Aktan",
     "organizer_name": null,
     "source": "unknown",
@@ -132622,7 +132802,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGxfArv",
-    "attraction_upcoming_count": 14,
+    "attraction_upcoming_count": 18,
     "performer_name": "İsmail Nuri",
     "organizer_name": null,
     "source": "unknown",
@@ -132783,7 +132963,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kuN8Aq7",
-    "attraction_upcoming_count": 4,
+    "attraction_upcoming_count": 5,
     "performer_name": "Hakan Yılmaz",
     "organizer_name": null,
     "source": "unknown",
@@ -139689,6 +139869,119 @@
     "fetched_at": null
   },
   {
+    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+    "description": "- Etkinlikte 18 yaş sınırı vardır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
+    "type": "standup",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-24T17:30:00Z",
+        "local_date": "2026-10-24",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Studyou Cafe",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkKKbGvve",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:49:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18446733",
+            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
+            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 594.0,
+              "max_value": 594.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGxfArv",
+    "attraction_upcoming_count": 18,
+    "performer_name": "İsmail Nuri",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster, Biletinial",
+    "providers": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Ticketmaster",
+      "Biletinial"
+    ],
+    "provider_label": "Ticketmaster, Biletinial",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5IINB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+      "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Salih Bademci - Sesler",
     "description": "- Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır. - Gösteri başladıktan sonra içeriye seyirci alınamayacağını bildirir iyi seyirler dileriz. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmemesi rica olunur. - Etkinlik boyunca ses ve görüntü kaydı yapılacaktır. Organizatör ve sanatçı daha sonra bu görüntüleri katılımcılardan herhangi bir onay almaksızın kullanma hakkına sahiptir.",
     "type": "theatre",
@@ -141074,6 +141367,85 @@
     "provider_label": "Ticketmaster",
     "source_urls": [
       "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F51L49%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ölün Bizi Ayırana Dek",
+    "description": "- 12 Yaş ve üzeri bilete tabidir. 12 Yaş altı etkinliğe alınmamaktadır. - Etkinlik başladıktan sonra salona seyirci alınmayacak, geç gelen seyirciler için iptal/iade ve değişiklik yapılmayacaktır. - ⁠Organizasyon firması etkinlik için uygun görmediği kişileri, etkinlik mekanına almama hakkına sahiptir. - ⁠Etkinlik düzenini bozacak ve diğer seyircileri rahatsız edecek davranışta bulunanlar etkinlik alanı dışına çıkarılır ve bilet iadesi yapılmaz. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Organizasyon firması, bilet fiyatlarını değiştirme hakkını saklı tutar. - Satın aldığınız bilet etkinliğe tek giriş hakkı verir, etkinlik alanından çıkış yapıldıktan sonra tekrar giriş yapılamaz. - Etkinlik alanı içine video, fotoğraf makinesi vb. dijital kayıt aletleri alınmayacaktır. - Gösteri esnasında kayıt yapılması ve canlı yayın yapılması yasaktır. - Etkinlik sırasında ışık oyunları ve efektler kullanılacaktır. Epilepsi hastaları ve ışığa duyarlı kişiler için uygun olmayabilir.",
+    "type": "theatre",
+    "city_name": "Bursa",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-30T17:00:00Z",
+        "local_date": "2026-10-30",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "BAOB Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkQG7VpZv",
+            "title": "Ölün Bizi Ayırana Dek",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PD16%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PD16%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T08:38:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k8N8oap",
+    "attraction_upcoming_count": 5,
+    "performer_name": "Volkan Aktan",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": "Ticketmaster",
+    "providers": [
+      "Ticketmaster"
+    ],
+    "provider_tags": [
+      "Ticketmaster"
+    ],
+    "provider_label": "Ticketmaster",
+    "source_urls": [
+      "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PD16%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate"
     ],
     "external_id": null,
     "category": null,
@@ -147890,7 +148262,7 @@
                 "note": null
               }
             },
-            "ticket_status": "offsale",
+            "ticket_status": "onsale",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5J7AC%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-17T09:00:00Z",
             "brand_name": null,
@@ -316284,211 +316656,6 @@
     "fetched_at": null
   },
   {
-    "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
-    "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
-    "type": "theatre",
-    "city_name": "İzmir",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/58586/Reklam-171a25c0c34e4191aa23350908c7054d.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-09-25T17:30:00Z",
-        "local_date": "2026-09-25",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Penguen Kültür Sanat Bistro & Comedy Club",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18446711",
-            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
-            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 594.0,
-              "max_value": 594.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-09-26T17:30:00Z",
-        "local_date": "2026-09-26",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Sardunya Alsancak",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18446730",
-            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
-            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 594.0,
-              "max_value": 594.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-09-27T17:00:00Z",
-        "local_date": "2026-09-27",
-        "local_time": "20:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Studyou Cafe",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18446732",
-            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
-            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 594.0,
-              "max_value": 594.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-10-24T17:30:00Z",
-        "local_date": "2026-10-24",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Studyou Cafe",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18446733",
-            "title": "İsmail Nuri - Stand Up (Yeni Gösteri)",
-            "description": "Youtube'da yayınladığı \"Hayatın Yüzde Doksan Beşi \" gösterisiyle büyük beğeni toplayan İsmail Nuri, yeni gösterisiyle şehrinize geliyor. Gülmeyi, eğlenmeyi seviyorsanız bu gösteri tam size göre.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 594.0,
-              "max_value": 594.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "İsmail Nuri",
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/tiyatro/ismail-nuri-stand-up-yeni-gosteri"
-    ],
-    "external_id": "18446711",
-    "category": "theatre",
-    "address": null,
-    "venue": "Penguen Kültür Sanat Bistro & Comedy Club",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Roast Düellosu",
     "description": "Stand Up Komedyenler bu kez sahneye kendi şakalarını anlatmak için değil, birbirlerini ateşe atmak için çıkıyor. Her round’da iki farklı komedyen karşı karşıya geliyor; kusurlar, geçmişte verilmiş kötü kararlar, utanç verici hikâyeler ve açılması pek de istenmeyen defterler birer birer şakaya dönüşüyor. Kimin daha acımasız olacağı, kimin hazırlıksız yakalanacağı ve gecenin sonunda kimlerin hâlâ arkadaş kalacağı belli değil. Üstelik bu düellonun kazananını komedyenler değil, siz belirliyorsunuz. Bir sahne, iki komedyen, tek kazanan. Düelloya hazır mısınız? Etkinlik süresince profesyonel video kaydı yapılacaktır. Bilet satın alan herkes, görüntülenmeyi kabul etmiş sayılır. Organizasyon firması görsel içerikleri paylaşma, yayınlama ve reklam amaçlı kullanma hakkına sahiptir.",
     "type": "theatre",
@@ -326778,6 +326945,673 @@
     "category": "concert",
     "address": null,
     "venue": "Hayal Kahvesi Bursa",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Soner Sarıkabadayı",
+    "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+    "type": "concert",
+    "city_name": "Diyarbakır",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/41388/Reklam-d93dd35328384710b5a2e2b4501ac527.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-12-13T18:00:00Z",
+        "local_date": "2026-12-13",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Diyarbakır Sezai Karakoç Kültür ve Kongre Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "17447569",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 500.0,
+              "max_value": 500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-26T18:00:00Z",
+        "local_date": "2026-09-26",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dorock XL Kadıköy",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18373632",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-06T18:00:00Z",
+        "local_date": "2026-11-06",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dorock XL Kadıköy",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18373633",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-12T18:00:00Z",
+        "local_date": "2026-12-12",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Dorock XL Kadıköy",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18373634",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-12T18:00:00Z",
+        "local_date": "2026-09-12",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Cehennemağzı Amfi Tiyatro",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18387044",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 1500.0,
+              "max_value": 1500.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-08T17:30:00Z",
+        "local_date": "2026-12-08",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Bostanlı Suat Taşer Salonu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18398747",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 750.0,
+              "max_value": 750.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-18T18:00:00Z",
+        "local_date": "2026-09-18",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Denizli Ziya Tıkıroğlu Açıkhava Tiyatrosu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18402233",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 950.0,
+              "max_value": 950.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-09-25T18:00:00Z",
+        "local_date": "2026-09-25",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Antakya Sümerler Açıkhava Tiyatrosu",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18404197",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-05T18:00:00Z",
+        "local_date": "2026-12-05",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Çorlu Ünal Baysan Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18411320",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 950.0,
+              "max_value": 950.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2027-02-20T18:00:00Z",
+        "local_date": "2027-02-20",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Mehmet Akif Ersoy Kültür Merkezi (Kahramanmaraş)",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18418786",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-23T18:00:00Z",
+        "local_date": "2026-10-23",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Erzurum Necip Fazıl Kısakürek Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18427524",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 950.0,
+              "max_value": 950.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-10-24T17:30:00Z",
+        "local_date": "2026-10-24",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Erzurum Necip Fazıl Kısakürek Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18430454",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 950.0,
+              "max_value": 950.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-13T18:00:00Z",
+        "local_date": "2026-11-13",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Gaziantep Şehit Kamil Kültür ve Kongre Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18437393",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 950.0,
+              "max_value": 950.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-11-21T18:00:00Z",
+        "local_date": "2026-11-21",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Trabzon KTÜ Atatürk Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18437426",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-04T18:00:00Z",
+        "local_date": "2026-12-04",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İÇDAŞ Kongre Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18450197",
+            "title": "Soner Sarıkabadayı",
+            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
+            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 650.0,
+              "max_value": 650.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
+    ],
+    "external_id": "17447569",
+    "category": "concert",
+    "address": null,
+    "venue": "Diyarbakır Sezai Karakoç Kültür ve Kongre Merkezi",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -359143,295 +359977,6 @@
     "fetched_at": null
   },
   {
-    "title": "Soner Sarıkabadayı",
-    "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-    "type": "concert",
-    "city_name": "Kahramanmaraş",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/41388/Reklam-d93dd35328384710b5a2e2b4501ac527.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2027-02-20T18:00:00Z",
-        "local_date": "2027-02-20",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Mehmet Akif Ersoy Kültür Merkezi (Kahramanmaraş)",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18418786",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 650.0,
-              "max_value": 650.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-10-23T18:00:00Z",
-        "local_date": "2026-10-23",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Erzurum Necip Fazıl Kısakürek Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18427524",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 950.0,
-              "max_value": 950.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-10-24T17:30:00Z",
-        "local_date": "2026-10-24",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Erzurum Necip Fazıl Kısakürek Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18430454",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 950.0,
-              "max_value": 950.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-11-13T18:00:00Z",
-        "local_date": "2026-11-13",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Gaziantep Şehit Kamil Kültür ve Kongre Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18437393",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 950.0,
-              "max_value": 950.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-11-21T18:00:00Z",
-        "local_date": "2026-11-21",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Trabzon KTÜ Atatürk Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18437426",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 650.0,
-              "max_value": 650.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-12-04T18:00:00Z",
-        "local_date": "2026-12-04",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "İÇDAŞ Kongre Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18450197",
-            "title": "Soner Sarıkabadayı",
-            "description": "Konseri Soner Sarıkabadayı sevilen şarkılarıyla konserlerine devam ediyor. Biletini al, sen de bu eğlencenin bir parçası ol!",
-            "source_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 650.0,
-              "max_value": 650.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/muzik/soner-sarikabadayi"
-    ],
-    "external_id": "18418786",
-    "category": "concert",
-    "address": null,
-    "venue": "Mehmet Akif Ersoy Kültür Merkezi (Kahramanmaraş)",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Oktoberfest X Antalya Müzik Festivali",
     "description": "Oktoberfest X Antalya Müzik Festivali, 16-17-18 Ekim 2026 tarihlerinde Antalya Bahçe’de müzik, eğlence ve festival ruhunu bir araya getiriyor. Üç gün boyunca Türkiye’nin sevilen sanatçılarının sahne alacağı festivalde, canlı performansların yanı sıra Oktoberfest konseptine özel atmosfer, yeme-içme alanları ve gün boyu sürecek eğlence ziyaretçileri bekliyor. Festival Programı Tüm günler için kapı açılış saati: 15.00 (Konser başlangıç saati değildir!) 16 Ekim Cuma * Sagopa Kajmer * No.1 17 Ekim Cumartesi * Hande Yener * Ozbi 18 Ekim Pazar * Duman * Seksendört Sonbaharın en enerjik festivalinde yerini almak için biletini hemen al, üç gün boyunca müziğin ve eğlencenin tadını çıkar! 📍 Antalya Bahçe 📅 16-17-18 Ekim 2026 🔞 Etkinlik 18 yaş ve üzeri katılımcılar içindir",
     "type": "concert",
@@ -361100,85 +361645,6 @@
     "category": "concert",
     "address": null,
     "venue": "Adana Merkez Park Amfi Tiyatro",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Anıl Piyancı",
-    "description": "Konseri Anıl Piyancı, 16 yaşında \"Yeşil Oda\" isimli ilk Hip-Hop stüdyosunu kurdu. Piyancı, 2012 yılında beraberindeki Grogi ile Yetenek Sizsiniz Türkiye isimli yarışma programına katılmış ve burada ikinci turda elenmiştir. Sonrasında albüm çalışmalarına devam eden Piyancı, son dönemde kurulmuş olan 8 kişilik grup ile birçok yeni çalışmaya imza atmıştır. Profesyonel ve resmi anlamdaki ilk albümü olan \"Zaman Yok\" isimli albümünü ise 2013 yılında piyasaya sürmüştür.",
-    "type": "concert",
-    "city_name": "Muğla",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/4626/Reklam-dd6014b567424f01a1e6784a5088eda4.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-08-29T19:00:00Z",
-        "local_date": "2026-08-29",
-        "local_time": "22:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Dion Bodrum",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18429854",
-            "title": "Anıl Piyancı",
-            "description": "Konseri Anıl Piyancı, 16 yaşında \"Yeşil Oda\" isimli ilk Hip-Hop stüdyosunu kurdu. Piyancı, 2012 yılında beraberindeki Grogi ile Yetenek Sizsiniz Türkiye isimli yarışma programına katılmış ve burada ikinci turda elenmiştir. Sonrasında albüm çalışmalarına devam eden Piyancı, son dönemde kurulmuş olan 8 kişilik grup ile birçok yeni çalışmaya imza atmıştır. Profesyonel ve resmi anlamdaki ilk albümü olan \"Zaman Yok\" isimli albümünü ise 2013 yılında piyasaya sürmüştür.",
-            "source_url": "https://biletinial.com/tr-tr/muzik/anil-piyanci",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 493.0,
-              "max_value": 493.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/anil-piyanci?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/muzik/anil-piyanci"
-    ],
-    "external_id": "18429854",
-    "category": "concert",
-    "address": null,
-    "venue": "Dion Bodrum",
     "link": null,
     "source_url": null,
     "ticket_info": null,
@@ -365833,85 +366299,6 @@
     "category": "concert",
     "address": null,
     "venue": "Moda Sahnesi",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Murat Bolat ve Anadolu Retrosu",
-    "description": "Konseri Anadolu rock’ın köklerinden bugüne uzanan özel bir gece. Murat Bolat ve Anadolu Retrosu, Barış Manço döneminin ruhunu taşıyan şarkılar, Barış Manço’nun unutulmaz eserleri ve Murat Bolat’ın kendi besteleri ile sahnede. Dönemin melodileri ve hikâye anlatımı, Murat Bolat’ın özgün şarkılarıyla bugüne bağlanıyor; geçmişin ilhamı, yeni üretimlerle aynı sahnede buluşuyor. Anadolu rock’ın hafızasına dokunan, Barış Manço’nun izinden ilerleyen ve yeni bir anlatı kuran bu özel gecede buluşmak üzere",
-    "type": "concert",
-    "city_name": "Ankara",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/murat-bolat-ve-anadolu-retrosu-2026113102497b0342e357904f60a70d120672de5b44.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-10-27T18:00:00Z",
-        "local_date": "2026-10-27",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "IF Ankara Performance Hall",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18458776",
-            "title": "Murat Bolat ve Anadolu Retrosu",
-            "description": "Konseri Anadolu rock’ın köklerinden bugüne uzanan özel bir gece. Murat Bolat ve Anadolu Retrosu, Barış Manço döneminin ruhunu taşıyan şarkılar, Barış Manço’nun unutulmaz eserleri ve Murat Bolat’ın kendi besteleri ile sahnede. Dönemin melodileri ve hikâye anlatımı, Murat Bolat’ın özgün şarkılarıyla bugüne bağlanıyor; geçmişin ilhamı, yeni üretimlerle aynı sahnede buluşuyor. Anadolu rock’ın hafızasına dokunan, Barış Manço’nun izinden ilerleyen ve yeni bir anlatı kuran bu özel gecede buluşmak üzere",
-            "source_url": "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 822.0,
-              "max_value": 822.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/muzik/murat-bolat-ve-anadolu-retrosu"
-    ],
-    "external_id": "18458776",
-    "category": "concert",
-    "address": null,
-    "venue": "IF Ankara Performance Hall",
     "link": null,
     "source_url": null,
     "ticket_info": null,
