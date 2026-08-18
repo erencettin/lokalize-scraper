@@ -4055,7 +4055,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "postponed",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OZH6%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-06-15T14:08:00Z",
             "brand_name": null,
@@ -38815,6 +38815,79 @@
     "attraction_id": "K8vZ917bnrf",
     "attraction_upcoming_count": 16,
     "performer_name": "Gökhan Türkmen",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Ari Barokas",
+    "description": "- Kapı açılış saati 19:30, konser saati 21:30 - 18 yaş sınırı vardır. 18 yaş altı giriş yapması yasaktır. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Organizatör firma, misafirlere rahatça eğlenebilecekleri bir ortam sunabilmek için mekan girişinde uygun görmediği kişileri kapıda bilet iadesi yaparak içeri almama hakkına sahiptir. - Konser alanına girecek herkes bilete tabidir - Konser her türlü hava koşulunda gerçekleştirilecektir. Bilet iadesi yapılmayacaktır. - Etkinlik salonunda kadın-erkek eşitliğine dikkat edilecektir. - Konser alanı içinde yiyecek ve içecek satışı yapılacağı için, dışarıdan getirilen yiyecek ve içecek konser alanına alınmayacaktır. - Konser alanına profesyonel ses ve görüntü kayıt araçları (video kamera ve fotoğraf makinası) ve Selfie ve GoPro çubukları alınmayacaktır. - Organizatör tarafından konser boyunca görüntü ve ses kaydı yapılacaktır. Bilet satın alan ve konser alanında olan herkes görüntülemeyi kabul etmiş sayılır. - Konser bileti alanlar, organizatör ve güvenlik ekibinin belirleyeceği üst ve çanta aranması dahil her türlü güvenlik önlemini kabul etmiş sayılır. Bu önlemlere uymak istemeyen katılımcıların, alana giris¸ haklarının iptal edileceği gibi, bilet iadeleri de yapılmayacaktır. Katılımcıların yaşını doğrulamak amacıyla organizatör kimlik ibrazı isteyebilecektir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı konser organizasyonuna ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Konser alanına yanıcı, patlayıcı, parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Konser alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Konser alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Konser süresince biletinizi saklayınız. - Konser alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu ha",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-26T18:30:00Z",
+        "local_date": "2026-09-26",
+        "local_time": "21:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Beşiktaş",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkbha7Iy",
+            "title": "Ari Barokas",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5NQ19%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5NQ19%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-17T09:00:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kupAAx9",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Ari Barokas",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -84440,79 +84513,6 @@
     "attraction_id": "Z6HyzZyMZ1k7SqY87",
     "attraction_upcoming_count": 1,
     "performer_name": "Norm Ender",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Soner Sarıkabadayı",
-    "description": "- 6 yaş altı konsere alınmamaktadır. 6 yaş üstü her yaştan katılımcı bilete tabidir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde haklarını kaybederler tekrar alana girebilmeleri için yeni bilet satın almaları gerekmektedir. - Organizatör firma etkinlik için uygun görmediği kişileri içeri almama hakkına sahiptir. - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına dışarıdan yiyecek ve içecek alınmamaktadır. - Etkinlik alanına Selfie Stick ve GoPro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girilmemektedir. - Etkinlik süresince kayıt yapılmasına izin verilmeyecektir. Seyirci, sanatçı yönetimi uygun gördüğü takdirde görsel-işitsel kayıt cihazlarına el konabileceğini kabul eder. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm, kolonya vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet, termos, motor kaskı ve lazer imleci ile girilmemektedir. - Tüm katılımcıların kimliklerini yanlarında bulundurması ve istendiğinde ibraz etmeleri gerekmektedir. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. - Etkinlik alanına evcil hayvan ile girilmesine izin verilmeyecektir. Sadece rehber köpek ile girilebilir. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanından çıkarma ",
-    "type": "concert",
-    "city_name": "Tekirdağ",
-    "image_url": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-05T18:00:00Z",
-        "local_date": "2026-12-05",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Çorlu Ünal Baysan Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkQCbpvve",
-            "title": "Soner Sarıkabadayı",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5PDNL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-08-05T12:41:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "K8vZ9172kb7",
-    "attraction_upcoming_count": 21,
-    "performer_name": "Soner Sarikabadayi",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
