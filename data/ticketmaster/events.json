@@ -4347,7 +4347,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5BDKD%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-14T09:00:00Z",
             "brand_name": null,
@@ -26549,7 +26549,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1A_bYo8",
-    "attraction_upcoming_count": 3,
+    "attraction_upcoming_count": 5,
     "performer_name": "Erdal Erzincan",
     "organizer_name": null,
     "source": "unknown",
@@ -87869,7 +87869,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7z74fY",
-    "attraction_upcoming_count": 2,
+    "attraction_upcoming_count": 4,
     "performer_name": "Okan Çabalar",
     "organizer_name": null,
     "source": "unknown",
@@ -94170,6 +94170,79 @@
     "fetched_at": null
   },
   {
+    "title": "Okan Çabalar",
+    "description": "-13 yaş altı etkinliğe alınmamaktadır. 13 ve 13 yaş üstü her katılımcı bilete tabidir. - Misafirlerin salona su haricinde yiyecek ve içecek ile girmesi yasaktır. - Misafirlerin biletleri mobil cihazlarında kayıtlı olmalıdır. - Bilet çıktısı üzerinden kontrol sağlanmayacaktır. - Etkinlik sırasında görüntü almak yasaktır. - Etkinlikten 30 dakika önce etkinlik alanında olunmalıdır. - Etkinlik başladıktan sonra seyirciler içeriye alınmayacaktır. İçeri alınmayan seyirciler için bilet iadesi ve değişikliği yapılmayacaktır. - Organizasyon firması görsel içerikleri paylaşma, yayınlama ve reklam amaçlı kullanma hakkına sahiptir. - Organizasyon firması gerekli durumlarda misafirlerin yer değişikliği hakkını saklı tutar. - Organizasyon firması öngörülmeyen ve kaçınılmaz nedenlerden dolayı etkinlikte iptal, erteleme ve programda değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi bilet fiyatlarında değişiklik yapma hakkını saklı tutar. - Organizatör firma etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına Selfie Stick ve Gopro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinesi) ile girilmemektedir. - Etkinlik biletleri devredilemez ve iade edilemez. Kayıp biletler için yenisi basılmayacaktır. Satın alınan bilet yazılı izin alınmadığı taktirde; reklam, yarışma, çekiliş, promosyon vb. Kişisel kullanım haricinde ticari ya da ticari olmayan amaçlarda kullanılamaz. Bu amaçla kullanılan biletler iptal edilecektir ve yasal işlem başlatılacaktır. -Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır.",
+    "type": "standup",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-12T17:00:00Z",
+        "local_date": "2026-09-12",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Duru Tiyatro - Watergarden Performans Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkr1b4vve",
+            "title": "Okan Çabalar",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NK%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NK%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-19T13:07:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k7z74fY",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Okan Çabalar",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "90lar",
     "description": "- 16 yaşından küçük çocuklar etkinliğe alınmamaktadır. - 16 yaş ve üzeri bilete tabidir. - Etkinlik başladıktan sonra alana seyirci alınmamaktadır.Geç kalan izleyiciler için bilet iadesi yapılmamaktadır. - Organizatör etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır.",
     "type": "theatre",
@@ -98623,6 +98696,79 @@
     "fetched_at": null
   },
   {
+    "title": "Okan Çabalar",
+    "description": "-13 yaş altı etkinliğe alınmamaktadır. 13 ve 13 yaş üstü her katılımcı bilete tabidir. - Misafirlerin salona su haricinde yiyecek ve içecek ile girmesi yasaktır. - Misafirlerin biletleri mobil cihazlarında kayıtlı olmalıdır. - Bilet çıktısı üzerinden kontrol sağlanmayacaktır. - Etkinlik sırasında görüntü almak yasaktır. - Etkinlikten 30 dakika önce etkinlik alanında olunmalıdır. - Etkinlik başladıktan sonra seyirciler içeriye alınmayacaktır. İçeri alınmayan seyirciler için bilet iadesi ve değişikliği yapılmayacaktır. - Organizasyon firması görsel içerikleri paylaşma, yayınlama ve reklam amaçlı kullanma hakkına sahiptir. - Organizasyon firması gerekli durumlarda misafirlerin yer değişikliği hakkını saklı tutar. - Organizasyon firması öngörülmeyen ve kaçınılmaz nedenlerden dolayı etkinlikte iptal, erteleme ve programda değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi bilet fiyatlarında değişiklik yapma hakkını saklı tutar. - Organizatör firma etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Etkinlik süresince biletinizi saklayınız. - Etkinlik alanına Selfie Stick ve Gopro çubukları ile girilmemektedir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinesi) ile girilmemektedir. - Etkinlik biletleri devredilemez ve iade edilemez. Kayıp biletler için yenisi basılmayacaktır. Satın alınan bilet yazılı izin alınmadığı taktirde; reklam, yarışma, çekiliş, promosyon vb. Kişisel kullanım haricinde ticari ya da ticari olmayan amaçlarda kullanılamaz. Bu amaçla kullanılan biletler iptal edilecektir ve yasal işlem başlatılacaktır. -Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır.",
+    "type": "standup",
+    "city_name": "İzmir",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-19T17:00:00Z",
+        "local_date": "2026-09-19",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "İstinyeArt Performans Arena",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkr1bpvve",
+            "title": "Okan Çabalar",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NL%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-19T13:07:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k7z74fY",
+    "attraction_upcoming_count": 4,
+    "performer_name": "Okan Çabalar",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Ölün Bizi Ayırana Dek",
     "description": "- 12 Yaş ve üzeri bilete tabidir. 12 Yaş altı etkinliğe alınmamaktadır. - Etkinlik başladıktan sonra salona seyirci alınmayacak, geç gelen seyirciler için iptal/iade ve değişiklik yapılmayacaktır. - ⁠Organizasyon firması etkinlik için uygun görmediği kişileri, etkinlik mekanına almama hakkına sahiptir. - ⁠Etkinlik düzenini bozacak ve diğer seyircileri rahatsız edecek davranışta bulunanlar etkinlik alanı dışına çıkarılır ve bilet iadesi yapılmaz. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Organizasyon firması, bilet fiyatlarını değiştirme hakkını saklı tutar. - Satın aldığınız bilet etkinliğe tek giriş hakkı verir, etkinlik alanından çıkış yapıldıktan sonra tekrar giriş yapılamaz. - Etkinlik alanı içine video, fotoğraf makinesi vb. dijital kayıt aletleri alınmayacaktır. - Gösteri esnasında kayıt yapılması ve canlı yayın yapılması yasaktır. - Etkinlik sırasında ışık oyunları ve efektler kullanılacaktır. Epilepsi hastaları ve ışığa duyarlı kişiler için uygun olmayabilir.",
     "type": "theatre",
@@ -102542,7 +102688,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1k7z74fY",
-    "attraction_upcoming_count": 2,
+    "attraction_upcoming_count": 4,
     "performer_name": "Okan Çabalar",
     "organizer_name": null,
     "source": "unknown",
