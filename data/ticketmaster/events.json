@@ -2741,7 +2741,7 @@
                 "note": null
               }
             },
-            "ticket_status": "onsale",
+            "ticket_status": "cancelled",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5ZAEB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-07-03T09:00:00Z",
             "brand_name": null,
@@ -2750,9 +2750,9 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kGNQ_PK",
-    "attraction_upcoming_count": 2,
-    "performer_name": "Ferda Anıl Yarkın",
+    "attraction_id": "Z6HyzZyMZ1k8oobot",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Ragga Oktay",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -18811,7 +18811,7 @@
       }
     ],
     "attraction_id": "ZaHyzZyMZ1A",
-    "attraction_upcoming_count": 7,
+    "attraction_upcoming_count": 8,
     "performer_name": "Yeni Türkü",
     "organizer_name": null,
     "source": "unknown",
@@ -20805,6 +20805,79 @@
     "fetched_at": null
   },
   {
+    "title": "Walkman 90lar Türkçe Pop Gecesi",
+    "description": "- 18 yaş sınırı vardır. 18 yaş altı giriş yapamaz. - Fiziki kimlik/ehliyet/pasaport belgelerinizi yanınızda bulundurmanız zorunludur, kapıda kontrol edilecektir. - Etkinlik girişinde kadın-erkek eşitliğine dikkat edilecektir. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kab",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-11T19:00:00Z",
+        "local_date": "2026-09-11",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "IF Performance Hall Beşiktaş",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZk89a4Lv",
+            "title": "Walkman 90lar Türkçe Pop Gecesi",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FM88%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5FM88%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T08:20:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kCaG3jS",
+    "attraction_upcoming_count": 2,
+    "performer_name": "Walkman 90'lar Türkçe Pop Gecesi",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Flashback 90'lar Türkçe Pop Gecesi",
     "description": "- 18 yaş sınırı vardır. 18 yaş altı giriş yapamaz. - Konsere girecek olan misafirlerimizin erken giriş yapmalarını rica ederiz. - Alana yiyecek içecek sokulması yasaktır. - Konsere girecek olan herkesin kimlik göstermesi zorunludur. - Konser alanına sırt çantası,bavul,mont, kamera ve fotoğraf makinesi sokulması yasaktır. - İçeride ki sahne ışık şovları Ms ve Epilepsi hastaları için zararlıdır dikkat edilmesi rica olunur. - Misafirlere rahatça eğlenebilecekleri bir ortam sunabilmek için Konserlerde kadın erkek eşitliğine dikkat edilecektir. Gerekli durumlarda mekan uygun görmediği kişileri bilet iadesi yaparak içeri almama hakkına sahiptir. - Etkinlik girişinde bilet kontrolü yapılacaktır. Biletlerinizi telefondan göstermeniz gerekmektedir. - 18 yaş altı bilet alan misafirlerin bilet iadesi yapılmayacaktır. Uyarıların dikkate alınmasını rica ederiz. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - İzinli fotoğrafçıların haricinde alana profesyonel fotoğraf makinesi sokulması yasaktır.",
     "type": "concert",
@@ -22753,7 +22826,7 @@
       }
     ],
     "attraction_id": "ZaHyzZyMZ1A",
-    "attraction_upcoming_count": 7,
+    "attraction_upcoming_count": 8,
     "performer_name": "Yeni Türkü",
     "organizer_name": null,
     "source": "unknown",
@@ -62488,6 +62561,79 @@
     "fetched_at": null
   },
   {
+    "title": "Yeni Türkü",
+    "description": "- 18 yaş sınırı vardır. - Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Organizyasyon firması etkinlik mekanına kadın -- erkek sayısının eşitliğini sağlamak amacıyla, bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barko",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-17T18:30:00Z",
+        "local_date": "2026-10-17",
+        "local_time": "21:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kadıköy Sahne",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZkpG7gvZv",
+            "title": "Yeni Türkü",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LD41%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LD41%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T07:28:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "ZaHyzZyMZ1A",
+    "attraction_upcoming_count": 8,
+    "performer_name": "Yeni Türkü",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Ankara Echoes",
     "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ul",
     "type": "concert",
@@ -75628,6 +75774,79 @@
     "fetched_at": null
   },
   {
+    "title": "Opia - İlk Görüşte Aşk",
+    "description": "- Etkinlik kapı açılış saati 20:00, etkinlik başlangıç saati 21:00'dır. - Etkinlik 16 yaş ve üstü katılımcılar için uygundur. - 16 yaş altı seyirciler etkinliğe katılamaz. - Etkinlik başlangıç saatinden en az 1 saat önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunması gerekmektedir. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Zorlu PSM, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Zorlu PSM kapalı alanlarında sigara içmek kesinlikle yasaktır.Bu kurala uymayanlar,uyarı yapılmaksızın etkinlik alanı dışına çıkarılırlar ve bilet iadesi yapılmaz. - Zorlu PSM etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Zorlu PSM etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir. - Etkinlik esnasında epilepsi hastaları için uygun olmayabilecek ışık efektleri ve görseller kullanılmaktadır. - Oturma düzeni Kültür ve Turizm Bakanlığı'nın düzenlemelerine ve resmi uyarılarına göre değişiklik gösterebilir. - Etkinlik mekanına yiyecek ve içecek sokmak yasaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır. - Etkinliğin türüne göre sessiz olunması ve telefonların kapalı/sessiz konumda tutulması gerekebilir. - Zorlu PSM kapalı alanlarında sigara içmek kesinlikle yasaktır. Bu kurala uymayanlar, uyarı yapılmaksızın etkinlik alanı dışına çıkarılırlar ve bilet iadesi yapılmaz. - Etkinlik saatinden önce Zorlu Center'da oluşabilecek yoğunluklar nedeniyle, kendi aracıyla gelen misafirlerimizin Otopark ve Vale' de zaman kaybetmemesi adına etkinlik saatinden en az 1 saat önce alana giriş yapmaları önerilmektedir. Anlayışınız için teşekkür ederiz. - Vestiyere bırakılmayan eşyaların sorumluluğu sahibine aittir. - Etkinlik salonuna valiz ve büyük sırt çantası ile giriş yapılamaz. - Etkinlik alanına girecek herkes , Yaş alt -- üst sınırı olmaksızın bilete tabidir.",
+    "type": "concert",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-07T18:00:00Z",
+        "local_date": "2026-11-07",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Zorlu PSM - Turkcell Platinum Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "ZaHyzZyMZk9G7TDZv",
+            "title": "Opia - İlk Görüşte Aşk",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MFFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "offsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MFFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T09:00:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "ZaHyzZyMZ7v",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Ferhat Göçer",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Dj Ali Taş ile 90'lar 2000’ler Pop Gecesi",
     "description": "- 18 yaş sınırı vardır. - Belirtilen saat kapı açılış saatidir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Organizasyon firması etkinlik için uygun görmediği kişileri, bilet ücretini iade ederek etkinlik mekanına almama hakkına sahiptir.",
     "type": "concert",
@@ -76554,7 +76773,7 @@
       }
     ],
     "attraction_id": "ZaHyzZyMZ1A",
-    "attraction_upcoming_count": 7,
+    "attraction_upcoming_count": 8,
     "performer_name": "Yeni Türkü",
     "organizer_name": null,
     "source": "unknown",
@@ -84367,225 +84586,6 @@
     "attraction_id": "Z6HyzZyMZ1k8z34ee",
     "attraction_upcoming_count": 10,
     "performer_name": "Wegh",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Ceren Gündoğdu Candle Session",
-    "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ul",
-    "type": "concert",
-    "city_name": "Balıkesir",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-01T17:30:00Z",
-        "local_date": "2026-12-01",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Edremit Şükrü Tunar Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkLuqLvve",
-            "title": "Ceren Gündoğdu Candle Session",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5UCSU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "cancelled",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5UCSU%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-28T11:57:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1kCFoYqg",
-    "attraction_upcoming_count": 23,
-    "performer_name": "Ceren Gündoğdu",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Ahmet Kaya ile Kardeş Türküler",
-    "description": "- Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
-    "type": "concert",
-    "city_name": "Diyarbakır",
-    "image_url": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-02T17:30:00Z",
-        "local_date": "2026-12-02",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Diyarbakır Sezai Karakoç Kültür ve Kongre Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkAxv6vve",
-            "title": "Ahmet Kaya ile Kardeş Türküler",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54X06%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F54X06%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-08-14T11:31:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1A8ASA7",
-    "attraction_upcoming_count": 7,
-    "performer_name": "Kardeş Türküler",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Ceren Gündoğdu Candle Session",
-    "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ul",
-    "type": "concert",
-    "city_name": "Balıkesir",
-    "image_url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-02T17:30:00Z",
-        "local_date": "2026-12-02",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Barış Manço Kültür Merkezi Bandırma Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkLuqOvve",
-            "title": "Ceren Gündoğdu Candle Session",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5UCSV%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "cancelled",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5UCSV%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-07-28T11:57:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1kCFoYqg",
-    "attraction_upcoming_count": 23,
-    "performer_name": "Ceren Gündoğdu",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -96848,7 +96848,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -98089,7 +98089,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -100863,7 +100863,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -102469,7 +102469,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1AfvxFb",
-    "attraction_upcoming_count": 22,
+    "attraction_upcoming_count": 23,
     "performer_name": "Mesut Süre",
     "organizer_name": null,
     "source": "unknown",
@@ -103053,7 +103053,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1AfvxFb",
-    "attraction_upcoming_count": 22,
+    "attraction_upcoming_count": 23,
     "performer_name": "Mesut Süre",
     "organizer_name": null,
     "source": "unknown",
@@ -104367,7 +104367,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -105535,7 +105535,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -106265,7 +106265,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -109185,7 +109185,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -109988,7 +109988,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -111594,7 +111594,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -112178,7 +112178,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1AfvxFb",
-    "attraction_upcoming_count": 22,
+    "attraction_upcoming_count": 23,
     "performer_name": "Mesut Süre",
     "organizer_name": null,
     "source": "unknown",
@@ -112543,7 +112543,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -113200,7 +113200,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -114660,7 +114660,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -115390,7 +115390,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -116412,7 +116412,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -116777,7 +116777,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -117434,7 +117434,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -117799,7 +117799,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -118894,7 +118894,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1AfvxFb",
-    "attraction_upcoming_count": 22,
+    "attraction_upcoming_count": 23,
     "performer_name": "Mesut Süre",
     "organizer_name": null,
     "source": "unknown",
@@ -119916,7 +119916,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -120135,7 +120135,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -120354,7 +120354,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM4woJ",
-    "attraction_upcoming_count": 36,
+    "attraction_upcoming_count": 37,
     "performer_name": "Fazlı Polat",
     "organizer_name": null,
     "source": "unknown",
@@ -123516,6 +123516,79 @@
     "fetched_at": null
   },
   {
+    "title": "Meksika Açmazı - İyi misin?",
+    "description": "- Etkinlikte 16 yaş sınırı vardır. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Katılımcılar/izleyiciler bileti üzerinde yazan koltuk numarasına oturmak zorundadır. Bu kurala uymayan ve yer değişikliğinde ısrar eden katılımcılar etkinlik alanı dışına alınacaktır. - Televizyon program çekimi yapılacağından etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır. - Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır.",
+    "type": "standup",
+    "city_name": "Aksaray",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-30T17:00:00Z",
+        "local_date": "2026-11-30",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aksaray Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkr1bKvve",
+            "title": "Meksika Açmazı - İyi misin?",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-19T11:47:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kGM4woJ",
+    "attraction_upcoming_count": 37,
+    "performer_name": "Fazlı Polat",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Zengin Mutfağı",
     "description": "- 13 yaş sınırı bulunmaktadır. - Etkinlik alanına dışardan yiyecek ve içecek alınmayacaktır. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinliğe evcil hayvan getirilmesi yasaktır. -Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. -Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır.",
     "type": "theatre",
@@ -123568,6 +123641,79 @@
     "attraction_id": "Z6HyzZyMZ1kuZZgOk",
     "attraction_upcoming_count": 10,
     "performer_name": "Şener Şen",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Meksika Açmazı - İyi misin?",
+    "description": "- Etkinlikte 16 yaş sınırı vardır. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Katılımcılar/izleyiciler bileti üzerinde yazan koltuk numarasına oturmak zorundadır. Bu kurala uymayan ve yer değişikliğinde ısrar eden katılımcılar etkinlik alanı dışına alınacaktır. - Televizyon program çekimi yapılacağından etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır. - Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır.",
+    "type": "standup",
+    "city_name": "Aksaray",
+    "image_url": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-30T17:30:00Z",
+        "local_date": "2026-11-30",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Aksaray Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkr1b9vve",
+            "title": "Meksika Açmazı - İyi misin?",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NM%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T08:27:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1AfvxFb",
+    "attraction_upcoming_count": 23,
+    "performer_name": "Mesut Süre",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -126486,7 +126632,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -127800,7 +127946,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -127946,7 +128092,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -128603,7 +128749,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -129114,7 +129260,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -129625,7 +129771,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -129844,7 +129990,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -129917,7 +130063,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -129990,7 +130136,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -130501,7 +130647,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -130647,7 +130793,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -130939,7 +131085,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131158,7 +131304,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131231,7 +131377,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131304,7 +131450,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131523,7 +131669,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131669,7 +131815,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
@@ -131961,80 +132107,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
-    "performer_name": "Anlatanadam",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Meksika Açmazı - İyi misin?",
-    "description": "- Etkinlikte 16 yaş sınırı vardır. - Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir. - Katılımcılar/izleyiciler bileti üzerinde yazan koltuk numarasına oturmak zorundadır. Bu kurala uymayan ve yer değişikliğinde ısrar eden katılımcılar etkinlik alanı dışına alınacaktır. - Televizyon program çekimi yapılacağından etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır. - Etkinlik alanına giriş yapan katılımcıların alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Etkinlik alanına ateşli silahlar, yanıcı, patlayıcı, parlayıcı (*deodorant, *sprey, *parfüm, vb. gibi), kesici, delici, bereleyici, saldırı ve savunma amacıyla olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli (*kask, *kamp sandalyesi, *selfie çubuğu, *tripod, *pantolon zinciri vb.) her türlü alet ve lazer imleci ile girmek yasaktır.",
-    "type": "social",
-    "city_name": "Aksaray",
-    "image_url": "https://s1.ticketm.net/dam/c/03e/e15ef00f-2c87-4421-ae61-d740851a703e_105891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-30T17:00:00Z",
-        "local_date": "2026-11-30",
-        "local_time": "20:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Aksaray Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZkr1bKvve",
-            "title": "Meksika Açmazı - İyi misin?",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5T9NI%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-08-19T11:47:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1kGgFPfb",
-    "attraction_upcoming_count": 29,
+    "attraction_upcoming_count": 30,
     "performer_name": "Anlatanadam",
     "organizer_name": null,
     "source": "unknown",
