@@ -33766,7 +33766,7 @@
                 "note": null
               }
             },
-            "ticket_status": "offsale",
+            "ticket_status": "onsale",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5LWF5%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-20T09:00:00Z",
             "brand_name": null,
@@ -53926,6 +53926,79 @@
     "attraction_id": "Z6HyzZyMZ1kGMJ_kf",
     "attraction_upcoming_count": 1,
     "performer_name": "Arctic Monkeys Tribute",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Pango - Back to School Party",
+    "description": "- Bu etkinlikte 18 yaş sınırı vardır. 18 yaş altı etkinliğe katılım sağlayamayacaktır. - Mekan girişinde kadın-erkek eşitliğine önem verilmektedir. Organizatör bu kurala aykırılık oluşturan kişileri etkinlik mekanına almama hakkına sahiptir. - Konser alanına girecek herkes bilete tabidir. - E-Biletiniz Mail ve SMS olarak size gelecektir. Çıktı almanıza gerek yoktur. - Organizasyon şirketi, etkinlik için uygun görmediği kişileri bilet bedelini iade etmek koşuluyla etkinlik mekanına almama hakkına sahiptir. - Organizasyon şirketi, öngörülemeyen ve kaçınılmaz nedenlerden ötürü oluşan teknik vb. aksaklıklar nedeniyle programda her türlü değişiklik yapma hakkını saklı tutar. - Konser alanı içinde yiyecek ve içecek satışı yapılacağı için, dışarıdan getirilen yiyecek ve içecek konser alanına alınmayacaktır. - Konser alanına profesyonel ses ve görüntü kayıt araçları (video kamera ve fotoğraf makinası) ve Selfie ve GoPro çubukları alınmayacaktır. Organizatör tarafından konser boyunca görüntü ve ses kaydı yapılacaktır. Bilet satın alan ve konser alanında olan herkes görüntülenmeyi kabul etmiş sayılır. - Konser alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Konser bileti alanlar, organizatör ve güvenlik ekibinin belirleyeceği üst ve çanta aranması dâhil her türlü güvenlik önlemini kabul etmiş sayılır. Bu önlemlere uymak istemeyen katılımcıların, alana giriş haklarının iptal edileceği gibi, bilet iadeleri de yapılmayacaktır. - Konser alanına yanıcı, patlayıcı, parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Konser alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Konser alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sah",
+    "type": "concert",
+    "city_name": "Eskişehir",
+    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-10T19:00:00Z",
+        "local_date": "2026-10-10",
+        "local_time": "22:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Holly Garden Eskişehir",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z1HyzZyMZkq_a2Fs",
+            "title": "Pango - Back to School Party",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SO62%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5SO62%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T09:05:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1k8yAYPv",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Pango",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -75814,7 +75887,7 @@
                 "note": null
               }
             },
-            "ticket_status": "offsale",
+            "ticket_status": "onsale",
             "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5MFFB%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
             "sales_start_at": "2026-08-20T09:00:00Z",
             "brand_name": null,
@@ -84513,79 +84586,6 @@
     "attraction_id": "K8vZ917p12f",
     "attraction_upcoming_count": 15,
     "performer_name": "KARSU",
-    "organizer_name": null,
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Wegh",
-    "description": "- Organizasyon şirketi etkinlik için uygun görmediği kişileri bilet ücretini iade etmek kaydı ile içeri almama hakkına sahiptir. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır - Organizasyon şirketi, öngörülmeyen ve kaçınılmaz nedenlerden ötürü programda her türlü değişiklik yapma hakkını saklı tutar. - Organizasyon şirketi, bilet fiyatlarında değişiklik yapma hakkına sahiptir. - Etkinlik alanına profesyonel ses ve görüntü araçları (video kamera ve fotoğraf makinası) ile girmek yasaktır. - Konser biletleri devredilemez ve iade edilemez. - Konser süresince biletinizi ve/veya bilekliğinizi saklayınız. - Etkinlik alanında yanınızda bulunan eşyaların sorumluluğunun size ait olduğunu hatırlatmak isteriz. - Etkinlik alanına yanıcı, patlayıcı (deodorant, sprey, parfüm vb. gibi), parlayıcı, kesici ve delici olarak kullanılabilecek her türlü alet ve lazer imleci ile girmek yasaktır. - Etkinlik alanındaki ses düzenleri geçici duyma problemlerine yol açabilir. - Etkinlik alanındaki sahne ışık düzenekleri MS ve Epilepsi hastaları için zararlıdır, dikkat edilmesini önemle rica ederiz. - Etkinlik alanındaki ışık düzenleri geçici göz rahatsızlıklarına neden olabilir. - Etkinlik alanında duman ve sis makinesi kullanılabilir. - Konser biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini konser alanından çıkarma hakkına sahiptir. - Etkinlik alanına giriş yapan seyircilerin alandan çıkış yapmaları halinde yeni bilet satın almaları gerekmektedir. - Konsere katılan kişilerin fotoğraf ve video çekimlerinin tanıtım materyallerinde kullanım hakkı organizasyona ait olup katılımcı, konsere katılarak bu hakkın kullanılmasını kabul etmektedir. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ul",
-    "type": "concert",
-    "city_name": "Kayseri",
-    "image_url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-29T18:00:00Z",
-        "local_date": "2026-11-29",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "EKM Erciyes Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Ticketmaster",
-            "external_id": "Z2HyzZyMZk_q5Qvve",
-            "title": "Wegh",
-            "description": null,
-            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OSAP%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "ticketmaster_price_unavailable",
-                "confidence": 0.0,
-                "legal_mode": "official_api",
-                "source": "ticketmaster_discovery_v2_events",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "onsale",
-            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5OSAP%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
-            "sales_start_at": "2026-08-17T09:00:00Z",
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": "Z6HyzZyMZ1k8z34ee",
-    "attraction_upcoming_count": 10,
-    "performer_name": "Wegh",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -97432,7 +97432,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -110644,9 +110644,9 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZfIQ7",
+    "attraction_id": "Z6HyzZyMZ1kGyPMCp",
     "attraction_upcoming_count": 5,
-    "performer_name": "Dilan Çiçek Deniz",
+    "performer_name": "Özlem Öçalmaz",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -112323,9 +112323,9 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZfIQe",
-    "attraction_upcoming_count": 10,
-    "performer_name": "Selçuk Yöntem",
+    "attraction_id": "Z6HyzZyMZ1kGyPMCp",
+    "attraction_upcoming_count": 5,
+    "performer_name": "Özlem Öçalmaz",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -115559,6 +115559,79 @@
     "fetched_at": null
   },
   {
+    "title": "Ahududu",
+    "description": "- Etkinlik kuralları gereği 10 yaş altındaki çocukların etkinlik alanına girişi mümkün değildir. - 10 yaş ve üzerindeki tüm katılımcılar etkinliğe katılabilir ve bilete tabidir. - Etkinlik başladıktan sonra gelen seyircilerin satın almış oldukları koltuğa oturamama durumundan biletleme firması ve Organizatör sorumlu değildir. Organizatör firma ve biletleme firması geç kalan misafirler için koltuk garantisi vermez. Bu sebeple etkinliğe konser saatinden önce gelmenizi önemle rica ederiz. - Organizasyon şirketinin programda ve bilet fiyatlarında değişiklik yapma hakkı saklıdır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. Aynı zamanda, bileti okutularak etkinlik alanına giriş yapan misafirler daha sonra etkinlik alanını terk etmesi durumunda tekrar aynı bilet ile etkinlik alanına giriş yapamayacaktır. Tekrar etkinlik alanına girmek isteyen misafirlerin yeni bilet satın almaları gerekmektedir. - Etkinlik süresince tüm katılımcıların biletlerini yanlarında bulundurması gerekmektedir.- Etkinlik biletleri sadece organizasyon sahibi tarafından belirlenen resmi satış noktalarından alınmalıdır. Organizasyon sahibi resmi satış noktalarından alınmayan biletlerin sahiplerini etkinlik alanına almama hakkına sahiptir. - Satın alınan bilet Organizatör tarafından yazılı izin alınmadığı takdirde; reklam, yarışma, çekiliş, promosyon vb. kişisel kullanım haricinde ticari ya da ticari olmayan amaçlarda kullanılamaz. Bu amaçla kullanılan biletler iptal edilecektir. - Güvenlik personeli, etkinlik alanına giren herkesi güvenlik aramasına tabii tutacaktır. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla, etkinlik mekanına kişiyi almama hakkına sahiptir. - Etkinlik mekanına kamera, fotoğraf makinası, ses cihazı vb. her türlü görsel-işitsel kayıt cihazı alınmayacaktır. - Etkinlik alanına selfie stick ve GoPro çubukları alınmayacaktır. - Etkinlik süresince kayıt yapılmas",
+    "type": "theatre",
+    "city_name": "İstanbul",
+    "image_url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-24T18:00:00Z",
+        "local_date": "2026-10-24",
+        "local_time": "21:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Paribu Vadi Açıkhava",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Ticketmaster",
+            "external_id": "Z2HyzZyMZkCruxvve",
+            "title": "Ahududu",
+            "description": null,
+            "source_url": "https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DTCX%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "ticketmaster_price_unavailable",
+                "confidence": 0.0,
+                "legal_mode": "official_api",
+                "source": "ticketmaster_discovery_v2_events",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "onsale",
+            "ticket_url": "Ticketmaster|https://ticketmaster.evyy.net/c/7294156/2038774/23908?u=https%3A%2F%2Fwww.biletix.com%2Fperformance%2F5DTCX%2F001%2FTURKIYE%2Ftr&utm_medium=affiliate",
+            "sales_start_at": "2026-08-20T09:00:00Z",
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": "Z6HyzZyMZ1kuv7pP6",
+    "attraction_upcoming_count": 1,
+    "performer_name": "Suna Keskin",
+    "organizer_name": null,
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "İte Kaka",
     "description": "- Etkinlikte 15 yaş sınırı bulunmaktadır. 15 yaş ve üzeri bilete tabidir. - Organizasyon firması, diğer misafirleri rahatsız eden/edecek nitelikte, uygun görmediği kişileri etkinlik için bilet bedelini iade etmek koşuluyla,etkinlik mekanına kişiyi almama hakkına sahiptir. - Misafirlerin belirtilen oturma düzenine uyması zorunludur. Etkinlik boyunca belirlenen koltuklarda oturulması gerekmektedir. - Etkinlik başlangıç saatinden en az 30 dk. önce biletle birlikte etkinliğin kapısında olacak şekilde hazır olunmasını önemle rica ederiz. - Giriş esnasında barkod / bilet kontrolü yapılacağı için biletinizi ibraz etmeniz zorunludur. Öncelikle biletiniz üyelik ile alınmış ise üyelik girişi yapılıp biletlerim alanından biletinize ulaşabilirsiniz. Ulaşamadığınız durumlarda, üyelik ile biletiniz almadıysanız Biletix Müşteri hizmetlerine başvurunuz. - Organizatör, indirimli bilet satın alma koşullarında değişiklik yapma hakkını saklı tutar. - Organizatör, etkinlik alanı ve saatinde değişiklik yapma hakkına sahiptir. - Etkinlik alanına yiyecek ve içecek almak yasaktır. - Etkinlik başladıktan sonra salona seyirci alınmayacaktır. - Satın alınan biletlerde iptal, iade ve değişiklik yapılmamaktadır. - Etkinlik mekanına kamera ve fotoğraf makinası sokmak yasaktır.",
     "type": "theatre",
@@ -118748,7 +118821,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -119040,7 +119113,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -119259,7 +119332,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -119551,7 +119624,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -122106,7 +122179,7 @@
       }
     ],
     "attraction_id": "Z6HyzZyMZ1kGM07AZ",
-    "attraction_upcoming_count": 6,
+    "attraction_upcoming_count": 7,
     "performer_name": "Melek Baykal",
     "organizer_name": null,
     "source": "unknown",
@@ -123857,9 +123930,9 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kGyPMCp",
+    "attraction_id": "Z6HyzZyMZ1kuZfIQ7",
     "attraction_upcoming_count": 5,
-    "performer_name": "Özlem Öçalmaz",
+    "performer_name": "Dilan Çiçek Deniz",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
@@ -124733,9 +124806,9 @@
         ]
       }
     ],
-    "attraction_id": "Z6HyzZyMZ1kuZfIQd",
+    "attraction_id": "Z6HyzZyMZ1kGyPMCp",
     "attraction_upcoming_count": 5,
-    "performer_name": "Tansu Biçer",
+    "performer_name": "Özlem Öçalmaz",
     "organizer_name": null,
     "source": "unknown",
     "provider": null,
