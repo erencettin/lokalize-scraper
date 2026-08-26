@@ -1,14 +1,14 @@
 [
   {
-    "title": "Terasta Caz",
-    "description": "Terasta Caz",
-    "type": "experience",
+    "title": "Terasta Sinema",
+    "description": "Terasta Sinema",
+    "type": "cinema",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-08-25T21:00:00Z",
-        "local_date": "2026-08-26",
+        "start_at_utc": "2026-08-27T21:00:00Z",
+        "local_date": "2026-08-28",
         "local_time": "00:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -17,10 +17,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-18e324b90b7375bb",
-            "title": "Terasta Caz",
+            "external_id": "rss-839c2e08ecdc9c58",
+            "title": "Terasta Sinema",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz/",
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-sinema-2/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -73,15 +73,15 @@
     "fetched_at": null
   },
   {
-    "title": "Terasta Sinema",
-    "description": "Terasta Sinema",
-    "type": "cinema",
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
+    "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-08-27T21:00:00Z",
-        "local_date": "2026-08-28",
+        "start_at_utc": "2026-08-28T21:00:00Z",
+        "local_date": "2026-08-29",
         "local_time": "00:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -90,10 +90,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-839c2e08ecdc9c58",
-            "title": "Terasta Sinema",
+            "external_id": "rss-91c0b097064c5684",
+            "title": "Sanat Rotası",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/terasta-sinema-2/",
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-3/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -678,6 +678,79 @@
             "title": "Koltuk Senin",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/koltuk-senin/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Harbiye Açık Hava etkinlikleri",
+    "description": "Harbiye Açık Hava etkinlikleri",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-08-26T21:00:00Z",
+        "local_date": "2026-08-27",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-559199cbc219e3a8",
+            "title": "Harbiye Açık Hava etkinlikleri",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
