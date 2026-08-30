@@ -1,22 +1,22 @@
 {
-  "total_events": 3400,
-  "total_events_before_dedup": 7300,
-  "total_events_after_dedup": 3400,
-  "ticketmaster_count": 1909,
+  "total_events": 3409,
+  "total_events_before_dedup": 7309,
+  "total_events_after_dedup": 3409,
+  "ticketmaster_count": 1918,
   "municipal_count": 7,
   "serpapi_count": 12,
   "biletimgo_count": 126,
   "biletcom_count": 60,
   "biletinial_count": 5186,
   "overlap_count": 3900,
-  "multi_provider_event_count": 597,
+  "multi_provider_event_count": 598,
   "provider_combo_counts": {
     "BiletimGO": 121,
     "Biletinial": 1293,
     "MunicipalRSS": 7,
     "SerpAPIEvents": 12,
-    "Ticketmaster": 1312,
-    "Ticketmaster+Biletinial": 595,
+    "Ticketmaster": 1320,
+    "Ticketmaster+Biletinial": 596,
     "Ticketmaster+Biletinial+bilet.com": 1,
     "Ticketmaster+bilet.com": 1,
     "bilet.com": 58
@@ -24,13 +24,13 @@
   "provider_tag_combo_counts": {
     "Biletinial": 1293,
     "Google": 12,
-    "Ticketmaster": 1312,
-    "Ticketmaster+Biletinial": 595,
+    "Ticketmaster": 1320,
+    "Ticketmaster+Biletinial": 596,
     "Ticketmaster+Biletinial+bilet.com": 1,
     "Ticketmaster+bilet.com": 1,
     "bilet.com": 58,
     "biletimGO": 121,
     "İBB": 7
   },
-  "last_merge": "2026-08-29T22:45:36.015530+00:00"
+  "last_merge": "2026-08-30T01:09:49.092547+00:00"
 }
