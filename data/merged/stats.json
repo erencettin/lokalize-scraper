@@ -1,17 +1,17 @@
 {
-  "total_events": 3791,
-  "total_events_before_dedup": 8694,
-  "total_events_after_dedup": 3791,
+  "total_events": 3785,
+  "total_events_before_dedup": 8686,
+  "total_events_after_dedup": 3785,
   "ticketmaster_count": 1993,
   "municipal_count": 10,
   "serpapi_count": 12,
-  "biletimgo_count": 220,
+  "biletimgo_count": 212,
   "biletcom_count": 81,
   "biletinial_count": 6378,
-  "overlap_count": 4903,
+  "overlap_count": 4901,
   "multi_provider_event_count": 634,
   "provider_combo_counts": {
-    "BiletimGO": 208,
+    "BiletimGO": 202,
     "BiletimGO+Biletinial": 10,
     "Biletinial": 1481,
     "MunicipalRSS": 6,
@@ -30,10 +30,10 @@
     "Ticketmaster+Biletinial": 620,
     "Ticketmaster+bilet.com": 4,
     "bilet.com": 77,
-    "biletimGO": 208,
+    "biletimGO": 202,
     "biletimGO+Biletinial": 10,
     "Çatalca Belediyesi": 1,
     "İBB": 6
   },
-  "last_merge": "2026-09-13T11:54:50.545822+00:00"
+  "last_merge": "2026-09-13T12:12:03.987081+00:00"
 }
