@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 
 from models.normalized_event import NormalizedEvent, NormalizedOccurrence, NormalizedSource, PriceInfo
 from services.sync_service import SyncService
+from utils.change_detector import ChangeDetector
 
 
 class DummyBackendClient:
@@ -45,9 +46,10 @@ def _build_event(provider: str, source_url: str, source_name: str) -> Normalized
     )
 
 
-def test_sync_service_sends_google_for_serpapi_provider() -> None:
+def test_sync_service_sends_google_for_serpapi_provider(tmp_path) -> None:
     backend = DummyBackendClient()
-    service = SyncService(backend_client=backend)
+    change_detector = ChangeDetector(store_path=str(tmp_path / "event_hashes.json"))
+    service = SyncService(backend_client=backend, change_detector=change_detector)
     event = _build_event("serpapi_google_events", "https://www.google.com/events/abc", "Blind")
 
     ok = service.sync_events_to_backend_bulk([event], "run-1")
@@ -64,9 +66,10 @@ def test_sync_service_sends_google_for_serpapi_provider() -> None:
     assert dto["priceResolution"]["legal_mode"] == "unknown"
 
 
-def test_sync_service_sends_municipality_for_municipal_web_provider() -> None:
+def test_sync_service_sends_municipality_for_municipal_web_provider(tmp_path) -> None:
     backend = DummyBackendClient()
-    service = SyncService(backend_client=backend)
+    change_detector = ChangeDetector(store_path=str(tmp_path / "event_hashes.json"))
+    service = SyncService(backend_client=backend, change_detector=change_detector)
     event = _build_event(
         "MunicipalWeb",
         "https://www.kartal.bel.tr/KulturSanat/EtkinlikTakvimi",

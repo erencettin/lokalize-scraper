@@ -1,4 +1,3 @@
-import itertools
 import logging
 import time
 from typing import Iterator, List, Optional
@@ -6,6 +5,7 @@ from typing import Iterator, List, Optional
 from clients.backend_client import BackendClient
 from config import settings
 from models.normalized_event import NormalizedEvent
+from utils.change_detector import ChangeDetector
 from utils.price_parser import PriceParser
 from utils.provider_enrichment import build_provider_payload_from_event
 
@@ -19,9 +19,11 @@ class SyncService:
     def __init__(
         self,
         backend_client: Optional[BackendClient] = None,
+        change_detector: Optional[ChangeDetector] = None,
     ):
         self._backend = backend_client or BackendClient(base_url=settings.backend_url)
         self._price_parser = PriceParser()
+        self._change_detector = change_detector or ChangeDetector()
         self.last_backend_sync_status = "unknown"
 
     def _build_dtos(self, events: List[NormalizedEvent]) -> Iterator[dict]:
@@ -106,44 +108,59 @@ class SyncService:
                 logging.warning("⚠️ Backend sync atlandı.")
             return True
 
-        dto_stream = self._build_dtos(events)
-        first_chunk = list(itertools.islice(dto_stream, _CHUNK_SIZE))
+        all_dtos = list(self._build_dtos(events))
 
-        if not first_chunk:
+        if not all_dtos:
             logging.warning("No events to sync in bulk.")
             self.last_backend_sync_status = "skipped"
             return True
 
+        changed_entries = self._change_detector.compute_changes(all_dtos)
+        skipped_count = len(all_dtos) - len(changed_entries)
+        logging.info(
+            f"Change detection: {len(changed_entries)} changed, {skipped_count} unchanged "
+            f"(skipped) out of {len(all_dtos)} events."
+        )
+
+        if not changed_entries:
+            logging.info("No changed events to sync.")
+            self.last_backend_sync_status = "skipped"
+            return True
+
         # Debug log for price tracking (first 5)
-        for d in first_chunk[:5]:
+        for dto, _key, _hash in changed_entries[:5]:
             logging.info(
-                f"Syncing DTO: Title='{d['title']}' Provider='{d['provider']}' "
-                f"MinPrice='{d['minPrice']}' Currency='{d['currency']}'"
+                f"Syncing DTO: Title='{dto['title']}' Provider='{dto['provider']}' "
+                f"MinPrice='{dto['minPrice']}' Currency='{dto['currency']}'"
             )
 
         all_success = True
         chunk_num = 0
-        current_chunk = first_chunk
 
-        while current_chunk:
+        for chunk_start in range(0, len(changed_entries), _CHUNK_SIZE):
             chunk_num += 1
-            logging.info(f"Syncing chunk {chunk_num} ({len(current_chunk)} events)...")
+            chunk = changed_entries[chunk_start : chunk_start + _CHUNK_SIZE]
+            chunk_dtos = [dto for dto, _key, _hash in chunk]
+            logging.info(f"Syncing chunk {chunk_num} ({len(chunk_dtos)} events)...")
             success = False
             for attempt in range(1, _CHUNK_MAX_ATTEMPTS + 1):
-                success = self._backend.sync_events_bulk(current_chunk, sync_run_id)
+                success = self._backend.sync_events_bulk(chunk_dtos, sync_run_id)
                 if success:
                     break
                 if attempt < _CHUNK_MAX_ATTEMPTS:
                     wait = _CHUNK_RETRY_BACKOFF_SECONDS[attempt - 1]
                     logging.warning(f"Chunk {chunk_num} attempt {attempt} failed, retrying in {wait}s...")
                     time.sleep(wait)
-            if not success:
+            if success:
+                for _dto, key, new_hash in chunk:
+                    self._change_detector.mark_synced(key, new_hash)
+            else:
                 logging.error(f"Chunk {chunk_num} failed after {_CHUNK_MAX_ATTEMPTS} attempts.")
                 all_success = False
-            current_chunk = list(itertools.islice(dto_stream, _CHUNK_SIZE))
-            if current_chunk:
+            if chunk_start + _CHUNK_SIZE < len(changed_entries):
                 time.sleep(_INTER_CHUNK_SLEEP_SECONDS)
 
+        self._change_detector.save()
         self.last_backend_sync_status = "success" if all_success else "partial_failure"
         return all_success
 

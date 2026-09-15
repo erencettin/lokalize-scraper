@@ -66,11 +66,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ticketmaster/
+          git add data/ticketmaster/ data/sync_state/
           git stash
           git pull --rebase origin main || true
           git stash pop || true
-          git add data/ticketmaster/
+          git add data/ticketmaster/ data/sync_state/
           git diff --staged --quiet || git commit -m "🎫 Ticketmaster güncellendi - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
