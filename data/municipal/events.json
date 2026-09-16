@@ -1,5 +1,78 @@
 [
   {
+    "title": "Palmiyeler",
+    "description": "Palmiyeler",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-17T09:00:00Z",
+        "local_date": "2026-09-17",
+        "local_time": "12:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-964f80ae4e7afcbd",
+            "title": "Palmiyeler",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/palmiyeler/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Psikanaliz 101",
     "description": "Psikanaliz 101",
     "type": "experience",
@@ -438,8 +511,8 @@
     "fetched_at": null
   },
   {
-    "title": "İBB ODA MÜZİĞİ TOPLULUĞU ‘KLASİK ESİNTİLER’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
-    "description": "İBB ODA MÜZİĞİ TOPLULUĞU ‘KLASİK ESİNTİLER’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
+    "title": "İBB ODA MÜZİĞİ TOPLULUĞU ‘GEZGİN NOTALAR’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
+    "description": "İBB ODA MÜZİĞİ TOPLULUĞU ‘GEZGİN NOTALAR’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
     "type": "concert",
     "city_name": "Istanbul",
     "image_url": null,
@@ -456,7 +529,7 @@
           {
             "provider": "MunicipalRSS",
             "external_id": "rss-b7dee8e874fd0bf6",
-            "title": "İBB ODA MÜZİĞİ TOPLULUĞU ‘KLASİK ESİNTİLER’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
+            "title": "İBB ODA MÜZİĞİ TOPLULUĞU ‘GEZGİN NOTALAR’ MÜZE GAZHANE 1 İKLİM MÜZESİ KONSERİ",
             "description": null,
             "source_url": "https://orkestralar.ibb.istanbul/ibb-oda-muzigi-toplulugu-klasik-esintiler-muze-gazhane-1-iklim-muzesi-konseri/",
             "deep_link_url": null,
@@ -532,79 +605,6 @@
             "title": "İBB MEHTERANI ‘NEVBETTEN MARŞA’ BAĞCILAR MEYDANI KONSERİ",
             "description": null,
             "source_url": "https://orkestralar.ibb.istanbul/ibb-mehterani-nevbetten-marsa-bagcilar-meydani-konseri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "İBB KENT ORKESTRASI SANCAKTEPE BELEDİYE MEYDANI SEMTİMDE ORKESTRA KONSERİ",
-    "description": "İBB KENT ORKESTRASI SANCAKTEPE BELEDİYE MEYDANI SEMTİMDE ORKESTRA KONSERİ",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-09-17T16:30:00Z",
-        "local_date": "2026-09-17",
-        "local_time": "19:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-81775432ee672be6",
-            "title": "İBB KENT ORKESTRASI SANCAKTEPE BELEDİYE MEYDANI SEMTİMDE ORKESTRA KONSERİ",
-            "description": null,
-            "source_url": "https://orkestralar.ibb.istanbul/ibb-kent-orkestrasi-sancaktepe-belediye-meydani-semtimde-orkestra-konseri/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
