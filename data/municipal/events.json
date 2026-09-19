@@ -219,15 +219,15 @@
     "fetched_at": null
   },
   {
-    "title": "Yoga Festivali",
-    "description": "Yoga Festivali",
-    "type": "festival",
+    "title": "İstanbul Arası",
+    "description": "İstanbul Arası",
+    "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-09-19T21:00:00Z",
-        "local_date": "2026-09-20",
+        "start_at_utc": "2026-09-24T21:00:00Z",
+        "local_date": "2026-09-25",
         "local_time": "00:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -236,10 +236,10 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-a9fa11098c965413",
-            "title": "Yoga Festivali",
+            "external_id": "rss-5c79749bd58b3283",
+            "title": "İstanbul Arası",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/yoga-festivali-2/",
+            "source_url": "https://kultur.istanbul/etkinlik/istanbul-arasi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -292,16 +292,16 @@
     "fetched_at": null
   },
   {
-    "title": "İstanbul Arası",
-    "description": "İstanbul Arası",
+    "title": "Harbiye Açık Hava etkinlikleri",
+    "description": "Harbiye Açık Hava etkinlikleri",
     "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-09-24T21:00:00Z",
-        "local_date": "2026-09-25",
-        "local_time": "00:00",
+        "start_at_utc": "2026-09-20T18:09:00Z",
+        "local_date": "2026-09-20",
+        "local_time": "21:09",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -309,10 +309,83 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-5c79749bd58b3283",
-            "title": "İstanbul Arası",
+            "external_id": "rss-559199cbc219e3a8",
+            "title": "Harbiye Açık Hava etkinlikleri",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/istanbul-arasi/",
+            "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İBB GENÇLİK CAZ VE FÜZYON ORKESTRASI ÖN ELEME SONUÇLARI AÇIKLANDI!",
+    "description": "İBB GENÇLİK CAZ VE FÜZYON ORKESTRASI ÖN ELEME SONUÇLARI AÇIKLANDI!",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-09-20T09:00:00Z",
+        "local_date": "2026-09-20",
+        "local_time": "12:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-177aa2e48f008014",
+            "title": "İBB GENÇLİK CAZ VE FÜZYON ORKESTRASI ÖN ELEME SONUÇLARI AÇIKLANDI!",
+            "description": null,
+            "source_url": "https://orkestralar.ibb.istanbul/ibb-genclik-caz-ve-fuzyon-orkestrasi-on-eleme-sonuclari-aciklandi/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
