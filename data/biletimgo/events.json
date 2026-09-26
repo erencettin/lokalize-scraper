@@ -3473,12 +3473,12 @@
             "source_url": "https://www.biletimgo.com/etkinlik/dogan-tuncel-standup-aliaga-30825?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 300.0,
-              "max_value": 600.0,
+              "min_value": null,
+              "max_value": null,
               "text": null,
               "currency": "TRY",
               "is_free": false,
-              "is_unknown": false,
+              "is_unknown": true,
               "resolution": {
                 "strategy": "unknown",
                 "confidence": 0.0,
@@ -3548,12 +3548,12 @@
             "source_url": "https://www.biletimgo.com/etkinlik/alpay-erdem-standup-dikili-30852?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 300.0,
-              "max_value": 350.0,
+              "min_value": null,
+              "max_value": null,
               "text": null,
               "currency": "TRY",
               "is_free": false,
-              "is_unknown": false,
+              "is_unknown": true,
               "resolution": {
                 "strategy": "unknown",
                 "confidence": 0.0,
@@ -3998,8 +3998,8 @@
             "source_url": "https://www.biletimgo.com/etkinlik/back-to-university-eskisehir-pop-star-party-30136?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 390.0,
-              "max_value": 750.0,
+              "min_value": 450.0,
+              "max_value": 800.0,
               "text": null,
               "currency": "TRY",
               "is_free": false,
@@ -12473,7 +12473,7 @@
             "source_url": "https://www.biletimgo.com/etkinlik/universiteye-hosgeldin-30188?partner=14",
             "deep_link_url": null,
             "price": {
-              "min_value": 425.0,
+              "min_value": 450.0,
               "max_value": 800.0,
               "text": null,
               "currency": "TRY",
@@ -12590,81 +12590,6 @@
     "category": "concert",
     "address": "Caferağa Mahallesi Moda Caddesi Dumlupınar Sokak - Kadıköy / İstanbul",
     "venue": "RocknRolla Live Kadıköy",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Nightmare Party (ANKARA)",
-    "description": "“NIGHTMARE PARTY” ŞİMDİ ANKARA’DA!\n🎃🦄 Ponyville bu Halloween’da hiç olmadığı kadar karanlık! 🖤\nUyumun 6 Elementi, yeniden bir araya geliyor ve My Little Pony’nin rengârenk dünyası bu kez biraz kararıyor…🌈\nTüm Pony’ler yerini aldıysa, 24 Ekim Cumartesi akşamı yılın hem en sevimli hem de en karanlık partisi için Route Selanik Ankara’da buluşuyoruz!\nMy Little Pony’nin ikonik şarkıları, 2000’ler ve 2010’ların pop hitleri ile Ponyville’de bizi muhteşem bir gece bekliyor! 🦄🎉\n📅 24 Ekim Cumartesi\n🕘 21:00\n📍 Route Selanik Ankara\nThis Halloween, friendship is magic… but a little scary. 👀🖤\n(Bu etkinlik herhangi bir yapım ile resmi bağlantılı değildir. My Little Pony hayranları için hazırlanan fanmade bir konsept partidir.)",
-    "type": "social",
-    "city_name": "Ankara",
-    "image_url": "https://www.biletimgo.com/images/nightmare-party-ankara-47T40W.png",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-10-24T18:00:00Z",
-        "local_date": "2026-10-24",
-        "local_time": "21:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Route Selanik Ankara",
-        "district": null,
-        "sources": [
-          {
-            "provider": "BiletimGO",
-            "external_id": "31155",
-            "title": "Nightmare Party (ANKARA)",
-            "description": null,
-            "source_url": "https://www.biletimgo.com/etkinlik/nightmare-party-ankara-31155?partner=14",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 250.0,
-              "max_value": 300.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "unknown",
-                "confidence": 0.0,
-                "legal_mode": "unknown",
-                "source": "unknown",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "https://www.biletimgo.com/etkinlik/nightmare-party-ankara-31155?partner=14",
-            "sales_start_at": null,
-            "brand_name": "Pinky Organizasyon",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Pinky Organizasyon",
-    "source": "BiletimGO",
-    "provider": null,
-    "providers": [
-      "BiletimGO"
-    ],
-    "provider_tags": [],
-    "provider_label": "biletimGO",
-    "source_urls": [],
-    "external_id": "31155",
-    "category": "social",
-    "address": "Meşrutiyet Mahallesi Selanik Caddesi No: 70 - Çankaya / Ankara",
-    "venue": "Route Selanik Ankara",
     "link": null,
     "source_url": null,
     "ticket_info": null,
