@@ -1507,9 +1507,9 @@
     "image_url": "https://www.biletimgo.com/images/cukurova-welcome-party-7UV6RT.jpeg",
     "occurrences": [
       {
-        "start_at_utc": "2026-09-27T17:00:00Z",
+        "start_at_utc": "2026-09-27T16:00:00Z",
         "local_date": "2026-09-27",
-        "local_time": "20:00",
+        "local_time": "19:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Rovers Gastropub & Live Music",
@@ -8015,6 +8015,81 @@
     "category": "festival",
     "address": "Abdurrahman Gazi Mahallesi Türbe Yolu Şair Nedim Sokak No: 3 - Palandöken / Erzurum",
     "venue": "Demet Hanım’ın Çiftliği",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Monochrome | 108 Etiler",
+    "description": "Siyah ve beyazın buluştuğu özel bir geceye hazır olun.\nBu gecenin dress code’u konseptimizin en önemli parçası: kadın misafirlerimizin tamamen beyaz, erkek misafirlerimizin ise tamamen siyah giyinmelerini rica ediyoruz.\nMüzik, dans ve gecenin enerjisiyle unutulmaz bir gece için buluşuyoruz.\n🕗 Kapı Açılışı: 20.00\n🤍 Kadınlar: All White\n🖤 Erkekler: All Black",
+    "type": "social",
+    "city_name": "İstanbul",
+    "image_url": "https://www.biletimgo.com/images/monochrome-108-etiler-1790457703.png",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-10T17:00:00Z",
+        "local_date": "2026-10-10",
+        "local_time": "20:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "108 İstanbul",
+        "district": null,
+        "sources": [
+          {
+            "provider": "BiletimGO",
+            "external_id": "31379",
+            "title": "Monochrome | 108 Etiler",
+            "description": null,
+            "source_url": "https://www.biletimgo.com/etkinlik/monochrome-108-etiler-31379?partner=14",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 550.0,
+              "max_value": 1200.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "unknown",
+                "confidence": 0.0,
+                "legal_mode": "unknown",
+                "source": "unknown",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "https://www.biletimgo.com/etkinlik/monochrome-108-etiler-31379?partner=14",
+            "sales_start_at": null,
+            "brand_name": "Satisfait Network",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Satisfait Network",
+    "source": "BiletimGO",
+    "provider": null,
+    "providers": [
+      "BiletimGO"
+    ],
+    "provider_tags": [],
+    "provider_label": "biletimGO",
+    "source_urls": [],
+    "external_id": "31379",
+    "category": "social",
+    "address": "Etiler Mahallesi Nispetiye Caddesi No: 108 - Beşiktaş / İstanbul",
+    "venue": "108 İstanbul",
     "link": null,
     "source_url": null,
     "ticket_info": null,
