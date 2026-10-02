@@ -1,23 +1,22 @@
 {
-  "total_events": 4265,
-  "total_events_before_dedup": 10004,
-  "total_events_after_dedup": 4265,
+  "total_events": 4258,
+  "total_events_before_dedup": 9997,
+  "total_events_after_dedup": 4258,
   "ticketmaster_count": 2205,
-  "municipal_count": 36,
+  "municipal_count": 29,
   "serpapi_count": 12,
   "biletimgo_count": 264,
   "biletcom_count": 75,
   "biletinial_count": 7412,
   "overlap_count": 5739,
-  "multi_provider_event_count": 670,
+  "multi_provider_event_count": 668,
   "provider_combo_counts": {
     "BiletimGO": 238,
     "BiletimGO+Biletinial": 10,
     "Biletinial": 1692,
     "Biletinial+bilet.com": 1,
     "MunicipalRSS": 10,
-    "MunicipalWeb": 24,
-    "MunicipalWeb+Biletinial": 2,
+    "MunicipalWeb": 19,
     "SerpAPIEvents": 12,
     "Ticketmaster": 1548,
     "Ticketmaster+Biletinial": 654,
@@ -25,13 +24,11 @@
     "bilet.com": 71
   },
   "provider_tag_combo_counts": {
-    "Beylikdüzü Belediyesi": 6,
-    "Beylikdüzü Belediyesi+Biletinial": 2,
     "Biletinial": 1692,
     "Biletinial+bilet.com": 1,
     "Fatih Belediyesi": 1,
     "Google": 12,
-    "Küçükçekmece Belediyesi": 17,
+    "Küçükçekmece Belediyesi": 18,
     "Ticketmaster": 1548,
     "Ticketmaster+Biletinial": 654,
     "Ticketmaster+bilet.com": 3,
@@ -40,5 +37,5 @@
     "biletimGO+Biletinial": 10,
     "İBB": 10
   },
-  "last_merge": "2026-10-02T05:59:39.760666+00:00"
+  "last_merge": "2026-10-02T06:01:23.607734+00:00"
 }
