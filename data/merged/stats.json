@@ -1,19 +1,19 @@
 {
-  "total_events": 4216,
-  "total_events_before_dedup": 9638,
-  "total_events_after_dedup": 4216,
+  "total_events": 4218,
+  "total_events_before_dedup": 9641,
+  "total_events_after_dedup": 4218,
   "ticketmaster_count": 2011,
   "municipal_count": 24,
   "serpapi_count": 12,
   "biletimgo_count": 347,
   "biletcom_count": 74,
-  "biletinial_count": 7170,
-  "overlap_count": 5422,
+  "biletinial_count": 7173,
+  "overlap_count": 5423,
   "multi_provider_event_count": 604,
   "provider_combo_counts": {
     "BiletimGO": 321,
     "BiletimGO+Biletinial": 11,
-    "Biletinial": 1766,
+    "Biletinial": 1768,
     "Biletinial+bilet.com": 1,
     "MunicipalRSS": 8,
     "MunicipalWeb": 15,
@@ -26,7 +26,7 @@
     "bilet.com": 70
   },
   "provider_tag_combo_counts": {
-    "Biletinial": 1766,
+    "Biletinial": 1768,
     "Biletinial+bilet.com": 1,
     "Fatih Belediyesi": 1,
     "Google": 12,
@@ -41,5 +41,5 @@
     "biletimGO+Biletinial": 11,
     "İBB": 8
   },
-  "last_merge": "2026-10-17T01:07:36.111891+00:00"
+  "last_merge": "2026-10-17T04:29:28.350011+00:00"
 }
