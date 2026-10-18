@@ -173273,119 +173273,6 @@
     "fetched_at": null
   },
   {
-    "title": "pinokyo",
-    "description": "Daha Fazla",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-10-18T12:00:00Z",
-        "local_date": "2026-10-18",
-        "local_time": "15:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beylikdüzü Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3f96bfdf83655e44",
-            "title": "pinokyo",
-            "description": null,
-            "source_url": "https://www.beylikduzu.istanbul/etkinlik/625/pinokyo",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/625/pinokyo",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18556828",
-            "title": "Pinokyo",
-            "description": "Tiyatro Oyunu Yaş sınırı bulunmamaktadır. 2 Yaşından itibaren Çocuk, Yetişkin fark etmeksizin bilet kesilmektedir. 'Pinokyo' Müzikli Çocuk Tiyatrosu Türkiye Turnesi Kapsamında Senin Şehrinde! Carlo Collodi'nin ölümsüz eseri Pinokyo Masalı Sanat Fabrika'nın eşsiz yorumu ile sahnede hayat buluyor. Bu oyunda Gepetto Usta'nın yalnızlığına, Tilki ve Kedi'nin kurnaz planlarına, Palyaço'nun heyecan verici gösterisine, Masal Perisi'nin anlatımıyla şahit olacağız. Pinokyo'nun odundan kuklaya, kukladan insan olmaya uzanan bu heyecan verici serüveni sakın kaçırmayın. * Tiyatromuz T.C. Kültür ve Turizm Bakanlığı veri tabanına kayıtlı bir tiyatrodur. *Oyunumuzun çocuklara uygunluğu Psikolog tarafından onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 329.0,
-              "max_value": 329.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Beylikdüzü Belediyesi",
-    "source": "unknown",
-    "provider": "Beylikdüzü Belediyesi, Biletinial",
-    "providers": [
-      "MunicipalWeb",
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Beylikdüzü Belediyesi",
-      "Biletinial"
-    ],
-    "provider_label": "Beylikdüzü Belediyesi, Biletinial",
-    "source_urls": [
-      "https://www.beylikduzu.istanbul/etkinlik/625/pinokyo",
-      "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "kirli sepeti",
     "description": "Daha Fazla",
     "type": "experience",
@@ -173924,6 +173811,85 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/632/soytarilar"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "gunde dunya turu",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-25T12:00:00Z",
+        "local_date": "2026-10-25",
+        "local_time": "15:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-607f430b21dc89e8",
+            "title": "gunde dunya turu",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/633/80-gunde-dunya-turu",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/633/80-gunde-dunya-turu",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Beylikdüzü Belediyesi",
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/633/80-gunde-dunya-turu"
     ],
     "external_id": null,
     "category": null,
@@ -325881,9 +325847,51 @@
     "title": "Pinokyo",
     "description": "Tiyatro Oyunu Yaş sınırı bulunmamaktadır. 2 Yaşından itibaren Çocuk, Yetişkin fark etmeksizin bilet kesilmektedir. 'Pinokyo' Müzikli Çocuk Tiyatrosu Türkiye Turnesi Kapsamında Senin Şehrinde! Carlo Collodi'nin ölümsüz eseri Pinokyo Masalı Sanat Fabrika'nın eşsiz yorumu ile sahnede hayat buluyor. Bu oyunda Gepetto Usta'nın yalnızlığına, Tilki ve Kedi'nin kurnaz planlarına, Palyaço'nun heyecan verici gösterisine, Masal Perisi'nin anlatımıyla şahit olacağız. Pinokyo'nun odundan kuklaya, kukladan insan olmaya uzanan bu heyecan verici serüveni sakın kaçırmayın. * Tiyatromuz T.C. Kültür ve Turizm Bakanlığı veri tabanına kayıtlı bir tiyatrodur. *Oyunumuzun çocuklara uygunluğu Psikolog tarafından onaylıdır.",
     "type": "kids",
-    "city_name": "Muğla",
+    "city_name": "İstanbul",
     "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/47170/Reklam-8c9c6103aeda4c90ab7300c7bcf3993a.jpg",
     "occurrences": [
+      {
+        "start_at_utc": "2026-10-18T12:00:00Z",
+        "local_date": "2026-10-18",
+        "local_time": "15:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Kadıköy Eğitim Sahnesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18556828",
+            "title": "Pinokyo",
+            "description": "Tiyatro Oyunu Yaş sınırı bulunmamaktadır. 2 Yaşından itibaren Çocuk, Yetişkin fark etmeksizin bilet kesilmektedir. 'Pinokyo' Müzikli Çocuk Tiyatrosu Türkiye Turnesi Kapsamında Senin Şehrinde! Carlo Collodi'nin ölümsüz eseri Pinokyo Masalı Sanat Fabrika'nın eşsiz yorumu ile sahnede hayat buluyor. Bu oyunda Gepetto Usta'nın yalnızlığına, Tilki ve Kedi'nin kurnaz planlarına, Palyaço'nun heyecan verici gösterisine, Masal Perisi'nin anlatımıyla şahit olacağız. Pinokyo'nun odundan kuklaya, kukladan insan olmaya uzanan bu heyecan verici serüveni sakın kaçırmayın. * Tiyatromuz T.C. Kültür ve Turizm Bakanlığı veri tabanına kayıtlı bir tiyatrodur. *Oyunumuzun çocuklara uygunluğu Psikolog tarafından onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 329.0,
+              "max_value": 329.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
       {
         "start_at_utc": "2026-10-24T11:00:00Z",
         "local_date": "2026-10-24",
@@ -326538,10 +326546,10 @@
     "source_urls": [
       "https://biletinial.com/tr-tr/tiyatro/pinokyo-cocuk-oyunu-"
     ],
-    "external_id": "18556829",
+    "external_id": "18556828",
     "category": "kids",
     "address": null,
-    "venue": "Muğla Türkan Saylan Çağdaş Yaşam Merkezi",
+    "venue": "Kadıköy Eğitim Sahnesi",
     "link": null,
     "source_url": null,
     "ticket_info": null,
