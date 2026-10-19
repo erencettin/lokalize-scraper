@@ -1,15 +1,15 @@
 [
   {
-    "title": "ANAFOD Ömer Orhun “Fotoğraf Sunum ve Söyleşisi”",
-    "description": "ANAFOD Ömer Orhun “Fotoğraf Sunum ve Söyleşisi”",
-    "type": "show",
+    "title": "Terasta Caz",
+    "description": "Terasta Caz",
+    "type": "experience",
     "city_name": "Istanbul",
     "image_url": null,
     "occurrences": [
       {
-        "start_at_utc": "2026-10-19T13:00:00Z",
-        "local_date": "2026-10-19",
-        "local_time": "16:00",
+        "start_at_utc": "2026-10-20T21:00:00Z",
+        "local_date": "2026-10-21",
+        "local_time": "00:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
         "venue_name": "Resmi Belediye Etkinlik Kaynagi",
@@ -17,10 +17,83 @@
         "sources": [
           {
             "provider": "MunicipalRSS",
-            "external_id": "rss-d18678a9e2d1f04e",
-            "title": "ANAFOD Ömer Orhun “Fotoğraf Sunum ve Söyleşisi”",
+            "external_id": "rss-89cf2cbebe83d171",
+            "title": "Terasta Caz",
             "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/anafod-omer-orhun-fotograf-sunum-ve-soylesisi/",
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz-2/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Sanat Rotası",
+    "description": "Sanat Rotası",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-21T07:00:00Z",
+        "local_date": "2026-10-21",
+        "local_time": "10:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-91c0b097064c5684",
+            "title": "Sanat Rotası",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/sanat-rotasi-3/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -532,6 +605,152 @@
             "title": "Harbiye Açık Hava etkinlikleri",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/harbiye-acik-hava-etkinlikleri/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İBB ODA MÜZİĞİ TOPLULUĞU MUAMMER KARACA TİYATROSU SOYLU MELODİLER ÇAĞI KONSERİ",
+    "description": "İBB ODA MÜZİĞİ TOPLULUĞU MUAMMER KARACA TİYATROSU SOYLU MELODİLER ÇAĞI KONSERİ",
+    "type": "concert",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-19T21:00:00Z",
+        "local_date": "2026-10-20",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-752fb2ba721bc8c0",
+            "title": "İBB ODA MÜZİĞİ TOPLULUĞU MUAMMER KARACA TİYATROSU SOYLU MELODİLER ÇAĞI KONSERİ",
+            "description": null,
+            "source_url": "https://orkestralar.ibb.istanbul/ibb-oda-muzigi-toplulugu-muammer-karaca-tiyatrosu-soylu-melodiler-cagi-konseri/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "SERÇEŞME’NİN BEŞİNCİ YILINDA HARBİYE’DE BULUŞUYORUZ!",
+    "description": "SERÇEŞME’NİN BEŞİNCİ YILINDA HARBİYE’DE BULUŞUYORUZ!",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-10-19T17:30:00Z",
+        "local_date": "2026-10-19",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-4c581d645eefa534",
+            "title": "SERÇEŞME’NİN BEŞİNCİ YILINDA HARBİYE’DE BULUŞUYORUZ!",
+            "description": null,
+            "source_url": "https://orkestralar.ibb.istanbul/sercesmenin-besinci-yilinda-harbiyede-bulusuyoruz/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
