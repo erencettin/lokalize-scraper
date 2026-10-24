@@ -13,6 +13,9 @@ _CHUNK_SIZE = 50
 _INTER_CHUNK_SLEEP_SECONDS = 1.5
 _CHUNK_MAX_ATTEMPTS = 3
 _CHUNK_RETRY_BACKOFF_SECONDS = [5, 10]
+# Give up on the remaining chunks after this many chunks fail in a row — the
+# backend is down or broken, and hammering it only wastes runner minutes.
+_MAX_CONSECUTIVE_CHUNK_FAILURES = 2
 
 
 class SyncService:
@@ -127,6 +130,11 @@ class SyncService:
             self.last_backend_sync_status = "skipped"
             return True
 
+        if not self._backend.is_reachable():
+            logging.error("Backend is not reachable, aborting sync before sending any chunk.")
+            self.last_backend_sync_status = "backend_unreachable"
+            return False
+
         # Debug log for price tracking (first 5)
         for dto, _key, _hash in changed_entries[:5]:
             logging.info(
@@ -136,6 +144,7 @@ class SyncService:
 
         all_success = True
         chunk_num = 0
+        consecutive_failures = 0
 
         for chunk_start in range(0, len(changed_entries), _CHUNK_SIZE):
             chunk_num += 1
@@ -147,16 +156,24 @@ class SyncService:
                 success = self._backend.sync_events_bulk(chunk_dtos, sync_run_id)
                 if success:
                     break
+                if getattr(self._backend, "last_failure_fatal", False):
+                    break
                 if attempt < _CHUNK_MAX_ATTEMPTS:
                     wait = _CHUNK_RETRY_BACKOFF_SECONDS[attempt - 1]
                     logging.warning(f"Chunk {chunk_num} attempt {attempt} failed, retrying in {wait}s...")
                     time.sleep(wait)
             if success:
+                consecutive_failures = 0
                 for _dto, key, new_hash in chunk:
                     self._change_detector.mark_synced(key, new_hash)
             else:
                 logging.error(f"Chunk {chunk_num} failed after {_CHUNK_MAX_ATTEMPTS} attempts.")
                 all_success = False
+                consecutive_failures += 1
+                fatal = getattr(self._backend, "last_failure_fatal", False)
+                if fatal or consecutive_failures >= _MAX_CONSECUTIVE_CHUNK_FAILURES:
+                    logging.error("Aborting remaining chunks: backend keeps failing.")
+                    break
             if chunk_start + _CHUNK_SIZE < len(changed_entries):
                 time.sleep(_INTER_CHUNK_SLEEP_SECONDS)
 

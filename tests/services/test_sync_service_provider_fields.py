@@ -12,6 +12,9 @@ class DummyBackendClient:
         self.payload = []
         self.sync_run_id = ""
 
+    def is_reachable(self) -> bool:
+        return True
+
     def sync_events_bulk(self, events, sync_run_id: str) -> bool:  # noqa: ANN001
         self.payload = events
         self.sync_run_id = sync_run_id

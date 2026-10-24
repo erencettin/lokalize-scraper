@@ -2,10 +2,17 @@ from __future__ import annotations
 
 import logging
 import os
+import time
 from typing import Dict, List, Optional
 from urllib.parse import urlparse
 
 import requests
+
+
+# Responses that mean the backend (or our credentials) is not usable at all, so
+# retrying the same request will not help: "Application not found" from the
+# Railway edge, or a wrong/missing scraper key.
+_FATAL_STATUS_CODES = frozenset({401, 403, 404})
 
 
 class BackendClient:
@@ -19,6 +26,8 @@ class BackendClient:
         self._is_github_actions = os.getenv("GITHUB_ACTIONS", "").strip().lower() == "true"
         self.skip_reason = self._resolve_skip_reason()
         self.enabled = self.skip_reason is None
+        # Set by sync_events_bulk when the last failure should not be retried.
+        self.last_failure_fatal = False
 
     def _resolve_skip_reason(self) -> Optional[str]:
         if not self._raw_backend_url:
@@ -44,6 +53,34 @@ class BackendClient:
         for line in self.skip_reason.splitlines():
             logging.warning(line)
 
+    def is_reachable(self, attempts: int = 3, wait_seconds: float = 10.0) -> bool:
+        """
+        Cheap liveness probe (GET /health/live) so a run against a stopped or
+        redeploying backend fails fast instead of burning minutes on retries.
+        Retries a few times to ride out a cold start. Returns True when sync is
+        disabled, because there is nothing to probe.
+        """
+        if not self.enabled:
+            return True
+
+        url = f"{self.base_url}/health/live"
+        for attempt in range(1, attempts + 1):
+            try:
+                response = self.session.get(url, timeout=15)
+                if 200 <= response.status_code < 300:
+                    return True
+                logging.warning(
+                    "Backend health check failed (%s) attempt %s/%s",
+                    response.status_code, attempt, attempts,
+                )
+                if response.status_code in _FATAL_STATUS_CODES:
+                    return False
+            except Exception as exc:
+                logging.warning("Backend health check error attempt %s/%s: %s", attempt, attempts, exc)
+            if attempt < attempts:
+                time.sleep(wait_seconds)
+        return False
+
     def sync_events_bulk(self, events: List[Dict], sync_run_id: str) -> bool:
         """
         Sends events to the .NET V4 Aggregator API for bulk processing.
@@ -53,6 +90,7 @@ class BackendClient:
             self._log_skip_reason()
             return True
 
+        self.last_failure_fatal = False
         url = f"{self.base_url}/api/events/sync?syncRunId={sync_run_id}"
         try:
             parsed = urlparse(self.base_url)
@@ -67,6 +105,7 @@ class BackendClient:
                 return True
 
             logging.error("Backend sync failed (%s) — body: %s", response.status_code, response.text[:1000])
+            self.last_failure_fatal = response.status_code in _FATAL_STATUS_CODES
             return False
         except Exception as exc:
             logging.error("Error connecting to backend: %s", exc)
