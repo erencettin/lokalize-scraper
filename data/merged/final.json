@@ -154485,6 +154485,164 @@
     "fetched_at": null
   },
   {
+    "title": "Terasta Caz",
+    "description": "Terasta Caz",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-04T16:00:00Z",
+        "local_date": "2026-11-04",
+        "local_time": "19:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-18e324b90b7375bb",
+            "title": "Terasta Caz",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": "İBB",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/terasta-caz/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Okur Yazar Buluşması",
+    "description": "Okur Yazar Buluşması",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-04T21:00:00Z",
+        "local_date": "2026-11-05",
+        "local_time": "00:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-34828dcb00ce5ed9",
+            "title": "Okur Yazar Buluşması",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": "İBB",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/okur-yazar-bulusmasi/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Mutluluk Garanti",
     "description": "Mutluluk Garanti",
     "type": "experience",
@@ -155828,15 +155986,15 @@
     "fetched_at": null
   },
   {
-    "title": "Karnaval Sirki",
-    "description": "Karnaval Sirki",
+    "title": "Cinlerin Düğünü",
+    "description": "Cinlerin Düğünü",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/karnavalsirki-06-1-scaled.jpg",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/11/web-01-1-scaled.jpg",
     "occurrences": [
       {
-        "start_at_utc": "2026-11-08T20:00:00Z",
-        "local_date": "2026-11-08",
+        "start_at_utc": "2026-11-07T20:00:00Z",
+        "local_date": "2026-11-07",
         "local_time": "23:00",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
@@ -155846,7 +156004,7 @@
           {
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
-            "title": "Karnaval Sirki",
+            "title": "Cinlerin Düğünü",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
@@ -155926,85 +156084,6 @@
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
             "title": "Bu Hikâye Senden Uzun Osman",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
-              "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": true,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Küçükçekmece Belediyesi",
-    "source": "unknown",
-    "provider": "Küçükçekmece Belediyesi",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Küçükçekmece Belediyesi"
-    ],
-    "provider_label": "Küçükçekmece Belediyesi",
-    "source_urls": [
-      "https://kucukcekmecekultursanat.com/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
-    "description": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/ustun-06-1-scaled.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-11T20:00:00Z",
-        "local_date": "2026-11-11",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
@@ -156795,6 +156874,164 @@
             "provider": "MunicipalWeb",
             "external_id": "web-3b238cf6952832cd",
             "title": "Alice",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Küçükçekmece Belediyesi",
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Sefiller",
+    "description": "Sefiller",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/sefiller-06-1-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-23T20:00:00Z",
+        "local_date": "2026-11-23",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Sefiller",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Küçükçekmece Belediyesi",
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "İte Kaka",
+    "description": "İte Kaka",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/itekaka-06-1-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-25T20:00:00Z",
+        "local_date": "2026-11-25",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "İte Kaka",
             "description": null,
             "source_url": "https://kucukcekmecekultursanat.com/",
             "deep_link_url": null,
