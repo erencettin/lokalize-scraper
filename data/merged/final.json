@@ -143436,6 +143436,85 @@
     "fetched_at": null
   },
   {
+    "title": "Terasta Caz",
+    "description": "Terasta Caz",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": null,
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-18T16:00:00Z",
+        "local_date": "2026-11-18",
+        "local_time": "19:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalRSS",
+            "external_id": "rss-18e324b90b7375bb",
+            "title": "Terasta Caz",
+            "description": null,
+            "source_url": "https://kultur.istanbul/etkinlik/terasta-caz/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_feed",
+                "source": "municipal_rss_feed",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": "Feed text parsing; set unknown when explicit price is absent."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": null,
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Istanbul Belediyesi",
+    "source": "unknown",
+    "provider": "İBB",
+    "providers": [
+      "MunicipalRSS"
+    ],
+    "provider_tags": [
+      "İBB"
+    ],
+    "provider_label": "İBB",
+    "source_urls": [
+      "https://kultur.istanbul/etkinlik/terasta-caz/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "ATATÜRK’ÜN SEVDİĞİ EZGİLER 12 Kasım 2026 Perşembe 20:00 Akşemsettin Kültür Merkezi",
     "description": "ATATÜRK’ÜN SEVDİĞİ EZGİLER 12 Kasım 2026 Perşembe 20:00 Akşemsettin Kültür Merkezi",
     "type": "experience",
@@ -143816,85 +143895,6 @@
     "provider_label": "Çatalca Belediyesi",
     "source_urls": [
       "https://etkinlik.catalca.bel.tr/etkinlik/126"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "samanyolunu bilir misiniz",
-    "description": "Daha Fazla",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-11T17:30:00Z",
-        "local_date": "2026-11-11",
-        "local_time": "20:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beylikdüzü Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-04afae43bf4b4579",
-            "title": "samanyolunu bilir misiniz",
-            "description": null,
-            "source_url": "https://www.beylikduzu.istanbul/etkinlik/645/samanyolunu-bilir-misiniz",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/645/samanyolunu-bilir-misiniz",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Beylikdüzü Belediyesi",
-    "source": "unknown",
-    "provider": "Beylikdüzü Belediyesi",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Beylikdüzü Belediyesi"
-    ],
-    "provider_label": "Beylikdüzü Belediyesi",
-    "source_urls": [
-      "https://www.beylikduzu.istanbul/etkinlik/645/samanyolunu-bilir-misiniz"
     ],
     "external_id": null,
     "category": null,
@@ -144497,48 +144497,48 @@
     "fetched_at": null
   },
   {
-    "title": "Bu Hikâye Senden Uzun Osman",
-    "description": "Bu Hikâye Senden Uzun Osman",
+    "title": "veda yemegi",
+    "description": "Daha Fazla",
     "type": "experience",
     "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/buhikayesenden-06-1-scaled.jpg",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
     "occurrences": [
       {
-        "start_at_utc": "2026-11-11T20:00:00Z",
-        "local_date": "2026-11-11",
-        "local_time": "23:00",
+        "start_at_utc": "2026-11-20T17:30:00Z",
+        "local_date": "2026-11-20",
+        "local_time": "20:30",
         "local_end_time": null,
         "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
+        "venue_name": "Beylikdüzü Belediyesi",
         "district": null,
         "sources": [
           {
             "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Bu Hikâye Senden Uzun Osman",
+            "external_id": "web-b3be082fff002a1f",
+            "title": "veda yemegi",
             "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/653/veda-yemegi",
             "deep_link_url": null,
             "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
               "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
+              "is_free": false,
+              "is_unknown": true,
               "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
                 "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
                 "is_authoritative": false,
-                "is_derived": true,
+                "is_derived": false,
                 "requires_terms_review": true,
                 "note": "Public web page text parsing. Verify terms/robots per domain."
               }
             },
             "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/653/veda-yemegi",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
@@ -144549,97 +144549,18 @@
     "attraction_id": null,
     "attraction_upcoming_count": null,
     "performer_name": null,
-    "organizer_name": "Küçükçekmece Belediyesi",
+    "organizer_name": "Beylikdüzü Belediyesi",
     "source": "unknown",
-    "provider": "Küçükçekmece Belediyesi",
+    "provider": "Beylikdüzü Belediyesi",
     "providers": [
       "MunicipalWeb"
     ],
     "provider_tags": [
-      "Küçükçekmece Belediyesi"
+      "Beylikdüzü Belediyesi"
     ],
-    "provider_label": "Küçükçekmece Belediyesi",
+    "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
-      "https://kucukcekmecekultursanat.com/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
-    "description": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/11/ustun-06.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-11T20:00:00Z",
-        "local_date": "2026-11-11",
-        "local_time": "23:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Küçükçekmece Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-3b238cf6952832cd",
-            "title": "Profesör Doktor Üstün Dökmen ile Küçük Şeyler",
-            "description": null,
-            "source_url": "https://kucukcekmecekultursanat.com/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 0.0,
-              "max_value": 0.0,
-              "text": "Ucretsiz",
-              "currency": "TRY",
-              "is_free": true,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_free_marker",
-                "confidence": 0.55,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://kucukcekmecekultursanat.com",
-                "is_authoritative": false,
-                "is_derived": true,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Küçükçekmece Belediyesi",
-    "source": "unknown",
-    "provider": "Küçükçekmece Belediyesi",
-    "providers": [
-      "MunicipalWeb"
-    ],
-    "provider_tags": [
-      "Küçükçekmece Belediyesi"
-    ],
-    "provider_label": "Küçükçekmece Belediyesi",
-    "source_urls": [
-      "https://kucukcekmecekultursanat.com/"
+      "https://www.beylikduzu.istanbul/etkinlik/653/veda-yemegi"
     ],
     "external_id": null,
     "category": null,
@@ -146003,6 +145924,164 @@
     "source_urls": [
       "https://kucukcekmecekultursanat.com/",
       "https://biletinial.com/tr-tr/tiyatro/rapunzel"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Tut Elimden Rovni",
+    "description": "Tut Elimden Rovni",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/tutelimdenrovni-06-1-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T20:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Tut Elimden Rovni",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Küçükçekmece Belediyesi",
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "Hırsızlar",
+    "description": "Hırsızlar",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://kucukcekmecekultursanat.com/wp-content/uploads/2026/10/hirsizlar-06-1-scaled.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T20:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "23:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Küçükçekmece Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-3b238cf6952832cd",
+            "title": "Hırsızlar",
+            "description": null,
+            "source_url": "https://kucukcekmecekultursanat.com/",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 0.0,
+              "max_value": 0.0,
+              "text": "Ucretsiz",
+              "currency": "TRY",
+              "is_free": true,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_free_marker",
+                "confidence": 0.55,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://kucukcekmecekultursanat.com",
+                "is_authoritative": false,
+                "is_derived": true,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://kucukcekmecekultursanat.com",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Küçükçekmece Belediyesi",
+    "source": "unknown",
+    "provider": "Küçükçekmece Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Küçükçekmece Belediyesi"
+    ],
+    "provider_label": "Küçükçekmece Belediyesi",
+    "source_urls": [
+      "https://kucukcekmecekultursanat.com/"
     ],
     "external_id": null,
     "category": null,
