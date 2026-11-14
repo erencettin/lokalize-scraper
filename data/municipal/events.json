@@ -146,79 +146,6 @@
     "fetched_at": null
   },
   {
-    "title": "Eriyen Saatler Atölyesi",
-    "description": "Eriyen Saatler Atölyesi",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-14T10:30:00Z",
-        "local_date": "2026-11-14",
-        "local_time": "13:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-33f25823854e3afc",
-            "title": "Eriyen Saatler Atölyesi",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/eriyen-saatler-atolyesi/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": "Eriyen Saatler",
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Çocuk Atölyeleri",
     "description": "Çocuk Atölyeleri",
     "type": "experience",
@@ -897,79 +824,6 @@
             "title": "Dali Söyleşileri",
             "description": null,
             "source_url": "https://kultur.istanbul/etkinlik/dali-soylesileri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Çocuk Atölyeleri",
-    "description": "Çocuk Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-14T10:30:00Z",
-        "local_date": "2026-11-14",
-        "local_time": "13:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-94d3b6923141af36",
-            "title": "Çocuk Atölyeleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/cocuk-atolyeleri/",
             "deep_link_url": null,
             "price": {
               "min_value": null,
@@ -1898,79 +1752,6 @@
     "fetched_at": null
   },
   {
-    "title": "masallar muzikali",
-    "description": "Daha Fazla",
-    "type": "concert",
-    "city_name": "Istanbul",
-    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-14T10:00:00Z",
-        "local_date": "2026-11-14",
-        "local_time": "13:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beylikdüzü Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-f068f06c5f111b71",
-            "title": "masallar muzikali",
-            "description": null,
-            "source_url": "https://www.beylikduzu.istanbul/etkinlik/647/masallar-muzikali",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/647/masallar-muzikali",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Beylikdüzü Belediyesi",
-    "source": "unknown",
-    "provider": null,
-    "providers": [],
-    "provider_tags": [],
-    "provider_label": null,
-    "source_urls": [],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "olaganustu bir gece",
     "description": "Daha Fazla",
     "type": "experience",
@@ -2451,6 +2232,79 @@
             },
             "ticket_status": "unknown",
             "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/654/pinokyo-isiktan-cocuk",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Beylikdüzü Belediyesi",
+    "source": "unknown",
+    "provider": null,
+    "providers": [],
+    "provider_tags": [],
+    "provider_label": null,
+    "source_urls": [],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "kotu bir gun",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-21T17:30:00Z",
+        "local_date": "2026-11-21",
+        "local_time": "20:30",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-58ed139e4ebaa468",
+            "title": "kotu bir gun",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/655/kotu-bir-gun",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/655/kotu-bir-gun",
             "sales_start_at": null,
             "brand_name": null,
             "is_official_seller": null
