@@ -1,9 +1,9 @@
 {
-  "total_events": 3175,
-  "total_events_before_dedup": 7578,
-  "total_events_after_dedup": 3175,
+  "total_events": 3183,
+  "total_events_before_dedup": 7586,
+  "total_events_after_dedup": 3183,
   "ticketmaster_count": 1324,
-  "municipal_count": 25,
+  "municipal_count": 33,
   "serpapi_count": 12,
   "biletimgo_count": 0,
   "biletcom_count": 81,
@@ -13,7 +13,7 @@
   "provider_combo_counts": {
     "Biletinial": 1735,
     "MunicipalRSS": 6,
-    "MunicipalWeb": 17,
+    "MunicipalWeb": 25,
     "MunicipalWeb+Biletinial": 2,
     "SerpAPIEvents": 12,
     "Ticketmaster": 863,
@@ -27,7 +27,7 @@
     "Biletinial": 1735,
     "Fatih Belediyesi": 2,
     "Google": 12,
-    "Küçükçekmece Belediyesi": 8,
+    "Küçükçekmece Belediyesi": 16,
     "Küçükçekmece Belediyesi+Biletinial": 1,
     "Ticketmaster": 863,
     "Ticketmaster+Biletinial": 459,
@@ -36,5 +36,5 @@
     "Çatalca Belediyesi": 1,
     "İBB": 6
   },
-  "last_merge": "2026-11-23T08:18:52.384449+00:00"
+  "last_merge": "2026-11-23T15:17:57.934584+00:00"
 }
