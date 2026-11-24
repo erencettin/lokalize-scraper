@@ -1,12 +1,12 @@
 {
-  "total_events": 3220,
-  "total_events_before_dedup": 7706,
-  "total_events_after_dedup": 3220,
+  "total_events": 3219,
+  "total_events_before_dedup": 7705,
+  "total_events_after_dedup": 3219,
   "ticketmaster_count": 1345,
   "municipal_count": 33,
   "serpapi_count": 12,
   "biletimgo_count": 0,
-  "biletcom_count": 81,
+  "biletcom_count": 80,
   "biletinial_count": 6235,
   "overlap_count": 4486,
   "multi_provider_event_count": 460,
@@ -19,7 +19,7 @@
     "Ticketmaster": 887,
     "Ticketmaster+Biletinial": 456,
     "Ticketmaster+bilet.com": 2,
-    "bilet.com": 79
+    "bilet.com": 78
   },
   "provider_tag_combo_counts": {
     "Beylikdüzü Belediyesi": 6,
@@ -32,9 +32,9 @@
     "Ticketmaster": 887,
     "Ticketmaster+Biletinial": 456,
     "Ticketmaster+bilet.com": 2,
-    "bilet.com": 79,
+    "bilet.com": 78,
     "Çatalca Belediyesi": 1,
     "İBB": 6
   },
-  "last_merge": "2026-11-24T00:11:24.651256+00:00"
+  "last_merge": "2026-11-24T00:25:07.689948+00:00"
 }
