@@ -129428,85 +129428,6 @@
     "fetched_at": null
   },
   {
-    "title": "Görkem Karabudak",
-    "description": "Görkem Karabudak",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-28T13:00:00Z",
-        "local_date": "2026-11-28",
-        "local_time": "16:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-e74bd1949ff7f180",
-            "title": "Görkem Karabudak",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/gorkem-karabudak/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/gorkem-karabudak/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
     "title": "Sanat Rotası",
     "description": "Sanat Rotası",
     "type": "experience",
@@ -129571,277 +129492,6 @@
     "provider_label": "İBB",
     "source_urls": [
       "https://kultur.istanbul/etkinlik/sanat-rotasi-2/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Yetişkin Atölyeleri",
-    "description": "Yetişkin Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-28T12:00:00Z",
-        "local_date": "2026-11-28",
-        "local_time": "15:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-5ce0759b08738aef",
-            "title": "Yetişkin Atölyeleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/yetiskin-atolyeleri/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/yetiskin-atolyeleri/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Çocuk Atölyeleri",
-    "description": "Çocuk Atölyeleri",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": null,
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-28T10:30:00Z",
-        "local_date": "2026-11-28",
-        "local_time": "13:30",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Resmi Belediye Etkinlik Kaynagi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalRSS",
-            "external_id": "rss-7607316c1db2449d",
-            "title": "Çocuk Atölyeleri",
-            "description": null,
-            "source_url": "https://kultur.istanbul/etkinlik/cocuk-atolyeleri-3/",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_rss_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_feed",
-                "source": "municipal_rss_feed",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": "Feed text parsing; set unknown when explicit price is absent."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": null,
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Istanbul Belediyesi",
-    "source": "unknown",
-    "provider": "İBB",
-    "providers": [
-      "MunicipalRSS"
-    ],
-    "provider_tags": [
-      "İBB"
-    ],
-    "provider_label": "İBB",
-    "source_urls": [
-      "https://kultur.istanbul/etkinlik/cocuk-atolyeleri-3/"
-    ],
-    "external_id": null,
-    "category": null,
-    "address": null,
-    "venue": null,
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "ruyalar sandigi",
-    "description": "Daha Fazla",
-    "type": "experience",
-    "city_name": "Istanbul",
-    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-11-28T12:00:00Z",
-        "local_date": "2026-11-28",
-        "local_time": "15:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Beylikdüzü Belediyesi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "MunicipalWeb",
-            "external_id": "web-090e245755fd76c0",
-            "title": "ruyalar sandigi",
-            "description": null,
-            "source_url": "https://www.beylikduzu.istanbul/etkinlik/660/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": null,
-              "max_value": null,
-              "text": "Fiyat bilgisi yok",
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": true,
-              "resolution": {
-                "strategy": "municipal_web_text_scan_all_candidates_unknown",
-                "confidence": 0.0,
-                "legal_mode": "public_web_text",
-                "source": "municipal_web:https://www.beylikduzu.istanbul",
-                "is_authoritative": false,
-                "is_derived": false,
-                "requires_terms_review": true,
-                "note": "Public web page text parsing. Verify terms/robots per domain."
-              }
-            },
-            "ticket_status": "unknown",
-            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/660/ruyalar-sandigi",
-            "sales_start_at": null,
-            "brand_name": null,
-            "is_official_seller": null
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18709318",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 493.0,
-              "max_value": 493.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Beylikdüzü Belediyesi",
-    "source": "unknown",
-    "provider": "Beylikdüzü Belediyesi, Biletinial",
-    "providers": [
-      "MunicipalWeb",
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Beylikdüzü Belediyesi",
-      "Biletinial"
-    ],
-    "provider_label": "Beylikdüzü Belediyesi, Biletinial",
-    "source_urls": [
-      "https://www.beylikduzu.istanbul/etkinlik/660/ruyalar-sandigi",
-      "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi"
     ],
     "external_id": null,
     "category": null,
@@ -130395,6 +130045,85 @@
     "provider_label": "Beylikdüzü Belediyesi",
     "source_urls": [
       "https://www.beylikduzu.istanbul/etkinlik/669/grup-abdal-"
+    ],
+    "external_id": null,
+    "category": null,
+    "address": null,
+    "venue": null,
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
+    "title": "buyulu orman ve altin havuc",
+    "description": "Daha Fazla",
+    "type": "experience",
+    "city_name": "Istanbul",
+    "image_url": "https://www.beylikduzu.istanbul/Content/company/logo/img-6644fd46.svg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-12-05T12:00:00Z",
+        "local_date": "2026-12-05",
+        "local_time": "15:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Belediyesi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "MunicipalWeb",
+            "external_id": "web-c5997a9963e2f35e",
+            "title": "buyulu orman ve altin havuc",
+            "description": null,
+            "source_url": "https://www.beylikduzu.istanbul/etkinlik/670/buyulu-orman-ve-altin-havuc-",
+            "deep_link_url": null,
+            "price": {
+              "min_value": null,
+              "max_value": null,
+              "text": "Fiyat bilgisi yok",
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": true,
+              "resolution": {
+                "strategy": "municipal_web_text_scan_all_candidates_unknown",
+                "confidence": 0.0,
+                "legal_mode": "public_web_text",
+                "source": "municipal_web:https://www.beylikduzu.istanbul",
+                "is_authoritative": false,
+                "is_derived": false,
+                "requires_terms_review": true,
+                "note": "Public web page text parsing. Verify terms/robots per domain."
+              }
+            },
+            "ticket_status": "unknown",
+            "ticket_url": "MunicipalWeb|https://www.beylikduzu.istanbul/etkinlik/670/buyulu-orman-ve-altin-havuc-",
+            "sales_start_at": null,
+            "brand_name": null,
+            "is_official_seller": null
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Beylikdüzü Belediyesi",
+    "source": "unknown",
+    "provider": "Beylikdüzü Belediyesi",
+    "providers": [
+      "MunicipalWeb"
+    ],
+    "provider_tags": [
+      "Beylikdüzü Belediyesi"
+    ],
+    "provider_label": "Beylikdüzü Belediyesi",
+    "source_urls": [
+      "https://www.beylikduzu.istanbul/etkinlik/670/buyulu-orman-ve-altin-havuc-"
     ],
     "external_id": null,
     "category": null,
@@ -240972,6 +240701,273 @@
     "fetched_at": null
   },
   {
+    "title": "Rüyalar Sandığı",
+    "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+    "type": "kids",
+    "city_name": "İstanbul",
+    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/53891/Reklam-46a3e1baad2c4bd39a858199a4d57fed.jpg",
+    "occurrences": [
+      {
+        "start_at_utc": "2026-11-28T12:00:00Z",
+        "local_date": "2026-11-28",
+        "local_time": "15:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Beylikdüzü Atatürk Kültür ve Sanat Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18709318",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 493.0,
+              "max_value": 493.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-06T10:00:00Z",
+        "local_date": "2026-12-06",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Caddebostan Kültür Merkezi",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18807290",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 658.0,
+              "max_value": 658.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18807291",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 658.0,
+              "max_value": 658.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-13T10:00:00Z",
+        "local_date": "2026-12-13",
+        "local_time": "13:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "BAOB Sahne, Bursa",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18840723",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 493.0,
+              "max_value": 493.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          },
+          {
+            "provider": "Biletinial",
+            "external_id": "18840754",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 493.0,
+              "max_value": 493.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      },
+      {
+        "start_at_utc": "2026-12-12T09:00:00Z",
+        "local_date": "2026-12-12",
+        "local_time": "12:00",
+        "local_end_time": null,
+        "timezone": "Europe/Istanbul",
+        "venue_name": "Sahne Dragos",
+        "district": null,
+        "sources": [
+          {
+            "provider": "Biletinial",
+            "external_id": "18854465",
+            "title": "Rüyalar Sandığı",
+            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
+            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
+            "deep_link_url": null,
+            "price": {
+              "min_value": 603.0,
+              "max_value": 603.0,
+              "text": null,
+              "currency": "TRY",
+              "is_free": false,
+              "is_unknown": false,
+              "resolution": {
+                "strategy": "provider",
+                "confidence": 1.0,
+                "legal_mode": "unknown",
+                "source": "Biletinial",
+                "is_authoritative": true,
+                "is_derived": false,
+                "requires_terms_review": false,
+                "note": null
+              }
+            },
+            "ticket_status": "on_sale",
+            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
+            "sales_start_at": null,
+            "brand_name": "Biletinial",
+            "is_official_seller": true
+          }
+        ]
+      }
+    ],
+    "attraction_id": null,
+    "attraction_upcoming_count": null,
+    "performer_name": null,
+    "organizer_name": "Biletinial",
+    "source": "Biletinial",
+    "provider": "Biletinial",
+    "providers": [
+      "Biletinial"
+    ],
+    "provider_tags": [
+      "Biletinial"
+    ],
+    "provider_label": "Biletinial",
+    "source_urls": [
+      "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi"
+    ],
+    "external_id": "18709318",
+    "category": "kids",
+    "address": null,
+    "venue": "Beylikdüzü Atatürk Kültür ve Sanat Merkezi",
+    "link": null,
+    "source_url": null,
+    "ticket_info": null,
+    "ticket_url": null,
+    "thumbnail_url": null,
+    "latitude": null,
+    "longitude": null,
+    "fetched_at": null
+  },
+  {
     "title": "Bir Delinin Hatıra Defteri",
     "description": "Tiyatro Oyunu 1830lu yıllarda Rusya'da geçen oyun, şizofren hastası ufak dereceli bir memurun hayatını anlatıyor. Yaşadığı olaylarla başedemeyen Poprişçin yavaş yavaş delirmeye başlar. Köpeklerin konuştuğuna, mektuplaştığına, casusluk çeteleri kurduğuna inanır.",
     "type": "theatre",
@@ -295955,231 +295951,6 @@
     "category": "theatre",
     "address": null,
     "venue": "Coffee Up Bahçelievler",
-    "link": null,
-    "source_url": null,
-    "ticket_info": null,
-    "ticket_url": null,
-    "thumbnail_url": null,
-    "latitude": null,
-    "longitude": null,
-    "fetched_at": null
-  },
-  {
-    "title": "Rüyalar Sandığı",
-    "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-    "type": "kids",
-    "city_name": "İstanbul",
-    "image_url": "https://b6s54eznn8xq.merlincdn.net/Uploads/ImageEntries/Event/53891/Reklam-46a3e1baad2c4bd39a858199a4d57fed.jpg",
-    "occurrences": [
-      {
-        "start_at_utc": "2026-12-06T10:00:00Z",
-        "local_date": "2026-12-06",
-        "local_time": "13:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Caddebostan Kültür Merkezi",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18807290",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 658.0,
-              "max_value": 658.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18807291",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 658.0,
-              "max_value": 658.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-12-13T10:00:00Z",
-        "local_date": "2026-12-13",
-        "local_time": "13:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "BAOB Sahne, Bursa",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18840723",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 493.0,
-              "max_value": 493.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          },
-          {
-            "provider": "Biletinial",
-            "external_id": "18840754",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 493.0,
-              "max_value": 493.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      },
-      {
-        "start_at_utc": "2026-12-12T09:00:00Z",
-        "local_date": "2026-12-12",
-        "local_time": "12:00",
-        "local_end_time": null,
-        "timezone": "Europe/Istanbul",
-        "venue_name": "Sahne Dragos",
-        "district": null,
-        "sources": [
-          {
-            "provider": "Biletinial",
-            "external_id": "18854465",
-            "title": "Rüyalar Sandığı",
-            "description": "Tiyatro Oyunu Rüya dünyasında geçen büyüleyici bir hikâye! Arya, kötüleşen rüyalarının sebebini öğrenmek ve bunları düzeltmek için sihirli bir sandığın içine girerek heyecan dolu bir maceraya atılır. Rüya diyarında; Dahi, Görünmez, Kral, Dondurmacı ve Işıltı gibi fantastik karakterlerle tanışır ve kendi duygusal yolculuğunu keşfeder. Bu eğlenceli ve öğretici oyunda Arya, gerçek dünyadaki arkadaşlık sorunlarının rüyalarına olan etkisini fark eder. Sandığın içindeki fantastik yolculuk, cesaret, dostluk ve duygularını ifade edebilmenin önemini çocuklara renkli ve etkileyici bir şekilde anlatıyor. Bu oyun bir aile etkinliğidir! Çocukların hayal gücünü besleyen renkli ve büyülü bir dünya sunarken, yetişkinlerin de keyif alabileceği ince mizah unsurları içeriyor. Çocuklar kendilerine hitap eden hikayeyle büyülenirken, ebeveynler de oyun boyunca sıkılmadan eğlencenin bir parçası olabiliyor. Çocuk psikoloğu onaylıdır.",
-            "source_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi",
-            "deep_link_url": null,
-            "price": {
-              "min_value": 603.0,
-              "max_value": 603.0,
-              "text": null,
-              "currency": "TRY",
-              "is_free": false,
-              "is_unknown": false,
-              "resolution": {
-                "strategy": "provider",
-                "confidence": 1.0,
-                "legal_mode": "unknown",
-                "source": "Biletinial",
-                "is_authoritative": true,
-                "is_derived": false,
-                "requires_terms_review": false,
-                "note": null
-              }
-            },
-            "ticket_status": "on_sale",
-            "ticket_url": "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi?utm_source=affiliate&utm_medium=affiliate-partner&utm_campaign=buy-ticket&utm_content=lokalize&a_aid=lokalize",
-            "sales_start_at": null,
-            "brand_name": "Biletinial",
-            "is_official_seller": true
-          }
-        ]
-      }
-    ],
-    "attraction_id": null,
-    "attraction_upcoming_count": null,
-    "performer_name": null,
-    "organizer_name": "Biletinial",
-    "source": "Biletinial",
-    "provider": "Biletinial",
-    "providers": [
-      "Biletinial"
-    ],
-    "provider_tags": [
-      "Biletinial"
-    ],
-    "provider_label": "Biletinial",
-    "source_urls": [
-      "https://biletinial.com/tr-tr/tiyatro/ruyalar-sandigi"
-    ],
-    "external_id": "18807290",
-    "category": "kids",
-    "address": null,
-    "venue": "Caddebostan Kültür Merkezi",
     "link": null,
     "source_url": null,
     "ticket_info": null,
